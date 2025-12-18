@@ -28,12 +28,12 @@ __pycache__/
 *$py.class
 *.so
 
-# Distribution
+# Distribution (Python specific - NOT frontend/lib)
 *.egg-info/
 build/
 develop-eggs/
 eggs/
-lib/
+backend/lib/
 lib64/
 sdist/
 wheels/
