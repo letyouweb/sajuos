@@ -1,5 +1,5 @@
-// API 통신 함수 - Next.js API Route 프록시 사용
-// 브라우저는 자기 도메인(/api/saju/...)만 호출 → CORS 문제 없음
+// API 통신 함수 - Railway 백엔드 직접 호출
+// CORS 설정 필수: Railway에서 sajuqueen.com 허용해야 함
 
 import type {
   CalculateRequest,
@@ -9,14 +9,17 @@ import type {
   HourOption,
 } from '@/types';
 
+// 백엔드 URL (Railway)
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+
 /**
  * 사주 계산 API
- * POST /api/saju/calculate → 백엔드 /api/v1/calculate 프록시
+ * POST ${API_BASE_URL}/api/v1/calculate
  */
 export async function calculateSaju(
   data: CalculateRequest
 ): Promise<CalculateResponse> {
-  const response = await fetch('/api/saju/calculate', {
+  const response = await fetch(`${API_BASE_URL}/api/v1/calculate`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -26,7 +29,7 @@ export async function calculateSaju(
 
   if (!response.ok) {
     const errorData = await response.json().catch(() => ({}));
-    throw new Error(errorData.message || '사주 계산에 실패했습니다.');
+    throw new Error(errorData.message || errorData.detail?.message || '사주 계산에 실패했습니다.');
   }
 
   const result = await response.json();
@@ -41,12 +44,12 @@ export async function calculateSaju(
 
 /**
  * 사주 해석 API
- * POST /api/saju/interpret → 백엔드 /api/v1/interpret 프록시
+ * POST ${API_BASE_URL}/api/v1/interpret
  */
 export async function interpretSaju(
   data: InterpretRequest
 ): Promise<InterpretResponse> {
-  const response = await fetch('/api/saju/interpret', {
+  const response = await fetch(`${API_BASE_URL}/api/v1/interpret`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -56,7 +59,7 @@ export async function interpretSaju(
 
   if (!response.ok) {
     const errorData = await response.json().catch(() => ({}));
-    throw new Error(errorData.message || '사주 해석에 실패했습니다.');
+    throw new Error(errorData.message || errorData.detail?.message || '사주 해석에 실패했습니다.');
   }
 
   return response.json();
@@ -64,10 +67,10 @@ export async function interpretSaju(
 
 /**
  * 시간대 옵션 조회
- * GET /api/saju/hour-options → 백엔드 /api/v1/calculate/hour-options 프록시
+ * GET ${API_BASE_URL}/api/v1/calculate/hour-options
  */
 export async function getHourOptions(): Promise<HourOption[]> {
-  const response = await fetch('/api/saju/hour-options');
+  const response = await fetch(`${API_BASE_URL}/api/v1/calculate/hour-options`);
   
   if (!response.ok) {
     throw new Error('시간대 옵션을 불러오지 못했습니다.');
@@ -82,7 +85,6 @@ export async function getHourOptions(): Promise<HourOption[]> {
 export async function getConcernTypes(): Promise<{
   concern_types: Array<{ value: string; label: string; emoji: string }>;
 }> {
-  // 로컬에서 직접 반환 (백엔드 호출 불필요)
   return {
     concern_types: [
       { value: 'love', label: '연애/결혼', emoji: '💕' },
@@ -97,9 +99,9 @@ export async function getConcernTypes(): Promise<{
 
 /**
  * 헬스체크
- * GET /api/health → 백엔드 /health 프록시
+ * GET ${API_BASE_URL}/health
  */
 export async function healthCheck(): Promise<{ status: string }> {
-  const response = await fetch('/api/health');
+  const response = await fetch(`${API_BASE_URL}/health`);
   return response.json();
 }

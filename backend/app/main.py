@@ -30,6 +30,9 @@ async def lifespan(app: FastAPI):
     if not settings.kasi_api_key:
         logger.warning("⚠️ KASI_API_KEY가 설정되지 않았습니다. Fallback 모드로 동작합니다.")
     
+    # CORS 설정 로깅
+    logger.info(f"✅ CORS 허용 도메인: {settings.allowed_origins_list}")
+    
     yield
     
     # 종료 시
@@ -55,13 +58,13 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# CORS 설정
+# CORS 설정 - sajuqueen.com에서 직접 호출 허용
 settings = get_settings()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.allowed_origins_list,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
@@ -78,6 +81,7 @@ async def root():
         "service": "사주 AI 서비스",
         "status": "running",
         "version": "1.0.0",
+        "cors_origins": settings.allowed_origins_list,
         "endpoints": {
             "calculate": "/api/v1/calculate",
             "interpret": "/api/v1/interpret",

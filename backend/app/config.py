@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     # Server
     host: str = "0.0.0.0"
     port: int = 8000
-    debug: bool = True
+    debug: bool = False  # 프로덕션에서는 False
     
     # Token Limits (비용 통제)
     max_output_tokens: int = 1200
@@ -27,8 +27,8 @@ class Settings(BaseSettings):
     cache_ttl_seconds: int = 86400  # 24시간
     cache_max_size: int = 10000
     
-    # CORS
-    allowed_origins: str = "http://localhost:3000"
+    # CORS - 프로덕션 도메인 포함
+    allowed_origins: str = "http://localhost:3000,https://sajuqueen.com,https://www.sajuqueen.com"
     
     @property
     def allowed_origins_list(self) -> List[str]:
