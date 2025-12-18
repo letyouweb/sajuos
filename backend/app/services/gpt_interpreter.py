@@ -26,15 +26,19 @@ logger = logging.getLogger(__name__)
 class GptInterpreter:
     """
     GPT 기반 사주 해석 엔진
-    
-    설계 원칙:
-    1. 토큰 비용 통제 (max_tokens 설정)
-    2. 구조화된 JSON 응답
-    3. 고민 유형별 최소 필요 룰만 주입
     """
     
     def __init__(self):
         self.settings = get_settings()
+        
+        # API 키 검증
+        if not self.settings.openai_api_key:
+            logger.error("❌ OPENAI_API_KEY가 설정되지 않았습니다!")
+        else:
+            # 키 일부만 로깅 (보안)
+            key_preview = self.settings.openai_api_key[:8] + "..." if len(self.settings.openai_api_key) > 8 else "???"
+            logger.info(f"✅ OpenAI API Key loaded: {key_preview}")
+        
         self.client = AsyncOpenAI(api_key=self.settings.openai_api_key)
         self.model = self.settings.openai_model
         self.max_output_tokens = self.settings.max_output_tokens
@@ -49,19 +53,14 @@ class GptInterpreter:
     ) -> InterpretResponse:
         """
         사주 해석 실행
-        
-        Args:
-            saju_data: /calculate 결과 또는 직접 입력된 사주
-            name: 사용자 이름
-            gender: 성별
-            concern_type: 고민 유형
-            question: 구체적 질문
-        
-        Returns:
-            InterpretResponse
         """
         
-        # 1. 시스템 프롬프트 구성 (고민 유형별 룰 선택)
+        # API 키 검증
+        if not self.settings.openai_api_key:
+            logger.error("❌ OPENAI_API_KEY가 비어있음 - fallback 반환")
+            return self._create_fallback_response(name, "API 키가 설정되지 않았습니다.")
+        
+        # 1. 시스템 프롬프트 구성
         system_prompt = get_full_system_prompt(concern_type)
         
         # 2. 사용자 프롬프트 구성
@@ -71,6 +70,8 @@ class GptInterpreter:
         
         # 3. GPT API 호출
         try:
+            logger.info(f"🚀 GPT 호출 시작: model={self.model}, name={name}")
+            
             response = await self.client.chat.completions.create(
                 model=self.model,
                 messages=[
@@ -81,6 +82,8 @@ class GptInterpreter:
                 temperature=0.7,
                 response_format={"type": "json_object"}
             )
+            
+            logger.info(f"✅ GPT 응답 성공")
             
             # 4. 응답 파싱
             content = response.choices[0].message.content
@@ -93,11 +96,21 @@ class GptInterpreter:
             return InterpretResponse(**result)
             
         except json.JSONDecodeError as e:
-            logger.error(f"JSON parsing error: {e}")
-            return self._create_fallback_response(name)
+            logger.error(f"❌ JSON 파싱 오류: {e}")
+            return self._create_fallback_response(name, f"응답 파싱 오류: {e}")
         except Exception as e:
-            logger.error(f"GPT API error: {e}")
-            return self._create_fallback_response(name)
+            error_msg = str(e)
+            logger.error(f"❌ GPT API 오류: {error_msg}")
+            
+            # 상세 에러 분류
+            if "api_key" in error_msg.lower() or "authentication" in error_msg.lower():
+                logger.error("💡 API 키 인증 실패 - Railway 환경변수 확인 필요")
+            elif "rate_limit" in error_msg.lower():
+                logger.error("💡 Rate limit 초과")
+            elif "timeout" in error_msg.lower():
+                logger.error("💡 타임아웃 발생")
+            
+            return self._create_fallback_response(name, error_msg)
     
     def _build_user_prompt(
         self,
@@ -109,13 +122,11 @@ class GptInterpreter:
     ) -> str:
         """사용자 프롬프트 구성"""
         
-        # 사주 정보 추출
         year_pillar = saju_data.get("year_pillar", saju_data.get("year", ""))
         month_pillar = saju_data.get("month_pillar", saju_data.get("month", ""))
         day_pillar = saju_data.get("day_pillar", saju_data.get("day", ""))
         hour_pillar = saju_data.get("hour_pillar", saju_data.get("hour", "없음"))
         
-        # Pillar 객체인 경우 ganji 추출
         if isinstance(year_pillar, dict):
             year_pillar = year_pillar.get("ganji", str(year_pillar))
         if isinstance(month_pillar, dict):
@@ -166,7 +177,6 @@ class GptInterpreter:
         try:
             data = json.loads(content)
             
-            # 필수 필드 검증 및 기본값 설정
             return {
                 "success": True,
                 "summary": data.get("summary", "사주 분석이 완료되었습니다."),
@@ -182,7 +192,6 @@ class GptInterpreter:
                 "disclaimer": "본 해석은 오락/참고 목적으로 제공되며, 의학/법률/투자 등 전문적 조언을 대체하지 않습니다."
             }
         except json.JSONDecodeError:
-            # JSON 파싱 실패시 텍스트 응답 처리
             return {
                 "success": True,
                 "summary": "사주 분석이 완료되었습니다.",
@@ -198,15 +207,17 @@ class GptInterpreter:
                 "disclaimer": "본 해석은 오락/참고 목적으로 제공되며, 의학/법률/투자 등 전문적 조언을 대체하지 않습니다."
             }
     
-    def _create_fallback_response(self, name: str) -> InterpretResponse:
-        """오류 시 기본 응답"""
+    def _create_fallback_response(self, name: str, error_detail: str = "") -> InterpretResponse:
+        """오류 시 기본 응답 (에러 원인 포함)"""
+        logger.warning(f"⚠️ Fallback 응답 생성: {error_detail}")
+        
         return InterpretResponse(
             success=False,
             summary="일시적인 오류가 발생했습니다.",
             day_master_analysis="잠시 후 다시 시도해주세요.",
             strengths=["서비스 복구 중입니다."],
             risks=["일시적 오류"],
-            answer="해석 서비스에 일시적인 문제가 발생했습니다. 잠시 후 다시 시도해주세요.",
+            answer=f"해석 서비스에 일시적인 문제가 발생했습니다. 잠시 후 다시 시도해주세요.",
             action_plan=["잠시 후 다시 시도해주세요."],
             lucky_periods=[],
             caution_periods=[],
@@ -218,16 +229,10 @@ class GptInterpreter:
         )
     
     def estimate_cost(self, input_tokens: int, output_tokens: int) -> dict:
-        """
-        비용 추정 (GPT-4o-mini 기준)
-        - Input: $0.15 / 1M tokens
-        - Output: $0.60 / 1M tokens
-        """
+        """비용 추정"""
         input_cost_usd = (input_tokens / 1_000_000) * 0.15
         output_cost_usd = (output_tokens / 1_000_000) * 0.60
         total_usd = input_cost_usd + output_cost_usd
-        
-        # 원화 환산 (대략 1 USD = 1400 KRW)
         total_krw = total_usd * 1400
         
         return {
@@ -235,7 +240,7 @@ class GptInterpreter:
             "output_tokens": output_tokens,
             "cost_usd": round(total_usd, 6),
             "cost_krw": round(total_krw, 2),
-            "note": "GPT-4o-mini 기준, 실제 비용은 다를 수 있음"
+            "note": "GPT-4o-mini 기준"
         }
 
 
