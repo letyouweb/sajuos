@@ -246,7 +246,6 @@ async def get_concern_types():
 async def test_gpt_connection():
     """GPT API 테스트 (디버깅용)"""
     from app.config import get_settings
-    from openai import AsyncOpenAI
     import httpx
     import traceback
     
@@ -272,31 +271,40 @@ async def test_gpt_connection():
         result["openai_reachable"] = False
         result["ping_error"] = str(e)
     
-    # 2단계: 실제 API 호출 테스트
+    # 2단계: 직접 HTTP POST로 OpenAI API 호출 (SDK 우회)
     try:
-        client = AsyncOpenAI(
-            api_key=settings.openai_api_key,
-            timeout=httpx.Timeout(30.0, connect=10.0),
-            max_retries=1
-        )
-        
-        # 간단한 테스트 요청
-        response = await client.chat.completions.create(
-            model=settings.openai_model,
-            messages=[
-                {"role": "user", "content": "Say 'Hello' in Korean"}
-            ],
-            max_tokens=20
-        )
-        
-        result["success"] = True
-        result["response"] = response.choices[0].message.content
-        result["tokens_used"] = response.usage.total_tokens if response.usage else None
-        
+        async with httpx.AsyncClient(timeout=60.0) as client:
+            headers = {
+                "Authorization": f"Bearer {settings.openai_api_key}",
+                "Content-Type": "application/json"
+            }
+            payload = {
+                "model": settings.openai_model,
+                "messages": [{"role": "user", "content": "Say hello"}],
+                "max_tokens": 10
+            }
+            
+            resp = await client.post(
+                "https://api.openai.com/v1/chat/completions",
+                headers=headers,
+                json=payload
+            )
+            
+            result["http_status"] = resp.status_code
+            
+            if resp.status_code == 200:
+                data = resp.json()
+                result["success"] = True
+                result["response"] = data["choices"][0]["message"]["content"]
+                result["model_used"] = data.get("model", "unknown")
+            else:
+                result["success"] = False
+                result["error_response"] = resp.text[:500]
+                
     except Exception as e:
         result["success"] = False
-        result["error"] = str(e)
+        result["http_error"] = str(e)
         result["error_type"] = type(e).__name__
-        result["traceback"] = traceback.format_exc()[-500:]  # 마지막 500자
+        result["traceback"] = traceback.format_exc()[-500:]
     
     return result
