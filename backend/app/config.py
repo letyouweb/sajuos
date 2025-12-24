@@ -10,7 +10,7 @@ import re
 class Settings(BaseSettings):
     # OpenAI
     openai_api_key: str = ""
-    openai_model: str = "gpt-5.2-pro"  # 최신 플래그십 모델
+    openai_model: str = "gpt-4o"  # 안정적인 최신 모델
     
     # KASI (한국천문연구원) API
     kasi_api_key: str = ""

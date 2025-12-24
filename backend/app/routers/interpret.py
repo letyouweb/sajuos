@@ -247,6 +247,8 @@ async def test_gpt_connection():
     """GPT API 테스트 (디버깅용)"""
     from app.config import get_settings
     from openai import AsyncOpenAI
+    import httpx
+    import traceback
     
     settings = get_settings()
     
@@ -260,6 +262,17 @@ async def test_gpt_connection():
         result["error"] = "OPENAI_API_KEY 환경변수가 설정되지 않았습니다."
         return result
     
+    # 1단계: OpenAI API 서버 연결 테스트
+    try:
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            ping_resp = await client.get("https://api.openai.com/v1/models")
+            result["openai_reachable"] = ping_resp.status_code in [200, 401]
+            result["ping_status"] = ping_resp.status_code
+    except Exception as e:
+        result["openai_reachable"] = False
+        result["ping_error"] = str(e)
+    
+    # 2단계: 실제 API 호출 테스트
     try:
         client = AsyncOpenAI(api_key=settings.openai_api_key)
         
@@ -280,5 +293,6 @@ async def test_gpt_connection():
         result["success"] = False
         result["error"] = str(e)
         result["error_type"] = type(e).__name__
+        result["traceback"] = traceback.format_exc()[-500:]  # 마지막 500자
     
     return result
