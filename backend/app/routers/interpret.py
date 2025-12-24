@@ -236,3 +236,49 @@ async def get_concern_types():
             {"value": "general", "label": "종합운세", "emoji": "🔮"}
         ]
     }
+
+
+@router.get(
+    "/interpret/gpt-test",
+    summary="GPT API 직접 테스트",
+    description="OpenAI API 연결 상태를 직접 테스트합니다."
+)
+async def test_gpt_connection():
+    """GPT API 테스트 (디버깅용)"""
+    from app.config import get_settings
+    from openai import AsyncOpenAI
+    
+    settings = get_settings()
+    
+    result = {
+        "api_key_set": bool(settings.openai_api_key),
+        "api_key_preview": settings.openai_api_key[:12] + "..." if settings.openai_api_key else "NOT_SET",
+        "model": settings.openai_model,
+    }
+    
+    if not settings.openai_api_key:
+        result["error"] = "OPENAI_API_KEY 환경변수가 설정되지 않았습니다."
+        return result
+    
+    try:
+        client = AsyncOpenAI(api_key=settings.openai_api_key)
+        
+        # 간단한 테스트 요청
+        response = await client.chat.completions.create(
+            model=settings.openai_model,
+            messages=[
+                {"role": "user", "content": "Say 'Hello' in Korean"}
+            ],
+            max_tokens=20
+        )
+        
+        result["success"] = True
+        result["response"] = response.choices[0].message.content
+        result["tokens_used"] = response.usage.total_tokens if response.usage else None
+        
+    except Exception as e:
+        result["success"] = False
+        result["error"] = str(e)
+        result["error_type"] = type(e).__name__
+    
+    return result
