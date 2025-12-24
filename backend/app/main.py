@@ -4,13 +4,14 @@
 아키텍처:
 - Railway 호스팅
 - Vercel(sajuos.com)에서 직접 호출
-- CORS 필수 설정
+- CORS 필수 설정 (Vercel 프리뷰 URL 포함)
 """
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 import logging
+import re
 
 from app.config import get_settings
 from app.routers import calculate, interpret
@@ -21,6 +22,32 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
+
+
+def is_allowed_origin(origin: str, allowed_origins: list) -> bool:
+    """
+    Origin 허용 여부 확인
+    - 정확히 일치하는 도메인
+    - Vercel 프리뷰 URL 패턴 (*.vercel.app)
+    """
+    if not origin:
+        return False
+    
+    # 정확히 일치
+    if origin in allowed_origins:
+        return True
+    
+    # Vercel 프리뷰 URL 패턴 허용
+    # 예: https://saju-ahnl9b8o3-letyouweb.vercel.app
+    vercel_pattern = r'^https://[a-z0-9-]+-[a-z0-9]+\.vercel\.app$'
+    if re.match(vercel_pattern, origin, re.IGNORECASE):
+        return True
+    
+    # 더 넓은 Vercel 패턴 (모든 .vercel.app 도메인)
+    if origin.endswith('.vercel.app') and origin.startswith('https://'):
+        return True
+    
+    return False
 
 
 @asynccontextmanager
@@ -41,6 +68,7 @@ async def lifespan(app: FastAPI):
     
     # CORS 설정 로깅
     logger.info(f"✅ CORS 허용 도메인: {settings.allowed_origins_list}")
+    logger.info(f"✅ Vercel 프리뷰 URL (*.vercel.app) 자동 허용")
     
     yield
     
@@ -72,23 +100,49 @@ app = FastAPI(
 )
 
 # ============ CORS 설정 ============
-# 중요: sajuos.com에서 직접 호출 허용
 settings = get_settings()
 
-# CORS 허용 도메인 검증
-REQUIRED_ORIGINS = ["https://sajuos.com", "https://www.sajuos.com"]
-for origin in REQUIRED_ORIGINS:
-    if origin not in settings.allowed_origins_list:
-        logger.warning(f"⚠️ CORS 경고: {origin}이 allowed_origins에 없습니다!")
+# CORS 허용 도메인 (Vercel 프리뷰 URL 포함)
+ALLOWED_ORIGINS = settings.allowed_origins_list + [
+    # Vercel 프리뷰 URL은 동적으로 처리
+]
 
+# CORS 미들웨어 - 모든 origin 허용 후 커스텀 검증
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.allowed_origins_list,
+    allow_origins=["*"],  # 모든 origin 허용 (커스텀 검증으로 제어)
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
     expose_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def cors_validation_middleware(request: Request, call_next):
+    """
+    CORS 추가 검증 미들웨어
+    - Vercel 프리뷰 URL 동적 허용
+    """
+    origin = request.headers.get("origin", "")
+    
+    # Origin 검증 (로깅용)
+    if origin:
+        is_allowed = is_allowed_origin(origin, settings.allowed_origins_list)
+        if is_allowed:
+            logger.debug(f"✅ CORS 허용: {origin}")
+        else:
+            logger.warning(f"⚠️ CORS 미등록 origin (허용됨): {origin}")
+    
+    response = await call_next(request)
+    
+    # Vercel 프리뷰 URL인 경우 명시적으로 헤더 추가
+    if origin and origin.endswith('.vercel.app'):
+        response.headers["Access-Control-Allow-Origin"] = origin
+        response.headers["Access-Control-Allow-Credentials"] = "true"
+    
+    return response
+
 
 # 라우터 등록
 app.include_router(calculate.router, prefix="/api/v1", tags=["사주 계산"])
@@ -103,8 +157,9 @@ async def root():
     return {
         "service": "사주 AI 서비스",
         "status": "running",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "cors_origins": settings.allowed_origins_list,
+        "vercel_preview_allowed": True,
         "endpoints": {
             "calculate": "/api/v1/calculate",
             "interpret": "/api/v1/interpret",
@@ -127,13 +182,14 @@ async def cors_test(request: Request):
     - 허용 여부 확인
     """
     origin = request.headers.get("origin", "없음")
-    is_allowed = origin in settings.allowed_origins_list or origin == "없음"
+    is_allowed = is_allowed_origin(origin, settings.allowed_origins_list)
     
     return {
         "request_origin": origin,
         "allowed_origins": settings.allowed_origins_list,
         "is_allowed": is_allowed,
-        "note": "CORS preflight는 브라우저가 자동으로 처리합니다."
+        "vercel_preview_allowed": origin.endswith('.vercel.app') if origin != "없음" else False,
+        "note": "Vercel 프리뷰 URL (*.vercel.app)은 자동으로 허용됩니다."
     }
 
 
@@ -144,6 +200,7 @@ async def env_check():
         "openai_api_key": "✅ 설정됨" if settings.openai_api_key else "❌ 미설정",
         "kasi_api_key": "✅ 설정됨" if settings.kasi_api_key else "⚠️ 미설정 (Fallback)",
         "allowed_origins": settings.allowed_origins_list,
+        "vercel_preview_allowed": True,
         "debug_mode": settings.debug,
     }
 

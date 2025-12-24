@@ -4,6 +4,7 @@
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 from typing import List
+import re
 
 
 class Settings(BaseSettings):
@@ -28,11 +29,13 @@ class Settings(BaseSettings):
     cache_max_size: int = 10000
     
     # CORS - 프로덕션 도메인 포함
+    # Vercel 프리뷰 URL도 허용하려면 환경변수에 추가
     allowed_origins: str = "http://localhost:3000,https://sajuos.com,https://www.sajuos.com"
     
     @property
     def allowed_origins_list(self) -> List[str]:
-        return [origin.strip() for origin in self.allowed_origins.split(",")]
+        origins = [origin.strip() for origin in self.allowed_origins.split(",")]
+        return origins
     
     class Config:
         env_file = ".env"
