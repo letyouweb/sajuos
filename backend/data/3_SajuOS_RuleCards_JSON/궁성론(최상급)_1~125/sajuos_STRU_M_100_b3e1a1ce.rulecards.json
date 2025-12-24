@@ -1,0 +1,456 @@
+{
+  "title": "SajuOS_Logic_STRU_M_100",
+  "rulecards": [
+    {
+      "id": "RC-b9ed7366ef",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "element": "신금"
+      },
+      "mechanism": "묘월의 신금은 재와 관의 상호작용에서 복잡한 에너지를 형성.",
+      "interpretation": "재와 관의 분산된 에너지를 통합하는 것이 중요.",
+      "action": "병화를 활용하여 에너지를 결집시키는 방향으로 조정.",
+      "cautions": [
+        "재와 관의 분산으로 인해 혼란이 발생할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "신금",
+        "재",
+        "관",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-67a939fe28",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "element": "신금",
+        "job_type": "정밀작업"
+      },
+      "mechanism": "묘월의 신금은 세밀함과 디테일을 요구하는 작업에 강점.",
+      "interpretation": "정밀한 수리나 의술 분야에서 탁월한 능력을 발휘.",
+      "action": "정밀한 기술이 필요한 직업군을 선택.",
+      "cautions": [
+        "자신감 과잉으로 인해 타인과 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "신금",
+        "정밀작업",
+        "의술",
+        "수리"
+      ]
+    },
+    {
+      "id": "RC-3afc63e855",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "element": "임수",
+        "relation": "상관"
+      },
+      "mechanism": "묘월의 임수는 상관의 에너지가 강하게 작용.",
+      "interpretation": "상관의 에너지가 사회적 저항력과 창의성을 나타냄.",
+      "action": "상관의 에너지를 긍정적으로 활용하여 사회적 변화를 추구.",
+      "cautions": [
+        "상관의 과잉으로 인해 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "임수",
+        "상관",
+        "창의성",
+        "저항력"
+      ]
+    },
+    {
+      "id": "RC-aaff6094ee",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "month": "묘월",
+        "element": "임수",
+        "field": "정치/감독"
+      },
+      "mechanism": "묘월의 임수는 상관의 에너지가 관을 감독하는 역할로 연결.",
+      "interpretation": "정치적 능력과 감독 역할에 적합.",
+      "action": "감독, 감사, 정책 제안 등의 직업군을 고려.",
+      "cautions": [
+        "상관의 에너지가 과도하면 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "임수",
+        "정치",
+        "감독",
+        "상관"
+      ]
+    },
+    {
+      "id": "RC-10567940a8",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "element": "병화",
+        "relation": "재성"
+      },
+      "mechanism": "병화가 재성을 활성화하여 재물 운을 강화.",
+      "interpretation": "재물의 흐름을 원활히 하고 사업적 성공 가능성을 높임.",
+      "action": "병화를 활용하여 재물 운을 극대화.",
+      "cautions": [
+        "재물의 분산으로 인해 손실이 발생할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "병화",
+        "재성",
+        "재물운",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-d6fd34deab",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "element": "병화",
+        "relation": "상관"
+      },
+      "mechanism": "병화가 상관의 에너지를 활성화하여 사회적 변화에 민감.",
+      "interpretation": "트렌드에 민감하고 변화에 빠르게 적응.",
+      "action": "유행을 파악하고 사업 기회를 활용.",
+      "cautions": [
+        "변화에 지나치게 민감하면 안정성을 잃을 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "병화",
+        "상관",
+        "트렌드",
+        "적응력"
+      ]
+    },
+    {
+      "id": "RC-fcbe4ed766",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "element": "임수",
+        "relation": "진상관"
+      },
+      "mechanism": "묘월의 임수는 진상관 구조로 타인을 위한 삶을 지향.",
+      "interpretation": "희생과 봉사 정신이 강하며 약자를 돕는 구조.",
+      "action": "복지나 봉사 관련 직업을 고려.",
+      "cautions": [
+        "자신을 희생하는 데 지나치게 몰두하지 않도록 주의."
+      ],
+      "tags": [
+        "묘월",
+        "임수",
+        "진상관",
+        "봉사",
+        "희생"
+      ]
+    },
+    {
+      "id": "RC-a8e6be4b23",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "element": "금",
+        "relation": "상관경관"
+      },
+      "mechanism": "금이 상관경관의 지속성을 지원.",
+      "interpretation": "비판적 사고와 정책 제안 능력이 강화.",
+      "action": "감사, 감독, 기자 등 비판적 직업군을 선택.",
+      "cautions": [
+        "금이 부족하면 지속성이 약해질 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "금",
+        "상관경관",
+        "비판",
+        "정책"
+      ]
+    },
+    {
+      "id": "RC-1fc563187a",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "묘월의 상관과 재성의 상호작용"
+      },
+      "mechanism": "상관이 재성을 통해 사회적 역할을 수행.",
+      "interpretation": "사회적 요구에 민감하며 창의적 해결책을 제시.",
+      "action": "상관의 에너지를 활용하여 사회적 기여를 확대.",
+      "cautions": [
+        "상관의 에너지가 과도하면 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "상관",
+        "재성",
+        "사회적 역할",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-c3691a4cdf",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "element": "병화",
+        "relation": "목생화"
+      },
+      "mechanism": "목생화가 병화를 통해 에너지를 결집.",
+      "interpretation": "병화가 중심이 되어 구조를 안정화.",
+      "action": "병화를 활용하여 에너지의 흐름을 조정.",
+      "cautions": [
+        "병화가 약하면 에너지 결집이 어려울 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "병화",
+        "목생화",
+        "에너지",
+        "안정화"
+      ]
+    },
+    {
+      "id": "RC-41550cd118",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "좌우충"
+      },
+      "mechanism": "좌우충은 흥분을 유발하는 관계로 작용함.",
+      "interpretation": "좌우충이 발생하면 감정적으로 흥분하거나 안정감을 잃을 가능성이 높음.",
+      "action": "좌우충이 발생하는 시기에는 감정을 조절하고 신중하게 행동할 것.",
+      "cautions": [
+        "흥분으로 인해 실수를 저지를 가능성 있음."
+      ],
+      "tags": [
+        "좌우충",
+        "흥분",
+        "감정조절",
+        "관계",
+        "주의"
+      ]
+    },
+    {
+      "id": "RC-5fcdff6c34",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "note": "재극인 구조가 있는 경우"
+      },
+      "mechanism": "재극인은 금융업과 관련된 직업에 적합함.",
+      "interpretation": "재극인이 있으면 금융업이나 보험업에서 성공 가능성이 있음.",
+      "action": "재극인이 강한 경우 금융 관련 직업을 고려할 것.",
+      "cautions": [
+        "재극인이 약하면 영업 중심으로만 활동해야 함."
+      ],
+      "tags": [
+        "재극인",
+        "금융업",
+        "보험업",
+        "직업",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-ac8050fb52",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "무토",
+        "exists": true
+      },
+      "mechanism": "무토는 상관과 평관을 양성화하여 직업적 안정성을 제공함.",
+      "interpretation": "무토가 있으면 상관경관이 직업으로 활용될 가능성이 높음.",
+      "action": "무토가 있는 경우 상관경관을 활용한 직업을 탐색할 것.",
+      "cautions": [
+        "무토가 없으면 직업적 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "상관경관",
+        "직업",
+        "안정성",
+        "양성화"
+      ]
+    },
+    {
+      "id": "RC-6407747022",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "exists": true
+      },
+      "mechanism": "금은 상관을 다루어 직업의 정형화를 가능하게 함.",
+      "interpretation": "금이 있으면 직업이 전문적이고 안정적으로 발전할 가능성이 높음.",
+      "action": "금이 있는 경우 전문직이나 관리직을 고려할 것.",
+      "cautions": [
+        "금이 없으면 직업의 지속성이 보장되지 않을 수 있음."
+      ],
+      "tags": [
+        "금",
+        "상관",
+        "직업",
+        "정형화",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-856e2fd06e",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "day_pillar": "임진",
+        "partner_element": "미토"
+      },
+      "mechanism": "미토는 임진일주의 자수를 흔들어 흥분을 유발함.",
+      "interpretation": "배우자와의 관계에서 평정심을 잃고 감정적으로 흔들릴 가능성이 있음.",
+      "action": "배우자와의 관계에서 감정 조절과 평정심 유지에 신경 쓸 것.",
+      "cautions": [
+        "감정적 충돌로 인해 관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "임진일주",
+        "미토",
+        "배우자",
+        "평정심",
+        "감정조절"
+      ]
+    },
+    {
+      "id": "RC-9c98e9413a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "exists": true
+      },
+      "mechanism": "목은 사람을 움직이는 힘을 제공하여 조직을 이끄는 데 유리함.",
+      "interpretation": "목이 강하면 사람을 다루고 조직을 이끄는 능력이 뛰어남.",
+      "action": "목의 에너지를 활용해 리더십을 발휘할 것.",
+      "cautions": [
+        "목이 과도하면 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "리더십",
+        "조직",
+        "사람",
+        "조직운영"
+      ]
+    },
+    {
+      "id": "RC-6f5bd2b736",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "age_range": [
+          39,
+          48
+        ],
+        "pillar": "을미대운"
+      },
+      "mechanism": "을미대운은 화와 목의 조화를 통해 긍정적인 변화를 유도함.",
+      "interpretation": "을미대운은 개인의 전성기로 작용하며 성공 가능성이 높음.",
+      "action": "을미대운 시기에는 적극적으로 기회를 활용할 것.",
+      "cautions": [
+        "과도한 자신감으로 인해 실수를 저지를 수 있음."
+      ],
+      "tags": [
+        "을미대운",
+        "전성기",
+        "기회",
+        "성공",
+        "목화조화"
+      ]
+    },
+    {
+      "id": "RC-90ba184b9d",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "상관경관 구조가 있는 경우"
+      },
+      "mechanism": "상관경관은 협상과 조율 능력을 강화함.",
+      "interpretation": "상관경관이 있으면 협상과 조율이 필요한 직업에 적합함.",
+      "action": "상관경관을 활용해 협상 중심의 직업을 탐색할 것.",
+      "cautions": [
+        "상관경관이 약하면 협상 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "상관경관",
+        "협상",
+        "조율",
+        "직업",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-c881b39f83",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "day_pillar": "이모",
+        "partner_element": "화"
+      },
+      "mechanism": "이모일주는 스킨십과 애정 표현이 강한 특징을 가짐.",
+      "interpretation": "이모일주는 배우자와의 밀착된 관계를 형성함.",
+      "action": "배우자와의 관계에서 애정 표현을 적극적으로 할 것.",
+      "cautions": [
+        "과도한 애정 표현이 오해를 불러일으킬 수 있음."
+      ],
+      "tags": [
+        "이모일주",
+        "애정",
+        "스킨십",
+        "배우자",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-8fd16b9e5c",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "진토",
+        "exists": true
+      },
+      "mechanism": "진토는 수와 목을 품어 조율과 균형을 제공함.",
+      "interpretation": "진토가 있으면 조율 능력이 뛰어나며 안정적인 직업 구조를 형성함.",
+      "action": "진토의 에너지를 활용해 조율 중심의 직업을 탐색할 것.",
+      "cautions": [
+        "진토가 약하면 조율 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "조율",
+        "균형",
+        "직업",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_100",
+  "updated_at": "2025-12-23T20:27:24"
+}

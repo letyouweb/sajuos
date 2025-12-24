@@ -1,10 +1,9 @@
 /**
- * API 통신 함수 - Railway 백엔드 직접 호출
+ * Railway 백엔드 API 통신 모듈
  * 
  * 아키텍처:
  * - Vercel (프론트엔드) → Railway (백엔드) 직접 통신
- * - Vercel API Routes 사용 안 함 (보안/효율성)
- * - CORS: Railway에서 sajuos.com 허용 필수
+ * - CORS: Railway에서 sajuos.com 허용 설정됨
  */
 
 import type {
@@ -13,29 +12,21 @@ import type {
   InterpretRequest,
   InterpretResponse,
   HourOption,
+  ConcernOption,
 } from '@/types';
 
-// ============ 환경변수 검증 ============
+// ============ 환경변수 ============
 
-/**
- * API Base URL 가져오기 (타입 안전)
- */
 function getApiBaseUrl(): string {
   const url = process.env.NEXT_PUBLIC_API_URL;
   
-  // 🔍 디버깅: 환경변수 상태 로깅
-  console.log('🔍 [API] NEXT_PUBLIC_API_URL:', url || '(미설정)');
-  console.log('🔍 [API] NODE_ENV:', process.env.NODE_ENV);
-  
   if (!url) {
     if (process.env.NODE_ENV === 'development') {
-      console.warn('⚠️ NEXT_PUBLIC_API_URL 미설정, localhost:8000 사용');
+      console.warn('⚠️ NEXT_PUBLIC_API_URL 미설정 → localhost:8000 사용');
       return 'http://localhost:8000';
     }
-    
-    // 🚨 프로덕션에서 미설정 → 하드코딩 fallback
-    console.error('❌ NEXT_PUBLIC_API_URL 환경변수가 설정되지 않았습니다!');
-    console.warn('⚠️ Fallback: https://api.sajuos.com 사용');
+    // 프로덕션 fallback
+    console.error('❌ NEXT_PUBLIC_API_URL 환경변수 미설정!');
     return 'https://api.sajuos.com';
   }
   
@@ -44,30 +35,20 @@ function getApiBaseUrl(): string {
 
 const API_BASE_URL = getApiBaseUrl();
 
-// 🔍 모듈 로드 시 URL 확인
-console.log('✅ [API] Base URL 확정:', API_BASE_URL);
-
-// ============ 공통 Fetch 함수 ============
+// ============ 공통 Fetch ============
 
 interface FetchOptions {
-  method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
+  method?: 'GET' | 'POST';
   body?: unknown;
   timeout?: number;
 }
 
-/**
- * 타임아웃 지원 fetch 래퍼
- */
-async function fetchWithTimeout<T>(
+async function fetchApi<T>(
   endpoint: string,
   options: FetchOptions = {}
 ): Promise<T> {
   const { method = 'GET', body, timeout = 30000 } = options;
-  
   const fullUrl = `${API_BASE_URL}${endpoint}`;
-  
-  // 🔍 디버깅: 실제 요청 URL 로깅
-  console.log(`🚀 [API] ${method} ${fullUrl}`);
   
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -75,22 +56,15 @@ async function fetchWithTimeout<T>(
   try {
     const response = await fetch(fullUrl, {
       method,
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: body ? JSON.stringify(body) : undefined,
       signal: controller.signal,
     });
     
     clearTimeout(timeoutId);
     
-    // 🔍 디버깅: 응답 상태 로깅
-    console.log(`📥 [API] Response: ${response.status} ${response.statusText}`);
-    
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
-      console.error('❌ [API] Error response:', errorData);
-      
       const errorMessage = 
         errorData.message || 
         errorData.detail?.message || 
@@ -99,16 +73,12 @@ async function fetchWithTimeout<T>(
       throw new Error(errorMessage);
     }
     
-    const data = await response.json();
-    console.log('✅ [API] Success:', endpoint);
-    return data;
+    return await response.json();
     
   } catch (error) {
     clearTimeout(timeoutId);
     
     if (error instanceof Error) {
-      console.error(`❌ [API] Error: ${error.message}`);
-      
       if (error.name === 'AbortError') {
         throw new Error('서버 응답 시간이 초과되었습니다. 잠시 후 다시 시도해주세요.');
       }
@@ -131,16 +101,10 @@ async function fetchWithTimeout<T>(
 export async function calculateSaju(
   data: CalculateRequest
 ): Promise<CalculateResponse> {
-  const result = await fetchWithTimeout<CalculateResponse>(
+  return fetchApi<CalculateResponse>(
     '/api/v1/calculate',
     { method: 'POST', body: data, timeout: 15000 }
   );
-  
-  if (result.calculation_method === 'fallback') {
-    console.warn('⚠️ Fallback 계산 사용됨');
-  }
-  
-  return result;
 }
 
 /**
@@ -150,14 +114,13 @@ export async function calculateSaju(
 export async function interpretSaju(
   data: InterpretRequest
 ): Promise<InterpretResponse> {
-  const result = await fetchWithTimeout<InterpretResponse>(
+  const result = await fetchApi<InterpretResponse>(
     '/api/v1/interpret',
     { method: 'POST', body: data, timeout: 60000 }
   );
   
-  // fallback 응답 체크 → 에러로 전환
+  // fallback 응답 → 에러 처리
   if (result.model_used === 'fallback') {
-    console.error('❌ GPT API 호출 실패 - fallback 응답');
     throw new Error('AI 해석 서비스에 일시적인 문제가 발생했습니다. 잠시 후 다시 시도해주세요.');
   }
   
@@ -166,9 +129,10 @@ export async function interpretSaju(
 
 /**
  * 시간대 옵션 조회
+ * GET /api/v1/calculate/hour-options
  */
 export async function getHourOptions(): Promise<HourOption[]> {
-  return fetchWithTimeout<HourOption[]>(
+  return fetchApi<HourOption[]>(
     '/api/v1/calculate/hour-options',
     { timeout: 10000 }
   );
@@ -177,9 +141,7 @@ export async function getHourOptions(): Promise<HourOption[]> {
 /**
  * 고민 유형 조회 (로컬 데이터)
  */
-export function getConcernTypes(): {
-  concern_types: Array<{ value: string; label: string; emoji: string }>;
-} {
+export function getConcernTypes(): { concern_types: ConcernOption[] } {
   return {
     concern_types: [
       { value: 'love', label: '연애/결혼', emoji: '💕' },
@@ -194,12 +156,10 @@ export function getConcernTypes(): {
 
 /**
  * 헬스체크
+ * GET /health
  */
 export async function healthCheck(): Promise<{ status: string }> {
-  return fetchWithTimeout<{ status: string }>(
-    '/health',
-    { timeout: 5000 }
-  );
+  return fetchApi<{ status: string }>('/health', { timeout: 5000 });
 }
 
 /**

@@ -1,0 +1,451 @@
+{
+  "title": "SajuOS_Logic_APPL_070",
+  "rulecards": [
+    {
+      "id": "RC-cf7c153b87",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "편재",
+        "position": "청간"
+      },
+      "mechanism": "편재가 청간에 있을 때 에너지가 외부로 드러나며 적극적인 행동을 유도함.",
+      "interpretation": "편재가 청간에 있으면 배우자나 관계에서 주도적이고 활발한 성향을 보인다.",
+      "action": "편재가 청간에 있다면 결혼이나 관계에서 주도적으로 움직이고 기회를 활용하라.",
+      "cautions": [
+        "지지에만 있으면 에너지가 제한될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "청간",
+        "결혼",
+        "주도성",
+        "행동력"
+      ]
+    },
+    {
+      "id": "RC-4fe89324df",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "정재",
+        "interaction": "살"
+      },
+      "mechanism": "정재가 살과 만나면 안정적인 계획이 흔들릴 가능성이 높아짐.",
+      "interpretation": "정재가 살을 만나면 계획이 예상대로 진행되지 않을 수 있다.",
+      "action": "정재가 살을 만날 경우 유연하게 대처하고 계획을 고집하지 말라.",
+      "cautions": [
+        "재정적 손실 가능성 있음.",
+        "계획 변경에 대비 필요."
+      ],
+      "tags": [
+        "정재",
+        "살",
+        "계획",
+        "변화",
+        "재정"
+      ]
+    },
+    {
+      "id": "RC-45631d0407",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편재",
+        "interaction": "재생살"
+      },
+      "mechanism": "편재와 재생살의 조합은 야망과 모험적인 성향을 강화함.",
+      "interpretation": "편재와 재생살이 있으면 결혼이나 관계에서 빠르고 과감한 결정을 내릴 가능성이 높다.",
+      "action": "편재와 재생살이 있다면 결혼 결정을 신속히 내리고 실행하라.",
+      "cautions": [
+        "무모한 선택으로 인한 리스크 주의."
+      ],
+      "tags": [
+        "편재",
+        "재생살",
+        "결혼",
+        "야망",
+        "모험"
+      ]
+    },
+    {
+      "id": "RC-cd10710b7a",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "정관",
+        "interaction": "편재"
+      },
+      "mechanism": "정관과 편재의 조합은 배우자를 통해 안정과 성취를 추구함.",
+      "interpretation": "정관과 편재가 조화를 이루면 배우자가 삶의 안정과 성취를 도울 수 있다.",
+      "action": "정관과 편재가 조화를 이룬다면 배우자와 협력하여 목표를 달성하라.",
+      "cautions": [
+        "배우자에게 과도한 기대를 하지 말 것."
+      ],
+      "tags": [
+        "정관",
+        "편재",
+        "배우자",
+        "안정",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-b59babe6a0",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "structure": "격",
+        "interaction": "용신"
+      },
+      "mechanism": "격에 용신이 붙어야 결혼 가능성이 높아짐.",
+      "interpretation": "격에 용신이 붙으면 결혼이 원활히 이루어질 가능성이 높다.",
+      "action": "격에 용신이 나타나는 시기를 활용해 결혼을 계획하라.",
+      "cautions": [
+        "용신이 없으면 결혼이 어려울 수 있음."
+      ],
+      "tags": [
+        "격",
+        "용신",
+        "결혼",
+        "운",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-7eba56aa48",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "structure": "파격",
+        "interaction": "결혼"
+      },
+      "mechanism": "파격은 결혼 상대로 적합하지 않은 특성을 가질 가능성이 높음.",
+      "interpretation": "파격은 결혼에서 어려움을 겪을 가능성이 높다.",
+      "action": "파격의 경우 비슷한 파격의 배우자를 찾는 것이 유리하다.",
+      "cautions": [
+        "성격과 파격의 결혼은 갈등 가능성이 높음."
+      ],
+      "tags": [
+        "파격",
+        "결혼",
+        "배우자",
+        "갈등",
+        "적합성"
+      ]
+    },
+    {
+      "id": "RC-c8e5d1ed6c",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "structure": "성격",
+        "interaction": "결혼"
+      },
+      "mechanism": "성격은 안정적이고 계획적인 결혼을 선호함.",
+      "interpretation": "성격은 결혼에서 안정성과 사회적 기준을 중시한다.",
+      "action": "성격의 경우 부모와의 조율을 통해 결혼을 준비하라.",
+      "cautions": [
+        "부모의 영향력이 클 수 있음."
+      ],
+      "tags": [
+        "성격",
+        "결혼",
+        "안정",
+        "사회적 기준",
+        "부모"
+      ]
+    },
+    {
+      "id": "RC-7c1e2d7142",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "식신",
+        "interaction": "재"
+      },
+      "mechanism": "식신이 재를 생하면 결혼 가능성이 높아짐.",
+      "interpretation": "식신이 재를 생하면 결혼에서 이상형과의 만남이 이루어질 가능성이 높다.",
+      "action": "식신이 재를 생하는 운에 결혼을 계획하라.",
+      "cautions": [
+        "재가 없으면 결혼이 지연될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "재",
+        "결혼",
+        "이상형",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-860b63f42a",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "structure": "흉격",
+        "interaction": "결혼"
+      },
+      "mechanism": "흉격은 고난과 역경을 통해 결혼을 이루는 경향이 있음.",
+      "interpretation": "흉격은 결혼에서 어려움을 극복하며 배우자를 선택한다.",
+      "action": "흉격의 경우 인내와 설득으로 결혼을 준비하라.",
+      "cautions": [
+        "결혼 과정에서 시간이 오래 걸릴 수 있음."
+      ],
+      "tags": [
+        "흉격",
+        "결혼",
+        "고난",
+        "역경",
+        "설득"
+      ]
+    },
+    {
+      "id": "RC-759653f8af",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "structure": "길격",
+        "interaction": "결혼"
+      },
+      "mechanism": "길격은 안정적이고 빠른 결혼을 선호함.",
+      "interpretation": "길격은 결혼에서 부모의 도움을 받아 안정적으로 진행된다.",
+      "action": "길격의 경우 부모와의 협력을 통해 결혼을 준비하라.",
+      "cautions": [
+        "결혼 상대의 선택 폭이 제한될 수 있음."
+      ],
+      "tags": [
+        "길격",
+        "결혼",
+        "안정",
+        "부모",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-2e5372966d",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "식신",
+        "condition": "유기 잘됨"
+      },
+      "mechanism": "식신은 자신의 취향과 소통을 중시함.",
+      "interpretation": "자신의 이상형에 맞는 사람과 결혼 가능성이 높음.",
+      "action": "소통이 잘 되는 상대를 찾고 관계를 발전시킬 것.",
+      "cautions": [
+        "외모만으로 판단하지 말 것.",
+        "소통의 중요성을 간과하지 말 것."
+      ],
+      "tags": [
+        "식신",
+        "소통",
+        "이상형",
+        "결혼",
+        "취향"
+      ]
+    },
+    {
+      "id": "RC-61e378dc4c",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "식신",
+        "condition": "비혼주의"
+      },
+      "mechanism": "식신은 선택적으로 결혼을 결정함.",
+      "interpretation": "결혼할 수 있는 조건이 충족되지 않으면 비혼을 선택할 가능성이 높음.",
+      "action": "결혼 여부를 신중히 판단하고 자신에게 맞는 선택을 할 것.",
+      "cautions": [
+        "사회적 압박에 휘둘리지 말 것."
+      ],
+      "tags": [
+        "식신",
+        "비혼",
+        "결혼",
+        "선택",
+        "자유"
+      ]
+    },
+    {
+      "id": "RC-c69255a5ed",
+      "topic": "LOVE",
+      "priority": 10,
+      "trigger": {
+        "ten_gods": "식신",
+        "relation": "생재"
+      },
+      "mechanism": "식신이 재를 생하면 결혼 가능성이 높아짐.",
+      "interpretation": "재와 연결된 사건이 결혼으로 이어질 가능성이 있음.",
+      "action": "재와 관련된 운이나 사건을 주의 깊게 살필 것.",
+      "cautions": [
+        "재와 연결되지 않으면 결혼이 어려울 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "재",
+        "결혼",
+        "생재",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-51659f386c",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "식신",
+        "condition": "재 없음"
+      },
+      "mechanism": "재가 없으면 결혼 가능성이 낮아짐.",
+      "interpretation": "재의 운이 와야 결혼 가능성이 높아짐.",
+      "action": "재의 운이 올 때를 기다리고 준비할 것.",
+      "cautions": [
+        "재가 없을 경우 결혼을 서두르지 말 것."
+      ],
+      "tags": [
+        "식신",
+        "재",
+        "결혼",
+        "운",
+        "준비"
+      ]
+    },
+    {
+      "id": "RC-98ffd0ef21",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "식신",
+        "condition": "인성 많음"
+      },
+      "mechanism": "인성이 많으면 식신의 작용이 억제됨.",
+      "interpretation": "결혼 결정을 내리기 어려울 수 있음.",
+      "action": "인성의 영향을 줄이고 자신감을 키울 것.",
+      "cautions": [
+        "인성의 과도한 억제에 주의할 것."
+      ],
+      "tags": [
+        "식신",
+        "인성",
+        "결혼",
+        "자신감",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-6015b724d5",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "상관",
+        "condition": "생재"
+      },
+      "mechanism": "상관 생재는 연애를 잘하게 함.",
+      "interpretation": "연애는 잘하지만 결혼으로 이어지지 않을 가능성이 있음.",
+      "action": "연애와 결혼의 차이를 인지하고 신중히 판단할 것.",
+      "cautions": [
+        "연애에만 집중하지 말고 결혼 가능성을 고려할 것."
+      ],
+      "tags": [
+        "상관",
+        "생재",
+        "연애",
+        "결혼",
+        "판단"
+      ]
+    },
+    {
+      "id": "RC-ff701dff18",
+      "topic": "LOVE",
+      "priority": 10,
+      "trigger": {
+        "ten_gods": "상관",
+        "condition": "패인"
+      },
+      "mechanism": "상관패인은 사회화된 상관의 형태임.",
+      "interpretation": "결혼 가능성이 높아지고 협상력이 강함.",
+      "action": "사회적 규범을 존중하며 관계를 발전시킬 것.",
+      "cautions": [
+        "자신의 개성을 지나치게 억제하지 말 것."
+      ],
+      "tags": [
+        "상관",
+        "패인",
+        "결혼",
+        "사회화",
+        "협상력"
+      ]
+    },
+    {
+      "id": "RC-5356943598",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "상관",
+        "condition": "인성 있음"
+      },
+      "mechanism": "인성이 상관을 억제하고 관을 보호함.",
+      "interpretation": "결혼 시 안정감을 제공할 수 있음.",
+      "action": "인성의 조언을 받아들여 결혼을 준비할 것.",
+      "cautions": [
+        "부모의 조언을 무조건적으로 따르지 말 것."
+      ],
+      "tags": [
+        "상관",
+        "인성",
+        "결혼",
+        "안정감",
+        "조언"
+      ]
+    },
+    {
+      "id": "RC-be5c3fb78d",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "상관",
+        "condition": "편관과의 관계"
+      },
+      "mechanism": "상관은 편관적 체계에 약점을 가짐.",
+      "interpretation": "편관적 성향의 사람과 잘 맞을 가능성이 있음.",
+      "action": "편관적 성향의 사람과의 관계를 탐색할 것.",
+      "cautions": [
+        "편관적 성향의 사람과의 갈등에 주의할 것."
+      ],
+      "tags": [
+        "상관",
+        "편관",
+        "결혼",
+        "관계",
+        "약점"
+      ]
+    },
+    {
+      "id": "RC-fc3e9eff86",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "상관",
+        "condition": "격의용신 없음"
+      },
+      "mechanism": "격의용신이 없으면 설득력이 떨어짐.",
+      "interpretation": "결혼이 어려울 수 있음.",
+      "action": "격의용신을 보완할 방법을 모색할 것.",
+      "cautions": [
+        "결혼 결정을 서두르지 말 것."
+      ],
+      "tags": [
+        "상관",
+        "격의용신",
+        "결혼",
+        "설득력",
+        "보완"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_070",
+  "updated_at": "2025-12-23T20:27:27"
+}

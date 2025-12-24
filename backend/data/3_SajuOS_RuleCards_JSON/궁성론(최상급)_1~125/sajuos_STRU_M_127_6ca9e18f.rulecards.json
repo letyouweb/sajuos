@@ -1,0 +1,476 @@
+{
+  "title": "SajuOS_Logic_STRU_M_127",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화"
+      },
+      "mechanism": "5월의 병화는 태양의 강렬한 에너지를 상징하며, 양기가 정점에 이른 시기이다.",
+      "interpretation": "병화는 강렬하고 폭발적인 에너지를 가지며, 주변 환경에 큰 영향을 미친다.",
+      "action": "병화의 강한 에너지를 조화롭게 활용할 방법을 모색하라.",
+      "cautions": [
+        "과도한 에너지 발산으로 주변과 충돌할 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "5월",
+        "태양",
+        "양기",
+        "에너지"
+      ],
+      "id": "RC-70dc2d84ef"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "presence": {
+          "겁제": true
+        }
+      },
+      "mechanism": "겁제가 월지에 있으면 병화의 에너지가 통제되지 않을 경우 변질될 수 있다.",
+      "interpretation": "겁제를 잘 다루지 못하면 삶이 불안정해지고, 직업적 안정성을 잃을 수 있다.",
+      "action": "겁제를 통제할 수 있는 환경과 전략을 마련하라.",
+      "cautions": [
+        "겁제를 방치하면 삶이 혼란스러워질 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "겁제",
+        "월지",
+        "통제",
+        "삶의 안정"
+      ],
+      "id": "RC-68b341a678"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "relation": "비겁"
+      },
+      "mechanism": "비겁이 월지에 있으면 친구와의 관계가 삶에 큰 영향을 미친다.",
+      "interpretation": "사회적 관계에서 의리와 충성심이 강조되며, 주변인과의 상호작용이 중요하다.",
+      "action": "신뢰할 수 있는 관계를 유지하고, 지나친 의존을 피하라.",
+      "cautions": [
+        "관계에서 허무함을 느낄 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "비겁",
+        "사회적 관계",
+        "의리",
+        "월지"
+      ],
+      "id": "RC-7f472e4c8a"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "presence": {
+          "임수": true
+        }
+      },
+      "mechanism": "임수가 있으면 겁제를 통제하고 적군과 아군을 구분할 수 있다.",
+      "interpretation": "임수는 병화의 에너지를 조화롭게 만들어 권력과 리더십을 강화한다.",
+      "action": "임수의 에너지를 활용해 명확한 판단과 결정을 내려라.",
+      "cautions": [
+        "임수가 약하면 통제력이 약화될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "겁제 통제",
+        "리더십",
+        "판단력"
+      ],
+      "id": "RC-503e043872"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "structure": "염상격"
+      },
+      "mechanism": "염상격은 화의 에너지가 극대화된 구조로, 특정 오행의 운에 따라 크게 영향을 받는다.",
+      "interpretation": "염상격은 목화 운에서 강점을 발휘하며, 다른 오행의 운은 조화를 방해할 수 있다.",
+      "action": "목화 운을 활용해 에너지를 극대화하고, 다른 오행의 운은 신중히 대처하라.",
+      "cautions": [
+        "토오 운은 에너지를 약화시킬 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "염상격",
+        "목화",
+        "운세",
+        "조화"
+      ],
+      "id": "RC-40dd1623b5"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "presence": {
+          "임수": true,
+          "경금": true
+        }
+      },
+      "mechanism": "임수와 경금이 조화를 이루면 병화는 권력과 출세를 추구하는 구조를 형성한다.",
+      "interpretation": "이 조합은 리더십과 카리스마를 발휘하며, 고위직으로의 진출 가능성을 높인다.",
+      "action": "임수와 경금의 조화를 유지하며, 리더십을 발휘할 기회를 찾아라.",
+      "cautions": [
+        "임수와 경금의 균형이 깨지면 목표 달성이 어려워질 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "경금",
+        "출세",
+        "리더십"
+      ],
+      "id": "RC-d42a2ea621"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "structure": "식신생제"
+      },
+      "mechanism": "식신생제는 병화의 에너지를 수렴하여 안정적인 삶의 기반을 마련한다.",
+      "interpretation": "이 구조는 직업적 안정성과 자기 만족을 추구하는 경향이 있다.",
+      "action": "식신생제를 활용해 안정적인 직업과 삶의 기반을 구축하라.",
+      "cautions": [
+        "권력적 성향은 약화될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "식신생제",
+        "안정성",
+        "직업",
+        "삶의 기반"
+      ],
+      "id": "RC-ac108f1feb"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "timing": {
+          "운": "목화"
+        }
+      },
+      "mechanism": "목화 운은 병화의 에너지를 극대화하며, 긍정적인 변화를 가져온다.",
+      "interpretation": "목화 운은 병화에게 가장 유리한 시기로, 성취와 발전의 기회가 많다.",
+      "action": "목화 운을 활용해 목표를 달성하고, 중요한 결정을 내려라.",
+      "cautions": [
+        "다른 오행의 운은 신중히 대처해야 함"
+      ],
+      "tags": [
+        "병화",
+        "목화 운",
+        "성취",
+        "발전",
+        "기회"
+      ],
+      "id": "RC-827b37f470"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "structure": "염상격",
+        "presence": {
+          "임수": true
+        }
+      },
+      "mechanism": "염상격에서 임수는 병화의 에너지를 조화롭게 만들어 정치적 리더십을 강화한다.",
+      "interpretation": "이 조합은 정치적 성공과 사회적 영향력을 발휘할 수 있는 구조를 형성한다.",
+      "action": "정치적 리더십을 발휘할 기회를 찾아라.",
+      "cautions": [
+        "임수가 약하면 리더십이 약화될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "염상격",
+        "임수",
+        "정치",
+        "리더십"
+      ],
+      "id": "RC-744e68fc84"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "5월",
+        "day_master": "병화",
+        "structure": "종격"
+      },
+      "mechanism": "종격은 특정 오행에 몰빵된 구조로, 해당 오행의 운에 따라 크게 영향을 받는다.",
+      "interpretation": "종격은 특정 오행의 운에서 강점을 발휘하며, 다른 오행의 운은 조화를 방해할 수 있다.",
+      "action": "종격의 특성을 이해하고, 유리한 운을 활용하라.",
+      "cautions": [
+        "부정적인 운은 조화를 방해할 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "종격",
+        "오행",
+        "운세",
+        "조화"
+      ],
+      "id": "RC-4a41ac0d83"
+    },
+    {
+      "id": "RC-1633b40a74",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "season": "summer",
+        "action": "conceal"
+      },
+      "mechanism": "여름은 드러내는 계절로, 감추려는 행동이 계절적 에너지와 충돌함.",
+      "interpretation": "여름생은 있는 그대로 드러내는 것이 더 긍정적 평가를 받음.",
+      "action": "자신을 꾸미거나 감추려 하지 말고 솔직하게 표현하라.",
+      "cautions": [
+        "과도한 드러냄은 오히려 부정적일 수 있음."
+      ],
+      "tags": [
+        "여름생",
+        "계절",
+        "표현",
+        "솔직함",
+        "자연스러움"
+      ]
+    },
+    {
+      "id": "RC-4397da3639",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "season": "winter",
+        "action": "reveal"
+      },
+      "mechanism": "겨울은 감추는 계절로, 드러내는 행동이 계절적 에너지와 충돌함.",
+      "interpretation": "겨울생은 감추는 것이 매력과 긍정적 평가를 받음.",
+      "action": "자신의 매력을 감추고 신비롭게 유지하라.",
+      "cautions": [
+        "과도한 감춤은 소통 부족으로 이어질 수 있음."
+      ],
+      "tags": [
+        "겨울생",
+        "계절",
+        "매력",
+        "신비로움",
+        "감춤"
+      ]
+    },
+    {
+      "id": "RC-66e734996e",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목화"
+      },
+      "mechanism": "종격은 특정 오행의 에너지를 따라가는 구조임.",
+      "interpretation": "사주의 목화가 강하면 그 흐름을 따르는 것이 유리함.",
+      "action": "목화 중심의 흐름을 따르고, 거스르지 말라.",
+      "cautions": [
+        "목화 흐름을 거스르면 큰 어려움이 생길 수 있음."
+      ],
+      "tags": [
+        "종격",
+        "목화",
+        "흐름",
+        "구조",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-d68ff1c8ee",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "종강격",
+        "element_focus": "인성"
+      },
+      "mechanism": "종강격은 인성이 강한 구조로, 식상운이 필요함.",
+      "interpretation": "인성 중심의 사주는 식상운이 와야 안정적임.",
+      "action": "식상운이 올 때 기회를 활용하라.",
+      "cautions": [
+        "비겁운은 종강격에 부정적 영향을 줄 수 있음."
+      ],
+      "tags": [
+        "종강격",
+        "인성",
+        "식상운",
+        "구조",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-a8bcb55054",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목",
+        "luck": "금운"
+      },
+      "mechanism": "목이 강한 종격은 금운이 사주의 흐름과 충돌함.",
+      "interpretation": "목이 강한 사주는 금운에서 어려움을 겪을 가능성이 높음.",
+      "action": "금운 시기에는 신중히 행동하고, 큰 결정을 피하라.",
+      "cautions": [
+        "금운에서 무리한 행동은 실패로 이어질 수 있음."
+      ],
+      "tags": [
+        "종격",
+        "목",
+        "금운",
+        "충돌",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-8ee34737ed",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목",
+        "luck": "갑목운"
+      },
+      "mechanism": "갑목운은 목생화로 전환하며 종격의 흐름을 강화함.",
+      "interpretation": "갑목운은 종격의 에너지를 강화하고 긍정적 변화를 가져옴.",
+      "action": "갑목운 시기에 적극적으로 기회를 활용하라.",
+      "cautions": [
+        "갑목운에서도 과도한 욕심은 피하라."
+      ],
+      "tags": [
+        "종격",
+        "갑목운",
+        "목생화",
+        "운",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-45ef03801a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목화",
+        "luck": "토운"
+      },
+      "mechanism": "토운은 목화의 흐름과 충돌할 가능성이 있음.",
+      "interpretation": "목화 중심의 종격은 토운에서 조심해야 함.",
+      "action": "토운 시기에는 안정적인 계획을 세우고 신중히 행동하라.",
+      "cautions": [
+        "토운에서 무리한 행동은 실패로 이어질 수 있음."
+      ],
+      "tags": [
+        "종격",
+        "목화",
+        "토운",
+        "충돌",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-6ddfa4fb9a",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목화",
+        "luck": "화생토"
+      },
+      "mechanism": "화생토는 목화의 흐름을 보완하며 안정적임.",
+      "interpretation": "화생토가 있는 토운은 목화 중심의 종격에 긍정적임.",
+      "action": "화생토가 있는 시기에 적극적으로 기회를 활용하라.",
+      "cautions": [
+        "화생토가 약하면 효과가 제한적일 수 있음."
+      ],
+      "tags": [
+        "종격",
+        "목화",
+        "화생토",
+        "운",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-98604144c0",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목화",
+        "luck": "목운"
+      },
+      "mechanism": "목운은 목화 중심의 종격에 긍정적 영향을 줌.",
+      "interpretation": "목운 시기에는 종격의 에너지가 강화됨.",
+      "action": "목운 시기에 적극적으로 계획을 실행하라.",
+      "cautions": [
+        "목운에서도 과도한 욕심은 피하라."
+      ],
+      "tags": [
+        "종격",
+        "목화",
+        "목운",
+        "운",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-2058e9af58",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "종격",
+        "element_focus": "목화",
+        "luck": "운의 흐름"
+      },
+      "mechanism": "운의 흐름이 종격의 에너지와 맞으면 긍정적 결과를 가져옴.",
+      "interpretation": "운의 흐름과 종격의 에너지가 일치하면 성공 가능성이 높음.",
+      "action": "운의 흐름을 분석하고, 그에 맞는 행동을 취하라.",
+      "cautions": [
+        "운의 흐름을 거스르는 행동은 실패로 이어질 수 있음."
+      ],
+      "tags": [
+        "종격",
+        "목화",
+        "운의 흐름",
+        "성공",
+        "기회"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_127",
+  "updated_at": "2025-12-23T20:27:24"
+}

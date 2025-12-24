@@ -1,0 +1,453 @@
+{
+  "title": "SajuOS_Logic_TEN_026",
+  "rulecards": [
+    {
+      "id": "RC-2427c6cdc7",
+      "topic": "TEN_GODS",
+      "priority": 10,
+      "trigger": {
+        "ten_god": "식신"
+      },
+      "mechanism": "식신은 본능적이고 순수한 자기 표현을 나타냄.",
+      "interpretation": "식신은 인간의 본능적 욕구와 의지를 드러내는 역할을 함.",
+      "action": "자신의 본능적 욕구와 의지를 긍정적으로 활용하라.",
+      "cautions": [
+        "식신이 과도하면 욕구 충족에 집착할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "본능",
+        "의지",
+        "표현",
+        "순수"
+      ]
+    },
+    {
+      "id": "RC-3b41bc4b3c",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "식신",
+        "element": {
+          "note": "오행에 따라 다름"
+        }
+      },
+      "mechanism": "오행에 따라 식신의 성격과 역할이 달라짐.",
+      "interpretation": "같은 식신이라도 오행에 따라 다른 해석이 필요함.",
+      "action": "자신의 오행에 맞는 식신의 특성을 이해하라.",
+      "cautions": [
+        "오행을 고려하지 않으면 해석이 틀릴 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "오행",
+        "변화",
+        "해석",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-65ca1309ee",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "재성"
+      },
+      "mechanism": "식신은 재성을 생하여 여유와 결과를 창출함.",
+      "interpretation": "식신생재는 재산 증식과 여유로운 삶을 의미함.",
+      "action": "식신생재 구조를 활용해 재산 증식을 도모하라.",
+      "cautions": [
+        "재성이 없으면 식신의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "생재",
+        "여유",
+        "재산"
+      ]
+    },
+    {
+      "id": "RC-200c51471a",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "비겁"
+      },
+      "mechanism": "식신은 비겁을 설하여 균형을 유지함.",
+      "interpretation": "비겁이 강하면 식신의 활동이 제한될 수 있음.",
+      "action": "비겁과 식신의 균형을 유지하도록 노력하라.",
+      "cautions": [
+        "비겁이 과도하면 주도권을 잃을 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "비겁",
+        "균형",
+        "설비",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-bcac4271f9",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "상관"
+      },
+      "mechanism": "식신은 순수한 표현이고, 상관은 즉흥적 표현임.",
+      "interpretation": "식신은 본능적이고 순수한 자기 표현을 나타냄.",
+      "action": "식신과 상관의 차이를 이해하고 활용하라.",
+      "cautions": [
+        "상관은 즉흥적이고 왜곡된 표현이 될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "상관",
+        "표현",
+        "순수",
+        "즉흥"
+      ]
+    },
+    {
+      "id": "RC-2ccca8a75b",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "정제"
+      },
+      "mechanism": "식신과 정제는 성실함과 꾸준함을 형성함.",
+      "interpretation": "정제와 연결된 식신은 안정적이고 실속 있는 결과를 만듦.",
+      "action": "정제와 식신의 조합을 활용해 꾸준히 노력하라.",
+      "cautions": [
+        "정제가 없으면 안정성이 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "정제",
+        "성실",
+        "꾸준함",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-abbe0017c3",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "편재"
+      },
+      "mechanism": "식신과 편재는 확장과 투자를 촉진함.",
+      "interpretation": "편재와 연결된 식신은 자산의 확장을 의미함.",
+      "action": "편재와 식신의 조합을 활용해 확장 전략을 세워라.",
+      "cautions": [
+        "편재는 과도한 투자로 손실을 초래할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "편재",
+        "확장",
+        "투자",
+        "자산"
+      ]
+    },
+    {
+      "id": "RC-5d196b9983",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "비겁",
+        "strength": "약"
+      },
+      "mechanism": "식신이 약하면 꾸준함이 부족해질 수 있음.",
+      "interpretation": "식신이 약하면 지속적인 활동이 어려울 수 있음.",
+      "action": "비겁을 보완하여 식신의 활동을 유지하라.",
+      "cautions": [
+        "식신이 약하면 결과가 불안정할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "비겁",
+        "약함",
+        "꾸준함",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-8b6cb3d4be",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "격국"
+      },
+      "mechanism": "식신의 위치에 따라 활동성과 결과가 달라짐.",
+      "interpretation": "식신의 위치는 활동의 속도와 방향을 결정함.",
+      "action": "식신의 위치를 분석하여 전략을 세워라.",
+      "cautions": [
+        "위치에 따라 해석이 달라질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "격국",
+        "위치",
+        "활동성",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-53071988bf",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "탐구"
+      },
+      "mechanism": "식신은 탐구와 호기심을 자극함.",
+      "interpretation": "식신은 학문적 호기심과 탐구심을 의미함.",
+      "action": "식신의 탐구적 성향을 활용해 학문적 성취를 이루라.",
+      "cautions": [
+        "탐구심이 과도하면 현실적 결과를 놓칠 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "탐구",
+        "호기심",
+        "학문",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-7591727402",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "식신",
+        "condition": "강한 일간"
+      },
+      "mechanism": "식신은 살을 제압할 수 있는 능력을 제공한다.",
+      "interpretation": "강한 일간이 식신을 잘 활용하면 문제 해결 능력이 뛰어나고 리더십을 발휘할 수 있다.",
+      "action": "식신을 활용해 문제를 정면으로 해결하라.",
+      "cautions": [
+        "일간이 약하면 식신의 효과가 반감될 수 있다.",
+        "살에 대한 대응이 실패하면 역풍을 맞을 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "살",
+        "문제해결",
+        "리더십",
+        "강한일간"
+      ]
+    },
+    {
+      "id": "RC-58c86490b1",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "겁재",
+        "gender": "남성"
+      },
+      "mechanism": "겁재는 쟁재를 통해 미인을 얻는 경향이 있다.",
+      "interpretation": "남성 사주에 겁재가 있으면 매력적인 이성을 만날 가능성이 높다.",
+      "action": "이성과의 관계에서 신중하게 행동하라.",
+      "cautions": [
+        "이성이 다른 사람에게 갈 가능성을 염두에 두어야 한다.",
+        "운에 따라 관계가 극명히 달라질 수 있다."
+      ],
+      "tags": [
+        "겁재",
+        "쟁재",
+        "이성",
+        "미인",
+        "남성"
+      ]
+    },
+    {
+      "id": "RC-b03a16d8ef",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "식신제살",
+        "condition": "잘 구성됨"
+      },
+      "mechanism": "식신제살은 살을 제압하고 문제를 해결하는 구조이다.",
+      "interpretation": "식신제살이 잘 구성되면 뛰어난 문제 해결 능력과 리더십을 발휘한다.",
+      "action": "식신제살 구조를 활용해 위기를 극복하라.",
+      "cautions": [
+        "구조가 약하면 오히려 역효과를 낼 수 있다."
+      ],
+      "tags": [
+        "식신제살",
+        "문제해결",
+        "리더십",
+        "구조",
+        "살"
+      ]
+    },
+    {
+      "id": "RC-434e1955e7",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "식신",
+        "presence": true
+      },
+      "mechanism": "식신은 표현과 문제 해결 능력을 강화한다.",
+      "interpretation": "식신이 있는 사람은 문제를 정면으로 해결하려는 경향이 있다.",
+      "action": "문제를 회피하지 말고 적극적으로 해결하라.",
+      "cautions": [
+        "정면대응은 위험성을 동반할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "문제해결",
+        "표현",
+        "정면대응",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-7de44dd084",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "식신",
+        "element": "화"
+      },
+      "mechanism": "화는 식신의 밝은 표현을 돕는다.",
+      "interpretation": "화가 있는 식신은 음침하지 않고 밝은 방향으로 작용한다.",
+      "action": "화의 에너지를 활용해 긍정적인 표현을 하라.",
+      "cautions": [
+        "화가 없으면 식신이 음침하게 작용할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "화",
+        "밝음",
+        "표현",
+        "긍정"
+      ]
+    },
+    {
+      "id": "RC-e824bd53b9",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "정화-임수"
+      },
+      "mechanism": "정화와 임수의 조합은 빛과 어둠의 조화를 이룬다.",
+      "interpretation": "정화와 임수가 만나면 정화의 가치가 더욱 빛난다.",
+      "action": "정화와 임수의 조화를 활용해 자신의 가치를 드러내라.",
+      "cautions": [
+        "조화가 깨지면 효과가 약화될 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "임수",
+        "조화",
+        "빛",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-71bf62a9d8",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "정인"
+      },
+      "mechanism": "정인은 식신의 활동에 정당성을 부여한다.",
+      "interpretation": "정인이 있는 식신은 도덕적이고 정당한 방식으로 표현된다.",
+      "action": "정인의 에너지를 활용해 공적인 인증을 받으라.",
+      "cautions": [
+        "정인이 없으면 식신의 활동이 정당성을 잃을 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "정인",
+        "정당성",
+        "도덕성",
+        "공식인증"
+      ]
+    },
+    {
+      "id": "RC-7a32672aa6",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "ten_god": "식신",
+        "relation": "편인"
+      },
+      "mechanism": "편인은 식신의 표현을 억제한다.",
+      "interpretation": "편인이 강하면 식신의 표현이 위축되고 행동이 제한된다.",
+      "action": "편인의 영향을 줄이고 식신의 표현력을 강화하라.",
+      "cautions": [
+        "편인이 과다하면 무대공포증이나 자기검열로 이어질 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "편인",
+        "억제",
+        "표현",
+        "위축"
+      ]
+    },
+    {
+      "id": "RC-bd303be852",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "식신생재",
+        "relation": "관"
+      },
+      "mechanism": "관은 식신생재의 결과를 보호한다.",
+      "interpretation": "식신생재 구조에서 관이 있으면 재산과 성과가 보호된다.",
+      "action": "관의 에너지를 활용해 성과를 안정적으로 유지하라.",
+      "cautions": [
+        "관이 없으면 성과가 불안정할 수 있다."
+      ],
+      "tags": [
+        "식신생재",
+        "관",
+        "보호",
+        "성과",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-436f2f207e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "식신-관"
+      },
+      "mechanism": "식신과 관의 조합은 표현과 보호를 강화한다.",
+      "interpretation": "식신이 관을 만나면 자신의 표현이 더 빛나고 인정받는다.",
+      "action": "관의 에너지를 활용해 자신의 표현을 강화하라.",
+      "cautions": [
+        "관이 약하면 효과가 미미할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "관",
+        "표현",
+        "보호",
+        "인정"
+      ]
+    }
+  ],
+  "notes": [
+    "식신의 역할과 해석은 오행, 위치, 관계에 따라 달라질 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_026",
+  "updated_at": "2025-12-23T20:27:26"
+}

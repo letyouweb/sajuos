@@ -1,0 +1,478 @@
+{
+  "title": "SajuOS_Logic_ELEM_016",
+  "rulecards": [
+    {
+      "id": "RC-1aa392bf16",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "interaction": "토생금"
+      },
+      "mechanism": "토는 화의 에너지를 수렴한 후 금으로 전환한다.",
+      "interpretation": "토생금은 기존의 정보를 새롭게 전환하고 재창조하는 과정이다.",
+      "action": "토생금을 이해할 때 화의 수렴과 금의 전환을 함께 고려하라.",
+      "cautions": [
+        "토가 스스로 움직이지 않으며 금의 설기에 의해 작용한다."
+      ],
+      "tags": [
+        "토",
+        "금",
+        "전환",
+        "재창조",
+        "화"
+      ]
+    },
+    {
+      "id": "RC-30c92c3d9a",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "토",
+        "ten_god": "식신상관"
+      },
+      "mechanism": "토일간의 식신상관은 기존의 것을 재구성하는 데 특화되어 있다.",
+      "interpretation": "토일간은 새로운 창조보다는 기존의 것을 재구성하고 전환하는 데 강점이 있다.",
+      "action": "자신의 재능을 활용해 기존의 것을 리메이크하거나 재구성하라.",
+      "cautions": [
+        "자신의 방식으로 재구성하는 과정에서 독창성을 잃지 않도록 주의하라."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "상관",
+        "재구성",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-a7659dc034",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_master": "무토",
+        "ten_god": "식신"
+      },
+      "mechanism": "무토는 자기 주도적으로 금을 활용하려는 경향이 강하다.",
+      "interpretation": "무토는 식신을 사용할 때 상관처럼 보일 수 있으며, 주도권을 가지려 한다.",
+      "action": "자신의 주도성을 활용해 큰 스케일의 프로젝트에 집중하라.",
+      "cautions": [
+        "주변과의 조율 부족으로 갈등이 발생할 수 있다."
+      ],
+      "tags": [
+        "무토",
+        "식신",
+        "주도성",
+        "갈등",
+        "스케일"
+      ]
+    },
+    {
+      "id": "RC-4043450f56",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "day_master": "기토",
+        "ten_god": "식신"
+      },
+      "mechanism": "기토는 주변 환경에 적응하며 생산성을 높이는 데 강점이 있다.",
+      "interpretation": "기토는 현실적이고 생산적인 방식으로 금을 활용한다.",
+      "action": "기존의 자원을 활용해 생산성을 극대화하는 방법을 모색하라.",
+      "cautions": [
+        "비생산적인 활동을 피하고 현실적인 목표를 설정하라."
+      ],
+      "tags": [
+        "기토",
+        "식신",
+        "생산성",
+        "현실적",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-0ec9b85b88",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "day_master": "토",
+        "ten_god": "상관",
+        "metal_type": "신금"
+      },
+      "mechanism": "신금 상관은 기존의 체계를 감시하고 감독하는 역할을 한다.",
+      "interpretation": "토일간의 신금 상관은 디테일과 정밀함을 통해 기존 체계를 개선한다.",
+      "action": "감시와 감독의 역할을 통해 체계 개선에 기여하라.",
+      "cautions": [
+        "지나친 비판으로 상대방에게 상처를 줄 수 있다."
+      ],
+      "tags": [
+        "토일간",
+        "상관",
+        "신금",
+        "감독",
+        "디테일"
+      ]
+    },
+    {
+      "id": "RC-8ae9d17d06",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_master": "무토",
+        "metal_type": "경금"
+      },
+      "mechanism": "경금은 무토의 식신으로 작용하며 큰 스케일의 작업에 적합하다.",
+      "interpretation": "무토 경금은 건축, 도시계획 등 대규모 프로젝트에 적합하다.",
+      "action": "큰 스케일의 프로젝트에서 자신의 강점을 발휘하라.",
+      "cautions": [
+        "세밀한 작업에는 적합하지 않을 수 있다."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "식신",
+        "건축",
+        "스케일"
+      ]
+    },
+    {
+      "id": "RC-c9401796d9",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_master": "기토",
+        "metal_type": "경금"
+      },
+      "mechanism": "기토 경금은 기존의 것을 재해석하고 생산성을 높이는 데 강점이 있다.",
+      "interpretation": "기토 경금은 교육, 컨설팅 등 생산성을 높이는 분야에 적합하다.",
+      "action": "교육이나 컨설팅 분야에서 자신의 강점을 활용하라.",
+      "cautions": [
+        "비생산적인 활동에 시간을 낭비하지 않도록 주의하라."
+      ],
+      "tags": [
+        "기토",
+        "경금",
+        "교육",
+        "컨설팅",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-5f29957d50",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "day_master": "기토",
+        "metal_type": "신금"
+      },
+      "mechanism": "기토 신금은 세밀함과 정밀함을 요구하는 작업에 적합하다.",
+      "interpretation": "기토 신금은 인테리어, 세밀한 공사 등 디테일한 작업에 강점이 있다.",
+      "action": "세밀함이 요구되는 분야에서 자신의 능력을 발휘하라.",
+      "cautions": [
+        "큰 스케일의 작업에는 적합하지 않을 수 있다."
+      ],
+      "tags": [
+        "기토",
+        "신금",
+        "세밀함",
+        "정밀함",
+        "인테리어"
+      ]
+    },
+    {
+      "id": "RC-84e86c1ebc",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "day_master": "토",
+        "fire_presence": true
+      },
+      "mechanism": "화는 토의 에너지를 수렴하고 금으로 전환하는 데 중요한 역할을 한다.",
+      "interpretation": "화가 있는 토일간은 효율적이고 조화로운 방식으로 식상을 활용한다.",
+      "action": "화의 에너지를 활용해 식상의 효율성을 극대화하라.",
+      "cautions": [
+        "화가 없을 경우 식상의 발현이 제한될 수 있다."
+      ],
+      "tags": [
+        "토일간",
+        "화",
+        "효율성",
+        "조화",
+        "식상"
+      ]
+    },
+    {
+      "id": "RC-262397e409",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "day_master": "토",
+        "wood_presence": true
+      },
+      "mechanism": "목은 금의 작용 대상을 제공하며 전환 과정을 돕는다.",
+      "interpretation": "목이 있는 토일간은 금의 작용이 더 효과적으로 발현된다.",
+      "action": "목의 에너지를 활용해 금의 전환 과정을 강화하라.",
+      "cautions": [
+        "목이 없을 경우 금의 작용이 허공에 머물 수 있다."
+      ],
+      "tags": [
+        "토일간",
+        "목",
+        "금",
+        "전환",
+        "대상"
+      ]
+    },
+    {
+      "id": "RC-56d0cbfa88",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "화"
+        ]
+      },
+      "mechanism": "화는 효율성과 완곡한 표현을 가능하게 함.",
+      "interpretation": "화가 있으면 상대방의 감정을 고려하며 소통 가능.",
+      "action": "상대방의 입장을 고려해 말할 것.",
+      "cautions": [
+        "화가 없으면 직설적이고 상처를 줄 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "화",
+        "효율",
+        "소통"
+      ]
+    },
+    {
+      "id": "RC-bf47d0c8d0",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "신금"
+        ]
+      },
+      "mechanism": "신금 식신은 개인화된 성향을 가짐.",
+      "interpretation": "개인주의적이고 자기 성찰적 욕심이 강함.",
+      "action": "자신의 전문성을 개발하고 활용할 것.",
+      "cautions": [
+        "사회적 활동보다는 개인적 활동에 치중할 가능성."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "신금",
+        "개인주의",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-898bf33cb7",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "수"
+        ]
+      },
+      "mechanism": "수는 자영업적 성향을 강화함.",
+      "interpretation": "자영업, 프리랜서, 개인사업에 적합.",
+      "action": "독립적인 직업을 고려할 것.",
+      "cautions": [
+        "조직 생활과는 잘 맞지 않을 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "수",
+        "자영업",
+        "독립"
+      ]
+    },
+    {
+      "id": "RC-d581db0bc4",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "화"
+        ]
+      },
+      "mechanism": "화는 전문성을 강화함.",
+      "interpretation": "전문직에 적합한 성향.",
+      "action": "자격증이나 전문성을 갖출 것.",
+      "cautions": [
+        "전문성을 갖추지 않으면 직장 생활이 어려울 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "화",
+        "전문직",
+        "자격증"
+      ]
+    },
+    {
+      "id": "RC-3a7dbb48e9",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "경금"
+        ]
+      },
+      "mechanism": "경금은 대중성과 외부로의 확장을 가능하게 함.",
+      "interpretation": "사회적 활동과 대중성을 지닌 직업에 적합.",
+      "action": "대중과의 소통을 고려한 직업 선택.",
+      "cautions": [
+        "내향적 성향과의 균형 필요."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "경금",
+        "대중성",
+        "사회적 활동"
+      ]
+    },
+    {
+      "id": "RC-5a8b2b09ad",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "신금"
+        ]
+      },
+      "mechanism": "신금은 에너지가 내향적으로 수렴됨.",
+      "interpretation": "혼자서 하는 일에 적합.",
+      "action": "프리랜서나 개인사업을 고려할 것.",
+      "cautions": [
+        "사회적 활동에 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "신금",
+        "내향성",
+        "프리랜서"
+      ]
+    },
+    {
+      "id": "RC-a1f5d15a14",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "경금",
+          "화"
+        ]
+      },
+      "mechanism": "경금과 화는 재구성과 효율성을 강화함.",
+      "interpretation": "번역, 통역, 교육 등 재구성 관련 직업에 적합.",
+      "action": "재구성 능력을 활용한 직업 선택.",
+      "cautions": [
+        "효율성을 지나치게 강조할 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "경금",
+        "화",
+        "재구성"
+      ]
+    },
+    {
+      "id": "RC-11d409c01a",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "토일간의 금식상과 목화식상의 비교"
+      },
+      "mechanism": "금식상은 효율적이고 목적성이 강함.",
+      "interpretation": "금식상은 필요한 말만 하고 효율적으로 행동함.",
+      "action": "효율성을 극대화할 수 있는 환경을 조성할 것.",
+      "cautions": [
+        "목화식상과의 협업 시 속도 차이를 고려해야 함."
+      ],
+      "tags": [
+        "토일간",
+        "금식상",
+        "목화식상",
+        "효율",
+        "목적성"
+      ]
+    },
+    {
+      "id": "RC-8c971482db",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "유금"
+        ]
+      },
+      "mechanism": "유금은 소심하고 내향적인 성향을 가짐.",
+      "interpretation": "불만을 직접 표현하기 어려움.",
+      "action": "자신의 의견을 명확히 표현하는 연습 필요.",
+      "cautions": [
+        "내향적 성향으로 인해 오해를 받을 수 있음."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "유금",
+        "소심함",
+        "의사소통"
+      ]
+    },
+    {
+      "id": "RC-8d05629f47",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "ten_god": "식신",
+        "presence_of": [
+          "경금",
+          "신금"
+        ]
+      },
+      "mechanism": "경금과 신금은 각각 외향성과 내향성을 나타냄.",
+      "interpretation": "경금은 대중적, 신금은 개인적 성향을 강화.",
+      "action": "자신의 성향에 맞는 직업 선택.",
+      "cautions": [
+        "성향에 맞지 않는 직업 선택 시 스트레스 증가."
+      ],
+      "tags": [
+        "토일간",
+        "식신",
+        "경금",
+        "신금",
+        "직업"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_016",
+  "updated_at": "2025-12-23T20:27:25"
+}

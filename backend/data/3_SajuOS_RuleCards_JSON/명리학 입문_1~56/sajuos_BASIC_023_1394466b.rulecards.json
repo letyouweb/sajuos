@@ -1,0 +1,673 @@
+{
+  "title": "SajuOS_Logic_BASIC_023",
+  "rulecards": [
+    {
+      "id": "RC-353396570f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "정관격"
+      },
+      "mechanism": "정관은 일간을 제한하고 규율을 부여하는 역할을 한다.",
+      "interpretation": "정관격은 사회적 규범과 제도에 적응하며 안정감을 느낀다.",
+      "action": "조직 내에서 자신의 역할을 충실히 수행하며 안정적인 직업을 선택하라.",
+      "cautions": [
+        "융통성이 부족할 수 있음",
+        "변화에 적응이 느릴 수 있음"
+      ],
+      "tags": [
+        "정관격",
+        "조직",
+        "안정",
+        "규율",
+        "사회적 역할"
+      ]
+    },
+    {
+      "id": "RC-b161bd8dd2",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "environment": "불안정"
+      },
+      "mechanism": "정관격은 안정된 환경에서 강점을 발휘한다.",
+      "interpretation": "불안정한 환경에서는 스트레스를 받을 가능성이 높다.",
+      "action": "안정적인 환경을 유지하거나 안정감을 줄 수 있는 활동을 찾아라.",
+      "cautions": [
+        "환경 변화에 민감함",
+        "스트레스 관리 필요"
+      ],
+      "tags": [
+        "정관격",
+        "안정",
+        "환경",
+        "스트레스",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-1db88fe863",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "family": "이혼"
+      },
+      "mechanism": "정관격은 가족의 울타리를 중요시한다.",
+      "interpretation": "가족의 분열은 정관격에게 큰 트라우마가 될 수 있다.",
+      "action": "가족 관계를 유지하고 안정감을 줄 수 있는 방안을 모색하라.",
+      "cautions": [
+        "가족 문제에 민감함",
+        "심리적 안정 필요"
+      ],
+      "tags": [
+        "정관격",
+        "가족",
+        "안정",
+        "트라우마",
+        "심리"
+      ]
+    },
+    {
+      "id": "RC-3189730e6b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "career": "조직 내 역할"
+      },
+      "mechanism": "정관격은 조직 내에서 규율과 질서를 유지하는 데 강점이 있다.",
+      "interpretation": "조직 내에서 신뢰받는 구성원이 될 가능성이 높다.",
+      "action": "조직 내에서 규율을 준수하고 책임감을 발휘하라.",
+      "cautions": [
+        "자율성이 제한될 수 있음",
+        "융통성 부족"
+      ],
+      "tags": [
+        "정관격",
+        "조직",
+        "규율",
+        "책임",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-c3fcf2c8dc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "education": "명문대"
+      },
+      "mechanism": "정관격은 사회적 서열과 명성을 중시한다.",
+      "interpretation": "명문대 진학이나 직업적 타이틀에 민감하다.",
+      "action": "사회적 명성을 높일 수 있는 학업과 경력을 추구하라.",
+      "cautions": [
+        "과도한 경쟁 심리",
+        "내적 만족 부족"
+      ],
+      "tags": [
+        "정관격",
+        "명문대",
+        "사회적 서열",
+        "명성",
+        "경력"
+      ]
+    },
+    {
+      "id": "RC-a60fc0a9bc",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "정관격",
+        "relationship": "배우자"
+      },
+      "mechanism": "정관격은 배우자와의 관계에서 서열과 역할을 중시한다.",
+      "interpretation": "배우자와의 관계에서 안정감을 느끼며 존중을 중요시한다.",
+      "action": "배우자와의 관계에서 역할 분담과 존중을 유지하라.",
+      "cautions": [
+        "서열 의식이 갈등을 유발할 수 있음"
+      ],
+      "tags": [
+        "정관격",
+        "배우자",
+        "관계",
+        "존중",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-3dd581dfa3",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "legal": true
+      },
+      "mechanism": "정관격은 법과 제도를 잘 활용한다.",
+      "interpretation": "법적 분쟁에서 유리한 위치를 점할 가능성이 높다.",
+      "action": "법적 문제에 직면했을 때 제도를 적극 활용하라.",
+      "cautions": [
+        "감정적 접근보다 이성적 접근 필요"
+      ],
+      "tags": [
+        "정관격",
+        "법",
+        "제도",
+        "분쟁",
+        "이성적 접근"
+      ]
+    },
+    {
+      "id": "RC-c202c0d9ef",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "정관격",
+        "innovation": false
+      },
+      "mechanism": "정관격은 기존의 질서와 제도를 유지하는 데 초점이 맞춰져 있다.",
+      "interpretation": "혁신보다는 안정과 유지에 강점을 가진다.",
+      "action": "기존 시스템을 효율적으로 운영하고 개선점을 찾아라.",
+      "cautions": [
+        "변화에 대한 저항",
+        "혁신 부족"
+      ],
+      "tags": [
+        "정관격",
+        "안정",
+        "유지",
+        "제도",
+        "혁신"
+      ]
+    },
+    {
+      "id": "RC-3be069035d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "appearance": "단정"
+      },
+      "mechanism": "정관격은 외모에서도 단정함과 규율을 반영한다.",
+      "interpretation": "단정한 외모는 사회적 신뢰를 높이는 데 기여한다.",
+      "action": "단정하고 깔끔한 외모를 유지하라.",
+      "cautions": [
+        "외모에 지나치게 신경 쓸 수 있음"
+      ],
+      "tags": [
+        "정관격",
+        "외모",
+        "단정",
+        "신뢰",
+        "사회적 이미지"
+      ]
+    },
+    {
+      "id": "RC-390e2cdbb2",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "gender": "여성"
+      },
+      "mechanism": "정관격 여성은 전통적 역할에 충실한 경향이 있다.",
+      "interpretation": "가정과 사회에서 안정적인 역할을 수행한다.",
+      "action": "가정과 사회에서 자신의 역할을 충실히 수행하라.",
+      "cautions": [
+        "전통적 역할에 갇힐 수 있음"
+      ],
+      "tags": [
+        "정관격",
+        "여성",
+        "가정",
+        "사회적 역할",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-9d3d81b7a6",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "정관격",
+        "element": "편재"
+      },
+      "mechanism": "정관격에서 편재는 관을 보조하며 승진을 촉진한다.",
+      "interpretation": "정관격에 편재가 있으면 승진이 빠르고 업무 능력이 뛰어나다.",
+      "action": "정관격에 편재가 있다면 적극적으로 업무를 맡아 성과를 내라.",
+      "cautions": [
+        "편재가 과도하면 과시적이거나 무리할 수 있다."
+      ],
+      "tags": [
+        "정관격",
+        "편재",
+        "승진",
+        "업무능력",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-2df8969776",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "element": "인성"
+      },
+      "mechanism": "정관격에서 인성은 관을 보조하며 안정감을 준다.",
+      "interpretation": "정관격에 인성이 있으면 조직 내에서 신뢰를 얻고 안정적인 성과를 낸다.",
+      "action": "인성을 활용해 조직 내에서 신뢰를 쌓고 장기적인 목표를 설정하라.",
+      "cautions": [
+        "인성이 과도하면 지나치게 보수적이 될 수 있다."
+      ],
+      "tags": [
+        "정관격",
+        "인성",
+        "안정성",
+        "신뢰",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-7e4eec1e78",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "element": "재생관"
+      },
+      "mechanism": "재생관은 관을 강화하며 인생의 전환점을 만든다.",
+      "interpretation": "정관격에서 재생관이 강하면 배우자나 주변의 도움으로 큰 성장을 이룰 수 있다.",
+      "action": "재생관의 도움을 받아 성장 기회를 적극적으로 활용하라.",
+      "cautions": [
+        "도움을 받았을 때 감사의 마음을 잊지 말라."
+      ],
+      "tags": [
+        "정관격",
+        "재생관",
+        "성장",
+        "배우자",
+        "도움"
+      ]
+    },
+    {
+      "id": "RC-78192bd9fb",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "정관격",
+        "element": "식상"
+      },
+      "mechanism": "식상은 정관격에서 인간미와 애정을 더한다.",
+      "interpretation": "정관격에 식상이 있으면 인간관계에서 따뜻함과 애정을 표현할 수 있다.",
+      "action": "식상을 활용해 인간관계를 더 풍요롭게 만들어라.",
+      "cautions": [
+        "식상이 부족하면 인간미가 떨어질 수 있다."
+      ],
+      "tags": [
+        "정관격",
+        "식상",
+        "인간관계",
+        "애정",
+        "따뜻함"
+      ]
+    },
+    {
+      "id": "RC-2387da2c4b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "평관격"
+      },
+      "mechanism": "평관격은 생존과 극복의 에너지를 중심으로 작동한다.",
+      "interpretation": "평관격은 어려운 환경에서도 생존하고 극복하려는 강한 의지를 가진다.",
+      "action": "평관격이라면 어려움을 극복하며 성장의 기회로 삼아라.",
+      "cautions": [
+        "생존 본능이 과도하면 스트레스가 심할 수 있다."
+      ],
+      "tags": [
+        "평관격",
+        "생존",
+        "극복",
+        "의지",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-cb47ef86eb",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "평관격",
+        "element": "인성"
+      },
+      "mechanism": "인성은 평관격에서 생존과 학습을 지원한다.",
+      "interpretation": "평관격에 인성이 있으면 어려움을 학습과 성장의 기회로 삼는다.",
+      "action": "인성을 활용해 어려움을 분석하고 해결책을 찾아라.",
+      "cautions": [
+        "인성이 약하면 생존 본능이 제대로 작동하지 않을 수 있다."
+      ],
+      "tags": [
+        "평관격",
+        "인성",
+        "학습",
+        "성장",
+        "생존"
+      ]
+    },
+    {
+      "id": "RC-4707b86661",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "편관격"
+      },
+      "mechanism": "편관격은 빠른 판단과 즉각적인 행동을 중시한다.",
+      "interpretation": "편관격은 위기 상황에서 빠르게 대처하고 문제를 해결한다.",
+      "action": "위기 상황에서 신속히 판단하고 행동하라.",
+      "cautions": [
+        "편관격이 과도하면 무모한 행동으로 이어질 수 있다."
+      ],
+      "tags": [
+        "편관격",
+        "위기대처",
+        "빠른판단",
+        "문제해결",
+        "행동력"
+      ]
+    },
+    {
+      "id": "RC-8147cf9ba2",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편관격",
+        "element": "식신"
+      },
+      "mechanism": "식신은 편관격에서 문제 해결 능력을 강화한다.",
+      "interpretation": "편관격에 식신이 강하면 문제를 근본적으로 해결하려는 경향이 있다.",
+      "action": "식신을 활용해 문제의 근본 원인을 찾아 해결하라.",
+      "cautions": [
+        "식신이 약하면 문제 해결이 지연될 수 있다."
+      ],
+      "tags": [
+        "편관격",
+        "식신",
+        "문제해결",
+        "근본원인",
+        "행동력"
+      ]
+    },
+    {
+      "id": "RC-d78ed9a634",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "편관격",
+        "element": "상관"
+      },
+      "mechanism": "상관은 편관격에서 창의적이고 비정통적인 해결책을 제시한다.",
+      "interpretation": "편관격에 상관이 있으면 독창적인 방식으로 문제를 해결한다.",
+      "action": "상관을 활용해 기존의 틀을 벗어난 해결책을 모색하라.",
+      "cautions": [
+        "상관이 과도하면 비효율적일 수 있다."
+      ],
+      "tags": [
+        "편관격",
+        "상관",
+        "창의성",
+        "비정통",
+        "문제해결"
+      ]
+    },
+    {
+      "id": "RC-9f64c502ca",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "편관격",
+        "element": "인성"
+      },
+      "mechanism": "인성은 편관격에서 안정성과 책임감을 더한다.",
+      "interpretation": "편관격에 인성이 있으면 위기 상황에서도 책임감 있게 대처한다.",
+      "action": "인성을 활용해 위기 상황에서도 신뢰를 유지하라.",
+      "cautions": [
+        "인성이 부족하면 책임감이 약해질 수 있다."
+      ],
+      "tags": [
+        "편관격",
+        "인성",
+        "책임감",
+        "안정성",
+        "위기대처"
+      ]
+    },
+    {
+      "id": "RC-d142f8c9bb",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "평관격",
+        "month": "무술",
+        "day": "임술"
+      },
+      "mechanism": "평관격은 월령이 강하게 작용하며, 인성과 상관의 조화가 중요하다.",
+      "interpretation": "평관격은 자격을 갖추고 실전에서 능력을 발휘할 수 있는 구조이다.",
+      "action": "평관격의 용신과 조화를 이루는 방향으로 활용하라.",
+      "cautions": [
+        "인성이 식상을 극하지 않도록 주의할 것."
+      ],
+      "tags": [
+        "평관격",
+        "인성",
+        "상관",
+        "용신",
+        "월령"
+      ]
+    },
+    {
+      "id": "RC-6d173c0c5a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정인격",
+        "month": "무술"
+      },
+      "mechanism": "정인격은 인성이 강하게 작용하며, 용신의 유무가 중요하다.",
+      "interpretation": "정인격으로 볼 경우 용신이 부족하면 평관격으로 해석하는 것이 적합하다.",
+      "action": "정인격으로 판단 시 용신을 찾아 활용하라.",
+      "cautions": [
+        "용신이 없을 경우 다른 격으로 전환하여 해석할 것."
+      ],
+      "tags": [
+        "정인격",
+        "용신",
+        "격국",
+        "인성",
+        "평관격"
+      ]
+    },
+    {
+      "id": "RC-869f71e0cb",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "평관격",
+        "proximity": "인성 멀리 위치"
+      },
+      "mechanism": "인성이 멀리 위치하면 정서적 거리감이 생길 수 있다.",
+      "interpretation": "부모와의 정서적 거리가 느껴질 수 있으나, 실질적 지원은 받을 가능성이 높다.",
+      "action": "정서적 거리감을 극복하기 위한 노력을 기울여라.",
+      "cautions": [
+        "정서적 거리로 인해 관계가 소원해지지 않도록 주의할 것."
+      ],
+      "tags": [
+        "평관격",
+        "인성",
+        "정서적 거리",
+        "부모",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-5d71c59051",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "qualification": true,
+        "study_continuation": false
+      },
+      "mechanism": "자격을 얻는 것이 목표이며, 지속적인 학습보다는 자격 취득 후 활용에 중점을 둔다.",
+      "interpretation": "전문직 자격을 취득한 후 실전에서 활용하는 직업 구조이다.",
+      "action": "필요한 자격을 빠르게 취득하고 실전에 집중하라.",
+      "cautions": [
+        "자격 취득 후에도 지속적인 자기 개발을 소홀히 하지 말 것."
+      ],
+      "tags": [
+        "자격",
+        "전문직",
+        "학습",
+        "실전",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-832e724fbc",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "period": "경자~신축"
+      },
+      "mechanism": "경자와 신축 대운은 인성을 잘 활용할 수 있는 시기이다.",
+      "interpretation": "이 시기는 자격을 준비하거나 기반을 다지는 데 적합하다.",
+      "action": "경자~신축 대운 동안 자격 취득과 기반 마련에 집중하라.",
+      "cautions": [
+        "이 시기를 놓치지 않도록 계획적으로 행동할 것."
+      ],
+      "tags": [
+        "경자",
+        "신축",
+        "대운",
+        "인성",
+        "자격"
+      ]
+    },
+    {
+      "id": "RC-275bb54568",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "structure": "평관격",
+        "method": "상관 활용"
+      },
+      "mechanism": "상관은 살을 다루는 데 중요한 역할을 한다.",
+      "interpretation": "상관을 활용하여 사회적 결과를 내는 직업 구조이다.",
+      "action": "상관을 효과적으로 활용할 수 있는 직업을 선택하라.",
+      "cautions": [
+        "상관의 과도한 사용으로 인해 부정적 결과를 초래하지 않도록 주의할 것."
+      ],
+      "tags": [
+        "상관",
+        "살",
+        "직업",
+        "사회적 결과",
+        "평관격"
+      ]
+    },
+    {
+      "id": "RC-823d18f8bf",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "spouse": "살",
+        "timing": "early marriage"
+      },
+      "mechanism": "살은 남편을 의미하며, 조기 결혼이 유리할 수 있다.",
+      "interpretation": "조기 결혼은 안정적인 삶을 구축하는 데 도움이 된다.",
+      "action": "결혼 시기를 조율하여 안정적인 관계를 형성하라.",
+      "cautions": [
+        "결혼 시기와 배우자 선택에 신중을 기할 것."
+      ],
+      "tags": [
+        "살",
+        "남편",
+        "결혼",
+        "조기 결혼",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-de0f8a75c3",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "을사"
+      },
+      "mechanism": "을사년은 변화와 전환의 시기로 작용한다.",
+      "interpretation": "을사년에는 직업이나 관계에서 변화가 예상된다.",
+      "action": "을사년의 변화를 긍정적으로 받아들이고 적응하라.",
+      "cautions": [
+        "변화에 따른 스트레스를 관리할 것."
+      ],
+      "tags": [
+        "을사",
+        "변화",
+        "전환",
+        "직업",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-0070d6eca4",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "감목 연애",
+        "alternative": "을목"
+      },
+      "mechanism": "감목은 일시적인 연애를 의미하며, 을목은 더 깊은 인연을 상징한다.",
+      "interpretation": "감목 연애는 단기적이며, 을목 연애는 장기적 관계로 이어질 가능성이 높다.",
+      "action": "연애 관계의 깊이를 고려하여 선택하라.",
+      "cautions": [
+        "단기적 관계에 지나치게 의존하지 말 것."
+      ],
+      "tags": [
+        "감목",
+        "을목",
+        "연애",
+        "관계",
+        "인연"
+      ]
+    },
+    {
+      "id": "RC-48f9adcc72",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "career": "변호사",
+        "method": "상관 활용"
+      },
+      "mechanism": "변호사는 상관을 활용하여 살을 다루는 직업이다.",
+      "interpretation": "상관을 통해 문제를 해결하고 조정하는 역할을 한다.",
+      "action": "상관의 특성을 살려 변호사로서의 역량을 발휘하라.",
+      "cautions": [
+        "상관의 부정적 측면을 관리할 것."
+      ],
+      "tags": [
+        "변호사",
+        "상관",
+        "살",
+        "직업",
+        "문제 해결"
+      ]
+    }
+  ],
+  "notes": [
+    "정관격의 특성과 관련된 다양한 상황과 조건을 다룸."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_023",
+  "updated_at": "2025-12-23T20:27:25"
+}

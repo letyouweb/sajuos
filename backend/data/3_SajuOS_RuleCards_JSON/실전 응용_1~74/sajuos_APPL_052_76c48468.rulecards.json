@@ -1,0 +1,449 @@
+{
+  "title": "SajuOS_Logic_APPL_052",
+  "rulecards": [
+    {
+      "id": "RC-41f1a11fa0",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "influence": "식상",
+        "relation": "인성"
+      },
+      "mechanism": "식상은 인성에 의해 사랑의 감정을 느끼고 표현하게 됨.",
+      "interpretation": "식상과 인성의 조합은 사랑을 주고받는 감정의 흐름을 형성.",
+      "action": "상대방의 감정을 이해하고 소통을 원활히 하도록 노력.",
+      "cautions": [
+        "감정의 흐름이 끊기지 않도록 주의"
+      ],
+      "tags": [
+        "식상",
+        "인성",
+        "사랑",
+        "소통",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-b026c8eb9e",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "influence": "재관",
+        "relation": "식상"
+      },
+      "mechanism": "재관은 식상의 감정적 표현을 안정시키고 결혼 가능성을 높임.",
+      "interpretation": "재관이 있으면 연애가 결혼으로 이어질 가능성이 높아짐.",
+      "action": "재관의 유무를 확인하고 결혼 가능성을 상담.",
+      "cautions": [
+        "재관이 없으면 결혼이 어려울 수 있음"
+      ],
+      "tags": [
+        "재관",
+        "식상",
+        "결혼",
+        "안정",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-f044048927",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "influence": "인성",
+        "condition": "습함"
+      },
+      "mechanism": "습한 인성은 감정의 변동성과 수용력을 증가시킴.",
+      "interpretation": "습한 인성은 상대방의 다양한 특성을 수용하는 연애 성향을 가짐.",
+      "action": "상대방의 다양한 면을 이해하고 수용하려는 태도를 유지.",
+      "cautions": [
+        "지나친 수용은 자기 정체성을 잃을 위험이 있음"
+      ],
+      "tags": [
+        "인성",
+        "습함",
+        "수용",
+        "연애",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-a428fb4cc7",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "influence": "인성",
+        "condition": "조함"
+      },
+      "mechanism": "조한 인성은 감정의 정리와 분리를 강조.",
+      "interpretation": "조한 인성은 연애에서 감정의 안정성과 명확성을 추구.",
+      "action": "감정을 명확히 표현하고 상대방과의 경계를 유지.",
+      "cautions": [
+        "지나친 경계는 소통을 방해할 수 있음"
+      ],
+      "tags": [
+        "인성",
+        "조함",
+        "안정",
+        "명확성",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-3afd3e23dc",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "influence": "정재",
+        "relation": "식상"
+      },
+      "mechanism": "정재는 식상의 감정 표현을 일관성 있게 유지시킴.",
+      "interpretation": "정재는 연애에서 신뢰와 안정감을 형성.",
+      "action": "상대방에게 일관된 태도로 신뢰를 쌓아라.",
+      "cautions": [
+        "일관성이 부족하면 신뢰가 깨질 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "식상",
+        "신뢰",
+        "안정",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-202b19b9c1",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "influence": "편재",
+        "relation": "식상"
+      },
+      "mechanism": "편재는 연애에서 방향성과 가치관의 일치를 중시.",
+      "interpretation": "편재는 연애에서 같은 방향성을 가진 상대를 선호.",
+      "action": "상대방과의 가치관과 방향성을 점검.",
+      "cautions": [
+        "방향성이 다르면 관계가 지속되기 어려움"
+      ],
+      "tags": [
+        "편재",
+        "식상",
+        "방향성",
+        "가치관",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-ff5f7555d1",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "influence": "재관",
+        "condition": "없음"
+      },
+      "mechanism": "재관이 없으면 연애가 감정적으로만 흐를 가능성이 높음.",
+      "interpretation": "재관이 없으면 결혼으로 이어지기 어려움.",
+      "action": "재관이 없는 경우 결혼 가능성을 신중히 검토.",
+      "cautions": [
+        "결혼 계획이 불확실할 수 있음"
+      ],
+      "tags": [
+        "재관",
+        "결혼",
+        "감정",
+        "연애",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-5938bf000c",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "influence": "정재",
+        "condition": "강함"
+      },
+      "mechanism": "강한 정재는 배우자와의 안정된 관계를 형성.",
+      "interpretation": "정재가 강하면 결혼 생활에서 안정과 신뢰를 유지.",
+      "action": "배우자와의 신뢰를 기반으로 관계를 발전시켜라.",
+      "cautions": [
+        "강한 정재는 지나친 통제를 유발할 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "안정",
+        "신뢰",
+        "결혼",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-27b2748ced",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "influence": "정재",
+        "relation": "편재"
+      },
+      "mechanism": "정재와 편재의 조합은 연애에서 안정과 유연성을 조화시킴.",
+      "interpretation": "정재와 편재가 조화를 이루면 균형 잡힌 연애가 가능.",
+      "action": "안정과 유연성을 동시에 추구.",
+      "cautions": [
+        "균형이 깨지면 갈등이 생길 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "편재",
+        "안정",
+        "유연성",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-272d5e2b13",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "influence": "식상",
+        "relation": "재관"
+      },
+      "mechanism": "식상은 재관과 결합하여 연애에서 결혼으로의 전환을 촉진.",
+      "interpretation": "식상과 재관의 조합은 결혼 가능성을 높임.",
+      "action": "연애 초기부터 결혼 가능성을 염두에 두고 관계를 발전.",
+      "cautions": [
+        "재관이 약하면 결혼으로 이어지기 어려움"
+      ],
+      "tags": [
+        "식상",
+        "재관",
+        "결혼",
+        "연애",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-099fdca26d",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "편재",
+        "relationship": "혼인"
+      },
+      "mechanism": "편재는 방향성을 나타내며, 연애 가치관이 같은 방향을 보는지에 따라 결혼 가능성이 결정됨.",
+      "interpretation": "연애 가치관이 일치하면 결혼 가능성이 높아짐.",
+      "action": "상대방과 연애 가치관의 방향성을 확인하라.",
+      "cautions": [
+        "목표가 없는 관계는 결혼으로 이어지기 어려움."
+      ],
+      "tags": [
+        "편재",
+        "연애",
+        "결혼",
+        "방향성",
+        "가치관"
+      ]
+    },
+    {
+      "id": "RC-5e3041b6fc",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "정재",
+        "relationship": "혼인"
+      },
+      "mechanism": "정재는 명확한 목표를 설정하며, 결혼 시기를 예측 가능하게 함.",
+      "interpretation": "정재가 강하면 결혼 목표와 시기가 명확해짐.",
+      "action": "결혼 목표를 구체적으로 설정하라.",
+      "cautions": [
+        "목표가 없으면 결혼 시기를 예측하기 어려움."
+      ],
+      "tags": [
+        "정재",
+        "결혼",
+        "목표",
+        "시기",
+        "예측"
+      ]
+    },
+    {
+      "id": "RC-f1996427aa",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "식상",
+        "attribute": "외모"
+      },
+      "mechanism": "식상은 외모와 성적 매력을 중시하며, 상대방의 외모가 중요한 요소로 작용함.",
+      "interpretation": "식상이 강한 사람은 외모와 성적 매력에 끌림.",
+      "action": "상대방의 외모와 매력을 고려하라.",
+      "cautions": [
+        "외모만으로 판단하지 않도록 주의."
+      ],
+      "tags": [
+        "식상",
+        "외모",
+        "성적 매력",
+        "연애",
+        "기준"
+      ]
+    },
+    {
+      "id": "RC-6a642e7c3f",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "관",
+        "relationship": "혼인"
+      },
+      "mechanism": "관은 상대방을 선별하고 구속하는 힘을 나타냄.",
+      "interpretation": "관이 강하면 결혼 상대를 신중히 선택하고 관계를 유지하려는 경향이 강함.",
+      "action": "상대방의 입장을 고려하며 관계를 유지하라.",
+      "cautions": [
+        "관이 약하면 관계 유지가 어려울 수 있음."
+      ],
+      "tags": [
+        "관",
+        "결혼",
+        "선택",
+        "구속",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-2a2a3919e0",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편관",
+        "relationship": "혼인"
+      },
+      "mechanism": "편관은 보호받고자 하는 욕구를 반영하며, 강한 남성적 성향을 선호함.",
+      "interpretation": "편관이 강한 사람은 보호받을 수 있는 상대를 선호함.",
+      "action": "상대방의 보호 능력을 평가하라.",
+      "cautions": [
+        "편관이 약하면 보호받는 느낌이 부족할 수 있음."
+      ],
+      "tags": [
+        "편관",
+        "보호",
+        "결혼",
+        "선호",
+        "강한 성향"
+      ]
+    },
+    {
+      "id": "RC-f2055d5e17",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "비겁",
+        "relationship": "연애"
+      },
+      "mechanism": "비겁은 감정 교류를 증폭시키며, 실행력과 신뢰도를 높임.",
+      "interpretation": "비겁이 강하면 관계에서 신뢰와 실행력이 높아짐.",
+      "action": "상대방과의 신뢰를 쌓고 실행력을 보여라.",
+      "cautions": [
+        "비겁이 약하면 실행력이 부족할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "감정 교류",
+        "신뢰",
+        "실행력",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-1ae42253bc",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "인성",
+        "relationship": "혼인"
+      },
+      "mechanism": "인성은 관과 연결되어 대상을 선별하고 사랑을 받으려는 힘을 나타냄.",
+      "interpretation": "인성이 강하면 특정 대상과의 관계를 유지하려는 경향이 강함.",
+      "action": "상대방과의 신뢰를 쌓고 관계를 유지하라.",
+      "cautions": [
+        "관이 없으면 관계 유지가 어려울 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "관",
+        "선별",
+        "사랑",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-757131e77c",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "재관",
+        "relationship": "혼인"
+      },
+      "mechanism": "재관은 현실적인 문제를 해결하는 능력을 나타냄.",
+      "interpretation": "재관이 강하면 현실적인 문제를 잘 해결함.",
+      "action": "현실적인 문제를 해결할 수 있는 능력을 키워라.",
+      "cautions": [
+        "재관이 약하면 현실적인 문제 해결이 어려울 수 있음."
+      ],
+      "tags": [
+        "재관",
+        "현실",
+        "문제 해결",
+        "결혼",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-905c20f5ae",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "ten_gods": "비겁",
+        "attribute": "유정"
+      },
+      "mechanism": "비겁이 유정하면 감정 교류와 실행력이 증폭됨.",
+      "interpretation": "비겁이 유정하면 관계에서 신뢰와 실행력이 높아짐.",
+      "action": "감정 교류를 통해 신뢰를 쌓아라.",
+      "cautions": [
+        "비겁이 무정하면 관계가 불안정할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "유정",
+        "감정 교류",
+        "신뢰",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-24648d7a26",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "식상",
+        "attribute": "감정"
+      },
+      "mechanism": "식상은 감정 표현과 소통의 통로를 나타냄.",
+      "interpretation": "식상이 강하면 감정 표현과 소통이 원활함.",
+      "action": "감정을 솔직히 표현하고 소통하라.",
+      "cautions": [
+        "식상이 약하면 감정 표현이 어려울 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "감정",
+        "소통",
+        "표현",
+        "연애"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_052",
+  "updated_at": "2025-12-23T20:27:26"
+}

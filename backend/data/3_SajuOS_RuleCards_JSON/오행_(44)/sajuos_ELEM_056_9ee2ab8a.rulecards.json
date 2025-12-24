@@ -1,0 +1,242 @@
+{
+  "title": "SajuOS_Logic_ELEM_056",
+  "rulecards": [
+    {
+      "id": "RC-a298404d56",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "season": "진월"
+      },
+      "mechanism": "경금은 외부에서 작용하며 분별력을 발휘한다.",
+      "interpretation": "경금은 외부 환경에서 구분하고 분별하는 능력을 통해 세상을 올바르게 본다.",
+      "action": "분별력을 강화하기 위해 외부 정보를 객관적으로 분석하는 연습을 하라.",
+      "cautions": [
+        "감정에 치우쳐 판단하지 않도록 주의할 것."
+      ],
+      "tags": [
+        "경금",
+        "분별력",
+        "외부작용",
+        "진월",
+        "객관성"
+      ]
+    },
+    {
+      "id": "RC-5bd0c6ce12",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "fire": true,
+        "water": true
+      },
+      "mechanism": "화는 경금을 정제하고 수는 경금의 분별력을 강화한다.",
+      "interpretation": "화와 수가 조화를 이루면 경금의 분별력이 극대화된다.",
+      "action": "화와 수의 균형을 유지하며 판단력을 키워라.",
+      "cautions": [
+        "화와 수의 과잉 또는 부족에 주의할 것."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "수",
+        "조화",
+        "분별력"
+      ]
+    },
+    {
+      "id": "RC-47a27994bb",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "strength": "weak"
+      },
+      "mechanism": "약한 경금은 분별력이 떨어지고 경계가 모호해진다.",
+      "interpretation": "경금이 약하면 외부 환경에서 자신의 역할을 수행하기 어렵다.",
+      "action": "경금을 강화하기 위해 적절한 환경과 지원을 찾아라.",
+      "cautions": [
+        "약한 경금은 혼란스러운 상황에서 쉽게 영향을 받을 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "약함",
+        "분별력",
+        "환경",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-2fbaaaa9ce",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인"
+      },
+      "mechanism": "진월의 경금은 편인의 영향을 받아 생각이 많아지고 실행력이 저하된다.",
+      "interpretation": "편인의 영향을 받는 경금은 판단력과 실행력을 강화해야 한다.",
+      "action": "편인을 조절하기 위해 간목의 에너지를 활용하라.",
+      "cautions": [
+        "편인의 과도한 영향으로 인해 우유부단해질 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "편인",
+        "간목",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-947c83439a",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인",
+        "adjustment": "간목"
+      },
+      "mechanism": "간목은 편인을 조절하여 경금의 판단력과 실행력을 강화한다.",
+      "interpretation": "간목의 조절로 경금은 머뭇거림을 줄이고 실행력을 발휘할 수 있다.",
+      "action": "간목의 에너지를 활용해 명확한 판단과 실행을 연습하라.",
+      "cautions": [
+        "간목의 조절이 부족하면 편인의 영향이 지속될 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "간목",
+        "편인",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-fdf8583787",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인",
+        "adjustment": "재성"
+      },
+      "mechanism": "재성은 편인을 조절하여 경금의 안정성을 높인다.",
+      "interpretation": "재성의 조절로 경금은 외부 환경에서 안정적으로 작용할 수 있다.",
+      "action": "재성을 활용해 안정적인 환경을 구축하라.",
+      "cautions": [
+        "재성의 과도한 조절은 경금의 본질을 약화시킬 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "재성",
+        "안정성",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-4f4e7b3e94",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "fire": false
+      },
+      "mechanism": "화가 없는 경금은 외부 정보를 받아들이는 능력이 약화된다.",
+      "interpretation": "화가 없는 경금은 판단력과 분별력이 저하될 수 있다.",
+      "action": "화의 에너지를 보완하기 위해 적극적으로 외부 정보를 탐색하라.",
+      "cautions": [
+        "화의 부족으로 인해 편향된 판단을 할 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "부족",
+        "판단력",
+        "분별력"
+      ]
+    },
+    {
+      "id": "RC-a7111fe3e3",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인",
+        "adjustment": "글쓰기"
+      },
+      "mechanism": "글쓰기는 편인의 과도한 생각을 정리하고 실행력을 강화한다.",
+      "interpretation": "글쓰기를 통해 경금은 자신의 생각을 명확히 하고 실행력을 높일 수 있다.",
+      "action": "정기적으로 글쓰기를 통해 생각을 정리하라.",
+      "cautions": [
+        "글쓰기를 소홀히 하면 생각이 계속 머릿속에 맴돌 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "편인",
+        "글쓰기",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-df838d4da2",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인",
+        "adjustment": "식상"
+      },
+      "mechanism": "식상은 편인의 과도한 생각을 외부로 표현하게 한다.",
+      "interpretation": "식상의 조절로 경금은 감정을 해소하고 실행력을 발휘할 수 있다.",
+      "action": "식상의 에너지를 활용해 감정을 표현하고 실행력을 강화하라.",
+      "cautions": [
+        "식상의 부족은 감정 해소를 방해할 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "편인",
+        "식상",
+        "감정해소"
+      ]
+    },
+    {
+      "id": "RC-87ad83bf21",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "season": "진월",
+        "support": "편인",
+        "adjustment": "재성",
+        "role": "부모"
+      },
+      "mechanism": "재성은 부모와의 관계에서 경금의 안정성을 높인다.",
+      "interpretation": "재성의 조절로 부모와의 관계에서 경금은 안정감을 얻을 수 있다.",
+      "action": "부모와의 관계를 조율하며 안정적인 환경을 구축하라.",
+      "cautions": [
+        "재성의 부족은 부모와의 관계에서 갈등을 유발할 수 있다."
+      ],
+      "tags": [
+        "경금",
+        "진월",
+        "재성",
+        "부모",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_056",
+  "updated_at": "2025-12-23T20:27:25"
+}

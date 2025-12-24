@@ -1,0 +1,464 @@
+{
+  "title": "SajuOS_Logic_STRU_M_106",
+  "rulecards": [
+    {
+      "id": "RC-e7eb95efff",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "peer": true
+      },
+      "mechanism": "진월 무토는 비견이 월지에 위치할 때 대중과의 접점이 강화됨.",
+      "interpretation": "대중의 지지를 받기 쉬운 구조로, 리더십 발휘에 유리함.",
+      "action": "대중과의 소통을 강화하고 리더 역할을 적극적으로 수행.",
+      "cautions": [
+        "비견의 에너지가 과도하면 갈등 가능성 있음."
+      ],
+      "tags": [
+        "진월",
+        "무토",
+        "비견",
+        "대중",
+        "리더십"
+      ]
+    },
+    {
+      "id": "RC-d69717f0a2",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "context": "진월"
+      },
+      "mechanism": "토는 간, 공간, 인간 등 구체화와 연결의 에너지를 가짐.",
+      "interpretation": "토의 발달은 사람 간의 관계를 형성하고 조율하는 데 유리함.",
+      "action": "사람들과의 관계를 조화롭게 유지하며 중재자 역할을 수행.",
+      "cautions": [],
+      "tags": [
+        "토",
+        "구체화",
+        "연결",
+        "중재",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-3d221075a3",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "술월",
+        "day_master": "무토"
+      },
+      "mechanism": "술월 무토는 권위적이고 접근성이 낮은 특성을 가짐.",
+      "interpretation": "사람들로부터 멀리 느껴질 수 있으며, 권위적인 이미지가 형성됨.",
+      "action": "대중과의 거리감을 줄이고 친근한 이미지를 형성하도록 노력.",
+      "cautions": [
+        "과도한 권위는 대중과의 소통을 방해할 수 있음."
+      ],
+      "tags": [
+        "술월",
+        "무토",
+        "권위",
+        "접근성",
+        "이미지"
+      ]
+    },
+    {
+      "id": "RC-1182335fa0",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "fire": true
+      },
+      "mechanism": "병화는 간목을 강화하고 목극토의 균형을 유지함.",
+      "interpretation": "병화가 있으면 리더십과 감정적 소통 능력이 강화됨.",
+      "action": "병화를 활용해 대중과의 감정적 연결을 강화.",
+      "cautions": [
+        "병화가 없으면 감정적 소통이 어려울 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "간목",
+        "목극토",
+        "리더십",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-60efec7e1a",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "wood": "간목"
+      },
+      "mechanism": "간목은 비견을 조절하고 통제하는 역할을 함.",
+      "interpretation": "간목이 있으면 비견을 효과적으로 다루고 리더십을 발휘할 수 있음.",
+      "action": "간목을 활용해 비견과의 협력을 강화.",
+      "cautions": [
+        "간목이 없으면 비견을 통제하기 어려울 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "비견",
+        "조절",
+        "리더십",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-386fcd727c",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "fire": false
+      },
+      "mechanism": "화가 없으면 감정적 연결과 온화한 이미지가 약화됨.",
+      "interpretation": "화가 없으면 사람들에게 무서운 이미지로 비춰질 수 있음.",
+      "action": "화의 부재를 보완하기 위해 온화한 태도를 의식적으로 유지.",
+      "cautions": [
+        "화가 없으면 대중과의 친밀감 형성이 어려울 수 있음."
+      ],
+      "tags": [
+        "화",
+        "온화",
+        "이미지",
+        "감정",
+        "대중"
+      ]
+    },
+    {
+      "id": "RC-3ca38b5897",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "peer": true,
+        "metal": "경금"
+      },
+      "mechanism": "경금은 비견과의 협력적 구조를 강화함.",
+      "interpretation": "경금이 있으면 비견과의 협력을 통해 공동의 목표를 달성할 수 있음.",
+      "action": "경금을 활용해 비견과의 협력 관계를 강화.",
+      "cautions": [
+        "경금이 없으면 협력적 구조가 약화될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "비견",
+        "협력",
+        "목표",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-b52001feed",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "water": "임수"
+      },
+      "mechanism": "임수는 사업적 확장을 가능하게 함.",
+      "interpretation": "임수가 있으면 스케일이 큰 사업을 운영할 수 있음.",
+      "action": "임수를 활용해 사업적 확장을 계획.",
+      "cautions": [
+        "임수가 없으면 사업 확장이 제한될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "사업",
+        "확장",
+        "스케일",
+        "운영"
+      ]
+    },
+    {
+      "id": "RC-47d9a79961",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "water": "계수"
+      },
+      "mechanism": "계수는 안정적인 자영업 구조를 형성함.",
+      "interpretation": "계수가 있으면 안정적인 자영업 운영이 가능함.",
+      "action": "계수를 활용해 안정적인 자영업을 계획.",
+      "cautions": [
+        "계수가 없으면 안정성이 약화될 수 있음."
+      ],
+      "tags": [
+        "계수",
+        "자영업",
+        "안정",
+        "운영",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-4fed83a18c",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "진월",
+        "day_master": "무토",
+        "peer": true,
+        "fire": true
+      },
+      "mechanism": "비견과 병화의 조합은 대중적 지지를 강화함.",
+      "interpretation": "비견과 병화가 있으면 대중적 지지를 얻기 쉬움.",
+      "action": "비견과 병화를 활용해 대중적 이미지를 강화.",
+      "cautions": [
+        "비견과 병화의 균형이 중요함."
+      ],
+      "tags": [
+        "비견",
+        "병화",
+        "대중",
+        "지지",
+        "이미지"
+      ]
+    },
+    {
+      "id": "RC-bde0f8fb47",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "visible": true
+      },
+      "mechanism": "수는 재물의 에너지를 상징하며 투관될 때 그 에너지를 잘 활용할 수 있다.",
+      "interpretation": "재물의 그릇이 크며, 재물을 잘 다룰 수 있는 사주이다.",
+      "action": "수의 에너지를 활용할 수 있는 직업이나 투자를 고려하라.",
+      "cautions": [
+        "수가 투관되지 않으면 재물의 에너지를 활용하기 어렵다."
+      ],
+      "tags": [
+        "수",
+        "재물",
+        "투관",
+        "재능",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-79728d74c3",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "무신",
+        "month_pillar": "진월"
+      },
+      "mechanism": "무신일주는 직장생활과 동시에 식신을 통해 자신의 일을 중요시한다.",
+      "interpretation": "직장생활 외에도 사이드 잡이나 자기사업을 병행할 가능성이 높다.",
+      "action": "직장 외의 추가적인 수익원을 모색하라.",
+      "cautions": [
+        "직장과 개인 사업 간의 균형을 유지해야 한다."
+      ],
+      "tags": [
+        "무신일주",
+        "진월",
+        "식신",
+        "직장",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-da3409912d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month_pillar": "진월",
+        "element": "무토",
+        "visible": true
+      },
+      "mechanism": "진월의 무토는 겁재를 활용하거나 활용당할 가능성이 있다.",
+      "interpretation": "겁재를 통해 공무원적 형태의 직업이나 정치적 퍼포먼스를 발휘할 수 있다.",
+      "action": "공공기관이나 협력 관계를 활용한 직업을 고려하라.",
+      "cautions": [
+        "겁재를 제대로 활용하지 못하면 손실이 발생할 수 있다."
+      ],
+      "tags": [
+        "진월",
+        "무토",
+        "겁재",
+        "공무원",
+        "정치"
+      ]
+    },
+    {
+      "id": "RC-823efaf010",
+      "topic": "EXAM",
+      "priority": 10,
+      "trigger": {
+        "element": "감목",
+        "visible": true
+      },
+      "mechanism": "감목은 관을 드러내어 시험 합격운을 강화한다.",
+      "interpretation": "감목이 있을 때 시험 합격 가능성이 높아진다.",
+      "action": "시험 준비 시 감목의 영향을 받는 시기를 활용하라.",
+      "cautions": [
+        "감목이 없으면 시험 합격이 어려울 수 있다."
+      ],
+      "tags": [
+        "감목",
+        "시험",
+        "합격운",
+        "관",
+        "목"
+      ]
+    },
+    {
+      "id": "RC-a748960771",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "visible": true,
+        "supporting_element": "감목"
+      },
+      "mechanism": "병화는 감목과 함께 살인상생 구조를 형성하여 직업적 귀를 얻는다.",
+      "interpretation": "감목과 병화가 함께 있을 때 직업적 성공 가능성이 높아진다.",
+      "action": "감목과 병화의 조화를 이루는 직업을 선택하라.",
+      "cautions": [
+        "병화만 있고 감목이 없으면 만족도가 낮아질 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "감목",
+        "살인상생",
+        "직업",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-269e089e84",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "visible": true,
+        "month_pillar": "진월"
+      },
+      "mechanism": "금은 사업적 구조를 강화하며, 진월의 무토와 조화를 이룬다.",
+      "interpretation": "금이 있을 때 사업적 성공 가능성이 높아진다.",
+      "action": "금의 영향을 활용하여 사업을 확장하라.",
+      "cautions": [
+        "금이 없으면 사업적 구조가 약해질 수 있다."
+      ],
+      "tags": [
+        "금",
+        "사업",
+        "진월",
+        "무토",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-1e30d7179a",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "visible": true,
+        "relation": "비견"
+      },
+      "mechanism": "목은 비견 간의 갈등을 중재하고 합의를 이끌어낸다.",
+      "interpretation": "목이 있을 때 비견 간의 갈등이 해소된다.",
+      "action": "목의 에너지를 활용하여 갈등 상황을 해결하라.",
+      "cautions": [
+        "목이 없으면 갈등이 지속될 수 있다."
+      ],
+      "tags": [
+        "목",
+        "비견",
+        "갈등",
+        "중재",
+        "합의"
+      ]
+    },
+    {
+      "id": "RC-682b21a7e4",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "visible": true,
+        "supporting_element": "목"
+      },
+      "mechanism": "화는 목과 함께 직업적 성취를 빠르게 이룬다.",
+      "interpretation": "화가 있을 때 직업적 성취 속도가 빨라진다.",
+      "action": "화의 에너지를 활용하여 직업적 목표를 달성하라.",
+      "cautions": [
+        "화가 없으면 성취 속도가 느려질 수 있다."
+      ],
+      "tags": [
+        "화",
+        "목",
+        "직업",
+        "성취",
+        "속도"
+      ]
+    },
+    {
+      "id": "RC-712c3edec8",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "visible": true,
+        "relation": "재"
+      },
+      "mechanism": "수는 재를 키우는 에너지로 작용한다.",
+      "interpretation": "수가 있을 때 재물의 축적 가능성이 높아진다.",
+      "action": "수의 에너지를 활용하여 재물을 관리하라.",
+      "cautions": [
+        "수가 과도하면 재물 관리에 어려움이 생길 수 있다."
+      ],
+      "tags": [
+        "수",
+        "재물",
+        "축적",
+        "관리",
+        "재"
+      ]
+    },
+    {
+      "id": "RC-5a50454f9e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "visible": true,
+        "relation": "판사"
+      },
+      "mechanism": "토는 중재와 균형을 상징하며 판사적 기질을 나타낸다.",
+      "interpretation": "토가 있을 때 중립적이고 공정한 판단을 할 수 있다.",
+      "action": "토의 에너지를 활용하여 중재 역할을 수행하라.",
+      "cautions": [
+        "토가 부족하면 중립성을 잃을 수 있다."
+      ],
+      "tags": [
+        "토",
+        "판사",
+        "중재",
+        "균형",
+        "공정"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_106",
+  "updated_at": "2025-12-23T20:27:24"
+}

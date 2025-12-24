@@ -1,0 +1,488 @@
+{
+  "title": "SajuOS_Logic_STRU_M_086",
+  "rulecards": [
+    {
+      "id": "RC-634efff22f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "자월",
+        "element": "계수",
+        "supporting_element": "병화"
+      },
+      "mechanism": "병화는 자월의 계수와 조화를 이루어 이질적인 에너지를 해소하고 활용성을 높임.",
+      "interpretation": "병화가 자월의 계수에 존재하면 사회적 관계와 소통 능력이 강화됨.",
+      "action": "병화가 없는 경우, 동업이나 협력 관계를 신중히 고려해야 함.",
+      "cautions": [
+        "병화가 없으면 인연의 폭이 좁아질 수 있음.",
+        "동업 시 갈등 가능성 증가."
+      ],
+      "tags": [
+        "자월",
+        "계수",
+        "병화",
+        "사회성",
+        "동업"
+      ]
+    },
+    {
+      "id": "RC-55d0b40236",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "계수",
+        "context": "즉시 대출"
+      },
+      "mechanism": "계수는 빠르고 즉각적인 재정적 흐름을 상징.",
+      "interpretation": "계수는 소액 대출이나 빠른 자금 회전에 유리함.",
+      "action": "즉각적인 자금 조달이 필요할 때 계수의 특성을 활용.",
+      "cautions": [
+        "이자율이 높아질 가능성 있음.",
+        "장기적 안정성 부족."
+      ],
+      "tags": [
+        "계수",
+        "재정",
+        "대출",
+        "즉시성",
+        "이자율"
+      ]
+    },
+    {
+      "id": "RC-89ebf133ae",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "element": "계수",
+        "supporting_element": "신금"
+      },
+      "mechanism": "신금은 계수의 독자성과 실력을 보장.",
+      "interpretation": "신금이 있으면 계수가 독창적이고 안정적인 재능을 발휘.",
+      "action": "신금이 없는 경우, 독자성을 강화할 방법을 모색.",
+      "cautions": [
+        "신금이 없으면 경쟁에서 밀릴 가능성 있음.",
+        "독자적 브랜드 구축 어려움."
+      ],
+      "tags": [
+        "자월",
+        "계수",
+        "신금",
+        "독자성",
+        "브랜드"
+      ]
+    },
+    {
+      "id": "RC-2e15f4ab68",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "context": "사회적 관계"
+      },
+      "mechanism": "병화는 사회적 소통과 트렌드 파악 능력을 강화.",
+      "interpretation": "병화가 있으면 트렌드에 민감하고 사회적 활동에 유리.",
+      "action": "병화의 영향을 활용해 네트워크를 확장.",
+      "cautions": [
+        "병화가 없으면 트렌드에 둔감할 수 있음.",
+        "사회적 고립 가능성."
+      ],
+      "tags": [
+        "병화",
+        "사회성",
+        "트렌드",
+        "네트워크",
+        "소통"
+      ]
+    },
+    {
+      "id": "RC-736273e627",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "element": "계수",
+        "supporting_element": "무토"
+      },
+      "mechanism": "무토는 계수의 에너지를 안정적으로 활용하도록 돕음.",
+      "interpretation": "무토가 있으면 계수가 안정적이고 지속적인 성과를 낼 수 있음.",
+      "action": "무토의 영향을 활용해 장기적인 계획을 세움.",
+      "cautions": [
+        "무토가 없으면 계수의 에너지가 분산될 가능성 있음.",
+        "안정성 부족."
+      ],
+      "tags": [
+        "자월",
+        "계수",
+        "무토",
+        "안정성",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-efe4cd7baf",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "계수",
+        "context": "투자"
+      },
+      "mechanism": "계수는 소액 투자와 빠른 회전율에 적합.",
+      "interpretation": "계수는 단기적이고 빠른 수익을 추구하는 투자에 유리.",
+      "action": "소액 투자로 빠른 수익을 노리는 전략을 활용.",
+      "cautions": [
+        "장기적 안정성 부족.",
+        "리스크 관리 필요."
+      ],
+      "tags": [
+        "계수",
+        "투자",
+        "소액",
+        "회전율",
+        "리스크"
+      ]
+    },
+    {
+      "id": "RC-eb4cd057a9",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "context": "인연"
+      },
+      "mechanism": "병화는 인연의 폭을 넓히고 관계를 활성화.",
+      "interpretation": "병화가 있으면 다양한 사람들과의 관계 형성이 용이.",
+      "action": "병화의 영향을 활용해 새로운 인연을 적극적으로 탐색.",
+      "cautions": [
+        "병화가 없으면 관계 형성이 제한될 수 있음.",
+        "사회적 고립 가능성."
+      ],
+      "tags": [
+        "병화",
+        "인연",
+        "관계",
+        "사회성",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-306dae9c7c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "자월",
+        "element": "계수",
+        "supporting_element": "병화",
+        "context": "추운 계절"
+      },
+      "mechanism": "병화는 추운 계절의 자월 계수에 활력을 부여.",
+      "interpretation": "병화가 있으면 추운 계절에도 계수가 활발히 작용.",
+      "action": "병화의 영향을 활용해 계수의 에너지를 극대화.",
+      "cautions": [
+        "병화가 없으면 계수가 위축될 가능성 있음.",
+        "활력 부족."
+      ],
+      "tags": [
+        "자월",
+        "계수",
+        "병화",
+        "추운 계절",
+        "활력"
+      ]
+    },
+    {
+      "id": "RC-66951c4b03",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "context": "전문성"
+      },
+      "mechanism": "신금은 전문성과 독창성을 강화.",
+      "interpretation": "신금이 있으면 전문성을 바탕으로 경력을 쌓기 유리.",
+      "action": "신금의 영향을 활용해 독창적인 경력을 개발.",
+      "cautions": [
+        "신금이 없으면 전문성 부족.",
+        "경쟁력 약화."
+      ],
+      "tags": [
+        "신금",
+        "전문성",
+        "독창성",
+        "경력",
+        "경쟁력"
+      ]
+    },
+    {
+      "id": "RC-4c0668551c",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "계수",
+        "context": "소액 대출"
+      },
+      "mechanism": "계수는 빠른 자금 회전과 소액 대출에 적합.",
+      "interpretation": "계수는 소액 대출과 같은 빠른 자금 조달에 유리.",
+      "action": "계수의 특성을 활용해 소액 대출을 효과적으로 이용.",
+      "cautions": [
+        "이자율이 높아질 가능성 있음.",
+        "장기적 안정성 부족."
+      ],
+      "tags": [
+        "계수",
+        "소액 대출",
+        "자금 회전",
+        "이자율",
+        "재정"
+      ]
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "elements": [
+          "병화"
+        ]
+      },
+      "mechanism": "병화는 트렌드를 읽고 세상을 보는 힘을 상징.",
+      "interpretation": "병화가 있으면 트렌드에 민감하고 세상과 잘 연결됨.",
+      "action": "병화가 있다면 트렌드를 활용한 직업이나 활동을 고려.",
+      "cautions": [
+        "병화가 없으면 트렌드와 동떨어질 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "트렌드",
+        "세상",
+        "민감성",
+        "연결"
+      ],
+      "id": "RC-9de72991a6"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "elements": [
+          "목",
+          "화"
+        ],
+        "missing": [
+          "수"
+        ]
+      },
+      "mechanism": "목화 중심이 되면 수가 부족해 근본이 약해짐.",
+      "interpretation": "수가 없으면 본질과 전통을 유지하기 어려움.",
+      "action": "수가 부족한 경우 역사와 전통을 고려한 방향으로 나아가야 함.",
+      "cautions": [
+        "수가 없으면 근본 없는 방향으로 흐를 위험."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "수",
+        "근본",
+        "전통"
+      ],
+      "id": "RC-d10a9a8f24"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "자묘형"
+      },
+      "mechanism": "자묘형은 흐름이 막히고 불안정한 상태를 나타냄.",
+      "interpretation": "자묘형은 비뇨기계 문제나 흐름의 장애를 상징.",
+      "action": "비뇨기계 관련 직업이나 하수구 관련 일을 고려.",
+      "cautions": [
+        "흐름이 막히면 재정적 문제나 법적 문제로 이어질 수 있음."
+      ],
+      "tags": [
+        "자묘형",
+        "흐름",
+        "비뇨기",
+        "장애",
+        "직업"
+      ],
+      "id": "RC-feb15a198a"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "elements": [
+          "병화"
+        ],
+        "missing": [
+          "병화"
+        ]
+      },
+      "mechanism": "병화는 세상과의 소통과 갈등 해소를 돕는 역할.",
+      "interpretation": "병화가 있으면 갈등이 해소되고 소통이 원활해짐.",
+      "action": "병화가 부족한 경우 주변과의 소통 방식을 개선.",
+      "cautions": [
+        "병화가 없으면 소통 문제와 갈등이 지속될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "소통",
+        "갈등",
+        "해소",
+        "조화"
+      ],
+      "id": "RC-6c9aebc048"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "elements": [
+          "을목"
+        ],
+        "required": [
+          "병화"
+        ]
+      },
+      "mechanism": "을목은 병화가 있어야 능력을 발휘하고 지속 가능.",
+      "interpretation": "병화가 없으면 을목의 능력이 드러나지 않음.",
+      "action": "을목이 있다면 병화를 활용해 능력을 드러낼 방법을 찾을 것.",
+      "cautions": [
+        "병화가 없으면 을목의 잠재력이 발휘되지 않음."
+      ],
+      "tags": [
+        "을목",
+        "병화",
+        "능력",
+        "지속성",
+        "발휘"
+      ],
+      "id": "RC-f525ee5cfe"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "season": "자월",
+        "elements": [
+          "화"
+        ]
+      },
+      "mechanism": "자월은 화가 절실히 필요한 계절.",
+      "interpretation": "자월에 화가 없으면 자원을 소진하고 사고 위험이 증가.",
+      "action": "자월에는 화를 보완할 수 있는 활동이나 환경을 조성.",
+      "cautions": [
+        "화가 없으면 자원을 낭비하거나 사고가 발생할 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "화",
+        "계절",
+        "자원",
+        "사고"
+      ],
+      "id": "RC-bd84a41123"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "elements": [
+          "신금"
+        ],
+        "missing": [
+          "화"
+        ]
+      },
+      "mechanism": "신금은 나만의 특화된 영역을 구축하는 힘.",
+      "interpretation": "신금이 있으면 독창성과 주도권을 발휘 가능.",
+      "action": "신금을 활용해 자신만의 독창적인 영역을 개발.",
+      "cautions": [
+        "신금이 없으면 독창성이 부족하고 카피로 오해받을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "특화",
+        "독창성",
+        "주도권",
+        "영역"
+      ],
+      "id": "RC-ea494f6875"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "elements": [
+          "병화"
+        ],
+        "missing": [
+          "병화"
+        ]
+      },
+      "mechanism": "병화는 직업적 성공과 지속성을 지원.",
+      "interpretation": "병화가 있으면 직업적 성과가 안정적으로 유지됨.",
+      "action": "병화가 부족한 경우 직업 선택 시 지속 가능성을 고려.",
+      "cautions": [
+        "병화가 없으면 직업적 실패나 불안정성이 증가."
+      ],
+      "tags": [
+        "병화",
+        "직업",
+        "성공",
+        "지속성",
+        "안정"
+      ],
+      "id": "RC-6676105475"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "상관견관"
+      },
+      "mechanism": "상관견관은 관의 결핍으로 인해 억울함과 피해의식을 유발.",
+      "interpretation": "관이 약하면 억울함과 피해의식이 강해질 수 있음.",
+      "action": "관의 결핍을 보완할 수 있는 활동이나 환경을 조성.",
+      "cautions": [
+        "관이 약하면 작은 일에도 억울함을 느낄 수 있음."
+      ],
+      "tags": [
+        "상관견관",
+        "관",
+        "결핍",
+        "억울함",
+        "피해의식"
+      ],
+      "id": "RC-706aa42cf4"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "elements": [
+          "화"
+        ],
+        "timing": "대운"
+      },
+      "mechanism": "대운에서 화가 들어오면 갈등 해소와 성장의 기회.",
+      "interpretation": "화가 들어오는 시기에 긍정적인 변화와 성장이 기대됨.",
+      "action": "화가 들어오는 시기를 활용해 갈등을 해소하고 성장에 집중.",
+      "cautions": [
+        "화가 들어오지 않으면 갈등이 지속될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "대운",
+        "갈등",
+        "성장",
+        "변화"
+      ],
+      "id": "RC-fb240a1d86"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_086",
+  "updated_at": "2025-12-23T20:27:24"
+}

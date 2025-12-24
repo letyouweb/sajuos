@@ -1,0 +1,431 @@
+{
+  "title": "SajuOS_Logic_STRU_M_096",
+  "rulecards": [
+    {
+      "id": "RC-6f0765071e",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day": "기사"
+      },
+      "mechanism": "묘월의 기토는 편관을 받아들이고 인성을 통해 살인상생 구조를 형성함.",
+      "interpretation": "묘월의 기사일주는 인성을 통해 편관을 다루며, 수용적이고 학습 능력이 뛰어남.",
+      "action": "교육, 의료 등 사람을 다루는 직업군에 적합.",
+      "cautions": [
+        "인성이 약하면 수용력이 떨어질 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "기사일주",
+        "편관",
+        "살인상생",
+        "인성"
+      ]
+    },
+    {
+      "id": "RC-e71b55dfdf",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day": "기사",
+        "fire": true
+      },
+      "mechanism": "화가 투관되면 직업적 방향성이 명확해짐.",
+      "interpretation": "화가 투관된 경우, 직업 선택과 전문성 개발이 뚜렷해짐.",
+      "action": "직업 목표를 명확히 설정하고 관련 학문에 집중.",
+      "cautions": [
+        "화가 없으면 직업 방향성이 흐려질 수 있음."
+      ],
+      "tags": [
+        "직업",
+        "화",
+        "투관",
+        "전문성",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-407d430f23",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day": "기사"
+      },
+      "mechanism": "묘월의 기사일주는 상대방의 이야기를 잘 끌어내는 능력이 있음.",
+      "interpretation": "상담이나 중재 역할에 적합하며, 대인관계에서 부드럽고 수용적.",
+      "action": "상담, 중재, 협상 등 대인관계 중심의 활동에 참여.",
+      "cautions": [
+        "상대방의 감정을 지나치게 수용하면 스트레스가 될 수 있음."
+      ],
+      "tags": [
+        "대인관계",
+        "상담",
+        "중재",
+        "수용",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-958a612b5b",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "earthly_branch": "미"
+      },
+      "mechanism": "미토가 오면 삼합이 완성되어 직업적 변화를 시도함.",
+      "interpretation": "미토운에서 직업적 변화나 이직 가능성이 높아짐.",
+      "action": "운의 흐름에 따라 직업적 기회를 탐색하고 준비.",
+      "cautions": [
+        "변화에 따른 리스크를 충분히 고려해야 함."
+      ],
+      "tags": [
+        "미토",
+        "삼합",
+        "직업변화",
+        "운",
+        "이직"
+      ]
+    },
+    {
+      "id": "RC-ad85746917",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day": "기해"
+      },
+      "mechanism": "기해일주는 재생살 구조로 인해 주어진 일을 수용하며 단순 반복 작업에 능숙함.",
+      "interpretation": "기해일주는 현장 중심의 단순 반복 작업에 적합.",
+      "action": "현장직이나 생산직에서 안정적인 직업을 선택.",
+      "cautions": [
+        "재생살 구조로 인해 직업적 성장의 한계가 있을 수 있음."
+      ],
+      "tags": [
+        "기해일주",
+        "재생살",
+        "현장직",
+        "단순작업",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-ca0e49e7c0",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "month": "묘",
+        "day": "기사"
+      },
+      "mechanism": "묘월의 기사일주는 상대방의 감정을 잘 수용하며 긍정적인 반응을 보임.",
+      "interpretation": "연애에서 상대방에게 호감을 주고 인기가 많음.",
+      "action": "상대방의 감정을 존중하며 긍정적인 관계를 유지.",
+      "cautions": [
+        "지나친 수용이 자기 희생으로 이어질 수 있음."
+      ],
+      "tags": [
+        "연애",
+        "호감",
+        "수용",
+        "묘월",
+        "기사일주"
+      ]
+    },
+    {
+      "id": "RC-cdbde96e9f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "fire": true,
+        "wood": true
+      },
+      "mechanism": "목생화와 화생토의 순환 구조가 직업적 안정성을 강화함.",
+      "interpretation": "목과 화가 조화를 이루면 직업적 성취 가능성이 높아짐.",
+      "action": "목과 화의 조화를 유지하며 직업적 목표를 설정.",
+      "cautions": [
+        "목과 화의 균형이 깨지면 직업적 혼란이 올 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "화생토",
+        "직업",
+        "안정성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-88c3f589ec",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "묘월의 기토와 관련된 일반적 특성"
+      },
+      "mechanism": "묘월의 기토는 현장 중심적이며 수용적 성향을 가짐.",
+      "interpretation": "현장에서의 영향력이 강하며, 주어진 환경에 잘 적응함.",
+      "action": "현장 중심의 활동에 집중하고 수용적 태도를 유지.",
+      "cautions": [
+        "현장 중심적 성향이 지나치면 장기적 계획이 부족할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "기토",
+        "현장",
+        "수용",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-f12dddde4d",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day": "기유"
+      },
+      "mechanism": "기유일주는 식신 재살 구조로 긴장감이 높아 문제 해결 능력이 뛰어남.",
+      "interpretation": "기유일주는 문제 해결 중심의 직업에 적합.",
+      "action": "문제 해결 능력을 활용할 수 있는 직업을 선택.",
+      "cautions": [
+        "긴장감이 지나치면 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "기유일주",
+        "식신재살",
+        "문제해결",
+        "긴장감",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-63369c19cb",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "condition": "혼잡",
+        "type": "식상"
+      },
+      "mechanism": "혼잡된 식상을 재성으로 해결 가능",
+      "interpretation": "식상이 혼잡하면 재성을 통해 문제를 해결할 수 있다.",
+      "action": "재성을 활용하여 식상의 혼잡을 정리하라.",
+      "cautions": [
+        "재성이 부족하면 해결이 어려울 수 있음"
+      ],
+      "tags": [
+        "식상",
+        "재성",
+        "혼잡",
+        "해결",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-2dddaf4250",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "condition": "혼잡",
+        "type": "재성"
+      },
+      "mechanism": "혼잡된 재성을 관성으로 해결 가능",
+      "interpretation": "재성이 혼잡하면 관성을 통해 문제를 해결할 수 있다.",
+      "action": "관성을 활용하여 재성의 혼잡을 정리하라.",
+      "cautions": [
+        "관성이 약하면 효과가 제한적일 수 있음"
+      ],
+      "tags": [
+        "재성",
+        "관성",
+        "혼잡",
+        "해결",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-7b6cafe490",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "condition": "혼잡",
+        "type": "관성"
+      },
+      "mechanism": "혼잡된 관성을 인성으로 해결 가능",
+      "interpretation": "관성이 혼잡하면 인성을 통해 문제를 해결할 수 있다.",
+      "action": "인성을 활용하여 관성의 혼잡을 정리하라.",
+      "cautions": [
+        "인성이 부족하면 해결이 어려울 수 있음"
+      ],
+      "tags": [
+        "관성",
+        "인성",
+        "혼잡",
+        "해결",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-12d8de0dcf",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "condition": "식신재살",
+        "strength": "약함"
+      },
+      "mechanism": "식신이 약하면 살을 제대로 제압하지 못함",
+      "interpretation": "식신재살이 약하면 오히려 문제를 키울 수 있다.",
+      "action": "식신의 강화를 통해 살을 제압하라.",
+      "cautions": [
+        "식신이 약한 상태에서 무리한 시도는 역효과를 낼 수 있음"
+      ],
+      "tags": [
+        "식신재살",
+        "식신",
+        "살",
+        "강약",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-93e0137e2b",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "condition": "목이 투관되지 않음",
+        "화가 없음": true
+      },
+      "mechanism": "목과 화가 없으면 직업적 안정성이 떨어짐",
+      "interpretation": "목과 화가 없으면 직업이 불분명하고 음성적일 가능성이 높다.",
+      "action": "목과 화를 활용하여 직업적 안정성을 확보하라.",
+      "cautions": [
+        "음성적 직업군으로 빠질 위험이 있음"
+      ],
+      "tags": [
+        "목",
+        "화",
+        "직업",
+        "안정성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-b2a124c49e",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "condition": "재성이 암장됨",
+        "수와 금이 강함": true
+      },
+      "mechanism": "재성이 암장되고 수와 금이 강하면 음성적 구조로 이어짐",
+      "interpretation": "재성이 암장되면 음성적 직업군으로 연결될 가능성이 높다.",
+      "action": "재성을 양성화하여 구조를 개선하라.",
+      "cautions": [
+        "음성적 직업군으로 빠질 가능성"
+      ],
+      "tags": [
+        "재성",
+        "암장",
+        "수",
+        "금",
+        "음성적"
+      ]
+    },
+    {
+      "id": "RC-813066b098",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "condition": "편관이 강함",
+        "자의적 사용": true
+      },
+      "mechanism": "편관을 자의적으로 사용하면 독립적 성향이 강해짐",
+      "interpretation": "편관이 강하면 독립적이고 자율적인 성향을 보인다.",
+      "action": "자의적 성향을 활용하여 독립적 목표를 설정하라.",
+      "cautions": [
+        "조직 내 갈등 가능성"
+      ],
+      "tags": [
+        "편관",
+        "자의적",
+        "독립",
+        "자율성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-d7b3fc6140",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "condition": "정재가 강함",
+        "월에 위치": true
+      },
+      "mechanism": "정재가 월에 있으면 현실적이고 계획적인 성향이 강함",
+      "interpretation": "정재가 강하면 현실적이고 계획적인 삶을 추구한다.",
+      "action": "정재의 성향을 활용하여 구체적이고 실현 가능한 계획을 세워라.",
+      "cautions": [
+        "지나친 현실주의로 인해 기회를 놓칠 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "현실적",
+        "계획적",
+        "월",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-249b5c7e81",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "condition": "정재가 강함",
+        "수와 화의 조화": true
+      },
+      "mechanism": "수와 화가 정재의 활용 방식을 결정함",
+      "interpretation": "수와 화의 조화가 정재의 활용 방향을 좌우한다.",
+      "action": "수와 화의 균형을 맞춰 정재를 효과적으로 활용하라.",
+      "cautions": [
+        "수와 화의 불균형은 문제를 초래할 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "수",
+        "화",
+        "조화",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-e9e0208d0b",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "condition": "목과 화가 없음",
+        "수와 금이 강함": true
+      },
+      "mechanism": "목과 화가 없고 수와 금이 강하면 학업적 성취가 어려움",
+      "interpretation": "목과 화가 없으면 학업적 성취와 인연이 약하다.",
+      "action": "목과 화를 보완하여 학업적 성취를 도모하라.",
+      "cautions": [
+        "학업적 동기 부족 가능성"
+      ],
+      "tags": [
+        "목",
+        "화",
+        "수",
+        "금",
+        "학업"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 내용은 요약 및 단순화됨.",
+    "추가적인 규칙은 다음 청크에서 계속될 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_096",
+  "updated_at": "2025-12-23T20:27:24"
+}

@@ -1,0 +1,447 @@
+{
+  "title": "SajuOS_Logic_STRU_M_140",
+  "rulecards": [
+    {
+      "id": "RC-e1773d449d",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "인목"
+      },
+      "mechanism": "인목은 목생화를 통해 정화를 지원하지만, 정화는 병화와 달리 전체를 아우르지 못하고 특정 목적에 집중한다.",
+      "interpretation": "정화는 특정 목표에 집중하며, 인목의 지원이 과도하면 부담을 느낀다.",
+      "action": "정화의 부담을 줄이기 위해 인목의 목생화를 조절할 필요가 있다.",
+      "cautions": [
+        "목생화가 과도하면 정화가 소화하지 못할 수 있음",
+        "정화는 병화와 달리 전체적 조후 능력이 부족함"
+      ],
+      "tags": [
+        "정화",
+        "인목",
+        "목생화",
+        "조후",
+        "부담"
+      ]
+    },
+    {
+      "id": "RC-f1d31d36c8",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "인월",
+        "supporting_element": "경금"
+      },
+      "mechanism": "경금은 인목의 목생화를 조절하여 정화가 소화 가능한 수준으로 만든다.",
+      "interpretation": "경금이 있으면 정화가 목생화를 적절히 활용할 수 있다.",
+      "action": "사주에 경금이 없다면 경금의 역할을 보완할 방법을 찾아야 한다.",
+      "cautions": [
+        "경금이 없으면 목생화가 과도해질 수 있음",
+        "정화가 원하는 방향으로 에너지를 끌어오기 어려움"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "목생화",
+        "조절",
+        "인월"
+      ]
+    },
+    {
+      "id": "RC-b77e335b3a",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "인목",
+        "conflict": true
+      },
+      "mechanism": "인목은 목생화를 통해 정화를 지원하려 하지만, 정화는 자신이 원하는 방향으로만 에너지를 받아들이려 한다.",
+      "interpretation": "부모와 자녀 간 기대와 현실의 불일치로 갈등이 생길 수 있다.",
+      "action": "부모와 자녀 간의 기대를 조율하고, 서로의 입장을 이해하려는 노력이 필요하다.",
+      "cautions": [
+        "갈등이 심화되면 관계가 악화될 수 있음",
+        "정화가 과도한 부담을 느낄 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "인목",
+        "갈등",
+        "부모자녀",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-fe750288e6",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "경금",
+        "timing": "대운"
+      },
+      "mechanism": "대운에서 경금이 들어오면 정화가 목생화를 적절히 활용할 수 있는 환경이 조성된다.",
+      "interpretation": "경금 대운은 정화에게 새로운 목표와 방향성을 제공한다.",
+      "action": "경금 대운이 오기 전까지는 진로와 목표 설정을 유보하는 것이 좋다.",
+      "cautions": [
+        "경금 대운이 오기 전에는 혼란스러울 수 있음",
+        "목표 설정이 불명확할 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "대운",
+        "목표",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-9497491ed3",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "경금",
+        "career_type": "기술직"
+      },
+      "mechanism": "경금은 정화가 기술적이고 정밀한 직업군에서 두각을 나타내게 한다.",
+      "interpretation": "정화는 경금의 지원을 받아 기술적이고 전문적인 직업에서 성공할 가능성이 높다.",
+      "action": "기술적 전문성을 키우는 교육과 경험을 쌓는 것이 중요하다.",
+      "cautions": [
+        "경금이 없으면 기술적 전문성을 발휘하기 어려움",
+        "목생화가 과도하면 집중력이 분산될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "기술직",
+        "전문성",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-5f4e754c66",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "경금",
+        "family_role": "아버지"
+      },
+      "mechanism": "경금은 아버지의 역할을 상징하며, 정화가 부모로부터 적절한 지원을 받을 수 있게 한다.",
+      "interpretation": "경금이 없으면 아버지의 역할이 부재하거나 약화될 수 있다.",
+      "action": "아버지의 역할을 대신할 수 있는 다른 지원 체계를 마련해야 한다.",
+      "cautions": [
+        "경금이 없으면 부모와의 관계에서 결핍을 느낄 수 있음",
+        "지원 체계가 불안정할 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "아버지",
+        "부모자녀",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-f81be4e6e0",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "인월",
+        "supporting_element": "감목"
+      },
+      "mechanism": "감목은 경금과 함께 정화의 목생화를 조절하며, 재극인의 구조를 형성한다.",
+      "interpretation": "감목과 경금이 함께 있으면 정화가 안정적으로 목생화를 활용할 수 있다.",
+      "action": "감목과 경금의 조화를 통해 정화의 에너지를 최적화해야 한다.",
+      "cautions": [
+        "감목이 없으면 목생화의 조절이 어려울 수 있음",
+        "재극인이 불완전하면 에너지 낭비가 발생할 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "감목",
+        "경금",
+        "재극인",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-98e40242b7",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "경금",
+        "career_focus": "정밀기술"
+      },
+      "mechanism": "경금은 정화가 정밀하고 계산적인 기술 분야에서 두각을 나타내게 한다.",
+      "interpretation": "정화는 경금의 지원을 받아 정밀 기술 분야에서 성공할 가능성이 높다.",
+      "action": "정밀 기술 관련 교육과 경험을 쌓는 것이 중요하다.",
+      "cautions": [
+        "경금이 없으면 정밀 기술 분야에서 어려움을 겪을 수 있음",
+        "목생화가 과도하면 집중력이 분산될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "정밀기술",
+        "전문성",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-8721ca84a2",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "focus": "직중심",
+        "structure": "재관인"
+      },
+      "mechanism": "재관인은 직급과 조직 내 정치에 강점을 가짐.",
+      "interpretation": "승진과 출세를 목표로 하는 경향이 강함.",
+      "action": "조직 내 정치적 관계를 잘 활용하라.",
+      "cautions": [
+        "능력보다 정치적 요소가 중요할 수 있음.",
+        "조직 내 갈등에 주의 필요."
+      ],
+      "tags": [
+        "직중심",
+        "재관인",
+        "승진",
+        "정치",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-955aa5f131",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "focus": "일중심",
+        "structure": "능력 중심"
+      },
+      "mechanism": "일중심은 능력과 전문성에 초점.",
+      "interpretation": "능력은 인정받지만 승진과는 거리가 멀 수 있음.",
+      "action": "전문성을 강화하고 이직 가능성을 열어두라.",
+      "cautions": [
+        "승진보다는 능력 인정에 초점.",
+        "조직 내 정치적 관계 부족 주의."
+      ],
+      "tags": [
+        "일중심",
+        "능력",
+        "전문성",
+        "이직",
+        "승진"
+      ]
+    },
+    {
+      "id": "RC-842d3ccb7d",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "structure": "재생관",
+        "time_period": "1970~1980년대"
+      },
+      "mechanism": "재생관은 과거 대기업 성장기에 유리했음.",
+      "interpretation": "현재는 재생관만으로 성공하기 어려움.",
+      "action": "현대적 경영 환경에 맞는 추가 역량을 개발하라.",
+      "cautions": [
+        "과거 성공 모델에 의존하지 말 것.",
+        "현대적 변화에 적응 필요."
+      ],
+      "tags": [
+        "재생관",
+        "대기업",
+        "성장기",
+        "현대 경영",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-0458647f49",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "structure": "임원",
+        "focus": "상관 강함"
+      },
+      "mechanism": "임원은 독립적이고 추진력이 강한 구조를 가짐.",
+      "interpretation": "임원은 조직 내 정치보다 독립적 성과가 중요.",
+      "action": "자신의 독립적 역량을 강화하라.",
+      "cautions": [
+        "조직 내 안정성 부족.",
+        "성과 압박에 주의."
+      ],
+      "tags": [
+        "임원",
+        "상관",
+        "독립성",
+        "성과",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-9b98d1b03d",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "structure": "재생관",
+        "focus": "전문 경영인"
+      },
+      "mechanism": "재생관은 주어진 직책에 적합.",
+      "interpretation": "전문 경영인으로서의 역할에 적합.",
+      "action": "조직 내에서 주어진 역할을 충실히 수행하라.",
+      "cautions": [
+        "자율적 사업보다는 조직 내 역할에 집중."
+      ],
+      "tags": [
+        "재생관",
+        "전문 경영인",
+        "조직",
+        "직책",
+        "역할"
+      ]
+    },
+    {
+      "id": "RC-777cb0c75b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "structure": "관인상생",
+        "focus": "부모 영향"
+      },
+      "mechanism": "관인상생은 외부 결정에 의존하는 구조.",
+      "interpretation": "부모나 외부의 결정에 따라 삶이 형성됨.",
+      "action": "자율성을 확보하기 위한 노력을 하라.",
+      "cautions": [
+        "자율성 부족으로 인한 스트레스.",
+        "외부 결정에 지나치게 의존하지 말 것."
+      ],
+      "tags": [
+        "관인상생",
+        "부모",
+        "결정",
+        "자율성",
+        "외부 영향"
+      ]
+    },
+    {
+      "id": "RC-d8cfa15e34",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "structure": "관인상생",
+        "focus": "결혼"
+      },
+      "mechanism": "결혼 후에도 외부 결정에 의존하는 경향.",
+      "interpretation": "결혼 생활에서 자율성이 부족할 수 있음.",
+      "action": "배우자와의 관계에서 자율성을 확보하라.",
+      "cautions": [
+        "결혼 후에도 부모와 유사한 관계 반복 가능."
+      ],
+      "tags": [
+        "관인상생",
+        "결혼",
+        "자율성",
+        "배우자",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-d6f4649f8f",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "습",
+        "focus": "조화"
+      },
+      "mechanism": "습은 유연성과 인간관계를 조절함.",
+      "interpretation": "습이 적절하면 인간관계와 생산성이 향상됨.",
+      "action": "습을 통해 유연성을 강화하라.",
+      "cautions": [
+        "습이 과하거나 부족하면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "습",
+        "조화",
+        "유연성",
+        "인간관계",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-5b2fec9529",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "조",
+        "focus": "일관성"
+      },
+      "mechanism": "조한 조건은 일관성을 유지하게 함.",
+      "interpretation": "조한 환경에서 안정적이고 지속적인 성과를 낼 수 있음.",
+      "action": "조한 환경에서 자신의 강점을 활용하라.",
+      "cautions": [
+        "조한 조건이 지나치면 유연성 부족."
+      ],
+      "tags": [
+        "조",
+        "일관성",
+        "안정성",
+        "성과",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-8d0c4b2106",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "structure": "재극인",
+        "focus": "일방적 조절"
+      },
+      "mechanism": "재극인은 상대방 입장을 고려하지 않음.",
+      "interpretation": "관계에서 갈등과 불만이 생길 가능성이 높음.",
+      "action": "상대방의 입장을 고려한 조율을 시도하라.",
+      "cautions": [
+        "일방적 행동으로 인한 관계 악화."
+      ],
+      "tags": [
+        "재극인",
+        "갈등",
+        "조율",
+        "관계",
+        "불만"
+      ]
+    },
+    {
+      "id": "RC-cd8a20c099",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "structure": "정밀함",
+        "focus": "편재"
+      },
+      "mechanism": "정밀함과 편재는 핵심을 잘 파악하는 능력을 제공.",
+      "interpretation": "정밀함을 요구하는 직업에서 두각을 나타낼 수 있음.",
+      "action": "정밀함을 활용할 수 있는 직업을 선택하라.",
+      "cautions": [
+        "예민함이 과도하면 스트레스 유발 가능."
+      ],
+      "tags": [
+        "정밀함",
+        "편재",
+        "직업",
+        "핵심",
+        "능력"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_140",
+  "updated_at": "2025-12-23T20:27:24"
+}

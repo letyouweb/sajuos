@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_STRU_M_176",
+  "rulecards": [
+    {
+      "id": "RC-4e1bd61ce1",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "interaction": "술토"
+      },
+      "mechanism": "술토는 화의 에너지를 안정시키고 정지시키는 역할을 한다.",
+      "interpretation": "화의 팽창과 확산이 술토에 의해 제한되며 안정감을 얻는다.",
+      "action": "술토와 화의 관계를 분석하여 안정적 구조를 활용하라.",
+      "cautions": [
+        "술토가 화의 에너지를 지나치게 제한할 수 있음"
+      ],
+      "tags": [
+        "화",
+        "술토",
+        "안정",
+        "제한",
+        "팽창"
+      ]
+    },
+    {
+      "id": "RC-87fc1b4daf",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술",
+        "daymaster": "병화"
+      },
+      "mechanism": "술월의 병화는 영역화된 환경에서 활동한다.",
+      "interpretation": "병화는 술월에서 한정된 환경에서 안정적으로 활동한다.",
+      "action": "자신의 영역을 명확히 하고 그 안에서 전문성을 키워라.",
+      "cautions": [
+        "영역을 넘어서는 활동은 실패 가능성이 높음"
+      ],
+      "tags": [
+        "병화",
+        "술월",
+        "영역화",
+        "안정",
+        "한정"
+      ]
+    },
+    {
+      "id": "RC-795f0ebe27",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "interaction": "팽창"
+      },
+      "mechanism": "화는 본질적으로 팽창과 확산의 에너지를 가진다.",
+      "interpretation": "화는 지속적으로 커지고 섞이는 성질을 가진다.",
+      "action": "화의 팽창 에너지를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "팽창 에너지가 과도하면 통제 어려움"
+      ],
+      "tags": [
+        "화",
+        "팽창",
+        "확산",
+        "본질",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-bd9ff5a909",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "술",
+        "element": "화"
+      },
+      "mechanism": "술년은 화의 에너지에 영향을 미친다.",
+      "interpretation": "술년에는 화와 관련된 문제가 발생할 가능성이 있다.",
+      "action": "술년에는 화의 에너지를 안정적으로 관리하라.",
+      "cautions": [
+        "화의 에너지가 약화되거나 제한될 수 있음"
+      ],
+      "tags": [
+        "술년",
+        "화",
+        "문제",
+        "관리",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-a9c445be68",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술",
+        "daymaster": "병화",
+        "structure": "식신"
+      },
+      "mechanism": "술월의 식신은 사회적 개입을 요구한다.",
+      "interpretation": "병화는 술월에서 사회적 역할을 수행해야 한다.",
+      "action": "사회적 조건에 적극적으로 개입하라.",
+      "cautions": [
+        "개입이 과도하면 갈등 발생 가능"
+      ],
+      "tags": [
+        "병화",
+        "술월",
+        "식신",
+        "사회적 역할",
+        "개입"
+      ]
+    },
+    {
+      "id": "RC-6063542eab",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "interaction": "토"
+      },
+      "mechanism": "화생토는 화의 에너지가 토로 전환되는 과정이다.",
+      "interpretation": "화생토는 에너지가 안정되며 소멸되는 과정을 나타낸다.",
+      "action": "화생토의 에너지를 활용하여 안정적 환경을 조성하라.",
+      "cautions": [
+        "화의 에너지가 지나치게 소멸될 수 있음"
+      ],
+      "tags": [
+        "화생토",
+        "안정",
+        "전환",
+        "소멸",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-3a87e03232",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "술",
+        "daymaster": "병화",
+        "structure": "종격"
+      },
+      "mechanism": "술월에서는 병화가 종격으로 보기 어렵다.",
+      "interpretation": "병화는 술월에서 종격으로 작용하기 힘들다.",
+      "action": "술월 병화는 종격이 아닌 다른 구조를 고려하라.",
+      "cautions": [
+        "종격으로 해석 시 오류 가능"
+      ],
+      "tags": [
+        "병화",
+        "술월",
+        "종격",
+        "구조",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-2aacc49660",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "술",
+        "daymaster": "병화",
+        "structure": "식신",
+        "element": "목"
+      },
+      "mechanism": "목은 술토를 조절하여 병화의 식신을 활성화한다.",
+      "interpretation": "목은 병화의 식신을 조절하여 사회적 역할을 강화한다.",
+      "action": "목의 에너지를 활용하여 식신의 역할을 극대화하라.",
+      "cautions": [
+        "목의 에너지가 과도하면 불안정 초래"
+      ],
+      "tags": [
+        "병화",
+        "술월",
+        "식신",
+        "목",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-6c52c353fc",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "토"
+      },
+      "mechanism": "토는 수를 안정시키거나 제한하는 역할을 한다.",
+      "interpretation": "토는 수의 에너지를 조절하여 안정적 환경을 만든다.",
+      "action": "토와 수의 균형을 유지하여 에너지를 조절하라.",
+      "cautions": [
+        "토가 과도하면 수의 에너지가 약화됨"
+      ],
+      "tags": [
+        "토",
+        "수",
+        "안정",
+        "조절",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-a945d2918d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "술",
+        "daymaster": "병화",
+        "structure": "편인"
+      },
+      "mechanism": "편인은 병화의 식신을 조절하여 자격을 부여한다.",
+      "interpretation": "편인은 병화가 사회적 역할을 수행할 자격을 갖추게 한다.",
+      "action": "편인을 활용하여 병화의 사회적 역할을 강화하라.",
+      "cautions": [
+        "편인이 과도하면 식신의 역할이 제한될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "술월",
+        "편인",
+        "식신",
+        "자격"
+      ]
+    },
+    {
+      "id": "RC-3366a7b099",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "fire": "strong",
+        "wood": "present",
+        "water": "absent"
+      },
+      "mechanism": "강한 화가 목을 끌어가면 목의 역할이 제한됨.",
+      "interpretation": "목이 화에 끌려가지 않도록 수가 필요함.",
+      "action": "수의 존재를 통해 목의 균형을 유지하고 목극토를 가능하게 함.",
+      "cautions": [
+        "수의 종류에 따라 효과가 다를 수 있음.",
+        "임수는 지연된 효과를 가질 수 있음."
+      ],
+      "tags": [
+        "화",
+        "목",
+        "수",
+        "목극토",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-3f2b8a6bb8",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth": "strong",
+        "fire": "strong",
+        "wood": "weak"
+      },
+      "mechanism": "강한 토와 화가 목의 역할을 제한함.",
+      "interpretation": "목이 약하면 자격이나 공부가 부족하다는 의미.",
+      "action": "목을 강화하거나 수를 통해 목의 역할을 보완.",
+      "cautions": [
+        "목이 없으면 자격 부족으로 판단될 수 있음."
+      ],
+      "tags": [
+        "토",
+        "화",
+        "목",
+        "자격",
+        "공부"
+      ]
+    },
+    {
+      "id": "RC-8e325b8c3e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earth": "strong",
+        "wood": "present"
+      },
+      "mechanism": "목극토를 통해 강한 토를 조절함.",
+      "interpretation": "목이 토를 조절하면 사회적 역할과 직업적 성과를 얻을 수 있음.",
+      "action": "목의 활동을 통해 토를 조절하고 사회적 시스템에 기여.",
+      "cautions": [
+        "목이 없으면 토의 과잉으로 인해 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "목극토",
+        "토",
+        "목",
+        "사회적 역할",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-e8c21974f2",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "earth": "strong",
+        "wood": "present"
+      },
+      "mechanism": "목이 토를 조절하며 재물의 흐름을 만듦.",
+      "interpretation": "목의 활동이 재물의 생성과 연결됨.",
+      "action": "목의 활동을 촉진하여 재물의 흐름을 강화.",
+      "cautions": [
+        "목이 없으면 재물의 흐름이 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "재물",
+        "조절",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-b81e02896e",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "갑진",
+        "earth": "strong"
+      },
+      "mechanism": "갑진년의 목이 강한 토를 조절하며 새로운 기회를 창출.",
+      "interpretation": "갑진년은 개발, 인허가 등 새로운 시작의 시기.",
+      "action": "갑진년의 기회를 활용하여 새로운 프로젝트를 시작.",
+      "cautions": [
+        "목이 없으면 기회를 놓칠 수 있음."
+      ],
+      "tags": [
+        "갑진",
+        "목",
+        "토",
+        "기회",
+        "개발"
+      ]
+    },
+    {
+      "id": "RC-742a97ef33",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "목이 부족한 경우"
+      },
+      "mechanism": "목은 새로운 에너지를 받아들이고 확장하는 역할.",
+      "interpretation": "목이 부족하면 새로운 아이디어나 변화를 받아들이기 어려움.",
+      "action": "목을 보완하여 새로운 기회를 수용.",
+      "cautions": [
+        "목이 없으면 고집스러운 성향이 강화될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "변화",
+        "확장",
+        "에너지",
+        "수용"
+      ]
+    },
+    {
+      "id": "RC-d49a38042e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "fire": "strong",
+        "earth": "strong",
+        "wood": "present"
+      },
+      "mechanism": "목이 강한 화와 토를 조절하며 직업적 성과를 창출.",
+      "interpretation": "목의 활동이 직업적 성공과 연결됨.",
+      "action": "목의 역할을 강화하여 직업적 성과를 극대화.",
+      "cautions": [
+        "목이 없으면 직업적 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "토",
+        "직업",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-c9b95c9822",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "earth": "strong",
+        "water": "weak"
+      },
+      "mechanism": "강한 토가 수를 고립시켜 소통을 제한.",
+      "interpretation": "수의 고립은 관계에서 답답함을 초래.",
+      "action": "목이나 수를 통해 소통의 통로를 열어야 함.",
+      "cautions": [
+        "수의 고립은 관계 문제를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "토",
+        "수",
+        "소통",
+        "고립",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-7966711b29",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "earth": "strong",
+        "wood": "present",
+        "metal": "weak"
+      },
+      "mechanism": "목이 토를 조절하며 재물의 흐름을 만듦.",
+      "interpretation": "목의 활동이 재물의 생성과 연결됨.",
+      "action": "목의 활동을 촉진하여 재물의 흐름을 강화.",
+      "cautions": [
+        "금이 강하면 목의 역할이 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "재물",
+        "조절",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-3ba71f2ba7",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "병화 중심의 사주"
+      },
+      "mechanism": "병화는 강한 에너지로 다른 요소를 끌어당김.",
+      "interpretation": "병화 중심의 사주는 균형을 유지하기 어려움.",
+      "action": "수와 목을 통해 병화의 에너지를 조절.",
+      "cautions": [
+        "병화가 강하면 다른 요소가 약화될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "균형",
+        "수",
+        "목",
+        "조절"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_176",
+  "updated_at": "2025-12-23T20:27:25"
+}

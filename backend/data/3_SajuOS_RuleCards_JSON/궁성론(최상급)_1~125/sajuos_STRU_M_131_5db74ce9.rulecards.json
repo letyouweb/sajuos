@@ -1,0 +1,460 @@
+{
+  "title": "SajuOS_Logic_STRU_M_131",
+  "rulecards": [
+    {
+      "id": "RC-bc13e5786a",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "month": "5월",
+        "element": "기토"
+      },
+      "mechanism": "5월의 기토는 화생토의 구조로 인해 강한 에너지를 가지며, 열 에너지를 설계하고 전환하는 역할을 한다.",
+      "interpretation": "5월의 기토는 강한 생산성과 현실적 능력을 가지며, 이를 통해 실질적인 결과를 만들어낸다.",
+      "action": "5월의 기토는 습토로 작용해야 하므로 수의 유무를 확인하고, 부족할 경우 보완책을 마련하라.",
+      "cautions": [
+        "기토가 마르면 생산성이 저하되고 종교적 성향으로 전환될 수 있음."
+      ],
+      "tags": [
+        "5월",
+        "기토",
+        "화생토",
+        "습토",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-274de1c666",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "condition": "습토"
+      },
+      "mechanism": "습토는 열 에너지를 흡수하고 설계하여 생산성을 유지한다.",
+      "interpretation": "기토는 습토일 때 현실적이고 생산적인 특성을 발휘한다.",
+      "action": "기토가 습토로 작용하도록 수의 조건을 확인하고 보완하라.",
+      "cautions": [
+        "기토가 마르면 생산성이 저하되고 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "습토",
+        "생산성",
+        "열 에너지",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-8bfc4df946",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "month": "5월",
+        "supporting_elements": [
+          "임수",
+          "계수"
+        ]
+      },
+      "mechanism": "수는 기토의 열기를 조절하고 습토로서의 역할을 강화한다.",
+      "interpretation": "5월의 기토는 수가 있을 때 안정적이고 생산적인 구조를 유지한다.",
+      "action": "임수나 계수가 있는지 확인하고, 부족할 경우 보완책을 마련하라.",
+      "cautions": [
+        "수가 없으면 기토가 마르고 생산성이 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "5월",
+        "임수",
+        "계수",
+        "습토"
+      ]
+    },
+    {
+      "id": "RC-a7215c5ad9",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "화생토"
+      },
+      "mechanism": "화는 기토를 통해 열 에너지를 실체화하고 한정시킨다.",
+      "interpretation": "화생토는 에너지를 안정적으로 전환하여 생산성을 높인다.",
+      "action": "화생토의 구조를 활용하여 에너지를 효율적으로 관리하라.",
+      "cautions": [
+        "화가 과도하면 기토가 마를 위험이 있음."
+      ],
+      "tags": [
+        "화생토",
+        "기토",
+        "열 에너지",
+        "안정성",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-026abf4653",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "month": "5월",
+        "supporting_elements": [
+          "경금"
+        ]
+      },
+      "mechanism": "경금은 기토와 수의 흐름을 연결하여 안정적인 구조를 만든다.",
+      "interpretation": "경금은 기토의 에너지를 조율하고 생산성을 높이는 역할을 한다.",
+      "action": "경금이 있는지 확인하고, 부족할 경우 보완책을 마련하라.",
+      "cautions": [
+        "경금이 없으면 기토가 수의 흐름을 통제하지 못할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "경금",
+        "수",
+        "조율",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-7009534eb4",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "condition": "조토"
+      },
+      "mechanism": "조토는 기토의 생산성과 유연성을 저하시킨다.",
+      "interpretation": "기토가 조토일 경우 생산성이 떨어지고 균형이 깨질 수 있다.",
+      "action": "조토를 방지하기 위해 수의 조건을 강화하라.",
+      "cautions": [
+        "조토 상태에서는 생산성이 크게 저하됨."
+      ],
+      "tags": [
+        "기토",
+        "조토",
+        "생산성",
+        "균형",
+        "수"
+      ]
+    },
+    {
+      "id": "RC-c955420dec",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month": "5월",
+        "element": "기토",
+        "supporting_elements": [
+          "목"
+        ]
+      },
+      "mechanism": "목은 기토의 생산성을 강화하고 안정적인 구조를 만든다.",
+      "interpretation": "5월의 기토는 목이 있을 때 더욱 생산적이고 안정적이다.",
+      "action": "목의 유무를 확인하고, 부족할 경우 보완책을 마련하라.",
+      "cautions": [
+        "목이 없으면 기토의 생산성이 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "5월",
+        "목",
+        "생산성",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-5eb0e90757",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "condition": "종격"
+      },
+      "mechanism": "기토는 종격일 때 재관을 활용하여 생산성을 극대화할 수 있다.",
+      "interpretation": "기토 종격은 재관을 통해 현실적이고 생산적인 결과를 만들어낸다.",
+      "action": "기토 종격의 경우 재관의 유무를 확인하고 활용 방안을 모색하라.",
+      "cautions": [
+        "재관이 없으면 종격의 생산성이 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "종격",
+        "재관",
+        "생산성",
+        "현실성"
+      ]
+    },
+    {
+      "id": "RC-2f3b03dae1",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "금생수"
+      },
+      "mechanism": "금은 기토와 수를 연결하여 에너지 흐름을 원활하게 한다.",
+      "interpretation": "금생수는 기토의 생산성과 안정성을 강화한다.",
+      "action": "금생수의 구조를 활용하여 에너지 흐름을 최적화하라.",
+      "cautions": [
+        "금이 없으면 수의 흐름이 원활하지 않을 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "금생수",
+        "안정성",
+        "생산성",
+        "에너지 흐름"
+      ]
+    },
+    {
+      "id": "RC-1d583b1628",
+      "topic": "TIMING",
+      "priority": 5,
+      "trigger": {
+        "month": "5월",
+        "element": "기토",
+        "supporting_elements": [
+          "계수"
+        ]
+      },
+      "mechanism": "계수는 기토의 열기를 조절하고 생산성을 유지한다.",
+      "interpretation": "5월의 기토는 계수가 있을 때 안정적이고 생산적이다.",
+      "action": "계수의 유무를 확인하고, 부족할 경우 보완책을 마련하라.",
+      "cautions": [
+        "계수가 없으면 기토의 생산성이 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "5월",
+        "계수",
+        "생산성",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-308b87415d",
+      "topic": "HEALTH",
+      "priority": 9,
+      "trigger": {
+        "element_absence": "금"
+      },
+      "mechanism": "금은 건강과 관련된 에너지를 보완함.",
+      "interpretation": "금이 부족하면 혈관 및 만성질환 문제가 발생할 가능성이 높음.",
+      "action": "금의 기운이 들어오는 시기를 활용하여 건강을 관리.",
+      "cautions": [
+        "금이 빠져나가면 건강이 다시 약화될 수 있음."
+      ],
+      "tags": [
+        "건강",
+        "금",
+        "만성질환",
+        "혈관",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-c1a1ac20ec",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "relation": "편인-식신",
+        "interaction": "직접작용"
+      },
+      "mechanism": "편인이 식신에 직접 작용하면 불안정한 결과를 초래.",
+      "interpretation": "결과는 빠르지만 불안정하며, 천재적 기질로 발현될 가능성도 있음.",
+      "action": "연구직이나 교육직처럼 실패를 반복하며 성과를 내는 직업에 적합.",
+      "cautions": [
+        "접촉불량으로 인해 실패율이 높을 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "식신",
+        "직업",
+        "연구",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-16e562b474",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "marriage_timing": "기해년"
+      },
+      "mechanism": "배우자 공이 화로부터 보호받는 조건이 충족됨.",
+      "interpretation": "결혼 시기가 특정 조건에서 결정됨.",
+      "action": "결혼 시기를 사주와 대운 흐름에 맞춰 계획.",
+      "cautions": [
+        "배우자 공의 보호 여부를 확인해야 함."
+      ],
+      "tags": [
+        "결혼",
+        "배우자",
+        "기해년",
+        "사주",
+        "시기"
+      ]
+    },
+    {
+      "id": "RC-9072b64156",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "job_type": "현장직"
+      },
+      "mechanism": "기토는 현장 접근성이 뛰어난 특성을 가짐.",
+      "interpretation": "기토는 현장 중심의 직업에 적합.",
+      "action": "현장직이나 실무 중심의 직업을 선택.",
+      "cautions": [
+        "사무직과는 성향이 다를 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "현장직",
+        "직업",
+        "실무",
+        "접근성"
+      ]
+    },
+    {
+      "id": "RC-891acc1adf",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "spending_pattern": "고정지출"
+      },
+      "mechanism": "정제는 필수 지출을 나타냄.",
+      "interpretation": "정제는 고정적인 생활비 지출을 의미.",
+      "action": "지출 계획을 세워 재정 관리를 철저히 함.",
+      "cautions": [
+        "정제는 아껴도 줄일 수 없는 지출임."
+      ],
+      "tags": [
+        "정제",
+        "재정",
+        "지출",
+        "생활비",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-0e9ffbb7df",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "경금",
+        "support": "식상"
+      },
+      "mechanism": "경금은 능력을 중심으로 직업적 성과를 냄.",
+      "interpretation": "경금은 직업적 안정성과 능력 발휘를 지원.",
+      "action": "경금의 기운을 활용해 직업적 성과를 극대화.",
+      "cautions": [
+        "경금이 없으면 직업적 안정성이 약화될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "직업",
+        "능력",
+        "안정성",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-4d955b654e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element_combination": "사오미",
+        "position": "월지"
+      },
+      "mechanism": "월지에 왕지가 있어야 사회적 접근성이 높아짐.",
+      "interpretation": "월지 중심의 왕지는 직업적 성공과 연결됨.",
+      "action": "월지의 왕지 에너지를 활용해 사회적 위치를 강화.",
+      "cautions": [
+        "일지 중심의 왕지는 사회적 접근성이 낮음."
+      ],
+      "tags": [
+        "왕지",
+        "월지",
+        "사회적 접근성",
+        "직업",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-dbc32ea9fb",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "미토",
+        "stability": "온도조절"
+      },
+      "mechanism": "미토는 화의 에너지를 안정화시킴.",
+      "interpretation": "미토가 있으면 에너지 과잉을 조절 가능.",
+      "action": "미토의 기운을 활용해 안정적인 환경을 조성.",
+      "cautions": [
+        "미토가 없으면 에너지 과잉으로 불안정해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "안정화",
+        "온도조절",
+        "에너지",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-0547b823c1",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "practicality": true
+      },
+      "mechanism": "개수는 현실적이고 경제적인 공부를 가능하게 함.",
+      "interpretation": "개수가 있으면 경제적 성공 가능성이 높아짐.",
+      "action": "개수의 기운을 활용해 실용적인 학문을 선택.",
+      "cautions": [
+        "개수가 없으면 비현실적인 공부에 치우칠 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "경제",
+        "공부",
+        "현실성",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-754f248db3",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "support": "화"
+      },
+      "mechanism": "기토는 화의 에너지를 수렴하여 안정성을 제공.",
+      "interpretation": "기토는 화의 에너지를 활용해 직업적 안정성을 높임.",
+      "action": "기토와 화의 조화를 통해 직업적 성과를 극대화.",
+      "cautions": [
+        "기토가 없으면 화의 에너지가 과잉될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "화",
+        "직업",
+        "안정성",
+        "성과"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_131",
+  "updated_at": "2025-12-23T20:27:24"
+}

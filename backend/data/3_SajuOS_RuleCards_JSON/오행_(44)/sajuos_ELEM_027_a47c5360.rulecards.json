@@ -1,0 +1,892 @@
+{
+  "title": "SajuOS_Logic_ELEM_027",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "dominant_element": "생"
+      },
+      "mechanism": "생은 순차적이고 이완시키는 에너지를 제공함.",
+      "interpretation": "생이 많은 사주는 긴장감이 적고 순리대로 진행되는 삶을 살 가능성이 높음.",
+      "action": "생의 에너지를 활용해 자연스럽게 흐름을 따르는 선택을 하라.",
+      "cautions": [
+        "생이 과도하면 나태해질 수 있음."
+      ],
+      "tags": [
+        "생",
+        "순차적",
+        "이완",
+        "자연스러움",
+        "나태"
+      ],
+      "id": "RC-71c9eb6bec"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "dominant_element": "극"
+      },
+      "mechanism": "극은 긴장감을 유발하며 삶에 전투적이고 호전적인 태도를 형성함.",
+      "interpretation": "극이 많은 사주는 도전과 긴장 속에서 성장하며 강한 생존력을 가짐.",
+      "action": "긴장감을 긍정적으로 활용해 목표를 달성하라.",
+      "cautions": [
+        "과도한 극은 스트레스와 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "극",
+        "긴장감",
+        "전투적",
+        "도전",
+        "생존력"
+      ],
+      "id": "RC-a10343b7cb"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "note": "목과 화의 조화 여부"
+      },
+      "mechanism": "목은 들뜬 상태로 가능성을 열어두고, 화는 방향성을 제공함.",
+      "interpretation": "목과 화가 조화로우면 목표를 향해 효율적으로 나아갈 수 있음.",
+      "action": "목의 에너지를 화로 연결해 구체적인 목표를 설정하라.",
+      "cautions": [
+        "화가 없으면 목의 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목화조화",
+        "목표",
+        "효율"
+      ],
+      "id": "RC-0b548ea5cb"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "dominant_element": "목"
+      },
+      "mechanism": "목은 호기심과 추진력을 제공하며, 새로운 것을 탐구하려는 에너지를 가짐.",
+      "interpretation": "목이 강한 사람은 호기심이 많고 추진력이 강함.",
+      "action": "새로운 기회를 적극적으로 탐구하고 실행하라.",
+      "cautions": [
+        "목이 과도하면 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "호기심",
+        "추진력",
+        "탐구",
+        "에너지"
+      ],
+      "id": "RC-e244499785"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "note": "목이 강하고 화가 없는 경우"
+      },
+      "mechanism": "화는 목의 방향성을 제공하며, 목표를 설정하게 함.",
+      "interpretation": "화가 없으면 목의 에너지가 방향성을 잃고 방황할 가능성이 있음.",
+      "action": "목표를 명확히 설정하고 이를 위한 멘토나 지침을 찾아라.",
+      "cautions": [
+        "목의 에너지가 방황하면 불안정해질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목표",
+        "방향성",
+        "멘토"
+      ],
+      "id": "RC-43f8b528b7"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "목이 다왕한 경우"
+      },
+      "mechanism": "목이 다왕하면 에너지가 분산되어 추진력이 약해질 수 있음.",
+      "interpretation": "목이 다왕하면 집중력이 부족하고 방향성이 흐려질 가능성이 있음.",
+      "action": "목의 에너지를 한 방향으로 집중시키는 노력을 하라.",
+      "cautions": [
+        "분산된 에너지는 성과를 저하시킬 수 있음."
+      ],
+      "tags": [
+        "목",
+        "다왕",
+        "집중력",
+        "방향성",
+        "추진력"
+      ],
+      "id": "RC-91b1ff7ad9"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "note": "목과 화의 부재"
+      },
+      "mechanism": "목은 시작과 가능성을, 화는 방향성을 제공함.",
+      "interpretation": "목과 화가 모두 부족하면 시작과 목표 설정이 어려울 수 있음.",
+      "action": "작은 목표부터 설정하고 이를 실행하며 방향성을 찾아라.",
+      "cautions": [
+        "목과 화의 부재는 무기력감을 초래할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목표",
+        "시작",
+        "무기력"
+      ],
+      "id": "RC-6f974b9dc3"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "note": "목이 강하고 화가 있는 경우"
+      },
+      "mechanism": "화는 목의 에너지를 효율적으로 활용하게 함.",
+      "interpretation": "목과 화가 조화를 이루면 강한 추진력과 명확한 목표를 가짐.",
+      "action": "목과 화의 조화를 활용해 장기적인 계획을 세워라.",
+      "cautions": [
+        "화가 과도하면 목의 에너지가 소진될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "조화",
+        "추진력",
+        "목표"
+      ],
+      "id": "RC-a0a894a8ca"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "목이 강한 사람의 특징"
+      },
+      "mechanism": "목은 새로운 것을 탐구하려는 에너지를 제공함.",
+      "interpretation": "목이 강한 사람은 호기심이 많고 새로운 것을 배우는 데 열정적임.",
+      "action": "새로운 학문이나 기술을 배우는 데 시간을 투자하라.",
+      "cautions": [
+        "호기심이 과도하면 산만해질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "호기심",
+        "탐구",
+        "학습",
+        "열정"
+      ],
+      "id": "RC-664cbe8539"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "note": "목과 화의 상호작용"
+      },
+      "mechanism": "목은 가능성을 열어두고, 화는 이를 구체화함.",
+      "interpretation": "목과 화가 상호작용하면 창의성과 실행력이 강화됨.",
+      "action": "목과 화의 에너지를 활용해 창의적인 프로젝트를 실행하라.",
+      "cautions": [
+        "목과 화의 균형이 깨지면 실행력이 저하될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "창의성",
+        "실행력",
+        "상호작용"
+      ],
+      "id": "RC-78a755cbba"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "strength": "강함",
+        "fire_presence": false
+      },
+      "mechanism": "목은 추진력을 상징하며, 화가 없으면 추진력이 방향성을 잃음.",
+      "interpretation": "목이 강하지만 화가 없으면 시도와 실행이 지연될 가능성이 높음.",
+      "action": "화의 에너지를 보완할 수 있는 환경을 조성하거나 협력자를 찾아라.",
+      "cautions": [
+        "목의 에너지가 과도하면 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "추진력",
+        "실행",
+        "지연"
+      ],
+      "id": "RC-c611402352"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "strength": "강함",
+        "wood_presence": false
+      },
+      "mechanism": "화는 확산과 열정을 상징하며, 목이 없으면 깊이와 실속이 부족함.",
+      "interpretation": "화가 강하지만 목이 없으면 열정은 있으나 실질적인 성과가 부족할 수 있음.",
+      "action": "목의 에너지를 보완하기 위해 학습이나 계획을 체계적으로 진행하라.",
+      "cautions": [
+        "화의 과잉은 불안정성을 초래할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "목",
+        "열정",
+        "성과",
+        "안정성"
+      ],
+      "id": "RC-13966dacb2"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "strength": "강함"
+      },
+      "mechanism": "토는 안정화와 축적을 상징하며, 과도하면 정체를 초래함.",
+      "interpretation": "토가 강하면 안정적이지만 지나치면 변화와 도전을 회피할 가능성이 있음.",
+      "action": "새로운 경험과 변화를 수용하려는 노력을 기울여라.",
+      "cautions": [
+        "안정에만 치중하면 성장 기회를 놓칠 수 있음."
+      ],
+      "tags": [
+        "토",
+        "안정",
+        "축적",
+        "정체",
+        "변화"
+      ],
+      "id": "RC-741a7b0ebc"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "strength": "강함"
+      },
+      "mechanism": "금은 차단과 효율성을 상징하며, 실용적이고 목적 지향적임.",
+      "interpretation": "금이 강하면 효율적이고 실용적이지만 지나치면 융통성이 부족할 수 있음.",
+      "action": "필요한 경우 유연성을 발휘하고 타인의 의견을 수용하라.",
+      "cautions": [
+        "과도한 차단은 인간관계에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "금",
+        "효율성",
+        "실용성",
+        "융통성",
+        "차단"
+      ],
+      "id": "RC-1ffe2a7ff4"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "strength": "약함",
+        "fire_presence": true
+      },
+      "mechanism": "목이 약하고 화가 강하면 외부 환경에 의해 쉽게 영향을 받음.",
+      "interpretation": "목이 약하고 화가 강하면 자발성은 부족하지만 외부 자극에 의해 성과를 낼 가능성이 높음.",
+      "action": "외부의 긍정적 자극을 적극적으로 활용하라.",
+      "cautions": [
+        "외부 의존도가 높아질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "외부 자극",
+        "성과",
+        "의존성"
+      ],
+      "id": "RC-1ed788bc4c"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "strength": "강함",
+        "earth_presence": true
+      },
+      "mechanism": "화는 확산을, 토는 안정화를 상징하며, 둘의 조화는 평범한 삶을 가능케 함.",
+      "interpretation": "화와 토가 조화를 이루면 안정적이고 지속 가능한 성과를 낼 수 있음.",
+      "action": "화의 열정을 토의 안정성으로 균형 있게 조절하라.",
+      "cautions": [
+        "과도한 안정은 열정을 억제할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "안정성",
+        "조화",
+        "지속 가능성"
+      ],
+      "id": "RC-3e8105524d"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "strength": "강함",
+        "metal_presence": true
+      },
+      "mechanism": "목은 추진력을, 금은 차단을 상징하며, 둘의 상충은 갈등을 초래함.",
+      "interpretation": "목과 금이 강하면 추진력과 효율성 사이에서 갈등이 발생할 수 있음.",
+      "action": "목과 금의 에너지를 조화롭게 활용할 방법을 모색하라.",
+      "cautions": [
+        "갈등이 심화되면 결정력이 저하될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "금",
+        "추진력",
+        "효율성",
+        "갈등"
+      ],
+      "id": "RC-dcc0b1e98c"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "strength": "강함",
+        "metal_presence": true
+      },
+      "mechanism": "화는 확산을, 금은 차단을 상징하며, 둘의 조화는 효율적 성과를 가능케 함.",
+      "interpretation": "화와 금이 조화를 이루면 열정과 실용성이 결합된 성과를 낼 수 있음.",
+      "action": "화의 열정을 금의 실용성으로 구체화하라.",
+      "cautions": [
+        "과도한 차단은 열정을 억제할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "금",
+        "열정",
+        "실용성",
+        "조화"
+      ],
+      "id": "RC-14af6e5bc3"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "strength": "약함"
+      },
+      "mechanism": "토는 안정화를 상징하며, 약하면 불안정성이 증가함.",
+      "interpretation": "토가 약하면 현실적 기반이 부족하여 불안정한 삶을 살 가능성이 있음.",
+      "action": "현실적이고 구체적인 계획을 세워 안정성을 확보하라.",
+      "cautions": [
+        "불안정성이 심화되면 스트레스가 증가할 수 있음."
+      ],
+      "tags": [
+        "토",
+        "안정성",
+        "현실적 기반",
+        "불안정",
+        "계획"
+      ],
+      "id": "RC-076b46131f"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "strength": "약함",
+        "water_presence": true
+      },
+      "mechanism": "목은 성장과 추진력을 상징하며, 수는 이를 지원함.",
+      "interpretation": "목이 약하지만 수가 있으면 성장 가능성이 높아짐.",
+      "action": "수의 에너지를 활용해 목의 성장을 도모하라.",
+      "cautions": [
+        "수의 과잉은 목의 에너지를 약화시킬 수 있음."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "성장",
+        "추진력",
+        "지원"
+      ],
+      "id": "RC-3db962832e"
+    },
+    {
+      "id": "RC-23f9803ceb",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "금",
+        "fire": false
+      },
+      "mechanism": "금은 효율성과 시간 관리에 강점을 가지며, 화가 없을 경우 더 빠르게 행동한다.",
+      "interpretation": "금이 발달한 사람은 시간 관리와 효율성이 뛰어나다.",
+      "action": "시간 관리가 중요한 일을 맡기고, 효율성을 칭찬하며 동기부여를 제공하라.",
+      "cautions": [
+        "화가 없을 경우 지나치게 기계적일 수 있음"
+      ],
+      "tags": [
+        "금",
+        "효율성",
+        "시간관리",
+        "행동",
+        "화"
+      ]
+    },
+    {
+      "id": "RC-4a0d59d031",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "fire": false
+      },
+      "mechanism": "목은 느긋하고 효율성이 낮아 행동이 더디다.",
+      "interpretation": "목이 발달한 사람은 시간 관리가 느슨하고 행동이 느리다.",
+      "action": "시간 관리의 중요성을 강조하고, 구체적인 계획을 세우도록 지도하라.",
+      "cautions": [
+        "목이 강할 경우 행동이 산만해질 수 있음"
+      ],
+      "tags": [
+        "목",
+        "느긋함",
+        "효율성",
+        "시간관리",
+        "행동"
+      ]
+    },
+    {
+      "id": "RC-0a84a4ea5b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "water": true
+      },
+      "mechanism": "금생수는 효율성을 극대화하며 결과를 명확히 한다.",
+      "interpretation": "금과 수가 조화를 이루면 결과물이 명확하고 체계적이다.",
+      "action": "금생수의 조합을 가진 사람에게는 체계적인 업무를 맡겨라.",
+      "cautions": [
+        "수가 약하면 결과물이 불완전할 수 있음"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "효율성",
+        "결과",
+        "체계"
+      ]
+    },
+    {
+      "id": "RC-51599e5b3b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "earth": false
+      },
+      "mechanism": "수는 자산의 유동성과 현금성을 상징하며, 토가 없으면 안정성이 부족하다.",
+      "interpretation": "수는 자산의 흐름을 나타내며, 토가 없으면 자산이 고정되지 않는다.",
+      "action": "수와 토의 균형을 맞추어 자산 관리를 강화하라.",
+      "cautions": [
+        "토가 없으면 자산이 쉽게 소모될 수 있음"
+      ],
+      "tags": [
+        "수",
+        "토",
+        "자산",
+        "유동성",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-126e665836",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "fire": true
+      },
+      "mechanism": "수는 지혜와 반성을 상징하며, 화가 있으면 이를 드러내는 힘이 강해진다.",
+      "interpretation": "수와 화가 조화를 이루면 자기 반성과 표현력이 강화된다.",
+      "action": "수와 화의 조합을 가진 사람에게는 창의적이고 표현적인 일을 맡겨라.",
+      "cautions": [
+        "화가 약하면 표현력이 제한될 수 있음"
+      ],
+      "tags": [
+        "수",
+        "화",
+        "지혜",
+        "표현력",
+        "반성"
+      ]
+    },
+    {
+      "id": "RC-e79fb39bd7",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "fire": true,
+        "earth": false
+      },
+      "mechanism": "목생화는 자아 실현과 이상을 추구하지만, 토가 없으면 현실감이 부족하다.",
+      "interpretation": "목생화는 이상 실현에 강하지만, 현실적 기반이 약할 수 있다.",
+      "action": "목생화의 조합을 가진 사람에게는 현실적인 목표 설정을 도와라.",
+      "cautions": [
+        "토가 없으면 이상만 추구하고 실현이 어려울 수 있음"
+      ],
+      "tags": [
+        "목",
+        "화",
+        "토",
+        "이상",
+        "현실감"
+      ]
+    },
+    {
+      "id": "RC-6585379c9e",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "wood": true
+      },
+      "mechanism": "수생목은 유통과 전달의 힘을 상징한다.",
+      "interpretation": "수생목은 정보를 전달하고 유통하는 데 강점을 가진다.",
+      "action": "수생목의 조합을 가진 사람에게는 유통이나 정보 전달 관련 업무를 맡겨라.",
+      "cautions": [
+        "목이 약하면 전달력이 약화될 수 있음"
+      ],
+      "tags": [
+        "수",
+        "목",
+        "유통",
+        "정보",
+        "전달"
+      ]
+    },
+    {
+      "id": "RC-db20b1b5d4",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "금",
+        "fire": true,
+        "water": true
+      },
+      "mechanism": "금생수는 효율성과 체계성을 극대화하며, 화는 이를 더욱 강화한다.",
+      "interpretation": "금생수와 화의 조합은 효율성과 체계성을 극대화한다.",
+      "action": "금생수와 화의 조합을 가진 사람에게는 복잡한 문제 해결을 맡겨라.",
+      "cautions": [
+        "화가 과하면 균형이 깨질 수 있음"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "화",
+        "효율성",
+        "체계성"
+      ]
+    },
+    {
+      "id": "RC-314a14c75a",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "note": "수가 강하고 목이 약한 경우"
+      },
+      "mechanism": "수는 아이디어와 적응력을 상징하며, 목이 약하면 실행력이 부족하다.",
+      "interpretation": "수와 목의 균형이 중요하며, 목이 약하면 실행력이 떨어진다.",
+      "action": "목을 강화하는 활동을 통해 실행력을 보완하라.",
+      "cautions": [
+        "목이 약하면 아이디어가 실행되지 않을 수 있음"
+      ],
+      "tags": [
+        "수",
+        "목",
+        "아이디어",
+        "적응력",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-471e16359b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "earth": true
+      },
+      "mechanism": "화생토는 축적과 안정성을 상징하며, 토가 이를 고정시킨다.",
+      "interpretation": "화생토는 축적된 경험과 안정성을 나타낸다.",
+      "action": "화생토의 조합을 가진 사람에게는 장기적인 프로젝트를 맡겨라.",
+      "cautions": [
+        "토가 약하면 축적된 경험이 쉽게 소멸될 수 있음"
+      ],
+      "tags": [
+        "화",
+        "토",
+        "축적",
+        "안정성",
+        "경험"
+      ]
+    },
+    {
+      "id": "RC-db0295ff04",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "interaction": "목생화",
+        "토": false
+      },
+      "mechanism": "목생화가 토의 제한을 받지 않으면 현실감이 떨어지고 식상의 행위가 무제한적으로 확장됨.",
+      "interpretation": "목생화가 토의 제한 없이 작용하면 현실적 기반 없이 다양한 활동을 추구하게 됨.",
+      "action": "현실적 기반을 마련하거나 구체적인 목표를 설정하도록 유도.",
+      "cautions": [
+        "현실감 부족으로 인해 비판받을 가능성 있음.",
+        "목적 없는 활동은 비효율적일 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "토",
+        "현실감",
+        "식상",
+        "목적"
+      ]
+    },
+    {
+      "id": "RC-8c86a014bf",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "interaction": "목생화",
+        "토": true
+      },
+      "mechanism": "토가 목생화를 제한하면 현실적이고 구체적인 목표를 설정하게 됨.",
+      "interpretation": "목생화가 토의 영향을 받으면 현실적이고 실질적인 결과를 추구함.",
+      "action": "목표를 구체화하고 현실적인 계획을 세우도록 조언.",
+      "cautions": [
+        "과도한 제한은 창의성을 억제할 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "토",
+        "현실적",
+        "목표",
+        "제한"
+      ]
+    },
+    {
+      "id": "RC-9f5011f169",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "preference": "새로운 것"
+      },
+      "mechanism": "목은 이미 존재하는 것을 새롭게 조합하거나 신선하게 만드는 성향이 있음.",
+      "interpretation": "목이 발달한 사람은 기존의 것을 새롭게 재해석하거나 창의적으로 활용함.",
+      "action": "창의적이고 신선한 아이디어를 발굴하도록 격려.",
+      "cautions": [
+        "기존의 것을 무시하거나 과소평가하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "창의성",
+        "신선함",
+        "재해석",
+        "조합"
+      ]
+    },
+    {
+      "id": "RC-b43add124e",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "interaction": "수생목"
+      },
+      "mechanism": "수는 목에게 새로운 아이디어와 창의적 에너지를 제공함.",
+      "interpretation": "수가 목을 생하면 독창적이고 새로운 아이디어를 창출할 가능성이 높음.",
+      "action": "독창적인 아이디어를 실행에 옮길 수 있는 환경을 조성.",
+      "cautions": [
+        "과도한 이상주의에 빠질 수 있음."
+      ],
+      "tags": [
+        "수생목",
+        "창의성",
+        "아이디어",
+        "독창성",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-a48be02365",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "interaction": "금극목"
+      },
+      "mechanism": "금은 목의 확산을 제한하고 방향성을 제시함.",
+      "interpretation": "금이 목을 극하면 목의 에너지가 정리되고 구체적인 방향성을 갖게 됨.",
+      "action": "목의 에너지를 정리하고 명확한 목표를 설정하도록 도움.",
+      "cautions": [
+        "과도한 제한은 목의 창의성을 억제할 수 있음."
+      ],
+      "tags": [
+        "금극목",
+        "방향성",
+        "제한",
+        "목",
+        "정리"
+      ]
+    },
+    {
+      "id": "RC-f043dc5ce4",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "growth": true
+      },
+      "mechanism": "목의 성장은 화와 토의 영향을 받아 그 가치가 결정됨.",
+      "interpretation": "목이 잘 성장하면 개인의 가치와 성취가 높아짐.",
+      "action": "목의 성장을 돕는 환경과 자원을 제공.",
+      "cautions": [
+        "성장이 제한되면 잠재력이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "목",
+        "성장",
+        "화",
+        "토",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-62d2762c1b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "interaction": "화하일관"
+      },
+      "mechanism": "화하일관은 목을 통해 자신의 가치를 키우고 자존심을 강화함.",
+      "interpretation": "화하일관은 목의 성장을 통해 자신의 존재감을 드러냄.",
+      "action": "목의 성장을 지원하고 자존감을 높이는 활동을 권장.",
+      "cautions": [
+        "과도한 자존심은 타인과의 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "화하일관",
+        "목",
+        "자존심",
+        "가치",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-04129cf42e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "재생관"
+      },
+      "mechanism": "재생관은 관을 지원하며 조직 내에서 중간 리더 역할을 수행함.",
+      "interpretation": "재생관은 관을 밀어주며 조직의 안정과 성장을 도모함.",
+      "action": "조직 내에서 관을 지원하는 역할을 충실히 수행.",
+      "cautions": [
+        "과도한 충고는 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "재생관",
+        "관",
+        "리더십",
+        "조직",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-2db473b8b7",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "관인상생"
+      },
+      "mechanism": "관인상생은 관의 편안함을 도모하며 조화를 중시함.",
+      "interpretation": "관인상생은 윗사람과의 관계에서 조화와 안정성을 추구함.",
+      "action": "조화를 중시하며 윗사람과의 관계를 원만히 유지.",
+      "cautions": [
+        "지나친 의존은 독립성을 저해할 수 있음."
+      ],
+      "tags": [
+        "관인상생",
+        "관",
+        "조화",
+        "안정",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-9f92b76c0b",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "location": "첨관"
+      },
+      "mechanism": "첨관에 화가 있으면 멀리 비추는 역할을 하며 승진 가능성을 높임.",
+      "interpretation": "첨관의 화는 직업적 성공과 명성을 의미함.",
+      "action": "화의 에너지를 활용해 장기적인 목표를 설정.",
+      "cautions": [
+        "지지에 화가 없으면 한계가 있을 수 있음."
+      ],
+      "tags": [
+        "첨관",
+        "화",
+        "승진",
+        "성공",
+        "목표"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 내용은 요약 및 재구성됨.",
+    "추가적인 규칙은 다음 청크에서 계속 추출 가능."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_027",
+  "updated_at": "2025-12-23T20:27:25"
+}

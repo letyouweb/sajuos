@@ -1,0 +1,466 @@
+{
+  "title": "SajuOS_Logic_STRU_M_167",
+  "rulecards": [
+    {
+      "id": "RC-d10a5ab44e",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "earth_type": "무토",
+        "comparison": "기토"
+      },
+      "mechanism": "무토는 조습이 부족하여 생산성이 낮고 가치 중심적이다.",
+      "interpretation": "무토는 물질적 가치보다 내적 가치를 중시한다.",
+      "action": "무토의 특성을 이해하고 가치 중심의 삶을 설계하라.",
+      "cautions": [
+        "무토는 물질적 성취에 집착하지 않도록 주의해야 한다."
+      ],
+      "tags": [
+        "무토",
+        "기토",
+        "조습",
+        "가치",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-0ac0128e95",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "earth_type": "기토",
+        "comparison": "무토"
+      },
+      "mechanism": "기토는 조습이 충분하여 물질적 생산성이 높다.",
+      "interpretation": "기토는 대중적 접근성과 물질적 성취를 중시한다.",
+      "action": "기토의 특성을 활용해 대중적 전략을 세워라.",
+      "cautions": [
+        "기토는 과도한 대중 의존을 피해야 한다."
+      ],
+      "tags": [
+        "기토",
+        "무토",
+        "조습",
+        "생산성",
+        "대중성"
+      ]
+    },
+    {
+      "id": "RC-ba4e82c210",
+      "topic": "TEN_GODS",
+      "priority": 10,
+      "trigger": {
+        "god_type": "식신",
+        "placement": "월"
+      },
+      "mechanism": "월의 식신은 사회적 활동과 직업화 가능성을 높인다.",
+      "interpretation": "월에 식신이 있으면 재능을 사회적으로 활용할 수 있다.",
+      "action": "식신의 재능을 직업화하고 사회적 가치를 창출하라.",
+      "cautions": [
+        "식신만으로는 안정적 직업을 보장하지 못할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "월",
+        "직업화",
+        "재능",
+        "사회적 활용"
+      ]
+    },
+    {
+      "id": "RC-2e5556261a",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "god_type": "상관",
+        "placement": "월"
+      },
+      "mechanism": "상관은 외부 환경에 민감하며 반응 중심적이다.",
+      "interpretation": "상관은 유행과 트렌드에 민감하게 반응한다.",
+      "action": "상관의 특성을 활용해 변화에 민첩하게 대응하라.",
+      "cautions": [
+        "상관은 과도한 반응으로 구설에 오를 수 있다."
+      ],
+      "tags": [
+        "상관",
+        "반응",
+        "유행",
+        "트렌드",
+        "구설"
+      ]
+    },
+    {
+      "id": "RC-83f479721c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "식신격",
+        "additional_condition": "편관 포함"
+      },
+      "mechanism": "식신격에 편관이 있으면 문제 해결 능력이 강화된다.",
+      "interpretation": "문제를 인식하고 해결하는 데 탁월한 능력을 발휘한다.",
+      "action": "문제 해결 중심의 직업을 선택하라.",
+      "cautions": [
+        "편관이 과도하면 강압적 성향이 나타날 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "편관",
+        "문제 해결",
+        "직업",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-ec5fc71ed0",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "식신격",
+        "fire_element": "병화"
+      },
+      "mechanism": "병화는 식신의 날카로움을 부드럽게 조율한다.",
+      "interpretation": "병화는 식신의 재능을 사회적으로 인정받게 한다.",
+      "action": "병화를 활용해 식신의 재능을 드러내라.",
+      "cautions": [
+        "병화가 없으면 식신의 날카로움이 부각될 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "병화",
+        "조율",
+        "재능",
+        "사회적 인정"
+      ]
+    },
+    {
+      "id": "RC-fb3e51bd48",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "식신격",
+        "water_element": "개수"
+      },
+      "mechanism": "개수는 식신의 안정성을 저해할 수 있다.",
+      "interpretation": "개수는 식신의 재능을 분산시키고 혼란을 초래할 수 있다.",
+      "action": "개수의 영향을 최소화하고 식신의 집중력을 유지하라.",
+      "cautions": [
+        "개수는 식신의 재능을 약화시킬 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "개수",
+        "분산",
+        "혼란",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-ee27f1fc98",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "식신격",
+        "wood_element": "목"
+      },
+      "mechanism": "목은 식신의 재능을 직업적 위치로 연결한다.",
+      "interpretation": "목은 식신의 재능을 공식적 직함으로 발전시킨다.",
+      "action": "목의 영향을 활용해 직업적 성취를 도모하라.",
+      "cautions": [
+        "목이 과도하면 안정성을 해칠 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "목",
+        "직업",
+        "성취",
+        "공식적 위치"
+      ]
+    },
+    {
+      "id": "RC-540f7a3fa1",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "식신격",
+        "fire_element": "병화",
+        "water_element": "없음"
+      },
+      "mechanism": "병화는 식신의 재능을 안정적으로 드러내게 한다.",
+      "interpretation": "병화는 식신의 재능을 사회적으로 인정받게 한다.",
+      "action": "병화를 통해 식신의 재능을 안정적으로 활용하라.",
+      "cautions": [
+        "병화가 없으면 식신의 재능이 불안정할 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "병화",
+        "안정성",
+        "재능",
+        "사회적 인정"
+      ]
+    },
+    {
+      "id": "RC-589ea012cc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "식신격",
+        "placement": "월",
+        "fire_element": "병화"
+      },
+      "mechanism": "월의 병화는 식신의 재능을 직업화하는 데 필수적이다.",
+      "interpretation": "병화는 식신의 재능을 공식적 자격으로 연결한다.",
+      "action": "병화를 활용해 식신의 재능을 직업화하라.",
+      "cautions": [
+        "병화가 없으면 직업적 안정성이 떨어질 수 있다."
+      ],
+      "tags": [
+        "식신격",
+        "병화",
+        "월",
+        "직업화",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-94b90ad39f",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "fire": true
+      },
+      "mechanism": "병화는 기토의 식신을 활성화하고 직업적 안정성을 제공함.",
+      "interpretation": "병화가 있으면 직업을 만들고 유지할 가능성이 높아짐.",
+      "action": "병화를 활용해 직업적 목표를 설정하고 공부를 통해 자격을 갖출 것.",
+      "cautions": [
+        "병화가 없으면 직업적 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "병화",
+        "직업",
+        "공부",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-3de6efd57d",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "water": true
+      },
+      "mechanism": "수가 기토의 재물을 풍족하게 만듦.",
+      "interpretation": "수가 있으면 먹고 사는 문제에서 풍요로움을 기대할 수 있음.",
+      "action": "수의 흐름을 활용해 재정적 안정성을 확보할 것.",
+      "cautions": [
+        "수가 없으면 재정적 어려움이 있을 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "수",
+        "재물",
+        "풍요",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-7105446e8a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "wood": true
+      },
+      "mechanism": "목극토를 통해 토의 과잉을 조절하고 식신을 활성화함.",
+      "interpretation": "목이 있으면 재능 발굴과 직업적 전환이 용이해짐.",
+      "action": "목의 에너지를 활용해 자신의 재능을 발굴하고 발전시킬 것.",
+      "cautions": [
+        "목이 없으면 토의 과잉으로 인해 전환 능력이 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "목",
+        "재능",
+        "전환",
+        "발굴"
+      ]
+    },
+    {
+      "id": "RC-81aa39d677",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "fire": true,
+        "water": true
+      },
+      "mechanism": "병화와 수가 조화를 이루어 직업적 안정성과 재정적 풍요를 동시에 제공함.",
+      "interpretation": "병화와 수가 함께 있으면 직업적 성공과 재정적 안정이 가능함.",
+      "action": "병화와 수의 조화를 통해 직업과 재정을 동시에 관리할 것.",
+      "cautions": [
+        "병화와 수 중 하나라도 없으면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "병화",
+        "수",
+        "직업",
+        "재정"
+      ]
+    },
+    {
+      "id": "RC-1d1a611936",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "fire": false
+      },
+      "mechanism": "병화가 없으면 직업적 목표를 공식화하기 어려움.",
+      "interpretation": "병화가 없으면 직업적 안정성과 목표 설정이 어려워짐.",
+      "action": "병화운이 올 때 직업적 목표를 설정하고 실행할 것.",
+      "cautions": [
+        "병화가 없으면 비공식적이고 임시적인 일에 머물 가능성이 높음."
+      ],
+      "tags": [
+        "기토",
+        "병화",
+        "직업",
+        "목표",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-03e12511f6",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "earth": "strong"
+      },
+      "mechanism": "토가 지나치게 강하면 식신의 전환 능력이 저하됨.",
+      "interpretation": "토가 강하면 직업적 전환과 발전이 느려질 수 있음.",
+      "action": "토의 과잉을 조절하기 위해 목이나 화를 활용할 것.",
+      "cautions": [
+        "토가 지나치게 강하면 전환 능력이 심각하게 저하될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "토",
+        "전환",
+        "발전",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-d978a6989e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "metal": "weak"
+      },
+      "mechanism": "금이 약하면 식신의 기능이 제대로 발휘되지 않음.",
+      "interpretation": "금이 약하면 직업적 성과를 내기 어려움.",
+      "action": "금의 에너지를 강화하거나 보완할 방법을 모색할 것.",
+      "cautions": [
+        "금이 약하면 직업적 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "금",
+        "식신",
+        "성과",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-3b886d2cf1",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "fire": true,
+        "wood": true
+      },
+      "mechanism": "병화와 목이 함께 있으면 식신의 잠재력을 최대한 발휘할 수 있음.",
+      "interpretation": "병화와 목이 조화를 이루면 직업적 성공 가능성이 높아짐.",
+      "action": "병화와 목의 조화를 통해 직업적 목표를 달성할 것.",
+      "cautions": [
+        "병화와 목 중 하나라도 없으면 잠재력을 발휘하기 어려움."
+      ],
+      "tags": [
+        "기토",
+        "병화",
+        "목",
+        "식신",
+        "잠재력"
+      ]
+    },
+    {
+      "id": "RC-f995fd349a",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "fire": "excessive"
+      },
+      "mechanism": "화가 지나치면 금을 극하여 식신의 기능을 방해함.",
+      "interpretation": "화가 지나치면 직업적 자신감과 성과가 저하될 수 있음.",
+      "action": "화의 과잉을 조절하기 위해 수나 목을 활용할 것.",
+      "cautions": [
+        "화가 지나치면 직업적 불안정성이 증가할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "화",
+        "금",
+        "식신",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-43c7b5e577",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "6월",
+        "element": "기토",
+        "water": "excessive"
+      },
+      "mechanism": "수가 지나치면 토의 안정성을 해치고 재정적 불안정을 초래함.",
+      "interpretation": "수가 지나치면 재정적 안정성이 저하될 수 있음.",
+      "action": "수의 과잉을 조절하기 위해 토나 화를 활용할 것.",
+      "cautions": [
+        "수가 지나치면 재정적 불안정성이 심화될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "수",
+        "토",
+        "재정",
+        "조절"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트에서 식신과 상관의 차이점, 병화와 개수의 역할, 월의 중요성 등이 강조됨.",
+    "구체적인 사례와 비유를 통해 사주 구조와 작용 원리를 설명함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_167",
+  "updated_at": "2025-12-23T20:27:25"
+}

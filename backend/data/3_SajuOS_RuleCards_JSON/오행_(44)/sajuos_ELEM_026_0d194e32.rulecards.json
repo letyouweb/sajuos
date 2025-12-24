@@ -1,0 +1,427 @@
+{
+  "title": "SajuOS_Logic_ELEM_026",
+  "rulecards": [
+    {
+      "id": "RC-7c650a47f5",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "癸水",
+        "type": "flowing"
+      },
+      "mechanism": "흐르는 계수는 자신이 중심이 되어 빠르게 움직임.",
+      "interpretation": "빠른 사고와 실행력을 가지며, 임수보다 속도가 빠름.",
+      "action": "빠른 결단과 실행이 필요한 상황에서 강점을 활용하라.",
+      "cautions": [
+        "속도에 치중하여 세부적인 검토를 놓칠 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "흐름",
+        "속도",
+        "결단",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-e92ba841ca",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "癸水",
+        "type": "moistening"
+      },
+      "mechanism": "적시는 계수는 대상을 중심으로 현실화 작용을 함.",
+      "interpretation": "타인을 돕고 현실적인 변화를 이끌어냄.",
+      "action": "타인의 성장을 돕는 역할에 집중하라.",
+      "cautions": [
+        "자신을 희생하며 타인에게 치중할 가능성 있음."
+      ],
+      "tags": [
+        "癸水",
+        "적심",
+        "현실화",
+        "타인중심",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-57fb0f4737",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "癸水",
+        "partner": "戊土",
+        "relation": "spouse"
+      },
+      "mechanism": "癸水와 戊土의 관계에서 내조와 지원의 역할이 강조됨.",
+      "interpretation": "결혼 후 배우자의 성공을 돕는 내조형 삶을 살 가능성이 큼.",
+      "action": "배우자의 성공을 위해 지원과 협력을 아끼지 말라.",
+      "cautions": [
+        "자신의 욕구를 억누르고 배우자에게만 집중할 위험."
+      ],
+      "tags": [
+        "癸水",
+        "戊土",
+        "결혼",
+        "내조",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-0ea28b7fb8",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "癸水",
+        "presence": true
+      },
+      "mechanism": "癸水는 현실을 구속하고 벗어나기 어렵게 만듦.",
+      "interpretation": "현실적인 제약 속에서 자신의 꿈을 이루기 어려울 수 있음.",
+      "action": "현실과 이상 사이에서 균형을 찾으려 노력하라.",
+      "cautions": [
+        "현실에 지나치게 얽매여 이상을 포기할 가능성."
+      ],
+      "tags": [
+        "癸水",
+        "현실",
+        "구속",
+        "제약",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-beea3d1980",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "癸水",
+        "type": "transformative"
+      },
+      "mechanism": "癸水는 타인을 변화시키는 능력을 가짐.",
+      "interpretation": "타인의 삶에 긍정적인 변화를 유도할 수 있음.",
+      "action": "타인의 성장을 돕는 조언과 지원을 제공하라.",
+      "cautions": [
+        "변화가 강요로 받아들여질 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "변화",
+        "타인",
+        "조언",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-fe864ce4ec",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "癸水",
+        "type": "strategic"
+      },
+      "mechanism": "癸水는 참모 역할에 적합하며 현실화를 잘 이끌어냄.",
+      "interpretation": "조직 내에서 전략적 역할을 수행할 수 있음.",
+      "action": "조직의 목표를 현실화하는 데 기여하라.",
+      "cautions": [
+        "자신의 공로가 가려질 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "참모",
+        "전략",
+        "현실화",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-1174fd11d3",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "癸水",
+        "relation": "壬水"
+      },
+      "mechanism": "癸水는 壬水보다 빠르게 움직이며 실행력이 강함.",
+      "interpretation": "경쟁 상황에서 우위를 점할 가능성이 높음.",
+      "action": "빠른 판단과 실행으로 기회를 선점하라.",
+      "cautions": [
+        "속도에 치중하여 장기적인 계획을 간과할 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "壬水",
+        "속도",
+        "경쟁",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-f39797e739",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "癸水",
+        "type": "information"
+      },
+      "mechanism": "癸水는 가공된 정보를 제공하며 실용적임.",
+      "interpretation": "실질적인 정보 활용 능력이 뛰어남.",
+      "action": "정보를 분석하고 실용적으로 활용하라.",
+      "cautions": [
+        "정보의 깊이보다는 실용성에 치중할 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "정보",
+        "실용성",
+        "분석",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-066d85e09f",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "癸水",
+        "relation": "甲木"
+      },
+      "mechanism": "癸水는 甲木을 생하며 창조력을 지원함.",
+      "interpretation": "창의적인 활동에서 중요한 역할을 함.",
+      "action": "창조적인 프로젝트에서 지원 역할을 맡아라.",
+      "cautions": [
+        "지원에 치중하여 자신의 창의성을 발휘하지 못할 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "甲木",
+        "창조",
+        "지원",
+        "생"
+      ]
+    },
+    {
+      "id": "RC-deeb354807",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "癸水",
+        "relation": "火"
+      },
+      "mechanism": "癸水는 火와의 관계에서 목표를 설정하고 추진력을 얻음.",
+      "interpretation": "목표 지향적인 삶을 살 가능성이 높음.",
+      "action": "명확한 목표를 설정하고 추진력을 유지하라.",
+      "cautions": [
+        "목표에만 집중하여 과정의 중요성을 간과할 수 있음."
+      ],
+      "tags": [
+        "癸水",
+        "火",
+        "목표",
+        "추진력",
+        "지향"
+      ]
+    },
+    {
+      "id": "RC-d936952a93",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "relation": "임수"
+      },
+      "mechanism": "금생수의 관계가 지속적으로 작용하여 생설이 원활함.",
+      "interpretation": "경금과 임수의 조합은 지속적인 생설 관계를 형성하여 안정적인 에너지를 제공함.",
+      "action": "경금과 임수의 조합을 활용해 꾸준히 노력하고 지속성을 유지할 것.",
+      "cautions": [
+        "과도한 기대는 피할 것",
+        "균형을 유지할 것"
+      ],
+      "tags": [
+        "경금",
+        "임수",
+        "생설",
+        "지속성",
+        "조화",
+        "균형",
+        "오행",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-446035ac3c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "relation": "계수"
+      },
+      "mechanism": "경금이 계수를 생하지만 계수는 경금을 설하지 않음.",
+      "interpretation": "경금과 계수의 조합은 생설의 균형이 부족하여 일관성이 떨어질 수 있음.",
+      "action": "경금과 계수의 조합에서는 꾸준함을 유지하기 위한 추가적인 노력이 필요함.",
+      "cautions": [
+        "일관성 부족에 주의",
+        "추가적인 균형 조정 필요"
+      ],
+      "tags": [
+        "경금",
+        "계수",
+        "생설",
+        "균형",
+        "일관성",
+        "오행",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-11f046a78d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "감목",
+        "relation": "임수"
+      },
+      "mechanism": "감목이 임수를 소화하여 생설의 균형을 맞춤.",
+      "interpretation": "감목과 임수의 조합은 감목이 임수의 에너지를 활용하여 성장과 발전을 도모함.",
+      "action": "감목과 임수의 조합에서는 자원을 효율적으로 활용할 것.",
+      "cautions": [
+        "자원 낭비에 주의",
+        "균형 유지 필요"
+      ],
+      "tags": [
+        "감목",
+        "임수",
+        "생설",
+        "성장",
+        "발전",
+        "오행",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-dd79468a08",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "감목",
+        "relation": "계수"
+      },
+      "mechanism": "감목이 계수를 필요할 때만 활용하며 생설의 균형이 부족함.",
+      "interpretation": "감목과 계수의 조합은 필요에 따라 에너지를 활용하나 지속성이 부족할 수 있음.",
+      "action": "감목과 계수의 조합에서는 필요에 따라 적절히 자원을 활용할 것.",
+      "cautions": [
+        "지속성 부족에 주의",
+        "필요 이상으로 의존하지 말 것"
+      ],
+      "tags": [
+        "감목",
+        "계수",
+        "생설",
+        "균형",
+        "지속성",
+        "오행",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-a4b45a84ba",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "relation": "정화"
+      },
+      "mechanism": "정화가 경금에게 목적성을 부여하여 특정 분야에 특화시킴.",
+      "interpretation": "경금과 정화의 조합은 특정 직업이나 역할에 특화된 능력을 발휘함.",
+      "action": "경금과 정화의 조합에서는 목표를 명확히 설정하고 집중할 것.",
+      "cautions": [
+        "목표 설정의 오류에 주의",
+        "과도한 집중으로 인한 스트레스 관리 필요"
+      ],
+      "tags": [
+        "경금",
+        "정화",
+        "목적성",
+        "특화",
+        "직업",
+        "십성",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-c0ae94b6c9",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "relation": "병화"
+      },
+      "mechanism": "병화는 경금에게 보여주는 역할만 하며 특화시키지 않음.",
+      "interpretation": "경금과 병화의 조합은 임시적이고 보여주는 데 초점이 맞춰짐.",
+      "action": "경금과 병화의 조합에서는 유통, 전시 등 보여주는 직업에 적합함.",
+      "cautions": [
+        "장기적인 계획 부족에 주의",
+        "표면적인 성과에만 의존하지 말 것"
+      ],
+      "tags": [
+        "경금",
+        "병화",
+        "임시직",
+        "유통",
+        "전시",
+        "십성",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-02186da3ad",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "note": "일간 중심 해석이 아닌 전체 사주를 고려해야 함"
+      },
+      "mechanism": "사주는 일간뿐만 아니라 전체 구조와 상호작용을 통해 해석됨.",
+      "interpretation": "일간 중심 해석은 제한적일 수 있으며, 전체 사주를 종합적으로 분석해야 함.",
+      "action": "사주 해석 시 전체 구조와 상호작용을 고려할 것.",
+      "cautions": [
+        "일간에만 치중하지 말 것",
+        "전체적인 맥락을 놓치지 말 것"
+      ],
+      "tags": [
+        "일간",
+        "전체 구조",
+        "사주 해석",
+        "종합적 분석",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-84a9c06ae9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "note": "청간에서 특정 글자가 일간보다 중요할 수 있음"
+      },
+      "mechanism": "청간의 특정 글자가 사주의 핵심 역할을 할 수 있음.",
+      "interpretation": "청간의 중요한 글자를 중심으로 해석하면 더 명확한 결과를 얻을 수 있음.",
+      "action": "청간의 중요한 글자를 중심으로 사주를 분석할 것.",
+      "cautions": [
+        "중요 글자를 간과하지 말 것",
+        "청간의 역할을 정확히 이해할 것"
+      ],
+      "tags": [
+        "청간",
+        "중요 글자",
+        "사주 해석",
+        "천간",
+        "구조"
+      ]
+    }
+  ],
+  "notes": [
+    "일부 내용은 강의 맥락에서 생략되었으며, 추가적인 설명이 필요할 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_026",
+  "updated_at": "2025-12-23T20:27:25"
+}

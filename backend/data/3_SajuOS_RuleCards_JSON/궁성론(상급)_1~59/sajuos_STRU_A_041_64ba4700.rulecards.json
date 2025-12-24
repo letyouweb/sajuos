@@ -1,0 +1,905 @@
+{
+  "title": "SajuOS_Logic_STRU_A_041",
+  "rulecards": [
+    {
+      "id": "RC-5cbdd0743e",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "신월",
+        "element": "임수"
+      },
+      "mechanism": "신월의 임수는 이미 소화된 상태로 간주됨.",
+      "interpretation": "신월 임수는 에너지가 안정적이며 활용 가능성이 높음.",
+      "action": "신월 임수의 에너지를 활용해 직업적 기틀을 마련.",
+      "cautions": [
+        "목이나 토가 없으면 직업적 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "신월",
+        "임수",
+        "직업",
+        "안정성",
+        "소화"
+      ]
+    },
+    {
+      "id": "RC-32adc842c6",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "신월",
+        "element": "임수",
+        "supporting_elements": [
+          "목",
+          "토"
+        ]
+      },
+      "mechanism": "목과 토는 임수의 직업적 활용을 결정짓는 요소.",
+      "interpretation": "목은 프리랜서적 성향, 토는 직장인적 성향을 나타냄.",
+      "action": "목과 토의 유무에 따라 직업 방향을 설정.",
+      "cautions": [
+        "목과 토가 모두 없으면 직업적 활용이 어려움."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "직업",
+        "프리랜서",
+        "직장인"
+      ]
+    },
+    {
+      "id": "RC-c5bab383ae",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "supporting_element": "화"
+      },
+      "mechanism": "화는 목의 안정성을 강화함.",
+      "interpretation": "화가 있으면 목이 안정적이고 지속 가능성이 높음.",
+      "action": "목이 직업으로 쓰일 경우 화의 유무를 확인.",
+      "cautions": [
+        "화가 없으면 불안정한 직업 형태로 이어질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "안정성",
+        "직업",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-a68219065f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "supporting_element": "목"
+      },
+      "mechanism": "목은 수의 자정작용을 가능하게 함.",
+      "interpretation": "목이 없으면 수는 고여서 변질될 가능성이 있음.",
+      "action": "목의 유무를 확인하여 수의 활용 가능성을 판단.",
+      "cautions": [
+        "목이 없으면 수의 자정작용이 약화됨."
+      ],
+      "tags": [
+        "수",
+        "목",
+        "자정작용",
+        "안정성",
+        "변질"
+      ]
+    },
+    {
+      "id": "RC-fd7628b1f7",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "supporting_element": "화"
+      },
+      "mechanism": "화는 금생수의 속도를 증가시킴.",
+      "interpretation": "화가 있으면 금생수가 원활하게 이루어짐.",
+      "action": "금생수의 효율성을 높이기 위해 화의 유무를 확인.",
+      "cautions": [
+        "화가 없으면 금생수의 속도가 느려질 수 있음."
+      ],
+      "tags": [
+        "금",
+        "화",
+        "금생수",
+        "속도",
+        "효율성"
+      ]
+    },
+    {
+      "id": "RC-957e228e80",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "supporting_element": "수"
+      },
+      "mechanism": "금은 수를 생성하며, 수는 금의 복잡성을 단순화함.",
+      "interpretation": "금과 수의 조화는 복잡한 문제를 단순화하는 데 도움.",
+      "action": "금과 수의 조화를 통해 문제 해결 능력을 강화.",
+      "cautions": [
+        "금과 수의 균형이 깨지면 문제 해결 능력이 약화됨."
+      ],
+      "tags": [
+        "금",
+        "수",
+        "단순화",
+        "문제 해결",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-cb261ce5d7",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "supporting_elements": [
+          "무토",
+          "정화"
+        ]
+      },
+      "mechanism": "무토와 정화는 임수의 용도를 설정함.",
+      "interpretation": "무토와 정화가 임수의 방향성과 활용도를 결정.",
+      "action": "무토와 정화의 유무를 확인하여 임수의 활용 방안을 설정.",
+      "cautions": [
+        "무토와 정화가 없으면 임수의 방향성이 불명확해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "무토",
+        "정화",
+        "방향성",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-bdb3cf8a44",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "겁재",
+        "supporting_element": "수화"
+      },
+      "mechanism": "수화는 겁재를 효과적으로 활용하게 함.",
+      "interpretation": "수화가 있으면 겁재의 긍정적 활용이 가능.",
+      "action": "겁재를 다룰 때 수화의 유무를 확인.",
+      "cautions": [
+        "수화가 없으면 겁재의 부정적 영향이 커질 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "수화",
+        "활용",
+        "긍정적 영향",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-f7438b0b8b",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "겁재",
+        "context": "재물"
+      },
+      "mechanism": "겁재는 대가를 지불하는 성향이 강함.",
+      "interpretation": "겁재는 재물 관리에서 분리적 시각을 가짐.",
+      "action": "겁재가 강한 경우 재물 관리 방식을 조정.",
+      "cautions": [
+        "겁재가 지나치게 강하면 관계에서 분리적 태도가 나타날 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "재물",
+        "대가",
+        "분리",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-346b65d613",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "supporting_element": "수"
+      },
+      "mechanism": "목은 수의 흐름을 돕고, 수는 목을 성장시킴.",
+      "interpretation": "목과 수의 상호작용은 성장과 발전을 촉진.",
+      "action": "목과 수의 상호작용을 활용해 발전 방향을 설정.",
+      "cautions": [
+        "목과 수의 균형이 깨지면 성장 가능성이 저하됨."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "성장",
+        "발전",
+        "상호작용"
+      ]
+    },
+    {
+      "id": "RC-70d962e845",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "category": "겁재",
+        "strength": "강함"
+      },
+      "mechanism": "겁재는 분리적 시각을 강화하며, 관계에서 독립성을 중시한다.",
+      "interpretation": "부부 관계에서 '너는 너, 나는 나'라는 분리적 태도가 나타날 수 있다.",
+      "action": "상대방과의 관계에서 독립성과 협력의 균형을 유지하도록 노력해야 한다.",
+      "cautions": [
+        "과도한 독립성은 갈등을 유발할 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "부부관계",
+        "독립성",
+        "갈등",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-6dfcdbcb4d",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "category": "겁재",
+        "location": "월지"
+      },
+      "mechanism": "월지의 겁재는 직업적 관계에서 영향을 미친다.",
+      "interpretation": "직장에서 겁재가 주도권을 가지거나 영향을 미칠 가능성이 크다.",
+      "action": "직업적 관계에서 겁재의 역할을 이해하고 조율하는 전략을 세워야 한다.",
+      "cautions": [
+        "겁재가 강하면 갈등이 발생할 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "월지",
+        "직업",
+        "주도권",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-88a1a9771d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "category": "겁재",
+        "location": "연지"
+      },
+      "mechanism": "연지의 겁재는 불특정 다수와의 관계를 나타낸다.",
+      "interpretation": "생판 모르는 사람들과의 인연이 형성될 가능성이 있다.",
+      "action": "새로운 인연을 긍정적으로 받아들이고 활용할 방법을 모색하라.",
+      "cautions": [
+        "예상치 못한 관계에서 갈등이 생길 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "연지",
+        "인연",
+        "불특정다수",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-ec283af786",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "category": "겁재",
+        "support": {
+          "수": true,
+          "화": true
+        }
+      },
+      "mechanism": "수와 화는 겁재를 조율하고 활용하는 데 도움을 준다.",
+      "interpretation": "겁재를 효과적으로 활용하려면 수와 화의 조화가 필요하다.",
+      "action": "수와 화의 에너지를 강화하거나 활용할 방안을 찾으라.",
+      "cautions": [
+        "수와 화가 부족하면 겁재의 부정적 영향이 커질 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "수",
+        "화",
+        "조화",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-3724ddf415",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "category": "겁재",
+        "location": "시에 있음"
+      },
+      "mechanism": "시의 겁재는 육친적 관계를 나타낸다.",
+      "interpretation": "가족, 특히 동생과의 관계에서 영향을 미친다.",
+      "action": "가족 관계에서 겁재의 역할을 이해하고 조율하라.",
+      "cautions": [
+        "가족 간 갈등이 발생할 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "시지",
+        "가족",
+        "육친",
+        "동생"
+      ]
+    },
+    {
+      "id": "RC-f78bb132df",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "category": "겁재",
+        "strength": "약함"
+      },
+      "mechanism": "겁재가 약하면 타인의 도움을 받는 경향이 강하다.",
+      "interpretation": "자신보다 능력 있는 사람들에게 의존할 가능성이 있다.",
+      "action": "자립심을 키우고 자신의 능력을 강화하라.",
+      "cautions": [
+        "과도한 의존은 성장에 방해가 될 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "의존",
+        "자립",
+        "능력",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-b025a28a79",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "category": "겁재",
+        "support": {
+          "병화": true
+        }
+      },
+      "mechanism": "병화는 겁재를 주도적으로 활용할 수 있는 에너지를 제공한다.",
+      "interpretation": "병화가 있으면 겁재를 효과적으로 통제하고 활용할 수 있다.",
+      "action": "병화의 에너지를 활용해 겁재를 조율하라.",
+      "cautions": [
+        "병화가 약하면 겁재의 부정적 영향이 커질 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "병화",
+        "주도",
+        "통제",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-24b97cecba",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "category": "겁재",
+        "support": {
+          "임수": true
+        }
+      },
+      "mechanism": "임수는 겁재를 부드럽게 조율하는 역할을 한다.",
+      "interpretation": "임수가 있으면 겁재를 긍정적으로 활용할 가능성이 높다.",
+      "action": "임수의 에너지를 활용해 겁재를 조율하라.",
+      "cautions": [
+        "임수가 약하면 겁재의 부정적 영향이 커질 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "임수",
+        "조율",
+        "활용",
+        "긍정"
+      ]
+    },
+    {
+      "id": "RC-64b8b99d55",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "category": "겁재",
+        "location": "월지",
+        "support": {
+          "화": true
+        }
+      },
+      "mechanism": "월지 겁재와 화는 조직 내에서 겁재를 조율하는 역할을 한다.",
+      "interpretation": "화가 있으면 조직 내에서 겁재를 효과적으로 활용할 수 있다.",
+      "action": "화의 에너지를 활용해 조직 내 겁재를 조율하라.",
+      "cautions": [
+        "화가 부족하면 조직 내 갈등이 발생할 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "월지",
+        "화",
+        "조직",
+        "조율"
+      ]
+    },
+    {
+      "id": "RC-023c61a337",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "category": "겁재",
+        "location": "월지",
+        "support": {
+          "수": true
+        }
+      },
+      "mechanism": "월지 겁재와 수는 개인 사업에서 겁재를 활용하는 데 도움을 준다.",
+      "interpretation": "수가 있으면 개인 사업에서 겁재를 효과적으로 활용할 수 있다.",
+      "action": "수의 에너지를 활용해 개인 사업에서 겁재를 조율하라.",
+      "cautions": [
+        "수가 부족하면 개인 사업에서 어려움을 겪을 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "월지",
+        "수",
+        "개인사업",
+        "조율"
+      ]
+    },
+    {
+      "id": "RC-e576a4ea65",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "combination": "병신합"
+      },
+      "mechanism": "병신합은 긍정적인 결과를 유도하며, 관과의 조화로 승복과 안정감을 형성한다.",
+      "interpretation": "병신합은 갈등을 줄이고 긍정적인 방향으로 상황을 정리한다.",
+      "action": "병신합이 발생하면 상황을 정리하고 긍정적인 결과를 기대하라.",
+      "cautions": [
+        "합이 제대로 작용하지 않으면 갈등이 지속될 수 있음."
+      ],
+      "tags": [
+        "병신합",
+        "관",
+        "승복",
+        "긍정",
+        "갈등해소"
+      ]
+    },
+    {
+      "id": "RC-494b928efc",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "note": "비겁이 강한 경우"
+      },
+      "mechanism": "비겁이 강하면 자신과 타인의 차이를 인지하며 자존감을 형성한다.",
+      "interpretation": "비겁이 강할 때는 자신만의 강점을 인정하고 자존감을 높일 수 있다.",
+      "action": "자신의 강점을 인지하고 타인과 비교하지 않도록 노력하라.",
+      "cautions": [
+        "비교로 인해 자격지심이 생길 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "자존감",
+        "비교",
+        "강점",
+        "자기인식"
+      ]
+    },
+    {
+      "id": "RC-005bb67057",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "정관격",
+        "support": "재생관"
+      },
+      "mechanism": "정관격에서 재생관이 있으면 관이 안정적으로 유지된다.",
+      "interpretation": "재생관이 있으면 공무원이나 안정적인 직업에 적합하다.",
+      "action": "재생관이 있다면 공무원 시험이나 안정적인 직업을 고려하라.",
+      "cautions": [
+        "재생관이 없으면 관이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "정관격",
+        "재생관",
+        "공무원",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-7c363cd00c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "건록격",
+        "element": "목"
+      },
+      "mechanism": "건록격에서 목이 발달하면 관이 안정적으로 작용한다.",
+      "interpretation": "목이 발달하면 승진과 직업적 성공 가능성이 높아진다.",
+      "action": "목의 발달을 활용해 직업적 목표를 설정하라.",
+      "cautions": [
+        "목이 없으면 승진이 느려질 수 있음."
+      ],
+      "tags": [
+        "건록격",
+        "목",
+        "승진",
+        "직업성공",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-12674c4582",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "연지 비견이 있는 경우"
+      },
+      "mechanism": "연지 비견은 넓은 범위에서 영향력을 발휘한다.",
+      "interpretation": "연지 비견은 지역보다는 전국적, 국제적 활동에 적합하다.",
+      "action": "연지 비견이 있다면 지역을 넘어 더 큰 무대로 나아가라.",
+      "cautions": [
+        "지역에 머물면 능력을 발휘하기 어려울 수 있음."
+      ],
+      "tags": [
+        "연지비견",
+        "영향력",
+        "전국적",
+        "국제적",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-925d3a7d17",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "월지 비견"
+      },
+      "mechanism": "월지 비견은 가업과 연결되며, 집안의 중심 역할을 한다.",
+      "interpretation": "월지 비견은 가업을 계승하거나 집안의 중심 인물이 된다.",
+      "action": "가업 계승이나 집안의 중심 역할을 준비하라.",
+      "cautions": [
+        "가업과의 연결이 약하면 중심 역할이 어려울 수 있음."
+      ],
+      "tags": [
+        "월지비견",
+        "가업",
+        "집안중심",
+        "계승",
+        "책임"
+      ]
+    },
+    {
+      "id": "RC-20222f7d3b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "비견이 강한 경우"
+      },
+      "mechanism": "비견이 강하면 친구나 동료와의 관계가 확장된다.",
+      "interpretation": "비견이 강할 때는 사회적 관계가 넓어지고 협력 가능성이 높아진다.",
+      "action": "사회적 관계를 확장하고 협력을 도모하라.",
+      "cautions": [
+        "비견이 약하면 관계 확장이 어려울 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "사회적관계",
+        "협력",
+        "확장",
+        "친구"
+      ]
+    },
+    {
+      "id": "RC-2c144c3e86",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "상관격",
+        "note": "상관이 강한 경우"
+      },
+      "mechanism": "상관격에서 상관이 강하면 관을 다루기 어렵다.",
+      "interpretation": "상관이 강할 때는 독립적이거나 창의적인 직업이 적합하다.",
+      "action": "상관이 강하면 독립적 직업이나 창의적 활동을 고려하라.",
+      "cautions": [
+        "관을 다루기 어려워 조직 생활에 부적합할 수 있음."
+      ],
+      "tags": [
+        "상관격",
+        "상관",
+        "독립",
+        "창의성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-ab8f0ad004",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "note": "상관이 있는 경우"
+      },
+      "mechanism": "정관격에서 상관이 있으면 관의 안정성이 약화된다.",
+      "interpretation": "상관이 있으면 관과의 조화가 어려워질 수 있다.",
+      "action": "상관이 있을 때는 관과의 균형을 유지하도록 노력하라.",
+      "cautions": [
+        "상관이 강하면 관의 역할이 약화될 수 있음."
+      ],
+      "tags": [
+        "정관격",
+        "상관",
+        "관조화",
+        "균형",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-424ad75cc4",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "관운이 강하게 들어오는 경우"
+      },
+      "mechanism": "관운이 강하면 사회적 책임과 역할이 강조된다.",
+      "interpretation": "관운이 강할 때는 사회적 책임을 다하고 성숙해질 기회가 된다.",
+      "action": "관운이 들어오면 책임을 다하고 성숙한 태도를 유지하라.",
+      "cautions": [
+        "관운이 약하면 책임감이 부족해질 수 있음."
+      ],
+      "tags": [
+        "관운",
+        "책임",
+        "성숙",
+        "사회적역할",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-9d8470025c",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "self_dominance": true,
+        "partner_importance": false
+      },
+      "mechanism": "자기 주도성이 강한 사주는 타인과의 조화가 어려움.",
+      "interpretation": "결혼 생활에서 갈등이 발생할 가능성이 높음.",
+      "action": "상대방과의 조화를 위해 노력하고, 타협점을 찾으려는 자세를 가질 것.",
+      "cautions": [
+        "자기중심적 태도는 관계를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "결혼",
+        "자기주도",
+        "갈등",
+        "타협",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-71b34ff704",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "supporting_elements": [
+          "목",
+          "화"
+        ]
+      },
+      "mechanism": "기토는 목과 화의 조화를 통해 본질적 역할을 발휘함.",
+      "interpretation": "기토가 목과 화를 통해 성장과 조화를 이끌어냄.",
+      "action": "목과 화의 균형을 유지하며 기토의 본질을 강화할 것.",
+      "cautions": [
+        "목과 화의 불균형은 기토의 역할을 약화시킬 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "목",
+        "화",
+        "조화",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-1860522b2b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "relation": "상관"
+      },
+      "mechanism": "신금 상관은 목을 통제하고 조절하려는 성향을 가짐.",
+      "interpretation": "통제적이고 직설적인 성향이 나타남.",
+      "action": "상대방의 자존심을 건드리지 않도록 주의하며 소통할 것.",
+      "cautions": [
+        "직설적인 표현은 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "상관",
+        "통제",
+        "직설적",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-dd5bc7f3f5",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "상관",
+        "position": "연간"
+      },
+      "mechanism": "연간 상관은 외부로 드러나는 영향력을 가짐.",
+      "interpretation": "언론, 유통, 무역 등 외부와의 연결이 중요한 직업에 적합.",
+      "action": "외부와의 소통과 네트워크를 강화할 것.",
+      "cautions": [
+        "상관의 영향력이 과도하면 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "연간",
+        "직업",
+        "언론",
+        "유통"
+      ]
+    },
+    {
+      "id": "RC-26ef4edfd8",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "해수",
+        "relation": "정재"
+      },
+      "mechanism": "해수 정재는 다양한 품목을 다루는 성향을 가짐.",
+      "interpretation": "다양한 상품을 취급하는 사업에 적합.",
+      "action": "다양한 상품군을 활용한 사업 모델을 개발할 것.",
+      "cautions": [
+        "너무 많은 품목은 관리의 어려움을 초래할 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "정재",
+        "사업",
+        "다양성",
+        "품목"
+      ]
+    },
+    {
+      "id": "RC-49a1885168",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "상관",
+        "relation": "경관"
+      },
+      "mechanism": "상관 경관은 관을 자극하고 변화시키는 역할을 함.",
+      "interpretation": "관계에서 갈등과 변화를 유발할 가능성이 있음.",
+      "action": "상대방의 입장을 고려하며 갈등을 최소화할 것.",
+      "cautions": [
+        "과도한 자극은 관계를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "경관",
+        "갈등",
+        "변화",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-94917b1d7e",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "상관",
+        "relation": "생재"
+      },
+      "mechanism": "상관 생재는 자영업 및 창의적 사업에 적합.",
+      "interpretation": "즉석식품, 간편식 등 실용적인 사업에 강점.",
+      "action": "창의적이고 실용적인 사업 아이템을 개발할 것.",
+      "cautions": [
+        "시장 트렌드에 민감하게 반응해야 함."
+      ],
+      "tags": [
+        "상관",
+        "생재",
+        "자영업",
+        "창의성",
+        "실용성"
+      ]
+    },
+    {
+      "id": "RC-23acb78e05",
+      "topic": "GENERAL",
+      "priority": 4,
+      "trigger": {
+        "note": "상관이 연지에 위치한 경우"
+      },
+      "mechanism": "연지 상관은 간접적인 영향력을 발휘함.",
+      "interpretation": "직접적인 직업화보다는 간접적인 영향력이 큼.",
+      "action": "직접적인 직업화보다는 간접적인 방식으로 활용할 것.",
+      "cautions": [
+        "직업화가 어려울 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "연지",
+        "간접",
+        "직업화",
+        "영향력"
+      ]
+    },
+    {
+      "id": "RC-81cfb1a373",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "element": "정관",
+        "position": "시지"
+      },
+      "mechanism": "시지 정관은 배우자와의 관계를 드러내지 않음.",
+      "interpretation": "배우자와의 관계를 외부에 잘 드러내지 않음.",
+      "action": "배우자와의 관계를 존중하며 사생활을 보호할 것.",
+      "cautions": [
+        "외부와의 소통 부족으로 오해를 살 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "시지",
+        "배우자",
+        "사생활",
+        "소통"
+      ]
+    },
+    {
+      "id": "RC-8db0b4cd0f",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "상관",
+        "relation": "언론"
+      },
+      "mechanism": "상관은 언론 및 대리업무에 적합한 성향을 가짐.",
+      "interpretation": "언론, 대리업무 등 타인의 목소리를 대변하는 직업에 적합.",
+      "action": "타인의 의견을 대변하며 소통 능력을 강화할 것.",
+      "cautions": [
+        "자신의 의견을 과도하게 드러내지 않도록 주의."
+      ],
+      "tags": [
+        "상관",
+        "언론",
+        "대리업무",
+        "소통",
+        "대변"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_041",
+  "updated_at": "2025-12-23T20:27:23"
+}

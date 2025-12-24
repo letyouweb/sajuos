@@ -1,0 +1,443 @@
+{
+  "title": "SajuOS_Logic_APPL_035",
+  "rulecards": [
+    {
+      "id": "RC-10cd39d830",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "parent_has_siksang": true
+      },
+      "mechanism": "식상은 자녀와의 감정적 교류와 육체적 연결을 상징한다.",
+      "interpretation": "식상이 있는 부모는 자녀와의 감정적 교류가 원활하며, 자녀를 단순히 사랑의 대상으로 본다.",
+      "action": "자녀와의 스킨십과 감정적 교류를 통해 관계를 강화하라.",
+      "cautions": [
+        "식상이 없으면 감정적 교류가 부족할 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "감정교류",
+        "스킨십",
+        "자녀",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-274395767e",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "parent_has_gwan": true
+      },
+      "mechanism": "관성은 자녀에게 사회적 역할과 책임을 부여하는 에너지를 상징한다.",
+      "interpretation": "관성이 있는 부모는 자녀를 독립적이고 사회적 역할을 수행할 수 있는 존재로 본다.",
+      "action": "자녀에게 책임과 역할을 부여하며, 스스로 해결하도록 지도하라.",
+      "cautions": [
+        "관성이 강하면 자녀와의 감정적 교류가 부족할 수 있음."
+      ],
+      "tags": [
+        "관성",
+        "사회적 역할",
+        "책임",
+        "자녀",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-06282f9272",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parent_has_no_siksang": true
+      },
+      "mechanism": "식상이 없으면 자녀와의 감정적 교류가 약화된다.",
+      "interpretation": "무식상 부모는 자녀와의 감정적 연결이 부족할 수 있다.",
+      "action": "의식적으로 자녀와의 감정적 교류를 늘리려 노력하라.",
+      "cautions": [
+        "감정적 거리감이 생길 수 있음."
+      ],
+      "tags": [
+        "무식상",
+        "감정교류 부족",
+        "자녀",
+        "육친",
+        "스킨십"
+      ]
+    },
+    {
+      "id": "RC-f96b6f2da6",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "parent_has_no_gwan": true
+      },
+      "mechanism": "관성이 없으면 자녀에게 사회적 역할을 부여하는 능력이 약화된다.",
+      "interpretation": "무관 부모는 자녀의 사회적 성장과 책임감을 지도하는 데 한계가 있을 수 있다.",
+      "action": "자녀에게 책임감을 심어줄 수 있는 활동을 계획하라.",
+      "cautions": [
+        "자녀의 사회적 성장 부족 가능성."
+      ],
+      "tags": [
+        "무관",
+        "사회적 역할 부족",
+        "책임감",
+        "자녀",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-feba4baca1",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "parent_has_gwan_and_no_siksang": true
+      },
+      "mechanism": "관성이 강하고 식상이 없으면 자녀와의 관계가 사회적 역할 중심으로 치우친다.",
+      "interpretation": "이 조합은 자녀를 독립적이고 사회적 존재로 키우지만, 감정적 교류는 부족할 수 있다.",
+      "action": "자녀와의 감정적 교류를 의도적으로 늘리며 균형을 맞춰라.",
+      "cautions": [
+        "자녀와의 정서적 거리감."
+      ],
+      "tags": [
+        "관성",
+        "무식상",
+        "사회적 역할",
+        "감정 부족",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-6729cac1af",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parent_has_siksang_and_no_gwan": true
+      },
+      "mechanism": "식상이 강하고 관성이 없으면 자녀와의 관계가 감정적 교류 중심으로 치우친다.",
+      "interpretation": "이 조합은 자녀와의 감정적 유대는 강하지만, 사회적 책임 부여는 약할 수 있다.",
+      "action": "자녀에게 책임과 역할을 부여하는 훈련을 병행하라.",
+      "cautions": [
+        "자녀의 독립성과 책임감 부족 가능성."
+      ],
+      "tags": [
+        "식상",
+        "무관",
+        "감정교류",
+        "책임 부족",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-a944aba530",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "parent_has_gwan_in_cheonggan": true
+      },
+      "mechanism": "청간에 관성이 있으면 자녀의 사회적 역할과 성공 가능성이 높아진다.",
+      "interpretation": "청간 관성은 자녀가 부모에게 사회적 자랑거리가 될 가능성을 높인다.",
+      "action": "자녀의 사회적 성장과 성공을 지원하라.",
+      "cautions": [
+        "자녀와의 감정적 교류 부족 가능성."
+      ],
+      "tags": [
+        "청간 관성",
+        "사회적 성공",
+        "자녀",
+        "육친",
+        "책임"
+      ]
+    },
+    {
+      "id": "RC-3438168de6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "parent_has_no_gwan_and_no_siksang": true
+      },
+      "mechanism": "관성과 식상이 모두 없으면 자녀와의 관계에서 감정적 교류와 사회적 역할 부여가 모두 약화된다.",
+      "interpretation": "이 조합은 자녀를 자녀로 인식하는 능력이 약할 수 있다.",
+      "action": "자녀와의 관계를 의식적으로 강화하고, 사회적 책임감을 심어줄 방법을 찾아라.",
+      "cautions": [
+        "자녀와의 관계 소홀 가능성."
+      ],
+      "tags": [
+        "무관",
+        "무식상",
+        "감정 부족",
+        "책임 부족",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-f1d0259b09",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parent_has_gwan_and_siksang": true
+      },
+      "mechanism": "관성과 식상이 모두 있으면 자녀와의 관계에서 감정적 교류와 사회적 역할 부여가 균형을 이룬다.",
+      "interpretation": "이 조합은 자녀와의 관계에서 감정적 유대와 사회적 성장 모두를 지원할 수 있다.",
+      "action": "자녀와의 감정적 교류와 사회적 책임 부여를 균형 있게 유지하라.",
+      "cautions": [],
+      "tags": [
+        "관성",
+        "식상",
+        "감정교류",
+        "사회적 역할",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-64ac6769e5",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "parent_has_gwan_and_child_has_siksang": true
+      },
+      "mechanism": "부모의 관성과 자녀의 식상이 조화를 이루면 자녀는 감정적 안정과 사회적 역할을 동시에 갖춘다.",
+      "interpretation": "이 조합은 자녀가 균형 잡힌 성장을 할 가능성을 높인다.",
+      "action": "자녀의 감정적 안정과 사회적 역할을 동시에 지원하라.",
+      "cautions": [
+        "부모와 자녀 간의 역할 충돌 가능성."
+      ],
+      "tags": [
+        "관성",
+        "식상",
+        "감정 안정",
+        "사회적 역할",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-f27164be4e",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "heavenly_stem": "관"
+      },
+      "mechanism": "관이 천간에 있으면 부모로서의 역할과 서열을 명확히 인지하고 수행함.",
+      "interpretation": "부모로서의 책임감이 강하며 자녀와의 서열 관계를 유지함.",
+      "action": "부모로서의 역할을 성실히 수행하고 자녀와의 서열을 명확히 함.",
+      "cautions": [
+        "자녀와의 지나친 거리감 조성 주의",
+        "서열 유지에만 집중하지 말 것"
+      ],
+      "tags": [
+        "관",
+        "천간",
+        "부모 역할",
+        "서열",
+        "책임감"
+      ]
+    },
+    {
+      "id": "RC-691ebd8f4c",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "관"
+      },
+      "mechanism": "지지에 관이 있으면 부모로서의 역할 수행이 약화될 수 있음.",
+      "interpretation": "자녀와의 관계에서 서열 유지가 어렵고 책임 회피 경향이 나타날 수 있음.",
+      "action": "자녀와의 관계에서 책임감을 가지고 일관된 태도를 유지함.",
+      "cautions": [
+        "자녀에게 의존하거나 휘둘리지 않도록 주의",
+        "책임 회피 경향 경계"
+      ],
+      "tags": [
+        "관",
+        "지지",
+        "책임감 부족",
+        "서열",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-2f471e1ee5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "상관",
+        "earthly_branch": "관"
+      },
+      "mechanism": "청간에 상관이 있고 지지에 관이 있으면 자녀에게 휘둘릴 가능성이 높음.",
+      "interpretation": "자녀가 부모를 이용하거나 서열이 역전될 가능성이 있음.",
+      "action": "자녀와의 관계에서 서열을 명확히 하고 균형을 유지함.",
+      "cautions": [
+        "자녀에게 지나치게 의존하지 말 것",
+        "자녀의 요구를 무조건 수용하지 말 것"
+      ],
+      "tags": [
+        "상관",
+        "관",
+        "서열 역전",
+        "자녀 관계",
+        "휘둘림"
+      ]
+    },
+    {
+      "id": "RC-b88e5808db",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "heavenly_stem": "정관"
+      },
+      "mechanism": "정관은 자녀의 성적 및 능력 형성에 중점을 둠.",
+      "interpretation": "자녀를 엘리트로 키우려는 경향이 강함.",
+      "action": "자녀의 능력뿐만 아니라 인격 형성에도 관심을 기울임.",
+      "cautions": [
+        "자녀의 개성과 감정을 무시하지 말 것",
+        "과도한 기대를 자제할 것"
+      ],
+      "tags": [
+        "정관",
+        "자녀 교육",
+        "엘리트",
+        "성적",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-040ac3f708",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "편관"
+      },
+      "mechanism": "편관은 자녀의 인격 형성과 관계성 중심의 교육을 중시함.",
+      "interpretation": "자녀의 인격과 사회적 관계 형성에 초점을 맞춤.",
+      "action": "자녀의 인격 형성과 사회적 관계를 지원함.",
+      "cautions": [
+        "체벌을 남용하지 말 것",
+        "자녀의 자율성을 존중할 것"
+      ],
+      "tags": [
+        "편관",
+        "인격 형성",
+        "관계성",
+        "교육",
+        "체벌"
+      ]
+    },
+    {
+      "id": "RC-64a748345d",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "heavenly_stem": "정관",
+        "earthly_branch": "식신"
+      },
+      "mechanism": "정관과 식신이 함께 있으면 자녀의 성적 및 능력 형성에 집중함.",
+      "interpretation": "자녀를 엘리트로 키우려는 욕구가 강함.",
+      "action": "자녀의 학업과 능력 개발을 지원하되 균형을 유지함.",
+      "cautions": [
+        "자녀의 감정과 개성을 무시하지 말 것",
+        "과도한 학업 강요 주의"
+      ],
+      "tags": [
+        "정관",
+        "식신",
+        "자녀 교육",
+        "엘리트",
+        "학업"
+      ]
+    },
+    {
+      "id": "RC-8aeaac1a09",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "heavenly_stem": "편관",
+        "earthly_branch": "식신"
+      },
+      "mechanism": "편관과 식신이 함께 있으면 자녀의 학업과 인격 형성 간 충돌 가능성이 있음.",
+      "interpretation": "자녀의 학업 성취와 인격 형성 간 균형이 필요함.",
+      "action": "자녀의 개성과 적성을 존중하며 교육 방향을 설정함.",
+      "cautions": [
+        "자녀의 적성을 무시하지 말 것",
+        "학업 강요로 인한 갈등 주의"
+      ],
+      "tags": [
+        "편관",
+        "식신",
+        "자녀 교육",
+        "인격 형성",
+        "학업"
+      ]
+    },
+    {
+      "id": "RC-949f6150da",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "정관",
+        "earthly_branch": "상관"
+      },
+      "mechanism": "정관과 상관이 함께 있으면 자녀와의 관계에서 갈등이 발생할 수 있음.",
+      "interpretation": "자녀와의 관계에서 서열과 자유 간 균형이 필요함.",
+      "action": "자녀와의 관계에서 유연성을 유지하며 갈등을 최소화함.",
+      "cautions": [
+        "자녀의 자유를 지나치게 억압하지 말 것",
+        "서열 유지에만 집중하지 말 것"
+      ],
+      "tags": [
+        "정관",
+        "상관",
+        "자녀 관계",
+        "갈등",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-97ed14e2b0",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "heavenly_stem": "편관",
+        "earthly_branch": "상관"
+      },
+      "mechanism": "편관과 상관이 함께 있으면 자녀의 자유와 규율 간 충돌 가능성이 있음.",
+      "interpretation": "자녀의 자유와 규율 간 균형이 필요함.",
+      "action": "자녀의 자유를 존중하되 규율을 명확히 설정함.",
+      "cautions": [
+        "자녀의 자유를 지나치게 제한하지 말 것",
+        "규율 설정 시 일관성을 유지할 것"
+      ],
+      "tags": [
+        "편관",
+        "상관",
+        "자녀 관계",
+        "자유",
+        "규율"
+      ]
+    },
+    {
+      "id": "RC-208bbb7e12",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "heavenly_stem": "정관",
+        "earthly_branch": "무관"
+      },
+      "mechanism": "정관이 없으면 자녀를 트로피처럼 바라보는 경향이 약함.",
+      "interpretation": "자녀의 성취를 과도하게 자랑하지 않음.",
+      "action": "자녀의 성취를 존중하되 과도한 기대를 자제함.",
+      "cautions": [
+        "자녀의 성취를 과소평가하지 말 것",
+        "자녀의 개성을 존중할 것"
+      ],
+      "tags": [
+        "정관",
+        "무관",
+        "자녀 성취",
+        "트로피",
+        "기대"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_035",
+  "updated_at": "2025-12-23T20:27:26"
+}

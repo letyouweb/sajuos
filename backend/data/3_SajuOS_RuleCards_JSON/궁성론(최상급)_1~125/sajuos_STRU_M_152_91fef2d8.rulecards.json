@@ -1,0 +1,450 @@
+{
+  "title": "SajuOS_Logic_STRU_M_152",
+  "rulecards": [
+    {
+      "id": "RC-795307914f",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "정화"
+      },
+      "mechanism": "정화는 특정 대상을 비추고 다루는 성질을 가짐.",
+      "interpretation": "정화는 대상을 분석하고 조작하려는 경향이 강함.",
+      "action": "정화를 볼 때 주변의 대상을 분석하고 연결성을 고려.",
+      "cautions": [
+        "정화는 병화와 달리 자연스럽지 않음.",
+        "대상을 잘못 다룰 경우 문제 발생 가능."
+      ],
+      "tags": [
+        "정화",
+        "대상",
+        "분석",
+        "조작",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-d532158f6b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "병화"
+      },
+      "mechanism": "병화는 일정한 광량으로 자연스럽게 비춤.",
+      "interpretation": "병화는 대상을 관조하며 넓은 시야를 가짐.",
+      "action": "병화는 주변 환경을 자연스럽게 비추는 역할로 활용.",
+      "cautions": [
+        "병화는 특정 대상을 깊게 다루지 않음."
+      ],
+      "tags": [
+        "병화",
+        "광량",
+        "자연스러움",
+        "관조",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-d38b0b8019",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "month": "신월"
+      },
+      "mechanism": "신월은 음기가 커지는 시기로 정화의 성질이 강화됨.",
+      "interpretation": "신월의 정화는 논리적이고 인과를 따지는 성향이 강함.",
+      "action": "신월의 정화를 가진 사람은 논리적 사고를 활용.",
+      "cautions": [
+        "음기가 강해져 감정적으로 위축될 가능성 있음."
+      ],
+      "tags": [
+        "정화",
+        "신월",
+        "음기",
+        "논리",
+        "인과"
+      ]
+    },
+    {
+      "id": "RC-c5bb5a5d73",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "relation": "신금"
+      },
+      "mechanism": "정화는 신금을 다루고 조작하려는 성질을 가짐.",
+      "interpretation": "정화는 신금을 통해 세부적인 조작과 결과를 추구.",
+      "action": "정화와 신금의 관계를 활용해 세부적인 계획을 세움.",
+      "cautions": [
+        "신금을 다룰 때 지나치게 집착하지 않도록 주의."
+      ],
+      "tags": [
+        "정화",
+        "신금",
+        "조작",
+        "계획",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-b5842070a9",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "relation": "병화"
+      },
+      "mechanism": "병화는 정화의 활동을 보조하며 조화를 이룸.",
+      "interpretation": "병화는 정화의 활동을 밝게 비추는 역할을 함.",
+      "action": "병화를 활용해 정화의 활동을 돋보이게 함.",
+      "cautions": [
+        "병화가 없으면 정화의 활동이 위축될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "병화",
+        "조화",
+        "밝기",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-d2e3264dcd",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "정화",
+        "structure": "식신생재"
+      },
+      "mechanism": "식신생재는 정화의 책임감과 실속을 강화.",
+      "interpretation": "정화는 실속 있고 신용 높은 성향을 가짐.",
+      "action": "식신생재 구조를 활용해 신뢰를 쌓음.",
+      "cautions": [
+        "책임감이 과도하면 스트레스가 될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "식신생재",
+        "책임감",
+        "신용",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-083b6fd35b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "structure": "재극인"
+      },
+      "mechanism": "재극인은 필요한 것만 취하는 효율성을 가짐.",
+      "interpretation": "정화는 효율적으로 목표를 달성하려는 성향이 강함.",
+      "action": "재극인 구조를 활용해 효율적인 계획을 세움.",
+      "cautions": [
+        "효율성에 치중해 장기적인 관점을 놓칠 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "재극인",
+        "효율성",
+        "목표",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-35eabb04d2",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "relation": "감목"
+      },
+      "mechanism": "감목은 정화의 활동을 보조하며 성장 가능성을 높임.",
+      "interpretation": "감목은 정화의 잠재력을 발휘하게 함.",
+      "action": "감목을 활용해 정화의 활동을 지원.",
+      "cautions": [
+        "감목이 없으면 정화의 활동이 제한될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "감목",
+        "성장",
+        "보조",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-c119384622",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "relation": "임수"
+      },
+      "mechanism": "임수는 정화의 활동을 조화롭게 만듦.",
+      "interpretation": "임수는 정화의 활동을 안정적으로 유지.",
+      "action": "임수를 활용해 정화의 활동을 균형 있게 조정.",
+      "cautions": [
+        "임수가 과도하면 정화의 활동이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "임수",
+        "조화",
+        "안정",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-4c4839ca1e",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "month": "신월",
+        "relation": "병화"
+      },
+      "mechanism": "병화는 신월의 정화를 밝게 비추며 조후 역할을 함.",
+      "interpretation": "병화는 신월의 정화가 어두워지지 않도록 도움.",
+      "action": "병화를 활용해 신월의 정화를 활성화.",
+      "cautions": [
+        "병화가 없으면 신월의 정화가 위축될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "신월",
+        "병화",
+        "조후",
+        "밝기"
+      ]
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "exists": true
+      },
+      "mechanism": "병화는 주변인들과의 관계를 통해 정서적 문제를 극복하는 데 도움을 준다.",
+      "interpretation": "병화가 있으면 친구나 주변인의 도움으로 어려움을 극복할 가능성이 높다.",
+      "action": "병화가 있는 경우, 주변인들과의 관계를 적극적으로 활용하라.",
+      "cautions": [
+        "병화가 없으면 외부 도움을 받기 어려울 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "관계",
+        "정서",
+        "극복",
+        "친구"
+      ],
+      "id": "RC-d995438b29"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "미토",
+        "exists": true
+      },
+      "mechanism": "미토는 식신으로 작용하여 정서적 안정과 문제 해결에 기여한다.",
+      "interpretation": "미토가 있으면 정서적 안정과 문제 해결 능력이 강화된다.",
+      "action": "미토가 있는 경우, 이를 활용해 정서적 문제를 해결하라.",
+      "cautions": [
+        "미토가 없으면 정서적 안정이 어려울 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "식신",
+        "정서",
+        "안정",
+        "문제해결"
+      ],
+      "id": "RC-2511996995"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "축토",
+        "exists": true
+      },
+      "mechanism": "축토는 가족 관계에서 갈등을 유발할 수 있다.",
+      "interpretation": "축토가 있으면 가족 간의 갈등이 심화될 가능성이 있다.",
+      "action": "축토가 있는 경우, 가족 간의 갈등을 조정하려는 노력이 필요하다.",
+      "cautions": [
+        "축토가 갈등을 심화시킬 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "가족",
+        "갈등",
+        "관계",
+        "조정"
+      ],
+      "id": "RC-209478a1cd"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "note": "정제와 유금이 혼잡한 경우"
+      },
+      "mechanism": "정제와 유금의 혼잡은 감당해야 할 책임과 예술적 재능을 동시에 나타낸다.",
+      "interpretation": "정제와 유금이 혼잡하면 책임감과 예술적 재능이 공존한다.",
+      "action": "정제와 유금이 혼잡한 경우, 예술적 재능을 활용해 책임을 완화하라.",
+      "cautions": [
+        "책임감이 과중될 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "유금",
+        "책임",
+        "예술",
+        "재능"
+      ],
+      "id": "RC-8e7b519318"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "간목",
+        "exists": true
+      },
+      "mechanism": "간목은 재능을 발현시키고 직업화하는 데 중요한 역할을 한다.",
+      "interpretation": "간목이 있으면 재능을 직업으로 발전시킬 가능성이 높다.",
+      "action": "간목이 있는 경우, 재능을 직업으로 연결하는 방안을 모색하라.",
+      "cautions": [
+        "간목이 없으면 재능이 발현되지 않을 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "재능",
+        "직업",
+        "발전",
+        "발현"
+      ],
+      "id": "RC-4291f840f1"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "무토",
+        "exists": true,
+        "element2": "임수",
+        "exists2": true
+      },
+      "mechanism": "무토와 임수는 안정적인 조직 생활이나 개인업을 가능하게 한다.",
+      "interpretation": "무토와 임수가 있으면 안정적인 직업 환경을 구축할 수 있다.",
+      "action": "무토와 임수가 있는 경우, 안정적인 직업 환경을 추구하라.",
+      "cautions": [
+        "무토와 임수가 없으면 안정성이 부족할 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "임수",
+        "안정",
+        "조직",
+        "직업"
+      ],
+      "id": "RC-b100f31fff"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "육친 해석에서 십성의 역할"
+      },
+      "mechanism": "십성은 인간의 사회적 관계를 해석하는 데 사용된다.",
+      "interpretation": "십성은 인간의 사회적 역할과 관계를 이해하는 데 중요한 도구이다.",
+      "action": "육친 해석 시 십성을 활용해 사회적 관계를 분석하라.",
+      "cautions": [
+        "십성은 인간에게만 적용 가능함."
+      ],
+      "tags": [
+        "십성",
+        "육친",
+        "사회적 관계",
+        "해석",
+        "분석"
+      ],
+      "id": "RC-180d9ccd43"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화가 강하면 활동성과 에너지가 높아진다.",
+      "interpretation": "화가 강한 사람은 활동적이고 에너지가 넘친다.",
+      "action": "화가 강한 경우, 에너지를 생산적으로 활용할 방안을 찾으라.",
+      "cautions": [
+        "활동성이 과도하면 피로가 누적될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "활동성",
+        "에너지",
+        "강함",
+        "생산성"
+      ],
+      "id": "RC-570a3f1d40"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "인성",
+        "exists": false
+      },
+      "mechanism": "인성이 없으면 지속적인 노력이나 포기가 어려울 수 있다.",
+      "interpretation": "인성이 없으면 목표를 지속적으로 추구하기 어려울 수 있다.",
+      "action": "인성이 없는 경우, 외부의 도움이나 동기부여를 활용하라.",
+      "cautions": [
+        "목표를 쉽게 포기할 가능성이 있음."
+      ],
+      "tags": [
+        "인성",
+        "목표",
+        "노력",
+        "포기",
+        "동기부여"
+      ],
+      "id": "RC-6f94cf8b64"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "note": "식상으로 연결된 구조"
+      },
+      "mechanism": "식상은 자영업과 같은 독립적인 직업으로 연결된다.",
+      "interpretation": "식상이 강한 경우, 자영업이나 독립적인 직업이 적합하다.",
+      "action": "식상이 강한 경우, 자영업이나 독립적인 직업을 고려하라.",
+      "cautions": [
+        "식상이 약하면 독립적인 직업이 어려울 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "자영업",
+        "독립",
+        "직업",
+        "구조"
+      ],
+      "id": "RC-cfa9251b6f"
+    }
+  ],
+  "notes": [
+    "일부 조건은 구체적으로 명시되지 않아 note로 처리함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_152",
+  "updated_at": "2025-12-23T20:27:24"
+}

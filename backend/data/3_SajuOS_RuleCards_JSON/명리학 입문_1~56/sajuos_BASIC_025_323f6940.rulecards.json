@@ -1,0 +1,453 @@
+{
+  "title": "SajuOS_Logic_BASIC_025",
+  "rulecards": [
+    {
+      "id": "RC-842d722f07",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "structure": "걸록격",
+        "day_master": "양간"
+      },
+      "mechanism": "양간은 강한 에너지를 가지고 무언가를 세우는 힘을 상징.",
+      "interpretation": "걸록격은 가문을 새롭게 시작하거나 시조 역할을 맡는 운명을 가짐.",
+      "action": "자신의 리더십과 책임감을 발휘하여 가문이나 조직을 이끌어라.",
+      "cautions": [
+        "음간은 걸록격으로 해석되지 않음.",
+        "양간이어야만 걸록격으로 인정됨."
+      ],
+      "tags": [
+        "걸록격",
+        "양간",
+        "리더십",
+        "책임",
+        "가문"
+      ]
+    },
+    {
+      "id": "RC-7a556e060c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "day_master": "양간"
+      },
+      "mechanism": "월지 비견은 가족과의 연결을 상징하며, 양간은 이를 이끌 힘을 제공.",
+      "interpretation": "월지 비견이 있는 걸록격은 가족을 대표하고 책임지는 역할을 맡음.",
+      "action": "가족과의 관계를 강화하고, 리더로서의 역할을 수행하라.",
+      "cautions": [
+        "비견이 월지에 있어야 함.",
+        "비견이 많으면 책임이 과중될 수 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "비견",
+        "가족",
+        "책임",
+        "리더십"
+      ]
+    },
+    {
+      "id": "RC-44425d8c9f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "supporting_structure": "정관"
+      },
+      "mechanism": "정관은 비견을 보호하고 조직화하는 울타리 역할을 함.",
+      "interpretation": "정관이 있는 걸록격은 안정적인 리더십과 조직 관리 능력을 가짐.",
+      "action": "정관의 힘을 활용해 조직을 체계적으로 관리하라.",
+      "cautions": [
+        "정관이 없으면 비견을 다루기 어려움.",
+        "정관이 없을 경우 쟁제가 발생할 가능성 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "정관",
+        "조직",
+        "관리",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-9ffa88c785",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "supporting_structure": "식상"
+      },
+      "mechanism": "식상은 비견의 에너지를 활용하여 생산성을 높임.",
+      "interpretation": "식상이 있는 걸록격은 비견을 활용해 창의적이고 생산적인 활동을 함.",
+      "action": "비견의 에너지를 활용해 창의적인 프로젝트를 추진하라.",
+      "cautions": [
+        "식상이 없으면 비견의 에너지가 제대로 활용되지 않을 수 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "식상",
+        "창의성",
+        "생산성",
+        "비견"
+      ]
+    },
+    {
+      "id": "RC-280f4ce652",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "supporting_structure": "편관"
+      },
+      "mechanism": "편관은 비견을 활용하여 비공식적이고 유연한 방식으로 문제를 해결함.",
+      "interpretation": "편관이 있는 걸록격은 비견을 통해 비공식적 리더십을 발휘함.",
+      "action": "비공식적 네트워크를 활용해 문제를 해결하라.",
+      "cautions": [
+        "편관만 있을 경우 비견의 희생을 강요할 위험이 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "편관",
+        "비공식",
+        "리더십",
+        "비견"
+      ]
+    },
+    {
+      "id": "RC-4d00d2cd88",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "supporting_structure": "재성"
+      },
+      "mechanism": "재성은 비견의 에너지를 경제적 성과로 전환함.",
+      "interpretation": "재성이 있는 걸록격은 비견을 활용해 경제적 성공을 이룸.",
+      "action": "비견의 에너지를 경제적 기회로 전환하라.",
+      "cautions": [
+        "재성이 과도하면 쟁제가 발생할 수 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "재성",
+        "경제",
+        "비견",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-a88f1cf5dd",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "걸록격",
+        "month_branch": "비견",
+        "supporting_structure": "인성"
+      },
+      "mechanism": "인성은 비견의 에너지를 학문적 또는 정신적 성장으로 연결함.",
+      "interpretation": "인성이 있는 걸록격은 비견을 통해 학문적 성취를 이룸.",
+      "action": "비견의 에너지를 학문적 또는 정신적 성장에 활용하라.",
+      "cautions": [
+        "인성이 과도하면 실질적 성과가 부족할 수 있음."
+      ],
+      "tags": [
+        "걸록격",
+        "인성",
+        "학문",
+        "비견",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-b50b1305a6",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "structure": "양인격",
+        "month_branch": "겁재"
+      },
+      "mechanism": "양인격은 강한 에너지를 가지고 외부와의 경쟁에서 우위를 점함.",
+      "interpretation": "양인격은 강한 경쟁력을 가지고 외부 환경에서 두각을 나타냄.",
+      "action": "자신의 강한 에너지를 활용해 경쟁에서 승리하라.",
+      "cautions": [
+        "양인의 에너지가 과도하면 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "겁재",
+        "경쟁",
+        "에너지",
+        "우위"
+      ]
+    },
+    {
+      "id": "RC-c4ca1bc530",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "month_branch": "겁재",
+        "supporting_structure": "재관"
+      },
+      "mechanism": "재관은 양인의 에너지를 조직적이고 체계적으로 활용함.",
+      "interpretation": "재관이 있는 양인격은 조직 내에서 강한 리더십을 발휘함.",
+      "action": "재관의 힘을 활용해 조직을 체계적으로 이끌어라.",
+      "cautions": [
+        "재관이 없으면 양인의 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "재관",
+        "조직",
+        "리더십",
+        "체계"
+      ]
+    },
+    {
+      "id": "RC-e0e76e6750",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "양인격",
+        "month_branch": "겁재",
+        "supporting_structure": "식상"
+      },
+      "mechanism": "식상은 양인의 에너지를 창의적이고 생산적으로 활용함.",
+      "interpretation": "식상이 있는 양인격은 창의적이고 생산적인 활동을 통해 두각을 나타냄.",
+      "action": "양인의 에너지를 창의적인 프로젝트에 활용하라.",
+      "cautions": [
+        "식상이 없으면 양인의 에너지가 비효율적으로 사용될 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "식상",
+        "창의성",
+        "생산성",
+        "겁재"
+      ]
+    },
+    {
+      "id": "RC-106dae78c1",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "편관"
+      },
+      "mechanism": "편관은 양인격의 적을 다루는 데 필요한 판단력과 결단력을 제공함.",
+      "interpretation": "양인격이 편관을 잘 활용하면 적을 효과적으로 다룰 수 있다.",
+      "action": "편관을 활용해 적과의 관계를 명확히 하고 전략적으로 대처하라.",
+      "cautions": [
+        "편관이 약하면 판단력이 흐려질 수 있음.",
+        "정관과 혼잡되면 적과 아군 구분이 어려워짐."
+      ],
+      "tags": [
+        "양인격",
+        "편관",
+        "적",
+        "전략",
+        "판단력"
+      ]
+    },
+    {
+      "id": "RC-fc10d5fc99",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "정관"
+      },
+      "mechanism": "정관은 적과의 관계를 흐리게 하며, 아군과 적의 구분을 어렵게 만듦.",
+      "interpretation": "정관이 강하면 양인격의 적대적 관계가 약화되고 판단력이 저하될 수 있다.",
+      "action": "정관 대신 편관을 활용하여 명확한 관계 설정을 하라.",
+      "cautions": [
+        "정관이 강하면 적과 동맹을 맺는 실수를 할 수 있음.",
+        "판단력 저하로 인해 기회를 놓칠 가능성 있음."
+      ],
+      "tags": [
+        "양인격",
+        "정관",
+        "판단력",
+        "적",
+        "아군"
+      ]
+    },
+    {
+      "id": "RC-dfca40c513",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "상관"
+      },
+      "mechanism": "상관은 겁제의 에너지를 순화시키고 갈등을 줄이는 역할을 함.",
+      "interpretation": "양인격에서 상관이 강하면 겁제와의 갈등이 줄어들고 협력이 원활해진다.",
+      "action": "상관을 활용해 겁제와의 협력을 강화하라.",
+      "cautions": [
+        "상관이 약하면 겁제와의 갈등이 심화될 수 있음.",
+        "상관이 과도하면 독단적으로 변할 위험 있음."
+      ],
+      "tags": [
+        "양인격",
+        "상관",
+        "겁제",
+        "협력",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-743d6611a5",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "편제"
+      },
+      "mechanism": "편제는 겁제의 에너지를 활용하여 재물을 효율적으로 관리하게 함.",
+      "interpretation": "편제가 강하면 양인격이 재물을 효과적으로 활용할 수 있다.",
+      "action": "편제를 활용해 재물 관리와 분배를 체계적으로 하라.",
+      "cautions": [
+        "편제가 약하면 재물 관리가 어려워질 수 있음.",
+        "정제가 강하면 재물 분배에서 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "편제",
+        "재물",
+        "관리",
+        "분배"
+      ]
+    },
+    {
+      "id": "RC-5f5f2a5374",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "정제"
+      },
+      "mechanism": "정제는 재물 분배에서 보수적이고 제한적인 태도를 유발함.",
+      "interpretation": "정제가 강하면 재물 분배에서 갈등이 생길 가능성이 높다.",
+      "action": "정제 대신 편제를 활용해 재물 분배를 유연하게 하라.",
+      "cautions": [
+        "정제가 강하면 재물 분배에서 신뢰를 잃을 수 있음.",
+        "재물 관리에서 지나친 보수성을 경계하라."
+      ],
+      "tags": [
+        "양인격",
+        "정제",
+        "재물",
+        "분배",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-3fbe299c21",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "상관",
+        "wealth": "생재"
+      },
+      "mechanism": "상관생재는 재물의 확장을 돕고 사업적 성공을 유도함.",
+      "interpretation": "상관생재가 강하면 양인격이 사업적 성공을 이루기 쉽다.",
+      "action": "상관생재를 활용해 사업 확장과 재물 축적을 도모하라.",
+      "cautions": [
+        "상관생재가 약하면 사업 확장이 어려울 수 있음.",
+        "재물 관리에서 과도한 욕심을 경계하라."
+      ],
+      "tags": [
+        "양인격",
+        "상관생재",
+        "사업",
+        "재물",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-ff8e736f82",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "평관"
+      },
+      "mechanism": "평관은 가정적이고 안정적인 태도를 유도함.",
+      "interpretation": "평관이 강하면 양인격이 가정에 더 신경을 쓰게 된다.",
+      "action": "평관을 활용해 가정의 안정과 조화를 도모하라.",
+      "cautions": [
+        "평관이 약하면 가정에 소홀해질 수 있음.",
+        "평관이 과도하면 외부 활동이 제한될 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "평관",
+        "가정",
+        "안정",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-39ee054534",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "정관",
+        "wealth": "생재"
+      },
+      "mechanism": "정관과 생재의 조합은 재물 관리에서 보수적 태도를 강화함.",
+      "interpretation": "정관과 생재가 강하면 재물 관리에서 갈등이 생길 가능성이 높다.",
+      "action": "정관 대신 편제를 활용해 재물 관리의 유연성을 높여라.",
+      "cautions": [
+        "정관과 생재가 강하면 재물 분배에서 신뢰를 잃을 수 있음.",
+        "재물 관리에서 지나친 보수성을 경계하라."
+      ],
+      "tags": [
+        "양인격",
+        "정관",
+        "생재",
+        "재물",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-fa989ea527",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "supporting_god": "상관",
+        "wealth": "편제"
+      },
+      "mechanism": "상관과 편제의 조합은 재물의 효율적 분배와 확장을 돕는다.",
+      "interpretation": "상관과 편제가 강하면 재물 관리와 사업 확장이 원활해진다.",
+      "action": "상관과 편제를 활용해 재물 분배와 사업 확장을 도모하라.",
+      "cautions": [
+        "상관과 편제가 약하면 재물 관리가 어려울 수 있음.",
+        "재물 분배에서 과도한 욕심을 경계하라."
+      ],
+      "tags": [
+        "양인격",
+        "상관",
+        "편제",
+        "재물",
+        "사업"
+      ]
+    }
+  ],
+  "notes": [
+    "양인격의 다양한 조합과 그에 따른 해석 및 활용 방안이 주로 논의됨.",
+    "정관과 편관의 역할 차이에 대한 설명이 포함됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_025",
+  "updated_at": "2025-12-23T20:27:25"
+}

@@ -1,0 +1,450 @@
+{
+  "title": "SajuOS_Logic_STRU_M_170",
+  "rulecards": [
+    {
+      "id": "RC-9458b1f1b4",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "type": "임수"
+      },
+      "mechanism": "임수는 흐르는 물의 속성을 가지며, 모으고 응집하는 에너지를 지님.",
+      "interpretation": "임수는 정보를 수집하고 통합하는 데 강점이 있음.",
+      "action": "임수의 에너지를 활용해 정보를 체계적으로 정리하고 활용하라.",
+      "cautions": [
+        "임수는 가공 없이 바로 사용하기 어려움.",
+        "과도한 정보 수집으로 혼란이 생길 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "정보",
+        "수집",
+        "응집",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-054002bf62",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "type": "개수"
+      },
+      "mechanism": "개수는 윤하는 물의 속성을 가지며, 타인의 주체성을 강조함.",
+      "interpretation": "개수는 타인의 에너지를 받아들이고 조화롭게 활용함.",
+      "action": "타인의 의견을 수용하고 협력적인 태도를 유지하라.",
+      "cautions": [
+        "타인의 의존도가 높아질 수 있음.",
+        "자신의 주체성을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "개수",
+        "윤함",
+        "타인",
+        "조화",
+        "수용"
+      ]
+    },
+    {
+      "id": "RC-cbc5419b1a",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "quality": "청탁"
+      },
+      "mechanism": "청한 수는 고유성을 유지하고, 탁한 수는 잘 섞이는 성질을 가짐.",
+      "interpretation": "청한 수는 독립적이고 순수한 에너지를, 탁한 수는 융화와 적응력을 의미함.",
+      "action": "청한 수는 고유성을 유지하며, 탁한 수는 융화력을 활용하라.",
+      "cautions": [
+        "청한 수는 고립될 수 있음.",
+        "탁한 수는 지나치게 동화될 위험이 있음."
+      ],
+      "tags": [
+        "청탁",
+        "수질",
+        "고유성",
+        "융화",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-e4757550be",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "interaction": "수생목"
+      },
+      "mechanism": "수생목은 물이 나무를 키우는 에너지 전달 과정.",
+      "interpretation": "수생목은 성장과 발전을 의미하며, 에너지의 순환을 나타냄.",
+      "action": "수생목의 흐름을 활용해 지속적인 성장을 도모하라.",
+      "cautions": [
+        "수의 에너지가 과도하면 목이 손상될 수 있음."
+      ],
+      "tags": [
+        "수생목",
+        "성장",
+        "발전",
+        "순환",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-1f5e7a66cf",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "type": "임수",
+        "depth": "깊음"
+      },
+      "mechanism": "임수는 깊은 곳을 먼저 채우고 넘쳐야 흘러감.",
+      "interpretation": "깊은 임수는 내면의 충만함과 안정감을 의미함.",
+      "action": "내면의 깊이를 채우고 안정된 상태에서 외부로 나아가라.",
+      "cautions": [
+        "깊이에만 치중하면 외부와 단절될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "깊이",
+        "내면",
+        "안정",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-56a1e7ae73",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "type": "임수",
+        "interaction": "금생수"
+      },
+      "mechanism": "금생수는 금이 물의 원천이 되어 에너지를 공급함.",
+      "interpretation": "금생수는 정보와 자원의 원천을 의미하며, 지속적인 공급을 나타냄.",
+      "action": "금생수의 에너지를 활용해 자원을 효율적으로 관리하라.",
+      "cautions": [
+        "금생수가 과도하면 정보 과부하가 발생할 수 있음."
+      ],
+      "tags": [
+        "금생수",
+        "원천",
+        "정보",
+        "자원",
+        "공급"
+      ]
+    },
+    {
+      "id": "RC-d02ffcbabf",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "수생목",
+        "type": "간목"
+      },
+      "mechanism": "간목은 수의 흐름을 자정작용으로 맑게 유지함.",
+      "interpretation": "간목은 수의 청결함과 순환을 돕는 역할을 함.",
+      "action": "간목의 에너지를 활용해 맑고 순환적인 환경을 조성하라.",
+      "cautions": [
+        "간목이 약하면 수의 흐름이 정체될 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "수생목",
+        "자정",
+        "순환",
+        "청결"
+      ]
+    },
+    {
+      "id": "RC-524638ec19",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정인격",
+        "element": "수"
+      },
+      "mechanism": "정인격은 수의 청결함과 깊이를 유지하며, 학문적 성취를 도모함.",
+      "interpretation": "정인격은 학문적 탐구와 내면의 성장을 의미함.",
+      "action": "정인격의 에너지를 활용해 학문적 목표를 설정하고 달성하라.",
+      "cautions": [
+        "정인격이 지나치면 고립될 수 있음."
+      ],
+      "tags": [
+        "정인격",
+        "학문",
+        "탐구",
+        "성장",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-92e03c096e",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "interaction": "무토"
+      },
+      "mechanism": "무토는 수의 영역을 한정하고 쓰임새를 만들어줌.",
+      "interpretation": "무토는 수의 에너지를 구체화하고 실용적으로 활용함.",
+      "action": "무토의 에너지를 활용해 수의 에너지를 실질적인 결과로 전환하라.",
+      "cautions": [
+        "무토가 과도하면 수의 유연성이 제한될 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "수",
+        "한정",
+        "구체화",
+        "실용"
+      ]
+    },
+    {
+      "id": "RC-c3d6b60fd0",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "병화"
+      },
+      "mechanism": "병화는 수의 흐름을 조절하고 에너지를 활성화함.",
+      "interpretation": "병화는 수의 에너지를 조화롭게 유지하며, 생산성을 높임.",
+      "action": "병화의 에너지를 활용해 수의 흐름을 조절하고 생산성을 극대화하라.",
+      "cautions": [
+        "병화가 과도하면 수의 본질이 손상될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "수",
+        "조화",
+        "활성화",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-e380ace53e",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": 6,
+        "day_master": "임자",
+        "presence_of": [
+          "갑목"
+        ]
+      },
+      "mechanism": "갑목이 수생목을 통해 금생수를 활성화시킴.",
+      "interpretation": "6월 임자일주는 갑목이 있어야 공부에 대한 동기가 생기고 성과를 낼 수 있음.",
+      "action": "갑목이 있는 경우 공부를 권장하고, 없는 경우 다른 방향을 모색.",
+      "cautions": [
+        "갑목이 없으면 공부에 대한 동기가 부족할 수 있음."
+      ],
+      "tags": [
+        "임자일주",
+        "갑목",
+        "공부",
+        "수생목",
+        "금생수"
+      ]
+    },
+    {
+      "id": "RC-44e29b5b8c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "임자",
+        "presence_of": [
+          "무토"
+        ],
+        "supporting_element": "화"
+      },
+      "mechanism": "화생토가 살인상생을 통해 인성을 활성화.",
+      "interpretation": "무토를 활용하려면 화생토가 필요하며, 이를 통해 인성을 적극적으로 사용할 수 있음.",
+      "action": "무토를 활용하려면 화의 지원을 고려.",
+      "cautions": [
+        "화가 없으면 무토의 활용이 제한됨."
+      ],
+      "tags": [
+        "임자일주",
+        "무토",
+        "화생토",
+        "살인상생",
+        "인성"
+      ]
+    },
+    {
+      "id": "RC-9b9fc382bc",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "임자",
+        "presence_of": [
+          "을사"
+        ]
+      },
+      "mechanism": "을사가 수색목을 통해 금생수를 활성화.",
+      "interpretation": "을사는 필요에 따라 자격을 얻는 성향이 강하며, 공부보다는 실용적인 접근을 선호.",
+      "action": "을사일주에게는 실용적인 자격 취득을 권장.",
+      "cautions": [
+        "을사는 공부와 인연이 약할 수 있음."
+      ],
+      "tags": [
+        "임자일주",
+        "을사",
+        "수색목",
+        "금생수",
+        "자격"
+      ]
+    },
+    {
+      "id": "RC-9e908ed6e5",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "임수",
+        "presence_of": [
+          "갑목"
+        ],
+        "absence_of": [
+          "을목"
+        ]
+      },
+      "mechanism": "갑목은 지속적인 공부를 가능하게 하지만, 을목은 단기적인 성과에 그침.",
+      "interpretation": "갑목은 장기적인 학문적 성과를 지원하며, 을목은 벼락치기에 적합.",
+      "action": "갑목이 있는 경우 장기적인 학문을 권장하고, 을목은 단기 목표에 집중.",
+      "cautions": [
+        "을목은 장기적인 학문에 적합하지 않을 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "갑목",
+        "을목",
+        "공부",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-2f37f7f52d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "임수",
+        "presence_of": [
+          "술토"
+        ],
+        "absence_of": [
+          "진토"
+        ]
+      },
+      "mechanism": "술토는 수를 제한하며, 진토는 수를 자유롭게 함.",
+      "interpretation": "술토는 생명과 관련된 학문에 적합하며, 진토는 연구와 창의적 분야에 적합.",
+      "action": "술토가 있는 경우 생명 관련 학문을 권장하고, 진토는 연구 분야를 추천.",
+      "cautions": [
+        "술토는 수를 지나치게 제한할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "술토",
+        "진토",
+        "생명",
+        "연구"
+      ]
+    },
+    {
+      "id": "RC-7b7b3441d0",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": 6,
+        "day_master": "임수",
+        "presence_of": [
+          "유금"
+        ],
+        "absence_of": [
+          "신금"
+        ]
+      },
+      "mechanism": "유금은 금생수를 제한적으로 활성화.",
+      "interpretation": "유금은 특정 교과목에 집중하는 성향을 나타냄.",
+      "action": "유금이 있는 경우 특정 분야에 집중하도록 지도.",
+      "cautions": [
+        "신금이 없으면 금생수가 집단적으로 활성화되지 않음."
+      ],
+      "tags": [
+        "임수",
+        "유금",
+        "신금",
+        "금생수",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-9795ad5ff4",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "임수",
+        "presence_of": [
+          "토생금"
+        ],
+        "supporting_element": "화"
+      },
+      "mechanism": "화생토가 토생금을 통해 체질을 강화.",
+      "interpretation": "토생금이 잘 되어 있으면 건강과 체력이 좋음.",
+      "action": "화생토를 통해 체질을 강화하도록 유도.",
+      "cautions": [
+        "화가 없으면 체질이 약해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "토생금",
+        "화생토",
+        "건강",
+        "체질"
+      ]
+    },
+    {
+      "id": "RC-8158657b35",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "임수",
+        "presence_of": [
+          "살인상생"
+        ],
+        "career_type": "보험"
+      },
+      "mechanism": "살인상생은 생명을 담보로 한 직업과 연결.",
+      "interpretation": "보험 영업과 같은 생명 관련 직업에 적합.",
+      "action": "살인상생이 있는 경우 보험 영업을 추천.",
+      "cautions": [
+        "화운이 부족하면 의욕이 떨어질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "살인상생",
+        "보험",
+        "생명",
+        "직업"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "6월 임수와 관련된 다양한 구조적 조건이 강조됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_170",
+  "updated_at": "2025-12-23T20:27:25"
+}

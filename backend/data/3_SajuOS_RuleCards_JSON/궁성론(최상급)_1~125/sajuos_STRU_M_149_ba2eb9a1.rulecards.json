@@ -1,0 +1,445 @@
+{
+  "title": "SajuOS_Logic_STRU_M_149",
+  "rulecards": [
+    {
+      "id": "RC-da9f1b79dd",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월"
+      },
+      "mechanism": "묘월은 생목화의 시작점으로 목의 활동력이 보장됨.",
+      "interpretation": "묘월은 목의 생명력이 강해지는 시기로, 목의 활동력이 활발해짐.",
+      "action": "묘월에 목의 에너지를 활용할 수 있는 계획을 세워라.",
+      "cautions": [
+        "묘월 이후 목의 에너지가 약화될 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "생목화",
+        "목의활동",
+        "춘분",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-4d8f690580",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "month": "신월"
+      },
+      "mechanism": "신월부터 목의 에너지가 사목화로 전환됨.",
+      "interpretation": "신월 이후 목의 활동성이 줄어들고 정신적 에너지로 전환됨.",
+      "action": "신월 이후에는 목의 정신적 활용 방안을 모색하라.",
+      "cautions": [
+        "목의 물리적 활동력이 감소함."
+      ],
+      "tags": [
+        "신월",
+        "사목화",
+        "정신적에너지",
+        "목의활동",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-f5c32e2325",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "간목",
+        "state": "사목"
+      },
+      "mechanism": "간목이 사목화되면 상징적 코드로 작용.",
+      "interpretation": "간목은 정신적 가치와 상징성을 중시하게 됨.",
+      "action": "간목의 상징적 가치를 활용할 수 있는 방안을 찾아라.",
+      "cautions": [
+        "사목화된 간목은 물리적 활동력이 약함."
+      ],
+      "tags": [
+        "간목",
+        "사목",
+        "상징성",
+        "정신적가치",
+        "코드"
+      ]
+    },
+    {
+      "id": "RC-73b566120b",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "state": "생목"
+      },
+      "mechanism": "을목은 항상 생목으로 작용하며 활동성이 보장됨.",
+      "interpretation": "을목은 생명력을 유지하며 지속적으로 활동 가능.",
+      "action": "을목의 생명력을 유지할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "을목은 상징성을 갖추기 어려움."
+      ],
+      "tags": [
+        "을목",
+        "생목",
+        "활동성",
+        "생명력",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-795910c1dd",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "을목",
+        "support": "간목"
+      },
+      "mechanism": "을목은 간목을 통해 상징성을 보완함.",
+      "interpretation": "을목은 간목의 도움으로 상징적 가치를 얻을 수 있음.",
+      "action": "을목이 간목과 협력할 수 있는 방안을 모색하라.",
+      "cautions": [
+        "간목이 없으면 을목의 상징성 확보가 어려움."
+      ],
+      "tags": [
+        "을목",
+        "간목",
+        "상징성",
+        "협력",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-b6c7e74bed",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "month": "신월",
+        "element": "병화"
+      },
+      "mechanism": "병화는 목의 활동력을 보장함.",
+      "interpretation": "병화는 목의 에너지를 활성화하고 확장시킴.",
+      "action": "병화를 통해 목의 활동성을 극대화하라.",
+      "cautions": [
+        "병화가 없으면 목의 활동력이 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "목의활동",
+        "확장",
+        "활성화",
+        "신월"
+      ]
+    },
+    {
+      "id": "RC-6ddfd68a4b",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "을목"
+      },
+      "mechanism": "기토는 을목의 생명력을 보장함.",
+      "interpretation": "기토는 을목의 생명력을 유지하고 안정시킴.",
+      "action": "기토를 통해 을목의 생명력을 강화하라.",
+      "cautions": [
+        "기토가 없으면 을목의 생명력이 약화될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "을목",
+        "생명력",
+        "안정",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-3dd941012d",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "병화",
+        "relation": "을목"
+      },
+      "mechanism": "병화는 을목의 활동성을 극대화함.",
+      "interpretation": "병화는 을목의 에너지를 확장시키고 존재감을 드러냄.",
+      "action": "병화를 통해 을목의 활동성을 지원하라.",
+      "cautions": [
+        "병화가 없으면 을목의 활동성이 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "을목",
+        "활동성",
+        "확장",
+        "존재감"
+      ]
+    },
+    {
+      "id": "RC-82750bbc4c",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "relation": "을목"
+      },
+      "mechanism": "정화는 을목의 활동을 주도함.",
+      "interpretation": "정화는 을목의 활동을 이끌며 방향성을 제시함.",
+      "action": "정화를 통해 을목의 활동 방향을 설정하라.",
+      "cautions": [
+        "정화가 을목의 주도성을 제한할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "을목",
+        "활동",
+        "주도성",
+        "방향성"
+      ]
+    },
+    {
+      "id": "RC-aaf0a68d1a",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "기토",
+        "relation": "병화"
+      },
+      "mechanism": "기토는 병화와 함께 목의 활동성을 안정시킴.",
+      "interpretation": "기토는 병화와 협력하여 목의 활동성을 지속적으로 유지함.",
+      "action": "기토와 병화를 조화롭게 활용하라.",
+      "cautions": [
+        "기토가 없으면 병화의 효과가 약화될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "병화",
+        "목의활동",
+        "안정",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-ba39a5e852",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "presence": true
+      },
+      "mechanism": "토는 에너지를 수렴하고 균형을 잡아주는 역할을 한다.",
+      "interpretation": "토가 있으면 다양한 에너지가 조화롭게 작용하며 안정감을 준다.",
+      "action": "사주에 토가 부족하다면 보완할 방법을 찾는다.",
+      "cautions": [
+        "토가 과도하면 고집으로 작용할 수 있다."
+      ],
+      "tags": [
+        "토",
+        "균형",
+        "안정",
+        "조화",
+        "고집"
+      ]
+    },
+    {
+      "id": "RC-38812f2f37",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "사신형",
+        "presence": true
+      },
+      "mechanism": "사신형은 극단적인 상황에서도 복구 가능성을 제공한다.",
+      "interpretation": "사신형이 있으면 위기 상황에서도 회복력이 강하다.",
+      "action": "위기 상황에서도 긍정적인 태도를 유지한다.",
+      "cautions": [
+        "사신형이 없으면 위기에서 복구가 어려울 수 있다."
+      ],
+      "tags": [
+        "사신형",
+        "위기",
+        "복구",
+        "회복력",
+        "긍정"
+      ]
+    },
+    {
+      "id": "RC-8914a67ab5",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "상관",
+        "count": 2
+      },
+      "mechanism": "상관이 많으면 재능이 분산되어 집중력이 떨어질 수 있다.",
+      "interpretation": "상관이 많으면 다양한 재능을 가질 수 있으나 방향성이 부족할 수 있다.",
+      "action": "재능을 하나로 집중시키는 노력을 한다.",
+      "cautions": [
+        "상관이 과도하면 혼란을 초래할 수 있다."
+      ],
+      "tags": [
+        "상관",
+        "재능",
+        "집중",
+        "방향성",
+        "혼란"
+      ]
+    },
+    {
+      "id": "RC-265d36965a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "을축"
+      },
+      "mechanism": "을축일주는 축토의 수렴력과 을목의 유연함이 결합된 구조이다.",
+      "interpretation": "을축일주는 적극적이고 열심히 노력하는 성향을 가진다.",
+      "action": "자신의 적극성을 활용해 목표를 달성한다.",
+      "cautions": [
+        "과도한 고집은 갈등을 초래할 수 있다."
+      ],
+      "tags": [
+        "을축",
+        "축토",
+        "적극성",
+        "노력",
+        "고집"
+      ]
+    },
+    {
+      "id": "RC-be4a51a23c",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "쟁제",
+        "month": "신월"
+      },
+      "mechanism": "신월의 금은 목을 극제하여 쟁제를 방해한다.",
+      "interpretation": "신월에서는 쟁제가 어려워 관의 눈치를 보게 된다.",
+      "action": "관의 규칙을 따르며 안정적인 방향을 모색한다.",
+      "cautions": [
+        "관의 눈치를 지나치게 보면 자율성이 제한될 수 있다."
+      ],
+      "tags": [
+        "쟁제",
+        "신월",
+        "금",
+        "관",
+        "규제"
+      ]
+    },
+    {
+      "id": "RC-6fc0963fcb",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "을미"
+      },
+      "mechanism": "을미일주는 미토의 유연성과 을목의 고집이 결합된 구조이다.",
+      "interpretation": "을미일주는 겉으로는 유연해 보이지만 내면적으로 고집이 강하다.",
+      "action": "겉과 속의 균형을 맞추는 노력을 한다.",
+      "cautions": [
+        "겉으로 유연한 척하며 내면의 고집이 갈등을 초래할 수 있다."
+      ],
+      "tags": [
+        "을미",
+        "미토",
+        "유연성",
+        "고집",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-87ef5ef79a",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month": "신월",
+        "element": "병화"
+      },
+      "mechanism": "병화는 신월의 금 에너지를 조화롭게 만든다.",
+      "interpretation": "신월에 병화가 있으면 에너지의 순환이 원활해진다.",
+      "action": "병화의 에너지를 활용해 자신의 능력을 발휘한다.",
+      "cautions": [
+        "병화가 없으면 에너지 순환이 어려울 수 있다."
+      ],
+      "tags": [
+        "신월",
+        "병화",
+        "에너지",
+        "조화",
+        "순환"
+      ]
+    },
+    {
+      "id": "RC-b43fa1ae2f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "type": "기토"
+      },
+      "mechanism": "기토는 유연성과 안정성을 제공한다.",
+      "interpretation": "기토가 있으면 안정적이면서도 유연한 삶을 살 수 있다.",
+      "action": "기토의 에너지를 활용해 다양한 상황에 적응한다.",
+      "cautions": [
+        "기토가 없으면 안정감이 부족할 수 있다."
+      ],
+      "tags": [
+        "기토",
+        "안정",
+        "유연성",
+        "적응",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-f7952c3d31",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "type": "무토"
+      },
+      "mechanism": "무토는 강한 고집과 종속성을 나타낸다.",
+      "interpretation": "무토가 있으면 환경에 종속되며 고집스러운 성향을 보인다.",
+      "action": "무토의 고집을 긍정적인 방향으로 활용한다.",
+      "cautions": [
+        "무토가 과도하면 융통성이 부족할 수 있다."
+      ],
+      "tags": [
+        "무토",
+        "고집",
+        "종속",
+        "융통성",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-7a35626551",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "을묘",
+        "month": "신월"
+      },
+      "mechanism": "을묘일주는 신월의 금 에너지로 인해 관에 저항성을 가진다.",
+      "interpretation": "을묘일주는 관의 규제에 저항하며 독립적인 성향을 보인다.",
+      "action": "자신의 독립성을 유지하며 관과의 균형을 찾는다.",
+      "cautions": [
+        "과도한 저항은 갈등을 초래할 수 있다."
+      ],
+      "tags": [
+        "을묘",
+        "신월",
+        "관",
+        "저항",
+        "독립성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_149",
+  "updated_at": "2025-12-23T20:27:24"
+}

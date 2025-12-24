@@ -1,0 +1,448 @@
+{
+  "title": "SajuOS_Logic_STRU_M_067",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "해수"
+      },
+      "mechanism": "해수는 섞이고 흐르며 적응력이 뛰어남.",
+      "interpretation": "해수는 낯선 환경에서도 빠르게 적응하는 능력을 상징.",
+      "action": "새로운 환경에 적응하는 능력을 활용하라.",
+      "cautions": [
+        "지저분한 환경에 지나치게 익숙해질 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "적응력",
+        "환경",
+        "유연성",
+        "변화"
+      ],
+      "id": "RC-9bf689010b"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "god": "정관",
+        "month": "해월"
+      },
+      "mechanism": "정관은 틀과 규율을 상징하며, 해월의 정화는 빛으로 작용.",
+      "interpretation": "정관은 직업적 성향을 결정하며, 교육이나 행정에 적합.",
+      "action": "정관의 틀 안에서 전문성을 키워라.",
+      "cautions": [
+        "정관의 요구를 수용하지 못하면 부담이 커질 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "해월",
+        "교육",
+        "행정",
+        "전문성"
+      ],
+      "id": "RC-d48000b57e"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "해월",
+        "element": "정화"
+      },
+      "mechanism": "해월의 정화는 습한 환경에서 조후가 필요.",
+      "interpretation": "조후가 부족하면 결과가 늦게 나오거나 타이밍이 맞지 않음.",
+      "action": "조후를 보완할 수 있는 병화나 수를 활용하라.",
+      "cautions": [
+        "병화만 있으면 탈광 현상이 발생할 수 있음."
+      ],
+      "tags": [
+        "해월",
+        "정화",
+        "조후",
+        "병화",
+        "습기"
+      ],
+      "id": "RC-74b0de9830"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "context": "현금"
+      },
+      "mechanism": "수는 자본과 현금의 흐름을 상징.",
+      "interpretation": "수는 저장된 자산을 의미하며, 목으로 전환되면 소비나 투자로 이어짐.",
+      "action": "현금을 효율적으로 관리하고 투자 계획을 세워라.",
+      "cautions": [
+        "목이 없으면 자산 활용이 어려울 수 있음."
+      ],
+      "tags": [
+        "수",
+        "자본",
+        "현금",
+        "투자",
+        "재물"
+      ],
+      "id": "RC-9f1312d022"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "context": "정화의 조후"
+      },
+      "mechanism": "목은 정화가 관살을 소화하는 데 필수적.",
+      "interpretation": "목이 있으면 주변의 요구를 수용하고 성장 가능.",
+      "action": "목의 에너지를 활용해 주변 기대를 충족시켜라.",
+      "cautions": [
+        "목이 없으면 관살 소화가 어려워짐."
+      ],
+      "tags": [
+        "목",
+        "정화",
+        "조후",
+        "성장",
+        "관살"
+      ],
+      "id": "RC-32108d3532"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "god": "정관",
+        "element": "수"
+      },
+      "mechanism": "수의 정관은 유통과 경제적 활동에 적합.",
+      "interpretation": "수의 정관은 물류, 유통, 경제 관련 직업에 강점.",
+      "action": "유통 및 경제 분야에서 전문성을 키워라.",
+      "cautions": [
+        "수의 흐름을 통제할 수 있는 토가 필요함."
+      ],
+      "tags": [
+        "정관",
+        "수",
+        "유통",
+        "경제",
+        "직업"
+      ],
+      "id": "RC-3c561f9546"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "context": "재극인"
+      },
+      "mechanism": "토는 자산의 안정성과 관리 능력을 제공.",
+      "interpretation": "토가 있으면 자산을 안정적으로 관리 가능.",
+      "action": "토의 에너지를 활용해 재산을 안정적으로 운용하라.",
+      "cautions": [
+        "토가 없으면 자산 관리가 어려울 수 있음."
+      ],
+      "tags": [
+        "토",
+        "안정성",
+        "재산",
+        "관리",
+        "재극인"
+      ],
+      "id": "RC-8c0956b17b"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "god": "정관",
+        "context": "사업"
+      },
+      "mechanism": "정관은 관공서와의 연결을 통해 사업 기회를 제공.",
+      "interpretation": "정관은 관공서와 협력하는 사업에 적합.",
+      "action": "관공서와의 협력을 통해 사업 기회를 모색하라.",
+      "cautions": [
+        "정관의 틀을 벗어나기 어려울 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "사업",
+        "관공서",
+        "협력",
+        "기회"
+      ],
+      "id": "RC-f06428bdd2"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "context": "정화의 조후"
+      },
+      "mechanism": "병화는 정화의 조후를 보완하지만 탈광 위험 존재.",
+      "interpretation": "병화는 정화의 에너지를 강화하지만 균형 필요.",
+      "action": "병화를 사용할 때 수를 함께 투관시켜라.",
+      "cautions": [
+        "병화만 사용하면 탈광 현상이 발생할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "정화",
+        "조후",
+        "균형",
+        "탈광"
+      ],
+      "id": "RC-627d783993"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "god": "정관",
+        "context": "교육"
+      },
+      "mechanism": "정관은 교육 분야에서의 전문성을 강조.",
+      "interpretation": "정관은 교육 및 공공기관에서의 직업에 적합.",
+      "action": "교육 분야에서 전문성을 키우고 공공기관 취업을 준비하라.",
+      "cautions": [
+        "정관의 틀 안에서만 활동 가능."
+      ],
+      "tags": [
+        "정관",
+        "교육",
+        "공공기관",
+        "전문성",
+        "직업"
+      ],
+      "id": "RC-e581692b83"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "wood_presence": false
+      },
+      "mechanism": "목은 성장과 양성화의 역할을 한다.",
+      "interpretation": "목이 없으면 환경에 그대로 노출되어 변화가 어렵다.",
+      "action": "목의 기운을 보완할 수 있는 환경이나 활동을 찾아야 한다.",
+      "cautions": [
+        "환경에 지나치게 의존할 수 있음"
+      ],
+      "tags": [
+        "목",
+        "성장",
+        "환경",
+        "양성화",
+        "변화"
+      ],
+      "id": "RC-f933c33ed4"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "미",
+        "wood_presence": false
+      },
+      "mechanism": "미토는 목의 기운을 보완하는 역할을 한다.",
+      "interpretation": "목이 없어도 미토가 있으면 인성을 활용할 준비가 되어 있다.",
+      "action": "미토의 기운을 활용해 학문적, 실무적 성장을 도모하라.",
+      "cautions": [
+        "목이 없을 경우 여전히 한계가 있을 수 있음"
+      ],
+      "tags": [
+        "미토",
+        "목",
+        "인성",
+        "보완",
+        "학문"
+      ],
+      "id": "RC-7e64c5253b"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "wood_luck": true
+      },
+      "mechanism": "운에서 목의 기운이 흐르면 인성이 활성화된다.",
+      "interpretation": "목운이 오면 학문적, 실무적 능력이 상승한다.",
+      "action": "목운 시기에 학업이나 직업적 도전을 계획하라.",
+      "cautions": [
+        "목운이 지나면 기운이 약해질 수 있음"
+      ],
+      "tags": [
+        "목운",
+        "인성",
+        "학문",
+        "실무",
+        "성장"
+      ],
+      "id": "RC-c7e29a00b6"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "wood_presence": true,
+        "metal_presence": true
+      },
+      "mechanism": "목과 금의 조화는 효율적인 직업적 성과를 만든다.",
+      "interpretation": "목과 금이 조화를 이루면 효율적으로 돈을 벌 수 있다.",
+      "action": "목과 금의 기운을 활용해 사업이나 직업적 계획을 세워라.",
+      "cautions": [
+        "금이 없으면 효율성이 떨어질 수 있음"
+      ],
+      "tags": [
+        "목",
+        "금",
+        "효율",
+        "직업",
+        "사업"
+      ],
+      "id": "RC-f37e31fd99"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "conflict": true,
+        "wood_metal_presence": true
+      },
+      "mechanism": "목과 금은 충을 해소하는 역할을 한다.",
+      "interpretation": "충이 발생했을 때 목과 금이 개입하면 갈등이 해결된다.",
+      "action": "목과 금의 기운을 활용해 갈등 상황을 정리하라.",
+      "cautions": [
+        "목과 금이 없으면 갈등이 지속될 수 있음"
+      ],
+      "tags": [
+        "충",
+        "목",
+        "금",
+        "갈등",
+        "해소"
+      ],
+      "id": "RC-6d2e50198b"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "wood_presence": false,
+        "fire_presence": true
+      },
+      "mechanism": "목이 없으면 정화가 외로움을 느낀다.",
+      "interpretation": "목이 없는 정화는 감정적으로 고립되기 쉽다.",
+      "action": "감정적 안정과 소통을 위한 활동을 찾아라.",
+      "cautions": [
+        "외로움이 심화될 수 있음"
+      ],
+      "tags": [
+        "목",
+        "정화",
+        "외로움",
+        "감정",
+        "소통"
+      ],
+      "id": "RC-ae6c0ba01c"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "해",
+        "wood_presence": true
+      },
+      "mechanism": "해월의 목은 직업적 능력을 발휘하게 한다.",
+      "interpretation": "해월에 목이 있으면 직업적 성과가 높아진다.",
+      "action": "해월의 목 기운을 활용해 직업적 목표를 설정하라.",
+      "cautions": [
+        "목이 약하면 성과가 제한될 수 있음"
+      ],
+      "tags": [
+        "해월",
+        "목",
+        "직업",
+        "성과",
+        "목표"
+      ],
+      "id": "RC-aa425a0e41"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month_branch": "해",
+        "fire_presence": true
+      },
+      "mechanism": "해월의 정화는 관의 영향을 크게 받는다.",
+      "interpretation": "해월의 정화는 환경에 따라 크게 좌우된다.",
+      "action": "환경의 영향을 최소화할 수 있는 전략을 세워라.",
+      "cautions": [
+        "환경에 지나치게 의존할 수 있음"
+      ],
+      "tags": [
+        "해월",
+        "정화",
+        "환경",
+        "관",
+        "영향"
+      ],
+      "id": "RC-d93a570d61"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "metal_presence": true,
+        "earth_presence": true
+      },
+      "mechanism": "금과 토는 재물을 효율적으로 관리하게 한다.",
+      "interpretation": "금과 토가 있으면 재물 관리와 효율성이 높아진다.",
+      "action": "금과 토의 기운을 활용해 재정 계획을 세워라.",
+      "cautions": [
+        "금과 토가 없으면 낭비가 발생할 수 있음"
+      ],
+      "tags": [
+        "금",
+        "토",
+        "재물",
+        "효율",
+        "관리"
+      ],
+      "id": "RC-e97e5149eb"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "conflict": true,
+        "fire_presence": true
+      },
+      "mechanism": "정화는 충을 통해 변화를 유도한다.",
+      "interpretation": "정화가 충을 받으면 환경 변화가 발생한다.",
+      "action": "충의 기운을 활용해 긍정적인 변화를 도모하라.",
+      "cautions": [
+        "충이 해소되지 않으면 갈등이 지속될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "충",
+        "변화",
+        "환경",
+        "갈등"
+      ],
+      "id": "RC-8de329a8e9"
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 간략화되었음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_067",
+  "updated_at": "2025-12-23T20:27:24"
+}

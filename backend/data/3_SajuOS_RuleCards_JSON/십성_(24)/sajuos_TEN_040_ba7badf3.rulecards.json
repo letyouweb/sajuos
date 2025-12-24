@@ -1,0 +1,235 @@
+{
+  "title": "SajuOS_Logic_TEN_040",
+  "rulecards": [
+    {
+      "id": "RC-f8e1f7aa39",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "element": "임수",
+        "ten_god": "정재",
+        "month": "5월"
+      },
+      "mechanism": "임수(정재)가 5월의 기토에 의해 흐름이 막히고 통제되지 못함.",
+      "interpretation": "정재가 부를 상징하지만, 통제되지 않으면 빚으로 작용할 수 있음.",
+      "action": "임수를 활용하려면 경금을 통해 금생수의 흐름을 만들어야 함.",
+      "cautions": [
+        "기토가 강하면 임수의 흐름을 막아 부정적 결과를 초래할 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "임수",
+        "기토",
+        "경금",
+        "금생수",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-b25d873590",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "strength": "강함"
+      },
+      "mechanism": "기토가 강하면 임수의 흐름을 막으려 하지만, 결국 실패함.",
+      "interpretation": "기토가 강할수록 임수의 흐름을 통제하기 어려워짐.",
+      "action": "기토의 강한 에너지를 조절할 수 있는 금의 개입이 필요함.",
+      "cautions": [
+        "기토만으로는 임수를 통제할 수 없으며, 금의 도움 없이는 해결이 어려움."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "금생수",
+        "흐름",
+        "통제",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-5015b7cc18",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "interaction": "금생수"
+      },
+      "mechanism": "경금이 금생수를 통해 임수의 흐름을 원활히 만듦.",
+      "interpretation": "경금은 임수를 활용할 수 있는 중요한 매개체임.",
+      "action": "경금을 통해 임수의 흐름을 조화롭게 유지하도록 유도해야 함.",
+      "cautions": [
+        "신금은 경금만큼 효과적이지 않음."
+      ],
+      "tags": [
+        "경금",
+        "금생수",
+        "임수",
+        "흐름",
+        "조화",
+        "통관"
+      ]
+    },
+    {
+      "id": "RC-5deb7ea4e4",
+      "topic": "WEALTH",
+      "priority": 10,
+      "trigger": {
+        "element": "임수",
+        "ten_god": "정재",
+        "condition": "기토 강함"
+      },
+      "mechanism": "임수(정재)가 기토의 강한 에너지로 인해 흐름을 잃음.",
+      "interpretation": "재물이 모이지 않고 흩어지며, 빚으로 전환될 가능성이 높음.",
+      "action": "경금을 통해 금생수의 흐름을 만들어 재물을 안정적으로 유지해야 함.",
+      "cautions": [
+        "기토가 강한 환경에서는 임수 활용이 어려움."
+      ],
+      "tags": [
+        "정재",
+        "임수",
+        "기토",
+        "경금",
+        "재물",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-6cfc6d3e95",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "relation": "기토"
+      },
+      "mechanism": "기토와 임수의 관계에서 기토가 임수를 막으려 하지만 실패함.",
+      "interpretation": "기토와 임수의 조화가 이루어지지 않으면 갈등이 발생함.",
+      "action": "기토와 임수의 관계를 조화롭게 만들기 위해 금의 개입이 필요함.",
+      "cautions": [
+        "기토가 임수를 억제하려는 시도가 실패할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "조화",
+        "갈등",
+        "금생수"
+      ]
+    },
+    {
+      "id": "RC-863ef791b6",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "임수 활용 조건이 까다로움"
+      },
+      "mechanism": "임수는 특정 조건에서만 효과적으로 활용 가능.",
+      "interpretation": "임수를 활용하려면 주변 환경과 조화가 중요함.",
+      "action": "임수를 활용하기 위한 조건을 충족시키는 데 집중해야 함.",
+      "cautions": [
+        "조건을 충족하지 못하면 임수의 효과가 제한됨."
+      ],
+      "tags": [
+        "임수",
+        "활용",
+        "조건",
+        "조화",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-b993da4221",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "개수",
+        "relation": "기토"
+      },
+      "mechanism": "개수는 기토와 조화를 이루어 비옥한 환경을 만듦.",
+      "interpretation": "개수는 기토와 함께 생산적이고 안정적인 구조를 형성함.",
+      "action": "개수를 활용해 기토와의 조화를 극대화해야 함.",
+      "cautions": [
+        "개수가 없으면 생산성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "기토",
+        "조화",
+        "비옥",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-3661c970e1",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month": "5월",
+        "element": "기토"
+      },
+      "mechanism": "5월의 기토는 강한 에너지를 가지며 임수의 흐름을 방해함.",
+      "interpretation": "5월에는 임수를 활용하기 어려운 시기임.",
+      "action": "5월에는 금의 개입을 통해 임수의 흐름을 조정해야 함.",
+      "cautions": [
+        "5월의 기토는 임수 활용에 부정적 영향을 미침."
+      ],
+      "tags": [
+        "5월",
+        "기토",
+        "임수",
+        "금생수",
+        "시기"
+      ]
+    },
+    {
+      "id": "RC-fc4537274c",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "임수",
+        "relation": "경금"
+      },
+      "mechanism": "경금이 임수의 흐름을 원활히 만들어 조화를 이룸.",
+      "interpretation": "경금은 임수와의 관계에서 중요한 역할을 함.",
+      "action": "경금을 활용해 임수와의 관계를 강화해야 함.",
+      "cautions": [
+        "경금이 없으면 임수의 흐름이 약화될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "임수",
+        "조화",
+        "흐름",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-32754ca5a5",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "ten_god": "정재",
+        "condition": "금 없음"
+      },
+      "mechanism": "금이 없으면 임수의 흐름이 막혀 재물이 흩어짐.",
+      "interpretation": "금의 부재는 재물의 안정성을 저해함.",
+      "action": "금의 개입을 통해 재물의 흐름을 안정시켜야 함.",
+      "cautions": [
+        "금이 없으면 재물이 흩어질 가능성이 높음."
+      ],
+      "tags": [
+        "임수",
+        "정재",
+        "금",
+        "흐름",
+        "재물"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_040",
+  "updated_at": "2025-12-23T20:27:26"
+}

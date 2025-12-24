@@ -1,0 +1,449 @@
+{
+  "title": "SajuOS_Logic_APPL_026",
+  "rulecards": [
+    {
+      "id": "RC-fa488e8039",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "인성",
+        "strength": "신약"
+      },
+      "mechanism": "신약한 일간은 인성을 통해 부족한 에너지를 보충하려는 경향이 있음.",
+      "interpretation": "신약한 사람은 인성을 통해 열심히 공부하려는 태도를 보인다.",
+      "action": "인성을 활용해 암기 중심의 학습법을 적용하라.",
+      "cautions": [
+        "열심히 하는 것과 성과가 반드시 비례하지 않을 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "신약",
+        "공부",
+        "암기",
+        "노력"
+      ]
+    },
+    {
+      "id": "RC-fdef37d434",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "인성",
+        "strength": "신왕"
+      },
+      "mechanism": "신왕한 일간은 인성을 효율적으로 소화할 수 있음.",
+      "interpretation": "신왕한 사람은 적은 노력으로도 학습 성과를 낼 수 있다.",
+      "action": "효율적인 학습법을 찾아 적용하라.",
+      "cautions": [
+        "노력 부족으로 인해 잠재력을 충분히 발휘하지 못할 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "신왕",
+        "효율",
+        "학습",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-50a51e2d58",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "정인",
+        "memory_type": "장기"
+      },
+      "mechanism": "정인은 장기 기억에 강한 특성을 가짐.",
+      "interpretation": "정인은 장기적인 학습 계획에 유리하다.",
+      "action": "장기 목표를 설정하고 꾸준히 학습하라.",
+      "cautions": [
+        "단기적인 학습 성과에는 약할 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "장기기억",
+        "학습계획",
+        "목표",
+        "꾸준함"
+      ]
+    },
+    {
+      "id": "RC-fe7436abda",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편인",
+        "memory_type": "단기"
+      },
+      "mechanism": "편인은 단기 기억과 특정 분야에 특화된 학습에 강함.",
+      "interpretation": "편인은 단기 집중 학습에 적합하다.",
+      "action": "단기 목표를 설정하고 집중적으로 학습하라.",
+      "cautions": [
+        "장기적인 학습 성과에는 약할 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "단기기억",
+        "집중",
+        "특화",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-42f3295cf0",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "관인상생"
+      },
+      "mechanism": "관인상생은 목표와 긴장감을 부여하여 학습 태도를 강화함.",
+      "interpretation": "관인상생 구조는 상위권 학습 성과를 낼 가능성이 높다.",
+      "action": "명확한 목표를 설정하고 학습에 집중하라.",
+      "cautions": [
+        "새로운 유형의 문제 해결에는 약할 수 있음."
+      ],
+      "tags": [
+        "관인상생",
+        "목표",
+        "긴장감",
+        "학습",
+        "상위권"
+      ]
+    },
+    {
+      "id": "RC-b2f4b79916",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "살인상생"
+      },
+      "mechanism": "살인상생은 극한의 압박 속에서도 학습을 지속하게 함.",
+      "interpretation": "살인상생 구조는 어려운 환경에서도 학습을 지속할 수 있다.",
+      "action": "압박감을 긍정적으로 활용하여 학습에 몰입하라.",
+      "cautions": [
+        "과도한 스트레스로 인해 건강에 영향을 받을 수 있음."
+      ],
+      "tags": [
+        "살인상생",
+        "압박",
+        "몰입",
+        "학습",
+        "극복"
+      ]
+    },
+    {
+      "id": "RC-9c5b6fe9eb",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "인성",
+        "interaction": "재성"
+      },
+      "mechanism": "재성이 인성을 필터링하여 효율성을 높임.",
+      "interpretation": "재성이 인성을 보조하면 효율적인 학습이 가능하다.",
+      "action": "중요한 내용을 선별하여 학습하라.",
+      "cautions": [
+        "재성이 과도하면 인성의 수용 능력이 저하될 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "재성",
+        "효율",
+        "필터링",
+        "학습"
+      ]
+    },
+    {
+      "id": "RC-baab5007e9",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "인성",
+        "interaction": "관성"
+      },
+      "mechanism": "관성이 인성을 생하여 학습의 목적성을 강화함.",
+      "interpretation": "관성이 인성을 보조하면 목표 지향적인 학습이 가능하다.",
+      "action": "명확한 목표를 설정하고 학습하라.",
+      "cautions": [
+        "관성이 약하면 목표 설정이 불분명해질 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "관성",
+        "목표",
+        "학습",
+        "목적성"
+      ]
+    },
+    {
+      "id": "RC-fb75aeee88",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "관인상생",
+        "strength": "강함"
+      },
+      "mechanism": "강한 관인상생은 학습의 안정성과 집중력을 제공함.",
+      "interpretation": "관인상생이 강하면 흔들리지 않고 학습에 몰두할 수 있다.",
+      "action": "학습 환경을 안정적으로 유지하라.",
+      "cautions": [
+        "긴장감이 과도하면 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "관인상생",
+        "집중력",
+        "안정성",
+        "학습",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-40c98e945a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "살인상생",
+        "strength": "강함"
+      },
+      "mechanism": "강한 살인상생은 극한 상황에서도 학습을 지속하게 함.",
+      "interpretation": "살인상생이 강하면 어려운 환경에서도 학습 성과를 낼 수 있다.",
+      "action": "극한의 상황에서도 학습을 포기하지 말라.",
+      "cautions": [
+        "과도한 압박으로 인해 심리적 부담이 클 수 있음."
+      ],
+      "tags": [
+        "살인상생",
+        "극복",
+        "압박",
+        "학습",
+        "성과"
+      ]
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 10,
+      "trigger": {
+        "ten_gods": "식신",
+        "goal": "서울대"
+      },
+      "mechanism": "식신은 안정적이고 체계적인 학습을 지원하며, 국가기관과 같은 환경에 적합한 성향을 가진다.",
+      "interpretation": "서울대와 같은 국가기관에 적합한 학습 성향을 가지려면 식신이 필요하다.",
+      "action": "식신의 영향을 강화할 수 있는 환경과 학습 방식을 선택하라.",
+      "cautions": [
+        "상관은 창의적이지만 튀는 성향으로 인해 국가기관과는 부적합할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "서울대",
+        "국가기관",
+        "학습",
+        "안정성"
+      ],
+      "id": "RC-0c440a8f70"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "상관",
+        "goal": "서울대"
+      },
+      "mechanism": "상관은 창의적이지만 튀는 성향으로 인해 보수적 환경에서 부적합하다.",
+      "interpretation": "상관은 서울대와 같은 보수적 환경에 적합하지 않다.",
+      "action": "상관의 창의성을 살릴 수 있는 연고대와 같은 환경을 고려하라.",
+      "cautions": [
+        "상관이 제압되어도 서울대와 같은 환경에는 여전히 부적합할 수 있다."
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "서울대",
+        "연고대",
+        "적합성"
+      ],
+      "id": "RC-fcd6bf13e1"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "식신",
+        "supporting_luck": true
+      },
+      "mechanism": "식신이 운의 지원을 받으면 학업 성취가 극대화된다.",
+      "interpretation": "운이 받쳐주면 식신은 학업에서 큰 성과를 낼 수 있다.",
+      "action": "운의 흐름을 분석하고 학업 계획을 조정하라.",
+      "cautions": [
+        "운이 부족하면 식신의 잠재력이 제한될 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "운",
+        "학업",
+        "성취",
+        "계획"
+      ],
+      "id": "RC-909a09f967"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "식상",
+        "interest_in_study": true
+      },
+      "mechanism": "식상이 붙으면 학업이 노동이 아닌 즐거움으로 전환된다.",
+      "interpretation": "식상이 붙으면 학업에 대한 흥미와 자발성이 증가한다.",
+      "action": "식상의 영향을 강화할 수 있는 학습 환경을 조성하라.",
+      "cautions": [
+        "식상이 없으면 학업이 단순 노동처럼 느껴질 수 있다."
+      ],
+      "tags": [
+        "식상",
+        "흥미",
+        "자발성",
+        "학업",
+        "즐거움"
+      ],
+      "id": "RC-51d3486cd7"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "structure": "인성 강함",
+        "ten_gods": "식상"
+      },
+      "mechanism": "식상이 인성을 소화하며 학업 성취를 돕는다.",
+      "interpretation": "인성이 강해도 식상이 있으면 학업에서 소화력이 생긴다.",
+      "action": "식상의 역할을 강화하여 인성을 효과적으로 소화하라.",
+      "cautions": [
+        "식상이 부족하면 인성의 압박으로 인해 학업에서 실패를 경험할 수 있다."
+      ],
+      "tags": [
+        "인성",
+        "식상",
+        "소화력",
+        "학업",
+        "압박"
+      ],
+      "id": "RC-1980d1168f"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "인성 강함",
+        "ten_gods": "식상 부족"
+      },
+      "mechanism": "출구가 부족하면 인성의 압박이 심화된다.",
+      "interpretation": "식상이 부족하면 인성의 소화가 어려워지고 실패를 경험할 가능성이 높다.",
+      "action": "식상의 출구를 늘리기 위한 학습 전략을 마련하라.",
+      "cautions": [
+        "인성의 압박이 심하면 학업에서 좌절감을 느낄 수 있다."
+      ],
+      "tags": [
+        "인성",
+        "식상 부족",
+        "압박",
+        "학업",
+        "실패"
+      ],
+      "id": "RC-7a6c544e6b"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "일관 강함",
+        "ten_gods": "식상"
+      },
+      "mechanism": "일관이 강하면 식상을 효과적으로 활용할 수 있다.",
+      "interpretation": "일관이 강하면 식상이 적어도 학업에서 성공할 수 있다.",
+      "action": "일관을 강화하는 환경과 습관을 조성하라.",
+      "cautions": [
+        "일관이 약하면 식상의 출력이 불안정해질 수 있다."
+      ],
+      "tags": [
+        "일관",
+        "식상",
+        "학업",
+        "안정성",
+        "성공"
+      ],
+      "id": "RC-45be3eea3b"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "일관 약함",
+        "ten_gods": "식상"
+      },
+      "mechanism": "일관이 약하면 식상의 출력이 불안정해진다.",
+      "interpretation": "일관이 약하면 학업에서 자신감과 주도력이 떨어질 수 있다.",
+      "action": "일관을 보완하기 위한 지원 체계를 마련하라.",
+      "cautions": [
+        "일관 약함은 학업에서 반복 학습의 지속성을 저하시킬 수 있다."
+      ],
+      "tags": [
+        "일관 약함",
+        "식상",
+        "학업",
+        "자신감",
+        "주도력"
+      ],
+      "id": "RC-8079ed41ef"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "인성 강함",
+        "ten_gods": "식상",
+        "repetition": true
+      },
+      "mechanism": "인성과 식상의 조합은 반복 학습을 통해 학업 성취를 높인다.",
+      "interpretation": "반복 학습은 인성과 식상의 조합에서 중요한 학습 방식이다.",
+      "action": "반복 학습을 체계적으로 계획하고 실행하라.",
+      "cautions": [
+        "반복 학습이 부족하면 학업 성취가 제한될 수 있다."
+      ],
+      "tags": [
+        "인성",
+        "식상",
+        "반복 학습",
+        "학업",
+        "성취"
+      ],
+      "id": "RC-788969f639"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "인성 강함",
+        "ten_gods": "식상",
+        "self_awareness": true
+      },
+      "mechanism": "식상이 있으면 자신이 잘하는 것과 못하는 것을 인지할 수 있다.",
+      "interpretation": "식상은 학업에서 자기 객관화를 가능하게 한다.",
+      "action": "자신의 강점과 약점을 분석하고 학습 전략을 조정하라.",
+      "cautions": [
+        "자기 객관화가 부족하면 학업에서 비효율이 발생할 수 있다."
+      ],
+      "tags": [
+        "인성",
+        "식상",
+        "자기 객관화",
+        "학업",
+        "전략"
+      ],
+      "id": "RC-cf764bba54"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_026",
+  "updated_at": "2025-12-23T20:27:26"
+}

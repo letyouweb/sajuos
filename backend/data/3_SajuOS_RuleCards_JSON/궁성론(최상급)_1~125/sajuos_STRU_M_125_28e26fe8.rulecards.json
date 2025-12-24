@@ -1,0 +1,454 @@
+{
+  "title": "SajuOS_Logic_STRU_M_125",
+  "rulecards": [
+    {
+      "id": "RC-94e1b6908b",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "month": 5,
+        "daymaster": "갑목"
+      },
+      "mechanism": "5월의 갑목은 목생화가 빠르게 진행되며 상관의 영향을 받음.",
+      "interpretation": "환경적 조건에 의해 자신의 의지와 상관없이 주변에 끌려가는 경향이 있음.",
+      "action": "빠른 목생화의 속도를 조절하고, 주변 환경에 휘둘리지 않도록 주의.",
+      "cautions": [
+        "속도 조절 실패 시 사고 가능성",
+        "환경에 지나치게 의존할 위험"
+      ],
+      "tags": [
+        "5월",
+        "갑목",
+        "목생화",
+        "상관",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-99864598de",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "daymaster": "갑목",
+        "relation": "상관"
+      },
+      "mechanism": "상관은 갑목의 의지와 상관없이 주변 환경에 영향을 미침.",
+      "interpretation": "상관의 영향으로 주변 흐름에 동화되거나 끌려가는 경향이 강함.",
+      "action": "자신의 의지를 명확히 하고, 상관의 영향을 긍정적으로 활용.",
+      "cautions": [
+        "상관의 부정적 영향으로 인해 실수 가능성"
+      ],
+      "tags": [
+        "갑목",
+        "상관",
+        "환경",
+        "동화",
+        "의지"
+      ]
+    },
+    {
+      "id": "RC-dc2febfa8c",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "month": 5,
+        "daymaster": "갑목"
+      },
+      "mechanism": "5월의 갑목은 목생화가 빠르게 진행되며, 화의 영향이 강함.",
+      "interpretation": "목생화가 빠르게 진행되면 사고나 실수가 발생할 가능성이 높음.",
+      "action": "목생화의 속도를 조절하고, 화의 과잉을 방지.",
+      "cautions": [
+        "화의 과잉으로 인한 목분 가능성"
+      ],
+      "tags": [
+        "목생화",
+        "화",
+        "속도",
+        "조절",
+        "5월"
+      ]
+    },
+    {
+      "id": "RC-3fa2e34d52",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": 5,
+        "daymaster": "갑목",
+        "element": "개수"
+      },
+      "mechanism": "개수가 조후 역할을 하여 목생화의 생산성을 높임.",
+      "interpretation": "개수가 있으면 상관의 생산성이 높아지고, 사회적 성공 가능성이 커짐.",
+      "action": "개수를 활용하여 목생화의 생산성을 극대화.",
+      "cautions": [
+        "개수가 지나치게 강하면 상관 패인 가능성"
+      ],
+      "tags": [
+        "개수",
+        "목생화",
+        "조후",
+        "생산성",
+        "상관"
+      ]
+    },
+    {
+      "id": "RC-098702616b",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "daymaster": "갑목",
+        "relation": "상관"
+      },
+      "mechanism": "상관은 갑목의 연애에서 자발적 의지보다는 환경적 요인에 의해 시작됨.",
+      "interpretation": "연애가 자신의 의지와 상관없이 시작될 가능성이 있음.",
+      "action": "연애를 시작하기 전에 자신의 감정을 명확히 파악.",
+      "cautions": [
+        "환경에 휘둘려 관계를 시작할 위험"
+      ],
+      "tags": [
+        "갑목",
+        "상관",
+        "연애",
+        "환경",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-6db0b3f130",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": 5,
+        "daymaster": "갑목",
+        "element": "개수"
+      },
+      "mechanism": "개수가 목생화의 속도를 조절하고, 상관의 생산성을 높임.",
+      "interpretation": "개수가 있으면 상관의 재능이 사회적으로 발현될 가능성이 높음.",
+      "action": "개수를 활용하여 상관의 재능을 사회적 성공으로 연결.",
+      "cautions": [
+        "개수 부족 시 상관의 재능이 발휘되지 않을 위험"
+      ],
+      "tags": [
+        "개수",
+        "목생화",
+        "상관",
+        "재능",
+        "사회적 성공"
+      ]
+    },
+    {
+      "id": "RC-f8c8eeff20",
+      "topic": "GENERAL",
+      "priority": 7,
+      "trigger": {
+        "note": "5월의 갑목과 상관의 관계"
+      },
+      "mechanism": "상관은 갑목의 솔직한 표현을 유도하며, 필터링 없이 발현됨.",
+      "interpretation": "갑목은 솔직한 표현으로 인해 주변에 거부감을 줄 수 있음.",
+      "action": "표현을 조절하고, 감성을 첨가하여 소통.",
+      "cautions": [
+        "솔직한 표현으로 인한 갈등 가능성"
+      ],
+      "tags": [
+        "갑목",
+        "상관",
+        "표현",
+        "소통",
+        "감성"
+      ]
+    },
+    {
+      "id": "RC-ec154b0fde",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "daymaster": "갑목",
+        "relation": "상관",
+        "element": "정화"
+      },
+      "mechanism": "정화가 경금을 보면 직중심으로 상관의 재능이 발현됨.",
+      "interpretation": "정화와 경금의 조합은 고위직이나 전문직으로의 성공 가능성을 높임.",
+      "action": "정화와 경금을 활용하여 직업적 성공을 도모.",
+      "cautions": [
+        "정화와 경금의 조화가 깨질 경우 직업적 실패 가능성"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "상관",
+        "직업",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-31ff6909e1",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "daymaster": "갑목",
+        "relation": "상관",
+        "element": "개수"
+      },
+      "mechanism": "개수가 상관의 생산성을 높여 재물을 창출.",
+      "interpretation": "개수가 있으면 상관의 재능이 재물로 연결될 가능성이 높음.",
+      "action": "개수를 활용하여 재물 창출을 극대화.",
+      "cautions": [
+        "개수 부족 시 재물 창출 어려움"
+      ],
+      "tags": [
+        "개수",
+        "상관",
+        "재물",
+        "생산성",
+        "갑목"
+      ]
+    },
+    {
+      "id": "RC-6cd718c09e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "daymaster": "갑목",
+        "relation": "상관",
+        "element": "개수"
+      },
+      "mechanism": "개수가 상관의 과잉을 조절하여 관계를 원활히 함.",
+      "interpretation": "개수가 있으면 상관의 부정적 영향을 줄이고, 관계를 개선.",
+      "action": "개수를 활용하여 관계를 조화롭게 유지.",
+      "cautions": [
+        "개수 부족 시 관계 갈등 가능성"
+      ],
+      "tags": [
+        "개수",
+        "상관",
+        "관계",
+        "조화",
+        "갑목"
+      ]
+    },
+    {
+      "id": "RC-10556d5e5a",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "개수",
+        "exists": true
+      },
+      "mechanism": "개수가 목생화를 조절하고 상관의 에너지를 균형 있게 만든다.",
+      "interpretation": "개수가 있으면 사주가 안정적이고 추진력이 강하다.",
+      "action": "개수가 있는 경우 이를 활용해 상관의 에너지를 긍정적으로 발휘하도록 유도하라.",
+      "cautions": [
+        "개수가 없으면 목생화가 과도해질 수 있다."
+      ],
+      "tags": [
+        "개수",
+        "목생화",
+        "상관",
+        "조절",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-69a0194b71",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "exists": false
+      },
+      "mechanism": "개수가 없으면 목생화 조절이 어려워지고 상관의 에너지가 과도해진다.",
+      "interpretation": "개수가 없으면 초년에 어려움을 겪을 가능성이 높다.",
+      "action": "개수가 없는 경우 환경적 지원이나 교육을 통해 균형을 잡아라.",
+      "cautions": [
+        "초년의 어려움",
+        "사고 가능성 증가"
+      ],
+      "tags": [
+        "개수",
+        "목생화",
+        "초년",
+        "환경",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-8ae08bbd84",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "재",
+        "exists": true
+      },
+      "mechanism": "재가 상관의 에너지를 귀결시켜 사회적 시스템 내에서 안정적으로 작용한다.",
+      "interpretation": "재가 있으면 상관이 사회적 규범을 따르게 된다.",
+      "action": "재가 있는 경우 상관의 에너지를 사회적 활동으로 연결하라.",
+      "cautions": [],
+      "tags": [
+        "재",
+        "상관",
+        "사회적 안정",
+        "규범",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-dc4407c282",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "재",
+        "exists": false
+      },
+      "mechanism": "재가 없으면 상관이 통제되지 않고 사고를 유발할 가능성이 높아진다.",
+      "interpretation": "재가 없으면 상관이 자유롭게 작용하며 문제를 일으킬 수 있다.",
+      "action": "재가 없는 경우 상관의 에너지를 긍정적으로 발휘할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "사회적 규범에서 벗어날 가능성"
+      ],
+      "tags": [
+        "재",
+        "상관",
+        "통제",
+        "문제",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-2e5bcb7968",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "운": true
+      },
+      "mechanism": "토 운이 오면 상관생제의 에너지가 활성화된다.",
+      "interpretation": "토 운이 오면 프리랜서적 성향이 강해지고 독립적인 활동을 추구한다.",
+      "action": "토 운이 올 때 독립적인 프로젝트나 사업을 계획하라.",
+      "cautions": [
+        "운의 변화에 따른 준비 부족"
+      ],
+      "tags": [
+        "토",
+        "운",
+        "상관생제",
+        "프리랜서",
+        "독립"
+      ]
+    },
+    {
+      "id": "RC-39415d3d83",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "운": true
+      },
+      "mechanism": "금 운이 오면 관인의 에너지가 활성화된다.",
+      "interpretation": "금 운이 오면 직장 중심의 안정적인 활동이 가능하다.",
+      "action": "금 운이 올 때 직장 내에서 인정받을 수 있는 활동에 집중하라.",
+      "cautions": [
+        "변화에 대한 적응 필요"
+      ],
+      "tags": [
+        "금",
+        "운",
+        "관인",
+        "직장",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-dea60ad517",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "exists": true
+      },
+      "mechanism": "경금이 있으면 직업적 목적성과 안정성을 제공한다.",
+      "interpretation": "경금은 직업적 방향성을 명확히 하고 지속성을 부여한다.",
+      "action": "경금이 있는 경우 이를 활용해 장기적인 직업 계획을 세워라.",
+      "cautions": [],
+      "tags": [
+        "경금",
+        "직업",
+        "목적성",
+        "안정성",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-2cb331fb35",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "exists": true
+      },
+      "mechanism": "신금은 간목과 상극 관계로 조화롭게 작용하기 어렵다.",
+      "interpretation": "신금은 간목과의 관계에서 갈등을 유발할 수 있다.",
+      "action": "신금이 있는 경우 갈등을 최소화할 수 있는 방안을 모색하라.",
+      "cautions": [
+        "갈등 가능성",
+        "조화 부족"
+      ],
+      "tags": [
+        "신금",
+        "간목",
+        "갈등",
+        "상극",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-5e9d43f04a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "목생화",
+        "balanced": true
+      },
+      "mechanism": "목생화가 조절되면 사주의 에너지가 균형을 이룬다.",
+      "interpretation": "목생화가 조절되면 추진력과 안정성을 동시에 갖춘다.",
+      "action": "목생화의 균형을 유지하도록 환경을 조성하라.",
+      "cautions": [
+        "조절 실패 시 에너지 과잉"
+      ],
+      "tags": [
+        "목생화",
+        "균형",
+        "추진력",
+        "안정성",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-fb4ace110a",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목생화",
+        "balanced": false
+      },
+      "mechanism": "목생화가 조절되지 않으면 에너지가 과도해질 수 있다.",
+      "interpretation": "목생화가 조절되지 않으면 불안정한 성향을 보일 수 있다.",
+      "action": "목생화가 과도한 경우 이를 조절할 수 있는 요소를 추가하라.",
+      "cautions": [
+        "불안정성 증가"
+      ],
+      "tags": [
+        "목생화",
+        "조절 실패",
+        "불안정",
+        "과도",
+        "균형"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트에서 특정 사례와 개인적 경험이 언급되었으나, 규칙 추출에만 집중하여 일반화된 내용을 작성함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_125",
+  "updated_at": "2025-12-23T20:27:24"
+}

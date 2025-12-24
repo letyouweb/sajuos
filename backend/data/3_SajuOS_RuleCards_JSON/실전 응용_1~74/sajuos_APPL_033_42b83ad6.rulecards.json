@@ -1,0 +1,437 @@
+{
+  "title": "SajuOS_Logic_APPL_033",
+  "rulecards": [
+    {
+      "id": "RC-b9fc709973",
+      "topic": "GENERAL",
+      "priority": 9,
+      "trigger": {
+        "note": "사주에서 육친을 해석할 때"
+      },
+      "mechanism": "육친은 인간관계를 나타내며, 가족 관계를 중심으로 해석한다.",
+      "interpretation": "육친은 사주에서 가족 및 인간관계의 구조를 이해하는 기본 틀이다.",
+      "action": "사주를 분석할 때 육친의 위치와 역할을 먼저 파악하라.",
+      "cautions": [
+        "육친 해석은 보편적이지 않아 어려울 수 있다."
+      ],
+      "tags": [
+        "육친",
+        "가족관계",
+        "인간관계",
+        "사주분석",
+        "기본개념"
+      ]
+    },
+    {
+      "id": "RC-019b5c8541",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "note": "사주에서 궁을 나눌 때"
+      },
+      "mechanism": "궁은 가족 구성원의 역할과 위치를 나타낸다.",
+      "interpretation": "궁은 조부모, 부모, 배우자, 자식 등 가족의 위치를 구분한다.",
+      "action": "사주를 분석할 때 궁의 위치를 명확히 구분하라.",
+      "cautions": [
+        "궁 해석 시 오행 중심으로 접근해야 한다."
+      ],
+      "tags": [
+        "궁",
+        "가족구조",
+        "조부모",
+        "부모",
+        "배우자",
+        "자식"
+      ]
+    },
+    {
+      "id": "RC-1d71975bbf",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "궁 해석 시 오행을 고려할 때"
+      },
+      "mechanism": "오행은 궁의 성격과 역할을 결정한다.",
+      "interpretation": "부모궁의 오행은 부모의 성향과 역할을 나타낸다.",
+      "action": "궁 해석 시 오행과 한난조습의 관계를 분석하라.",
+      "cautions": [
+        "사주 전체의 오행이 아닌 궁의 오행에 집중해야 한다."
+      ],
+      "tags": [
+        "오행",
+        "궁해석",
+        "부모궁",
+        "성향",
+        "한난조습"
+      ]
+    },
+    {
+      "id": "RC-6e7471f6e2",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "note": "모친을 해석할 때"
+      },
+      "mechanism": "인성은 일간을 생하는 역할로 모친을 나타낸다.",
+      "interpretation": "모친은 인성으로 해석하며, 생의 관계를 기반으로 한다.",
+      "action": "모친의 역할을 인성으로 파악하라.",
+      "cautions": [
+        "인성의 강약과 위치를 고려해야 한다."
+      ],
+      "tags": [
+        "인성",
+        "모친",
+        "생의관계",
+        "십성",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-d4679c7c9b",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "note": "부친을 해석할 때"
+      },
+      "mechanism": "재성은 인성을 극하는 역할로 부친을 나타낸다.",
+      "interpretation": "부친은 재성으로 해석하며, 거리감을 형성하는 관계로 본다.",
+      "action": "부친의 역할을 재성으로 파악하라.",
+      "cautions": [
+        "재성의 강약과 위치를 고려해야 한다."
+      ],
+      "tags": [
+        "재성",
+        "부친",
+        "극의관계",
+        "십성",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-9f5d5e9f3d",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "note": "자녀를 해석할 때"
+      },
+      "mechanism": "식상은 일간이 생하는 관계로 자녀를 나타낸다.",
+      "interpretation": "자녀는 식상으로 해석하며, 자녀의 몸과 본질을 나타낸다.",
+      "action": "자녀의 역할을 식상으로 파악하라.",
+      "cautions": [
+        "식상의 강약과 위치를 고려해야 한다."
+      ],
+      "tags": [
+        "식상",
+        "자녀",
+        "생의관계",
+        "십성",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-875e0abb91",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "note": "자녀의 사회적 역할을 해석할 때"
+      },
+      "mechanism": "관성은 자녀의 사회적 위치와 역할을 나타낸다.",
+      "interpretation": "자녀의 사회적 역할은 관성으로 해석한다.",
+      "action": "자녀의 사회적 위치를 관성으로 분석하라.",
+      "cautions": [
+        "관성과 식상의 차이를 명확히 이해해야 한다."
+      ],
+      "tags": [
+        "관성",
+        "자녀",
+        "사회적역할",
+        "십성",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-d79ff3d385",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "note": "육친을 일관 중심으로 해석할 때"
+      },
+      "mechanism": "일관과 주변 7글자의 관계를 통해 육친을 해석한다.",
+      "interpretation": "일관을 중심으로 주변 글자들의 역할과 관계를 파악한다.",
+      "action": "일관과 주변 글자의 관계를 분석하라.",
+      "cautions": [
+        "일관 중심 해석이 모든 경우에 적용되지는 않는다."
+      ],
+      "tags": [
+        "일관",
+        "육친",
+        "관계",
+        "사주분석",
+        "기본개념"
+      ]
+    },
+    {
+      "id": "RC-27814719fb",
+      "topic": "GENERAL",
+      "priority": 7,
+      "trigger": {
+        "note": "육친 해석에서 충돌이 발생할 때"
+      },
+      "mechanism": "육친 해석은 다양한 관점에서 충돌이 발생할 수 있다.",
+      "interpretation": "충돌은 육친의 복잡성을 나타내며, 다양한 해석이 가능하다.",
+      "action": "충돌 지점을 분석하고 다양한 관점을 고려하라.",
+      "cautions": [
+        "충돌 해석 시 일관된 기준을 유지해야 한다."
+      ],
+      "tags": [
+        "육친",
+        "충돌",
+        "해석",
+        "사주분석",
+        "복잡성"
+      ]
+    },
+    {
+      "id": "RC-c77705a074",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "note": "식신이 자녀를 바라볼 때"
+      },
+      "mechanism": "식신은 자녀의 몸과 본질을 이해하는 데 초점이 있다.",
+      "interpretation": "식신은 자녀의 건강과 기본적인 욕구를 중시한다.",
+      "action": "식신을 통해 자녀의 기본적인 필요를 파악하라.",
+      "cautions": [
+        "식신이 없을 경우 자녀의 기본 욕구를 간과할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "자녀",
+        "건강",
+        "욕구",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-05fdc11a01",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "has_shikshin": true
+      },
+      "mechanism": "식신은 자녀와의 정서적 유대와 이해를 강화하는 역할을 한다.",
+      "interpretation": "식신이 있는 부모는 자녀와의 관계에서 정서적 친밀감을 잘 형성한다.",
+      "action": "자녀와의 대화와 놀이를 통해 정서적 유대를 강화하라.",
+      "cautions": [
+        "식신이 없으면 자녀와의 정서적 연결이 어려울 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "자녀",
+        "정서적 유대",
+        "육친",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-8ed577d485",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "has_shikshin": false
+      },
+      "mechanism": "식신이 없는 부모는 자녀의 기본적인 욕구를 충족시키는 데 어려움을 겪을 수 있다.",
+      "interpretation": "식신이 없는 부모는 자녀의 신체적, 정서적 요구를 이해하고 충족시키는 데 부족함을 느낄 수 있다.",
+      "action": "자녀의 요구를 이해하려는 노력을 기울이고, 외부 도움을 적극 활용하라.",
+      "cautions": [
+        "자녀의 요구를 무시하거나 간과하지 않도록 주의하라."
+      ],
+      "tags": [
+        "식신 없음",
+        "자녀",
+        "부모 역할",
+        "육친",
+        "정서적 거리"
+      ]
+    },
+    {
+      "id": "RC-4c6fd2d4cc",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "shikshin_in_cheongan": true
+      },
+      "mechanism": "청간의 식신은 사회적 기능과 자녀에 대한 기대를 강화한다.",
+      "interpretation": "청간에 식신이 있으면 자녀에게 높은 기대를 가지며, 이를 통해 자신의 만족을 추구할 가능성이 있다.",
+      "action": "자녀에게 과도한 기대를 하지 말고, 자녀의 입장을 고려하라.",
+      "cautions": [
+        "자녀에게 부담을 주지 않도록 주의하라."
+      ],
+      "tags": [
+        "청간 식신",
+        "자녀 기대",
+        "사회적 기능",
+        "부모 역할",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-f4c4a5f79f",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "shikshin_in_jiji": true
+      },
+      "mechanism": "지지의 식신은 자녀의 신체적 건강과 기본적인 욕구 충족에 초점을 맞춘다.",
+      "interpretation": "지지에 식신이 있으면 자녀의 신체적 건강과 기본 욕구 충족에 헌신적이다.",
+      "action": "자녀의 기본적인 필요를 충족시키는 데 집중하라.",
+      "cautions": [
+        "자녀의 정서적 요구를 간과하지 않도록 주의하라."
+      ],
+      "tags": [
+        "지지 식신",
+        "자녀 건강",
+        "기본 욕구",
+        "부모 역할",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-0060db9223",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "shikshin_in_cheongan": true,
+        "shikshin_in_jiji": true
+      },
+      "mechanism": "청간과 지지에 식신이 모두 있으면 자녀에 대한 욕심과 헌신이 균형을 이룬다.",
+      "interpretation": "청간과 지지에 식신이 모두 있으면 자녀에 대한 기대와 헌신이 조화를 이룬다.",
+      "action": "자녀와의 관계에서 균형을 유지하며, 과도한 욕심을 경계하라.",
+      "cautions": [
+        "욕심이 과도해지지 않도록 주의하라."
+      ],
+      "tags": [
+        "청간 식신",
+        "지지 식신",
+        "자녀 욕심",
+        "균형",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-79b6043f0f",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "shikshin_in_cheongan": true,
+        "weak_daymaster": true
+      },
+      "mechanism": "신약한 청간 식신은 자녀 양육에서 과도한 스트레스를 유발할 수 있다.",
+      "interpretation": "신약한 청간 식신은 자녀 양육에서 에너지 부족으로 인해 어려움을 겪는다.",
+      "action": "자녀 양육에서 외부 도움을 적극적으로 활용하라.",
+      "cautions": [
+        "자신의 한계를 인지하고 무리하지 않도록 주의하라."
+      ],
+      "tags": [
+        "청간 식신",
+        "신약",
+        "자녀 양육",
+        "스트레스",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-dbcc60dd8b",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "shikshin_in_cheongan": true,
+        "strong_daymaster": true
+      },
+      "mechanism": "신왕한 청간 식신은 자녀 양육에서 모범을 보이며 높은 기대를 설정한다.",
+      "interpretation": "신왕한 청간 식신은 자녀에게 모범을 보이며, 자녀가 기대에 부응하도록 유도한다.",
+      "action": "자녀에게 모범을 보이며, 자녀의 성장을 지원하라.",
+      "cautions": [
+        "자녀에게 과도한 기대를 하지 않도록 주의하라."
+      ],
+      "tags": [
+        "청간 식신",
+        "신왕",
+        "자녀 양육",
+        "모범",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-2217217382",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "shikshin_in_jiji": true,
+        "weak_daymaster": true
+      },
+      "mechanism": "신약한 지지 식신은 자녀의 기본적인 필요를 충족시키는 데 집중한다.",
+      "interpretation": "신약한 지지 식신은 자녀의 신체적 건강과 기본 욕구 충족에 헌신적이다.",
+      "action": "자녀의 기본적인 필요를 충족시키는 데 에너지를 집중하라.",
+      "cautions": [
+        "자신의 에너지를 과도하게 소모하지 않도록 주의하라."
+      ],
+      "tags": [
+        "지지 식신",
+        "신약",
+        "자녀 건강",
+        "기본 욕구",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-53d4d980ae",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "shikshin_in_jiji": true,
+        "strong_daymaster": true
+      },
+      "mechanism": "신왕한 지지 식신은 자녀의 신체적 건강과 기본 욕구 충족에 안정적으로 기여한다.",
+      "interpretation": "신왕한 지지 식신은 자녀의 신체적 건강과 기본 욕구 충족에 안정적이고 지속적으로 기여한다.",
+      "action": "자녀의 기본적인 필요를 충족시키는 데 지속적으로 노력하라.",
+      "cautions": [
+        "자녀의 정서적 요구를 간과하지 않도록 주의하라."
+      ],
+      "tags": [
+        "지지 식신",
+        "신왕",
+        "자녀 건강",
+        "기본 욕구",
+        "부모 역할"
+      ]
+    },
+    {
+      "id": "RC-1ad7ed0652",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "shikshin_in_cheongan": true,
+        "shikshin_in_jiji": true,
+        "strong_daymaster": true
+      },
+      "mechanism": "신왕한 청간과 지지 식신은 자녀 양육에서 균형 잡힌 접근을 가능하게 한다.",
+      "interpretation": "신왕한 청간과 지지 식신은 자녀 양육에서 기대와 헌신의 균형을 유지한다.",
+      "action": "자녀와의 관계에서 균형을 유지하며, 자녀의 성장을 지원하라.",
+      "cautions": [
+        "자녀에게 과도한 기대를 하지 않도록 주의하라."
+      ],
+      "tags": [
+        "청간 식신",
+        "지지 식신",
+        "신왕",
+        "균형",
+        "부모 역할"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_033",
+  "updated_at": "2025-12-23T20:27:26"
+}

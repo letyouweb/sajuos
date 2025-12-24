@@ -1,0 +1,230 @@
+{
+  "title": "SajuOS_Logic_ELEM_021",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 10,
+      "trigger": {
+        "element": "水"
+      },
+      "mechanism": "水는 오행 중 하나로, 어둠, 정보, 침투력, 유지력, 모으는 힘을 상징한다.",
+      "interpretation": "水는 모든 것을 모으고, 유지하며, 침투하는 힘을 가진다.",
+      "action": "水의 특성을 이해하고, 자신의 사주에서 水의 역할을 분석하라.",
+      "cautions": [
+        "水가 과도하면 고립되거나 내면에 갇힐 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "침투력",
+        "유지력",
+        "정보"
+      ],
+      "id": "RC-d8bb6096bb"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "水",
+        "interaction": "木"
+      },
+      "mechanism": "水는 木을 만나면 압축된 정보가 분산되고 성장한다.",
+      "interpretation": "水와 木의 조합은 새로운 시작과 성장의 가능성을 의미한다.",
+      "action": "水와 木의 상호작용을 통해 새로운 기회를 모색하라.",
+      "cautions": [
+        "木이 과도하면 水의 안정성이 흔들릴 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "목",
+        "성장",
+        "정보"
+      ],
+      "id": "RC-57f25de74e"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "interaction": "火"
+      },
+      "mechanism": "水는 火를 만나면 경험과 사건을 통해 정보가 구체화된다.",
+      "interpretation": "水와 火의 조합은 경험을 통해 지혜를 얻는 과정을 나타낸다.",
+      "action": "경험을 통해 얻은 교훈을 정리하고 활용하라.",
+      "cautions": [
+        "火가 과도하면 水의 본질이 소멸될 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "화",
+        "경험",
+        "지혜"
+      ],
+      "id": "RC-10225647f5"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "interaction": "金"
+      },
+      "mechanism": "金은 水를 압축하고 정리하여 지혜로 변환시킨다.",
+      "interpretation": "金과 水의 조합은 경험을 정리하고 내면화하는 과정을 의미한다.",
+      "action": "金의 역할을 통해 자신의 경험을 체계적으로 정리하라.",
+      "cautions": [
+        "金이 부족하면 水의 정보가 흩어질 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "금",
+        "지혜",
+        "정리"
+      ],
+      "id": "RC-dd9ad18f31"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "水",
+        "interaction": "土"
+      },
+      "mechanism": "土는 水의 흐름을 제어하고 안정시킨다.",
+      "interpretation": "水와 土의 조합은 안정성과 지속성을 의미한다.",
+      "action": "土의 역할을 통해 자신의 자원을 효율적으로 관리하라.",
+      "cautions": [
+        "土가 과도하면 水의 흐름이 막힐 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "토",
+        "안정",
+        "지속성"
+      ],
+      "id": "RC-5b547b4724"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "水",
+        "season": "겨울"
+      },
+      "mechanism": "겨울은 水의 계절로, 내면화와 축적의 시기이다.",
+      "interpretation": "겨울에 水는 내면의 성찰과 자원의 축적을 강조한다.",
+      "action": "겨울에는 내면을 돌아보고 자원을 축적하는 데 집중하라.",
+      "cautions": [
+        "내면에 지나치게 몰두하면 외부와 단절될 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "겨울",
+        "내면",
+        "축적"
+      ],
+      "id": "RC-2c29a44112"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "trait": "침투력"
+      },
+      "mechanism": "水는 모든 곳에 스며들어 영향을 미친다.",
+      "interpretation": "水의 침투력은 상황에 적응하고 변화를 유도하는 힘을 의미한다.",
+      "action": "水의 침투력을 활용해 다양한 상황에 적응하라.",
+      "cautions": [
+        "침투력이 과도하면 자신의 정체성을 잃을 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "침투력",
+        "적응",
+        "변화"
+      ],
+      "id": "RC-a8af4f0da4"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "水",
+        "trait": "유지력"
+      },
+      "mechanism": "水는 오랫동안 지속되고 안정적으로 유지된다.",
+      "interpretation": "水의 유지력은 끈기와 지속성을 의미한다.",
+      "action": "장기적인 목표를 설정하고 꾸준히 노력하라.",
+      "cautions": [
+        "유지력이 부족하면 쉽게 포기할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "유지력",
+        "끈기",
+        "안정"
+      ],
+      "id": "RC-f3f244f535"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "水",
+        "trait": "정보"
+      },
+      "mechanism": "水는 모든 정보를 축적하고 지혜로 변환한다.",
+      "interpretation": "水는 지식과 경험을 통해 지혜를 얻는 과정을 상징한다.",
+      "action": "정보를 체계적으로 정리하고 활용하라.",
+      "cautions": [
+        "정보가 과도하면 혼란을 초래할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "정보",
+        "지혜",
+        "축적"
+      ],
+      "id": "RC-a9f0802578"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "trait": "모으는 힘"
+      },
+      "mechanism": "水는 모든 것을 모으고 축적하는 힘을 가진다.",
+      "interpretation": "水의 모으는 힘은 자원과 에너지를 축적하는 능력을 의미한다.",
+      "action": "자원을 효율적으로 모으고 관리하라.",
+      "cautions": [
+        "모으는 데만 집중하면 활용이 부족할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "수",
+        "모으는 힘",
+        "축적",
+        "자원"
+      ],
+      "id": "RC-f52ce998ba"
+    }
+  ],
+  "notes": [
+    "수(水)의 특성을 중심으로 오행의 상호작용과 현실적 적용 방안을 설명함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_021",
+  "updated_at": "2025-12-23T20:27:25"
+}

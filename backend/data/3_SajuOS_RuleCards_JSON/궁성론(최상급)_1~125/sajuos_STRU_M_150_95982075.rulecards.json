@@ -1,0 +1,443 @@
+{
+  "title": "SajuOS_Logic_STRU_M_150",
+  "rulecards": [
+    {
+      "id": "RC-a4b1576184",
+      "topic": "GENERAL",
+      "priority": 9,
+      "trigger": {
+        "focus": "월간 중심 해석"
+      },
+      "mechanism": "월은 개인의 사회적 역할과 외부 환경을 나타냄.",
+      "interpretation": "일관 중심 해석에서 벗어나 월 중심으로 사주를 해석해야 함.",
+      "action": "월간, 연간, 일간을 각각 중심으로 해석하며 균형 잡힌 시각을 유지.",
+      "cautions": [
+        "일관 중심 해석에만 의존하지 말 것."
+      ],
+      "tags": [
+        "월간",
+        "일관",
+        "사회적 역할",
+        "해석 방법",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-5ac5d205a7",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "month": "인월",
+        "presence_of": "병화"
+      },
+      "mechanism": "인목은 병화를 통해 에너지를 조화롭게 소화함.",
+      "interpretation": "병화가 있으면 사회적 요구와 개인의 목표가 조화됨.",
+      "action": "인월 사주에서 병화의 유무를 먼저 확인.",
+      "cautions": [
+        "병화가 없으면 사회적 요구와 개인의 목표가 불일치할 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "목생화",
+        "사회적 요구",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-e65761b5c2",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "인성 혼잡 구조"
+      },
+      "mechanism": "인성이 혼잡하면 에너지 소화가 어려워짐.",
+      "interpretation": "인성이 많으면 학업 성취가 어려울 수 있음.",
+      "action": "인성 혼잡 시 근기(지지화)와 화의 조화를 통해 해결책 모색.",
+      "cautions": [
+        "인성이 많다고 무조건 학업에 유리하지 않음."
+      ],
+      "tags": [
+        "인성",
+        "혼잡",
+        "학업",
+        "근기",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-89eb9fe476",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "luck_cycle": "사오미"
+      },
+      "mechanism": "화운이 오면 목의 에너지를 소화할 수 있음.",
+      "interpretation": "사오미 대운에서 학업 성취와 전성기를 맞이할 가능성이 높음.",
+      "action": "사오미 대운에서 학업과 목표를 집중적으로 추진.",
+      "cautions": [
+        "화운이 없으면 학업 성취가 어려울 수 있음."
+      ],
+      "tags": [
+        "사오미",
+        "화운",
+        "대운",
+        "학업 성취",
+        "전성기"
+      ]
+    },
+    {
+      "id": "RC-02e79557e0",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "note": "금의 유무"
+      },
+      "mechanism": "금은 학업의 실기적 성격을 강화함.",
+      "interpretation": "금이 있으면 이론과 실기를 겸비한 학업 성취 가능.",
+      "action": "금이 없는 경우 이론 중심 학습에 집중.",
+      "cautions": [
+        "금이 없으면 실기적 성취가 어려울 수 있음."
+      ],
+      "tags": [
+        "금",
+        "학업",
+        "이론",
+        "실기",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-d1b59fad78",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "note": "겁제와 비교 의식"
+      },
+      "mechanism": "겁제가 있으면 비교 의식이 강해짐.",
+      "interpretation": "비교 의식이 강하면 자존감에 영향을 미칠 수 있음.",
+      "action": "SNS 사용을 줄이고 자신만의 강점을 인식.",
+      "cautions": [
+        "비교 의식이 심화되면 스트레스가 증가할 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "비교 의식",
+        "SNS",
+        "자존감",
+        "스트레스"
+      ]
+    },
+    {
+      "id": "RC-6710090521",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "토의 유무"
+      },
+      "mechanism": "토는 인성을 안정시키고 소화하는 역할을 함.",
+      "interpretation": "토가 있으면 생각이 안정되고 행동으로 이어짐.",
+      "action": "토가 부족한 경우 식상을 강화하는 방법을 모색.",
+      "cautions": [
+        "토가 없으면 생각이 많아지고 실행력이 저하될 수 있음."
+      ],
+      "tags": [
+        "토",
+        "식상",
+        "안정",
+        "실행력",
+        "생각"
+      ]
+    },
+    {
+      "id": "RC-601200be2f",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "note": "편관의 작용"
+      },
+      "mechanism": "편관은 사회적 환경과 직업적 요구를 나타냄.",
+      "interpretation": "편관이 강하면 사회적 요구에 부합하는 직업을 추구.",
+      "action": "편관의 조화를 통해 직업적 목표를 설정.",
+      "cautions": [
+        "편관이 조화롭지 않으면 사회적 부적응 가능성."
+      ],
+      "tags": [
+        "편관",
+        "직업",
+        "사회적 요구",
+        "조화",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-38be2ec4b3",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "note": "화운과 학업 성취"
+      },
+      "mechanism": "화운은 학업 성취와 기억력을 강화함.",
+      "interpretation": "화운이 오면 학업 성취도가 높아지고 시험에서 좋은 결과를 얻음.",
+      "action": "화운 시기에 학업과 시험 준비를 집중적으로 계획.",
+      "cautions": [
+        "화운이 없으면 학업 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "화운",
+        "학업",
+        "시험",
+        "성취",
+        "기억력"
+      ]
+    },
+    {
+      "id": "RC-2ff18f95a8",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "인월 무토와 병화"
+      },
+      "mechanism": "병화는 인월 무토의 사회적 조건을 수용하게 함.",
+      "interpretation": "병화가 있으면 부모나 사회적 요구를 잘 수용.",
+      "action": "병화가 없는 경우 사회적 요구를 수용하는 태도를 강화.",
+      "cautions": [
+        "병화가 없으면 부모나 사회적 요구를 거부할 가능성."
+      ],
+      "tags": [
+        "인월",
+        "무토",
+        "병화",
+        "사회적 요구",
+        "수용"
+      ]
+    },
+    {
+      "id": "RC-d6aa76191f",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month_branch": "any",
+        "month_stem": "any"
+      },
+      "mechanism": "월간 투관은 계절에 맞는 역할을 수행하는 것을 의미.",
+      "interpretation": "월간 투관은 사주의 격을 완성하며, 직업적 사명감을 나타냄.",
+      "action": "자신의 월간과 계절적 역할을 분석하여 직업적 방향성을 설정.",
+      "cautions": [
+        "계절적 역할과 반대되는 행동은 격을 손상시킬 수 있음."
+      ],
+      "tags": [
+        "월간",
+        "투관",
+        "격",
+        "계절",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-71283c371c",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "살인상생"
+      },
+      "mechanism": "살인상생은 대상을 적극적으로 수용하는 구조.",
+      "interpretation": "살인상생은 학습과 자격 취득, 예방적 접근을 강조.",
+      "action": "예방적 접근이 필요한 직업군에 적합한 방향을 모색.",
+      "cautions": [
+        "살인상생은 수술적 접근보다는 예방적 접근에 더 적합."
+      ],
+      "tags": [
+        "살인상생",
+        "예방",
+        "학습",
+        "자격",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-5a471ba145",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "식신재살"
+      },
+      "mechanism": "식신재살은 문제를 해결하는 구조.",
+      "interpretation": "식신재살은 사후적 문제 해결 능력을 나타냄.",
+      "action": "문제 해결 중심의 직업군에 적합한 방향을 모색.",
+      "cautions": [
+        "문제 해결 과정에서 과도한 부담을 느낄 수 있음."
+      ],
+      "tags": [
+        "식신재살",
+        "문제해결",
+        "직업",
+        "사후적",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-4ad00d7dc0",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "any",
+        "month_stem": "any",
+        "fire_water_balance": "imbalanced"
+      },
+      "mechanism": "수와 화의 균형은 사주의 완성도를 결정.",
+      "interpretation": "수와 화의 부재는 직업적 완성도를 저해할 수 있음.",
+      "action": "운에서 수와 화의 보완 여부를 확인하고 대처.",
+      "cautions": [
+        "수와 화의 부재는 음지적 직업으로 이어질 가능성."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "균형",
+        "직업",
+        "완성도"
+      ]
+    },
+    {
+      "id": "RC-82d6257b05",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "재생살"
+      },
+      "mechanism": "재생살은 환경 극복의 어려움을 나타냄.",
+      "interpretation": "재생살은 경제적 어려움이나 환경적 제약을 의미.",
+      "action": "환경 극복을 위한 장기적 계획 수립.",
+      "cautions": [
+        "재생살은 과로와 무리로 이어질 수 있음."
+      ],
+      "tags": [
+        "재생살",
+        "환경",
+        "경제",
+        "제약",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-013f8bbcdd",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "any",
+        "month_stem": "any",
+        "fire_presence": true
+      },
+      "mechanism": "병화는 악조건 속에서도 성공 가능성을 높임.",
+      "interpretation": "병화는 환경 극복과 학습 능력을 강화.",
+      "action": "병화의 유무를 확인하고 학습 계획을 조정.",
+      "cautions": [
+        "병화가 없을 경우 환경 극복이 어려울 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "환경극복",
+        "학습",
+        "성공",
+        "조건"
+      ]
+    },
+    {
+      "id": "RC-65d50fc85b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "any",
+        "month_stem": "any",
+        "fire_water_conflict": true
+      },
+      "mechanism": "수와 화의 갈등은 현재와 미래의 대립을 초래.",
+      "interpretation": "수와 화의 갈등은 단기적 이익과 장기적 목표 간의 충돌.",
+      "action": "수와 화의 갈등을 조정하여 균형을 유지.",
+      "cautions": [
+        "갈등이 지속되면 장기적 목표 달성이 어려울 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "갈등",
+        "목표",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-d1d6cf186c",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "재극인"
+      },
+      "mechanism": "재극인은 단기적 이익과 학습 간의 갈등을 나타냄.",
+      "interpretation": "재극인은 경제적 선택과 학습의 우선순위 갈등.",
+      "action": "장기적 목표를 고려한 선택을 권장.",
+      "cautions": [
+        "재극인은 단기적 선택으로 인해 장기적 손실을 초래할 수 있음."
+      ],
+      "tags": [
+        "재극인",
+        "갈등",
+        "경제",
+        "학습",
+        "우선순위"
+      ]
+    },
+    {
+      "id": "RC-542d5fef81",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month_branch": "any",
+        "month_stem": "any",
+        "fire_presence": false
+      },
+      "mechanism": "화의 부재는 환경 극복과 학습 능력을 저해.",
+      "interpretation": "화가 없으면 학습과 환경 극복이 어려워짐.",
+      "action": "운에서 화의 보완 여부를 확인하고 대처.",
+      "cautions": [
+        "화의 부재는 장기적 목표 달성에 장애가 될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "환경극복",
+        "학습",
+        "목표",
+        "장애"
+      ]
+    },
+    {
+      "id": "RC-0ddbf14795",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "살인상생",
+        "profession": "medical"
+      },
+      "mechanism": "살인상생은 예방적 접근을 강조.",
+      "interpretation": "살인상생 의사는 예방의학에 적합.",
+      "action": "예방의학 관련 자격 취득 및 전문성 강화.",
+      "cautions": [
+        "수술적 접근보다는 예방적 접근에 더 적합."
+      ],
+      "tags": [
+        "살인상생",
+        "예방의학",
+        "의사",
+        "자격",
+        "전문성"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "추가적인 규칙은 다음 청크에서 계속될 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_150",
+  "updated_at": "2025-12-23T20:27:24"
+}

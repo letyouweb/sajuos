@@ -1,0 +1,451 @@
+{
+  "title": "SajuOS_Logic_STRU_M_129",
+  "rulecards": [
+    {
+      "id": "RC-87f9db645f",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "day_pillar": "병술",
+        "month_pillar": "인월"
+      },
+      "mechanism": "병술일주와 인목은 삼합적 에너지를 통해 병화를 안정시킴.",
+      "interpretation": "병술일주는 인목을 통해 내면적 불안을 완화하고 안정감을 얻음.",
+      "action": "인목의 에너지를 활용해 내면적 안정감을 유지하도록 노력.",
+      "cautions": [
+        "인목이 약하거나 부재하면 불안정성이 커질 수 있음."
+      ],
+      "tags": [
+        "병술일주",
+        "인목",
+        "삼합",
+        "병화",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-84dc9dfbaa",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월"
+      },
+      "mechanism": "인월의 병화는 인목을 통해 목생화의 속도 조절이 이루어짐.",
+      "interpretation": "병자일주는 인목과 자수를 통해 휘발성을 조절하며 안정적 에너지를 형성.",
+      "action": "자수와 인목의 조화를 통해 에너지 균형을 유지.",
+      "cautions": [
+        "자수가 약하거나 부재하면 휘발성이 강해질 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "인월",
+        "자수",
+        "목생화",
+        "속도조절"
+      ]
+    },
+    {
+      "id": "RC-801c41f4b4",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "해수",
+        "context": "수의 성질"
+      },
+      "mechanism": "해수는 섞임과 조화를 통해 습한 에너지를 형성.",
+      "interpretation": "해수는 다양한 요소를 통합하고 조화롭게 만드는 역할.",
+      "action": "해수의 에너지를 활용해 다양한 관계와 상황을 조화롭게 관리.",
+      "cautions": [
+        "해수가 과도하면 혼란스러울 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "습기",
+        "조화",
+        "통합",
+        "수의 성질"
+      ]
+    },
+    {
+      "id": "RC-17875e90d2",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "자수",
+        "context": "수의 성질"
+      },
+      "mechanism": "자수는 분리와 정리를 통해 조환 에너지를 형성.",
+      "interpretation": "자수는 명확하고 깔끔한 에너지로 정리와 분리를 돕는 역할.",
+      "action": "자수의 에너지를 활용해 명확한 목표와 계획을 세움.",
+      "cautions": [
+        "자수가 약하면 정리와 분리가 어려울 수 있음."
+      ],
+      "tags": [
+        "자수",
+        "조환",
+        "분리",
+        "정리",
+        "수의 성질"
+      ]
+    },
+    {
+      "id": "RC-de45142f36",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "spouse_pillar": "자수"
+      },
+      "mechanism": "인목이 병화와 자수를 연결하여 부부간의 조화를 형성.",
+      "interpretation": "병자일주는 배우자와의 관계에서 조화롭고 안정적인 에너지를 가짐.",
+      "action": "배우자와의 소통을 강화하고 인목의 에너지를 활용해 관계를 유지.",
+      "cautions": [
+        "인목이 약하면 부부간의 조화가 깨질 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "인월",
+        "자수",
+        "부부관계",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-a94a56344b",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "career_focus": "정관"
+      },
+      "mechanism": "정관이 인목과 자수를 통해 직업적 목표를 형성.",
+      "interpretation": "병자일주는 정관을 통해 행정적, 공직적 직업에 적합.",
+      "action": "정관의 에너지를 활용해 직업적 목표를 명확히 설정.",
+      "cautions": [
+        "정관이 약하면 직업적 성취가 어려울 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "정관",
+        "직업",
+        "목표",
+        "공직"
+      ]
+    },
+    {
+      "id": "RC-d94b3f358d",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "study_focus": "정관"
+      },
+      "mechanism": "정관이 공부의 목적성을 형성하고 학업 성취를 돕음.",
+      "interpretation": "병자일주는 정관을 통해 체계적이고 목표 지향적인 학업을 수행.",
+      "action": "정관의 에너지를 활용해 학업 계획을 체계적으로 수립.",
+      "cautions": [
+        "정관이 약하면 학업 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "정관",
+        "학업",
+        "목표",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-85f710d9bb",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "relation": "부모-배우자"
+      },
+      "mechanism": "인목이 부모와 배우자 간의 관계를 조화롭게 연결.",
+      "interpretation": "병자일주는 부모와 배우자 간의 관계가 원만하고 조화로움.",
+      "action": "부모와 배우자 간의 소통을 중재하고 조화를 유지.",
+      "cautions": [
+        "인목이 약하면 관계 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "인월",
+        "부모",
+        "배우자",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-79f7b7d337",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "structure": "목생화"
+      },
+      "mechanism": "목생화가 병화의 에너지를 강화하며 구조적 안정성을 제공.",
+      "interpretation": "병자일주는 목생화를 통해 에너지의 균형과 안정성을 유지.",
+      "action": "목생화의 조화를 유지하며 에너지를 효율적으로 활용.",
+      "cautions": [
+        "목생화가 과도하면 불안정성이 증가할 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "목생화",
+        "구조",
+        "안정성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-d45c0d950a",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "병자",
+        "month_pillar": "인월",
+        "timing": "운세"
+      },
+      "mechanism": "운세의 수 에너지가 병자일주의 목생화를 조절.",
+      "interpretation": "운세에서 수가 강하면 병자일주의 학업 및 직업적 성취가 강화됨.",
+      "action": "운세의 수 에너지를 활용해 학업 및 직업적 목표를 달성.",
+      "cautions": [
+        "수가 약하면 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "운세",
+        "수",
+        "목생화",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-640d61d8a0",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "인신충"
+      },
+      "mechanism": "인신충은 긴장감을 유발하며 목생화의 강도를 높임.",
+      "interpretation": "충으로 인해 목생화가 더 적극적이고 밀도 있게 작용함.",
+      "action": "충의 에너지를 긍정적으로 활용하여 목표를 추진.",
+      "cautions": [
+        "긴장감이 과도하면 스트레스로 작용할 수 있음."
+      ],
+      "tags": [
+        "인신충",
+        "목생화",
+        "긴장감",
+        "적극성",
+        "밀도"
+      ]
+    },
+    {
+      "id": "RC-a03ca29901",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "structure": "제극인"
+      },
+      "mechanism": "제극인은 효율성을 중시하며 필요한 정보만 선택적으로 학습.",
+      "interpretation": "시험 준비에 유리하며 핵심적인 내용을 빠르게 파악.",
+      "action": "공부 시 중요한 부분에 밑줄과 별표를 활용.",
+      "cautions": [
+        "효율성에 치중하다가 세부적인 내용을 놓칠 수 있음."
+      ],
+      "tags": [
+        "제극인",
+        "효율성",
+        "시험",
+        "핵심학습",
+        "선택적학습"
+      ]
+    },
+    {
+      "id": "RC-6e2e3f0a46",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_master": "병신",
+        "month_branch": "인월",
+        "water_presence": true
+      },
+      "mechanism": "임수나 괴수가 직업 선택에 영향을 미침.",
+      "interpretation": "임수가 있으면 학력을 살려 직업을 선택, 괴수는 학력과 무관한 직업으로 연결.",
+      "action": "직업 선택 시 자신의 학력과 연관성을 고려.",
+      "cautions": [
+        "괴수가 강하면 학력과 무관한 직업으로 갈 가능성이 높음."
+      ],
+      "tags": [
+        "병신일주",
+        "인월",
+        "임수",
+        "괴수",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-54becd4dc2",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "인월 병화",
+        "fire_strength": "high"
+      },
+      "mechanism": "화가 강하면 목생화가 휘발되어 지속성이 떨어짐.",
+      "interpretation": "기대치를 충족시키지 못할 가능성이 있음.",
+      "action": "목생화의 지속성을 유지할 수 있는 환경을 조성.",
+      "cautions": [
+        "화가 과도하면 목표 달성이 어려워질 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "목생화",
+        "휘발성",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-54202361a9",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "인월 병화",
+        "water_strength": "high"
+      },
+      "mechanism": "수가 강하면 목생화가 억제되어 부담이 증가.",
+      "interpretation": "집안의 책임을 져야 하는 상황이 발생할 수 있음.",
+      "action": "책임을 분담하거나 환경을 조정하여 부담을 완화.",
+      "cautions": [
+        "수가 과도하면 심리적, 물리적 부담이 커질 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "수가강함",
+        "책임",
+        "부담"
+      ]
+    },
+    {
+      "id": "RC-b184542444",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "부모와의 갈등"
+      },
+      "mechanism": "부모의 기대와 개인의 욕구가 충돌.",
+      "interpretation": "부모와의 갈등이 학업 및 진로 선택에 영향을 미침.",
+      "action": "부모와의 대화를 통해 갈등을 조율.",
+      "cautions": [
+        "갈등이 장기화되면 심리적 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "부모갈등",
+        "기대",
+        "욕구",
+        "학업",
+        "진로"
+      ]
+    },
+    {
+      "id": "RC-8c08033959",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "목다화식 관련"
+      },
+      "mechanism": "병화는 목다화식의 영향을 받지 않음.",
+      "interpretation": "병화는 목의 과다에도 불구하고 소화력을 유지.",
+      "action": "병화의 특성을 활용하여 에너지를 효율적으로 관리.",
+      "cautions": [
+        "목다화식 개념을 병화에 적용하지 않도록 주의."
+      ],
+      "tags": [
+        "병화",
+        "목다화식",
+        "소화력",
+        "에너지관리",
+        "효율성"
+      ]
+    },
+    {
+      "id": "RC-0b2aa169e9",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "luck_cycle": "금운"
+      },
+      "mechanism": "금운은 인성의 갈등을 조절하고 현실적 판단을 돕는 역할.",
+      "interpretation": "금운 시기에 현실적이고 효율적인 선택 가능.",
+      "action": "금운 시기에 중요한 결정을 내리는 것이 유리.",
+      "cautions": [
+        "금운이 지나치게 강하면 재성의 압박이 발생할 수 있음."
+      ],
+      "tags": [
+        "금운",
+        "인성조절",
+        "현실적판단",
+        "효율성",
+        "결정"
+      ]
+    },
+    {
+      "id": "RC-5579024738",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "인월 병화",
+        "earth_presence": true
+      },
+      "mechanism": "토는 목생화의 속도를 조절.",
+      "interpretation": "토가 있으면 목생화의 균형과 안정성을 유지.",
+      "action": "토의 에너지를 활용하여 속도와 균형을 조절.",
+      "cautions": [
+        "토가 과도하면 목생화의 흐름이 지나치게 느려질 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "토",
+        "속도조절",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-8e2e3a9bd4",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "structure": "인월 병화",
+        "fire_strength": "moderate"
+      },
+      "mechanism": "적절한 화의 강도는 직업적 성취를 돕는 역할.",
+      "interpretation": "화가 적당하면 직업적 안정성과 성취 가능.",
+      "action": "화의 균형을 유지하며 직업적 목표를 설정.",
+      "cautions": [
+        "화가 부족하면 동기부여가 약해질 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "직업",
+        "성취",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_129",
+  "updated_at": "2025-12-23T20:27:24"
+}

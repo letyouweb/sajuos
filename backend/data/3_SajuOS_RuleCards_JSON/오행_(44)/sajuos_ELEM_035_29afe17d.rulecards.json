@@ -1,0 +1,225 @@
+{
+  "title": "SajuOS_Logic_ELEM_035",
+  "rulecards": [
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병"
+      },
+      "mechanism": "월지와 일간의 조화로 부모의 기대를 충족시키는 구조.",
+      "interpretation": "부모가 기대하던 자식으로 태어난 것으로 해석됨.",
+      "action": "부모의 기대를 이해하고 이를 긍정적으로 활용할 방법을 모색.",
+      "cautions": [
+        "시대적, 문화적 기대를 고려해야 함.",
+        "부모의 기대가 과도할 수 있음."
+      ],
+      "tags": [
+        "월지",
+        "부모 기대",
+        "인월",
+        "병화",
+        "구조"
+      ],
+      "id": "RC-482507bb2c"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "direct_resource": true
+      },
+      "mechanism": "편인이 월지에서 직접적으로 작용하여 학습 능력을 강화.",
+      "interpretation": "빠른 학습 능력과 천재성을 나타냄.",
+      "action": "빠른 학습 속도를 활용하되, 깊이 있는 학습을 병행.",
+      "cautions": [
+        "휘발성이 강해 기억이 오래가지 않을 수 있음.",
+        "자만심에 주의."
+      ],
+      "tags": [
+        "편인",
+        "학습 능력",
+        "천재성",
+        "휘발성",
+        "월지"
+      ],
+      "id": "RC-7eba0aeb23"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "fire_element": "strong"
+      },
+      "mechanism": "화가 지나치게 강하면 휘발성이 증가.",
+      "interpretation": "어렸을 때 천재성을 보이지만 지속성이 부족할 수 있음.",
+      "action": "속도보다는 지속성을 기르는 교육 방식을 채택.",
+      "cautions": [
+        "빠른 성취가 오히려 부담이 될 수 있음.",
+        "장기적인 목표 설정 필요."
+      ],
+      "tags": [
+        "화",
+        "휘발성",
+        "천재성",
+        "교육",
+        "지속성"
+      ],
+      "id": "RC-93c3f13653"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "water_element": "weak"
+      },
+      "mechanism": "조한 조건이 해결되지 않으면 균형이 깨짐.",
+      "interpretation": "수의 부족으로 인해 지나치게 밝거나 불안정한 상태가 될 수 있음.",
+      "action": "수의 요소를 보완하여 균형을 맞춤.",
+      "cautions": [
+        "수의 부족이 장기적인 안정성을 저해할 수 있음."
+      ],
+      "tags": [
+        "조한 조건",
+        "수",
+        "균형",
+        "안정성",
+        "월지"
+      ],
+      "id": "RC-653949dfb0"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "direct_resource": true,
+        "fire_element": "strong"
+      },
+      "mechanism": "편인이 강한 화와 결합하여 빠른 학습과 적응력을 제공.",
+      "interpretation": "사회적 조건에 빠르게 적응하고 활용할 수 있음.",
+      "action": "사회적 요구에 맞는 학습과 경험을 쌓음.",
+      "cautions": [
+        "빠른 적응이 오히려 깊이를 저해할 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "사회적 적응",
+        "학습",
+        "화",
+        "월지"
+      ],
+      "id": "RC-54b4f44347"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 4,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "fire_element": "strong",
+        "water_element": "weak"
+      },
+      "mechanism": "화가 강하고 수가 약하면 지나치게 밝아 균형이 깨짐.",
+      "interpretation": "부모의 기대가 높아지고, 자녀가 이를 감당하기 어려울 수 있음.",
+      "action": "부모와 자녀 간의 기대치를 조율.",
+      "cautions": [
+        "부모의 과도한 기대가 자녀에게 부담이 될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "수",
+        "부모 기대",
+        "균형",
+        "월지"
+      ],
+      "id": "RC-ef593f02ce"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 3,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "direct_resource": true,
+        "fire_element": "strong"
+      },
+      "mechanism": "편인이 강한 화와 결합하여 초기 조건에서 유리한 출발.",
+      "interpretation": "유리한 환경에서 시작하지만 지속적인 노력이 필요.",
+      "action": "초기 조건을 활용하되, 장기적인 목표를 설정.",
+      "cautions": [
+        "초기 성취에 안주하지 않도록 주의."
+      ],
+      "tags": [
+        "편인",
+        "초기 조건",
+        "화",
+        "유리한 출발",
+        "월지"
+      ],
+      "id": "RC-e3ecec2192"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 2,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "fire_element": "strong",
+        "water_element": "weak"
+      },
+      "mechanism": "화가 강하고 수가 약하면 휘발성이 증가.",
+      "interpretation": "빠른 성취가 지속되지 않을 가능성이 있음.",
+      "action": "수의 요소를 보완하여 지속성을 강화.",
+      "cautions": [
+        "휘발성이 강한 성취는 장기적으로 불리할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "수",
+        "휘발성",
+        "지속성",
+        "월지"
+      ],
+      "id": "RC-fd9809cf4e"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 1,
+      "trigger": {
+        "month_branch": "인",
+        "month_stem": "병",
+        "direct_resource": true,
+        "fire_element": "strong"
+      },
+      "mechanism": "편인이 강한 화와 결합하여 부모와의 관계가 밀접.",
+      "interpretation": "부모의 기대를 충족시키는 자녀로 해석됨.",
+      "action": "부모와의 관계를 긍정적으로 유지.",
+      "cautions": [
+        "부모의 기대가 자녀의 자율성을 제한할 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "부모 관계",
+        "화",
+        "월지",
+        "기대"
+      ],
+      "id": "RC-54a89cf950"
+    }
+  ],
+  "notes": [
+    "텍스트에서 언급된 사례는 특정 사주 구조에 대한 일반적인 해석일 뿐, 개인의 사주에 따라 다르게 적용될 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_035",
+  "updated_at": "2025-12-23T20:27:25"
+}

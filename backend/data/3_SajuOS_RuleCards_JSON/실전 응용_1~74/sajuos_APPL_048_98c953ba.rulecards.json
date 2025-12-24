@@ -1,0 +1,491 @@
+{
+  "title": "SajuOS_Logic_APPL_048",
+  "rulecards": [
+    {
+      "id": "RC-872a7031ae",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "day_master": "경금",
+        "supporting_element": "토"
+      },
+      "mechanism": "경금은 원초적이고 가공되지 않은 상태로, 토의 설계가 필요함.",
+      "interpretation": "경금은 훈련과 설계를 통해 완성도를 높여야 함.",
+      "action": "경금은 자신의 용도와 방향성을 명확히 하기 위해 지속적인 학습과 훈련이 필요함.",
+      "cautions": [
+        "훈련 부족 시 독립성과 완성도가 낮아질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "토생금",
+        "훈련",
+        "완성도",
+        "독립성"
+      ]
+    },
+    {
+      "id": "RC-84d8e31fe3",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "supporting_element": "토"
+      },
+      "mechanism": "신금은 이미 완성된 상태로 태어나며, 토의 지원이 없어도 독립적임.",
+      "interpretation": "신금은 환경에 크게 의존하지 않고 스스로 살아갈 수 있는 능력을 가짐.",
+      "action": "신금은 주어진 환경에서 최선을 다하며 독립성을 유지해야 함.",
+      "cautions": [
+        "과도한 의존은 신금의 본래 강점을 약화시킬 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "독립성",
+        "완성",
+        "토생금",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-8ebc65feae",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "day_master": "경금",
+        "supporting_element": "기토"
+      },
+      "mechanism": "기토는 경금에게 설계와 방향성을 제공함.",
+      "interpretation": "경금은 기토의 지원을 통해 자신의 가치를 발휘할 수 있음.",
+      "action": "기토와의 조화를 통해 경금은 자신의 잠재력을 극대화해야 함.",
+      "cautions": [
+        "기토가 약하면 경금의 발전이 더뎌질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "기토",
+        "설계",
+        "잠재력",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-812e85c60d",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "supporting_element": "기토"
+      },
+      "mechanism": "기토는 신금에게 안정감을 제공하며, 독립성을 강화함.",
+      "interpretation": "신금은 기토의 지원을 통해 더욱 안정적이고 독립적인 삶을 살 수 있음.",
+      "action": "기토의 지원을 활용해 자신의 강점을 극대화해야 함.",
+      "cautions": [
+        "기토가 과도하면 부모 의존성이 높아질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "기토",
+        "안정감",
+        "독립성",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-82761966f5",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "day_master": "경금",
+        "supporting_element": "무토"
+      },
+      "mechanism": "무토는 경금에게 강한 기반을 제공하며, 성장의 토대를 마련함.",
+      "interpretation": "경금은 무토의 지원을 통해 자신의 잠재력을 발휘할 수 있음.",
+      "action": "무토와의 조화를 통해 경금은 자신의 기반을 강화해야 함.",
+      "cautions": [
+        "무토가 과도하면 경금의 독립성이 약화될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "무토",
+        "기반",
+        "성장",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-63d6117e67",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "supporting_element": "무토"
+      },
+      "mechanism": "무토는 신금에게 안정적 환경을 제공하며, 독립성을 약화시킬 수 있음.",
+      "interpretation": "신금은 무토의 지원을 통해 안정적이지만 의존적일 수 있음.",
+      "action": "무토의 지원을 활용하되, 독립성을 유지하려는 노력이 필요함.",
+      "cautions": [
+        "무토에 과도하게 의존하면 독립성이 약화될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "무토",
+        "안정성",
+        "의존성",
+        "독립성"
+      ]
+    },
+    {
+      "id": "RC-833e6b49cd",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "day_master": "신금",
+        "supporting_element": "임수"
+      },
+      "mechanism": "임수는 신금의 독립성과 의지를 강화함.",
+      "interpretation": "신금은 임수의 지원을 통해 독립적이고 주체적인 삶을 살 수 있음.",
+      "action": "임수의 에너지를 활용해 자신의 목표를 명확히 하고 실행해야 함.",
+      "cautions": [
+        "임수가 부족하면 독립적 의지가 약화될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "독립성",
+        "의지",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-5fef11d65b",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "day_master": "경금",
+        "supporting_element": "목"
+      },
+      "mechanism": "목은 경금의 성장과 발전을 촉진함.",
+      "interpretation": "경금은 목의 지원을 통해 자신의 잠재력을 발휘할 수 있음.",
+      "action": "목의 에너지를 활용해 자신의 목표를 달성해야 함.",
+      "cautions": [
+        "목이 과도하면 경금의 안정성이 약화될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "목",
+        "성장",
+        "발전",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-2197fd8685",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "supporting_element": "목"
+      },
+      "mechanism": "목은 신금의 독립성과 자립심을 강화함.",
+      "interpretation": "신금은 목의 지원을 통해 더욱 주체적인 삶을 살 수 있음.",
+      "action": "목의 에너지를 활용해 자신의 독립성을 강화해야 함.",
+      "cautions": [
+        "목이 약하면 신금의 자립심이 약화될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "목",
+        "독립성",
+        "자립심",
+        "주체성"
+      ]
+    },
+    {
+      "id": "RC-449aba07fb",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "day_master": "경금",
+        "supporting_element": "수"
+      },
+      "mechanism": "수는 경금의 잠재력을 발휘하게 하는 촉매 역할을 함.",
+      "interpretation": "경금은 수의 지원을 통해 자신의 능력을 극대화할 수 있음.",
+      "action": "수의 에너지를 활용해 자신의 목표를 달성해야 함.",
+      "cautions": [
+        "수의 과도한 에너지는 경금의 안정성을 해칠 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "수",
+        "잠재력",
+        "촉매",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-e27d87a9ad",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "day_master": "신금",
+        "absence_of": "토"
+      },
+      "mechanism": "토가 없으면 금생수의 세대 전환이 이미 완료된 상태로 간주됨.",
+      "interpretation": "부모와의 애착이 약할 수 있으나 관계 자체는 나쁘지 않음.",
+      "action": "부모와의 관계를 유지하려면 의식적으로 관심을 표현할 것.",
+      "cautions": [
+        "애착 부족으로 부모가 상처받을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "토",
+        "부모",
+        "애착",
+        "세대전환",
+        "금생수",
+        "관계",
+        "상처",
+        "의식적 노력"
+      ]
+    },
+    {
+      "id": "RC-0807b34d0d",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "presence_of": "수"
+      },
+      "mechanism": "금생수로 자녀와의 인연이 형성됨.",
+      "interpretation": "수가 있으면 자녀와 지속적인 관심과 연결이 가능.",
+      "action": "자녀와의 관계를 유지하려면 지속적으로 관심을 표현할 것.",
+      "cautions": [
+        "수가 없으면 자녀와의 관계가 약해질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "수",
+        "금생수",
+        "자녀",
+        "관계",
+        "지속성",
+        "관심",
+        "연결",
+        "애정"
+      ]
+    },
+    {
+      "id": "RC-c45652b8bf",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "신금",
+        "absence_of": "식상"
+      },
+      "mechanism": "식상이 없으면 자녀와의 소통 창구가 약화됨.",
+      "interpretation": "자녀와의 접점이 약해지고 관계가 소원해질 가능성이 있음.",
+      "action": "자녀와의 소통을 위해 의도적으로 대화를 시도할 것.",
+      "cautions": [
+        "소통 부족으로 자녀가 문제를 일으킬 가능성이 있음."
+      ],
+      "tags": [
+        "신금",
+        "식상",
+        "소통",
+        "자녀",
+        "관계",
+        "접점",
+        "문제",
+        "대화",
+        "소원"
+      ]
+    },
+    {
+      "id": "RC-301241c949",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "신금",
+        "presence_of": "임수"
+      },
+      "mechanism": "임수는 자녀 중심의 삶과 자유를 인정하는 태도를 형성.",
+      "interpretation": "임수가 있으면 자녀의 자유를 존중하며 관계를 유지함.",
+      "action": "자녀의 자유를 인정하고 지원하는 태도를 유지할 것.",
+      "cautions": [
+        "임수가 없으면 자녀와의 관계가 단절될 가능성이 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "자녀",
+        "자유",
+        "존중",
+        "관계",
+        "지원",
+        "삶",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-7cfaa3b6c6",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_master": "신금",
+        "absence_of": "목"
+      },
+      "mechanism": "목이 없으면 자녀의 능력이 발휘되지 않음.",
+      "interpretation": "목이 없으면 자녀가 조건부 성과를 내기 어려움.",
+      "action": "자녀에게 명확한 목표와 보상을 설정해 동기를 부여할 것.",
+      "cautions": [
+        "목이 없으면 약속을 지키지 않아 자녀에게 상처를 줄 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "목",
+        "자녀",
+        "능력",
+        "목표",
+        "보상",
+        "동기",
+        "약속",
+        "상처"
+      ]
+    },
+    {
+      "id": "RC-984573f5b8",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "신금",
+        "presence_of": "계수"
+      },
+      "mechanism": "계수는 자녀와의 공통 관심사를 형성하는 데 도움.",
+      "interpretation": "계수가 있으면 자녀와의 관계가 공통 관심사를 통해 강화됨.",
+      "action": "자녀와의 공통 관심사를 찾아 관계를 강화할 것.",
+      "cautions": [
+        "계수만으로는 관계 유지가 어려울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "계수",
+        "자녀",
+        "관계",
+        "공통 관심사",
+        "강화",
+        "유지",
+        "에너지",
+        "애정"
+      ]
+    },
+    {
+      "id": "RC-afa6e16630",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "신금",
+        "absence_of": "화"
+      },
+      "mechanism": "화가 없으면 자녀의 능력을 자랑하거나 드러내기 어려움.",
+      "interpretation": "화가 없으면 자녀와의 관계에서 자랑할 만한 성과가 부족.",
+      "action": "자녀의 성과를 인정하고 칭찬하는 태도를 가질 것.",
+      "cautions": [
+        "화가 없으면 자녀와의 관계가 소원해질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "화",
+        "자녀",
+        "능력",
+        "성과",
+        "자랑",
+        "관계",
+        "칭찬",
+        "소원"
+      ]
+    },
+    {
+      "id": "RC-4e1206757a",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "day_master": "신금",
+        "presence_of": "정임합"
+      },
+      "mechanism": "정임합은 자녀의 능력을 타겟팅하고 발휘하게 함.",
+      "interpretation": "정임합이 있으면 자녀가 능력을 발휘하고 성과를 냄.",
+      "action": "자녀의 능력을 발휘할 수 있는 환경을 조성할 것.",
+      "cautions": [
+        "정임합이 없으면 자녀의 잠재력이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "정임합",
+        "자녀",
+        "능력",
+        "성과",
+        "환경",
+        "발휘",
+        "잠재력",
+        "타겟팅"
+      ]
+    },
+    {
+      "id": "RC-9151dd1b26",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "신금",
+        "absence_of": "목",
+        "presence_of": "개수"
+      },
+      "mechanism": "목이 없고 개수만 있으면 자녀가 조건부 성과를 내기 어려움.",
+      "interpretation": "개수만으로는 자녀와의 관계가 유정하게 유지되기 어려움.",
+      "action": "자녀와의 관계를 위해 명확한 목표와 보상을 설정할 것.",
+      "cautions": [
+        "목이 없으면 자녀가 조건을 충족하지 못할 가능성이 큼."
+      ],
+      "tags": [
+        "신금",
+        "목",
+        "개수",
+        "자녀",
+        "관계",
+        "조건",
+        "목표",
+        "보상",
+        "유정"
+      ]
+    },
+    {
+      "id": "RC-72a7808f1e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "신금",
+        "presence_of": "임수",
+        "absence_of": "목"
+      },
+      "mechanism": "임수는 자녀와의 관계를 유지하지만 목이 없으면 자녀의 능력이 제한됨.",
+      "interpretation": "임수가 있어도 목이 없으면 자녀의 성장이 제한될 수 있음.",
+      "action": "자녀의 성장을 위해 목의 역할을 보완할 방법을 찾을 것.",
+      "cautions": [
+        "목이 없으면 자녀의 성장이 정체될 가능성이 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "목",
+        "자녀",
+        "관계",
+        "성장",
+        "제한",
+        "보완",
+        "정체"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_048",
+  "updated_at": "2025-12-23T20:27:26"
+}

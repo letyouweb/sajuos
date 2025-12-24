@@ -1,0 +1,462 @@
+{
+  "title": "SajuOS_Logic_APPL_043",
+  "rulecards": [
+    {
+      "id": "RC-8039dcbb4e",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "子",
+        "relation": "偏印"
+      },
+      "mechanism": "자수는 을목의 편인으로 작용하며, 수색목이 어려운 구조를 형성함.",
+      "interpretation": "을목이 자수를 활용하려면 지지에 목이 있어야 하며, 비겁의 지원이 필요함.",
+      "action": "지지에 목을 배치하거나 비겁의 도움을 고려하여 사주를 분석.",
+      "cautions": [
+        "비겁이 없으면 자수를 활용하기 어려움.",
+        "수색목이 원활하지 않음."
+      ],
+      "tags": [
+        "乙목",
+        "子수",
+        "편인",
+        "비겁",
+        "수색목"
+      ]
+    },
+    {
+      "id": "RC-163f63febd",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "子",
+        "fire_presence": false
+      },
+      "mechanism": "화가 없으면 자수가 을목과 친근감을 형성하기 어려움.",
+      "interpretation": "화는 을목과 자수 간의 연결을 돕는 중요한 요소임.",
+      "action": "화의 존재 여부를 확인하고, 부족하면 보완책을 마련.",
+      "cautions": [
+        "화가 없으면 자수와 을목 간의 관계가 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "子수",
+        "화",
+        "친근감",
+        "연결"
+      ]
+    },
+    {
+      "id": "RC-11a3ddda54",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "子",
+        "earth_presence": true
+      },
+      "mechanism": "토가 자수를 제어하여 수색목의 균형을 맞춤.",
+      "interpretation": "토가 있으면 자수가 을목을 지원하는 방향으로 작용 가능.",
+      "action": "지지에 토가 있는지 확인하고, 토국수의 역할을 분석.",
+      "cautions": [
+        "토가 없으면 수색목이 과도하게 작용할 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "子수",
+        "토국수",
+        "균형",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-bc24ab8c3e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "亥",
+        "relation": "正印"
+      },
+      "mechanism": "해수는 을목에게 정인으로 작용하며, 수색목을 자연스럽게 유도함.",
+      "interpretation": "해수가 있으면 을목이 수색목을 원활히 수행 가능.",
+      "action": "해수의 존재 여부를 확인하고, 정인의 역할을 분석.",
+      "cautions": [
+        "해수가 없으면 수색목이 원활하지 않을 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "亥수",
+        "정인",
+        "수색목",
+        "자연스러움"
+      ]
+    },
+    {
+      "id": "RC-0bd51913dc",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "未",
+        "earth_type": "濕土"
+      },
+      "mechanism": "미토는 수와 연결되어 삼합 에너지를 형성하며, 을목을 지원함.",
+      "interpretation": "미토가 있으면 부모와 자녀 중심의 조화로운 관계가 형성됨.",
+      "action": "미토의 존재 여부를 확인하고, 삼합 에너지의 작용을 분석.",
+      "cautions": [
+        "미토가 없으면 부모와 자녀 간의 조화가 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "未토",
+        "삼합",
+        "조화",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-83dd952556",
+      "topic": "RELATION",
+      "priority": 4,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "戌",
+        "earth_type": "乾土"
+      },
+      "mechanism": "술토는 토국수를 통해 자수를 제어하지만 을목과 친화적이지 않음.",
+      "interpretation": "술토는 가부장적 아버지의 성향을 나타낼 수 있음.",
+      "action": "술토의 존재 여부를 확인하고, 가족 관계의 영향을 분석.",
+      "cautions": [
+        "술토가 을목과 친화적이지 않음."
+      ],
+      "tags": [
+        "乙목",
+        "戌토",
+        "토국수",
+        "가부장적",
+        "친화성"
+      ]
+    },
+    {
+      "id": "RC-158bca0501",
+      "topic": "RELATION",
+      "priority": 4,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "辰",
+        "earth_type": "濕土"
+      },
+      "mechanism": "진토는 을목과 친화적이며, 해수의 토국수를 방해하지 않음.",
+      "interpretation": "진토는 다정다감한 아버지의 성향을 나타낼 수 있음.",
+      "action": "진토의 존재 여부를 확인하고, 가족 관계의 영향을 분석.",
+      "cautions": [
+        "진토가 없으면 다정다감한 성향이 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "辰토",
+        "토국수",
+        "다정다감",
+        "친화성"
+      ]
+    },
+    {
+      "id": "RC-175441b6a9",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "未",
+        "relation": "三合"
+      },
+      "mechanism": "미토는 삼합 에너지를 통해 가족 중심의 조화를 형성함.",
+      "interpretation": "미토가 있으면 가족 관계가 조화롭게 유지됨.",
+      "action": "미토의 존재 여부를 확인하고, 삼합 에너지의 작용을 분석.",
+      "cautions": [
+        "미토가 없으면 가족 중심의 조화가 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "未토",
+        "삼합",
+        "가족",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-4c2d68f0ea",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "子",
+        "relation": "偏印",
+        "fire_presence": true
+      },
+      "mechanism": "화는 자수와 을목 간의 연결을 강화하며, 친근감을 형성함.",
+      "interpretation": "화가 있으면 자수와 을목의 관계가 원활해짐.",
+      "action": "화의 존재 여부를 확인하고, 부족하면 보완책을 마련.",
+      "cautions": [
+        "화가 없으면 자수와 을목 간의 관계가 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "子수",
+        "偏印",
+        "화",
+        "친근감"
+      ]
+    },
+    {
+      "id": "RC-efb2754ec4",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_master": "乙",
+        "branch": "未",
+        "relation": "三合",
+        "earth_type": "濕土"
+      },
+      "mechanism": "미토는 삼합 에너지를 통해 가족 중심의 조화를 형성함.",
+      "interpretation": "미토가 있으면 가족 관계가 조화롭게 유지됨.",
+      "action": "미토의 존재 여부를 확인하고, 삼합 에너지의 작용을 분석.",
+      "cautions": [
+        "미토가 없으면 가족 중심의 조화가 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "未토",
+        "삼합",
+        "가족",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-028b3e86dc",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "무토",
+        "relation": "자녀"
+      },
+      "mechanism": "무토는 자녀에 대한 책임감을 강조하는 성향을 가짐.",
+      "interpretation": "자녀에 대해 헌신적이고 책임감 있는 태도를 보임.",
+      "action": "자녀와의 관계에서 신중하고 헌신적인 태도를 유지할 것.",
+      "cautions": [
+        "무거운 책임감이 스트레스로 작용할 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "자녀",
+        "책임감",
+        "헌신",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-be4b6869ac",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "relation": "자녀"
+      },
+      "mechanism": "기토는 자녀에 대해 가벼운 태도를 가질 수 있음.",
+      "interpretation": "자녀와의 관계에서 비교적 가벼운 접근을 보임.",
+      "action": "자녀와의 관계에서 깊이 있는 대화를 시도할 것.",
+      "cautions": [
+        "자녀의 감정을 간과할 가능성이 있음."
+      ],
+      "tags": [
+        "기토",
+        "자녀",
+        "가벼움",
+        "육친",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-22dc52d46e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "relation": "부모"
+      },
+      "mechanism": "을목은 부모와의 유대감을 형성하는 데 도움을 줌.",
+      "interpretation": "부모와의 관계에서 끌어안고 살아가는 정서적 유대가 강함.",
+      "action": "부모와의 관계를 지속적으로 강화할 것.",
+      "cautions": [
+        "과도한 의존으로 인해 독립성이 저하될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "부모",
+        "유대감",
+        "정서",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-89c6162a3c",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "경금",
+        "relation": "자녀"
+      },
+      "mechanism": "경금은 자녀의 본질보다는 외형적 부분에 관심을 가짐.",
+      "interpretation": "자녀의 내면보다는 겉모습이나 성과에 집중하는 경향이 있음.",
+      "action": "자녀의 내면적 필요와 감정에 더 관심을 기울일 것.",
+      "cautions": [
+        "자녀와의 관계에서 소통 부족이 발생할 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "자녀",
+        "외형",
+        "소통",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-09df098b5f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "relation": "자녀"
+      },
+      "mechanism": "신금은 자녀의 세부적인 부분까지 관심을 가짐.",
+      "interpretation": "자녀의 감정과 행동에 세심한 관심을 보임.",
+      "action": "자녀와의 관계에서 세부적인 부분까지 신경 쓸 것.",
+      "cautions": [
+        "과도한 간섭으로 자녀의 자율성을 침해할 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "자녀",
+        "세심함",
+        "관심",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-364f4e5939",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "병화",
+        "relation": "부모"
+      },
+      "mechanism": "병화는 부모와의 관계에서 열정적이고 헌신적인 태도를 보임.",
+      "interpretation": "부모와의 관계에서 강한 유대감을 형성함.",
+      "action": "부모와의 관계에서 열정을 유지하며 소통할 것.",
+      "cautions": [
+        "부모와의 갈등 시 감정적으로 대응할 가능성이 있음."
+      ],
+      "tags": [
+        "병화",
+        "부모",
+        "열정",
+        "유대감",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-8e09f5da7e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "진토",
+        "relation": "가족"
+      },
+      "mechanism": "진토는 가족 내에서 소통과 유대감을 강화함.",
+      "interpretation": "가족 구성원 간의 관계를 조율하고 강화함.",
+      "action": "가족 내 소통을 원활히 하고 유대감을 유지할 것.",
+      "cautions": [
+        "과도한 간섭으로 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "가족",
+        "소통",
+        "유대감",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-e31e97b171",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "술토",
+        "relation": "가족"
+      },
+      "mechanism": "술토는 가족 간 적절한 거리감을 유지하도록 도움.",
+      "interpretation": "가족 관계에서 독립성과 유대감을 균형 있게 유지함.",
+      "action": "가족 간 적절한 거리감을 유지하며 소통할 것.",
+      "cautions": [
+        "거리감이 지나치면 소외감을 줄 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "가족",
+        "거리감",
+        "균형",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-cf55c4fa6c",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "relation": "사회적 관계"
+      },
+      "mechanism": "임수는 사회적 성공 여부에 따라 주변 관계가 달라짐.",
+      "interpretation": "사회적 성공이 가족 및 주변 관계에 영향을 미침.",
+      "action": "사회적 성공을 위해 노력하며 관계를 조율할 것.",
+      "cautions": [
+        "성공 여부에 따라 관계가 변동될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "사회적 관계",
+        "성공",
+        "변동",
+        "육친"
+      ]
+    },
+    {
+      "id": "RC-ed72eecbc0",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "병화",
+        "relation": "자녀"
+      },
+      "mechanism": "병화는 자녀를 이상적으로 바라보는 경향이 있음.",
+      "interpretation": "자녀에 대해 높은 기대와 이상을 가짐.",
+      "action": "자녀의 현실적 필요를 이해하며 기대를 조율할 것.",
+      "cautions": [
+        "이상과 현실의 괴리로 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "자녀",
+        "이상",
+        "기대",
+        "육친"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_043",
+  "updated_at": "2025-12-23T20:27:26"
+}

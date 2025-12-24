@@ -1,0 +1,419 @@
+{
+  "title": "SajuOS_Logic_STRU_M_151",
+  "rulecards": [
+    {
+      "id": "RC-f1480d9e7a",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화"
+      },
+      "mechanism": "병화는 신금을 통해 자신의 본질을 드러내야 한다.",
+      "interpretation": "신월의 병화는 자신의 능력을 가리지 않고 드러내야 성공할 수 있다.",
+      "action": "병화가 신금을 통해 자신의 본질을 드러낼 수 있도록 환경을 조성하라.",
+      "cautions": [
+        "병화가 가려지면 능력 발휘가 어렵다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "본질",
+        "드러냄",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-293ce39746",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "편재"
+      },
+      "mechanism": "편재는 유통과 확산의 에너지를 제공한다.",
+      "interpretation": "신월의 병화는 편재를 통해 유통과 확산의 능력을 발휘한다.",
+      "action": "편재를 활용해 자신의 능력을 널리 알리고 확산하라.",
+      "cautions": [
+        "편재가 과도하면 실속 없는 결과를 초래할 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "편재",
+        "유통",
+        "확산"
+      ]
+    },
+    {
+      "id": "RC-d24f53faa6",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "임수"
+      },
+      "mechanism": "임수는 병화의 본질을 드러내는 역할을 한다.",
+      "interpretation": "임수를 통해 병화는 솔직함과 스케일을 드러낼 수 있다.",
+      "action": "임수를 활용해 자신의 진정성과 스케일을 강조하라.",
+      "cautions": [
+        "임수가 없으면 병화의 능력이 제한될 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "임수",
+        "솔직함",
+        "스케일"
+      ]
+    },
+    {
+      "id": "RC-fa295ce43d",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "계수"
+      },
+      "mechanism": "계수는 병화를 한정시키는 역할을 한다.",
+      "interpretation": "계수는 병화의 에너지를 제한하여 집중력을 높인다.",
+      "action": "계수를 활용해 병화의 에너지를 한정하고 성과를 높여라.",
+      "cautions": [
+        "계수가 과도하면 병화의 본질이 가려질 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "계수",
+        "한정",
+        "집중력"
+      ]
+    },
+    {
+      "id": "RC-f4b0b376cb",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "편관"
+      },
+      "mechanism": "편관은 병화의 권력욕과 야망을 자극한다.",
+      "interpretation": "편관을 통해 병화는 정치적 능력과 권력욕을 발휘할 수 있다.",
+      "action": "편관을 활용해 정치적 영향력을 키워라.",
+      "cautions": [
+        "편관이 과도하면 갈등을 초래할 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "편관",
+        "정치",
+        "권력"
+      ]
+    },
+    {
+      "id": "RC-c489c648cc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "토"
+      },
+      "mechanism": "토는 병화의 밝기와 온도를 약화시킨다.",
+      "interpretation": "토가 병화의 본질을 흐리게 만들어 능력 발휘를 저해한다.",
+      "action": "토의 영향을 최소화하고 병화의 밝기를 유지하라.",
+      "cautions": [
+        "토가 과도하면 병화의 에너지가 약화된다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "토",
+        "밝기",
+        "온도"
+      ]
+    },
+    {
+      "id": "RC-6e171a7a39",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "경금"
+      },
+      "mechanism": "경금은 병화의 에너지를 보완하고 안정시킨다.",
+      "interpretation": "경금을 통해 병화는 안정적인 성과를 낼 수 있다.",
+      "action": "경금을 활용해 병화의 에너지를 안정적으로 유지하라.",
+      "cautions": [
+        "경금이 부족하면 병화의 에너지가 불안정해질 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "경금",
+        "안정",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-4aef047f43",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "목"
+      },
+      "mechanism": "목은 병화의 에너지를 강화하고 성장시킨다.",
+      "interpretation": "목을 통해 병화는 자신의 잠재력을 극대화할 수 있다.",
+      "action": "목의 에너지를 활용해 병화의 성장을 도모하라.",
+      "cautions": [
+        "목이 과도하면 병화의 에너지가 분산될 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "목",
+        "성장",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-8b279c870a",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "수"
+      },
+      "mechanism": "수는 병화의 에너지를 조화롭게 만든다.",
+      "interpretation": "수의 조화를 통해 병화는 자신의 능력을 균형 있게 발휘한다.",
+      "action": "수의 에너지를 활용해 병화의 조화를 유지하라.",
+      "cautions": [
+        "수의 부족은 병화의 균형을 깨뜨릴 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "수",
+        "조화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-f84b804754",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "신월",
+        "day_master": "병화",
+        "useful_god": "정관"
+      },
+      "mechanism": "정관은 병화의 안정성과 신뢰를 높인다.",
+      "interpretation": "정관을 통해 병화는 안정적인 사회적 지위를 얻을 수 있다.",
+      "action": "정관을 활용해 병화의 신뢰를 구축하라.",
+      "cautions": [
+        "정관이 과도하면 병화의 자율성이 제한될 수 있다."
+      ],
+      "tags": [
+        "병화",
+        "신월",
+        "정관",
+        "안정",
+        "신뢰"
+      ]
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "재관구조": true
+      },
+      "mechanism": "재관구조는 서열과 질서에 적합한 성향을 나타냄.",
+      "interpretation": "재관구조를 가진 사람은 서열에 적응하며 위계질서를 중시함.",
+      "action": "서열과 질서를 존중하며 자신의 위치를 명확히 할 것.",
+      "cautions": [
+        "투자를 통한 성공을 기대하지 말 것",
+        "직업적 안정성을 우선시할 것"
+      ],
+      "tags": [
+        "재관",
+        "서열",
+        "질서",
+        "적응",
+        "투자"
+      ],
+      "id": "RC-656d4c103d"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "월중심": true,
+        "정편재": true,
+        "관살": true
+      },
+      "mechanism": "월 중심의 정편재와 관살은 성공 욕구를 강하게 자극함.",
+      "interpretation": "이 구조는 성공과 사회적 지위를 추구하는 경향이 강함.",
+      "action": "목표를 명확히 설정하고 꾸준히 노력할 것.",
+      "cautions": [
+        "무리한 욕심은 피할 것",
+        "장기적인 계획을 세울 것"
+      ],
+      "tags": [
+        "월중심",
+        "정편재",
+        "관살",
+        "성공",
+        "사회적지위"
+      ],
+      "id": "RC-33edc50ce4"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "임수": true,
+        "병화": true
+      },
+      "mechanism": "임수는 병화의 활동성을 조절하며 신중함을 유도함.",
+      "interpretation": "임수가 있으면 병화의 과도한 활동성을 억제하고 신중함을 더함.",
+      "action": "임수의 영향을 활용해 신중하게 행동할 것.",
+      "cautions": [
+        "임수가 없을 경우 과도한 행동에 주의할 것"
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "활동성",
+        "신중함",
+        "조절"
+      ],
+      "id": "RC-b60e5c48dc"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "인성코드": true,
+        "경금": true
+      },
+      "mechanism": "경금은 인성코드를 통해 학문적 성취와 직업적 성공을 지원함.",
+      "interpretation": "이 구조는 법조계나 학문적 직업에 적합함.",
+      "action": "학문적 성취를 통해 전문성을 키울 것.",
+      "cautions": [
+        "정치적 성향이 강할 수 있으니 균형을 유지할 것"
+      ],
+      "tags": [
+        "인성",
+        "경금",
+        "법조계",
+        "학문",
+        "전문성"
+      ],
+      "id": "RC-3048e2ee58"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "음간": true,
+        "양간": true
+      },
+      "mechanism": "음간과 양간은 각각 상관과 식신을 통해 능력을 드러냄.",
+      "interpretation": "음간은 상관을, 양간은 식신을 활용해 자신을 표현함.",
+      "action": "자신의 음양적 특성을 이해하고 적절히 활용할 것.",
+      "cautions": [
+        "음양의 균형을 잃지 않도록 주의할 것"
+      ],
+      "tags": [
+        "음간",
+        "양간",
+        "상관",
+        "식신",
+        "능력표현"
+      ],
+      "id": "RC-93979b94a4"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "재생살": true
+      },
+      "mechanism": "재생살은 정치적 성향과 세력화를 강화함.",
+      "interpretation": "재생살 구조는 정치적 영향력을 키우는 데 유리함.",
+      "action": "정치적 활동이나 리더십을 발휘할 기회를 모색할 것.",
+      "cautions": [
+        "과도한 세력화는 갈등을 초래할 수 있음"
+      ],
+      "tags": [
+        "재생살",
+        "정치",
+        "세력화",
+        "리더십",
+        "영향력"
+      ],
+      "id": "RC-975d819dad"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "편재": true,
+        "편관": true
+      },
+      "mechanism": "편재와 편관은 성공을 위해 적극적으로 자원을 활용함.",
+      "interpretation": "이 구조는 자원을 활용해 목표를 달성하려는 경향이 강함.",
+      "action": "자원을 효율적으로 관리하고 활용할 것.",
+      "cautions": [
+        "무리한 자원 사용은 피할 것"
+      ],
+      "tags": [
+        "편재",
+        "편관",
+        "자원활용",
+        "목표달성",
+        "성공"
+      ],
+      "id": "RC-50528c64de"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "여성의 자기 보호 방식"
+      },
+      "mechanism": "여성은 소리를 통해 자신을 보호하려는 경향이 있음.",
+      "interpretation": "소리를 내는 것은 여성의 자기 보호 본능과 관련됨.",
+      "action": "위험 상황에서 소리를 낼 수 있는 도구를 준비할 것.",
+      "cautions": [
+        "무기를 사용하는 것은 오히려 위험할 수 있음"
+      ],
+      "tags": [
+        "여성",
+        "자기보호",
+        "소리",
+        "위험",
+        "도구"
+      ],
+      "id": "RC-4e88bd338b"
+    }
+  ],
+  "notes": [
+    "텍스트에서 특정 사례와 개인적 경험이 포함되어 있어 일반화된 규칙으로 추출함.",
+    "사례에 등장하는 특정 인물 및 상황은 제거하고 보편적 규칙으로 재구성함.",
+    "텍스트에서 특정 사례나 이름은 제거하였음.",
+    "정확한 수치나 조건이 불분명한 경우 note로 처리."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_151",
+  "updated_at": "2025-12-23T20:27:24"
+}

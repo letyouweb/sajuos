@@ -1,0 +1,226 @@
+{
+  "title": "SajuOS_Logic_TEN_023",
+  "rulecards": [
+    {
+      "id": "RC-766654094a",
+      "topic": "TEN_GODS",
+      "priority": 10,
+      "trigger": {
+        "ten_god": "겁재",
+        "month": "4월",
+        "day_master": "정화"
+      },
+      "mechanism": "겁재는 이질적인 존재를 활용할 수 있는 능력을 제공함.",
+      "interpretation": "겁재를 잘 활용하면 큰 성과를 낼 수 있음.",
+      "action": "겁재를 제압하거나 협력 구조를 만들어 활용하라.",
+      "cautions": [
+        "겁재를 잘못 활용하면 재물 손실 가능성 있음."
+      ],
+      "tags": [
+        "겁재",
+        "활용",
+        "제압",
+        "협력",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-bd1e25319a",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "day_master": "정화"
+      },
+      "mechanism": "4월 정화는 신약으로 간주됨.",
+      "interpretation": "정화는 약한 상태로, 외부 자원이 필요함.",
+      "action": "목생화나 금생수를 통해 정화를 보강하라.",
+      "cautions": [
+        "정화를 강하게 만드는 자원 선택에 주의할 것."
+      ],
+      "tags": [
+        "정화",
+        "신약",
+        "목생화",
+        "금생수",
+        "보강"
+      ]
+    },
+    {
+      "id": "RC-dd0aa726ec",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "type": "감목"
+      },
+      "mechanism": "감목은 정화의 주도권을 강화함.",
+      "interpretation": "감목을 활용하면 정화가 주도권을 가질 수 있음.",
+      "action": "감목을 통해 목생화를 유도하라.",
+      "cautions": [
+        "을목은 사화의 주도권으로 넘어갈 가능성이 있음."
+      ],
+      "tags": [
+        "감목",
+        "목생화",
+        "정화",
+        "주도권",
+        "사화"
+      ]
+    },
+    {
+      "id": "RC-c5ed95878d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "type": "임수"
+      },
+      "mechanism": "임수는 겁재를 제압하고 합을 형성함.",
+      "interpretation": "임수를 활용하면 겁재를 통제할 수 있음.",
+      "action": "임수를 활용하되 경금을 통해 안정성을 확보하라.",
+      "cautions": [
+        "임수가 과열되면 판단력 상실 가능성 있음."
+      ],
+      "tags": [
+        "임수",
+        "겁재",
+        "제압",
+        "합",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-f8cfba9e26",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "type": "경금"
+      },
+      "mechanism": "경금은 임수를 강화하고 안정성을 제공함.",
+      "interpretation": "경금은 판단력과 통솔력을 유지하는 데 필수적임.",
+      "action": "경금을 통해 임수를 보강하고 판단력을 유지하라.",
+      "cautions": [
+        "경금이 없으면 임수의 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "임수",
+        "안정성",
+        "판단력",
+        "통솔력"
+      ]
+    },
+    {
+      "id": "RC-c2c306aee4",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "화급금-금급목"
+      },
+      "mechanism": "화급금과 금급목은 정화의 능력을 강화함.",
+      "interpretation": "이 구조는 정화의 현실 감각과 능력을 증대시킴.",
+      "action": "화급금과 금급목 구조를 유지하라.",
+      "cautions": [
+        "수가 개입하면 구조가 약화될 수 있음."
+      ],
+      "tags": [
+        "화급금",
+        "금급목",
+        "정화",
+        "능력",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-d8d5fafd48",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "경금 운"
+      },
+      "mechanism": "경금 운은 임수를 강화하고 승진 가능성을 높임.",
+      "interpretation": "경금 운이 오면 직업적 성취 가능성이 높아짐.",
+      "action": "경금 운을 활용해 승진이나 직업적 성취를 계획하라.",
+      "cautions": [
+        "경금 운이 아닌 경우 성취 가능성이 낮아질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "운",
+        "승진",
+        "성취",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-29c9aea14d",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "임수 운"
+      },
+      "mechanism": "임수 운은 겁재를 제압하지만 과열 시 리스크 발생.",
+      "interpretation": "임수 운은 겁재 활용에 유리하지만 과도한 활용은 위험.",
+      "action": "임수 운에서 경금을 활용해 안정성을 확보하라.",
+      "cautions": [
+        "임수 운에서 과열로 판단력 상실 가능성 있음."
+      ],
+      "tags": [
+        "임수",
+        "운",
+        "겁재",
+        "안정성",
+        "리스크"
+      ]
+    },
+    {
+      "id": "RC-cc268566a6",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "겁재 활용"
+      },
+      "mechanism": "겁재는 이질적 자원을 통해 성과를 창출함.",
+      "interpretation": "겁재를 활용하면 새로운 영역에서 성과를 낼 수 있음.",
+      "action": "겁재와 협력하거나 제압하여 활용하라.",
+      "cautions": [
+        "겁재를 잘못 활용하면 재물 손실 가능성 있음."
+      ],
+      "tags": [
+        "겁재",
+        "활용",
+        "성과",
+        "협력",
+        "제압"
+      ]
+    },
+    {
+      "id": "RC-7a0e1d0a84",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "목",
+        "type": "을목"
+      },
+      "mechanism": "을목은 사화의 주도권을 강화함.",
+      "interpretation": "을목을 활용하면 사화가 주도권을 가짐.",
+      "action": "을목 대신 감목을 활용해 정화의 주도권을 확보하라.",
+      "cautions": [
+        "을목은 정화의 주도권을 약화시킬 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "사화",
+        "주도권",
+        "정화",
+        "감목"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_023",
+  "updated_at": "2025-12-23T20:27:26"
+}

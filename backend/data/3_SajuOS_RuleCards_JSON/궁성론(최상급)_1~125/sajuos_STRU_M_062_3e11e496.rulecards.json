@@ -1,0 +1,458 @@
+{
+  "title": "SajuOS_Logic_STRU_M_062",
+  "rulecards": [
+    {
+      "id": "RC-f8a12f8d2f",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "계수",
+        "comparison": "임수"
+      },
+      "mechanism": "계수는 발수 작용으로 외부로 에너지를 방출하며, 임수는 내부로 끌어들이는 성질을 가짐.",
+      "interpretation": "계수는 효율적이고 실용적인 에너지 방출을 통해 쓰임새를 극대화함.",
+      "action": "계수의 발수 성질을 활용해 외부와의 상호작용을 극대화할 방법을 모색.",
+      "cautions": [
+        "계수의 성질이 억제되거나 경직될 수 있는 환경을 주의."
+      ],
+      "tags": [
+        "계수",
+        "임수",
+        "발수",
+        "효율성",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-1885567ea9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술월",
+        "element": "계수"
+      },
+      "mechanism": "술월의 한한 기운이 계수의 발수 능력을 제한함.",
+      "interpretation": "계수가 술월에서는 능력을 충분히 발휘하기 어려움.",
+      "action": "술월의 계수는 간목을 활용해 상관경관의 조화를 이루도록 유도.",
+      "cautions": [
+        "술월의 환경에서 계수의 능력이 억제될 가능성."
+      ],
+      "tags": [
+        "술월",
+        "계수",
+        "상관경관",
+        "간목",
+        "한한"
+      ]
+    },
+    {
+      "id": "RC-7623023307",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "상관경관",
+        "element": "계수",
+        "month": "술월"
+      },
+      "mechanism": "상관경관은 관의 문제점을 조정하고 개선하는 역할을 함.",
+      "interpretation": "계수가 상관경관을 통해 관의 문제를 해결하고 새로운 방향성을 제시함.",
+      "action": "상관경관의 역할을 직업적으로 활용할 수 있는 분야를 탐색.",
+      "cautions": [
+        "상관경관이 과도하면 기존 구조를 파괴할 위험."
+      ],
+      "tags": [
+        "상관경관",
+        "계수",
+        "술월",
+        "조정",
+        "개선"
+      ]
+    },
+    {
+      "id": "RC-edb5774b9f",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "계수",
+        "support": "신금"
+      },
+      "mechanism": "신금은 계수의 전문성을 강화하고 안정적인 발현을 돕는 역할을 함.",
+      "interpretation": "신금이 계수와 함께 있을 때 전문성과 안정성이 높아짐.",
+      "action": "신금의 지원을 활용해 계수의 능력을 체계적으로 발휘.",
+      "cautions": [
+        "신금이 없을 경우 계수의 능력이 불안정할 수 있음."
+      ],
+      "tags": [
+        "계수",
+        "신금",
+        "전문성",
+        "안정성",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-bd5b4d2c1e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "계수",
+        "relation": "정인",
+        "support": "경금"
+      },
+      "mechanism": "경금의 정인은 계수의 발수 능력을 경직시키는 경향이 있음.",
+      "interpretation": "정인의 영향으로 계수가 과도한 스펙 쌓기에 몰두할 가능성.",
+      "action": "정인의 영향을 최소화하고 실질적인 전문성을 강화.",
+      "cautions": [
+        "정인의 과도한 영향으로 비효율적인 노력 가능성."
+      ],
+      "tags": [
+        "계수",
+        "정인",
+        "경금",
+        "발수",
+        "스펙"
+      ]
+    },
+    {
+      "id": "RC-aa15af4c48",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "계수",
+        "relation": "간목"
+      },
+      "mechanism": "간목은 계수의 상관경관 능력을 극대화함.",
+      "interpretation": "간목이 계수의 능력을 발휘하는 데 중요한 역할을 함.",
+      "action": "간목을 활용해 계수의 상관경관 능력을 실현.",
+      "cautions": [
+        "간목이 없을 경우 계수의 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "계수",
+        "간목",
+        "상관경관",
+        "능력",
+        "발휘"
+      ]
+    },
+    {
+      "id": "RC-832f303fb2",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "계수",
+        "relation": "을목"
+      },
+      "mechanism": "을목은 계수와의 조화가 제한적이며, 환경에 따라 변동성이 큼.",
+      "interpretation": "을목은 계수의 능력을 발휘하는 데 있어 간목보다 덜 효과적.",
+      "action": "을목보다는 간목을 활용해 계수의 능력을 극대화.",
+      "cautions": [
+        "을목의 변동성으로 인해 안정적인 결과를 기대하기 어려움."
+      ],
+      "tags": [
+        "계수",
+        "을목",
+        "간목",
+        "조화",
+        "변동성"
+      ]
+    },
+    {
+      "id": "RC-d7948bd18e",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "element": "계수",
+        "relation": "정관",
+        "month": "술월"
+      },
+      "mechanism": "술월의 정관은 계수의 능력을 제한적으로 발휘하게 함.",
+      "interpretation": "정관이 계수에게 부담으로 작용할 가능성이 있음.",
+      "action": "정관의 부담을 줄이고 계수의 능력을 발휘할 환경을 조성.",
+      "cautions": [
+        "정관의 영향으로 계수의 능력이 억제될 가능성."
+      ],
+      "tags": [
+        "계수",
+        "정관",
+        "술월",
+        "부담",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-d6a7045a11",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "형",
+        "element": "계수",
+        "support": "간목"
+      },
+      "mechanism": "형은 갈등을 조정하고 해결하는 능력을 부여함.",
+      "interpretation": "계수가 형을 통해 갈등을 해결하고 조정하는 역할을 수행.",
+      "action": "형의 조정 능력을 활용해 문제 해결에 집중.",
+      "cautions": [
+        "형이 과도하면 갈등이 심화될 가능성."
+      ],
+      "tags": [
+        "계수",
+        "형",
+        "간목",
+        "갈등",
+        "조정"
+      ]
+    },
+    {
+      "id": "RC-3a3062e288",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "계수",
+        "relation": "축술형"
+      },
+      "mechanism": "축술형은 계수의 능력을 다방면으로 활용하게 함.",
+      "interpretation": "축술형은 계수의 능력을 다양한 분야에서 발휘할 수 있게 함.",
+      "action": "축술형의 다방면 활용성을 기반으로 직업 선택.",
+      "cautions": [
+        "축술형의 모호성으로 인해 전문성이 약화될 가능성."
+      ],
+      "tags": [
+        "계수",
+        "축술형",
+        "다방면",
+        "활용",
+        "모호성"
+      ]
+    },
+    {
+      "id": "RC-56f152758d",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "금",
+        "exists": false
+      },
+      "mechanism": "금은 전문성을 나타내는 요소로 작용함.",
+      "interpretation": "금이 없으면 직업적 안정성을 확보하기 어렵다.",
+      "action": "금의 기운을 보완할 수 있는 환경이나 활동을 찾아라.",
+      "cautions": [
+        "금이 없으면 중소기업을 전전하거나 직업 안정성이 낮을 수 있음."
+      ],
+      "tags": [
+        "금",
+        "전문성",
+        "직업",
+        "안정성",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-d13637d3b5",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "무토",
+        "exists": false
+      },
+      "mechanism": "무토는 직업적 역할과 안정성을 강화함.",
+      "interpretation": "무토가 없으면 결혼 후 전업주부가 될 가능성이 높다.",
+      "action": "무토의 기운을 보완하거나 직업적 목표를 명확히 설정하라.",
+      "cautions": [
+        "무토가 없으면 직업적 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "직업",
+        "결혼",
+        "안정성",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-ff237f2d8c",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "exists": true
+      },
+      "mechanism": "금은 분석과 예측 능력을 강화함.",
+      "interpretation": "금이 있으면 재무 관련 직업에서 전문성을 발휘할 수 있다.",
+      "action": "재무 분석이나 예측 관련 분야를 탐구하라.",
+      "cautions": [
+        "금이 없으면 재무 관련 전문성을 발휘하기 어려움."
+      ],
+      "tags": [
+        "금",
+        "재무",
+        "분석",
+        "전문성",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-405787208c",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "무토",
+        "exists": true,
+        "partner": "관"
+      },
+      "mechanism": "무토와 관의 조합은 배우자의 경제적 능력을 나타냄.",
+      "interpretation": "무토가 있고 배우자가 관이면 배우자가 경제적으로 안정적일 가능성이 높다.",
+      "action": "배우자의 경제적 능력을 활용하여 가정의 안정성을 도모하라.",
+      "cautions": [
+        "배우자의 경제적 능력에 지나치게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "무토",
+        "관",
+        "배우자",
+        "경제",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-56ff168941",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "감목",
+        "exists": true
+      },
+      "mechanism": "감목은 사람을 다루는 능력을 강화함.",
+      "interpretation": "감목이 있으면 인사, 채용, 스카우트 등 사람을 다루는 직업에 적합하다.",
+      "action": "인재 발굴이나 관리 관련 직업을 고려하라.",
+      "cautions": [
+        "감목이 없으면 사람을 다루는 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "감목",
+        "인사",
+        "채용",
+        "스카우트",
+        "사람"
+      ]
+    },
+    {
+      "id": "RC-3a29c72efa",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "인성",
+        "exists": true
+      },
+      "mechanism": "인성은 불로소득과 관련된 능력을 나타냄.",
+      "interpretation": "인성이 발달하면 노동 없이도 수익을 창출할 가능성이 높다.",
+      "action": "투자나 자산 관리에 관심을 가져라.",
+      "cautions": [
+        "인성이 없으면 불로소득을 창출하기 어려움."
+      ],
+      "tags": [
+        "인성",
+        "불로소득",
+        "투자",
+        "자산",
+        "수익"
+      ]
+    },
+    {
+      "id": "RC-747e089680",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "목생화",
+        "exists": false
+      },
+      "mechanism": "목생화는 노동과 수익 창출의 연결고리 역할을 함.",
+      "interpretation": "목생화가 없으면 노동을 통해 수익을 창출하기 어려움.",
+      "action": "목생화의 기운을 보완하거나 최소한의 노동을 유지하라.",
+      "cautions": [
+        "목생화가 없으면 지속적인 수익 창출이 어려울 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "노동",
+        "수익",
+        "창출",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-00e397da2f",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "병화",
+        "exists": false
+      },
+      "mechanism": "병화는 조후적 역할로 타이밍을 조율함.",
+      "interpretation": "병화가 없으면 중요한 시기가 늦어질 가능성이 있다.",
+      "action": "병화의 기운을 보완하거나 타이밍을 신중히 계획하라.",
+      "cautions": [
+        "병화가 없으면 취업이나 중요한 사건이 지연될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "조후",
+        "타이밍",
+        "지연",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-65eed950d5",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "술월",
+        "conditions": {
+          "목": true,
+          "금": true
+        }
+      },
+      "mechanism": "술월은 목과 금의 조합으로 소토가 가능함.",
+      "interpretation": "술월에서 목과 금이 있으면 일관이 효과적으로 작용한다.",
+      "action": "술월의 기운을 활용하여 자신의 강점을 극대화하라.",
+      "cautions": [
+        "목과 금이 없으면 술월의 기운을 활용하기 어려움."
+      ],
+      "tags": [
+        "술월",
+        "목",
+        "금",
+        "소토",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-6dcd5b7421",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "인성",
+        "exists": true,
+        "목생화": true
+      },
+      "mechanism": "인성과 목생화는 자산 증식과 투자 능력을 강화함.",
+      "interpretation": "인성과 목생화가 있으면 자산 증식과 투자에서 유리하다.",
+      "action": "자산 증식과 관련된 활동에 적극적으로 참여하라.",
+      "cautions": [
+        "목생화가 없으면 자산 증식이 제한될 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "목생화",
+        "자산",
+        "투자",
+        "증식"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_062",
+  "updated_at": "2025-12-23T20:27:24"
+}

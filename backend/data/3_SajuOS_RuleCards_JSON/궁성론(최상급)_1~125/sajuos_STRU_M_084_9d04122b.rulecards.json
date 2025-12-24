@@ -1,0 +1,464 @@
+{
+  "title": "SajuOS_Logic_STRU_M_084",
+  "rulecards": [
+    {
+      "id": "RC-7d89bb1508",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "임수": true
+      },
+      "mechanism": "신금은 임수를 통해 자신의 능력을 발휘할 수 있음.",
+      "interpretation": "임수가 있으면 신금은 자신의 삶을 주도적으로 이끌 수 있다.",
+      "action": "사주에 임수가 있는지 확인하고, 임수를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "임수가 없으면 주도적으로 살기 어려울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "자월",
+        "주도성",
+        "능력발휘"
+      ]
+    },
+    {
+      "id": "RC-fb540fdd9d",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "임수": false
+      },
+      "mechanism": "임수가 없으면 신금은 자신의 능력을 발휘하기 어려움.",
+      "interpretation": "임수가 없으면 신금은 평범한 삶을 살 가능성이 높다.",
+      "action": "임수가 없는 경우, 식신을 활용하여 자신의 강점을 찾아라.",
+      "cautions": [
+        "임수 부재 시 주도성이 약해질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "자월",
+        "평범",
+        "식신"
+      ]
+    },
+    {
+      "id": "RC-4fa1b2cd4d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "임수": true,
+        "병화": true
+      },
+      "mechanism": "병화는 신금의 날카로움을 부드럽게 만들어줌.",
+      "interpretation": "병화가 있으면 신금의 성격이 밝아지고 대인관계가 원활해진다.",
+      "action": "병화를 활용하여 주변과의 관계를 개선하라.",
+      "cautions": [
+        "병화가 없으면 신금의 성격이 지나치게 날카로울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "병화",
+        "자월",
+        "대인관계",
+        "성격"
+      ]
+    },
+    {
+      "id": "RC-cb3b757347",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "간목": true
+      },
+      "mechanism": "간목은 신금의 재능과 자질을 발견하게 해줌.",
+      "interpretation": "간목이 있으면 신금의 잠재력이 발휘될 가능성이 높다.",
+      "action": "간목을 활용하여 자신의 재능을 개발하라.",
+      "cautions": [
+        "간목이 없으면 재능이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "간목",
+        "자월",
+        "재능",
+        "발견"
+      ]
+    },
+    {
+      "id": "RC-43c8aaf190",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "정화": true
+      },
+      "mechanism": "정화는 신금의 능력을 특정 분야로 특화시킴.",
+      "interpretation": "정화가 있으면 신금은 전문직으로 발전할 가능성이 높다.",
+      "action": "정화를 활용하여 특정 분야에서 전문성을 키워라.",
+      "cautions": [
+        "정화가 없으면 전문성 발휘가 어려울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "정화",
+        "자월",
+        "전문성",
+        "특화"
+      ]
+    },
+    {
+      "id": "RC-2d9509e14c",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "계수": true
+      },
+      "mechanism": "계수는 신금의 지속성을 약화시킬 수 있음.",
+      "interpretation": "계수가 있으면 신금의 꾸준함이 떨어질 수 있다.",
+      "action": "계수가 있는 경우, 꾸준함을 유지하기 위한 노력을 기울여라.",
+      "cautions": [
+        "계수가 신금의 안정성을 저해할 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "계수",
+        "자월",
+        "꾸준함",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-accf8434e8",
+      "topic": "STRUCTURE",
+      "priority": 4,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "목": true
+      },
+      "mechanism": "목은 신금에게 부담을 줄 수 있음.",
+      "interpretation": "목이 있으면 신금은 재물을 다루는 데 어려움을 겪을 수 있다.",
+      "action": "목을 다룰 때 신중하게 접근하라.",
+      "cautions": [
+        "목이 신금에게 과도한 부담을 줄 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "목",
+        "자월",
+        "재물",
+        "부담"
+      ]
+    },
+    {
+      "id": "RC-b29e0d4593",
+      "topic": "STRUCTURE",
+      "priority": 3,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "임수": true,
+        "정화": true,
+        "무토": true
+      },
+      "mechanism": "무토는 임수와 정화의 균형을 맞춰줌.",
+      "interpretation": "무토가 있으면 신금은 임수와 정화를 조화롭게 활용할 수 있다.",
+      "action": "무토를 활용하여 임수와 정화의 조화를 이루어라.",
+      "cautions": [
+        "무토가 없으면 임수와 정화의 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "무토",
+        "임수",
+        "정화",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-d32981587d",
+      "topic": "STRUCTURE",
+      "priority": 2,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "병화": true,
+        "임수": true
+      },
+      "mechanism": "병화는 신금의 능력을 드러내는 데 도움을 줌.",
+      "interpretation": "병화가 있으면 신금은 자신의 능력을 대중적으로 알릴 수 있다.",
+      "action": "병화를 활용하여 자신의 능력을 홍보하라.",
+      "cautions": [
+        "병화가 없으면 대중적 인지도가 낮을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "병화",
+        "임수",
+        "홍보",
+        "인지도"
+      ]
+    },
+    {
+      "id": "RC-3b2327d1be",
+      "topic": "STRUCTURE",
+      "priority": 1,
+      "trigger": {
+        "month": "자월",
+        "day_master": "신금",
+        "임수": true,
+        "간목": true
+      },
+      "mechanism": "임수와 간목은 신금의 재능 발휘와 경제적 안정성을 보장함.",
+      "interpretation": "임수와 간목이 있으면 신금은 재능을 발휘하며 안정적인 삶을 살 수 있다.",
+      "action": "임수와 간목을 활용하여 자신의 재능을 극대화하라.",
+      "cautions": [
+        "임수와 간목이 없으면 재능 발휘와 안정성이 어려울 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "간목",
+        "재능",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-a02b1806b9",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "간목",
+        "presence": true
+      },
+      "mechanism": "간목이 축토와 자수에 영향을 미쳐 재능과 자질을 발견하게 함.",
+      "interpretation": "간목은 재능을 발휘하고 성장 환경에서 경제적 어려움을 덜어주는 핵심 요소.",
+      "action": "간목의 역할을 강화하고 이를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "간목이 없으면 재능이 드러나지 않을 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "재능",
+        "발견",
+        "성장",
+        "경제적 안정"
+      ]
+    },
+    {
+      "id": "RC-fa1cf6cbed",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "presence": true
+      },
+      "mechanism": "임수가 금생수의 흐름을 원활하게 만들어 재능을 드러내게 함.",
+      "interpretation": "임수는 재능을 발휘하고 안정적인 삶을 가능하게 함.",
+      "action": "임수를 활용하여 재능을 드러내고 안정적인 환경을 구축하라.",
+      "cautions": [
+        "임수가 없으면 재능이 숨겨질 가능성이 있음."
+      ],
+      "tags": [
+        "임수",
+        "재능",
+        "안정",
+        "금생수",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-1e5af254be",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "presence": true
+      },
+      "mechanism": "병화는 임수 대신 활용 가능하며, 직장 생활에 적합한 구조를 형성함.",
+      "interpretation": "병화는 평범한 직장 생활을 가능하게 하는 대안적 요소.",
+      "action": "병화를 활용하여 안정적인 직장 환경을 유지하라.",
+      "cautions": [
+        "병화는 임수만큼 재능 발휘에 적합하지 않을 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "직장",
+        "안정",
+        "대안",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-f2683f2ef3",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "축토",
+        "presence": true
+      },
+      "mechanism": "축토가 자수의 신선도를 유지하며 자수를 자수답게 만듦.",
+      "interpretation": "축토는 자수의 에너지를 보존하고 활용 가능하게 함.",
+      "action": "축토를 활용하여 자수의 에너지를 효과적으로 관리하라.",
+      "cautions": [
+        "축토가 없으면 자수의 에너지가 상실될 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "자수",
+        "신선도",
+        "보존",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-8fd488558a",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "감목",
+        "presence": true
+      },
+      "mechanism": "감목이 자수의 에너지를 즉시 활용 가능하게 만듦.",
+      "interpretation": "감목은 자수의 에너지를 빠르게 활용할 수 있도록 돕는 핵심 요소.",
+      "action": "감목을 활용하여 자수의 에너지를 즉각적으로 활용하라.",
+      "cautions": [
+        "감목이 없으면 재에 휘둘릴 가능성이 있음."
+      ],
+      "tags": [
+        "감목",
+        "자수",
+        "활용",
+        "즉시",
+        "재"
+      ]
+    },
+    {
+      "id": "RC-9367ec634d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "재",
+        "influence": "강함"
+      },
+      "mechanism": "재가 강하면 개인이 재에 휘둘릴 가능성이 높아짐.",
+      "interpretation": "재가 강할 경우 배우자나 부모 등 관계에서 영향을 받을 수 있음.",
+      "action": "재의 영향을 줄이고 균형을 유지하도록 노력하라.",
+      "cautions": [
+        "재가 강하면 관계에서 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "재",
+        "관계",
+        "휘둘림",
+        "균형",
+        "스트레스"
+      ]
+    },
+    {
+      "id": "RC-f498f5f79a",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "presence": true
+      },
+      "mechanism": "신금이 자월에서 완성도가 높아 재능이 감춰질 가능성이 있음.",
+      "interpretation": "신금은 적절히 드러내야 재능을 발휘할 수 있음.",
+      "action": "신금을 활용하여 재능을 드러내고 발휘하라.",
+      "cautions": [
+        "신금이 감춰지면 재능이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "재능",
+        "발휘",
+        "자월",
+        "완성도"
+      ]
+    },
+    {
+      "id": "RC-b2d66e9108",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "무토",
+        "presence": true
+      },
+      "mechanism": "무토가 자수와 충돌하여 에너지를 소모시킴.",
+      "interpretation": "무토는 자수와의 조화를 방해할 수 있음.",
+      "action": "무토의 영향을 최소화하고 자수의 에너지를 보호하라.",
+      "cautions": [
+        "무토가 자수의 에너지를 소모시킬 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "자수",
+        "충돌",
+        "소모",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-b12311e37c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "presence": false
+      },
+      "mechanism": "임수가 없으면 재능이 숨겨지고 평범한 삶을 살 가능성이 높아짐.",
+      "interpretation": "임수가 없을 경우 재능 발휘가 어려워질 수 있음.",
+      "action": "임수 대신 병화나 다른 대안을 활용하라.",
+      "cautions": [
+        "임수가 없으면 재능이 드러나지 않을 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "재능",
+        "숨김",
+        "대안",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-ea7db9d72d",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "비겁",
+        "presence": true
+      },
+      "mechanism": "비겁이 강하면 주변의 도움을 받아 일을 더 잘할 수 있음.",
+      "interpretation": "비겁은 협력과 지원을 통해 성과를 높이는 요소.",
+      "action": "비겁의 도움을 받아 협력적인 환경을 조성하라.",
+      "cautions": [
+        "비겁이 약하면 혼자서 모든 것을 감당해야 할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "협력",
+        "지원",
+        "성과",
+        "환경"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_084",
+  "updated_at": "2025-12-23T20:27:24"
+}

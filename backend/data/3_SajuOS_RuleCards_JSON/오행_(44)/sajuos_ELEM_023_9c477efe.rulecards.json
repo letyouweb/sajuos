@@ -1,0 +1,240 @@
+{
+  "title": "SajuOS_Logic_ELEM_023",
+  "rulecards": [
+    {
+      "id": "RC-c026e54913",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "金",
+        "strength": "strong"
+      },
+      "mechanism": "금은 정리와 분별의 에너지를 상징하며, 강할수록 이 성향이 두드러짐.",
+      "interpretation": "금이 강한 사람은 정리와 분별을 잘하지만, 동기부여가 약하고 경직될 수 있음.",
+      "action": "금이 강한 사람은 유연성을 기르기 위해 다양한 경험을 시도하고, 새로운 관점을 받아들이는 연습을 해야 함.",
+      "cautions": [
+        "경직된 사고방식",
+        "동기부여 부족",
+        "타인과의 소통 어려움"
+      ],
+      "tags": [
+        "금",
+        "정리",
+        "분별",
+        "강한 금",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-7146a91169",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "金",
+        "strength": "weak"
+      },
+      "mechanism": "약한 금은 정리와 분별의 힘이 부족하여 혼란스러울 수 있음.",
+      "interpretation": "금이 약한 사람은 체계적 사고와 정리 능력이 부족할 수 있음.",
+      "action": "체계적인 계획과 정리 습관을 기르도록 노력해야 함.",
+      "cautions": [
+        "혼란스러운 사고",
+        "체계 부족"
+      ],
+      "tags": [
+        "금",
+        "약한 금",
+        "정리 부족",
+        "체계",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-38980b969f",
+      "topic": "ELEMENTS",
+      "priority": 10,
+      "trigger": {
+        "element": "金",
+        "interaction": "火"
+      },
+      "mechanism": "화는 금의 정리와 분별을 활성화시킴.",
+      "interpretation": "화가 금과 함께 있을 때, 금의 정리 능력이 극대화됨.",
+      "action": "화의 에너지를 활용해 금의 정리 능력을 실생활에 적용할 것.",
+      "cautions": [
+        "화가 없으면 금의 역할이 약화됨"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "정리",
+        "분별",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-559b268cc0",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "金",
+        "interaction": "水"
+      },
+      "mechanism": "수는 금을 부드럽게 다듬고, 시행착오를 통해 완성시킴.",
+      "interpretation": "금이 수와 함께 있을 때, 경험을 통해 점진적으로 완성됨.",
+      "action": "수와의 조화를 통해 시행착오를 긍정적으로 받아들일 것.",
+      "cautions": [
+        "시행착오 과정에서 좌절 가능성"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "조화",
+        "시행착오",
+        "완성"
+      ]
+    },
+    {
+      "id": "RC-6dea2c035d",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "金",
+        "interaction": "木"
+      },
+      "mechanism": "목은 금과 대립하며, 금의 정리 성향을 방해할 수 있음.",
+      "interpretation": "목이 강한 환경에서는 금의 정리 능력이 제한될 수 있음.",
+      "action": "목과 금의 균형을 맞추기 위해 조화로운 환경을 조성할 것.",
+      "cautions": [
+        "목과 금의 대립",
+        "균형 부족"
+      ],
+      "tags": [
+        "금",
+        "목",
+        "대립",
+        "균형",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-8706b14107",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "金",
+        "interaction": "火",
+        "context": "교차로"
+      },
+      "mechanism": "화의 혼란을 금이 정리하고 통제함.",
+      "interpretation": "금은 혼란스러운 상황에서 질서를 부여하는 역할을 함.",
+      "action": "혼란스러운 상황에서 금의 정리 능력을 활용해 질서를 세울 것.",
+      "cautions": [
+        "과도한 규제는 역효과를 초래할 수 있음"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "질서",
+        "정리",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-df98a6e26c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "金",
+        "context": "어린아이"
+      },
+      "mechanism": "금이 강한 아이는 호기심이 부족하고 어른스러운 성향을 보임.",
+      "interpretation": "금이 강한 아이는 어른스럽게 보일 수 있으나, 이는 자연스러운 발달이 아님.",
+      "action": "아이의 호기심을 자극하고, 자연스러운 발달을 도울 것.",
+      "cautions": [
+        "호기심 부족",
+        "발달 지연"
+      ],
+      "tags": [
+        "금",
+        "아이",
+        "호기심",
+        "발달",
+        "어른스러움"
+      ]
+    },
+    {
+      "id": "RC-dcf1f18f67",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "金",
+        "interaction": "火",
+        "context": "교육"
+      },
+      "mechanism": "화는 금을 다듬어 사회적으로 유용한 형태로 만듦.",
+      "interpretation": "화와 금의 조합은 교육과 훈련을 통해 개인을 발전시킴.",
+      "action": "교육과 훈련을 통해 금의 잠재력을 극대화할 것.",
+      "cautions": [
+        "화가 없으면 금의 발전이 더딜 수 있음"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "교육",
+        "훈련",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-dad7a1034e",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "金",
+        "interaction": "水",
+        "context": "사업"
+      },
+      "mechanism": "수는 금을 점진적으로 다듬으며 시행착오를 통해 완성시킴.",
+      "interpretation": "금이 수와 함께 있을 때, 사업에서 시행착오를 겪으며 성공에 도달함.",
+      "action": "시행착오를 두려워하지 말고, 경험을 통해 배우며 나아갈 것.",
+      "cautions": [
+        "시행착오 과정에서의 좌절"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "사업",
+        "시행착오",
+        "완성"
+      ]
+    },
+    {
+      "id": "RC-71d9c9ef42",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "金",
+        "interaction": "火",
+        "context": "사회적 규제"
+      },
+      "mechanism": "화의 혼란을 금이 규제와 법으로 정리함.",
+      "interpretation": "금은 사회적 규제와 법을 통해 혼란을 통제하는 역할을 함.",
+      "action": "규제와 법을 적절히 활용해 사회적 질서를 유지할 것.",
+      "cautions": [
+        "과도한 규제는 사회적 불만을 초래할 수 있음"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "규제",
+        "법",
+        "질서"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트에서 금의 본질과 역할에 대한 다양한 사례와 비유가 포함되어 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_023",
+  "updated_at": "2025-12-23T20:27:25"
+}

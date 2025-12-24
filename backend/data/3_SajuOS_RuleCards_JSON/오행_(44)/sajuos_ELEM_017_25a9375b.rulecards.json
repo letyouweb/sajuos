@@ -1,0 +1,171 @@
+{
+  "title": "SajuOS_Logic_ELEM_017",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "을목",
+        "orientation": "horizontal"
+      },
+      "mechanism": "을목은 수평적으로 뻗어나가는 성질을 가짐.",
+      "interpretation": "을목은 수평적 확장과 연결성을 중시함.",
+      "action": "수평적 관계와 네트워크를 강화하라.",
+      "cautions": [
+        "수직적 구조와의 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "수평",
+        "확장",
+        "연결",
+        "성장"
+      ],
+      "id": "RC-841e3c12dd"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "술월",
+        "element": "을목"
+      },
+      "mechanism": "술월은 을목에게 불리한 환경을 제공.",
+      "interpretation": "술월의 을목은 생존 조건이 필요함.",
+      "action": "괴수와 병화를 통해 생존 기반을 마련하라.",
+      "cautions": [
+        "술월의 환경을 무시하면 어려움이 지속될 수 있음."
+      ],
+      "tags": [
+        "술월",
+        "을목",
+        "생존",
+        "괴수",
+        "병화"
+      ],
+      "id": "RC-8d7a6a1541"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month": "술월",
+        "element": "을목",
+        "support": [
+          "간목"
+        ]
+      },
+      "mechanism": "간목은 을목의 생존과 성장을 돕는 귀인 역할.",
+      "interpretation": "술월의 을목은 간목을 통해 안정과 번영을 얻음.",
+      "action": "간목과의 관계를 강화하고 활용하라.",
+      "cautions": [
+        "간목이 없으면 생존과 번영이 어려울 수 있음."
+      ],
+      "tags": [
+        "술월",
+        "을목",
+        "간목",
+        "귀인",
+        "성장"
+      ],
+      "id": "RC-b9a1f9a773"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "wealth_type": "정제",
+        "element": "을목"
+      },
+      "mechanism": "정제는 안정적이고 지속적인 재물을 상징.",
+      "interpretation": "정제는 오랜 기간 유지된 재물이나 가난을 나타냄.",
+      "action": "정제를 장악할 수 있는 능력을 키워라.",
+      "cautions": [
+        "정제를 장악하지 못하면 재물이 형제나 타인에게 갈 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "을목",
+        "재물",
+        "안정",
+        "장악"
+      ],
+      "id": "RC-74c45632fa"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "wealth_type": "편제",
+        "element": "을목"
+      },
+      "mechanism": "편제는 일시적이고 불안정한 재물을 상징.",
+      "interpretation": "편제는 갑작스러운 부와 몰락을 나타냄.",
+      "action": "편제를 안정적으로 관리할 방법을 모색하라.",
+      "cautions": [
+        "편제는 쉽게 무너질 수 있으므로 신중히 다뤄야 함."
+      ],
+      "tags": [
+        "편제",
+        "을목",
+        "재물",
+        "불안정",
+        "관리"
+      ],
+      "id": "RC-36a74f83ee"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "element": "을목",
+        "support": [
+          "간목"
+        ]
+      },
+      "mechanism": "간목은 을목이 도달할 수 없는 높이를 제공.",
+      "interpretation": "을목은 간목을 통해 자신의 한계를 극복함.",
+      "action": "간목의 도움을 받아 목표를 달성하라.",
+      "cautions": [
+        "간목의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "을목",
+        "간목",
+        "지원",
+        "성장",
+        "목표"
+      ],
+      "id": "RC-d4feb82094"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "간목 겁제",
+        "element": "을목"
+      },
+      "mechanism": "간목 겁제가 을목에게 재물을 가져다줌.",
+      "interpretation": "해당 시기에는 을목이 재물운이 강해짐.",
+      "action": "재물 기회를 적극적으로 활용하라.",
+      "cautions": [
+        "겁제가 가져온 재물을 잘 관리해야 함."
+      ],
+      "tags": [
+        "간목",
+        "겁제",
+        "을목",
+        "재물운",
+        "기회"
+      ],
+      "id": "RC-5127975b3a"
+    }
+  ],
+  "notes": [
+    "을목과 술월의 관계에서 간목과 병화의 중요성이 강조됨.",
+    "정제와 편제의 차이를 명확히 이해해야 함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_017",
+  "updated_at": "2025-12-23T20:27:25"
+}

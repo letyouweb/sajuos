@@ -1,0 +1,456 @@
+{
+  "title": "SajuOS_Logic_APPL_007",
+  "rulecards": [
+    {
+      "id": "RC-9af3cf7fa6",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "水",
+        "context": "연애"
+      },
+      "mechanism": "水는 보이지 않는 것에 집중하며, 정신적 소통과 느낌을 중시함.",
+      "interpretation": "水가 발달한 사람은 연애에서 진심과 깊은 소통을 중요시함.",
+      "action": "상대방의 내면과 진심을 이해하려는 노력을 기울일 것.",
+      "cautions": [
+        "겉모습에만 의존하지 말 것",
+        "상대방의 진심을 오해하지 않도록 주의"
+      ],
+      "tags": [
+        "水",
+        "연애",
+        "정신적 소통",
+        "진심",
+        "내면"
+      ]
+    },
+    {
+      "id": "RC-78387289b7",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "state": "결핍"
+      },
+      "mechanism": "水가 결핍되면 느낌에 대한 민감도가 낮아지고, 보이는 것에만 집중하게 됨.",
+      "interpretation": "水가 부족한 사람은 직관적 느낌보다는 외형적 요소에 의존함.",
+      "action": "자신의 직관과 내면의 감각을 키우는 연습을 할 것.",
+      "cautions": [
+        "결핍된 느낌을 무시하지 말 것"
+      ],
+      "tags": [
+        "水",
+        "결핍",
+        "직관",
+        "내면",
+        "감각"
+      ]
+    },
+    {
+      "id": "RC-5159576ee8",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "水",
+        "interaction": "木"
+      },
+      "mechanism": "水가 木을 만나면 내면의 감정이 드러나고 표현되기 시작함.",
+      "interpretation": "木은 水의 내면을 외부로 드러내는 역할을 함.",
+      "action": "木의 에너지를 활용해 자신의 감정을 표현할 기회를 만들 것.",
+      "cautions": [
+        "表現을 두려워하지 말 것"
+      ],
+      "tags": [
+        "水",
+        "木",
+        "감정 표현",
+        "내면",
+        "소통"
+      ]
+    },
+    {
+      "id": "RC-775ba46122",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "水",
+        "interaction": "火"
+      },
+      "mechanism": "火는 水의 감정을 드러내고, 관계를 진전시키는 역할을 함.",
+      "interpretation": "火는 水가 자신의 감정을 더 명확히 표현하도록 돕는 에너지임.",
+      "action": "火의 에너지를 가진 사람과의 관계를 통해 자신을 더 드러낼 것.",
+      "cautions": [
+        "火의 과도한 에너지가 부담이 될 수 있음"
+      ],
+      "tags": [
+        "水",
+        "火",
+        "감정",
+        "표현",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-0d2d0efbf0",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "interaction": "土"
+      },
+      "mechanism": "土는 水의 에너지를 억압하고, 감정을 억누르는 역할을 함.",
+      "interpretation": "土가 강하면 水의 감정 표현이 제한되고, 자신감이 저하될 수 있음.",
+      "action": "土의 억압을 완화할 수 있는 木의 에너지를 활용할 것.",
+      "cautions": [
+        "過度한 억압으로 인한 자기비하에 주의"
+      ],
+      "tags": [
+        "水",
+        "土",
+        "억압",
+        "자신감",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-13096cf5ca",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "element": "水",
+        "state": "발달"
+      },
+      "mechanism": "水가 발달하면 상대방과 깊은 정신적 연결을 추구함.",
+      "interpretation": "水가 강한 사람은 연애에서 진정성과 깊이를 중요시함.",
+      "action": "상대방과의 정신적 교감을 우선시할 것.",
+      "cautions": [
+        "겉모습에만 치중하지 말 것"
+      ],
+      "tags": [
+        "水",
+        "연애",
+        "정신적 연결",
+        "진정성",
+        "깊이"
+      ]
+    },
+    {
+      "id": "RC-1983b7c0db",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "水",
+        "interaction": "火",
+        "state": "결핍"
+      },
+      "mechanism": "火가 없으면 水는 감정을 드러내지 못하고 내면에 머무름.",
+      "interpretation": "火가 부족한 水는 연애에서 소극적이고 표현력이 부족할 수 있음.",
+      "action": "火의 에너지를 가진 사람과의 관계를 통해 자신을 표현할 기회를 찾을 것.",
+      "cautions": [
+        "표현 부족으로 인한 오해에 주의"
+      ],
+      "tags": [
+        "水",
+        "火",
+        "연애",
+        "표현력",
+        "소극적"
+      ]
+    },
+    {
+      "id": "RC-384d659472",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "水",
+        "interaction": "木",
+        "state": "결핍"
+      },
+      "mechanism": "木이 없으면 水는 자신의 감정을 드러내지 못하고 억눌림.",
+      "interpretation": "木의 부재는 水의 감정 표현과 관계 형성을 어렵게 만듦.",
+      "action": "木의 에너지를 가진 환경이나 사람과 교류할 것.",
+      "cautions": [
+        "감정 억압으로 인한 스트레스에 주의"
+      ],
+      "tags": [
+        "水",
+        "木",
+        "감정",
+        "표현",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-ea61fd7436",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "水",
+        "interaction": "火",
+        "state": "강함"
+      },
+      "mechanism": "火가 강하면 水는 감정을 쉽게 드러내고, 관계를 적극적으로 이끌어감.",
+      "interpretation": "火가 강한 水는 연애에서 적극적이고 표현력이 뛰어남.",
+      "action": "火의 에너지를 활용해 관계를 주도적으로 이끌 것.",
+      "cautions": [
+        "과도한 표현으로 인한 오해에 주의"
+      ],
+      "tags": [
+        "水",
+        "火",
+        "연애",
+        "표현력",
+        "적극적"
+      ]
+    },
+    {
+      "id": "RC-a550f5a6a1",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "水",
+        "interaction": "土",
+        "state": "강함"
+      },
+      "mechanism": "土가 강하면 水는 감정을 억누르고, 자신을 제한함.",
+      "interpretation": "土가 강한 水는 연애에서 소극적이고 자신감이 부족할 수 있음.",
+      "action": "土의 억압을 완화할 수 있는 木의 에너지를 활용할 것.",
+      "cautions": [
+        "자신감 부족으로 인한 관계 단절에 주의"
+      ],
+      "tags": [
+        "水",
+        "土",
+        "연애",
+        "억압",
+        "자신감"
+      ]
+    },
+    {
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "energy_balance": "한한"
+      },
+      "mechanism": "한한 에너지는 긴장감이 지나쳐 성적 에너지가 발현되지 않음.",
+      "interpretation": "한한 사람끼리는 성적 궁합이 잘 맞지 않음.",
+      "action": "한한 에너지를 가진 사람은 긴장감을 완화할 수 있는 방법을 찾아야 함.",
+      "cautions": [
+        "긴장감 해소가 없으면 관계가 지속되기 어려움."
+      ],
+      "tags": [
+        "한한",
+        "긴장감",
+        "성적에너지",
+        "궁합",
+        "해소"
+      ],
+      "id": "RC-7105063f0e"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "energy_balance": "난한"
+      },
+      "mechanism": "난한 에너지는 성적 개방성과 자신감이 높음.",
+      "interpretation": "난한 사람은 성적 에너지가 즉각적으로 발현됨.",
+      "action": "난한 사람은 상대방의 긴장감을 풀어주는 역할을 해야 함.",
+      "cautions": [
+        "과도한 개방성은 관계의 안정성을 해칠 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "개방성",
+        "자신감",
+        "궁합",
+        "긴장해소"
+      ],
+      "id": "RC-451c959d33"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "energy_balance": "한한",
+        "partner_energy_balance": "난한"
+      },
+      "mechanism": "난한 에너지가 한한 에너지를 깨워줌.",
+      "interpretation": "한한 사람과 난한 사람이 만나면 성적 긴장감이 해소되고 조화로움.",
+      "action": "한한 사람은 난한 사람의 리드를 받아들이는 것이 중요함.",
+      "cautions": [
+        "한한 사람이 지나치게 수동적이면 관계가 발전하지 않을 수 있음."
+      ],
+      "tags": [
+        "한한",
+        "난한",
+        "리드",
+        "긴장감",
+        "조화"
+      ],
+      "id": "RC-65afcb5bc7"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "energy_balance": "난한",
+        "partner_energy_balance": "난한"
+      },
+      "mechanism": "난한 사람끼리는 성적 긴장감이 부족하여 쉽게 질릴 수 있음.",
+      "interpretation": "난한 사람끼리의 관계는 단기적일 가능성이 높음.",
+      "action": "난한 사람끼리는 관계의 긴장감을 유지할 방법을 찾아야 함.",
+      "cautions": [
+        "긴장감 부족으로 관계가 단조로워질 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "긴장감",
+        "단기적",
+        "질림",
+        "조화"
+      ],
+      "id": "RC-c02d1cc780"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "energy_balance": "한한",
+        "partner_energy_balance": "한한"
+      },
+      "mechanism": "한한 사람끼리는 성적 긴장감이 지나쳐 관계가 발전하지 않음.",
+      "interpretation": "한한 사람끼리는 성적 궁합이 맞지 않을 가능성이 높음.",
+      "action": "한한 사람끼리는 긴장감을 완화할 방법을 모색해야 함.",
+      "cautions": [
+        "긴장감 해소가 없으면 관계가 지속되기 어려움."
+      ],
+      "tags": [
+        "한한",
+        "긴장감",
+        "궁합",
+        "해소",
+        "발전"
+      ],
+      "id": "RC-9c3b9ed1ff"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "energy_balance": "난한",
+        "partner_energy_balance": "한한"
+      },
+      "mechanism": "난한 에너지가 한한 에너지를 자극하여 성적 긴장감을 해소함.",
+      "interpretation": "난한 사람은 한한 사람에게 성적 자신감을 심어줄 수 있음.",
+      "action": "난한 사람은 한한 사람의 속도를 존중하며 리드해야 함.",
+      "cautions": [
+        "한한 사람이 지나치게 위축되면 관계가 발전하지 않을 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "한한",
+        "자극",
+        "긴장해소",
+        "리드"
+      ],
+      "id": "RC-7a4119aa8a"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "energy_balance": "난한",
+        "partner_energy_balance": "난한",
+        "time_of_day": "night"
+      },
+      "mechanism": "난한 사람끼리는 밤에 성적 긴장감이 부족하여 관계가 단조로워질 수 있음.",
+      "interpretation": "난한 사람끼리는 낮 시간대에 더 잘 맞을 가능성이 있음.",
+      "action": "난한 사람끼리는 낮 시간대에 관계를 시도해볼 것.",
+      "cautions": [
+        "밤 시간대에 관계가 단조로워질 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "시간대",
+        "낮",
+        "밤",
+        "긴장감"
+      ],
+      "id": "RC-6f1e3c6c1a"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "energy_balance": "한한",
+        "partner_energy_balance": "난한",
+        "time_of_day": "morning"
+      },
+      "mechanism": "아침 시간대는 성적 에너지가 극대화되는 시간임.",
+      "interpretation": "한한 사람은 아침 시간대에 성적 에너지가 더 잘 발현됨.",
+      "action": "한한 사람은 아침 시간대에 관계를 시도해볼 것.",
+      "cautions": [
+        "밤 시간대에는 성적 에너지가 발현되지 않을 수 있음."
+      ],
+      "tags": [
+        "한한",
+        "난한",
+        "아침",
+        "성적에너지",
+        "시간대"
+      ],
+      "id": "RC-648a13b8e8"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "energy_balance": "난한",
+        "partner_energy_balance": "한한",
+        "emotional_state": "tense"
+      },
+      "mechanism": "난한 사람은 한한 사람의 긴장감을 풀어주는 역할을 함.",
+      "interpretation": "난한 사람은 한한 사람의 성적 긴장감을 해소할 수 있음.",
+      "action": "난한 사람은 한한 사람의 긴장감을 풀어주는 데 집중할 것.",
+      "cautions": [
+        "긴장감 해소가 없으면 관계가 발전하지 않을 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "한한",
+        "긴장감",
+        "해소",
+        "조화"
+      ],
+      "id": "RC-bf069fce61"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "energy_balance": "난한",
+        "partner_energy_balance": "난한",
+        "emotional_state": "bored"
+      },
+      "mechanism": "난한 사람끼리는 긴장감 부족으로 쉽게 질릴 수 있음.",
+      "interpretation": "난한 사람끼리는 관계의 긴장감을 유지해야 함.",
+      "action": "난한 사람끼리는 새로운 자극을 통해 긴장감을 유지할 것.",
+      "cautions": [
+        "긴장감 부족으로 관계가 단조로워질 수 있음."
+      ],
+      "tags": [
+        "난한",
+        "긴장감",
+        "자극",
+        "질림",
+        "조화"
+      ],
+      "id": "RC-e886930d47"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_007",
+  "updated_at": "2025-12-23T20:27:26"
+}

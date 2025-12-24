@@ -1,0 +1,882 @@
+{
+  "title": "SajuOS_Logic_STRU_A_055",
+  "rulecards": [
+    {
+      "id": "RC-524c6354aa",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "interaction": "경금"
+      },
+      "mechanism": "정화는 경금을 열로 가공하려는 성향이 있음.",
+      "interpretation": "정화가 경금을 보면 목표를 설정하고 이를 가공하려는 의지가 강함.",
+      "action": "정화가 경금을 만났을 때, 목표를 명확히 하고 실행에 옮길 것.",
+      "cautions": [
+        "해수의 영향으로 열성이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "열성",
+        "목표",
+        "가공"
+      ]
+    },
+    {
+      "id": "RC-69ea09b220",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "interaction": "신금"
+      },
+      "mechanism": "정화는 신금을 분해하고 재구성하려는 성향이 있음.",
+      "interpretation": "정화가 신금을 보면 기존의 것을 해체하고 새롭게 재구성하려는 경향이 강함.",
+      "action": "정화가 신금을 만났을 때, 창의적 접근을 통해 새로운 가치를 창출할 것.",
+      "cautions": [
+        "과도한 해체로 인해 본질을 잃을 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "신금",
+        "재구성",
+        "창의성",
+        "해체"
+      ]
+    },
+    {
+      "id": "RC-ddec2ff70a",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "인해합"
+      },
+      "mechanism": "인해합은 목생화의 흐름을 방해함.",
+      "interpretation": "인해합은 목이 습해져 불이 붙기 어려운 상태를 만듦.",
+      "action": "인해합이 있을 경우, 건조한 환경을 조성해 목생화를 돕는 방안을 모색할 것.",
+      "cautions": [
+        "습한 환경이 지속되면 화의 작용이 약화됨."
+      ],
+      "tags": [
+        "인해합",
+        "목생화",
+        "습기",
+        "환경",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-37e664d820",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "술토",
+        "interaction": "정화"
+      },
+      "mechanism": "술토는 정화의 안정적인 기반을 제공함.",
+      "interpretation": "술토가 정화의 영역을 확보해 안정감을 줌.",
+      "action": "술토가 있는 경우, 이를 기반으로 자신의 영역을 확장할 것.",
+      "cautions": [
+        "기반이 약하면 안정성이 흔들릴 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "정화",
+        "안정",
+        "기반",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-21d451f845",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "경술",
+        "interaction": "정화"
+      },
+      "mechanism": "경술은 정화에게 안정감을 제공함.",
+      "interpretation": "경술은 정화가 안정적으로 작용할 수 있는 환경을 만듦.",
+      "action": "경술의 안정성을 활용해 장기적인 계획을 세울 것.",
+      "cautions": [
+        "안정에만 의존하면 발전이 더뎌질 수 있음."
+      ],
+      "tags": [
+        "경술",
+        "정화",
+        "안정",
+        "계획",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-edd9401955",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "갑진"
+      },
+      "mechanism": "갑진년은 정화에게 위기의 시기로 작용함.",
+      "interpretation": "갑진년은 정화의 안정성을 흔들 수 있는 시기.",
+      "action": "갑진년에는 신중한 계획과 대처가 필요함.",
+      "cautions": [
+        "위기 상황에서 감정적으로 대응하지 말 것."
+      ],
+      "tags": [
+        "갑진",
+        "정화",
+        "위기",
+        "계획",
+        "대처"
+      ]
+    },
+    {
+      "id": "RC-f58225f43b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "해수",
+        "interaction": "신금"
+      },
+      "mechanism": "해수는 신금을 지속적으로 끌어내는 역할을 함.",
+      "interpretation": "해수와 신금의 조합은 지속성과 재구성의 에너지를 강화함.",
+      "action": "해수와 신금의 조합을 활용해 장기적인 프로젝트를 추진할 것.",
+      "cautions": [
+        "지속성에만 의존하면 창의성이 약화될 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "신금",
+        "지속성",
+        "재구성",
+        "프로젝트"
+      ]
+    },
+    {
+      "id": "RC-2dd1252513",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "수화협조"
+      },
+      "mechanism": "수화협조는 조화로운 에너지를 생성함.",
+      "interpretation": "수화협조는 상호 보완적인 에너지로 사회적 참여를 촉진함.",
+      "action": "수화협조를 활용해 협력적인 환경을 조성할 것.",
+      "cautions": [
+        "수화의 균형이 깨지면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "수화협조",
+        "조화",
+        "사회성",
+        "협력",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-10dc2a190f",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "해월",
+        "interaction": "신금"
+      },
+      "mechanism": "해월의 신금은 예술성과 사업성을 동시에 지님.",
+      "interpretation": "해월의 신금은 예술적 감각과 사업적 능력을 발휘할 수 있음.",
+      "action": "해월의 신금을 가진 사람은 예술과 사업을 융합한 직업을 고려할 것.",
+      "cautions": [
+        "욕심이 과하면 실패의 위험이 있음."
+      ],
+      "tags": [
+        "해월",
+        "신금",
+        "예술성",
+        "사업성",
+        "융합"
+      ]
+    },
+    {
+      "id": "RC-55204f456a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "해월"
+      },
+      "mechanism": "토는 해월의 신금을 조절하고 안정시킴.",
+      "interpretation": "해월의 신금이 토를 만나면 전문직으로의 가능성이 높아짐.",
+      "action": "해월의 신금을 가진 사람은 전문직 자격증 취득을 고려할 것.",
+      "cautions": [
+        "토가 과하면 창의성이 억제될 수 있음."
+      ],
+      "tags": [
+        "해월",
+        "신금",
+        "토",
+        "전문직",
+        "안정"
+      ]
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "category": "일지식상"
+      },
+      "mechanism": "일지식상은 타고난 재능을 나타냄.",
+      "interpretation": "타고난 재능이 있으며, 이를 찾고 활용하는 것이 중요.",
+      "action": "재능을 발견하고 이를 살릴 수 있는 환경을 조성하라.",
+      "cautions": [
+        "재능을 찾지 못하면 잠재력이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "일지식상",
+        "재능",
+        "발견",
+        "활용",
+        "환경"
+      ],
+      "id": "RC-f9502093e0"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "note": "사주에 재성이 발달한 경우"
+      },
+      "mechanism": "재성은 시대의 흐름을 잘 읽고 적응하는 능력을 의미.",
+      "interpretation": "재성이 발달한 사람은 시대의 요구에 맞춰 성공할 가능성이 높음.",
+      "action": "시대의 흐름을 읽고 재테크나 금융 관련 활동에 적극적으로 참여하라.",
+      "cautions": [
+        "시대 흐름을 잘못 읽으면 손실을 볼 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "시대 흐름",
+        "재테크",
+        "금융",
+        "적응"
+      ],
+      "id": "RC-b1ffe58dba"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "note": "월에 편재가 있는 경우"
+      },
+      "mechanism": "월의 편재는 사회적 참여도와 나눔의 정신을 나타냄.",
+      "interpretation": "사회적 활동과 나눔을 통해 성공 가능성이 높음.",
+      "action": "사회적 활동에 적극적으로 참여하고, 나눔의 가치를 실천하라.",
+      "cautions": [
+        "과도한 나눔은 개인의 손실로 이어질 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "사회적 참여",
+        "나눔",
+        "성공",
+        "월간"
+      ],
+      "id": "RC-b725ba564b"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "해수가 연에 있는 경우"
+      },
+      "mechanism": "해수는 국제적, 외국과의 인연을 나타냄.",
+      "interpretation": "해외와의 인연이 강하며, 국제적 활동에 적합.",
+      "action": "해외 유학, 국제 교류 등 해외와 관련된 활동을 적극적으로 추진하라.",
+      "cautions": [
+        "해외 활동 시 문화적 차이를 고려해야 함."
+      ],
+      "tags": [
+        "해수",
+        "국제적",
+        "해외",
+        "교류",
+        "연"
+      ],
+      "id": "RC-05b13feb2a"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "note": "상관이 강한 경우"
+      },
+      "mechanism": "상관은 창의성과 대중성을 나타냄.",
+      "interpretation": "창의적이고 대중적인 활동에서 성공 가능성이 높음.",
+      "action": "대중성을 고려한 창의적 활동에 집중하라.",
+      "cautions": [
+        "과도한 상업성은 본질을 잃게 할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "대중성",
+        "활동",
+        "성공"
+      ],
+      "id": "RC-ec9da8f87e"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "note": "연월에 비겁이 있는 경우"
+      },
+      "mechanism": "비겁은 대중적 인기를 끌어오는 힘을 가짐.",
+      "interpretation": "대중적 인기를 통해 재물을 얻을 가능성이 높음.",
+      "action": "대중과의 소통을 강화하고, 이를 기반으로 재물을 창출하라.",
+      "cautions": [
+        "대중의 반응에 지나치게 의존하지 말 것."
+      ],
+      "tags": [
+        "비겁",
+        "대중성",
+        "인기",
+        "재물",
+        "연월"
+      ],
+      "id": "RC-8fbddc3a1f"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "note": "수가 왕한 경우"
+      },
+      "mechanism": "수가 왕하면 정처 없고 안정성이 떨어질 수 있음.",
+      "interpretation": "안정적인 기반이 부족하여 떠돌아다니는 경향이 있음.",
+      "action": "목화토를 활용하여 안정적인 기반을 마련하라.",
+      "cautions": [
+        "과도한 수는 다른 오행의 작용을 방해할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "왕한 수",
+        "안정성",
+        "기반",
+        "오행"
+      ],
+      "id": "RC-e50cfd2149"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "note": "기토가 약하게 있는 경우"
+      },
+      "mechanism": "기토는 현실적이고 대중적인 감각을 나타냄.",
+      "interpretation": "현실적이고 대중적인 활동에서 성공 가능성이 높음.",
+      "action": "대중의 눈높이에 맞춘 활동을 기획하라.",
+      "cautions": [
+        "기토가 강하면 오히려 부정적인 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "현실감각",
+        "대중성",
+        "활동",
+        "성공"
+      ],
+      "id": "RC-5149dca794"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "note": "해수가 비겁으로 작용하는 경우"
+      },
+      "mechanism": "해수는 외국과의 인연을 강화함.",
+      "interpretation": "외국에서의 활동이나 인연이 성공의 열쇠가 될 수 있음.",
+      "action": "외국과의 교류를 적극적으로 추진하라.",
+      "cautions": [
+        "외국 활동 시 언어와 문화적 차이를 극복해야 함."
+      ],
+      "tags": [
+        "해수",
+        "비겁",
+        "외국",
+        "교류",
+        "성공"
+      ],
+      "id": "RC-4dd4653978"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "note": "상관이 인성을 끌어들이는 경우"
+      },
+      "mechanism": "상관이 인성을 끌어들이면 지식과 실기를 겸비함.",
+      "interpretation": "지식과 실기를 활용한 활동에서 성공 가능성이 높음.",
+      "action": "독서를 통해 지식을 쌓고 이를 실기에 적용하라.",
+      "cautions": [
+        "지식만 쌓고 실전에 활용하지 않으면 효과가 떨어질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "인성",
+        "지식",
+        "실기",
+        "활용"
+      ],
+      "id": "RC-185736b9f3"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "해수",
+        "role": [
+          "인성",
+          "비겁"
+        ]
+      },
+      "mechanism": "해수가 인성이나 비겁으로 작용하면 해외와의 인연이 강해짐.",
+      "interpretation": "해외에서의 연애나 인연이 강하게 나타남.",
+      "action": "해외로 나가는 것을 적극적으로 고려.",
+      "cautions": [
+        "해외 환경 적응 여부를 고려해야 함."
+      ],
+      "tags": [
+        "해수",
+        "인성",
+        "비겁",
+        "해외",
+        "연애"
+      ],
+      "id": "RC-09188c70b1"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "strength": "약함"
+      },
+      "mechanism": "기토가 약할수록 실무적인 직업에 적합.",
+      "interpretation": "실무 중심의 직업에서 성과를 낼 가능성이 높음.",
+      "action": "실무 중심의 직업을 선택.",
+      "cautions": [
+        "기토가 너무 약하면 권위가 부족할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "약함",
+        "실무",
+        "직업",
+        "권위"
+      ],
+      "id": "RC-7971b3abcd"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "무토",
+        "strength": "강함"
+      },
+      "mechanism": "무토가 강하면 권위를 가지며 조직 내에서 리더십 발휘 가능.",
+      "interpretation": "정치적 성향이 강하며 조직 내에서 높은 위치를 차지할 가능성이 있음.",
+      "action": "조직 내 리더십을 발휘할 수 있는 직업을 선택.",
+      "cautions": [
+        "무토가 약하면 권위가 약해질 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "강함",
+        "권위",
+        "리더십",
+        "조직"
+      ],
+      "id": "RC-0222bc4830"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "role": "식상"
+      },
+      "mechanism": "목이 식상으로 작용하면 교육이나 개인 사업에 적합.",
+      "interpretation": "교육 사업이나 정신적인 일을 통해 성공 가능.",
+      "action": "교육 관련 직업이나 개인 사업을 고려.",
+      "cautions": [
+        "목이 약하면 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "식상",
+        "교육",
+        "사업",
+        "정신적"
+      ],
+      "id": "RC-eed949264c"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "strength": "강함"
+      },
+      "mechanism": "수가 강하면 사람을 치유하거나 정화하는 능력이 있음.",
+      "interpretation": "상담, 종교, 환경 개선 등 사람을 돕는 직업에 적합.",
+      "action": "상담이나 종교 관련 직업을 고려.",
+      "cautions": [
+        "수가 너무 강하면 본인이 우울해질 수 있음."
+      ],
+      "tags": [
+        "수",
+        "강함",
+        "치유",
+        "상담",
+        "종교"
+      ],
+      "id": "RC-f04a19d71d"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "화",
+        "strength": "약함"
+      },
+      "mechanism": "화가 약하면 직업적 성취가 어려울 수 있음.",
+      "interpretation": "화가 강해질 때 직업적 성취 가능.",
+      "action": "화가 강해지는 시기를 활용.",
+      "cautions": [
+        "화가 약하면 지속적인 성취가 어려울 수 있음."
+      ],
+      "tags": [
+        "화",
+        "약함",
+        "직업",
+        "성취",
+        "시기"
+      ],
+      "id": "RC-96d88bdfa7"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "structure": "걸룩격"
+      },
+      "mechanism": "걸룩격은 시대의 흐름에 맞는 직업을 선택하는 경향이 있음.",
+      "interpretation": "시대적 유행에 맞는 직업에서 성공 가능.",
+      "action": "현재 유행하는 직업군을 탐색.",
+      "cautions": [
+        "시대 흐름을 잘못 읽으면 실패할 수 있음."
+      ],
+      "tags": [
+        "걸룩격",
+        "시대",
+        "유행",
+        "직업",
+        "성공"
+      ],
+      "id": "RC-fd217d9bfe"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "개수",
+        "role": "겁제"
+      },
+      "mechanism": "개수가 겁제로 작용하면 타인을 끌어들이는 능력이 강함.",
+      "interpretation": "자기 사업이나 협력적 구조에서 성공 가능.",
+      "action": "자기 사업을 시작하거나 협력적 구조를 활용.",
+      "cautions": [
+        "직장 내에서 스트레스를 받을 가능성이 높음."
+      ],
+      "tags": [
+        "개수",
+        "겁제",
+        "사업",
+        "협력",
+        "성공"
+      ],
+      "id": "RC-0aebf0d855"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "role": "식상"
+      },
+      "mechanism": "수가 식상으로 작용하면 창의적이고 정신적인 활동에 적합.",
+      "interpretation": "영상, 렌즈, 등 창의적 활동에서 성공 가능.",
+      "action": "창의적이고 정신적인 활동을 고려.",
+      "cautions": [
+        "수의 에너지가 과도하면 방향성을 잃을 수 있음."
+      ],
+      "tags": [
+        "수",
+        "식상",
+        "창의",
+        "정신적",
+        "영상"
+      ],
+      "id": "RC-81860dcdf1"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "strength": "강함"
+      },
+      "mechanism": "목이 강하면 지속성과 성장 가능성이 높아짐.",
+      "interpretation": "장기적인 프로젝트나 교육 관련 직업에 적합.",
+      "action": "장기적인 목표를 설정하고 추진.",
+      "cautions": [
+        "목이 약하면 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "강함",
+        "지속성",
+        "교육",
+        "성장"
+      ],
+      "id": "RC-19b19848b7"
+    },
+    {
+      "id": "RC-8aad01251d",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "comparison": "토보다 중요"
+      },
+      "mechanism": "목은 생명력과 성장의 원천으로 작용.",
+      "interpretation": "목의 유무가 사주의 흐름과 조화를 결정.",
+      "action": "목의 유무를 우선적으로 분석.",
+      "cautions": [
+        "목이 과하거나 부족할 경우 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "생명력",
+        "조화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-9f91cdc2e4",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁제",
+        "location": "년주"
+      },
+      "mechanism": "겁제는 외부와의 강한 연결성을 나타냄.",
+      "interpretation": "년주 겁제는 외국이나 타지와의 연관성을 의미.",
+      "action": "외국과의 관계나 활동을 고려.",
+      "cautions": [
+        "겁제가 강할 경우 갈등이나 분리적 성향이 나타날 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "년주",
+        "외국",
+        "타지",
+        "연결성"
+      ]
+    },
+    {
+      "id": "RC-17a34e2812",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁제",
+        "type": "생지"
+      },
+      "mechanism": "생지 겁제는 시작과 협력의 에너지를 가짐.",
+      "interpretation": "생지 겁제는 협력적이고 생산적인 성향을 보임.",
+      "action": "협력과 새로운 시작을 중시.",
+      "cautions": [
+        "생지 겁제는 왕지 겁제와 달리 통제력이 약할 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "생지",
+        "협력",
+        "시작",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-9b0c8026fd",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁제",
+        "type": "왕지"
+      },
+      "mechanism": "왕지 겁제는 강한 리더십과 권력을 상징.",
+      "interpretation": "왕지 겁제는 통제와 전투적 성향을 나타냄.",
+      "action": "리더십을 발휘할 수 있는 환경을 조성.",
+      "cautions": [
+        "왕지 겁제는 갈등과 분리적 성향이 강할 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "왕지",
+        "리더십",
+        "권력",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-d7c6d0dbeb",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁제",
+        "type": "생지",
+        "element": "목"
+      },
+      "mechanism": "생지 겁제가 목을 보면 상관과의 협력이 가능.",
+      "interpretation": "생지 겁제는 상관과의 협력을 통해 생산성을 높임.",
+      "action": "상관과의 협력 기회를 활용.",
+      "cautions": [
+        "협력이 실패할 경우 갈등으로 변질될 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "생지",
+        "목",
+        "상관",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-f325efff99",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "겁제",
+        "type": "왕지",
+        "element": "목"
+      },
+      "mechanism": "왕지 겁제가 목과 결합하면 강한 세력화가 가능.",
+      "interpretation": "왕지 겁제는 목과 결합 시 강한 리더십과 세력화를 나타냄.",
+      "action": "목의 강약을 조정하여 긍정적 방향으로 유도.",
+      "cautions": [
+        "목이 약할 경우 부정적 성향으로 변질될 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "왕지",
+        "목",
+        "리더십",
+        "세력화"
+      ]
+    },
+    {
+      "id": "RC-e1e7d1b3ca",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁제",
+        "context": "활동"
+      },
+      "mechanism": "겁제는 대중적 파급력을 확대.",
+      "interpretation": "겁제가 있으면 글로벌한 영향력을 발휘.",
+      "action": "겁제를 활용해 국제적 활동을 계획.",
+      "cautions": [
+        "겁제가 없으면 국내 활동에 한정될 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "",
+        "파급력",
+        "글로벌",
+        "대중성"
+      ]
+    },
+    {
+      "id": "RC-b25e8fa22b",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "relation": "겁제",
+        "context": "투자"
+      },
+      "mechanism": "겁제는 과감한 투자와 리스크 감수를 가능하게 함.",
+      "interpretation": "겁제가 있으면 대규모 투자와 빚을 활용 가능.",
+      "action": "겁제를 활용해 적극적인 투자 전략을 세움.",
+      "cautions": [
+        "리스크 관리가 부족하면 큰 손실을 초래할 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "투자",
+        "리스크",
+        "재산",
+        "과감성"
+      ]
+    },
+    {
+      "id": "RC-83c2ec8136",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "비견",
+        "context": "국내 활동"
+      },
+      "mechanism": "비견은 국내 한정의 협력과 연결성을 나타냄.",
+      "interpretation": "비견은 국내에서의 안정적 활동을 의미.",
+      "action": "국내 활동에 집중하고 협력을 강화.",
+      "cautions": [
+        "국제적 확장에는 한계가 있을 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "국내",
+        "협력",
+        "안정성",
+        "한정"
+      ]
+    },
+    {
+      "id": "RC-c34556bd1c",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "겁제",
+        "context": "연애"
+      },
+      "mechanism": "겁제는 연애에서 강한 세력화와 쟁제적 성향을 나타냄.",
+      "interpretation": "겁제가 연애에 영향을 미치면 갈등과 세력 다툼이 발생 가능.",
+      "action": "연애에서 겁제의 영향을 분석하고 조정.",
+      "cautions": [
+        "겁제가 강할 경우 관계가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "연애",
+        "세력화",
+        "쟁제",
+        "갈등"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 규칙은 간략화되었음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_055",
+  "updated_at": "2025-12-23T20:27:23"
+}

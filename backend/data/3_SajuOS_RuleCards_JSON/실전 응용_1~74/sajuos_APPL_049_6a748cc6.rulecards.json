@@ -1,0 +1,453 @@
+{
+  "title": "SajuOS_Logic_APPL_049",
+  "rulecards": [
+    {
+      "id": "RC-d27ebfe7c5",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "condition": "모으는 힘이 강함"
+      },
+      "mechanism": "수는 중력과 같은 응집력을 상징하며, 금이 이를 강화함.",
+      "interpretation": "수가 수답다는 것은 응집력이 강하고 안정적이라는 뜻.",
+      "action": "금의 영향을 통해 수의 응집력을 강화하도록 구조를 설계.",
+      "cautions": [
+        "금이 없으면 수의 응집력이 약해질 수 있음.",
+        "흩어지는 에너지가 강하면 불안정해짐."
+      ],
+      "tags": [
+        "수",
+        "금생수",
+        "응집력",
+        "중력",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-5941759e38",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "condition": "금생수 구조"
+      },
+      "mechanism": "금은 수의 응집력을 강화하고, 수의 본질을 유지시킴.",
+      "interpretation": "금생수는 수가 안정적으로 흐르고 지속성을 가짐을 의미.",
+      "action": "금생수 구조를 통해 수의 에너지를 유지하고 활용.",
+      "cautions": [
+        "금이 없으면 수가 흩어질 가능성이 높음.",
+        "금의 역할이 과도하면 수의 자연스러움이 제한될 수 있음."
+      ],
+      "tags": [
+        "금생수",
+        "수",
+        "지속성",
+        "안정성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-8f93120086",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "condition": "흩어지는 힘이 강함"
+      },
+      "mechanism": "흩어지는 힘이 강하면 수의 본질적 응집력이 약화됨.",
+      "interpretation": "수가 수답지 않으면 불안정하고 산만한 에너지를 가짐.",
+      "action": "금의 도움을 받아 수의 응집력을 회복.",
+      "cautions": [
+        "흩어지는 힘이 강하면 주변에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "수",
+        "흩어짐",
+        "응집력",
+        "안정성",
+        "금생수"
+      ]
+    },
+    {
+      "id": "RC-7a1c1a9427",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "condition": "흐름이 강함"
+      },
+      "mechanism": "임수는 흐름을 통해 주변에 은밀하게 영향을 미침.",
+      "interpretation": "임수는 주변 환경에 지속적이고 은밀한 영향을 미치는 에너지.",
+      "action": "임수의 흐름을 긍정적으로 활용할 수 있는 환경 조성.",
+      "cautions": [
+        "임수의 흐름이 부정적일 경우 주변에 나쁜 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "흐름",
+        "영향력",
+        "은밀함",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-3951709069",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "condition": "금의 지원이 있음"
+      },
+      "mechanism": "금은 임수의 흐름을 안정시키고 지속성을 부여함.",
+      "interpretation": "금의 지원은 임수의 긍정적 흐름을 강화함.",
+      "action": "금의 에너지를 활용하여 임수의 흐름을 안정화.",
+      "cautions": [
+        "금이 없으면 임수의 흐름이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "금생수",
+        "안정성",
+        "흐름",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-6bc478e1c8",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "금생수",
+        "condition": "부모와 자녀 관계"
+      },
+      "mechanism": "금은 부모의 역할로서 수를 안정적으로 지원함.",
+      "interpretation": "금생수는 부모가 자녀를 지속적으로 지원하는 구조를 의미.",
+      "action": "부모의 역할을 강화하여 자녀의 성장을 돕도록 설계.",
+      "cautions": [
+        "금이 약하면 부모의 지원이 부족할 수 있음."
+      ],
+      "tags": [
+        "금생수",
+        "부모",
+        "자녀",
+        "지원",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-6205cc81fb",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "임수-신금",
+        "condition": "부모와 자녀 관계"
+      },
+      "mechanism": "신금은 임수에게 지속적으로 생을 제공하며 유대감을 형성.",
+      "interpretation": "신금과 임수의 관계는 부모와 자녀 간의 끈끈한 유대감을 의미.",
+      "action": "신금의 역할을 강화하여 임수의 성장을 지원.",
+      "cautions": [
+        "신금이 약하면 유대감이 약해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "신금",
+        "부모",
+        "자녀",
+        "유대감"
+      ]
+    },
+    {
+      "id": "RC-7e81cbbdd5",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수-경금",
+        "condition": "부모와 자녀 관계"
+      },
+      "mechanism": "경금은 임수에게 생을 제공하며, 성장 과정에서 갈등을 겪음.",
+      "interpretation": "경금과 임수의 관계는 성장 과정에서 갈등과 보상을 포함.",
+      "action": "경금의 역할을 이해하고 임수의 성장을 지원.",
+      "cautions": [
+        "갈등이 심할 경우 관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "경금",
+        "부모",
+        "자녀",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-8057f37e81",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "임수-병화",
+        "condition": "아버지와 자녀 관계"
+      },
+      "mechanism": "병화는 임수에게 세상을 보는 방법을 가르침.",
+      "interpretation": "병화는 임수에게 세상에 대한 이해와 방향성을 제공.",
+      "action": "병화의 역할을 강화하여 임수의 세상 이해를 돕도록 설계.",
+      "cautions": [
+        "병화가 없으면 세상에 대한 이해가 부족할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "아버지",
+        "세상 이해",
+        "방향성"
+      ]
+    },
+    {
+      "id": "RC-fe2dab033a",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수-정화",
+        "condition": "아버지와 자녀 관계"
+      },
+      "mechanism": "정화는 임수에게 섬세함과 세상에 대한 감각을 제공.",
+      "interpretation": "정화는 임수에게 세상에 대한 섬세한 이해를 돕는 역할.",
+      "action": "정화의 역할을 강화하여 임수의 세상 감각을 키움.",
+      "cautions": [
+        "정화가 없으면 세상에 대한 섬세한 이해가 부족할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "정화",
+        "아버지",
+        "섬세함",
+        "세상 감각"
+      ]
+    },
+    {
+      "id": "RC-c38dcefc8d",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "parental_presence": "absent"
+      },
+      "mechanism": "부모의 부재는 자녀의 세상 경험 부족으로 이어짐.",
+      "interpretation": "부모가 없으면 자녀가 세상 물정을 잘 모를 가능성이 높음.",
+      "action": "부모의 역할을 대신할 멘토나 환경을 제공해야 함.",
+      "cautions": [
+        "부모의 부재가 자녀의 자립심을 키울 수도 있음."
+      ],
+      "tags": [
+        "부모",
+        "자녀",
+        "세상경험",
+        "멘토",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-2baf2c977f",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "fire_element": [
+          "병화",
+          "정화"
+        ],
+        "metal_element": [
+          "경금"
+        ]
+      },
+      "mechanism": "병화와 정화는 빛, 경금은 체계적 지지를 상징.",
+      "interpretation": "병화와 정화, 경금이 조화를 이루면 부모의 역할이 균형 있게 작용.",
+      "action": "부모의 역할을 명확히 하고 조화를 이루도록 노력.",
+      "cautions": [
+        "병화와 정화가 과도하면 자녀가 부담을 느낄 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "정화",
+        "경금",
+        "부모역할",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-5eae946547",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "water_element": "strong"
+      },
+      "mechanism": "강한 수는 부모의 영향력을 약화시킴.",
+      "interpretation": "수가 강하면 부모의 조언이나 지시가 자녀에게 실효성이 떨어짐.",
+      "action": "자녀가 스스로 경험을 통해 배우도록 환경을 조성.",
+      "cautions": [
+        "부모의 조언이 무시될 가능성이 있음."
+      ],
+      "tags": [
+        "수",
+        "부모",
+        "자녀",
+        "경험",
+        "조언"
+      ]
+    },
+    {
+      "id": "RC-2320c342f3",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "wood_element": "present"
+      },
+      "mechanism": "목은 수의 흐름을 방향성 있게 조절.",
+      "interpretation": "목이 있으면 수가 방향성을 가지고 흐름.",
+      "action": "목의 에너지를 활용해 자녀의 진로를 설계.",
+      "cautions": [
+        "목이 없으면 수의 흐름이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "방향성",
+        "진로",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-fb40bb8b8b",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "wood_element": "strong",
+        "offspring": "present"
+      },
+      "mechanism": "목은 자녀와의 유대를 강화.",
+      "interpretation": "목이 강하면 자녀 중심의 삶을 살 가능성이 높음.",
+      "action": "자녀와의 유대를 강화하고 자녀 중심의 결정을 내릴 것.",
+      "cautions": [
+        "자녀에게 과도한 기대를 하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "자녀",
+        "유대",
+        "결정",
+        "삶"
+      ]
+    },
+    {
+      "id": "RC-a065149937",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "fire_element": "absent",
+        "wood_element": "present"
+      },
+      "mechanism": "목이 화를 만나지 못하면 자녀와의 관계에서 성과가 부족.",
+      "interpretation": "목만 있고 화가 없으면 자녀와의 관계에서 기대한 결과를 얻기 어려움.",
+      "action": "자녀와의 관계를 개선하기 위해 화의 에너지를 보완.",
+      "cautions": [
+        "화가 없으면 자녀와의 관계가 약화될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "자녀",
+        "관계",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-57b215d820",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "fire_element": "present",
+        "earth_element": "present"
+      },
+      "mechanism": "화와 토는 자녀 양육에 안정감을 제공.",
+      "interpretation": "화와 토가 있으면 자녀 양육이 수월하고 안정적.",
+      "action": "화와 토의 에너지를 활용해 자녀 양육 환경을 조성.",
+      "cautions": [
+        "화와 토가 과도하면 스트레스가 증가할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "자녀",
+        "양육",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-7f173d3be5",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "water_element": "weak",
+        "metal_element": "present"
+      },
+      "mechanism": "약한 수는 금의 생수를 절실히 필요로 함.",
+      "interpretation": "수가 약하면 부모의 지원이 절실히 필요.",
+      "action": "부모의 지원을 적극적으로 요청하고 활용.",
+      "cautions": [
+        "부모의 지원에 과도하게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "수",
+        "금",
+        "부모",
+        "지원",
+        "의존"
+      ]
+    },
+    {
+      "id": "RC-2526f2d374",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "fire_element": "present",
+        "earth_element": "absent"
+      },
+      "mechanism": "화가 있지만 토가 없으면 자녀와의 관계가 불안정.",
+      "interpretation": "화만 있고 토가 없으면 자녀와의 관계에서 안정감이 부족.",
+      "action": "토의 에너지를 보완해 자녀와의 관계를 안정화.",
+      "cautions": [
+        "토가 없으면 자녀와의 관계가 단기적일 수 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "자녀",
+        "관계",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-d26a973435",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "water_element": "strong",
+        "metal_element": "absent"
+      },
+      "mechanism": "강한 수는 금의 생수를 거부.",
+      "interpretation": "수가 강하면 부모의 지원을 필요로 하지 않음.",
+      "action": "자립심을 키우고 독립적으로 문제를 해결.",
+      "cautions": [
+        "부모와의 관계가 소원해질 수 있음."
+      ],
+      "tags": [
+        "수",
+        "금",
+        "부모",
+        "자립",
+        "독립"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_049",
+  "updated_at": "2025-12-23T20:27:26"
+}

@@ -1,0 +1,438 @@
+{
+  "title": "SajuOS_Logic_BASIC_005",
+  "rulecards": [
+    {
+      "id": "RC-92ca212f57",
+      "topic": "GENERAL",
+      "priority": 9,
+      "trigger": {
+        "note": "조후가 잘 된 명"
+      },
+      "mechanism": "조후는 기후적 균형을 의미하며, 인간과 환경의 조화를 나타냄.",
+      "interpretation": "조후가 잘 된 명은 안정적이고 평범한 삶을 살 가능성이 높음.",
+      "action": "자신의 환경을 유지하고 균형을 유지하는 데 집중.",
+      "cautions": [
+        "조후가 잘 된 명은 결핍을 느끼지 못해 행복을 간과할 수 있음."
+      ],
+      "tags": [
+        "조후",
+        "균형",
+        "안정",
+        "환경",
+        "삶"
+      ]
+    },
+    {
+      "id": "RC-64430119c5",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "note": "조후가 안 된 명"
+      },
+      "mechanism": "조후가 부족하면 결핍을 느끼며, 이를 채우려는 강한 동기가 생김.",
+      "interpretation": "조후가 안 된 명은 어려운 환경에서도 강한 멘탈을 가질 가능성이 있음.",
+      "action": "결핍을 채울 수 있는 기회를 적극적으로 찾아야 함.",
+      "cautions": [
+        "멘탈이 강해지기 위해서는 어려움을 견뎌야 함.",
+        "환경 변화에 민감할 수 있음."
+      ],
+      "tags": [
+        "조후",
+        "결핍",
+        "멘탈",
+        "환경",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-33084ced06",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "note": "한한 명과 난한 명의 조합"
+      },
+      "mechanism": "한한 명은 난한 명의 따뜻함에 의해 마음이 열림.",
+      "interpretation": "이 조합은 상호 보완적이며, 관계가 깊어질 가능성이 높음.",
+      "action": "상대방의 성향을 이해하고 조화를 이루는 데 집중.",
+      "cautions": [
+        "한한 명은 난한 명의 적극성을 부담스러워할 수 있음."
+      ],
+      "tags": [
+        "한한",
+        "난한",
+        "조화",
+        "관계",
+        "상호보완"
+      ]
+    },
+    {
+      "id": "RC-f66fdecbe6",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "note": "조후가 되는 시기"
+      },
+      "mechanism": "조후가 되는 시기는 결핍을 채우는 중요한 시점.",
+      "interpretation": "조후가 되는 시기에 큰 성취나 변화를 경험할 가능성이 있음.",
+      "action": "조후가 되는 시기를 잘 활용하여 목표를 달성.",
+      "cautions": [
+        "조후가 되는 시기를 놓치지 않도록 준비가 필요함."
+      ],
+      "tags": [
+        "조후",
+        "시기",
+        "결핍",
+        "성취",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-e2e6ab2a0b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "인월에 태어난 명"
+      },
+      "mechanism": "인월은 따뜻함이 필요하며, 병화가 이를 보완함.",
+      "interpretation": "인월생은 병화를 통해 자신의 에너지를 활성화할 수 있음.",
+      "action": "병화와 관련된 요소를 활용하여 자신의 잠재력을 발휘.",
+      "cautions": [
+        "병화가 없으면 에너지 부족으로 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "병화",
+        "따뜻함",
+        "에너지",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-55295d9bb6",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "note": "진월에 태어난 무토"
+      },
+      "mechanism": "진월의 무토는 계절적 힘을 활용할 수 있음.",
+      "interpretation": "진월생 무토는 강한 기반과 안정성을 가짐.",
+      "action": "자신의 강점을 활용하여 장기적인 계획을 세움.",
+      "cautions": [
+        "목과 금이 없으면 무토의 쓰임이 제한될 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "무토",
+        "안정성",
+        "계절",
+        "기반"
+      ]
+    },
+    {
+      "id": "RC-3bdfed2c7b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "사화의 생지"
+      },
+      "mechanism": "사화는 빛의 에너지를 통해 활동성을 증가시킴.",
+      "interpretation": "사화는 간접적으로 다른 사람을 움직이게 하는 능력을 가짐.",
+      "action": "자신의 빛과 에너지를 활용하여 주변을 조장.",
+      "cautions": [
+        "사화는 경험을 통해 배우는 경향이 강함."
+      ],
+      "tags": [
+        "사화",
+        "빛",
+        "활동성",
+        "조장",
+        "생지"
+      ]
+    },
+    {
+      "id": "RC-cb65c3f131",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "note": "미월의 에너지"
+      },
+      "mechanism": "미월은 잔열을 활용하여 기존의 것을 재활용함.",
+      "interpretation": "미월생은 기존 자원을 활용하여 새로운 가치를 창출할 수 있음.",
+      "action": "과거의 경험과 자원을 재활용하여 새로운 기회를 모색.",
+      "cautions": [
+        "잔열을 과도하게 의존하면 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "미월",
+        "잔열",
+        "재활용",
+        "자원",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-7f412b8b21",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "note": "미월생의 직업"
+      },
+      "mechanism": "미월은 기술적 코드와 열 에너지를 활용함.",
+      "interpretation": "미월생은 에너지, 화학, 광고 등과 관련된 직업에 적합.",
+      "action": "자신의 기술적 재능을 발휘할 수 있는 분야를 탐색.",
+      "cautions": [
+        "기술적 코드가 약하면 지속적인 성과를 내기 어려움."
+      ],
+      "tags": [
+        "미월",
+        "직업",
+        "기술",
+        "에너지",
+        "화학"
+      ]
+    },
+    {
+      "id": "RC-a6b1c69247",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "note": "유금의 특성"
+      },
+      "mechanism": "유금은 완벽주의와 정밀함을 추구함.",
+      "interpretation": "유금은 정밀한 작업과 세밀한 분야에서 강점을 발휘.",
+      "action": "정밀함이 요구되는 분야에서 자신의 능력을 활용.",
+      "cautions": [
+        "완벽주의가 과도하면 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "유금",
+        "정밀함",
+        "완벽주의",
+        "세밀함",
+        "분야"
+      ]
+    },
+    {
+      "id": "RC-d31f24b585",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "유금",
+        "context": "직업"
+      },
+      "mechanism": "유금은 세밀함과 정밀함을 요구하는 특성을 가짐.",
+      "interpretation": "정밀한 작업이나 과학적, 기술적 분야에 적합.",
+      "action": "정밀한 기술, 광학, 방사선 관련 직업을 고려.",
+      "cautions": [
+        "완벽주의 성향이 관계에서 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "유금",
+        "정밀",
+        "기술",
+        "광학",
+        "방사선"
+      ]
+    },
+    {
+      "id": "RC-50ec4eda80",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "유금",
+        "supporting_element": "수"
+      },
+      "mechanism": "유금이 수를 생하면 보존과 유지 능력이 강화됨.",
+      "interpretation": "보관, 유지, 관리와 관련된 직업에 적합.",
+      "action": "자료 보관, 유지 관리 관련 직업을 추천.",
+      "cautions": [],
+      "tags": [
+        "유금",
+        "수",
+        "보존",
+        "유지",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-a0f4b8d7cd",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element1": "목",
+        "element2": "금"
+      },
+      "mechanism": "목은 금과 상호작용하며 관계를 형성.",
+      "interpretation": "목은 금과의 관계에서 친밀함을 추구하지만 금은 필요에 따라 관계를 유지.",
+      "action": "목과 금의 관계에서 균형을 유지하도록 노력.",
+      "cautions": [
+        "목의 과도한 접근은 금에게 부담이 될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "금",
+        "관계",
+        "균형",
+        "상호작용"
+      ]
+    },
+    {
+      "id": "RC-40f162be5d",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "age_range": "30대",
+        "element": "금"
+      },
+      "mechanism": "30대는 금의 에너지가 강화되며 관계 정리가 이루어짐.",
+      "interpretation": "30대에 들어서면서 불필요한 관계가 정리됨.",
+      "action": "관계 정리를 통해 삶의 효율성을 높임.",
+      "cautions": [
+        "관계 정리가 지나치면 고립될 수 있음."
+      ],
+      "tags": [
+        "금",
+        "30대",
+        "관계",
+        "정리",
+        "효율성"
+      ]
+    },
+    {
+      "id": "RC-2144f7524d",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "술토"
+      },
+      "mechanism": "술토는 보수적이고 유지하려는 성향을 가짐.",
+      "interpretation": "습관 형성이 중요하며, 유지와 보수에 강점이 있음.",
+      "action": "어린 시절부터 긍정적인 습관을 형성하도록 지도.",
+      "cautions": [
+        "변화에 대한 저항이 강할 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "보수",
+        "유지",
+        "습관",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-91237d4465",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "술토",
+        "transit": "진토"
+      },
+      "mechanism": "진토와 술토의 충은 변화를 유발.",
+      "interpretation": "변화가 필요하거나 새로운 환경에 적응해야 할 시기.",
+      "action": "변화를 수용하고 새로운 기회를 모색.",
+      "cautions": [
+        "변화에 따른 스트레스 관리 필요."
+      ],
+      "tags": [
+        "술토",
+        "진토",
+        "변화",
+        "적응",
+        "충"
+      ]
+    },
+    {
+      "id": "RC-4de9524f60",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "수롤",
+        "study_method": "정해진 방식"
+      },
+      "mechanism": "수롤은 정해진 방식에 따라 학습을 진행.",
+      "interpretation": "체계적인 학습 방식에 강점이 있음.",
+      "action": "정해진 커리큘럼을 따르고 반복 학습을 활용.",
+      "cautions": [
+        "유연성이 부족해 예상치 못한 문제에 약할 수 있음."
+      ],
+      "tags": [
+        "수롤",
+        "학습",
+        "체계",
+        "반복",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-1a41993ed4",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "인월",
+        "heavenly_stem": "간목"
+      },
+      "mechanism": "간목이 인월에서 강한 에너지를 발휘.",
+      "interpretation": "학업 성취 가능성이 높음.",
+      "action": "목표를 명확히 설정하고 학업에 집중.",
+      "cautions": [
+        "운의 변화에 따라 성과가 달라질 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "간목",
+        "학업",
+        "목표",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-248c640a89",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "술토",
+        "heavenly_stem": "무토"
+      },
+      "mechanism": "무토는 술토의 유지와 보수 성향을 강화.",
+      "interpretation": "유지와 보수 관련 직업에 적합.",
+      "action": "보수와 관리 중심의 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "술토",
+        "무토",
+        "유지",
+        "보수",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-7cdf6bde15",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element1": "목",
+        "element2": "금",
+        "interaction": "목극금"
+      },
+      "mechanism": "목극금은 목이 금을 제압하려는 상호작용.",
+      "interpretation": "목과 금의 관계에서 갈등이 발생할 수 있음.",
+      "action": "갈등을 완화하기 위해 중재자 역할을 고려.",
+      "cautions": [
+        "목의 과도한 압박은 금의 반발을 초래할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "금",
+        "갈등",
+        "중재",
+        "목극금"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 방대하여 일부 내용은 요약 및 핵심만 반영됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_005",
+  "updated_at": "2025-12-23T20:27:25"
+}

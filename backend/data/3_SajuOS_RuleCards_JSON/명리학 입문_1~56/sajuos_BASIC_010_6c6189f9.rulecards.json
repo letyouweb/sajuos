@@ -1,0 +1,409 @@
+{
+  "title": "SajuOS_Logic_BASIC_010",
+  "rulecards": [
+    {
+      "id": "RC-3e2925b9c2",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "지지에 해수 또는 자수 존재"
+      },
+      "mechanism": "금이 수를 생하여 행동이 축약되고 보이지 않게 표현됨.",
+      "interpretation": "금생수는 두뇌형으로, 행동이 보이지 않게 나타남.",
+      "action": "금생수의 특성을 이해하고 소통 오류를 줄이기 위해 화의 존재를 확인.",
+      "cautions": [
+        "소통 오류 가능성",
+        "상대방의 이해 부족"
+      ],
+      "tags": [
+        "금생수",
+        "두뇌형",
+        "소통",
+        "지지",
+        "해수",
+        "자수"
+      ]
+    },
+    {
+      "id": "RC-2f6ecb931e",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "화의 부재"
+      },
+      "mechanism": "화가 없으면 금생수의 표현력이 약화됨.",
+      "interpretation": "화가 없으면 금생수의 작용이 외부에 드러나지 않음.",
+      "action": "화의 존재 여부를 확인하고, 부족할 경우 보완책 마련.",
+      "cautions": [
+        "표현력 부족",
+        "외부 인식 어려움"
+      ],
+      "tags": [
+        "금생수",
+        "화",
+        "표현력",
+        "소통",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-34ab08448b",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "IT 관련 직업"
+      },
+      "mechanism": "금생수는 축약과 효율성을 중시하여 IT 분야에 적합.",
+      "interpretation": "금생수는 IT와 같은 첨단 기술 분야에서 강점이 있음.",
+      "action": "금생수의 특성을 활용해 IT 관련 직업을 탐색.",
+      "cautions": [
+        "소통 오류 가능성",
+        "팀워크 부족"
+      ],
+      "tags": [
+        "금생수",
+        "IT",
+        "효율성",
+        "첨단 기술",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-f989f894d7",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "연애 관계"
+      },
+      "mechanism": "금생수는 감정 표현이 축약되어 상대방이 이해하기 어려움.",
+      "interpretation": "금생수는 연애에서 감정 표현 부족으로 오해를 살 수 있음.",
+      "action": "감정을 명확히 표현하고 상대방과의 소통을 강화.",
+      "cautions": [
+        "오해 발생",
+        "감정 전달 부족"
+      ],
+      "tags": [
+        "금생수",
+        "연애",
+        "감정 표현",
+        "소통",
+        "오해"
+      ]
+    },
+    {
+      "id": "RC-2793a2d3dd",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "해수 중심"
+      },
+      "mechanism": "해수가 금생수를 주도하며 다양한 가능성을 열어줌.",
+      "interpretation": "해수는 금생수의 작용을 강화하고 다방면으로 활용 가능.",
+      "action": "해수의 상태를 중심으로 주변 환경을 분석.",
+      "cautions": [
+        "해수의 상태에 따라 결과가 달라짐"
+      ],
+      "tags": [
+        "금생수",
+        "해수",
+        "다양성",
+        "구조",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-c57bdc6343",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "재물 관련"
+      },
+      "mechanism": "금생수는 재물을 염두에 두고 행동함.",
+      "interpretation": "금생수는 재물과 관련된 목표를 중시함.",
+      "action": "재물 목표를 명확히 설정하고 행동 계획 수립.",
+      "cautions": [
+        "재물에 지나치게 집착할 가능성"
+      ],
+      "tags": [
+        "금생수",
+        "재물",
+        "목표",
+        "행동 계획",
+        "재물 관리"
+      ]
+    },
+    {
+      "id": "RC-c4b34f9e31",
+      "topic": "EXAM",
+      "priority": 6,
+      "trigger": {
+        "interaction": "금생수",
+        "context": "시험 준비"
+      },
+      "mechanism": "금생수는 축약된 사고로 핵심을 파악하는 데 유리.",
+      "interpretation": "시험 준비에서 금생수는 효율적인 학습 방법을 선호.",
+      "action": "핵심을 중심으로 학습 계획을 세우고 실행.",
+      "cautions": [
+        "세부 사항 간과 가능성"
+      ],
+      "tags": [
+        "금생수",
+        "시험",
+        "학습",
+        "효율성",
+        "핵심"
+      ]
+    },
+    {
+      "id": "RC-4f80204a74",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "금생수와 관련된 일반적 원리"
+      },
+      "mechanism": "금생수는 행동과 표현을 축약하여 보이지 않게 만듦.",
+      "interpretation": "금생수는 내면적이고 함축적인 특성을 가짐.",
+      "action": "금생수의 특성을 이해하고 활용 방안을 모색.",
+      "cautions": [
+        "내면적 특성으로 인한 오해 가능성"
+      ],
+      "tags": [
+        "금생수",
+        "내면적",
+        "축약",
+        "표현",
+        "원리"
+      ]
+    },
+    {
+      "id": "RC-d0422a7ca9",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "미토",
+        "fire_support": true
+      },
+      "mechanism": "미토는 화의 지원을 받아야 열기를 유지할 수 있음.",
+      "interpretation": "미토가 화생토를 통해 안정적 에너지를 유지하면 경금에 긍정적 영향을 미침.",
+      "action": "미토가 화생토를 받는지 확인하고, 부족하면 보완책을 찾을 것.",
+      "cautions": [
+        "화가 지나치면 경금이 약화될 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "화생토",
+        "경금",
+        "열기",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-561d2f2e55",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "진토",
+        "note": "진토가 천간과 지지에서 자주 흔들림"
+      },
+      "mechanism": "진토는 일관성을 유지하기 어려운 특성을 가짐.",
+      "interpretation": "진토가 강하면 귀가 얇아지고 판단이 흔들릴 가능성이 높음.",
+      "action": "진토의 영향을 받는 경우, 금을 강화하거나 재극인을 통해 안정성을 확보할 것.",
+      "cautions": [
+        "진토의 불안정성을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "진토",
+        "일관성",
+        "귀 얇음",
+        "재극인",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-8a1af3787f",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "인목",
+        "water_support": true
+      },
+      "mechanism": "인목은 수의 흐름을 설계하고 조절하는 능력이 뛰어남.",
+      "interpretation": "인목이 있으면 수의 과잉을 조절하고 균형을 유지할 수 있음.",
+      "action": "사주에 인목이 있는 경우, 수의 흐름을 활용해 문제를 해결할 것.",
+      "cautions": [
+        "인목이 없으면 수의 과잉으로 혼란이 발생할 수 있음."
+      ],
+      "tags": [
+        "인목",
+        "수",
+        "조절",
+        "설계",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-8e734cb828",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "fire_support": false
+      },
+      "mechanism": "수가 지나치게 강하면 화의 작용을 방해함.",
+      "interpretation": "수가 강한 경우, 화를 통해 균형을 맞추는 것이 중요.",
+      "action": "수가 강한 사주는 화를 보완하여 균형을 유지할 것.",
+      "cautions": [
+        "화가 부족하면 수의 과잉으로 인해 에너지 흐름이 왜곡될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "균형",
+        "에너지",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-79a0e7c992",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "relation": "사화"
+      },
+      "mechanism": "임수는 사화와의 관계에서 에너지가 흩어지는 경향이 있음.",
+      "interpretation": "임수가 사화를 만나면 집중력이 약해지고 작심삼일 경향이 나타남.",
+      "action": "임수와 사화의 관계를 보완하기 위해 금을 활용할 것.",
+      "cautions": [
+        "임수와 사화의 관계가 지속되면 장기적인 집중이 어려울 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "사화",
+        "집중력",
+        "작심삼일",
+        "금"
+      ]
+    },
+    {
+      "id": "RC-acb7a171b6",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "relation": "임수"
+      },
+      "mechanism": "신금은 임수의 발원지로서 지속적인 에너지를 공급함.",
+      "interpretation": "신금이 임수를 지원하면 사주의 안정성과 지속성이 강화됨.",
+      "action": "신금이 임수를 지원하는 구조를 활용해 장기적인 계획을 세울 것.",
+      "cautions": [
+        "신금의 위치에 따라 지원 강도가 달라질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "발원지",
+        "지속성",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-715d803df1",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "relation": "화"
+      },
+      "mechanism": "수가 화를 극하면 화의 에너지가 약화됨.",
+      "interpretation": "수가 화를 극하는 경우, 화의 작용이 제한되어 결과를 얻기 어려움.",
+      "action": "수가 화를 극하는 구조에서는 화를 보완하거나 대체할 방안을 찾을 것.",
+      "cautions": [
+        "화가 약하면 결과를 얻기 어려울 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "극",
+        "결과",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-4db61ec99d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "유금",
+        "relation": "수"
+      },
+      "mechanism": "유금은 수를 모으는 역할을 함.",
+      "interpretation": "유금이 수를 모으면 사주의 에너지 흐름이 안정됨.",
+      "action": "유금이 수를 모으는 구조를 활용해 에너지 균형을 유지할 것.",
+      "cautions": [
+        "유금이 약하면 수의 흐름이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "유금",
+        "수",
+        "모음",
+        "안정성",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-dacb677c76",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "relation": "목"
+      },
+      "mechanism": "수는 목을 생하여 에너지 흐름을 강화함.",
+      "interpretation": "수가 목을 생하면 사주의 성장과 발전이 촉진됨.",
+      "action": "수가 목을 생하는 구조를 활용해 성장 가능성을 극대화할 것.",
+      "cautions": [
+        "수가 부족하면 목의 성장이 제한될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "목",
+        "생",
+        "성장",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-0b35f04de3",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "relation": "금"
+      },
+      "mechanism": "금은 수를 생하여 에너지의 원천을 제공함.",
+      "interpretation": "금이 수를 생하면 사주의 에너지 공급이 원활해짐.",
+      "action": "금이 수를 생하는 구조를 활용해 에너지 흐름을 강화할 것.",
+      "cautions": [
+        "금이 약하면 수의 에너지 공급이 제한될 수 있음."
+      ],
+      "tags": [
+        "금",
+        "수",
+        "생",
+        "에너지",
+        "공급"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_010",
+  "updated_at": "2025-12-23T20:27:25"
+}

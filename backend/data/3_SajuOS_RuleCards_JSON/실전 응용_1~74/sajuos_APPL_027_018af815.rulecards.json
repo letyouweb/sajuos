@@ -1,0 +1,494 @@
+{
+  "title": "SajuOS_Logic_APPL_027",
+  "rulecards": [
+    {
+      "id": "RC-4545d57568",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "dominant_energy": "재성"
+      },
+      "mechanism": "재성은 사고력과 논리력을 기반으로 관찰과 분석을 통해 학문적 성과를 이끌어냄.",
+      "interpretation": "재성이 강한 사람은 과학적, 수리적 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "재성이 강한 경우, 과학, 수학, IT 등 논리적 사고가 필요한 분야를 추천.",
+      "cautions": [
+        "재성이 강해도 공부로 연결되지 않으면 방황할 수 있음.",
+        "재성만 강하고 다른 요소가 부족하면 실질적 성과로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "사고력",
+        "논리력",
+        "과학",
+        "수학",
+        "IT",
+        "분석",
+        "관찰",
+        "학문",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-90a0a62a11",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "dominant_energy": "재성",
+        "supporting_energy": "정관"
+      },
+      "mechanism": "재성이 정관을 생하면 서열과 규칙을 중시하며 학습 동기가 강화됨.",
+      "interpretation": "재성과 정관의 조합은 체계적이고 규칙적인 학습 환경에서 성과를 냄.",
+      "action": "재성과 정관이 강한 경우, 학원이나 체계적인 교육 시스템을 활용.",
+      "cautions": [
+        "정관이 약하면 재성의 학습 동기가 약화될 수 있음.",
+        "재성과 정관의 균형이 중요함."
+      ],
+      "tags": [
+        "재성",
+        "정관",
+        "학습",
+        "체계",
+        "규칙",
+        "서열",
+        "교육",
+        "동기",
+        "조화",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-f5170ada3b",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "dominant_energy": "재성",
+        "supporting_energy": "편관"
+      },
+      "mechanism": "재성이 편관을 보면 도전적이고 창의적인 학습 태도를 보임.",
+      "interpretation": "재성과 편관의 조합은 독창적이고 비전통적인 학습 방식에 적합.",
+      "action": "재성과 편관이 강한 경우, 창의적이고 도전적인 학습 환경을 제공.",
+      "cautions": [
+        "편관이 과도하면 불안정한 학습 패턴이 나타날 수 있음.",
+        "재성과 편관의 균형이 필요함."
+      ],
+      "tags": [
+        "재성",
+        "편관",
+        "창의성",
+        "도전",
+        "학습",
+        "비전통",
+        "독창성",
+        "균형",
+        "환경",
+        "패턴"
+      ]
+    },
+    {
+      "id": "RC-a70310f903",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "dominant_energy": "재성",
+        "supporting_energy": "식상"
+      },
+      "mechanism": "재성이 식상을 보면 학습 결과를 실질적인 성과로 연결함.",
+      "interpretation": "재성과 식상의 조합은 실용적이고 결과 중심적인 학습 태도를 형성.",
+      "action": "재성과 식상이 강한 경우, 실용적이고 결과 지향적인 학습 목표를 설정.",
+      "cautions": [
+        "식상이 약하면 학습 결과가 실질적 성과로 이어지지 않을 수 있음.",
+        "재성과 식상의 조화가 중요함."
+      ],
+      "tags": [
+        "재성",
+        "식상",
+        "실용성",
+        "성과",
+        "학습",
+        "결과",
+        "목표",
+        "조화",
+        "실질",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-13a29d6401",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "dominant_energy": "재성",
+        "supporting_energy": "인성"
+      },
+      "mechanism": "재성이 인성을 보면 학습의 기초를 다지고 지식을 체계적으로 축적함.",
+      "interpretation": "재성과 인성의 조합은 학습의 기초와 체계적인 지식 축적에 유리.",
+      "action": "재성과 인성이 강한 경우, 기초부터 체계적으로 학습을 진행.",
+      "cautions": [
+        "인성이 과도하면 재성의 독창성이 억제될 수 있음.",
+        "재성과 인성의 균형이 중요함."
+      ],
+      "tags": [
+        "재성",
+        "인성",
+        "기초",
+        "체계",
+        "지식",
+        "학습",
+        "축적",
+        "균형",
+        "조화",
+        "기반"
+      ]
+    },
+    {
+      "id": "RC-e360e6fee8",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "dominant_energy": "재성",
+        "supporting_energy": "비겁"
+      },
+      "mechanism": "재성이 비겁을 보면 경쟁과 협력을 통해 학습 동기를 강화함.",
+      "interpretation": "재성과 비겁의 조합은 경쟁적이고 협력적인 학습 환경에서 성과를 냄.",
+      "action": "재성과 비겁이 강한 경우, 경쟁과 협력을 유도하는 학습 환경을 조성.",
+      "cautions": [
+        "비겁이 과도하면 갈등이 발생할 수 있음.",
+        "재성과 비겁의 균형이 중요함."
+      ],
+      "tags": [
+        "재성",
+        "비겁",
+        "경쟁",
+        "협력",
+        "학습",
+        "동기",
+        "환경",
+        "조화",
+        "성과",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-bf6ad89c6c",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "dominant_energy": "재성",
+        "field": "과학"
+      },
+      "mechanism": "재성은 과학적 사고와 논리적 분석에 강점을 보임.",
+      "interpretation": "재성이 강한 사람은 과학적 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "재성이 강한 경우, 과학적 사고를 요구하는 분야를 추천.",
+      "cautions": [
+        "재성이 강해도 다른 요소가 부족하면 성과로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "과학",
+        "논리",
+        "분석",
+        "사고",
+        "학문",
+        "재능",
+        "성과",
+        "추천",
+        "분야"
+      ]
+    },
+    {
+      "id": "RC-06a43bdd76",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "dominant_energy": "재성",
+        "field": "수학"
+      },
+      "mechanism": "재성은 수리적 사고와 계산 능력에 강점을 보임.",
+      "interpretation": "재성이 강한 사람은 수학적 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "재성이 강한 경우, 수리적 사고를 요구하는 분야를 추천.",
+      "cautions": [
+        "재성이 강해도 다른 요소가 부족하면 성과로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "수학",
+        "논리",
+        "계산",
+        "사고",
+        "학문",
+        "재능",
+        "성과",
+        "추천",
+        "분야"
+      ]
+    },
+    {
+      "id": "RC-ec3926c489",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "dominant_energy": "재성",
+        "field": "IT"
+      },
+      "mechanism": "재성은 IT와 알고리즘 같은 논리적 구조에 강점을 보임.",
+      "interpretation": "재성이 강한 사람은 IT와 알고리즘 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "재성이 강한 경우, IT와 알고리즘 관련 학문을 추천.",
+      "cautions": [
+        "재성이 강해도 다른 요소가 부족하면 성과로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "IT",
+        "알고리즘",
+        "논리",
+        "구조",
+        "학문",
+        "재능",
+        "성과",
+        "추천",
+        "분야"
+      ]
+    },
+    {
+      "id": "RC-bb5aae2646",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "dominant_energy": "재성",
+        "field": "경제"
+      },
+      "mechanism": "재성은 경제학과 경영학 같은 분석적 학문에 강점을 보임.",
+      "interpretation": "재성이 강한 사람은 경제학과 경영학 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "재성이 강한 경우, 경제학과 경영학 관련 학문을 추천.",
+      "cautions": [
+        "재성이 강해도 다른 요소가 부족하면 성과로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "경제",
+        "경영",
+        "분석",
+        "학문",
+        "재능",
+        "성과",
+        "추천",
+        "분야",
+        "학습"
+      ]
+    },
+    {
+      "id": "RC-14240b4221",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "condition": "presence_of_pyeong_gwan"
+      },
+      "mechanism": "편관은 부당함을 견디고 서열을 인정하는 힘을 제공함.",
+      "interpretation": "편관이 있으면 부당한 상황에서도 견디며 목표를 향해 나아갈 수 있음.",
+      "action": "편관을 활용해 장기적인 목표를 설정하고 집중할 것.",
+      "cautions": [
+        "편관이 없으면 부당함을 견디기 어려울 수 있음."
+      ],
+      "tags": [
+        "편관",
+        "서열",
+        "부당함",
+        "목표",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-d6ca10fc73",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "condition": "presence_of_sik_sang"
+      },
+      "mechanism": "식상은 과정을 이해하고 논리적으로 문제를 해결하는 능력을 제공함.",
+      "interpretation": "식상이 있으면 문제를 원리적으로 접근하며 학습 효율이 높아짐.",
+      "action": "문제를 풀 때 원리를 이해하며 접근할 것.",
+      "cautions": [
+        "식상이 없으면 단순 암기에 의존할 가능성이 높음."
+      ],
+      "tags": [
+        "식상",
+        "논리",
+        "원리",
+        "학습",
+        "문제해결"
+      ]
+    },
+    {
+      "id": "RC-6d75b4897c",
+      "topic": "EXAM",
+      "priority": 7,
+      "trigger": {
+        "condition": "presence_of_jae_and_sik_sang"
+      },
+      "mechanism": "재성과 식상이 조화를 이루면 정답을 찾는 과정이 강화됨.",
+      "interpretation": "재성과 식상이 조화를 이루면 시험에서 높은 성과를 낼 가능성이 큼.",
+      "action": "재성과 식상의 조화를 활용해 학습 전략을 세울 것.",
+      "cautions": [
+        "재성이 과도하면 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "식상",
+        "조화",
+        "시험",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-da975a2522",
+      "topic": "EXAM",
+      "priority": 6,
+      "trigger": {
+        "condition": "presence_of_bi_geop"
+      },
+      "mechanism": "비겁은 경쟁의식을 자극하여 초인적인 능력을 발휘하게 함.",
+      "interpretation": "비겁이 있으면 경쟁 상황에서 더 높은 성과를 낼 수 있음.",
+      "action": "경쟁 상황을 활용해 동기부여를 강화할 것.",
+      "cautions": [
+        "비겁이 없으면 경쟁에서 동기부여가 약할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "경쟁",
+        "동기부여",
+        "성과",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-be886e224e",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "condition": "presence_of_hon_jap"
+      },
+      "mechanism": "혼잡은 에너지를 분산시켜 집중력을 저하시킴.",
+      "interpretation": "혼잡이 있으면 학습 집중력이 떨어질 가능성이 큼.",
+      "action": "혼잡을 해소하기 위해 합을 활용할 것.",
+      "cautions": [
+        "혼잡이 해소되지 않으면 학습 효율이 크게 저하될 수 있음."
+      ],
+      "tags": [
+        "혼잡",
+        "집중력",
+        "합",
+        "학습",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-e326fa231e",
+      "topic": "EXAM",
+      "priority": 7,
+      "trigger": {
+        "condition": "presence_of_in_seong_in_transit"
+      },
+      "mechanism": "인성 운은 긴장감을 유발하여 학습 과정에 영향을 미침.",
+      "interpretation": "인성 운이 강하면 시험에서 긴장으로 인해 성과가 저하될 수 있음.",
+      "action": "긴장을 완화할 수 있는 환경을 조성할 것.",
+      "cautions": [
+        "긴장감이 과도하면 학습 및 시험 성과에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "긴장",
+        "시험",
+        "성과",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-37139f2899",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "condition": "presence_of_sik_sang_and_jae"
+      },
+      "mechanism": "식상과 재성이 조화를 이루면 문제 해결 과정이 강화됨.",
+      "interpretation": "식상과 재성이 조화를 이루면 시험에서 높은 성과를 낼 가능성이 큼.",
+      "action": "식상과 재성의 조화를 활용해 학습 전략을 세울 것.",
+      "cautions": [
+        "재성이 과도하면 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "재성",
+        "조화",
+        "시험",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-3f6e2f853a",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "condition": "presence_of_hon_jap_and_hap"
+      },
+      "mechanism": "혼잡을 합으로 해소하면 에너지의 집중력이 강화됨.",
+      "interpretation": "혼잡을 합으로 해소하면 학습 및 시험 성과가 향상됨.",
+      "action": "혼잡을 해소하기 위해 합을 활용할 것.",
+      "cautions": [
+        "합이 없으면 혼잡이 지속될 가능성이 있음."
+      ],
+      "tags": [
+        "혼잡",
+        "합",
+        "집중력",
+        "학습",
+        "시험"
+      ]
+    },
+    {
+      "id": "RC-7cb0598456",
+      "topic": "EXAM",
+      "priority": 7,
+      "trigger": {
+        "condition": "presence_of_sik_sang_in_transit"
+      },
+      "mechanism": "식상 운은 논리적 사고와 문제 해결 능력을 강화함.",
+      "interpretation": "식상 운이 강하면 학습 및 시험에서 논리적 접근이 유리함.",
+      "action": "식상 운을 활용해 학습 계획을 세울 것.",
+      "cautions": [
+        "식상이 과도하면 산만해질 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "논리",
+        "문제해결",
+        "학습",
+        "시험"
+      ]
+    },
+    {
+      "id": "RC-82fc0548d5",
+      "topic": "EXAM",
+      "priority": 6,
+      "trigger": {
+        "condition": "presence_of_jae_in_transit"
+      },
+      "mechanism": "재성 운은 정답을 찾는 능력을 강화함.",
+      "interpretation": "재성 운이 강하면 시험에서 정답을 찾는 능력이 향상됨.",
+      "action": "재성 운을 활용해 시험 전략을 세울 것.",
+      "cautions": [
+        "재성이 과도하면 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "정답",
+        "시험",
+        "전략",
+        "능력"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_027",
+  "updated_at": "2025-12-23T20:27:26"
+}

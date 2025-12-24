@@ -1,0 +1,464 @@
+{
+  "title": "SajuOS_Logic_APPL_022",
+  "rulecards": [
+    {
+      "id": "RC-7ca91877ff",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "earth_element": "축토"
+      },
+      "mechanism": "축토는 재화를 오래 보관하고 가치를 유지하는 능력이 있음.",
+      "interpretation": "축토는 안정적이고 실속 있는 재물 관리에 적합.",
+      "action": "장기적인 투자나 안정적인 사업 모델을 선택하라.",
+      "cautions": [
+        "유지비가 높아질 수 있음",
+        "생산성이 부족하면 재물화가 어려움"
+      ],
+      "tags": [
+        "축토",
+        "재물",
+        "안정성",
+        "장기투자",
+        "유지비"
+      ]
+    },
+    {
+      "id": "RC-372b761884",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "earth_element": "미토"
+      },
+      "mechanism": "미토는 재화의 유동성과 회전이 빠름.",
+      "interpretation": "미토는 단기적이고 빠른 재물 흐름에 적합.",
+      "action": "빠른 회전율이 필요한 사업이나 투자에 집중하라.",
+      "cautions": [
+        "안정성이 부족할 수 있음",
+        "장기 보관에 적합하지 않음"
+      ],
+      "tags": [
+        "미토",
+        "재물",
+        "유동성",
+        "단기투자",
+        "회전율"
+      ]
+    },
+    {
+      "id": "RC-526244d9c2",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "earth_element": "축토",
+        "supporting_elements": [
+          "목",
+          "금"
+        ]
+      },
+      "mechanism": "목과 금이 축토의 잠재력을 활성화함.",
+      "interpretation": "축토가 재물화되려면 목과 금의 지원이 필요.",
+      "action": "목과 금의 에너지를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "목과 금이 없으면 축토의 잠재력이 제한됨"
+      ],
+      "tags": [
+        "축토",
+        "목",
+        "금",
+        "재물화",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-5af4d89378",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "earth_element": "축토",
+        "timing": "운에서 목이나 금이 강할 때"
+      },
+      "mechanism": "운에서 목과 금이 강할 때 축토의 재물화 가능성이 높아짐.",
+      "interpretation": "운의 흐름에 따라 축토의 재물화 여부가 결정됨.",
+      "action": "운의 흐름을 분석하고 적절한 시기에 투자하라.",
+      "cautions": [
+        "운의 흐름을 잘못 판단하면 손실 가능"
+      ],
+      "tags": [
+        "축토",
+        "운",
+        "목",
+        "금",
+        "재물화"
+      ]
+    },
+    {
+      "id": "RC-32e1eb7113",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "earth_element": "축토",
+        "timing": "충미충"
+      },
+      "mechanism": "충미충은 축토와 미토의 상반된 특성을 조화롭게 활용함.",
+      "interpretation": "충미충은 유동성과 안정성을 동시에 활용 가능.",
+      "action": "충미충의 조화를 통해 재물의 흐름을 최적화하라.",
+      "cautions": [
+        "충미충이 조화롭지 않으면 손실 가능"
+      ],
+      "tags": [
+        "축토",
+        "미토",
+        "충미충",
+        "조화",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-0bd46b1066",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "earth_element": "축토",
+        "supporting_elements": [
+          "목"
+        ]
+      },
+      "mechanism": "목은 축토의 잠재력을 끌어내는 역할을 함.",
+      "interpretation": "목의 에너지가 축토의 재물화에 필수적.",
+      "action": "목의 에너지를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "목이 없으면 축토의 잠재력이 제한됨"
+      ],
+      "tags": [
+        "축토",
+        "목",
+        "재물화",
+        "잠재력",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-cb3a2fa101",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "earth_element": "축토",
+        "timing": "자축합"
+      },
+      "mechanism": "자축합은 축토의 에너지를 더욱 단단하게 만듦.",
+      "interpretation": "자축합은 안정적이지만 유동성이 부족할 수 있음.",
+      "action": "자축합의 안정성을 활용하되 유동성을 보완하라.",
+      "cautions": [
+        "유동성 부족으로 인해 기회 상실 가능"
+      ],
+      "tags": [
+        "축토",
+        "자축합",
+        "안정성",
+        "유동성",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-831ebfbf63",
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "earth_element": "축토",
+        "timing": "운에서 토가 강할 때"
+      },
+      "mechanism": "토가 강할 때 축토의 안정성이 극대화됨.",
+      "interpretation": "운에서 토가 강하면 장기적인 재물 관리에 유리.",
+      "action": "토가 강한 시기에 장기적인 계획을 세워라.",
+      "cautions": [
+        "토가 과도하면 유동성이 부족해질 수 있음"
+      ],
+      "tags": [
+        "축토",
+        "토",
+        "운",
+        "안정성",
+        "장기계획"
+      ]
+    },
+    {
+      "id": "RC-aca9b152c3",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "earth_element": "축토",
+        "supporting_elements": [
+          "금"
+        ]
+      },
+      "mechanism": "금은 축토의 에너지를 활용 가능하게 만듦.",
+      "interpretation": "금의 에너지가 축토의 재물화에 기여.",
+      "action": "금의 에너지를 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "금이 없으면 축토의 활용도가 낮아질 수 있음"
+      ],
+      "tags": [
+        "축토",
+        "금",
+        "재물화",
+        "활용",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-4471830a5f",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "earth_element": "축토",
+        "timing": "운에서 목이 강할 때"
+      },
+      "mechanism": "목이 강할 때 축토의 잠재력이 활성화됨.",
+      "interpretation": "목의 강한 운에서 축토의 재물화 가능성이 높아짐.",
+      "action": "목이 강한 운을 활용해 재물화 전략을 세워라.",
+      "cautions": [
+        "목이 과도하면 축토의 안정성이 흔들릴 수 있음"
+      ],
+      "tags": [
+        "축토",
+        "목",
+        "운",
+        "재물화",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-449e8e9755",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "유금",
+        "exists": true
+      },
+      "mechanism": "유금은 정보의 진위를 구분하고 돈 되는 정보를 선별하는 역할을 한다.",
+      "interpretation": "유금은 재물 운에서 중요한 역할을 하며, 정보의 가치를 판단한다.",
+      "action": "유금이 있는 경우, 정보의 진위를 명확히 구분하고 활용하라.",
+      "cautions": [
+        "유금이 없으면 정보 과잉으로 혼란이 생길 수 있다."
+      ],
+      "tags": [
+        "유금",
+        "정보",
+        "재물",
+        "판단",
+        "선별"
+      ]
+    },
+    {
+      "id": "RC-6353e3b3ff",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "사화",
+        "exists": true
+      },
+      "mechanism": "사화는 접근성을 높이고 재물에 대한 기회를 제공하지만, 과도한 정보로 혼란을 초래할 수 있다.",
+      "interpretation": "사화는 돈 버는 접근성을 높이지만, 정보 과잉으로 판단력이 흐려질 수 있다.",
+      "action": "사화의 에너지를 활용해 기회를 잡되, 정보의 진위를 유금으로 보완하라.",
+      "cautions": [
+        "정보 과잉으로 판단력이 흐려질 수 있다."
+      ],
+      "tags": [
+        "사화",
+        "접근성",
+        "재물",
+        "정보",
+        "혼란"
+      ]
+    },
+    {
+      "id": "RC-abd3a32b74",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "인사신",
+        "exists": true,
+        "water": false
+      },
+      "mechanism": "인사신은 조절되지 않으면 충동적이고 무모한 행동을 유발한다.",
+      "interpretation": "인사신은 조절되지 않으면 재물 운에서 손실을 초래할 수 있다.",
+      "action": "수기를 통해 인사신의 에너지를 조절하라.",
+      "cautions": [
+        "수기가 없으면 충동적 행동으로 손실이 발생할 수 있다."
+      ],
+      "tags": [
+        "인사신",
+        "조절",
+        "충동",
+        "재물",
+        "수기"
+      ]
+    },
+    {
+      "id": "RC-7131832d8d",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "fire": "정화",
+        "exists": true
+      },
+      "mechanism": "신금은 정화와 함께 있을 때 재물 운이 활성화된다.",
+      "interpretation": "신금과 정화의 조합은 돈 버는 재주를 강화한다.",
+      "action": "정화가 있는 경우 신금의 재물 운을 적극 활용하라.",
+      "cautions": [
+        "정화가 없으면 신금의 재물 운이 약화된다."
+      ],
+      "tags": [
+        "신금",
+        "정화",
+        "재물",
+        "조합",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-b1a51a72d0",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "해수",
+        "fire": "병화",
+        "exists": true
+      },
+      "mechanism": "병화는 해수의 유동성을 활성화하여 자본의 흐름을 원활하게 한다.",
+      "interpretation": "병화와 해수의 조합은 자본의 유동성을 높이고 재물 운을 강화한다.",
+      "action": "병화와 해수를 활용해 자본의 흐름을 최적화하라.",
+      "cautions": [
+        "병화가 없으면 해수의 자본 활용 능력이 제한될 수 있다."
+      ],
+      "tags": [
+        "해수",
+        "병화",
+        "유동성",
+        "자본",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-d218e0e03c",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "생지",
+        "exists": true
+      },
+      "mechanism": "생지는 가변성이 크며, 안정적인 재물 운을 유지하기 어렵다.",
+      "interpretation": "생지는 재물 운에서 변동성이 크고 안정성이 부족하다.",
+      "action": "생지의 가변성을 보완할 수 있는 안정적인 요소를 추가하라.",
+      "cautions": [
+        "가변성이 커서 재물 운이 불안정할 수 있다."
+      ],
+      "tags": [
+        "생지",
+        "가변성",
+        "재물",
+        "안정성",
+        "변동성"
+      ]
+    },
+    {
+      "id": "RC-d05bd49d25",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "삼합",
+        "earth": true
+      },
+      "mechanism": "삼합은 논리적 구조를 완성하며 재물 운에서 자기 가치 실현을 돕는다.",
+      "interpretation": "삼합은 재물 운보다는 자기 가치 실현에 중점을 둔다.",
+      "action": "삼합의 논리적 구조를 활용해 자기 가치를 실현하라.",
+      "cautions": [
+        "토가 없으면 삼합의 논리가 완성되지 않는다."
+      ],
+      "tags": [
+        "삼합",
+        "논리",
+        "재물",
+        "가치",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-65ecbed05f",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "해수",
+        "wood": "지지",
+        "earth": "청간"
+      },
+      "mechanism": "해수는 목과 토의 조합으로 자본의 안정성과 흐름을 강화한다.",
+      "interpretation": "해수는 목과 토의 조합으로 재물 운을 안정적으로 유지한다.",
+      "action": "해수와 목, 토의 조합을 활용해 자본의 흐름을 최적화하라.",
+      "cautions": [
+        "목과 토가 없으면 해수의 재물 운이 약화된다."
+      ],
+      "tags": [
+        "해수",
+        "목",
+        "토",
+        "재물",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-854b3bac03",
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "element": "생지",
+        "water": true
+      },
+      "mechanism": "생지는 수의 에너지를 통해 재물 운의 변동성을 조절할 수 있다.",
+      "interpretation": "생지는 수의 에너지를 통해 재물 운을 안정화할 수 있다.",
+      "action": "생지에 수의 에너지를 추가해 변동성을 줄여라.",
+      "cautions": [
+        "수의 에너지가 없으면 변동성이 커질 수 있다."
+      ],
+      "tags": [
+        "생지",
+        "수",
+        "재물",
+        "안정화",
+        "변동성"
+      ]
+    },
+    {
+      "id": "RC-f2095fb915",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "해수",
+        "fire": "병화",
+        "wood": "갑목"
+      },
+      "mechanism": "병화와 갑목은 해수의 자본 흐름을 활성화하고 안정성을 제공한다.",
+      "interpretation": "병화와 갑목의 조합은 해수의 재물 운을 강화한다.",
+      "action": "병화와 갑목을 활용해 해수의 자본 흐름을 최적화하라.",
+      "cautions": [
+        "병화와 갑목이 없으면 해수의 자본 활용 능력이 제한될 수 있다."
+      ],
+      "tags": [
+        "해수",
+        "병화",
+        "갑목",
+        "재물",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [
+    "축토와 미토의 특성을 비교하며 재물 관리 전략을 세우는 것이 중요함.",
+    "목과 금의 에너지가 축토의 재물화에 중요한 역할을 함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_022",
+  "updated_at": "2025-12-23T20:27:26"
+}

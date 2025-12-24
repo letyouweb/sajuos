@@ -1,0 +1,429 @@
+{
+  "title": "SajuOS_Logic_ELEM_001",
+  "rulecards": [
+    {
+      "id": "RC-ddae101d36",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "임수",
+        "context": "무토 존재"
+      },
+      "mechanism": "무토는 임수의 흐름을 한정하여 사용 가능하게 만듦.",
+      "interpretation": "임수의 거대한 에너지가 무토로 인해 특정 영역에서 활용 가능해짐.",
+      "action": "임수를 활용하려면 무토를 통해 한정된 영역을 설정하라.",
+      "cautions": [
+        "무토가 없으면 임수의 방향성이 불분명해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "무토",
+        "한정",
+        "흐름",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-9a59f4bb92",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "context": "기토 존재"
+      },
+      "mechanism": "기토는 임수와 섞여 사회적 융합을 가능하게 함.",
+      "interpretation": "기토가 임수와 섞이면 사람들과 어울리는 능력이 강화됨.",
+      "action": "기토가 임수와 섞일 때 사회적 관계를 적극 활용하라.",
+      "cautions": [
+        "기토가 지나치게 섞이면 분별력을 잃을 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "기토",
+        "융합",
+        "사회성",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-cbd448d625",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "context": "정임합"
+      },
+      "mechanism": "정임합은 임수에 목적성을 부여하며 재물과 연결됨.",
+      "interpretation": "정임합은 임수가 재물 추구와 관련된 방향으로 작용함.",
+      "action": "정임합이 있을 때 재물 관련 기회를 적극적으로 활용하라.",
+      "cautions": [
+        "정임합이 과열되면 판단력이 흐려질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "정임합",
+        "재물",
+        "목적성",
+        "판단력"
+      ]
+    },
+    {
+      "id": "RC-e289d200b0",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "context": "갑목 존재"
+      },
+      "mechanism": "갑목은 임수의 흐름을 방향성 있게 설정함.",
+      "interpretation": "갑목은 임수의 흐름을 명확히 하여 직업적 방향성을 제공함.",
+      "action": "갑목이 있을 때 장기적인 목표를 설정하라.",
+      "cautions": [
+        "갑목이 없으면 임수의 흐름이 무작위로 흘러갈 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "갑목",
+        "방향성",
+        "목표",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-0fa6f54c54",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "임수",
+        "context": "정화 존재"
+      },
+      "mechanism": "정화는 임수에 목적성을 부여하며 재물과 연결됨.",
+      "interpretation": "정화는 임수의 에너지를 재물 추구로 전환시킴.",
+      "action": "정화가 있을 때 재물 관련 활동에 집중하라.",
+      "cautions": [
+        "정화가 과도하면 임수의 본질이 흐려질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "정화",
+        "재물",
+        "목적성",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-81b94718fb",
+      "topic": "ELEMENTS",
+      "priority": 4,
+      "trigger": {
+        "element": "임수",
+        "context": "무토와 정화 동시 존재"
+      },
+      "mechanism": "무토와 정화는 임수를 한정하고 목적성을 부여함.",
+      "interpretation": "무토와 정화는 임수의 에너지를 구체적이고 실용적으로 활용 가능하게 만듦.",
+      "action": "무토와 정화가 있을 때 명확한 목표를 설정하고 실행하라.",
+      "cautions": [
+        "두 요소가 없으면 임수의 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "무토",
+        "정화",
+        "목적성",
+        "한정"
+      ]
+    },
+    {
+      "id": "RC-ef55dfb555",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "context": "기토 탁임"
+      },
+      "mechanism": "기토 탁임은 임수와 섞여 사회적 융합을 가능하게 함.",
+      "interpretation": "기토 탁임은 임수가 사회적 관계에서 융합력을 발휘하게 함.",
+      "action": "기토 탁임이 있을 때 사람들과의 관계를 적극적으로 활용하라.",
+      "cautions": [
+        "기토가 지나치게 섞이면 임수의 본질이 흐려질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "기토",
+        "탁임",
+        "융합",
+        "사회성"
+      ]
+    },
+    {
+      "id": "RC-cd0d72f3ae",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "임수",
+        "context": "온도 높음"
+      },
+      "mechanism": "온도가 높으면 임수의 에너지가 분산됨.",
+      "interpretation": "임수의 본질이 흐려지고 판단력이 약화될 수 있음.",
+      "action": "온도가 높을 때는 냉정을 유지하고 신중히 판단하라.",
+      "cautions": [
+        "온도가 높으면 재물과 이성 문제에서 실수가 발생할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "온도",
+        "분산",
+        "판단력",
+        "냉정"
+      ]
+    },
+    {
+      "id": "RC-b0f1fdcfd3",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "context": "갑목과 무토 동시 존재"
+      },
+      "mechanism": "갑목과 무토는 임수의 방향성과 영역을 설정함.",
+      "interpretation": "임수의 에너지가 명확한 방향성과 실용성을 갖게 됨.",
+      "action": "갑목과 무토가 있을 때 장기적 목표와 실용적 계획을 세워라.",
+      "cautions": [
+        "두 요소가 없으면 임수의 에너지가 무작위로 흘러갈 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "갑목",
+        "무토",
+        "방향성",
+        "영역"
+      ]
+    },
+    {
+      "id": "RC-8e9ef1805c",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "state": "흐름"
+      },
+      "mechanism": "수는 흐르는 성질을 가지며, 다른 요소와 상호작용하여 영향을 미친다.",
+      "interpretation": "수가 흐르면 주변에 긍정적 또는 부정적 영향을 미칠 수 있다.",
+      "action": "수가 흐르는 환경에서 그 에너지를 긍정적으로 활용할 방법을 모색하라.",
+      "cautions": [
+        "수가 흐를 때 주변에 미치는 영향을 주의 깊게 관찰하라."
+      ],
+      "tags": [
+        "수",
+        "흐름",
+        "에너지",
+        "영향",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-c043060b65",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "interaction": "화"
+      },
+      "mechanism": "수와 화의 상호작용은 에너지의 순환과 변환을 의미한다.",
+      "interpretation": "수화의 조화는 에너지의 균형과 활용을 가능하게 한다.",
+      "action": "수와 화의 균형을 유지하여 에너지를 효율적으로 활용하라.",
+      "cautions": [
+        "수화의 불균형은 에너지 낭비나 문제를 초래할 수 있다."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "균형",
+        "에너지",
+        "순환"
+      ]
+    },
+    {
+      "id": "RC-99ddeb4f75",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "interaction": "목"
+      },
+      "mechanism": "수는 목을 생하며, 목은 수의 에너지를 활용하여 성장한다.",
+      "interpretation": "수의 에너지는 목의 성장을 돕는 원천이다.",
+      "action": "수의 에너지를 목의 성장과 발전에 활용하라.",
+      "cautions": [
+        "수의 과잉은 목의 성장을 방해할 수 있다."
+      ],
+      "tags": [
+        "수",
+        "목",
+        "생",
+        "성장",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-64e211e808",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "금"
+      },
+      "mechanism": "금은 수를 생하며, 수는 금의 에너지를 받아들인다.",
+      "interpretation": "금생수는 수의 에너지를 강화하고 유지한다.",
+      "action": "금의 에너지를 활용하여 수의 흐름을 안정적으로 유지하라.",
+      "cautions": [
+        "금생수가 과도하면 수가 탁해질 수 있다."
+      ],
+      "tags": [
+        "수",
+        "금",
+        "생",
+        "유지",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-b921c1e5d2",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "state": "탁함"
+      },
+      "mechanism": "수의 과잉은 정보 과부하와 같은 부정적 영향을 초래한다.",
+      "interpretation": "탁한 수는 에너지의 효율적 활용을 방해한다.",
+      "action": "수의 흐름을 정화하고 균형을 유지하라.",
+      "cautions": [
+        "탁한 수는 판단력 저하와 혼란을 초래할 수 있다."
+      ],
+      "tags": [
+        "수",
+        "탁함",
+        "정화",
+        "균형",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-df082282c7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "interaction": "인성"
+      },
+      "mechanism": "수는 인성을 통해 지혜와 정보를 축적하고 활용한다.",
+      "interpretation": "수와 인성의 조화는 지혜와 전문성을 강화한다.",
+      "action": "수와 인성의 상호작용을 통해 지식을 체계적으로 활용하라.",
+      "cautions": [
+        "인성이 과도하면 수의 흐름이 제한될 수 있다."
+      ],
+      "tags": [
+        "수",
+        "인성",
+        "지혜",
+        "전문성",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-38c1ddebb8",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "정인"
+      },
+      "mechanism": "정인은 수의 에너지를 체계적으로 활용하도록 돕는다.",
+      "interpretation": "정인은 수의 에너지를 공인된 형태로 변환한다.",
+      "action": "정인의 도움을 받아 수의 에너지를 체계적으로 활용하라.",
+      "cautions": [
+        "정인의 영향이 과도하면 자율성이 제한될 수 있다."
+      ],
+      "tags": [
+        "수",
+        "정인",
+        "체계",
+        "활용",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-914e39b6cb",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "수",
+        "interaction": "편인"
+      },
+      "mechanism": "편인은 수의 에너지를 창의적이고 유연하게 활용한다.",
+      "interpretation": "편인은 수의 에너지를 독창적으로 변환한다.",
+      "action": "편인의 도움을 받아 수의 에너지를 창의적으로 활용하라.",
+      "cautions": [
+        "편인의 영향이 과도하면 방향성이 흐려질 수 있다."
+      ],
+      "tags": [
+        "수",
+        "편인",
+        "창의성",
+        "유연성",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-8c570b65b7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "interaction": "화",
+        "state": "부족"
+      },
+      "mechanism": "화가 부족하면 수의 에너지가 제대로 활용되지 못한다.",
+      "interpretation": "화의 부족은 수의 에너지 순환을 방해한다.",
+      "action": "화의 에너지를 보충하여 수의 순환을 원활히 하라.",
+      "cautions": [
+        "화의 부족은 에너지 정체를 초래할 수 있다."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "부족",
+        "순환",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-3309b64bd1",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "목",
+        "state": "과잉"
+      },
+      "mechanism": "목이 과잉되면 수의 에너지가 소모된다.",
+      "interpretation": "목의 과잉은 수의 에너지 고갈을 초래할 수 있다.",
+      "action": "목의 에너지를 조절하여 수의 균형을 유지하라.",
+      "cautions": [
+        "목의 과잉은 수의 에너지 고갈을 초래할 수 있다."
+      ],
+      "tags": [
+        "수",
+        "목",
+        "과잉",
+        "소모",
+        "오행"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_001",
+  "updated_at": "2025-12-23T20:27:25"
+}

@@ -1,0 +1,455 @@
+{
+  "title": "SajuOS_Logic_STRU_M_090",
+  "rulecards": [
+    {
+      "id": "RC-21c48ea250",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "인월",
+        "element": "계수",
+        "structure": "상관"
+      },
+      "mechanism": "계수가 상관으로 작용하며 타인을 위한 희생과 보조 역할을 강조함.",
+      "interpretation": "타인을 위해 헌신하거나 보좌하는 역할에 적합한 구조.",
+      "action": "타인의 입장에서 행동하며 상관의 긍정적 역할을 극대화할 것.",
+      "cautions": [
+        "자신의 희생이 과도해질 수 있음.",
+        "타인의 기대에 지나치게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "인월",
+        "계수",
+        "상관",
+        "희생",
+        "보좌"
+      ]
+    },
+    {
+      "id": "RC-e25e767fa9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "편인"
+      },
+      "mechanism": "편인이 상관을 극하면서 논리성과 타당성을 강화함.",
+      "interpretation": "상관이 단순한 표현이 아니라 근거 있는 논리적 대화로 발전.",
+      "action": "대화나 토론에서 논리적 근거를 활용하여 설득력을 높일 것.",
+      "cautions": [
+        "편인의 극이 지나치면 상관의 표현력이 억제될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "편인",
+        "논리성",
+        "설득력",
+        "대화"
+      ]
+    },
+    {
+      "id": "RC-42b18fd191",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "상관",
+        "condition": "파료상관"
+      },
+      "mechanism": "편인의 극이 지나쳐 상관의 출력이 억제됨.",
+      "interpretation": "상관이 제대로 작용하지 못해 자신감과 실행력이 저하됨.",
+      "action": "상관의 작용을 회복하기 위해 병화와 같은 조화 요소를 활용할 것.",
+      "cautions": [
+        "파료상관은 신체적, 정신적 문제로 이어질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "편인",
+        "파료상관",
+        "자신감",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-62563b4cfd",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "혼잡",
+        "elements": [
+          "식신",
+          "상관"
+        ]
+      },
+      "mechanism": "혼잡된 식신과 상관이 다양한 방법을 시도하게 함.",
+      "interpretation": "다양한 접근 방식을 통해 문제를 해결할 수 있는 유연성을 가짐.",
+      "action": "혼잡된 에너지를 조화롭게 활용하기 위해 병화를 중심으로 결속시킬 것.",
+      "cautions": [
+        "에너지가 분산되어 집중력이 저하될 수 있음."
+      ],
+      "tags": [
+        "혼잡",
+        "식신",
+        "상관",
+        "유연성",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-2ee447f8d7",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "병화"
+      },
+      "mechanism": "병화가 상관의 타이밍과 속도를 조절하여 긍정적 작용을 강화함.",
+      "interpretation": "상관이 설득력과 대화 능력을 발휘하며 인정받을 수 있음.",
+      "action": "병화를 활용하여 상관의 긍정적 역할을 극대화할 것.",
+      "cautions": [
+        "병화가 없으면 상관의 작용이 제한될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "병화",
+        "설득력",
+        "대화",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-859f208dd3",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "정화"
+      },
+      "mechanism": "정화가 상관의 작용을 보조하며 소극적이나마 조화를 이룸.",
+      "interpretation": "상관이 제한적이나마 작용하여 전문성을 발휘할 수 있음.",
+      "action": "정화를 활용하여 상관의 작용을 보완할 것.",
+      "cautions": [
+        "정화는 병화만큼 적극적이지 않음."
+      ],
+      "tags": [
+        "상관",
+        "정화",
+        "조화",
+        "보완",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-96425c7582",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "신금"
+      },
+      "mechanism": "신금이 수생목을 유지하며 상관의 지속력을 강화함.",
+      "interpretation": "상관이 지속적으로 작용하여 학업이나 전문성을 유지할 수 있음.",
+      "action": "신금을 활용하여 상관의 지속력을 강화할 것.",
+      "cautions": [
+        "신금이 없으면 지속력이 약화될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "신금",
+        "수생목",
+        "지속력",
+        "학업"
+      ]
+    },
+    {
+      "id": "RC-c012f89648",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "병화",
+        "condition": "조화 부족"
+      },
+      "mechanism": "병화가 상관의 조화를 회복하며 설득력을 강화함.",
+      "interpretation": "상관이 조화롭게 작용하여 대화와 설득에서 인정받음.",
+      "action": "병화를 활용하여 상관의 조화를 회복할 것.",
+      "cautions": [
+        "병화가 없으면 상관의 작용이 제한될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "병화",
+        "조화",
+        "설득력",
+        "대화"
+      ]
+    },
+    {
+      "id": "RC-88b968c8dc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "유금"
+      },
+      "mechanism": "유금이 상관의 작용을 제한하며 개인성을 강조함.",
+      "interpretation": "상관이 제한적으로 작용하며 개인적 성향이 강해짐.",
+      "action": "유금을 활용하여 상관의 작용을 조절할 것.",
+      "cautions": [
+        "유금이 과도하면 상관의 작용이 억제될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "유금",
+        "개인성",
+        "조절",
+        "제한"
+      ]
+    },
+    {
+      "id": "RC-8eed7fa12e",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "상관",
+        "interaction": "편관"
+      },
+      "mechanism": "편관이 상관의 작용을 보조하며 사회적 역할을 강화함.",
+      "interpretation": "상관이 사회적 역할을 수행하며 인정받을 수 있음.",
+      "action": "편관을 활용하여 상관의 사회적 역할을 강화할 것.",
+      "cautions": [
+        "편관이 없으면 상관의 사회적 역할이 제한될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "편관",
+        "사회성",
+        "역할",
+        "인정"
+      ]
+    },
+    {
+      "id": "RC-e0779830a2",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "days": {
+          "start": 1,
+          "end": 10
+        }
+      },
+      "mechanism": "묘월 초반 10일은 간목의 성향이 우세함.",
+      "interpretation": "초반에는 목의 시작 에너지가 강하게 작용.",
+      "action": "초반 10일 동안은 화의 에너지를 활용.",
+      "cautions": [
+        "간목 성향이 강해 수호를 쓰기 어려움."
+      ],
+      "tags": [
+        "묘월",
+        "간목",
+        "초반",
+        "화",
+        "목의 시작"
+      ]
+    },
+    {
+      "id": "RC-8afe424066",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "days": {
+          "start": 11,
+          "end": 30
+        }
+      },
+      "mechanism": "묘월 후반부는 을목의 성향이 우세함.",
+      "interpretation": "목의 에너지가 구체화되고 현실적으로 드러남.",
+      "action": "후반부에는 수호를 활용하여 안정적인 구조를 형성.",
+      "cautions": [
+        "수호를 활용할 때 부담이 있을 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "을목",
+        "후반",
+        "수호",
+        "목의 구체화"
+      ]
+    },
+    {
+      "id": "RC-79138d9916",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "묘유충"
+      },
+      "mechanism": "묘와 유는 왕지로서 충돌 시 강한 에너지를 발산.",
+      "interpretation": "충돌을 통해 전문성을 드러낼 수 있음.",
+      "action": "충돌을 두려워하지 말고 적극적으로 활용.",
+      "cautions": [
+        "충돌로 인해 긴장감이 높아질 수 있음."
+      ],
+      "tags": [
+        "묘유충",
+        "왕지",
+        "충돌",
+        "전문성",
+        "긴장"
+      ]
+    },
+    {
+      "id": "RC-08a14ed10f",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "인신충"
+      },
+      "mechanism": "인신충은 초기 단계에서 에너지가 강하게 작용.",
+      "interpretation": "초기에 번복하거나 방향을 바꾸는 경향.",
+      "action": "초기 결정을 신중히 하고 변화를 대비.",
+      "cautions": [
+        "초기 에너지 소모가 클 수 있음."
+      ],
+      "tags": [
+        "인신충",
+        "초기",
+        "변화",
+        "결정",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-9f14cecb47",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "묘신원진"
+      },
+      "mechanism": "묘신 원진은 습한 조건에서 오래 지속됨.",
+      "interpretation": "문제가 누적되어 해결이 어려움.",
+      "action": "조한 에너지나 토의 개입으로 해결 시도.",
+      "cautions": [
+        "문제가 장기화될 가능성이 높음."
+      ],
+      "tags": [
+        "묘신원진",
+        "습",
+        "누적",
+        "조한",
+        "토"
+      ]
+    },
+    {
+      "id": "RC-a45a644447",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "type": "왕지"
+      },
+      "mechanism": "왕지는 극을 잘하며 생설에는 소극적.",
+      "interpretation": "토를 점유하려는 강한 자신감.",
+      "action": "왕지의 극 에너지를 활용해 문제 해결.",
+      "cautions": [
+        "생설이 약해 균형을 잃을 수 있음."
+      ],
+      "tags": [
+        "왕지",
+        "토",
+        "극",
+        "생설",
+        "자신감"
+      ]
+    },
+    {
+      "id": "RC-c8aa10c149",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "stage": "묘"
+      },
+      "mechanism": "묘는 목의 구체화 단계로 성장과 현실화가 특징.",
+      "interpretation": "목의 에너지가 뚜렷하게 드러남.",
+      "action": "목의 구체적 에너지를 활용해 성과를 도출.",
+      "cautions": [
+        "목의 에너지가 과도하면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "묘",
+        "구체화",
+        "성장",
+        "현실화"
+      ]
+    },
+    {
+      "id": "RC-38bef0a947",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "왕지끼리 만남"
+      },
+      "mechanism": "왕지끼리 만나면 생설이 약하고 극이 강함.",
+      "interpretation": "연기처럼 은근한 에너지가 발산됨.",
+      "action": "왕지의 극 에너지를 활용해 점진적 변화를 유도.",
+      "cautions": [
+        "생설 부족으로 에너지 순환이 어려울 수 있음."
+      ],
+      "tags": [
+        "왕지",
+        "극",
+        "생설",
+        "연기",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-5098917085",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "수생목"
+      },
+      "mechanism": "수생목은 왕지에서 점진적으로 일어남.",
+      "interpretation": "수생목이 안정적으로 작용하려면 사화가 필요.",
+      "action": "사화와 같은 에너지를 활용해 수생목을 촉진.",
+      "cautions": [
+        "수생목이 소극적으로 작용할 가능성 있음."
+      ],
+      "tags": [
+        "수생목",
+        "왕지",
+        "사화",
+        "점진적",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-0e1fdfd8bf",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "묘충"
+      },
+      "mechanism": "묘충은 충돌을 통해 에너지를 발산.",
+      "interpretation": "충돌로 인해 새로운 가능성이 열림.",
+      "action": "충돌을 긍정적으로 받아들이고 활용.",
+      "cautions": [
+        "충돌로 인해 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "묘충",
+        "충돌",
+        "에너지",
+        "갈등",
+        "가능성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_090",
+  "updated_at": "2025-12-23T20:27:24"
+}

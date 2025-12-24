@@ -1,0 +1,463 @@
+{
+  "title": "SajuOS_Logic_STRU_M_093",
+  "rulecards": [
+    {
+      "id": "RC-0afd3b6bf9",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "살인상생",
+        "active": true
+      },
+      "mechanism": "살인상생은 살을 받아들이고 소화하는 구조를 의미함.",
+      "interpretation": "살인상생 구조를 가진 사람은 외부의 강한 자극을 통해 성장할 수 있음.",
+      "action": "살인상생 구조를 가진 사람에게는 도전적 환경을 제공하되, 과도한 압박은 피할 것.",
+      "cautions": [
+        "살인상생이 아닌 경우 강한 자극은 트라우마를 유발할 수 있음."
+      ],
+      "tags": [
+        "살인상생",
+        "성장",
+        "자극",
+        "트라우마",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-5fa93888a0",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "element": "병화"
+      },
+      "mechanism": "묘월의 병화는 목의 빠른 성장과 학습 속도를 의미함.",
+      "interpretation": "묘월 병화는 학습 속도가 빠르고 응용력이 뛰어남.",
+      "action": "학습 계획을 세울 때 암기와 응용을 병행하도록 지도.",
+      "cautions": [
+        "지나친 선행학습은 오히려 학습 효율을 떨어뜨릴 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "병화",
+        "학습",
+        "속도",
+        "응용"
+      ]
+    },
+    {
+      "id": "RC-474e70d12b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "strength": "강함"
+      },
+      "mechanism": "강한 수는 목생화를 방해할 수 있음.",
+      "interpretation": "수가 강할 경우 목생화의 균형이 깨질 위험이 있음.",
+      "action": "강한 수를 조절하기 위해 금생수를 활용할 것.",
+      "cautions": [
+        "수의 과도한 강함은 학습과 성장에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "수",
+        "목생화",
+        "균형",
+        "금생수",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-df317b60bb",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "role": "식신"
+      },
+      "mechanism": "토가 식신으로 작용하면 자격과 전문성을 통해 독립적 직업을 형성함.",
+      "interpretation": "토를 활용하면 자영업이나 프리랜서 형태의 직업이 적합함.",
+      "action": "자격증 취득이나 전문성을 강화하여 독립적 직업을 준비.",
+      "cautions": [
+        "토가 약하면 안정적인 직업 유지가 어려울 수 있음."
+      ],
+      "tags": [
+        "토",
+        "식신",
+        "자격",
+        "독립",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-21a32f616c",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "interaction": "목극토"
+      },
+      "mechanism": "목극토는 재물을 창출하는 구조를 형성함.",
+      "interpretation": "목극토가 강하면 재물 창출 능력이 뛰어남.",
+      "action": "목극토의 균형을 유지하며 재테크나 사업 확장을 고려.",
+      "cautions": [
+        "목극토가 과도하면 재물 관리에 어려움이 생길 수 있음."
+      ],
+      "tags": [
+        "목극토",
+        "재물",
+        "사업",
+        "균형",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-c37d373dfd",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "병진일주, 묘월 조건"
+      },
+      "mechanism": "병진일주는 묘월의 조건에서 확장성과 적응력을 발휘함.",
+      "interpretation": "병진일주는 변화에 잘 적응하며 확장적 성향을 가짐.",
+      "action": "변화하는 환경에 유연하게 대처하며 기회를 활용.",
+      "cautions": [
+        "확장에만 집중하면 깊이를 놓칠 수 있음."
+      ],
+      "tags": [
+        "병진일주",
+        "묘월",
+        "확장",
+        "적응",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-74486ecf1f",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "relation": "원진",
+        "element": "습"
+      },
+      "mechanism": "원진은 오래된 감정적 축적을 의미하며, 해결 능력이 중요함.",
+      "interpretation": "원진적 조건을 가진 사람은 관계 문제를 극적으로 해결할 수 있음.",
+      "action": "감정적 문제를 해결할 때 적극적으로 개입하고 조언.",
+      "cautions": [
+        "원진이 해소되지 않으면 관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "원진",
+        "감정",
+        "해결",
+        "관계",
+        "축적"
+      ]
+    },
+    {
+      "id": "RC-c27850a001",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "element": "인성",
+        "interaction": "재극인"
+      },
+      "mechanism": "재극인은 목적성을 부여받아야 학습 동기가 생김.",
+      "interpretation": "재극인 학생은 실용적 목표가 있을 때 학습 효율이 높아짐.",
+      "action": "학습 목표를 명확히 설정하고 실용적 동기를 부여.",
+      "cautions": [
+        "목적 없는 학습은 동기 부여가 어려움."
+      ],
+      "tags": [
+        "재극인",
+        "학습",
+        "목적",
+        "동기",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-3096efa32f",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "role": "재성"
+      },
+      "mechanism": "금이 재성으로 작용하면 안정적 직업 환경을 제공함.",
+      "interpretation": "금이 강하면 직업적 안정성과 경력 유지가 용이함.",
+      "action": "금의 강화를 통해 안정적인 직업 환경을 구축.",
+      "cautions": [
+        "금이 약하면 직업적 변동성이 커질 수 있음."
+      ],
+      "tags": [
+        "금",
+        "재성",
+        "안정",
+        "직업",
+        "경력"
+      ]
+    },
+    {
+      "id": "RC-bd307d8cbb",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "interaction": "목극토"
+      },
+      "mechanism": "목극토는 토의 활용도를 높이며 재물 창출에 기여함.",
+      "interpretation": "토가 강하면 목극토를 통해 재물 창출이 용이함.",
+      "action": "목극토의 균형을 유지하며 재물 관리에 집중.",
+      "cautions": [
+        "토가 약하면 목극토의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "토",
+        "목극토",
+        "재물",
+        "균형",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-a31f3eda41",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화"
+      },
+      "mechanism": "묘월의 정화는 습한 조건이 문제를 일으키며, 이를 해결해야 재능이 발휘됨.",
+      "interpretation": "습한 조건이 해결되면 천재성과 전문성이 드러남.",
+      "action": "습을 조절할 수 있는 환경과 조건을 마련하라.",
+      "cautions": [
+        "습한 환경은 정신적, 신체적 문제를 유발할 수 있음."
+      ],
+      "tags": [
+        "묘월",
+        "정화",
+        "습",
+        "천재성",
+        "전문성",
+        "조절",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-9c0dcb1c3b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "병화"
+      },
+      "mechanism": "병화는 습을 해결하며 정화의 역할을 돕는 귀인 역할을 함.",
+      "interpretation": "병화가 있으면 정화의 재능과 역할이 극대화됨.",
+      "action": "병화의 존재를 활용하여 습을 해결하고 재능을 발휘하라.",
+      "cautions": [
+        "병화가 없으면 습 조절이 어려울 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "습",
+        "정화",
+        "귀인",
+        "재능",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-31a1cb6ab3",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "무토"
+      },
+      "mechanism": "무토는 정화의 에너지를 보존하고 안정화시킴.",
+      "interpretation": "무토가 있으면 정화의 지속성과 안정성이 강화됨.",
+      "action": "무토를 활용하여 정화의 에너지를 유지하라.",
+      "cautions": [
+        "무토가 없으면 정화의 에너지가 쉽게 소진될 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "정화",
+        "안정성",
+        "보존",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-3db1414e67",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "간목"
+      },
+      "mechanism": "간목은 습을 조절하고 목생화를 돕는 역할을 함.",
+      "interpretation": "간목이 있으면 정화의 에너지 전환이 원활해짐.",
+      "action": "간목을 활용하여 습을 조절하고 목생화를 촉진하라.",
+      "cautions": [
+        "간목이 없으면 습 조절이 어려울 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "습",
+        "목생화",
+        "조절",
+        "정화"
+      ]
+    },
+    {
+      "id": "RC-f15153e445",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "경금"
+      },
+      "mechanism": "경금은 정화가 에너지를 집중하고 활용할 수 있도록 도움.",
+      "interpretation": "경금이 있으면 정화의 전문성과 집중력이 강화됨.",
+      "action": "경금을 활용하여 정화의 에너지를 집중하라.",
+      "cautions": [
+        "신금은 정화의 에너지를 분산시킬 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "정화",
+        "집중력",
+        "전문성",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-224cd721c4",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "임수"
+      },
+      "mechanism": "임수는 조한 조건에서 습을 가중시키지 않음.",
+      "interpretation": "임수가 있으면 조한 환경에서 안정성을 제공함.",
+      "action": "임수를 활용하여 조한 조건을 유지하라.",
+      "cautions": [
+        "계수는 습을 가중시킬 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "조한",
+        "습",
+        "안정성",
+        "정화"
+      ]
+    },
+    {
+      "id": "RC-9c091fa85a",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "병화",
+        "element2": "무토"
+      },
+      "mechanism": "병화와 무토의 조합은 습을 해결하고 정화의 에너지를 안정화시킴.",
+      "interpretation": "병화와 무토가 함께 있으면 정화의 재능과 안정성이 극대화됨.",
+      "action": "병화와 무토를 활용하여 정화의 에너지를 조절하라.",
+      "cautions": [
+        "병화와 무토가 없으면 습 조절이 어려울 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "무토",
+        "정화",
+        "습",
+        "안정성",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-48ac2b3c3d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "간목",
+        "element2": "병화"
+      },
+      "mechanism": "간목과 병화는 목생화를 촉진하고 정화의 에너지를 활성화함.",
+      "interpretation": "간목과 병화가 있으면 정화의 에너지가 원활히 순환됨.",
+      "action": "간목과 병화를 활용하여 목생화를 촉진하라.",
+      "cautions": [
+        "간목과 병화가 없으면 에너지 순환이 어려울 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "병화",
+        "목생화",
+        "정화",
+        "순환"
+      ]
+    },
+    {
+      "id": "RC-877e275fd6",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "계수"
+      },
+      "mechanism": "계수는 습을 가중시켜 정화의 에너지를 약화시킴.",
+      "interpretation": "계수가 있으면 정화의 에너지가 소진될 위험이 있음.",
+      "action": "계수를 사용할 때는 간목이나 무토로 조절하라.",
+      "cautions": [
+        "계수 단독으로는 습을 가중시킬 수 있음."
+      ],
+      "tags": [
+        "계수",
+        "습",
+        "정화",
+        "조절",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-b92da71377",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "day_master": "정화",
+        "element": "축토"
+      },
+      "mechanism": "축토는 목생화를 방해하며 정화의 에너지를 약화시킴.",
+      "interpretation": "축토가 있으면 정화의 에너지가 소진될 수 있음.",
+      "action": "축토의 영향을 줄이기 위해 병화나 간목을 활용하라.",
+      "cautions": [
+        "축토가 있으면 목생화가 어려워질 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "목생화",
+        "정화",
+        "에너지",
+        "조절"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_093",
+  "updated_at": "2025-12-23T20:27:24"
+}

@@ -1,0 +1,226 @@
+{
+  "title": "SajuOS_Logic_TEN_035",
+  "rulecards": [
+    {
+      "id": "RC-8fc6bd5d0a",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "수"
+      },
+      "mechanism": "수는 에너지를 모으고 응집하는 힘을 가짐.",
+      "interpretation": "수는 흩어진 것을 하나로 모으는 특성을 가짐.",
+      "action": "수의 응집력을 활용해 사람, 물건, 정보를 모으는 데 집중.",
+      "cautions": [
+        "수의 응집력이 과도하면 고립될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "응집력",
+        "모으는 힘",
+        "집중",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-501c7835a9",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "opposite_element": "화"
+      },
+      "mechanism": "수와 화는 에너지 방향성이 반대.",
+      "interpretation": "수는 모으고 안정시키는 반면, 화는 팽창하고 확장함.",
+      "action": "수와 화의 균형을 통해 조화로운 에너지 흐름을 유지.",
+      "cautions": [
+        "수와 화의 불균형은 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "균형",
+        "안정",
+        "팽창"
+      ]
+    },
+    {
+      "id": "RC-c289f9629d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "trait": "발달"
+      },
+      "mechanism": "수 발달은 안정과 내면적 깊이를 강조.",
+      "interpretation": "수 발달자는 속이 깊고 표현이 적음.",
+      "action": "내면의 깊이를 활용해 신뢰를 쌓고 관계를 형성.",
+      "cautions": [
+        "표현 부족으로 오해를 받을 수 있음."
+      ],
+      "tags": [
+        "수",
+        "발달",
+        "안정",
+        "내면",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-34270f76c7",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "trait": "모으는 힘"
+      },
+      "mechanism": "수는 정보를 모아 재가공하는 특성을 가짐.",
+      "interpretation": "수는 모은 것을 새로운 형태로 전환하는 능력이 있음.",
+      "action": "모은 자원을 효율적으로 분류하고 활용.",
+      "cautions": [
+        "분류 작업이 미흡하면 혼란이 생길 수 있음."
+      ],
+      "tags": [
+        "수",
+        "정보",
+        "재가공",
+        "전환",
+        "분류"
+      ]
+    },
+    {
+      "id": "RC-130b8a755b",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임수"
+      },
+      "mechanism": "임수는 초기 단계에서 다양한 것을 모으는 역할.",
+      "interpretation": "임수는 분류되지 않은 상태로 정보를 취합함.",
+      "action": "임수의 데이터를 분류하고 체계화하는 데 시간을 투자.",
+      "cautions": [
+        "분류 작업이 번거로울 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "취합",
+        "분류",
+        "초기 단계",
+        "정보"
+      ]
+    },
+    {
+      "id": "RC-06f268789e",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "계수"
+      },
+      "mechanism": "계수는 이미 분류된 정보를 즉시 활용 가능.",
+      "interpretation": "계수는 순발력과 적응력이 뛰어남.",
+      "action": "계수의 즉시 활용 능력을 극대화.",
+      "cautions": [
+        "단독으로 쓰이기 어려운 경우가 있음."
+      ],
+      "tags": [
+        "계수",
+        "즉시 활용",
+        "순발력",
+        "적응력",
+        "분류"
+      ]
+    },
+    {
+      "id": "RC-6b2741a5ad",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "trait": "대상 중심"
+      },
+      "mechanism": "수는 대상을 윤택하게 하고 지원하는 역할.",
+      "interpretation": "수는 타인을 중심으로 살아가는 경향이 있음.",
+      "action": "타인을 지원하고 윤택하게 만드는 데 집중.",
+      "cautions": [
+        "자신을 희생하는 경향이 있을 수 있음."
+      ],
+      "tags": [
+        "수",
+        "대상 중심",
+        "윤택",
+        "지원",
+        "타인"
+      ]
+    },
+    {
+      "id": "RC-046754a63c",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "trait": "흐르는 수"
+      },
+      "mechanism": "흐르는 수는 대상을 끌어들여 자신을 드러냄.",
+      "interpretation": "흐르는 수는 자신을 중심으로 대상을 활용함.",
+      "action": "자신의 목표를 위해 자원을 효율적으로 활용.",
+      "cautions": [
+        "과도한 자기중심적 행동은 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "흐름",
+        "활용",
+        "자기중심",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-1e23d15ad1",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "trait": "강함"
+      },
+      "mechanism": "강한 수는 통로가 없으면 과잉으로 작용.",
+      "interpretation": "강한 수는 적절한 통로가 필요함.",
+      "action": "목을 통해 수의 흐름을 조절.",
+      "cautions": [
+        "통로가 없으면 홍수처럼 과잉 작용할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "강함",
+        "통로",
+        "조절",
+        "과잉"
+      ]
+    },
+    {
+      "id": "RC-133783f904",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "trait": "비견/겁재"
+      },
+      "mechanism": "수의 비견과 겁재는 협력과 경쟁의 양면성을 가짐.",
+      "interpretation": "수일간은 비견/겁재와의 관계에서 유기적 상호작용을 함.",
+      "action": "비견/겁재와의 관계를 조화롭게 유지.",
+      "cautions": [
+        "경쟁이 과도하면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "비견",
+        "겁재",
+        "협력",
+        "경쟁"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_035",
+  "updated_at": "2025-12-23T20:27:26"
+}

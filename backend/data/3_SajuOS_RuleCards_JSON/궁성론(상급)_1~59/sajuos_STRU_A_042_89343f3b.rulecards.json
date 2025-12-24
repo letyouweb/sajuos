@@ -1,0 +1,934 @@
+{
+  "title": "SajuOS_Logic_STRU_A_042",
+  "rulecards": [
+    {
+      "id": "RC-02213717fe",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "strength": "약함"
+      },
+      "mechanism": "기토는 임수의 흐름을 따라가며 안정적인 구조를 형성한다.",
+      "interpretation": "기토가 약할수록 임수의 흐름을 따르는 것이 유리하다.",
+      "action": "기토가 약한 경우 임수의 흐름을 존중하고 따르는 방향으로 행동하라.",
+      "cautions": [
+        "기토가 강하면 임수를 통제하려는 경향이 생길 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "흐름",
+        "구조",
+        "약함",
+        "통제",
+        "안정성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-b799293134",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "time": "임신시"
+      },
+      "mechanism": "기토일주에 임신시가 있으면 재물과 관련된 이슈가 발생하기 쉽다.",
+      "interpretation": "임신시의 기토일주는 재물 문제를 주요 과제로 삼는다.",
+      "action": "재물 관리와 관련된 상담이나 계획을 세워라.",
+      "cautions": [
+        "재물 문제로 인해 스트레스가 발생할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "임신시",
+        "재물",
+        "재정",
+        "상담",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-b5df4a2b16",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "목"
+      },
+      "mechanism": "목은 임수의 흐름을 조절하고 기토의 안정성을 강화한다.",
+      "interpretation": "목이 발달하면 기토와 임수의 조화가 이루어진다.",
+      "action": "목의 역할을 강화하여 임수의 흐름을 조절하라.",
+      "cautions": [
+        "목이 없으면 임수의 흐름을 통제하기 어려움."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "목",
+        "조화",
+        "흐름",
+        "안정성",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-a9820c791f",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "화토"
+      },
+      "mechanism": "화토가 강하면 임수의 흐름을 통제하려는 경향이 생긴다.",
+      "interpretation": "화토가 강한 경우 재물 문제에서 갈등이 발생할 수 있다.",
+      "action": "화토의 영향을 줄이고 임수의 흐름을 따르도록 노력하라.",
+      "cautions": [
+        "화토가 강하면 재물 손실 가능성이 높아짐."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "화토",
+        "재물",
+        "갈등",
+        "통제",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-539879c087",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "화토",
+        "lack": "목"
+      },
+      "mechanism": "목이 없으면 화토가 임수의 흐름을 통제하려는 경향이 강해진다.",
+      "interpretation": "목이 없는 경우 화토의 영향으로 관계 갈등이 심화될 수 있다.",
+      "action": "목의 역할을 보완하여 화토의 영향을 줄이도록 하라.",
+      "cautions": [
+        "목이 없으면 관계에서 갈등이 심화될 가능성이 있음."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "화토",
+        "목",
+        "갈등",
+        "관계",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-c7c35455f1",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "목",
+        "time": "화운"
+      },
+      "mechanism": "목과 화운이 조화를 이루면 직업적 성취가 가능하다.",
+      "interpretation": "목과 화운이 조화를 이루는 시기에 직업적 기회를 잡아라.",
+      "action": "목과 화운의 조화를 활용하여 직업적 목표를 설정하라.",
+      "cautions": [
+        "화운이 지나치게 강하면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "목",
+        "화운",
+        "직업",
+        "성취",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-adc2193874",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "화토",
+        "time": "화운"
+      },
+      "mechanism": "화운이 들어오면 기토와 임수의 관계가 불안정해질 수 있다.",
+      "interpretation": "화운 시기에 관계 갈등이 발생할 가능성이 높다.",
+      "action": "화운 시기에는 관계를 조율하고 갈등을 피하라.",
+      "cautions": [
+        "화운 시기에는 관계에서 신중함이 필요함."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "화운",
+        "관계",
+        "갈등",
+        "조율",
+        "불안정"
+      ]
+    },
+    {
+      "id": "RC-d11541feb7",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "목",
+        "lack": "화"
+      },
+      "mechanism": "화가 없으면 기토의 재물 관리 능력이 약화된다.",
+      "interpretation": "화가 없는 경우 재물 관리에서 어려움을 겪을 수 있다.",
+      "action": "화의 역할을 보완하여 재물 관리 능력을 강화하라.",
+      "cautions": [
+        "화가 없으면 재물 손실 가능성이 높아짐."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "목",
+        "화",
+        "재물",
+        "관리",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-6c993537bc",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "화",
+        "time": "병신운"
+      },
+      "mechanism": "병신운에서 화와 목이 조화를 이루면 직업적 성취가 가능하다.",
+      "interpretation": "병신운 시기에 직업적 기회를 잡아라.",
+      "action": "병신운 시기에 직업적 목표를 설정하고 실행하라.",
+      "cautions": [
+        "병신운에서 지나친 욕심은 피하라."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "병신운",
+        "화",
+        "목",
+        "직업",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-1757aabfc6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "relation": "임수",
+        "support": "화",
+        "lack": "목"
+      },
+      "mechanism": "목이 없으면 화의 영향으로 관계 갈등이 심화될 수 있다.",
+      "interpretation": "목이 없는 경우 관계에서 갈등이 발생할 가능성이 높다.",
+      "action": "목의 역할을 보완하여 관계를 조율하라.",
+      "cautions": [
+        "목이 없으면 관계에서 불안정성이 증가함."
+      ],
+      "tags": [
+        "기토",
+        "임수",
+        "화",
+        "목",
+        "관계",
+        "갈등",
+        "조율"
+      ]
+    },
+    {
+      "id": "RC-afa0704ac7",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "무토",
+        "month": "신월"
+      },
+      "mechanism": "무토가 신월에 위치하면 자아 실현 욕구가 강해짐.",
+      "interpretation": "자신이 원하는 일을 해야 만족감을 느끼며 직장생활에 어려움을 겪을 수 있음.",
+      "action": "자신이 하고 싶은 일을 찾아 실행에 옮길 것.",
+      "cautions": [
+        "재정적 안정성을 고려해야 함."
+      ],
+      "tags": [
+        "무토",
+        "신월",
+        "직업",
+        "자아실현",
+        "만족감"
+      ]
+    },
+    {
+      "id": "RC-df748ae08b",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "편재",
+        "gender": "female"
+      },
+      "mechanism": "편재는 모험과 스릴을 추구하는 성향을 강화함.",
+      "interpretation": "여명에서 편재가 강하면 위험을 인지하지 못하고 모험적인 선택을 할 가능성이 높음.",
+      "action": "위험을 감수하는 활동을 신중히 선택할 것.",
+      "cautions": [
+        "과도한 모험은 생명에 위협이 될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "여명",
+        "모험",
+        "위험",
+        "스릴"
+      ]
+    },
+    {
+      "id": "RC-cde9996e5a",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "정재",
+        "position": "연월"
+      },
+      "mechanism": "정재는 자산 축적과 안정성을 중시함.",
+      "interpretation": "정재가 연월에 있으면 가정의 경제적 습관을 물려받아 자산 관리에 집중함.",
+      "action": "재무 계획을 세우고 자산을 체계적으로 관리할 것.",
+      "cautions": [
+        "모험적 투자에 대한 거부감이 클 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "연월",
+        "자산관리",
+        "경제습관",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-8e6d02e060",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "식신이 강하고 인성이 약한 경우"
+      },
+      "mechanism": "식신은 자아 실현과 행복을 추구하는 에너지를 제공함.",
+      "interpretation": "식신이 강하면 자신이 무엇을 원하는지 명확히 알고 이를 통해 행복을 추구함.",
+      "action": "자신의 강점을 활용해 직업이나 취미를 선택할 것.",
+      "cautions": [
+        "인성이 약하면 식신을 통제하기 어려울 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "자아실현",
+        "행복",
+        "강점",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-75956cf6ea",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "인성",
+        "strength": "strong"
+      },
+      "mechanism": "인성은 참을성과 지적 능력을 강화함.",
+      "interpretation": "인성이 강한 사람은 참을성이 많고 지적인 사람을 선호함.",
+      "action": "상대방의 지적 능력과 참을성을 존중할 것.",
+      "cautions": [
+        "과도한 인성은 억눌림을 초래할 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "참을성",
+        "지적능력",
+        "선호",
+        "억눌림"
+      ]
+    },
+    {
+      "id": "RC-77e31482d5",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "쟁재",
+        "influence": "strong"
+      },
+      "mechanism": "쟁재는 재물을 다투는 성향을 나타냄.",
+      "interpretation": "쟁재가 강하면 투기적 성향이 강하며 재테크에 관심이 많음.",
+      "action": "재테크를 체계적으로 공부하고 실행할 것.",
+      "cautions": [
+        "리스크 관리가 중요함."
+      ],
+      "tags": [
+        "쟁재",
+        "재테크",
+        "투기",
+        "리스크",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-c62a2beee2",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "relation": "신금"
+      },
+      "mechanism": "정화는 신금을 활용하여 목표를 명확히 설정함.",
+      "interpretation": "정화가 신금을 보면 목표 지향적이고 체계적인 성향을 보임.",
+      "action": "목표를 구체적으로 설정하고 실행 계획을 세울 것.",
+      "cautions": [
+        "과도한 책임감으로 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "신금",
+        "목표",
+        "체계",
+        "책임감"
+      ]
+    },
+    {
+      "id": "RC-0d835ac9dd",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "신축년",
+        "element": "화"
+      },
+      "mechanism": "신축년은 화의 에너지가 약화되는 시기임.",
+      "interpretation": "화가 중요한 사주는 신축년에 에너지 저하와 경제적 타격을 경험할 수 있음.",
+      "action": "화의 에너지를 보완할 수 있는 활동을 계획할 것.",
+      "cautions": [
+        "경제적 손실에 대비할 것."
+      ],
+      "tags": [
+        "신축년",
+        "화",
+        "에너지",
+        "경제",
+        "타격"
+      ]
+    },
+    {
+      "id": "RC-20bd418d3b",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "정재가 강하고 편재가 없는 경우"
+      },
+      "mechanism": "정재는 안정성을 추구하며 모험을 회피함.",
+      "interpretation": "정재가 강하면 안정적인 재무 관리에 집중하며 모험적 선택을 꺼림.",
+      "action": "안정성을 유지하면서도 새로운 기회를 탐색할 것.",
+      "cautions": [
+        "과도한 안정 추구는 성장 기회를 제한할 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "안정성",
+        "모험",
+        "재무관리",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-ce18ecb995",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "식상",
+        "strength": "weak"
+      },
+      "mechanism": "식상이 약하면 감정을 표현하는 데 어려움을 겪음.",
+      "interpretation": "식상이 약한 사람은 감정을 억누르며 내면에 스트레스를 쌓을 가능성이 있음.",
+      "action": "감정을 표현하는 연습을 하고 스트레스를 해소할 방법을 찾을 것.",
+      "cautions": [
+        "억눌린 감정이 건강에 영향을 줄 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "감정",
+        "표현",
+        "스트레스",
+        "건강"
+      ]
+    },
+    {
+      "id": "RC-5b9ef4d2a7",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "정재",
+        "context": "재무 관련 경영"
+      },
+      "mechanism": "정재는 자산을 축적하고 관리하는 성향이 강함.",
+      "interpretation": "정재는 안정적이고 체계적인 재산 관리에 적합.",
+      "action": "재무 관리와 관련된 직업을 선택하거나 저축 및 투자에 집중.",
+      "cautions": [
+        "모험을 피하려는 경향이 있음.",
+        "편재가 없으면 큰 수익을 기대하기 어려움."
+      ],
+      "tags": [
+        "정재",
+        "재무",
+        "관리",
+        "안정",
+        "투자"
+      ]
+    },
+    {
+      "id": "RC-6c5294b978",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "편재",
+        "context": "모험적 투자"
+      },
+      "mechanism": "편재는 모험적이고 즉각적인 자산 활용을 선호.",
+      "interpretation": "편재는 큰 수익을 노리는 투자에 적합.",
+      "action": "위험을 감수할 수 있는 투자 전략을 고려.",
+      "cautions": [
+        "과도한 모험으로 손실 가능성 있음.",
+        "장기적 안정성 부족."
+      ],
+      "tags": [
+        "편재",
+        "모험",
+        "투자",
+        "수익",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-3a044ae51a",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "정재",
+        "relation": "배우자 평가"
+      },
+      "mechanism": "정재는 상대방의 재산과 능력을 수치화하여 평가.",
+      "interpretation": "정재가 강한 사람은 배우자의 경제적 안정성을 중시.",
+      "action": "배우자 선택 시 재산과 능력을 고려.",
+      "cautions": [
+        "과도한 수치화로 인간적 관계를 소홀히 할 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "배우자",
+        "평가",
+        "재산",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-35cb344d67",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "편재",
+        "relation": "배우자 평가"
+      },
+      "mechanism": "편재는 상대방의 현재 상태보다 잠재력을 중시.",
+      "interpretation": "편재가 강한 사람은 배우자의 미래 가능성을 중요하게 여김.",
+      "action": "배우자의 잠재력을 평가하고 지원.",
+      "cautions": [
+        "현재의 안정성을 간과할 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "배우자",
+        "잠재력",
+        "미래",
+        "평가"
+      ]
+    },
+    {
+      "id": "RC-e3c20e0ed6",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "정재",
+        "context": "직업 선택"
+      },
+      "mechanism": "정재는 체계적이고 안정적인 직업에 적합.",
+      "interpretation": "재무, 경영, 행정 분야에서 성공 가능성이 높음.",
+      "action": "안정적이고 체계적인 직업을 선택.",
+      "cautions": [
+        "변화에 대한 적응력이 낮을 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "직업",
+        "안정",
+        "경영",
+        "재무"
+      ]
+    },
+    {
+      "id": "RC-ebdf5fd0f3",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편재",
+        "context": "직업 선택"
+      },
+      "mechanism": "편재는 유통, 마케팅, 프랜차이즈와 같은 외향적 직업에 적합.",
+      "interpretation": "편재는 창의적이고 대외적인 활동에서 두각을 나타냄.",
+      "action": "외향적이고 창의적인 직업을 선택.",
+      "cautions": [
+        "지속 가능성을 고려해야 함."
+      ],
+      "tags": [
+        "편재",
+        "직업",
+        "유통",
+        "마케팅",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-f2b048c913",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "note": "사주에 제관이 강한 경우"
+      },
+      "mechanism": "제관은 수직적 관계를 형성하여 부부 관계를 안정화.",
+      "interpretation": "제관이 강한 사람은 부부 관계에서 권위와 책임을 중시.",
+      "action": "부부 관계에서 역할과 책임을 명확히 함.",
+      "cautions": [
+        "수평적 관계를 유지하기 어려울 수 있음."
+      ],
+      "tags": [
+        "제관",
+        "부부",
+        "수직관계",
+        "책임",
+        "권위"
+      ]
+    },
+    {
+      "id": "RC-ececce999d",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "정재",
+        "context": "노후 대비"
+      },
+      "mechanism": "정재는 축적된 자산을 기반으로 안정적인 노후를 준비.",
+      "interpretation": "정재가 강한 사람은 노후 대비를 철저히 함.",
+      "action": "장기적인 재무 계획을 수립.",
+      "cautions": [
+        "단기적 수익에 집착하지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "노후",
+        "재무계획",
+        "안정",
+        "축적"
+      ]
+    },
+    {
+      "id": "RC-f584464823",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편재",
+        "context": "노후 대비"
+      },
+      "mechanism": "편재는 자산을 활용하여 적극적으로 노후를 준비.",
+      "interpretation": "편재가 강한 사람은 노후 대비에서 창의적이고 유연한 접근을 선호.",
+      "action": "다양한 투자 방식을 고려.",
+      "cautions": [
+        "과도한 모험으로 자산 손실 가능성 있음."
+      ],
+      "tags": [
+        "편재",
+        "노후",
+        "투자",
+        "유연성",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-fbf4d321c9",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "정재와 편재의 차이"
+      },
+      "mechanism": "정재는 축적과 안정, 편재는 활용과 모험을 상징.",
+      "interpretation": "정재와 편재는 재물 관리 방식에서 상반된 특성을 가짐.",
+      "action": "자신의 사주에 맞는 재물 관리 방식을 선택.",
+      "cautions": [
+        "정재는 보수적, 편재는 과감한 선택을 주의."
+      ],
+      "tags": [
+        "정재",
+        "편재",
+        "재물",
+        "관리",
+        "차이"
+      ]
+    },
+    {
+      "id": "RC-6abdfb655d",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "편재",
+        "placement": "연"
+      },
+      "mechanism": "편재가 연에 있으면 국제적 시각과 통찰력이 발달함.",
+      "interpretation": "국내보다 해외 정치나 국제적 흐름에 관심이 많음.",
+      "action": "국제 정세와 관련된 정보를 탐구하고 활용하라.",
+      "cautions": [
+        "국내 문제에 소홀할 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "국제",
+        "통찰력",
+        "정치",
+        "연"
+      ]
+    },
+    {
+      "id": "RC-fc206a7138",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "정재"
+      },
+      "mechanism": "정재는 부분적 정보에 강하지만 종합적 판단력이 약함.",
+      "interpretation": "전체적인 흐름을 파악하기 어려움.",
+      "action": "정보를 종합적으로 분석하는 연습을 하라.",
+      "cautions": [
+        "부분적 정보에만 의존하지 말 것."
+      ],
+      "tags": [
+        "정재",
+        "정보",
+        "판단력",
+        "분석",
+        "종합"
+      ]
+    },
+    {
+      "id": "RC-d6ac5595f3",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편재",
+        "placement": "일지"
+      },
+      "mechanism": "일지의 편재는 활동성과 외향성을 강화함.",
+      "interpretation": "집에 머물기보다 외부 활동을 선호함.",
+      "action": "외부 활동을 통해 인맥을 넓히고 기회를 모색하라.",
+      "cautions": [
+        "지나친 외부 활동으로 에너지를 소진할 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "일지",
+        "외향성",
+        "활동성",
+        "인맥"
+      ]
+    },
+    {
+      "id": "RC-f71295b914",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "편재",
+        "element": "화",
+        "supporting_element": "목"
+      },
+      "mechanism": "목생화가 되면 편재의 통찰력이 강화됨.",
+      "interpretation": "미래의 전개와 결과를 예측하는 능력이 뛰어남.",
+      "action": "기획과 전략 수립에 능력을 발휘하라.",
+      "cautions": [
+        "목이 없으면 통찰력이 약화될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "목생화",
+        "통찰력",
+        "기획",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-464258e121",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "편재",
+        "element": "화",
+        "placement": "청간",
+        "supporting_element": "임수"
+      },
+      "mechanism": "임수가 병화를 선명하게 만들어 편재의 능력을 극대화함.",
+      "interpretation": "정확한 판단력과 선명한 시각을 가짐.",
+      "action": "중요한 결정을 내릴 때 임수의 영향을 고려하라.",
+      "cautions": [
+        "임수가 없으면 판단이 왜곡될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "임수",
+        "병화",
+        "판단력",
+        "선명도"
+      ]
+    },
+    {
+      "id": "RC-b435e334bb",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편재",
+        "element": "화",
+        "placement": "월"
+      },
+      "mechanism": "월의 편재는 가십과 소문에 민감하게 반응함.",
+      "interpretation": "사회적 정보와 소문에 관심이 많음.",
+      "action": "정보를 선별적으로 활용하라.",
+      "cautions": [
+        "불필요한 소문에 휘말리지 않도록 주의."
+      ],
+      "tags": [
+        "편재",
+        "월",
+        "가십",
+        "정보",
+        "소문"
+      ]
+    },
+    {
+      "id": "RC-fcaef7e4ef",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "편재",
+        "placement": "생지"
+      },
+      "mechanism": "생지의 편재는 끊임없이 활동하려는 에너지를 가짐.",
+      "interpretation": "외근직이나 활동적인 직업에 적합함.",
+      "action": "활동적인 직업을 선택하거나 외부 활동을 늘려라.",
+      "cautions": [
+        "지나친 활동으로 피로가 누적될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "생지",
+        "활동성",
+        "외근직",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-be11bcb2a6",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "편재",
+        "element": "화",
+        "placement": "청간",
+        "supporting_element": "목"
+      },
+      "mechanism": "목이 병화를 지속적으로 지원하여 안정성을 제공함.",
+      "interpretation": "병화의 빛이 지속적으로 유지됨.",
+      "action": "목의 영향을 강화하여 안정성을 확보하라.",
+      "cautions": [
+        "목이 없으면 병화의 에너지가 약화될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "병화",
+        "목",
+        "안정성",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-1e0c127bd0",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편재",
+        "placement": "일지",
+        "supporting_element": "수"
+      },
+      "mechanism": "일지의 편재가 수와 연결되면 대인관계와 인맥 형성이 강화됨.",
+      "interpretation": "잘 나가는 사람들과의 관계를 선호함.",
+      "action": "유익한 인맥을 형성하고 유지하라.",
+      "cautions": [
+        "관계 형성에 지나치게 의존하지 말 것."
+      ],
+      "tags": [
+        "편재",
+        "일지",
+        "수",
+        "인맥",
+        "대인관계"
+      ]
+    },
+    {
+      "id": "RC-b07939fe15",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "편재",
+        "element": "화",
+        "placement": "청간",
+        "supporting_element": "수목"
+      },
+      "mechanism": "수목이 병화를 지원하여 정치적 능력을 강화함.",
+      "interpretation": "정치적 판단과 조직 내 영향력이 강함.",
+      "action": "정치적 상황에서 리더십을 발휘하라.",
+      "cautions": [
+        "수목이 없으면 정치적 판단력이 약화될 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "병화",
+        "수목",
+        "정치",
+        "리더십"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 다양한 주제를 포함하고 있어 일부 규칙은 요약 및 재구성됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_042",
+  "updated_at": "2025-12-23T20:27:23"
+}

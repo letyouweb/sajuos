@@ -1,0 +1,463 @@
+{
+  "title": "SajuOS_Logic_TEN_021",
+  "rulecards": [
+    {
+      "id": "RC-0292b9d40f",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "metal_strength": "weak"
+      },
+      "mechanism": "금은 원천 에너지로, 강도에 따라 체력과 성적 에너지에 영향을 미침.",
+      "interpretation": "금이 약하면 성적 에너지가 약하고 회복이 느림.",
+      "action": "금이 약한 경우 충분한 휴식과 회복 시간을 가질 것.",
+      "cautions": [
+        "금이 약하면 과도한 활동은 피해야 함."
+      ],
+      "tags": [
+        "금",
+        "원천 에너지",
+        "체력",
+        "성적 에너지",
+        "회복"
+      ]
+    },
+    {
+      "id": "RC-90b1353a20",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "metal_strength": "strong"
+      },
+      "mechanism": "강한 금은 지속적인 에너지와 몰입력을 제공.",
+      "interpretation": "금이 강하면 체력과 성적 에너지가 풍부하며, 몰입도가 높음.",
+      "action": "강한 금을 가진 사람은 에너지를 생산적으로 활용할 것.",
+      "cautions": [
+        "과도한 몰입으로 인해 건강을 해칠 수 있음."
+      ],
+      "tags": [
+        "금",
+        "강한 에너지",
+        "몰입",
+        "체력",
+        "성적 에너지"
+      ]
+    },
+    {
+      "id": "RC-4aec5dccf6",
+      "topic": "RELATION",
+      "priority": 10,
+      "trigger": {
+        "fire_metal_interaction": "present"
+      },
+      "mechanism": "화극금은 금의 에너지를 자극하여 절정의 힘을 발휘하게 함.",
+      "interpretation": "화극금이 있으면 성적 에너지가 강하게 발현됨.",
+      "action": "화극금이 있는 경우 에너지를 긍정적으로 활용할 방법을 찾을 것.",
+      "cautions": [
+        "과도한 자극은 스트레스와 피로를 초래할 수 있음."
+      ],
+      "tags": [
+        "화극금",
+        "자극",
+        "성적 에너지",
+        "발현",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-3ff7f5a0c6",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "water_wood_interaction": "absent"
+      },
+      "mechanism": "수생목이 없으면 욕구 발현이 제한됨.",
+      "interpretation": "수생목이 없으면 성적 에너지가 적극적으로 발현되지 않음.",
+      "action": "수생목이 부족한 경우 욕구를 발현할 환경을 조성할 것.",
+      "cautions": [
+        "욕구 발현이 제한되면 스트레스가 쌓일 수 있음."
+      ],
+      "tags": [
+        "수생목",
+        "욕구 발현",
+        "제한",
+        "환경",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-0337055da7",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "fire_absent": true
+      },
+      "mechanism": "화가 없으면 성적 에너지가 일상에 녹아들기 어려움.",
+      "interpretation": "화가 없으면 성적 에너지가 자주 발현되지 않음.",
+      "action": "화가 부족한 경우 에너지를 활성화할 방법을 모색할 것.",
+      "cautions": [
+        "화가 없으면 관계 형성이 어려울 수 있음."
+      ],
+      "tags": [
+        "화",
+        "성적 에너지",
+        "발현",
+        "활성화",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-118de4923f",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "balance": "imbalanced"
+      },
+      "mechanism": "오행의 균형이 성적 에너지와 관계 형성에 영향을 미침.",
+      "interpretation": "오행의 균형이 맞지 않으면 관계에서 갈등이 생길 수 있음.",
+      "action": "오행의 균형을 맞추기 위해 노력할 것.",
+      "cautions": [
+        "불균형은 관계의 지속성을 저해할 수 있음."
+      ],
+      "tags": [
+        "오행",
+        "균형",
+        "성적 에너지",
+        "관계",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-708e6af28d",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "seasonal_energy": "autumn_spring"
+      },
+      "mechanism": "금과 목은 수평 에너지를 사용하여 관계 형성에 시간이 필요함.",
+      "interpretation": "금과 목이 강한 사람은 관계 형성에 시간이 걸림.",
+      "action": "금과 목이 강한 사람과는 시간을 충분히 투자할 것.",
+      "cautions": [
+        "시간 부족은 관계 형성을 방해할 수 있음."
+      ],
+      "tags": [
+        "금",
+        "목",
+        "수평 에너지",
+        "시간",
+        "관계 형성"
+      ]
+    },
+    {
+      "id": "RC-9e2d34299e",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "seasonal_energy": "summer_winter"
+      },
+      "mechanism": "수와 화는 공간 에너지를 사용하여 즉각적인 관계 형성이 가능함.",
+      "interpretation": "수와 화가 강한 사람은 빠르게 관계를 형성할 수 있음.",
+      "action": "수와 화가 강한 사람과는 즉각적인 소통을 시도할 것.",
+      "cautions": [
+        "빠른 관계 형성은 오해를 초래할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "공간 에너지",
+        "즉각성",
+        "관계 형성"
+      ]
+    },
+    {
+      "id": "RC-f0083dfec2",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "strong_food_god"
+      },
+      "mechanism": "식신은 욕구를 해소하려는 적극성을 나타냄.",
+      "interpretation": "식신이 강하면 욕구 해소에 집중하며 성적 취향이 뚜렷함.",
+      "action": "식신이 강한 사람은 자신의 욕구를 솔직히 표현할 것.",
+      "cautions": [
+        "욕구 해소에만 집중하면 관계의 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "욕구 해소",
+        "적극성",
+        "성적 취향",
+        "솔직함"
+      ]
+    },
+    {
+      "id": "RC-812888493e",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "strong_hurting_officer"
+      },
+      "mechanism": "상관은 상대의 욕구를 맞추려는 성향이 강함.",
+      "interpretation": "상관이 강하면 상대의 만족에 초점을 맞춤.",
+      "action": "상관이 강한 사람은 상대의 반응을 세심히 관찰할 것.",
+      "cautions": [
+        "과도한 맞춤은 자기 소진을 초래할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "욕구 맞춤",
+        "상대 만족",
+        "세심함",
+        "관찰"
+      ]
+    },
+    {
+      "id": "RC-5a50e322a3",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "strong_influence"
+      },
+      "mechanism": "인성은 욕구를 억제하고 도덕적 기준을 중시함.",
+      "interpretation": "인성이 강하면 성적 욕구가 억제되거나 복잡한 심리적 요인이 작용함.",
+      "action": "인성이 강한 사람은 자신의 감정을 솔직히 표현하도록 노력할 것.",
+      "cautions": [
+        "억제된 욕구는 심리적 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "억제",
+        "도덕성",
+        "심리적 요인",
+        "솔직함"
+      ]
+    },
+    {
+      "id": "RC-e7be4ec8a4",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "식상",
+        "position": "일지"
+      },
+      "mechanism": "일지는 성적 에너지가 가장 강한 위치로, 식상이 있으면 적극적 성향을 보임.",
+      "interpretation": "일지에 식상이 있으면 성적으로 적극적이고 본능적임.",
+      "action": "상대방과의 관계에서 적극적으로 리드할 수 있는 기회를 활용하라.",
+      "cautions": [
+        "과도한 적극성은 상대방에게 부담이 될 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "일지",
+        "성적에너지",
+        "적극성",
+        "리드"
+      ]
+    },
+    {
+      "id": "RC-03f8a34729",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "인성",
+        "position": "일지"
+      },
+      "mechanism": "인성은 학습과 경험을 통해 성적 취향이 누적됨.",
+      "interpretation": "일지에 인성이 있으면 성적 취향이 고정되고 둔감해질 가능성이 있음.",
+      "action": "상대방의 취향을 존중하고 새로운 경험을 제안하라.",
+      "cautions": [
+        "취향 고착으로 인해 관계가 단조로워질 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "일지",
+        "성적취향",
+        "학습",
+        "경험"
+      ]
+    },
+    {
+      "id": "RC-da31fc2d21",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편인",
+        "note": "성적 자극이 일반적이지 않음"
+      },
+      "mechanism": "편인은 독특한 성적 취향을 가지며, 자극에 민감함.",
+      "interpretation": "편인이 강한 사람은 독특한 성적 취향을 가질 가능성이 높음.",
+      "action": "상대방의 독특한 취향을 이해하고 존중하라.",
+      "cautions": [
+        "취향 차이로 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "성적취향",
+        "독특함",
+        "자극",
+        "민감성"
+      ]
+    },
+    {
+      "id": "RC-4d25dd78ef",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "비겁",
+        "note": "본능적 반응이 강함"
+      },
+      "mechanism": "비겁은 본능적으로 이성에게 빠르게 반응함.",
+      "interpretation": "비겁이 강한 사람은 이성에게 본능적으로 끌리는 경향이 있음.",
+      "action": "자신의 본능적 반응을 이해하고 조절하라.",
+      "cautions": [
+        "충동적인 행동으로 인해 관계에 문제가 생길 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "본능",
+        "이성",
+        "반응",
+        "충동"
+      ]
+    },
+    {
+      "id": "RC-c3a2b319f4",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "ten_gods": "식상",
+        "note": "SNS 활동에서 두드러짐"
+      },
+      "mechanism": "식상은 일상적이고 자연스러운 매력을 강조함.",
+      "interpretation": "SNS에서 식상이 강한 사람은 일상적인 매력을 어필함.",
+      "action": "자연스러운 모습을 SNS에서 활용하라.",
+      "cautions": [
+        "과도한 노출은 오히려 반감을 살 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "SNS",
+        "일상",
+        "매력",
+        "노출"
+      ]
+    },
+    {
+      "id": "RC-d6b49d4032",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "재성",
+        "note": "SNS에서 재물과 성공을 강조"
+      },
+      "mechanism": "재성은 물질적 성공과 안정감을 어필함.",
+      "interpretation": "재성이 강한 사람은 SNS에서 성공과 부를 강조함.",
+      "action": "성공적인 이미지를 SNS에서 적절히 활용하라.",
+      "cautions": [
+        "과도한 과시는 반감을 살 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "SNS",
+        "성공",
+        "부",
+        "이미지"
+      ]
+    },
+    {
+      "id": "RC-260eec9f31",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "비겁",
+        "note": "이성과의 접점이 많음"
+      },
+      "mechanism": "비겁은 이성과의 접점을 자연스럽게 늘림.",
+      "interpretation": "비겁이 강한 사람은 이성과의 만남이 자연스럽게 많아짐.",
+      "action": "이성과의 만남에서 자연스러운 태도를 유지하라.",
+      "cautions": [
+        "과도한 접촉은 오해를 살 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "이성",
+        "접점",
+        "만남",
+        "자연스러움"
+      ]
+    },
+    {
+      "id": "RC-5f487b216f",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "식상",
+        "note": "성적 매력과 끼가 강함"
+      },
+      "mechanism": "식상은 성적 매력과 개성을 강조함.",
+      "interpretation": "식상이 강한 사람은 성적 매력과 개성이 두드러짐.",
+      "action": "자신의 매력을 자연스럽게 표현하라.",
+      "cautions": [
+        "과도한 표현은 오히려 반감을 살 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "성적매력",
+        "끼",
+        "개성",
+        "표현"
+      ]
+    },
+    {
+      "id": "RC-4c574baebd",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "인성",
+        "note": "대우받는 것에 민감함"
+      },
+      "mechanism": "인성은 대우받는 것을 중요시함.",
+      "interpretation": "인성이 강한 사람은 대우받는 것에 민감하고 쉽게 끌림.",
+      "action": "상대방을 존중하고 대우하라.",
+      "cautions": [
+        "과도한 대우는 오히려 부담을 줄 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "대우",
+        "민감성",
+        "존중",
+        "끌림"
+      ]
+    },
+    {
+      "id": "RC-43c73b9951",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "비겁",
+        "note": "바람과 리스크 감수"
+      },
+      "mechanism": "비겁은 리스크를 감수하며 짜릿함을 추구함.",
+      "interpretation": "비겁이 강한 사람은 바람이나 도박 같은 리스크를 감수할 가능성이 높음.",
+      "action": "리스크를 감수하기 전에 신중히 판단하라.",
+      "cautions": [
+        "리스크가 큰 행동은 장기적으로 문제를 초래할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "리스크",
+        "바람",
+        "짜릿함",
+        "감수"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "속궁합 관련 내용은 오행과 십성의 상호작용을 중심으로 해석됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_021",
+  "updated_at": "2025-12-23T20:27:26"
+}

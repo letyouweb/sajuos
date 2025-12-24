@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_STRU_M_116",
+  "rulecards": [
+    {
+      "id": "RC-954adfa976",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "day_master": "정화",
+        "strength": "신약"
+      },
+      "mechanism": "4월의 정화는 여름에 태어났지만, 지지에 화의 근이 없어 신약으로 판단.",
+      "interpretation": "4월 정화는 신약으로 간주하며, 겁재를 통제하거나 활용하는 방법이 중요.",
+      "action": "겁재를 통제하거나 활용할 수 있는 방안을 모색하라.",
+      "cautions": [
+        "겁재를 잘못 활용하면 재물 손실 가능성 있음."
+      ],
+      "tags": [
+        "정화",
+        "4월",
+        "신약",
+        "겁재",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-7a46ed32d1",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "겁재",
+        "control_method": "수국화"
+      },
+      "mechanism": "수가 화를 제압하여 겁재를 통제 가능.",
+      "interpretation": "수가 있으면 겁재를 제압하고 안정적인 구조를 만들 수 있음.",
+      "action": "수가 있는 경우 이를 활용해 겁재를 통제하라.",
+      "cautions": [
+        "수가 과도하면 흩어짐 현상이 발생할 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "수국화",
+        "통제",
+        "안정",
+        "흩어짐"
+      ]
+    },
+    {
+      "id": "RC-18eb2b5e97",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁재",
+        "control_method": "화생토"
+      },
+      "mechanism": "토를 통해 화의 에너지를 안정적으로 전환.",
+      "interpretation": "토를 활용하면 겁재와의 통로를 형성 가능.",
+      "action": "토를 활용해 겁재와의 관계를 조율하라.",
+      "cautions": [
+        "토가 사화 중심으로 작용하면 주도권 상실 가능."
+      ],
+      "tags": [
+        "겁재",
+        "화생토",
+        "통로",
+        "조율",
+        "주도권"
+      ]
+    },
+    {
+      "id": "RC-679538d755",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "type": "간목"
+      },
+      "mechanism": "간목은 정화의 주도권을 강화시킴.",
+      "interpretation": "간목을 활용하면 정화가 주도권을 가질 수 있음.",
+      "action": "간목을 활용해 정화의 주도권을 확보하라.",
+      "cautions": [
+        "을목은 사화 중심으로 작용할 가능성이 높음."
+      ],
+      "tags": [
+        "목",
+        "간목",
+        "정화",
+        "주도권",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-3e642b7ade",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "type": "임수"
+      },
+      "mechanism": "임수는 겁재를 제압하고 합을 형성.",
+      "interpretation": "임수를 활용하면 겁재를 제압하고 안정적인 구조를 만들 수 있음.",
+      "action": "임수를 활용하되, 경금으로 보완하여 안정성을 높여라.",
+      "cautions": [
+        "임수가 과도하면 흩어짐 현상이 발생할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "임수",
+        "겁재",
+        "제압",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-779f19ee58",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "day_master": "정화",
+        "element": "경금"
+      },
+      "mechanism": "경금은 정화의 능력을 드러내는 중요한 요소.",
+      "interpretation": "경금이 있으면 정화의 능력이 인정받을 가능성이 높아짐.",
+      "action": "경금을 활용해 자신의 능력을 드러내라.",
+      "cautions": [
+        "경금이 없으면 능력은 있지만 인정받기 어려움."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "능력",
+        "인정",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-52269b8e82",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "겁재",
+        "element": "경금"
+      },
+      "mechanism": "경금은 겁재를 통제하고 활용 가능.",
+      "interpretation": "경금을 통해 겁재를 효과적으로 다룰 수 있음.",
+      "action": "경금을 활용해 겁재를 통제하고 활용하라.",
+      "cautions": [
+        "경금이 없으면 겁재를 다루기 어려움."
+      ],
+      "tags": [
+        "겁재",
+        "경금",
+        "통제",
+        "활용",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-62b645583e",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "병호년",
+        "element": "임수"
+      },
+      "mechanism": "병호년의 열로 인해 임수가 흩어질 가능성.",
+      "interpretation": "병호년에는 임수가 흩어져 판단력이 저하될 수 있음.",
+      "action": "병호년에는 임수를 보완할 수 있는 금을 활용하라.",
+      "cautions": [
+        "임수가 흩어지면 판단력 상실 가능."
+      ],
+      "tags": [
+        "병호년",
+        "임수",
+        "흩어짐",
+        "판단력",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-e91348e0ea",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "relation": "재생관"
+      },
+      "mechanism": "경금은 직업적 안정성과 승진 가능성을 높임.",
+      "interpretation": "경금이 있으면 직업적 성공 가능성이 높아짐.",
+      "action": "경금을 활용해 직업적 목표를 달성하라.",
+      "cautions": [
+        "경금이 없으면 승진이나 성공이 어려울 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "재생관",
+        "직업",
+        "승진",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-b5ef992fd6",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "day_master": "정화",
+        "relation": "종격"
+      },
+      "mechanism": "4월 정화가 종격일 경우, 설계가 중요.",
+      "interpretation": "종격 구조에서는 설계와 조율이 핵심.",
+      "action": "토를 활용해 구조를 안정화하라.",
+      "cautions": [
+        "극하는 운이 오면 구조가 깨질 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "4월",
+        "종격",
+        "설계",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-e5e86dd00c",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "종관격",
+        "elements": [
+          "비겁",
+          "인성"
+        ]
+      },
+      "mechanism": "종관격은 비겁이 아닌 식상이 필요하며, 인성으로 설계하면 안 됨.",
+      "interpretation": "종관격은 식상이 있어야 안정적인 구조를 형성함.",
+      "action": "사주에 식상이 부족하면 이를 보완하는 방향으로 해석.",
+      "cautions": [
+        "비겁과 인성의 과도한 개입 주의"
+      ],
+      "tags": [
+        "종관격",
+        "식상",
+        "비겁",
+        "인성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-546b9c2d87",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "function": "조절"
+      },
+      "mechanism": "토는 열로 전환될 가능성을 억제하고 금수의 안정성을 높임.",
+      "interpretation": "토가 조절 역할을 하면 금수의 활용도가 증가함.",
+      "action": "토의 역할을 강화하여 금수의 리스크를 줄임.",
+      "cautions": [
+        "토가 과도하면 다른 오행의 균형이 깨질 수 있음"
+      ],
+      "tags": [
+        "토",
+        "금수",
+        "조절",
+        "열",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-9ab771afcd",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "쟁재",
+        "center": "겁재"
+      },
+      "mechanism": "겁재가 중심이 되면 쟁재가 주도적으로 작용함.",
+      "interpretation": "쟁재는 겁재 중심일 때 재물을 빼앗는 구조로 작용.",
+      "action": "쟁재와 겁재의 중심성을 구분하여 해석.",
+      "cautions": [
+        "겁재 중심일 경우 재물 손실 가능성 주의"
+      ],
+      "tags": [
+        "쟁재",
+        "겁재",
+        "재물",
+        "구조",
+        "중심성"
+      ]
+    },
+    {
+      "id": "RC-b71bbf7b09",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "relation": "배우자",
+        "center": "겁재"
+      },
+      "mechanism": "배우자가 겁재를 끌고 오면 가정 내 부담이 증가함.",
+      "interpretation": "배우자와의 관계에서 겁재가 중심이 되면 희생적 역할을 하게 됨.",
+      "action": "배우자와의 관계에서 겁재의 영향을 분석.",
+      "cautions": [
+        "가정 내 갈등 가능성 주의"
+      ],
+      "tags": [
+        "배우자",
+        "겁재",
+        "가정",
+        "희생",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-ea3df9ab7b",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "비겁",
+        "function": "대중성"
+      },
+      "mechanism": "비겁은 대중과의 친근감을 형성하고 이미지를 각인시킴.",
+      "interpretation": "비겁이 강하면 대중적 인기를 얻기 쉬움.",
+      "action": "비겁의 강약을 분석하여 대중적 성공 가능성을 평가.",
+      "cautions": [
+        "비겁이 과도하면 개인적 고립 가능성"
+      ],
+      "tags": [
+        "비겁",
+        "대중성",
+        "이미지",
+        "친근감",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-3d5221afdf",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "식상",
+        "function": "독창성"
+      },
+      "mechanism": "식상은 독창성과 자기 스타일을 나타냄.",
+      "interpretation": "식상이 강하면 독자적인 예술적 표현이 가능.",
+      "action": "식상의 유무를 분석하여 예술적 잠재력을 평가.",
+      "cautions": [
+        "식상이 부족하면 개성이 약해질 수 있음"
+      ],
+      "tags": [
+        "식상",
+        "독창성",
+        "예술",
+        "스타일",
+        "표현"
+      ]
+    },
+    {
+      "id": "RC-37960a8600",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "relation": "관",
+        "context": "아이돌"
+      },
+      "mechanism": "관 중심은 팀워크와 조직 내 역할에 적합함.",
+      "interpretation": "관 중심 사주는 그룹 활동에 유리함.",
+      "action": "관 중심 여부를 확인하여 그룹 활동 적합성을 평가.",
+      "cautions": [
+        "관이 과도하면 개인적 창의성 제한 가능"
+      ],
+      "tags": [
+        "관",
+        "아이돌",
+        "팀워크",
+        "조직",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-09ddffb3e4",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "relation": "식상",
+        "context": "솔로 활동"
+      },
+      "mechanism": "식상 중심은 독립적이고 창의적인 활동에 적합함.",
+      "interpretation": "식상이 강하면 솔로 활동에서 두각을 나타냄.",
+      "action": "식상의 강약을 분석하여 솔로 활동 가능성을 평가.",
+      "cautions": [
+        "식상이 약하면 독립적 활동이 어려울 수 있음"
+      ],
+      "tags": [
+        "식상",
+        "솔로",
+        "창의성",
+        "독립",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-f7cc4628a6",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "겁재",
+        "context": "팬"
+      },
+      "mechanism": "겁재는 변덕스러운 팬층을 형성할 가능성이 있음.",
+      "interpretation": "겁재가 강하면 팬층의 충성도가 낮을 수 있음.",
+      "action": "팬층의 특성을 분석하여 전략을 수립.",
+      "cautions": [
+        "팬층의 변동성에 대비 필요"
+      ],
+      "tags": [
+        "겁재",
+        "팬",
+        "충성도",
+        "변동성",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-16acdb771e",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "화",
+        "function": "표현력"
+      },
+      "mechanism": "화는 대중 앞에서의 표현력과 매력을 강화함.",
+      "interpretation": "화가 강하면 대중적 매력을 발휘하기 쉬움.",
+      "action": "화의 강약을 분석하여 대중적 성공 가능성을 평가.",
+      "cautions": [
+        "화가 과도하면 감정적 불안정 가능성"
+      ],
+      "tags": [
+        "화",
+        "표현력",
+        "매력",
+        "대중성",
+        "성공"
+      ]
+    }
+  ],
+  "notes": [
+    "일부 사례는 특정 인물에 대한 언급으로 보이나, 일반적인 규칙으로 추출."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_116",
+  "updated_at": "2025-12-23T20:27:24"
+}

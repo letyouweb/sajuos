@@ -1,0 +1,1027 @@
+{
+  "title": "SajuOS_Logic_STRU_A_030",
+  "rulecards": [
+    {
+      "id": "RC-e1435e8b6b",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "오화",
+        "state": "peak"
+      },
+      "mechanism": "오화는 가장 펼쳐지고 드러나는 상태를 상징하며, 화의 정점에 해당한다.",
+      "interpretation": "오화는 모든 것이 드러나고 화려하게 표현되는 상태를 나타낸다.",
+      "action": "오화의 에너지를 활용해 자신의 강점을 드러내고 표현력을 극대화하라.",
+      "cautions": [
+        "숨김과 감춤이 어려울 수 있다.",
+        "과도한 노출로 인해 피로감을 유발할 수 있다."
+      ],
+      "tags": [
+        "오화",
+        "정점",
+        "표현",
+        "드러남",
+        "화려함"
+      ]
+    },
+    {
+      "id": "RC-8d14237147",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "자수",
+        "relation": "opposite",
+        "to": "오화"
+      },
+      "mechanism": "자수는 오화와 반대되는 감춰진 상태를 상징한다.",
+      "interpretation": "자수는 내면의 깊은 곳에 숨겨진 가능성과 잠재력을 나타낸다.",
+      "action": "자수의 에너지를 활용해 내면의 가능성을 탐구하고 준비하라.",
+      "cautions": [
+        "내면에만 머물러 외부와 단절되지 않도록 주의하라."
+      ],
+      "tags": [
+        "자수",
+        "내면",
+        "잠재력",
+        "감춤",
+        "준비"
+      ]
+    },
+    {
+      "id": "RC-d0caa59970",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "state": "growth"
+      },
+      "mechanism": "목은 생명력과 성장의 초기 단계를 상징하며, 화로 이어지는 에너지를 제공한다.",
+      "interpretation": "목은 새로운 시작과 가능성을 나타내며, 화의 팽창을 돕는다.",
+      "action": "목의 에너지를 활용해 새로운 프로젝트나 아이디어를 시작하라.",
+      "cautions": [
+        "목의 에너지가 부족하면 성장과 발전이 더뎌질 수 있다."
+      ],
+      "tags": [
+        "목",
+        "성장",
+        "시작",
+        "생명력",
+        "팽창"
+      ]
+    },
+    {
+      "id": "RC-1531698381",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "오화",
+        "interaction": "with_other_elements"
+      },
+      "mechanism": "오화는 다른 요소와 결합할 때 습기를 발생시키는 특성을 가진다.",
+      "interpretation": "오화는 단독으로는 건조하지만, 다른 요소와 결합하면 습기를 만들어낸다.",
+      "action": "오화와 다른 요소의 조화를 통해 균형을 유지하라.",
+      "cautions": [
+        "과도한 습기로 인해 균형이 깨질 수 있다."
+      ],
+      "tags": [
+        "오화",
+        "습기",
+        "균형",
+        "결합",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-5ecb833819",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "오화",
+        "interaction": "with_술"
+      },
+      "mechanism": "오화와 술의 결합은 순환과 재생의 과정을 상징한다.",
+      "interpretation": "오화와 술의 관계는 과거를 정리하고 새로운 시작을 준비하는 것을 의미한다.",
+      "action": "과거를 정리하고 새로운 목표를 설정하라.",
+      "cautions": [
+        "과거에 집착하지 말고 앞으로 나아가라."
+      ],
+      "tags": [
+        "오화",
+        "술",
+        "순환",
+        "재생",
+        "정리"
+      ]
+    },
+    {
+      "id": "RC-269cd6e5d4",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "화가 없는 사람의 특징"
+      },
+      "mechanism": "화가 없는 사람은 자신을 드러내는 데 어려움을 겪는다.",
+      "interpretation": "화가 부족하면 자신을 표현하거나 정체성을 찾는 데 시간이 걸릴 수 있다.",
+      "action": "화의 에너지를 보완할 수 있는 활동을 찾아라.",
+      "cautions": [
+        "자신을 과소평가하지 않도록 주의하라."
+      ],
+      "tags": [
+        "화",
+        "부족",
+        "표현",
+        "정체성",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-3d8157d931",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "state": "supporting_오화"
+      },
+      "mechanism": "목은 오화의 팽창을 유지하는 데 필요한 에너지를 제공한다.",
+      "interpretation": "목은 오화의 지속적인 활력을 유지하는 역할을 한다.",
+      "action": "목의 에너지를 강화해 오화의 에너지를 유지하라.",
+      "cautions": [
+        "목의 에너지가 부족하면 오화가 약해질 수 있다."
+      ],
+      "tags": [
+        "목",
+        "오화",
+        "지속",
+        "활력",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-1b9a7fbed3",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "interaction": "with_오화"
+      },
+      "mechanism": "토는 오화의 팽창을 안정시키고 균형을 유지한다.",
+      "interpretation": "토는 오화의 과도한 팽창을 억제하고 안정감을 제공한다.",
+      "action": "토의 에너지를 활용해 균형을 유지하라.",
+      "cautions": [
+        "토가 과도하면 오화의 활력이 약해질 수 있다."
+      ],
+      "tags": [
+        "토",
+        "오화",
+        "안정",
+        "균형",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-a2ec2dfce1",
+      "topic": "TIMING",
+      "priority": 5,
+      "trigger": {
+        "cycle": "봄-여름-가을-겨울"
+      },
+      "mechanism": "자연의 순환은 새로운 시작과 재생을 가능하게 한다.",
+      "interpretation": "순환은 과거를 정리하고 새로운 기회를 창출하는 과정이다.",
+      "action": "자연의 순환에 맞춰 계획을 세우고 실행하라.",
+      "cautions": [
+        "순환의 흐름을 거스르지 말라."
+      ],
+      "tags": [
+        "순환",
+        "계절",
+        "재생",
+        "계획",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-e8821823ef",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "오화",
+        "state": "transparent"
+      },
+      "mechanism": "오화는 감정을 숨기지 않고 드러내는 특성을 가진다.",
+      "interpretation": "오화는 솔직하고 투명한 관계를 형성하는 데 유리하다.",
+      "action": "솔직한 감정 표현으로 관계를 강화하라.",
+      "cautions": [
+        "과도한 솔직함이 갈등을 유발할 수 있다."
+      ],
+      "tags": [
+        "오화",
+        "투명",
+        "솔직",
+        "감정",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-137c36f309",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "묘오파"
+      },
+      "mechanism": "묘와 오의 관계에서 목생화의 흐름이 끊기거나 불안정해짐.",
+      "interpretation": "묘오파는 목생활을 방해하며 관계의 불만과 갈등을 유발.",
+      "action": "묘오파가 있는 경우, 관계에서의 불만을 이해하고 조율하려는 노력이 필요.",
+      "cautions": [
+        "묘오파는 목생화의 흐름을 방해할 수 있음.",
+        "관계에서 반복적인 갈등이 발생할 가능성 있음."
+      ],
+      "tags": [
+        "묘오파",
+        "목생화",
+        "관계",
+        "갈등",
+        "조율",
+        "불만",
+        "흐름",
+        "방해",
+        "파",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-8b894cd30d",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "충"
+      },
+      "mechanism": "충은 서로의 에너지를 드러내고 해결을 촉진.",
+      "interpretation": "충은 갈등을 드러내며 문제를 해결할 기회를 제공.",
+      "action": "충이 발생하면 갈등을 회피하지 말고 문제를 명확히 드러내 해결책을 모색.",
+      "cautions": [
+        "충은 긍정적일 수 있으나, 지나치게 격렬하면 관계에 손상을 줄 수 있음."
+      ],
+      "tags": [
+        "충",
+        "갈등",
+        "해결",
+        "문제",
+        "관계",
+        "사주",
+        "긍정적",
+        "부정적",
+        "조율",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-0e2322b62b",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "원진"
+      },
+      "mechanism": "원진은 갈등이 수면 아래에 있어 문제를 명확히 드러내지 못함.",
+      "interpretation": "원진은 해결되지 않은 갈등으로 인해 관계에서 지속적인 불만을 초래.",
+      "action": "원진 관계에서는 갈등의 원인을 명확히 파악하고 해결하려는 노력이 필요.",
+      "cautions": [
+        "원진은 문제를 드러내지 않아 해결이 어려울 수 있음.",
+        "관계에서 지속적인 불만이 발생할 가능성 있음."
+      ],
+      "tags": [
+        "원진",
+        "갈등",
+        "문제",
+        "관계",
+        "사주",
+        "불만",
+        "조율",
+        "해결",
+        "수면 아래",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-4c93e43115",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "5화",
+        "interaction": "금"
+      },
+      "mechanism": "5화는 금과 만나면서 압박과 전환의 작용을 받음.",
+      "interpretation": "5화와 금의 관계는 에너지의 전환과 조율을 의미.",
+      "action": "5화와 금의 관계를 이해하고, 에너지 전환을 원활히 할 수 있는 환경을 조성.",
+      "cautions": [
+        "금이 약하면 5화의 에너지가 제대로 전환되지 않을 수 있음.",
+        "금과 5화의 균형이 중요."
+      ],
+      "tags": [
+        "5화",
+        "금",
+        "전환",
+        "압박",
+        "조율",
+        "에너지",
+        "사주",
+        "균형",
+        "오행",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-2c716a3a94",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "interaction": "화"
+      },
+      "mechanism": "신금은 화를 만나면 강한 전환력을 발휘.",
+      "interpretation": "신금은 화의 에너지를 정리하고 전환하는 역할을 함.",
+      "action": "신금이 화를 만날 때는 전환력을 활용해 문제를 해결.",
+      "cautions": [
+        "신금의 전환력이 과도하면 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "화",
+        "전환",
+        "정리",
+        "사주",
+        "오행",
+        "에너지",
+        "갈등",
+        "조율",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-d7421ca0bf",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "유금",
+        "interaction": "오화"
+      },
+      "mechanism": "유금은 오화와 만나면 전환력이 약해지고 갈등이 발생.",
+      "interpretation": "유금과 오화의 관계는 서로의 에너지를 소모하며 부정적 영향을 미침.",
+      "action": "유금과 오화의 관계에서는 갈등을 최소화하고 조율하려는 노력이 필요.",
+      "cautions": [
+        "유금과 오화의 관계는 반복적인 갈등을 초래할 수 있음.",
+        "전환력이 부족해 문제 해결이 어려울 수 있음."
+      ],
+      "tags": [
+        "유금",
+        "오화",
+        "갈등",
+        "전환",
+        "사주",
+        "오행",
+        "에너지",
+        "조율",
+        "반복",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-8ed1c4d05f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "목생화"
+      },
+      "mechanism": "목생화는 목이 화를 지원하며 에너지를 전달.",
+      "interpretation": "목생화는 관계에서의 조화와 에너지 흐름을 의미.",
+      "action": "목생화의 흐름을 유지하기 위해 관계에서의 조율과 협력을 강조.",
+      "cautions": [
+        "목생화가 끊기면 관계에서 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "조화",
+        "에너지",
+        "관계",
+        "사주",
+        "오행",
+        "조율",
+        "협력",
+        "흐름",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-33ecdecceb",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "생지와 왕지"
+      },
+      "mechanism": "생지와 왕지는 서로의 에너지를 보완하며 시너지를 발휘.",
+      "interpretation": "생지와 왕지의 관계는 조화로운 에너지 흐름을 의미.",
+      "action": "생지와 왕지의 관계를 활용해 에너지의 균형을 유지.",
+      "cautions": [
+        "생지와 왕지가 조화를 이루지 못하면 에너지 소모가 발생할 수 있음."
+      ],
+      "tags": [
+        "생지",
+        "왕지",
+        "조화",
+        "에너지",
+        "사주",
+        "오행",
+        "균형",
+        "시너지",
+        "관계",
+        "흐름"
+      ]
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "유금",
+        "interaction": "사화"
+      },
+      "mechanism": "사화는 유금의 화력을 적절히 조절하여 보호 역할을 함.",
+      "interpretation": "유금은 사화와 만나면 안정적이고 긍정적인 영향을 받음.",
+      "action": "사화와 유금의 조합을 활용하여 균형을 유지하도록 설계.",
+      "cautions": [
+        "오화와의 조합은 부정적 영향을 줄 수 있음."
+      ],
+      "tags": [
+        "유금",
+        "사화",
+        "화력",
+        "균형",
+        "보호"
+      ],
+      "id": "RC-337b8d869d"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "오화",
+        "interaction": "습"
+      },
+      "mechanism": "오화는 습을 발생시키며 예상치 못한 확장을 초래함.",
+      "interpretation": "오화와 습의 조합은 감정적, 물리적 확장을 유발.",
+      "action": "습의 발생을 조절하여 안정적인 환경을 유지.",
+      "cautions": [
+        "습이 과도하면 부정적 사건이 발생할 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "습",
+        "확장",
+        "조절",
+        "감정"
+      ],
+      "id": "RC-7835b01997"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "자수-오화",
+        "type": "충"
+      },
+      "mechanism": "자수는 안정성을 유지하려 하고, 오화는 역동성을 추구함.",
+      "interpretation": "자수와 오화의 충돌은 감정적 폭발과 갈등을 유발.",
+      "action": "충돌을 완화하기 위해 금이나 목의 조화를 활용.",
+      "cautions": [
+        "충돌이 심화되면 관계에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "자수",
+        "오화",
+        "충돌",
+        "안정성",
+        "역동성"
+      ],
+      "id": "RC-d647bb5a78"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "해수",
+        "interaction": "오화"
+      },
+      "mechanism": "해수는 습을 머금고 있어 오화와 만나면 습이 발생.",
+      "interpretation": "해수와 오화의 조합은 분산과 확장을 초래.",
+      "action": "습의 발생을 최소화하고 균형을 유지하도록 설계.",
+      "cautions": [
+        "습이 과도하면 건강 문제나 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "오화",
+        "습",
+        "분산",
+        "확장"
+      ],
+      "id": "RC-44f4e27083"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "오화-술토",
+        "type": "합"
+      },
+      "mechanism": "술토는 오화의 팽창을 제한하고 고정함.",
+      "interpretation": "오화와 술토의 조합은 관계의 안정성을 유지.",
+      "action": "술토를 활용하여 오화의 과도한 팽창을 방지.",
+      "cautions": [
+        "확장이 제한되면 새로운 관계 형성이 어려울 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "술토",
+        "안정성",
+        "제한",
+        "관계"
+      ],
+      "id": "RC-f3f949f153"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "경자년",
+        "element": "자수"
+      },
+      "mechanism": "경자년의 자수는 안정성을 유지하려는 에너지를 강화.",
+      "interpretation": "경자년에는 계획이 흐트러질 가능성이 높음.",
+      "action": "자수의 에너지를 활용하여 안정적인 계획을 세움.",
+      "cautions": [
+        "자수의 영향으로 변화가 제한될 수 있음."
+      ],
+      "tags": [
+        "경자년",
+        "자수",
+        "안정성",
+        "계획",
+        "변화"
+      ],
+      "id": "RC-7de757a47f"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "진토",
+        "interaction": "오화"
+      },
+      "mechanism": "진토는 오화의 에너지를 설기하여 안정화.",
+      "interpretation": "진토와 오화의 조합은 에너지의 균형을 유지.",
+      "action": "진토를 활용하여 오화의 과도한 에너지를 조절.",
+      "cautions": [
+        "진토가 약하면 오화의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "오화",
+        "설기",
+        "안정화",
+        "균형"
+      ],
+      "id": "RC-1c00d4aca6"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "인해합",
+        "type": "합"
+      },
+      "mechanism": "인해합은 목생화를 더디게 만듦.",
+      "interpretation": "인해합은 관계에서의 의존성을 강화.",
+      "action": "합의 영향을 최소화하여 독립성을 유지.",
+      "cautions": [
+        "의존성이 과도하면 발전이 저해될 수 있음."
+      ],
+      "tags": [
+        "인해합",
+        "목생화",
+        "의존성",
+        "관계",
+        "발전"
+      ],
+      "id": "RC-c68f3e759f"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "해수",
+        "interaction": "부부관계"
+      },
+      "mechanism": "해수는 습을 발생시켜 관계의 조화를 방해.",
+      "interpretation": "해수의 영향으로 부부 간 불만이 생길 수 있음.",
+      "action": "해수의 습을 조절하여 관계의 조화를 유지.",
+      "cautions": [
+        "습이 과도하면 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "부부관계",
+        "습",
+        "조화",
+        "갈등"
+      ],
+      "id": "RC-c3711b5101"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "무술",
+        "interaction": "재"
+      },
+      "mechanism": "무술은 재 중심으로 에너지를 집중시킴.",
+      "interpretation": "무술의 영향으로 재물 관리에 능숙.",
+      "action": "재 중심의 활동을 통해 성과를 극대화.",
+      "cautions": [
+        "재에 치우치면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "무술",
+        "재",
+        "재물관리",
+        "성과",
+        "균형"
+      ],
+      "id": "RC-d5e4f1a4f4"
+    },
+    {
+      "id": "RC-459d0e2deb",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "earthly_branch": "술",
+        "importance_of_fire": true
+      },
+      "mechanism": "술토는 화를 안정시키는 역할을 한다.",
+      "interpretation": "화가 중요한 사주에서 술토는 화의 안정성과 자리를 보장한다.",
+      "action": "사주에 술토가 있다면 화의 안정성을 활용할 방안을 모색하라.",
+      "cautions": [
+        "술토가 없을 경우 화가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "화",
+        "안정성",
+        "사주구조",
+        "토"
+      ]
+    },
+    {
+      "id": "RC-b2c977dcaa",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "진",
+        "importance_of_water": true
+      },
+      "mechanism": "진토는 수의 에너지를 서포트한다.",
+      "interpretation": "진토가 있는 사주는 수의 기운이 강해질 수 있다.",
+      "action": "진토의 에너지를 활용해 수의 기운을 강화하라.",
+      "cautions": [
+        "진토가 없으면 수의 기운이 약해질 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "수",
+        "에너지",
+        "사주구조",
+        "토"
+      ]
+    },
+    {
+      "id": "RC-5af881bb0b",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "축",
+        "interaction_with_fire": true
+      },
+      "mechanism": "축토는 화와 만나면 설기가 발생한다.",
+      "interpretation": "축토와 화의 만남은 에너지가 급격히 소모되는 상황을 만든다.",
+      "action": "축토와 화의 관계를 조율해 에너지 소모를 최소화하라.",
+      "cautions": [
+        "설기가 과도하면 불안정한 상황이 발생할 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "화",
+        "설기",
+        "에너지",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-6fc29cc4ec",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "축",
+        "presence_of_wood": true
+      },
+      "mechanism": "축토는 목으로 발현되기 전 압박을 가한다.",
+      "interpretation": "축토는 목의 발현을 돕기 위해 에너지를 축적하고 압박한다.",
+      "action": "축토의 압박을 활용해 목의 발현을 촉진하라.",
+      "cautions": [
+        "압박이 과도하면 목의 발현이 왜곡될 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "목",
+        "압박",
+        "발현",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-51efe89bd7",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "earthly_branch": "오",
+        "interaction_with_축": true
+      },
+      "mechanism": "오화와 축토의 만남은 폭발적인 에너지를 발생시킨다.",
+      "interpretation": "오화와 축토의 조합은 예상보다 빠른 결과를 초래할 수 있다.",
+      "action": "오화와 축토의 조합을 조율해 타이밍을 관리하라.",
+      "cautions": [
+        "급발진이나 조산 같은 상황이 발생할 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "축토",
+        "폭발",
+        "타이밍",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-4c7a9f6628",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "축",
+        "interaction_with_오": true
+      },
+      "mechanism": "축토와 오화의 만남은 습기를 발생시킨다.",
+      "interpretation": "습기가 발생하면 시야가 왜곡되고 오해가 생길 수 있다.",
+      "action": "축토와 오화의 관계를 조율해 왜곡을 최소화하라.",
+      "cautions": [
+        "습기가 과도하면 갈등과 오해가 심화될 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "오화",
+        "습기",
+        "왜곡",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-54e1444995",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "진",
+        "interaction_with_목": true
+      },
+      "mechanism": "진토는 목생화의 단계를 안정적으로 지원한다.",
+      "interpretation": "진토는 목생화의 과정을 천천히 진행시킨다.",
+      "action": "진토의 안정성을 활용해 목생화의 과정을 조율하라.",
+      "cautions": [
+        "진토가 없으면 목생화가 급격히 진행될 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "목생화",
+        "안정성",
+        "사주구조",
+        "토"
+      ]
+    },
+    {
+      "id": "RC-d0e3d480ff",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "earthly_branch": "술",
+        "interaction_with_화": true
+      },
+      "mechanism": "술토는 화를 보호하고 안정시킨다.",
+      "interpretation": "술토는 화의 에너지를 안정적으로 유지한다.",
+      "action": "술토의 보호력을 활용해 화의 에너지를 유지하라.",
+      "cautions": [
+        "술토가 없으면 화의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "화",
+        "보호",
+        "안정성",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-6f7f83f84e",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "미",
+        "interaction_with_화": true
+      },
+      "mechanism": "미토는 화의 세력을 보호한다.",
+      "interpretation": "미토는 화의 에너지를 안정적으로 유지한다.",
+      "action": "미토의 보호력을 활용해 화의 세력을 유지하라.",
+      "cautions": [
+        "미토가 없으면 화의 에너지가 과도하게 커질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "화",
+        "보호",
+        "안정성",
+        "사주구조"
+      ]
+    },
+    {
+      "id": "RC-bbd5a49d78",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "오",
+        "interaction_with_미": true
+      },
+      "mechanism": "오화와 미토의 만남은 화의 에너지를 고정시킨다.",
+      "interpretation": "오화와 미토의 조합은 화의 에너지를 안정적으로 유지한다.",
+      "action": "오화와 미토의 관계를 활용해 화의 에너지를 조율하라.",
+      "cautions": [
+        "미토가 없으면 화의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "미토",
+        "안정성",
+        "사주구조",
+        "화"
+      ]
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "position": "연지",
+        "ten_god": "상관"
+      },
+      "mechanism": "연지에 상관이 있으면 외부와의 관계에서 강한 표현과 독립적인 성향이 나타남.",
+      "interpretation": "조상이나 가족의 역사적 배경이 독립적이거나 반항적인 성향을 가질 가능성이 있음.",
+      "action": "조상이나 가족의 역사적 배경을 조사하고, 긍정적/부정적 영향을 구분하여 판단.",
+      "cautions": [
+        "사주 전체를 종합적으로 분석해야 함",
+        "역사적 사실과 개인적 해석을 혼동하지 말 것"
+      ],
+      "tags": [
+        "연지",
+        "상관",
+        "조상",
+        "역사",
+        "독립"
+      ],
+      "id": "RC-31c1d3d039"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "position": "연지",
+        "ten_god": "상관"
+      },
+      "mechanism": "연애와 관련된 상관의 에너지가 강하게 작용함.",
+      "interpretation": "첫인상에서 연애나 결혼에 대한 결정이 빠르게 이루어질 가능성이 높음.",
+      "action": "첫인상에 의존하기보다는 시간을 두고 상대를 알아가는 노력이 필요.",
+      "cautions": [
+        "성급한 판단으로 인해 오해를 살 수 있음",
+        "상대방의 입장을 고려해야 함"
+      ],
+      "tags": [
+        "연애",
+        "상관",
+        "첫인상",
+        "결정",
+        "관계"
+      ],
+      "id": "RC-7562bfeb7d"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "state": "활발"
+      },
+      "mechanism": "목의 에너지는 시작과 확장을 의미하며, 활발할수록 그 성향이 강해짐.",
+      "interpretation": "목의 에너지가 강하면 새로운 것을 시작하거나 펼치는 데 능숙함.",
+      "action": "목의 에너지를 긍정적으로 활용하여 새로운 기회를 모색.",
+      "cautions": [
+        "과도한 확장으로 인해 에너지가 분산될 수 있음"
+      ],
+      "tags": [
+        "목",
+        "시작",
+        "확장",
+        "에너지",
+        "활발"
+      ],
+      "id": "RC-a706cee814"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "position": "연지",
+        "ten_god": "상관",
+        "element": "화"
+      },
+      "mechanism": "화의 에너지가 상관과 결합하여 감정 표현이 강하게 드러남.",
+      "interpretation": "연애에서 감정 표현이 직설적이고 강렬할 가능성이 있음.",
+      "action": "감정을 조절하고 상대방의 반응을 고려하며 소통.",
+      "cautions": [
+        "과도한 감정 표현으로 오해를 살 수 있음"
+      ],
+      "tags": [
+        "연애",
+        "상관",
+        "화",
+        "감정",
+        "표현"
+      ],
+      "id": "RC-cf93a43021"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "position": "연지",
+        "ten_god": "상관",
+        "historical_context": "부정적"
+      },
+      "mechanism": "연지 상관이 부정적 역사적 맥락과 연결될 가능성이 있음.",
+      "interpretation": "조상이 부정적 역사적 사건에 연루되었을 가능성도 있음.",
+      "action": "역사적 사실을 객관적으로 조사하고 판단.",
+      "cautions": [
+        "편견 없이 사실을 분석해야 함"
+      ],
+      "tags": [
+        "연지",
+        "상관",
+        "역사",
+        "부정적",
+        "조상"
+      ],
+      "id": "RC-a977629861"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 4,
+      "trigger": {
+        "position": "연지",
+        "ten_god": "상관",
+        "element": "화",
+        "hidden": false
+      },
+      "mechanism": "화의 에너지가 드러나면서 연애에서 솔직한 성향이 나타남.",
+      "interpretation": "연애에서 숨기지 않고 모든 것을 드러내는 경향이 있음.",
+      "action": "상대방의 반응을 고려하며 적절히 감정을 표현.",
+      "cautions": [
+        "과도한 솔직함이 관계에 부정적 영향을 줄 수 있음"
+      ],
+      "tags": [
+        "연애",
+        "상관",
+        "화",
+        "솔직함",
+        "감정"
+      ],
+      "id": "RC-b3b03bf848"
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "추가적인 규칙은 다른 청크에서 더 다룰 수 있음.",
+    "연지 상관의 해석은 사주 전체 맥락에서 판단해야 함.",
+    "역사적 사실과 개인적 해석을 구분하는 것이 중요."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_030",
+  "updated_at": "2025-12-23T20:27:23"
+}

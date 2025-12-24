@@ -1,0 +1,501 @@
+{
+  "title": "SajuOS_Logic_STRU_M_117",
+  "rulecards": [
+    {
+      "id": "RC-d77d55bee7",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "element": "화"
+      },
+      "mechanism": "4월의 화는 팽창과 확장의 에너지를 지님.",
+      "interpretation": "4월의 화는 에너지가 커지며, 새로운 시작과 확장을 의미.",
+      "action": "4월의 화 에너지를 활용해 새로운 프로젝트를 시작하거나 확장 계획을 세워라.",
+      "cautions": [
+        "과도한 팽창은 조절이 필요함."
+      ],
+      "tags": [
+        "4월",
+        "화",
+        "팽창",
+        "확장",
+        "시작"
+      ]
+    },
+    {
+      "id": "RC-81b9dd3040",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "relation": "화생토"
+      },
+      "mechanism": "화생토는 화와 토가 공존하며 서로를 강화함.",
+      "interpretation": "4월의 화는 토를 강화하며, 안정적 기반을 제공.",
+      "action": "화생토의 조화를 활용해 안정적 기반을 다져라.",
+      "cautions": [
+        "화가 과도하면 토가 조해질 수 있음."
+      ],
+      "tags": [
+        "화생토",
+        "안정",
+        "기반",
+        "조화",
+        "4월"
+      ]
+    },
+    {
+      "id": "RC-df88e6a8b3",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "structure": "걸록"
+      },
+      "mechanism": "4월의 병화와 무토는 걸록으로 주체성을 강화함.",
+      "interpretation": "4월의 걸록은 독립성과 주체성을 강조.",
+      "action": "자신의 주체성을 기반으로 독립적 결정을 내려라.",
+      "cautions": [
+        "타인의 의견을 무시하지 않도록 주의."
+      ],
+      "tags": [
+        "걸록",
+        "주체성",
+        "독립",
+        "4월",
+        "병화",
+        "무토"
+      ]
+    },
+    {
+      "id": "RC-98260df88d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편관",
+        "element": "목"
+      },
+      "mechanism": "편관은 통제되지 않으면 살로 작용할 수 있음.",
+      "interpretation": "편관은 잘 순화되면 유용하지만, 통제되지 않으면 위험.",
+      "action": "편관을 순화하고 통제 가능한 방향으로 활용하라.",
+      "cautions": [
+        "편관이 통제되지 않으면 문제를 일으킬 수 있음."
+      ],
+      "tags": [
+        "편관",
+        "순화",
+        "통제",
+        "살",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-e3988852b8",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "type": "간목"
+      },
+      "mechanism": "간목은 지속성과 안정성을 제공.",
+      "interpretation": "간목은 꾸준한 성장과 안정적 기반을 의미.",
+      "action": "간목의 에너지를 활용해 장기적인 계획을 세워라.",
+      "cautions": [
+        "간목이 없으면 지속성이 약해질 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "지속성",
+        "안정",
+        "성장",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-563219d02b",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "type": "을목"
+      },
+      "mechanism": "을목은 변동성이 크고 지속성이 약함.",
+      "interpretation": "을목은 변화와 유연성을 의미하지만 안정성은 부족.",
+      "action": "을목의 변동성을 활용해 새로운 기회를 탐색하라.",
+      "cautions": [
+        "지속적인 노력이 필요함."
+      ],
+      "tags": [
+        "을목",
+        "변동성",
+        "유연성",
+        "기회",
+        "노력"
+      ]
+    },
+    {
+      "id": "RC-dd5a688577",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "structure": "화생토"
+      },
+      "mechanism": "화생토는 화의 에너지가 토로 수렴됨.",
+      "interpretation": "화생토는 에너지를 안정적으로 수렴하여 생산성을 높임.",
+      "action": "화생토의 구조를 활용해 생산성을 극대화하라.",
+      "cautions": [
+        "화가 과도하면 토가 조해질 수 있음."
+      ],
+      "tags": [
+        "화생토",
+        "생산성",
+        "안정",
+        "조화",
+        "4월"
+      ]
+    },
+    {
+      "id": "RC-aa493c4daf",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "structure": "조토"
+      },
+      "mechanism": "조토는 생산성이 낮아질 수 있음.",
+      "interpretation": "조토는 에너지가 과도하게 집중되어 생산성이 저하됨.",
+      "action": "조토를 완화하기 위해 수의 에너지를 활용하라.",
+      "cautions": [
+        "조토가 심하면 생산성이 크게 저하됨."
+      ],
+      "tags": [
+        "조토",
+        "생산성",
+        "완화",
+        "수",
+        "4월"
+      ]
+    },
+    {
+      "id": "RC-29e496fb86",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "structure": "목생화"
+      },
+      "mechanism": "목생화는 화의 에너지를 지속적으로 공급함.",
+      "interpretation": "목생화는 화생토의 지속성을 보장.",
+      "action": "목생화의 구조를 유지해 에너지의 흐름을 안정화하라.",
+      "cautions": [
+        "목이 없으면 화생토가 약해질 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "화생토",
+        "지속성",
+        "안정",
+        "4월"
+      ]
+    },
+    {
+      "id": "RC-c8b559c972",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "4월",
+        "element": "화",
+        "structure": "화극금"
+      },
+      "mechanism": "화극금은 금의 에너지를 활성화함.",
+      "interpretation": "화극금은 금의 동적 에너지를 강화.",
+      "action": "화극금을 활용해 새로운 기회를 창출하라.",
+      "cautions": [
+        "화가 과도하면 금이 약해질 수 있음."
+      ],
+      "tags": [
+        "화극금",
+        "동적",
+        "기회",
+        "활성화",
+        "4월"
+      ]
+    },
+    {
+      "id": "RC-135bb5368f",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "삼합/반국",
+        "positions": [
+          "생지",
+          "왕지",
+          "고지"
+        ]
+      },
+      "mechanism": "삼합과 반국은 생지, 왕지, 고지의 에너지 흐름에 따라 작용한다.",
+      "interpretation": "생지는 미래와 연결되고, 왕지는 고정된 에너지로 과거와 연결되며, 고지는 정적인 안정성을 제공한다.",
+      "action": "삼합과 반국의 에너지 흐름을 이해하고 상담 시 적절히 활용하라.",
+      "cautions": [
+        "총량의 에너지가 변하지 않는다는 점을 오해하지 말 것."
+      ],
+      "tags": [
+        "삼합",
+        "반국",
+        "생지",
+        "왕지",
+        "고지",
+        "에너지",
+        "안정성",
+        "미래",
+        "과거"
+      ]
+    },
+    {
+      "id": "RC-f7d9661616",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "무자",
+        "month": "4월"
+      },
+      "mechanism": "4월의 무자는 외적으로 강해 보이지만 내적으로는 좁은 구조를 가질 수 있다.",
+      "interpretation": "겉으로는 대단해 보이지만 내면적으로는 안정적이지 않을 수 있다.",
+      "action": "구조를 강화하여 내면의 안정성을 높이는 방향으로 조언하라.",
+      "cautions": [
+        "외형과 내면의 차이를 간과하지 말 것."
+      ],
+      "tags": [
+        "무자",
+        "4월",
+        "구조",
+        "내면",
+        "외형",
+        "안정성",
+        "강약"
+      ]
+    },
+    {
+      "id": "RC-8fa874daab",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "day_pillar": "무자",
+        "month": "4월",
+        "element": "감목"
+      },
+      "mechanism": "감목은 경영학적 성향과 연결되며, 직업적 안정성을 제공한다.",
+      "interpretation": "감목이 있으면 경영학적 공부와 직업적 안정성이 강화된다.",
+      "action": "감목이 있는 경우 경영학적 분야를 추천하라.",
+      "cautions": [
+        "감목이 없으면 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "무자",
+        "4월",
+        "감목",
+        "경영학",
+        "직업",
+        "안정성",
+        "공부"
+      ]
+    },
+    {
+      "id": "RC-aa3903f1e6",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "elements": [
+          "경금",
+          "임수"
+        ]
+      },
+      "mechanism": "경금과 임수는 빠르게 구조를 형성하고 지속성을 제공한다.",
+      "interpretation": "경금과 임수가 있으면 직업적 성과를 빠르게 이룰 수 있다.",
+      "action": "경금과 임수가 있는 경우 빠르게 실행 가능한 직업을 추천하라.",
+      "cautions": [
+        "화가 없으면 실행 속도가 느려질 수 있음."
+      ],
+      "tags": [
+        "4월",
+        "경금",
+        "임수",
+        "구조",
+        "지속성",
+        "직업",
+        "속도"
+      ]
+    },
+    {
+      "id": "RC-a4c3ebf4a0",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "elements": [
+          "경금",
+          "임수"
+        ],
+        "fire": false
+      },
+      "mechanism": "화가 없으면 경금과 임수의 작용이 느려진다.",
+      "interpretation": "화가 없는 경우 직업적 성과를 이루는 데 시간이 오래 걸릴 수 있다.",
+      "action": "화의 부재를 보완할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "화의 부재로 인해 실행력이 저하될 수 있음."
+      ],
+      "tags": [
+        "4월",
+        "경금",
+        "임수",
+        "화",
+        "속도",
+        "직업",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-a17342e236",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "elements": [
+          "금",
+          "수"
+        ],
+        "fire": true
+      },
+      "mechanism": "화극금 금생수는 반복 없이 빠르게 성과를 낸다.",
+      "interpretation": "화극금 금생수가 있으면 효율적으로 직업적 성과를 낼 수 있다.",
+      "action": "화극금 금생수의 조합을 활용해 빠르게 성과를 낼 수 있는 직업을 추천하라.",
+      "cautions": [
+        "화극금 금생수가 없으면 반복적인 노력이 필요할 수 있음."
+      ],
+      "tags": [
+        "4월",
+        "화극금",
+        "금생수",
+        "효율성",
+        "직업",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-df509ed50f",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "무술",
+        "month": "4월",
+        "element": "계수"
+      },
+      "mechanism": "계수는 무술의 고집스러운 성향을 완화시킨다.",
+      "interpretation": "계수가 있으면 무술의 고집스러운 성향이 낮아지고 협상력이 강화된다.",
+      "action": "계수가 있는 경우 협상과 조율이 필요한 직업을 추천하라.",
+      "cautions": [
+        "계수가 없으면 고집스러운 성향이 강해질 수 있음."
+      ],
+      "tags": [
+        "무술",
+        "4월",
+        "계수",
+        "고집",
+        "협상",
+        "조율",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-f063c554bd",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "무술",
+        "month": "4월",
+        "element": "임수"
+      },
+      "mechanism": "임수는 무술의 정신적 성향을 강화한다.",
+      "interpretation": "임수가 있으면 무술의 정신적 성향이 강화되어 고위직으로 발전할 가능성이 높아진다.",
+      "action": "임수가 있는 경우 정신적 성향을 활용할 수 있는 직업을 추천하라.",
+      "cautions": [
+        "임수만으로는 낮아지는 효과를 기대하기 어려움."
+      ],
+      "tags": [
+        "무술",
+        "4월",
+        "임수",
+        "정신성",
+        "고위직",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-2e62b4ff8c",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "elements": [
+          "목",
+          "토"
+        ],
+        "element_strength": {
+          "목": "강함"
+        }
+      },
+      "mechanism": "강한 목은 지속성을 제공하며, 목생화와 목극토를 잘 수행한다.",
+      "interpretation": "목이 강하면 직업적 지속성과 안정성이 강화된다.",
+      "action": "목이 강한 경우 지속 가능한 직업을 추천하라.",
+      "cautions": [
+        "목이 약하면 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "4월",
+        "목",
+        "토",
+        "지속성",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-f3c38ef0bd",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "elements": [
+          "을목",
+          "병화"
+        ]
+      },
+      "mechanism": "을목과 병화의 조합은 변동성을 증가시킨다.",
+      "interpretation": "을목과 병화가 있으면 직업적 변동성이 커질 수 있다.",
+      "action": "을목과 병화가 있는 경우 변동성이 적은 직업을 추천하라.",
+      "cautions": [
+        "을목과 병화의 조합은 안정성을 저하시킬 수 있음."
+      ],
+      "tags": [
+        "4월",
+        "을목",
+        "병화",
+        "변동성",
+        "직업",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_117",
+  "updated_at": "2025-12-23T20:27:24"
+}

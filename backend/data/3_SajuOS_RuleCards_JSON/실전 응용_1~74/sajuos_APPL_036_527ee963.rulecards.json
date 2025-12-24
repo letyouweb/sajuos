@@ -1,0 +1,470 @@
+{
+  "title": "SajuOS_Logic_APPL_036",
+  "rulecards": [
+    {
+      "id": "RC-b8bc360389",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "heavenly_stem": "偏官"
+      },
+      "mechanism": "편관은 자녀의 극복과 성장을 상징하며, 자녀의 인격 형성과 사회적 역할에 영향을 미침.",
+      "interpretation": "천간에 편관이 있으면 자녀가 우여곡절을 겪지만 결국 극복하고 성공할 가능성이 높음.",
+      "action": "자녀의 독립성과 문제 해결 능력을 믿고 지원하라.",
+      "cautions": [
+        "자녀의 선택을 지나치게 통제하지 말 것.",
+        "자녀의 눈치를 과도하게 보지 않도록 주의."
+      ],
+      "tags": [
+        "편관",
+        "자녀",
+        "성장",
+        "사회적 역할",
+        "천간"
+      ]
+    },
+    {
+      "id": "RC-c331b16a34",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "偏官"
+      },
+      "mechanism": "지지에 편관이 있으면 자녀 양육 방식이 엄격하거나 체벌 중심으로 흐를 가능성이 있음.",
+      "interpretation": "자녀가 체벌 중심의 양육 환경에서 자랄 경우, 자녀의 자존감과 관계 형성에 부정적 영향을 미칠 수 있음.",
+      "action": "체벌 대신 대화와 이해를 기반으로 한 양육 방식을 채택하라.",
+      "cautions": [
+        "체벌이 자녀의 문제를 해결하지 못할 수 있음.",
+        "자녀의 감정적 상처를 유발할 가능성 있음."
+      ],
+      "tags": [
+        "편관",
+        "지지",
+        "체벌",
+        "양육",
+        "자존감"
+      ]
+    },
+    {
+      "id": "RC-266c01c46c",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "偏官",
+        "earthly_branch": "食神"
+      },
+      "mechanism": "편관이 천간에 있고 식신이 지지에 있으면 자녀가 부모의 기대를 충족시키기 위해 노력함.",
+      "interpretation": "자녀가 부모의 기대를 의식하며 성장할 가능성이 높음.",
+      "action": "자녀에게 과도한 기대를 강요하지 말고, 자율성을 존중하라.",
+      "cautions": [
+        "자녀가 스트레스를 받을 수 있음.",
+        "자녀의 개성을 억압하지 않도록 주의."
+      ],
+      "tags": [
+        "편관",
+        "식신",
+        "기대",
+        "자율성",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-32ff95a879",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "heavenly_stem": "正印"
+      },
+      "mechanism": "정인은 부모의 사랑과 자녀의 자존감 형성에 중요한 역할을 함.",
+      "interpretation": "정인이 강한 자녀는 부모의 사랑을 받고 자존감이 높게 형성됨.",
+      "action": "자녀에게 애정을 표현하고, 자존감을 키울 수 있는 환경을 조성하라.",
+      "cautions": [
+        "부모의 사랑이 과도하면 자녀가 의존적으로 변할 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "자존감",
+        "부모",
+        "애정",
+        "양육"
+      ]
+    },
+    {
+      "id": "RC-9ca43e058f",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "偏印"
+      },
+      "mechanism": "편인은 부모와 자녀 간의 거리감과 감정적 불안정을 나타냄.",
+      "interpretation": "편인이 강한 자녀는 부모와의 관계에서 거리감을 느끼고, 감정적으로 불안정할 수 있음.",
+      "action": "자녀와의 감정적 교감을 강화하고, 안정감을 줄 수 있는 환경을 제공하라.",
+      "cautions": [
+        "자녀가 부모의 사랑을 의심할 가능성이 있음.",
+        "감정적 소통 부족으로 관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "부모",
+        "거리감",
+        "감정",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-7a66dd88ed",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "heavenly_stem": "偏印",
+        "earthly_branch": "傷官"
+      },
+      "mechanism": "편인과 상관이 함께 있으면 자녀가 부모와의 관계에서 갈등을 겪을 가능성이 높음.",
+      "interpretation": "자녀가 부모의 기대와 자신의 욕구 사이에서 갈등을 느낄 수 있음.",
+      "action": "자녀의 의견을 존중하고, 갈등을 해결하기 위한 대화를 시도하라.",
+      "cautions": [
+        "부모와 자녀 간의 갈등이 장기화될 수 있음.",
+        "자녀의 독립성을 인정하지 않을 경우 문제가 심화될 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "상관",
+        "갈등",
+        "부모",
+        "자녀"
+      ]
+    },
+    {
+      "id": "RC-f4f4b2608a",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "正印",
+        "earthly_branch": "食神"
+      },
+      "mechanism": "정인과 식신의 조합은 부모와 자녀 간의 애정과 신뢰를 강화함.",
+      "interpretation": "자녀가 부모의 사랑을 받고, 안정적인 관계를 유지할 가능성이 높음.",
+      "action": "자녀와의 신뢰를 바탕으로 긍정적인 관계를 유지하라.",
+      "cautions": [
+        "부모의 과도한 간섭이 자녀의 독립성을 저해할 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "식신",
+        "애정",
+        "신뢰",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-3e822303ac",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "heavenly_stem": "偏印",
+        "earthly_branch": "正官"
+      },
+      "mechanism": "편인과 정관이 함께 있으면 자녀가 부모의 기대와 자신의 역할 사이에서 혼란을 겪을 수 있음.",
+      "interpretation": "자녀가 부모의 기대를 충족시키기 위해 스스로를 억압할 가능성이 있음.",
+      "action": "자녀의 개성과 자율성을 존중하며, 과도한 기대를 피하라.",
+      "cautions": [
+        "자녀가 스트레스를 받을 수 있음.",
+        "자녀의 자존감이 낮아질 가능성이 있음."
+      ],
+      "tags": [
+        "편인",
+        "정관",
+        "기대",
+        "자율성",
+        "혼란"
+      ]
+    },
+    {
+      "id": "RC-6f4906b221",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "parental_influence": "strong",
+        "direct_support": true
+      },
+      "mechanism": "정인이 청간에 있으면 부모의 영향력이 직접적이고 지속적임.",
+      "interpretation": "부모가 자녀의 삶에 지속적으로 영향을 미치며, 도움을 주는 관계가 형성됨.",
+      "action": "부모의 도움을 긍정적으로 받아들이고, 관계를 유지하도록 노력.",
+      "cautions": [
+        "부모의 과도한 간섭에 주의",
+        "독립성을 잃지 않도록 유의"
+      ],
+      "tags": [
+        "정인",
+        "청간",
+        "부모",
+        "영향력",
+        "지원",
+        "관계",
+        "독립성",
+        "애정",
+        "유산",
+        "사회생활"
+      ]
+    },
+    {
+      "id": "RC-7ca193ccf1",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "parental_influence": "strong",
+        "emotional_exchange": false
+      },
+      "mechanism": "정인이 청간에 있으면 감정보다는 현실적 지원이 강조됨.",
+      "interpretation": "부모와의 관계가 감정적 교류보다는 현실적 도움에 초점이 맞춰짐.",
+      "action": "현실적 도움을 활용하되, 감정적 교류도 신경 쓸 것.",
+      "cautions": [
+        "감정적 소외감에 주의",
+        "현실적 도움에만 의존하지 않도록"
+      ],
+      "tags": [
+        "정인",
+        "청간",
+        "현실적 도움",
+        "감정 교류",
+        "부모",
+        "지원",
+        "관계",
+        "애정",
+        "독립성",
+        "사회생활"
+      ]
+    },
+    {
+      "id": "RC-d6700a96bd",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parental_influence": "weak",
+        "emotional_exchange": true
+      },
+      "mechanism": "정인이 지지에 있으면 감정적 교류가 중심이 됨.",
+      "interpretation": "부모와의 관계가 감정적 교류에 의존하며, 끊어질 경우 관계가 약화될 수 있음.",
+      "action": "감정적 교류를 지속적으로 유지하도록 노력.",
+      "cautions": [
+        "감정적 의존에 주의",
+        "관계 단절 방지"
+      ],
+      "tags": [
+        "정인",
+        "지지",
+        "감정 교류",
+        "부모",
+        "관계",
+        "애정",
+        "의존",
+        "단절",
+        "사회생활",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-a646d6d24b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "parental_influence": "weak",
+        "external_influence": true
+      },
+      "mechanism": "지지정인은 외부의 애정과 관심에 쉽게 영향을 받음.",
+      "interpretation": "부모의 역할을 대체할 외부 인물이나 환경에 쉽게 의존할 수 있음.",
+      "action": "외부 영향에 휘둘리지 않도록 자기 주관을 강화.",
+      "cautions": [
+        "가스라이팅에 주의",
+        "외부 의존성 감소"
+      ],
+      "tags": [
+        "정인",
+        "지지",
+        "외부 영향",
+        "가스라이팅",
+        "부모",
+        "관계",
+        "애정",
+        "의존",
+        "위험",
+        "사회생활"
+      ]
+    },
+    {
+      "id": "RC-69fd1c7a05",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parental_influence": "strong",
+        "control": true
+      },
+      "mechanism": "청간 편인은 부모의 과도한 기대와 통제 아래 놓일 가능성이 높음.",
+      "interpretation": "부모의 사랑이 구속으로 작용할 수 있음.",
+      "action": "부모와의 관계에서 적절한 거리 유지.",
+      "cautions": [
+        "과도한 통제에 주의",
+        "독립성 확보"
+      ],
+      "tags": [
+        "편인",
+        "청간",
+        "부모",
+        "구속",
+        "통제",
+        "관계",
+        "애정",
+        "독립성",
+        "사회생활",
+        "기대"
+      ]
+    },
+    {
+      "id": "RC-9e5d5bf318",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "parental_influence": "weak",
+        "emotional_exchange": false
+      },
+      "mechanism": "지지 편인은 감정적 교류가 부족할 경우 애정 결핍을 느낄 수 있음.",
+      "interpretation": "부모와의 관계에서 애정 결핍이 발생할 가능성이 있음.",
+      "action": "감정적 교류를 늘리고, 부모와의 관계를 개선.",
+      "cautions": [
+        "애정 결핍에 따른 행동 문제",
+        "관계 단절 방지"
+      ],
+      "tags": [
+        "편인",
+        "지지",
+        "감정 교류",
+        "부모",
+        "애정 결핍",
+        "관계",
+        "사회생활",
+        "위험",
+        "의존",
+        "단절"
+      ]
+    },
+    {
+      "id": "RC-30f05a4173",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "parental_influence": "weak",
+        "external_influence": true
+      },
+      "mechanism": "지지 편인은 외부 환경에 의해 쉽게 영향을 받을 수 있음.",
+      "interpretation": "외부의 애정과 관심에 의존할 가능성이 높음.",
+      "action": "외부 환경에 대한 경계심을 가지며, 자기 주관을 강화.",
+      "cautions": [
+        "외부 의존성 증가",
+        "가스라이팅 위험"
+      ],
+      "tags": [
+        "편인",
+        "지지",
+        "외부 영향",
+        "가스라이팅",
+        "부모",
+        "관계",
+        "애정",
+        "의존",
+        "위험",
+        "사회생활"
+      ]
+    },
+    {
+      "id": "RC-0c9edc22fb",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "parental_influence": "strong",
+        "direct_support": true
+      },
+      "mechanism": "청간 편인은 부모의 지속적인 관심과 지원을 받음.",
+      "interpretation": "부모의 사랑과 지원이 자녀에게 부담으로 작용할 수 있음.",
+      "action": "부모와의 관계에서 자율성을 확보.",
+      "cautions": [
+        "과도한 기대와 부담",
+        "독립성 부족"
+      ],
+      "tags": [
+        "편인",
+        "청간",
+        "부모",
+        "지원",
+        "관계",
+        "애정",
+        "독립성",
+        "부담",
+        "사회생활",
+        "기대"
+      ]
+    },
+    {
+      "id": "RC-e316541838",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "parental_influence": "weak",
+        "emotional_exchange": true
+      },
+      "mechanism": "지지 편인은 감정적 교류가 끊어질 경우 관계가 약화됨.",
+      "interpretation": "부모와의 관계가 감정적 교류에 의존하며, 단절 시 관계가 소원해질 수 있음.",
+      "action": "감정적 교류를 지속적으로 유지하고, 관계를 개선.",
+      "cautions": [
+        "감정적 의존에 따른 문제",
+        "관계 단절 방지"
+      ],
+      "tags": [
+        "편인",
+        "지지",
+        "감정 교류",
+        "부모",
+        "관계",
+        "애정",
+        "의존",
+        "단절",
+        "사회생활",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-cae98034c8",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "parental_influence": "strong",
+        "control": true
+      },
+      "mechanism": "청간 편인은 부모의 과도한 통제와 기대 아래 놓일 가능성이 있음.",
+      "interpretation": "부모의 사랑이 구속으로 작용할 수 있음.",
+      "action": "부모와의 관계에서 적절한 거리 유지.",
+      "cautions": [
+        "과도한 통제에 따른 문제",
+        "독립성 확보"
+      ],
+      "tags": [
+        "편인",
+        "청간",
+        "부모",
+        "구속",
+        "통제",
+        "관계",
+        "애정",
+        "독립성",
+        "사회생활",
+        "기대"
+      ]
+    }
+  ],
+  "notes": [
+    "편관과 정인, 편인의 조합이 자녀와 부모 관계에 미치는 영향을 중심으로 해석됨.",
+    "자녀의 자존감, 독립성, 감정적 안정에 대한 부모의 역할이 강조됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_036",
+  "updated_at": "2025-12-23T20:27:26"
+}

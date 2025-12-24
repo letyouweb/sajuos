@@ -1,0 +1,460 @@
+{
+  "title": "SajuOS_Logic_STRU_M_180",
+  "rulecards": [
+    {
+      "id": "RC-127d6fdf61",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "술",
+        "element": "토",
+        "supporting_element": "갑목"
+      },
+      "mechanism": "술토는 황무지와 같아 활용이 어렵지만 갑목이 있으면 개간 가능.",
+      "interpretation": "갑목은 술토를 생산적으로 전환하는 역할을 한다.",
+      "action": "술월에 갑목이 있다면 이를 활용해 환경을 개선하라.",
+      "cautions": [
+        "갑목이 없으면 술토의 활용이 제한적이다."
+      ],
+      "tags": [
+        "술월",
+        "갑목",
+        "황무지",
+        "환경개선",
+        "토생금"
+      ]
+    },
+    {
+      "id": "RC-d49a021163",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술",
+        "element": "토",
+        "supporting_element": "병화"
+      },
+      "mechanism": "병화는 술월의 조후를 맞추고 생목을 돕는다.",
+      "interpretation": "병화는 술월의 에너지를 조화롭게 만든다.",
+      "action": "술월에 병화가 있다면 이를 활용해 조후를 맞춰라.",
+      "cautions": [
+        "병화가 없으면 술월의 조후가 부족할 수 있다."
+      ],
+      "tags": [
+        "술월",
+        "병화",
+        "조후",
+        "생목",
+        "화생토"
+      ]
+    },
+    {
+      "id": "RC-1386bd0720",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "편인",
+        "month": "술"
+      },
+      "mechanism": "편인은 고정된 사고와 치우친 관점을 나타낸다.",
+      "interpretation": "술월의 편인은 고집스러운 성향과 흑백논리를 강화한다.",
+      "action": "편인의 고집을 긍정적으로 활용할 방안을 모색하라.",
+      "cautions": [
+        "편인이 강하면 확증 편향이 심화될 수 있다."
+      ],
+      "tags": [
+        "편인",
+        "술월",
+        "고집",
+        "흑백논리",
+        "확증편향"
+      ]
+    },
+    {
+      "id": "RC-ca3348a508",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "토생금",
+        "month": "술"
+      },
+      "mechanism": "토생금은 재료를 가공해 생산성을 높이는 과정이다.",
+      "interpretation": "술월의 토생금은 1차 가공 산업과 유사한 역할을 한다.",
+      "action": "술월의 토생금을 활용해 생산성을 높이는 방안을 찾으라.",
+      "cautions": [
+        "토생금이 약하면 전환 과정이 지연될 수 있다."
+      ],
+      "tags": [
+        "토생금",
+        "술월",
+        "생산성",
+        "가공",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-801a5a6935",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술",
+        "element": "토",
+        "supporting_element": "임수"
+      },
+      "mechanism": "임수는 술토의 에너지를 해소하고 갑목을 보호한다.",
+      "interpretation": "임수는 술월의 환경을 조화롭게 만든다.",
+      "action": "술월에 임수가 있다면 이를 활용해 에너지를 조화시켜라.",
+      "cautions": [
+        "임수가 없으면 술토의 에너지가 과도할 수 있다."
+      ],
+      "tags": [
+        "술월",
+        "임수",
+        "조화",
+        "에너지해소",
+        "갑목보호"
+      ]
+    },
+    {
+      "id": "RC-767c2a364f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "진술충",
+        "month": "술"
+      },
+      "mechanism": "진술충은 극과 극의 에너지를 오가며 창의성을 발휘한다.",
+      "interpretation": "진술충은 위기 대응 능력과 창의성을 강화한다.",
+      "action": "진술충을 활용해 새로운 아이디어를 실행하라.",
+      "cautions": [
+        "충이 과도하면 불안정성이 커질 수 있다."
+      ],
+      "tags": [
+        "진술충",
+        "창의성",
+        "위기대응",
+        "극과극",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-0d37c0be94",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "element": "편인",
+        "month": "술",
+        "supporting_element": "갑목"
+      },
+      "mechanism": "갑목은 편인의 고정된 사고를 현실적으로 전환한다.",
+      "interpretation": "갑목은 편인의 창의성을 실현 가능하게 만든다.",
+      "action": "편인의 창의성을 갑목을 통해 현실화하라.",
+      "cautions": [
+        "갑목이 없으면 편인의 창의성이 비생산적으로 흐를 수 있다."
+      ],
+      "tags": [
+        "편인",
+        "갑목",
+        "창의성",
+        "현실화",
+        "술월"
+      ]
+    },
+    {
+      "id": "RC-d29226a653",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "술",
+        "element": "토",
+        "supporting_element": "금"
+      },
+      "mechanism": "금이 강하면 술토의 고민을 줄이고 결단력을 높인다.",
+      "interpretation": "금은 술월의 토를 조화롭게 만들어 결단력을 강화한다.",
+      "action": "술월에 금을 강화해 결단력을 높여라.",
+      "cautions": [
+        "금이 약하면 술토의 고민이 길어질 수 있다."
+      ],
+      "tags": [
+        "술월",
+        "금",
+        "결단력",
+        "토생금",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-45938d6f37",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "토국수",
+        "month": "술"
+      },
+      "mechanism": "토국수는 수의 에너지를 억제해 실행력을 약화시킨다.",
+      "interpretation": "토국수는 술월에서 실행력을 제한하는 요소가 된다.",
+      "action": "토국수를 방지하기 위해 금과 수의 조화를 유지하라.",
+      "cautions": [
+        "토국수가 강하면 실행력이 크게 저하될 수 있다."
+      ],
+      "tags": [
+        "토국수",
+        "술월",
+        "실행력",
+        "금생수",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-addf720038",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "술",
+        "element": "토",
+        "supporting_element": "병화",
+        "additional_element": "임수"
+      },
+      "mechanism": "병화와 임수는 술월의 에너지를 조화롭게 만든다.",
+      "interpretation": "병화와 임수는 술월의 환경을 생산적으로 전환한다.",
+      "action": "술월에 병화와 임수를 활용해 환경을 개선하라.",
+      "cautions": [
+        "병화와 임수가 없으면 술월의 에너지가 불안정할 수 있다."
+      ],
+      "tags": [
+        "술월",
+        "병화",
+        "임수",
+        "조화",
+        "환경개선"
+      ]
+    },
+    {
+      "id": "RC-919d8fff2a",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "type": "정재",
+        "behavior": "고정적 사고"
+      },
+      "mechanism": "정재는 답을 미리 정하고 그 틀 안에서 사고를 전개하는 성향이 강함.",
+      "interpretation": "정재가 강한 사람은 고정된 사고방식으로 인해 유연성이 부족할 수 있음.",
+      "action": "결정을 내릴 때 다양한 관점을 고려하고 유연성을 키우는 연습을 해야 함.",
+      "cautions": [
+        "고정된 사고로 인해 새로운 기회를 놓칠 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "사고방식",
+        "유연성",
+        "결정",
+        "고정적"
+      ]
+    },
+    {
+      "id": "RC-3ce1c2d527",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "진술충",
+        "element": "경금",
+        "interaction": "을목"
+      },
+      "mechanism": "진술충과 경금-을목의 관계는 재극인의 문제를 유발할 수 있음.",
+      "interpretation": "이 조합은 재성 관련 문제나 영역 다툼을 초래할 가능성이 높음.",
+      "action": "재극인의 문제를 완화하기 위해 임수와 같은 조화로운 요소를 활용해야 함.",
+      "cautions": [
+        "재성 문제로 인해 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "진술충",
+        "재극인",
+        "경금",
+        "을목",
+        "임수"
+      ]
+    },
+    {
+      "id": "RC-c397fb0b54",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "임수",
+        "context": "재극인 문제 해결"
+      },
+      "mechanism": "임수는 재극인의 문제를 완화하고 조화를 이루는 역할을 함.",
+      "interpretation": "임수가 있으면 재극인 문제로 인한 좌절을 극복할 수 있음.",
+      "action": "임수를 활용하여 재극인 문제를 해결하고 지속적인 노력을 이어가야 함.",
+      "cautions": [
+        "임수가 없으면 문제 해결이 어려울 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "재극인",
+        "조화",
+        "문제해결",
+        "좌절"
+      ]
+    },
+    {
+      "id": "RC-0fcbfffa04",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "식신제살",
+        "context": "임수와 병화의 조합"
+      },
+      "mechanism": "임수와 병화는 서로의 능력을 드러내는 역할을 함.",
+      "interpretation": "이 조합은 개인의 능력을 발휘하고 지속적인 성과를 낼 수 있는 구조를 형성함.",
+      "action": "임수와 병화의 조화를 통해 자신의 능력을 최대한 발휘하도록 노력해야 함.",
+      "cautions": [
+        "병화가 없으면 임수의 역할이 제한될 수 있음."
+      ],
+      "tags": [
+        "식신제살",
+        "임수",
+        "병화",
+        "능력발휘",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-dc361c7a31",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "context": "승진 및 직업 안정성"
+      },
+      "mechanism": "임수는 직업적 성과와 승진에 중요한 역할을 함.",
+      "interpretation": "임수가 강하면 승진과 직업적 안정성을 확보할 가능성이 높음.",
+      "action": "임수의 에너지를 강화하고 이를 활용하여 직업적 목표를 달성해야 함.",
+      "cautions": [
+        "임수가 약하면 승진 기회가 제한될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "승진",
+        "직업",
+        "안정성",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-f1b8fb0b91",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "목극토",
+        "context": "술토와 인목의 상호작용"
+      },
+      "mechanism": "목극토는 술토와의 갈등을 유발하며 재성 문제를 초래할 수 있음.",
+      "interpretation": "이 조합은 재성 관련 갈등과 영역 다툼을 유발할 가능성이 있음.",
+      "action": "목극토의 갈등을 완화하기 위해 조화로운 요소를 추가해야 함.",
+      "cautions": [
+        "재성 문제로 인해 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "목극토",
+        "술토",
+        "인목",
+        "재성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-0f92ab7f3b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "context": "인술 삼합"
+      },
+      "mechanism": "병화는 인술 삼합을 통해 조화를 이루고 에너지를 강화함.",
+      "interpretation": "병화가 있으면 삼합을 통해 구조적 안정성을 확보할 수 있음.",
+      "action": "병화를 활용하여 삼합의 조화를 극대화해야 함.",
+      "cautions": [
+        "병화가 없으면 삼합의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "인술",
+        "삼합",
+        "조화",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-8cac3b4c75",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "context": "직업적 위치"
+      },
+      "mechanism": "정화는 직업적 위치와 관련된 에너지를 제공함.",
+      "interpretation": "정화가 있으면 직업적 위치와 관련된 성과를 낼 가능성이 높음.",
+      "action": "정화를 활용하여 직업적 목표를 달성하고 위치를 확보해야 함.",
+      "cautions": [
+        "정화가 없으면 직업적 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "직업",
+        "위치",
+        "성과",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-8659bd5762",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "토생금",
+        "context": "술월의 조건"
+      },
+      "mechanism": "토생금은 술월의 조건을 활용하여 생산적 구조를 형성함.",
+      "interpretation": "토생금이 있으면 생산적이고 안정적인 구조를 형성할 수 있음.",
+      "action": "토생금을 활용하여 생산적 목표를 달성해야 함.",
+      "cautions": [
+        "토생금이 없으면 구조적 안정성이 부족할 수 있음."
+      ],
+      "tags": [
+        "토생금",
+        "술월",
+        "생산성",
+        "구조",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-eb40944352",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "진토",
+        "context": "50대 대운"
+      },
+      "mechanism": "진토는 대운에서 구조적 문제를 해결하는 역할을 함.",
+      "interpretation": "진토가 오면 구조적 문제를 한 번에 해결할 수 있음.",
+      "action": "진토가 오는 시기를 활용하여 문제를 해결하고 목표를 달성해야 함.",
+      "cautions": [
+        "진토가 오지 않으면 문제 해결이 지연될 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "대운",
+        "문제해결",
+        "구조",
+        "목표"
+      ]
+    }
+  ],
+  "notes": [
+    "술월의 조건과 활용 방안에 대한 다양한 사례와 논리가 포함됨.",
+    "편인과 술토의 관계는 고정된 사고와 창의성의 조화를 설명함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_180",
+  "updated_at": "2025-12-23T20:27:25"
+}

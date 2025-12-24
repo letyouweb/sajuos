@@ -1,0 +1,459 @@
+{
+  "title": "SajuOS_Logic_ELEM_013",
+  "rulecards": [
+    {
+      "id": "RC-563473a989",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화가 강하면 솔직함과 즉흥성이 강조됨.",
+      "interpretation": "솔직하지만 조급하고 성급한 성향이 나타남.",
+      "action": "화의 강한 에너지를 완충하기 위해 토의 에너지를 활용.",
+      "cautions": [
+        "상대방의 감정을 강제로 동조시키려는 경향",
+        "조급함으로 인해 실수 가능성"
+      ],
+      "tags": [
+        "화",
+        "솔직함",
+        "조급함",
+        "성급함",
+        "완충"
+      ]
+    },
+    {
+      "id": "RC-e460397e10",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "strength": "강함",
+        "absence_of": "토"
+      },
+      "mechanism": "토가 없으면 화의 에너지가 조절되지 않음.",
+      "interpretation": "조급함과 성급함이 극대화되어 실수 가능성이 높아짐.",
+      "action": "토의 에너지를 보완하여 안정감을 찾도록 노력.",
+      "cautions": [
+        "큰 손실 가능성",
+        "과정 무시"
+      ],
+      "tags": [
+        "화",
+        "토",
+        "조급함",
+        "안정감",
+        "실수"
+      ]
+    },
+    {
+      "id": "RC-f4eda3a261",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화는 솔직함과 즉각적인 감정 표현을 중시.",
+      "interpretation": "연애에서 즉흥적이고 강렬한 감정을 표현.",
+      "action": "상대방의 감정을 존중하며 속도 조절 필요.",
+      "cautions": [
+        "과도한 솔직함으로 갈등 유발 가능"
+      ],
+      "tags": [
+        "화",
+        "연애",
+        "솔직함",
+        "즉흥성",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-3d55825946",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "interaction_with": "수"
+      },
+      "mechanism": "수가 화를 극하면 솔직함이 억제됨.",
+      "interpretation": "감정을 감추고 속임수나 앞뒤가 다른 행동 가능.",
+      "action": "수가 강한 경우 신뢰를 쌓는 행동을 우선시.",
+      "cautions": [
+        "앞뒤가 다른 행동으로 신뢰 손상 가능"
+      ],
+      "tags": [
+        "화",
+        "수",
+        "솔직함",
+        "속임수",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-05e3d68ce3",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "interaction_with": "목"
+      },
+      "mechanism": "목이 화를 생하면 솔직함과 동심이 강화됨.",
+      "interpretation": "연애에서 솔직하고 순수한 감정 표현 가능.",
+      "action": "목의 에너지를 활용해 관계를 회복하거나 유지.",
+      "cautions": [
+        "솔직함이 과도하면 상대방에게 부담이 될 수 있음"
+      ],
+      "tags": [
+        "화",
+        "목",
+        "솔직함",
+        "순수함",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-24d951fff8",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "interaction_with": "금"
+      },
+      "mechanism": "금이 화를 억제하면 감정을 숨기고 신중해짐.",
+      "interpretation": "연애에서 감정 표현이 억제되고 신뢰 중심으로 전개.",
+      "action": "금의 에너지를 활용해 신뢰를 기반으로 관계를 형성.",
+      "cautions": [
+        "감정 억제로 인해 소통 부족 가능"
+      ],
+      "tags": [
+        "화",
+        "금",
+        "신뢰",
+        "감정 억제",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-9dd42a3ba8",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "strength": "강함"
+      },
+      "mechanism": "목은 솔직하고 순수한 감정을 중시.",
+      "interpretation": "연애에서 본능적이고 직관적인 감정 표현.",
+      "action": "목의 에너지를 활용해 진솔한 관계를 유지.",
+      "cautions": [
+        "감정에 치우쳐 현실적인 판단 부족 가능"
+      ],
+      "tags": [
+        "목",
+        "솔직함",
+        "순수함",
+        "연애",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-ada82033c8",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "strength": "강함"
+      },
+      "mechanism": "금은 감정 조절과 신중함을 중시.",
+      "interpretation": "연애에서 실속과 신뢰를 기반으로 관계를 형성.",
+      "action": "금의 에너지를 활용해 안정적이고 성숙한 관계를 추구.",
+      "cautions": [
+        "감정 표현 부족으로 오해 가능"
+      ],
+      "tags": [
+        "금",
+        "신중함",
+        "감정 조절",
+        "연애",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-b2806a3e9e",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "interaction_with": "목",
+        "absence_of": "금"
+      },
+      "mechanism": "목화 중심의 에너지는 솔직하고 본능적.",
+      "interpretation": "연애에서 감정 표현이 강렬하고 즉흥적.",
+      "action": "목화의 에너지를 조절하며 상대방과의 균형 유지.",
+      "cautions": [
+        "감정 과잉으로 갈등 유발 가능"
+      ],
+      "tags": [
+        "목",
+        "화",
+        "솔직함",
+        "본능",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-56e8984309",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "interaction_with": "수"
+      },
+      "mechanism": "금수 조합은 신중하고 계산적인 연애 성향.",
+      "interpretation": "연애에서 실속과 필요 중심의 관계 형성.",
+      "action": "금수의 에너지를 활용해 현실적이고 안정적인 관계를 추구.",
+      "cautions": [
+        "감정적 연결 부족으로 관계 단절 가능"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "신중함",
+        "실속",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-8ec3b20c10",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "element": "금",
+        "strength": "약함"
+      },
+      "mechanism": "금이 약하면 감정 조절과 성숙함이 부족해질 수 있음.",
+      "interpretation": "금이 약한 사람은 연애에서 성숙하지 못한 모습을 보일 가능성이 높음.",
+      "action": "자신의 감정을 조절하고 성숙한 태도를 유지하려고 노력해야 함.",
+      "cautions": [
+        "감정 폭발을 조심할 것",
+        "상대방에게 신뢰를 잃지 않도록 주의"
+      ],
+      "tags": [
+        "금",
+        "연애",
+        "감정조절",
+        "성숙함",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-556cc54117",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "strength": "강함"
+      },
+      "mechanism": "강한 금은 강단 있게 목표를 밀고 나가는 성향을 가짐.",
+      "interpretation": "금이 강한 사람은 연애에서도 확실한 태도를 보이며 신뢰를 얻음.",
+      "action": "자신의 강점을 활용해 연애에서 신뢰를 쌓아갈 것.",
+      "cautions": [
+        "지나치게 강압적으로 보이지 않도록 주의"
+      ],
+      "tags": [
+        "금",
+        "연애",
+        "강단",
+        "신뢰",
+        "확실함"
+      ]
+    },
+    {
+      "id": "RC-e7eeba5889",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "interaction": "목"
+      },
+      "mechanism": "금은 목의 부족함을 보완하며 매력을 느끼는 경향이 있음.",
+      "interpretation": "금은 목처럼 약간 부족한 사람에게 매력을 느끼고 인연을 맺음.",
+      "action": "상대방에게 빈틈을 보여주며 자연스럽게 다가갈 것.",
+      "cautions": [
+        "지나치게 완벽한 모습을 보이려 하지 말 것"
+      ],
+      "tags": [
+        "금",
+        "목",
+        "연애",
+        "매력",
+        "빈틈"
+      ]
+    },
+    {
+      "id": "RC-4d9a831224",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "interaction": "화"
+      },
+      "mechanism": "화는 금의 성장을 돕고 연애에서 지속 가능성을 높임.",
+      "interpretation": "화가 있는 금은 연애에서 성숙하고 실속 있는 관계를 형성함.",
+      "action": "화의 에너지를 활용해 연애에서 성장을 추구할 것.",
+      "cautions": [
+        "화가 없으면 연애에서 실속을 잃을 수 있음"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "연애",
+        "성장",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-5a2caa8578",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "interaction": "수"
+      },
+      "mechanism": "금생수는 내면으로 집중하는 성향을 강화함.",
+      "interpretation": "금생수가 강한 사람은 연애에서 상대방에게 무관심할 가능성이 있음.",
+      "action": "상대방에게 관심을 표현하고 소통하려는 노력이 필요함.",
+      "cautions": [
+        "자폐적 성향으로 흐르지 않도록 주의"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "연애",
+        "무관심",
+        "소통"
+      ]
+    },
+    {
+      "id": "RC-e10e7905da",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "interaction": "화",
+        "strength": "없음"
+      },
+      "mechanism": "화가 없는 금은 이성을 보는 눈이 부족하고 편협해질 수 있음.",
+      "interpretation": "화가 없는 금은 연애에서 건강한 관계를 형성하기 어려움.",
+      "action": "화의 에너지를 보완할 수 있는 활동이나 사람들과 교류할 것.",
+      "cautions": [
+        "편협한 사고를 경계할 것"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "연애",
+        "편협함",
+        "교류"
+      ]
+    },
+    {
+      "id": "RC-559256f08d",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "interaction": "목",
+        "strength": "강함"
+      },
+      "mechanism": "목은 금에게 지속적으로 다가가며 신뢰를 쌓음.",
+      "interpretation": "목의 끈기 있는 접근은 금과의 연애에서 효과적임.",
+      "action": "상대방에게 꾸준히 다가가며 신뢰를 쌓을 것.",
+      "cautions": [
+        "상대방의 반응을 무시하지 말 것"
+      ],
+      "tags": [
+        "금",
+        "목",
+        "연애",
+        "신뢰",
+        "끈기"
+      ]
+    },
+    {
+      "id": "RC-1132e01e2c",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "interaction": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화가 강한 금은 연애에서 성적 매력과 사회성을 발휘함.",
+      "interpretation": "화가 강한 금은 연애에서 매력적이고 활발한 모습을 보임.",
+      "action": "자신의 매력을 활용해 적극적으로 연애에 임할 것.",
+      "cautions": [
+        "지나치게 자기중심적으로 행동하지 말 것"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "연애",
+        "매력",
+        "사회성"
+      ]
+    },
+    {
+      "id": "RC-aed6ace3e5",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "element": "금",
+        "interaction": "수",
+        "strength": "강함"
+      },
+      "mechanism": "금생수는 내면으로 집중하며 외부와의 접촉을 줄임.",
+      "interpretation": "금생수가 강한 사람은 연애에서 소극적일 가능성이 높음.",
+      "action": "외부 활동을 늘리고 새로운 사람들과의 접촉을 시도할 것.",
+      "cautions": [
+        "자신만의 세계에 갇히지 않도록 주의"
+      ],
+      "tags": [
+        "금",
+        "수",
+        "연애",
+        "소극적",
+        "내면집중"
+      ]
+    },
+    {
+      "id": "RC-2ea8ad83b4",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "interaction": "화",
+        "strength": "없음"
+      },
+      "mechanism": "화가 없는 금은 연애에서 성적 매력과 사회성이 부족함.",
+      "interpretation": "화가 없는 금은 연애에서 상대방에게 매력을 어필하기 어려움.",
+      "action": "자신을 꾸미고 매력을 발산하는 방법을 배울 것.",
+      "cautions": [
+        "자신의 부족함을 인정하고 개선하려는 자세가 필요"
+      ],
+      "tags": [
+        "금",
+        "화",
+        "연애",
+        "매력",
+        "사회성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_013",
+  "updated_at": "2025-12-23T20:27:25"
+}

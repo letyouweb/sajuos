@@ -1,0 +1,906 @@
+{
+  "title": "SajuOS_Logic_STRU_A_035",
+  "rulecards": [
+    {
+      "id": "RC-b38f8d52a4",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "신금",
+        "interaction": "오화"
+      },
+      "mechanism": "신금은 화의 에너지를 감당하기 어려워 예민해지고 스트레스를 받음.",
+      "interpretation": "신금이 오화를 만나면 심리적으로 까칠하고 민감해질 가능성이 높음.",
+      "action": "신금을 보호할 수 있는 수(水)의 강한 에너지를 활용해야 함.",
+      "cautions": [
+        "수가 부족하면 신금이 화의 영향을 극복하기 어려움."
+      ],
+      "tags": [
+        "신금",
+        "오화",
+        "스트레스",
+        "예민함",
+        "수"
+      ]
+    },
+    {
+      "id": "RC-da05625d5c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "water_strength": "강함",
+        "water_type": "임수"
+      },
+      "mechanism": "임수는 신금과 지속적인 상호작용을 통해 안정감을 제공.",
+      "interpretation": "임수가 강하면 신금이 화의 영향을 덜 받고 안정적임.",
+      "action": "임수를 활용해 신금의 스트레스를 완화하고 균형을 유지.",
+      "cautions": [
+        "계수는 임수보다 효과가 약함."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "안정성",
+        "수생금",
+        "스트레스 완화"
+      ]
+    },
+    {
+      "id": "RC-51a43ca3cf",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "충",
+        "element": "오화"
+      },
+      "mechanism": "충은 대립을 통해 변화를 유도.",
+      "interpretation": "충은 갑작스러운 변화를 일으키며, 긍정적일 수도 부정적일 수도 있음.",
+      "action": "충의 에너지를 활용해 환경을 개선하거나 변화를 유도.",
+      "cautions": [
+        "충이 과도하면 불안정성을 초래할 수 있음."
+      ],
+      "tags": [
+        "충",
+        "변화",
+        "대립",
+        "오화",
+        "환경 개선"
+      ]
+    },
+    {
+      "id": "RC-5d86a4930d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "month": "오월"
+      },
+      "mechanism": "오월의 화 에너지가 신금에게 과도한 부담을 줌.",
+      "interpretation": "오월에 태어난 신금은 직업적 안정성과 만족도가 낮을 가능성이 큼.",
+      "action": "수가 강한 환경에서 직업을 선택하고 스트레스를 관리해야 함.",
+      "cautions": [
+        "수가 부족하면 직업적 스트레스가 심화될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "오월",
+        "직업",
+        "스트레스",
+        "수"
+      ]
+    },
+    {
+      "id": "RC-5920079947",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "자묘형",
+        "elements": [
+          "자수",
+          "묘목"
+        ]
+      },
+      "mechanism": "자묘형은 수생목의 흐름을 방해하지 않음.",
+      "interpretation": "자묘형이 있어도 수생목이 원활하면 큰 문제가 되지 않음.",
+      "action": "수생목의 흐름을 유지하며 자묘형의 부정적 영향을 최소화.",
+      "cautions": [
+        "수생목이 약하면 자묘형의 부정적 영향이 커질 수 있음."
+      ],
+      "tags": [
+        "자묘형",
+        "수생목",
+        "흐름",
+        "형",
+        "목"
+      ]
+    },
+    {
+      "id": "RC-8c50578587",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "support": "토"
+      },
+      "mechanism": "토는 신금의 안정성을 높이고 스트레스를 완화.",
+      "interpretation": "토가 있으면 신금이 안정감을 얻고 스트레스를 덜 받음.",
+      "action": "토의 에너지를 활용해 신금의 균형을 유지.",
+      "cautions": [
+        "토가 과도하면 신금의 에너지가 억제될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "토",
+        "안정성",
+        "스트레스 완화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-36b70d8f8e",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "좌우충",
+        "elements": [
+          "좌",
+          "우"
+        ]
+      },
+      "mechanism": "좌우충은 환경의 흐름을 바꾸는 강한 에너지를 제공.",
+      "interpretation": "좌우충이 있으면 환경을 개선하거나 변화를 유도할 수 있음.",
+      "action": "좌우충의 에너지를 긍정적으로 활용해 변화를 이끌어냄.",
+      "cautions": [
+        "좌우충이 과도하면 불안정성을 초래할 수 있음."
+      ],
+      "tags": [
+        "좌우충",
+        "변화",
+        "환경",
+        "대립",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-7481530d8c",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "support": "목"
+      },
+      "mechanism": "목은 신금이 스트레스를 극복하고 결과를 만들어내는 데 도움.",
+      "interpretation": "목이 있으면 신금이 스트레스를 극복하고 성과를 낼 가능성이 높음.",
+      "action": "목의 에너지를 활용해 신금의 성과를 극대화.",
+      "cautions": [
+        "목이 부족하면 신금의 스트레스가 해소되지 않을 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "목",
+        "성과",
+        "스트레스 극복",
+        "결과"
+      ]
+    },
+    {
+      "id": "RC-9865d4f08d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "수국화",
+        "elements": [
+          "수",
+          "화"
+        ]
+      },
+      "mechanism": "수국화는 화의 에너지를 제어하고 균형을 유지.",
+      "interpretation": "수국화가 원활하면 화의 과도한 에너지가 억제됨.",
+      "action": "수의 에너지를 강화해 화의 영향을 줄임.",
+      "cautions": [
+        "수국화가 약하면 화의 에너지가 과도해질 수 있음."
+      ],
+      "tags": [
+        "수국화",
+        "수",
+        "화",
+        "균형",
+        "제어"
+      ]
+    },
+    {
+      "id": "RC-65019296df",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "support": "수"
+      },
+      "mechanism": "수는 신금을 보호하고 안정감을 제공.",
+      "interpretation": "수가 강하면 신금이 화의 영향을 덜 받고 안정적임.",
+      "action": "수가 강한 환경에서 신금의 균형을 유지.",
+      "cautions": [
+        "수가 부족하면 신금이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "수",
+        "안정성",
+        "보호",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-367b510dca",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "신금",
+        "interaction": "감목"
+      },
+      "mechanism": "신금이 감목을 받으면 재물 관리가 어려워짐.",
+      "interpretation": "재물 욕심을 내면 손실 가능성이 높음.",
+      "action": "재물 욕심을 줄이고 현실적인 재정 계획을 세울 것.",
+      "cautions": [
+        "재물 욕심이 과하면 실패 가능성 증가"
+      ],
+      "tags": [
+        "신금",
+        "감목",
+        "재물",
+        "욕심",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-c18e41e319",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "time": "시",
+        "element": "정제"
+      },
+      "mechanism": "정제가 시에 투관되면 책임감이 증가함.",
+      "interpretation": "일의 마무리가 예상보다 과중될 가능성이 있음.",
+      "action": "업무 계획을 세밀히 조정하고 과중한 책임을 피할 것.",
+      "cautions": [
+        "야근과 과로에 주의"
+      ],
+      "tags": [
+        "정제",
+        "책임",
+        "야근",
+        "업무",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-596f037fce",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "relation": "자식궁"
+      },
+      "mechanism": "정제가 자식궁에 있으면 자식에게 집착하는 경향이 있음.",
+      "interpretation": "자식을 자신의 뜻대로 통제하려는 성향이 강함.",
+      "action": "자식의 독립성을 존중하고 지나친 통제를 피할 것.",
+      "cautions": [
+        "자식과의 갈등 가능성"
+      ],
+      "tags": [
+        "정제",
+        "자식궁",
+        "통제",
+        "독립성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-a4b3d095c6",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "정제",
+        "state": "오화"
+      },
+      "mechanism": "정제가 오화로 나타나면 재물이 사용 중인 상태임.",
+      "interpretation": "재물이 현금보다는 투자나 자산 형태로 존재함.",
+      "action": "재정 상태를 점검하고 유동성을 확보할 것.",
+      "cautions": [
+        "재정 관리 소홀로 인한 손실"
+      ],
+      "tags": [
+        "정제",
+        "오화",
+        "재물",
+        "투자",
+        "유동성"
+      ]
+    },
+    {
+      "id": "RC-1a4714ede5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "interaction": "겁재"
+      },
+      "mechanism": "겁재가 정제를 건드리면 안정성이 깨질 가능성이 있음.",
+      "interpretation": "재물이나 관계에서 갈등이 발생할 수 있음.",
+      "action": "주변 사람들과의 경계를 명확히 하고 갈등을 피할 것.",
+      "cautions": [
+        "재물 손실",
+        "관계 갈등"
+      ],
+      "tags": [
+        "정제",
+        "겁재",
+        "안정성",
+        "갈등",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-088a190b34",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "state": "강함"
+      },
+      "mechanism": "수가 지나치게 강하면 재물 관리가 어려워짐.",
+      "interpretation": "재물이 흩어지거나 손실될 가능성이 있음.",
+      "action": "재물의 흐름을 통제하고 균형을 유지할 것.",
+      "cautions": [
+        "재물 손실",
+        "과도한 소비"
+      ],
+      "tags": [
+        "수",
+        "재물",
+        "흩어짐",
+        "손실",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-04caa8e3f6",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "state": "강함"
+      },
+      "mechanism": "화가 강하면 일에 끌려다니는 경향이 있음.",
+      "interpretation": "업무 과중으로 인해 삶의 균형이 깨질 수 있음.",
+      "action": "업무와 휴식의 균형을 유지하고 과로를 피할 것.",
+      "cautions": [
+        "과로",
+        "번아웃"
+      ],
+      "tags": [
+        "화",
+        "업무",
+        "과로",
+        "균형",
+        "번아웃"
+      ]
+    },
+    {
+      "id": "RC-536ba3d939",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "정제가 강하고 식상이 약한 경우"
+      },
+      "mechanism": "정제가 강하면 유지 능력이 뛰어나지만 식상이 약하면 실행력이 부족함.",
+      "interpretation": "계획은 잘 세우지만 실행에 어려움을 겪을 수 있음.",
+      "action": "실행력을 강화하기 위한 노력을 기울일 것.",
+      "cautions": [
+        "실행력 부족"
+      ],
+      "tags": [
+        "정제",
+        "식상",
+        "유지",
+        "실행력",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-d83bd269a0",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "relation": "화"
+      },
+      "mechanism": "정제가 화로 나타나면 재물이 잘 드러남.",
+      "interpretation": "재물이 외부에 노출되기 쉬운 상태임.",
+      "action": "재정 상태를 외부에 과도하게 노출하지 말 것.",
+      "cautions": [
+        "재정 노출로 인한 위험"
+      ],
+      "tags": [
+        "정제",
+        "화",
+        "재물",
+        "노출",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "정제",
+        "interaction": "수"
+      },
+      "mechanism": "정제가 수와 연결되면 집착과 소유욕이 강해짐.",
+      "interpretation": "재물이나 관계에서 지나친 집착이 나타날 수 있음.",
+      "action": "집착을 줄이고 유연한 태도를 유지할 것.",
+      "cautions": [
+        "집착으로 인한 갈등"
+      ],
+      "tags": [
+        "정제",
+        "수",
+        "집착",
+        "소유욕",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-f7015c2cd2",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "식상",
+        "state": "활성"
+      },
+      "mechanism": "식상이 재를 생성하고 관리하는 능력을 제공함.",
+      "interpretation": "식상이 활성화되면 재물을 다룰 능력이 생기지만, 과도한 식상은 재를 감당하기 어렵게 만듦.",
+      "action": "식상의 균형을 유지하며 재물을 관리하는 방법을 배워야 함.",
+      "cautions": [
+        "식상이 과도하면 재물 관리에 어려움이 생길 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "재물",
+        "관리",
+        "균형",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-7b25a6bb8a",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "state": "활성"
+      },
+      "mechanism": "토는 화생토의 원리로 직업적 안정성을 제공함.",
+      "interpretation": "토가 활성화되면 법조계나 안정적인 직업군에 적합.",
+      "action": "법조계나 안정적인 직업을 고려할 것.",
+      "cautions": [
+        "토가 과도하면 융통성이 부족해질 수 있음."
+      ],
+      "tags": [
+        "토",
+        "법조계",
+        "안정성",
+        "직업",
+        "화생토"
+      ]
+    },
+    {
+      "id": "RC-39dbd91149",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "이모일주"
+      },
+      "mechanism": "이모일주는 밀착도가 높아 애정지수가 강함.",
+      "interpretation": "이모일주는 관계에서 강한 애착과 몰입을 보임.",
+      "action": "애정 표현과 집착의 균형을 유지할 것.",
+      "cautions": [
+        "집착이 과도하면 관계에 문제가 생길 수 있음."
+      ],
+      "tags": [
+        "이모일주",
+        "애정",
+        "몰입",
+        "집착",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-92d7fb83e6",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "무자일주"
+      },
+      "mechanism": "무자일주는 통제와 규율을 중시함.",
+      "interpretation": "무자일주는 관계에서 강압적 통제 성향을 보임.",
+      "action": "상대방의 자유를 존중하며 관계를 유지할 것.",
+      "cautions": [
+        "과도한 통제는 관계를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "무자일주",
+        "통제",
+        "규율",
+        "관계",
+        "자유"
+      ]
+    },
+    {
+      "id": "RC-213437fe7d",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "편재",
+        "state": "활성"
+      },
+      "mechanism": "편재는 경영적 능력과 확장성을 제공함.",
+      "interpretation": "편재가 활성화되면 경영과 재물 확장에 유리.",
+      "action": "경영 능력을 활용해 재물을 확장할 기회를 모색할 것.",
+      "cautions": [
+        "편재가 과도하면 무리한 확장으로 손실이 발생할 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "경영",
+        "확장",
+        "재물",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-826236fed2",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "state": "활성"
+      },
+      "mechanism": "금은 전문성과 능력 중심의 평가를 중시함.",
+      "interpretation": "금이 활성화되면 금융, 평가 중심의 직업에 적합.",
+      "action": "전문성을 강화하고 성과 중심의 직업을 선택할 것.",
+      "cautions": [
+        "성과 압박이 심할 수 있음."
+      ],
+      "tags": [
+        "금",
+        "전문성",
+        "금융",
+        "성과",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-0f7adc3722",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "병자일주"
+      },
+      "mechanism": "병자일주는 내외 분리가 명확한 성향을 가짐.",
+      "interpretation": "병자일주는 부부관계에서 역할 분리가 뚜렷함.",
+      "action": "상대방과 역할 분리를 명확히 하며 관계를 유지할 것.",
+      "cautions": [
+        "역할 분리가 과도하면 정서적 거리감이 생길 수 있음."
+      ],
+      "tags": [
+        "병자일주",
+        "분리",
+        "역할",
+        "부부",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-e15848035d",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "개수",
+        "state": "활성"
+      },
+      "mechanism": "개수는 유연성과 설득력을 제공함.",
+      "interpretation": "개수가 활성화되면 영업과 설득 능력이 뛰어남.",
+      "action": "설득력을 활용해 영업이나 협상에서 성과를 낼 것.",
+      "cautions": [
+        "과도한 유연성은 자기 정체성을 잃게 할 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "유연성",
+        "설득",
+        "영업",
+        "협상"
+      ]
+    },
+    {
+      "id": "RC-5e17681b9c",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "오화",
+        "state": "활성"
+      },
+      "mechanism": "오화는 흥분적이고 격정적인 에너지를 제공함.",
+      "interpretation": "오화가 활성화되면 스릴과 모험을 즐기는 성향이 강함.",
+      "action": "스릴을 즐기되 과도한 위험은 피할 것.",
+      "cautions": [
+        "과도한 흥분은 중독적 행동으로 이어질 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "흥분",
+        "격정",
+        "스릴",
+        "모험"
+      ]
+    },
+    {
+      "id": "RC-87f2600789",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "편재",
+        "location": "연지"
+      },
+      "mechanism": "연지의 편재는 확장성과 스케일을 제공함.",
+      "interpretation": "연지에 편재가 있으면 대규모 사업이나 확장에 유리.",
+      "action": "확장 가능성을 고려해 사업 계획을 세울 것.",
+      "cautions": [
+        "확장이 과도하면 실패 위험이 있음."
+      ],
+      "tags": [
+        "편재",
+        "연지",
+        "확장",
+        "스케일",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-e4b68f04d0",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "편재",
+        "relation": "살"
+      },
+      "mechanism": "편재와 살의 연결은 정복욕과 확장성을 강화함.",
+      "interpretation": "편재와 살이 연결되면 정복욕이 강하고, 갑작스러운 성공과 실패를 경험할 가능성이 높음.",
+      "action": "확장과 도전을 두려워하지 말고, 리스크 관리에 신경 써야 함.",
+      "cautions": [
+        "갑작스러운 실패 가능성",
+        "리스크 관리 부족"
+      ],
+      "tags": [
+        "편재",
+        "살",
+        "확장",
+        "정복욕",
+        "리스크"
+      ]
+    },
+    {
+      "id": "RC-2d8b68c53a",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "5월",
+        "element": "개수"
+      },
+      "mechanism": "5월의 개수는 화의 강한 에너지와 조화를 이루며 대중성을 형성함.",
+      "interpretation": "5월의 개수는 대중적 인기를 얻기 쉬운 특성을 가짐.",
+      "action": "대중과의 소통을 강화하고, 인기를 활용한 직업 선택을 고려.",
+      "cautions": [
+        "자신의 정체성을 잃을 위험",
+        "타인의 기대에 끌려다닐 가능성"
+      ],
+      "tags": [
+        "5월",
+        "개수",
+        "대중성",
+        "인기",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-597a6e31f7",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "재",
+        "support": [
+          "목",
+          "토"
+        ]
+      },
+      "mechanism": "재는 목과 토의 지원을 통해 직업적 안정성을 확보함.",
+      "interpretation": "재가 목이나 토의 지원을 받으면 직업적 정체성이 명확해짐.",
+      "action": "목과 토의 에너지를 강화하여 직업적 방향성을 명확히 함.",
+      "cautions": [
+        "목과 토가 부족하면 직업적 정체성 혼란"
+      ],
+      "tags": [
+        "재",
+        "목",
+        "토",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-75f97ad829",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "관",
+        "position": "시"
+      },
+      "mechanism": "시의 관은 말년의 안정성과 직업적 지속성을 보장함.",
+      "interpretation": "시의 관이 뚜렷하면 말년에 안정적인 직업과 자식 복을 누릴 가능성이 높음.",
+      "action": "말년의 안정성을 위해 관의 에너지를 유지하고 강화.",
+      "cautions": [
+        "관이 약하면 직업적 지속성 약화"
+      ],
+      "tags": [
+        "관",
+        "시",
+        "말년",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-81eaa5713d",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "오화",
+        "relation": "축토"
+      },
+      "mechanism": "오화와 축토의 조합은 갑작스러운 에너지 폭발을 유발함.",
+      "interpretation": "오화와 축토가 강하면 급작스러운 변화와 스케일 큰 사건이 발생할 가능성이 있음.",
+      "action": "목의 에너지를 강화하여 축토의 에너지를 조절.",
+      "cautions": [
+        "갑작스러운 변화에 대한 대비 필요"
+      ],
+      "tags": [
+        "오화",
+        "축토",
+        "에너지",
+        "변화",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-7a5735aca3",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "관",
+        "support": [
+          "제",
+          "인성"
+        ]
+      },
+      "mechanism": "관은 제와 인성의 지원을 통해 직업적 능력을 발휘함.",
+      "interpretation": "관이 제와 인성의 지원을 받으면 직업적 능력이 강화됨.",
+      "action": "제와 인성을 활용하여 관의 에너지를 극대화.",
+      "cautions": [
+        "제와 인성이 부족하면 관의 능력 발휘 제한"
+      ],
+      "tags": [
+        "관",
+        "제",
+        "인성",
+        "직업",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-b26a7c185b",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "식상",
+        "relation": "재"
+      },
+      "mechanism": "식상은 재를 통해 직업적 재능을 발휘함.",
+      "interpretation": "식상이 재와 연결되면 창의적이고 재능 있는 직업적 성과를 낼 가능성이 높음.",
+      "action": "식상의 창의성을 활용하여 재와의 연결을 강화.",
+      "cautions": [
+        "재와의 연결이 약하면 성과 제한"
+      ],
+      "tags": [
+        "식상",
+        "재",
+        "창의성",
+        "재능",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-a52ae971ed",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "element": "관",
+        "relation": "시"
+      },
+      "mechanism": "시의 관은 자식과의 관계를 안정적으로 유지함.",
+      "interpretation": "시의 관이 뚜렷하면 자식과의 관계가 안정적이고 자식 복이 있음.",
+      "action": "자식과의 관계를 유지하고 강화하기 위해 관의 에너지를 활용.",
+      "cautions": [
+        "관이 약하면 자식과의 관계 불안정"
+      ],
+      "tags": [
+        "관",
+        "시",
+        "자식",
+        "관계",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-17e6351cee",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "relation": "축토"
+      },
+      "mechanism": "목은 축토의 에너지를 조절하여 직업적 안정성을 제공함.",
+      "interpretation": "목이 발달하면 축토의 에너지를 조절하여 직업적 안정성을 강화함.",
+      "action": "목의 에너지를 강화하여 축토의 영향을 조절.",
+      "cautions": [
+        "목이 부족하면 축토의 에너지 과잉"
+      ],
+      "tags": [
+        "목",
+        "축토",
+        "조절",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-a92249836b",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "재",
+        "relation": "관"
+      },
+      "mechanism": "재는 관과 연결되어 직업적 성과를 창출함.",
+      "interpretation": "재와 관이 연결되면 직업적 성과와 안정성이 높아짐.",
+      "action": "재와 관의 연결을 강화하여 직업적 성과를 극대화.",
+      "cautions": [
+        "재와 관의 연결이 약하면 성과 제한"
+      ],
+      "tags": [
+        "재",
+        "관",
+        "직업",
+        "성과",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_035",
+  "updated_at": "2025-12-23T20:27:23"
+}

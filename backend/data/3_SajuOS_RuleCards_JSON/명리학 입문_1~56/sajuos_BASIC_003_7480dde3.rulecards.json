@@ -1,0 +1,497 @@
+{
+  "title": "SajuOS_Logic_BASIC_003",
+  "rulecards": [
+    {
+      "id": "RC-e5b140c545",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "presence": true,
+        "associated_element": "금"
+      },
+      "mechanism": "토는 금을 통해 주도권을 발휘하려는 경향이 있음.",
+      "interpretation": "토가 금을 보면 주도적인 성향이 강해지고, 사업적 조건이 형성됨.",
+      "action": "토가 금을 볼 때 금의 상태를 분석하여 사업 가능성을 평가하라.",
+      "cautions": [
+        "금의 상태가 약하면 주도권이 약화될 수 있음."
+      ],
+      "tags": [
+        "토",
+        "금",
+        "주도권",
+        "사업",
+        "조건"
+      ]
+    },
+    {
+      "id": "RC-5494b13943",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "interaction": "토국수"
+      },
+      "mechanism": "토국수는 수를 통제하려는 토의 성향을 나타냄.",
+      "interpretation": "토국수는 수를 다루는 능력을 의미하며, 주도권을 가질 수 있는 조건이 됨.",
+      "action": "토국수 조건에서는 수를 활용하는 방법을 모색하라.",
+      "cautions": [
+        "수의 상태에 따라 결과가 달라질 수 있음."
+      ],
+      "tags": [
+        "토",
+        "수",
+        "통제",
+        "주도권",
+        "조건"
+      ]
+    },
+    {
+      "id": "RC-9da7d1bfff",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "무토",
+        "associated_element": [
+          "임수",
+          "정화"
+        ]
+      },
+      "mechanism": "무토는 임수나 정화를 통해 중심을 잡음.",
+      "interpretation": "무토가 임수나 정화를 보면 인생의 방향성이 명확해짐.",
+      "action": "무토가 임수나 정화를 볼 때 이를 중심으로 해석하라.",
+      "cautions": [
+        "정화가 약하면 무토 중심으로 해석 가능."
+      ],
+      "tags": [
+        "무토",
+        "임수",
+        "정화",
+        "방향성",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-ab2827dddf",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "associated_element": [
+          "화",
+          "수"
+        ]
+      },
+      "mechanism": "금은 화와 수를 통해 가치가 형성됨.",
+      "interpretation": "금이 화나 수를 보면 그 가치가 상승함.",
+      "action": "금의 상태를 분석하고 화와 수의 영향을 평가하라.",
+      "cautions": [
+        "화나 수가 없으면 금의 가치가 약화될 수 있음."
+      ],
+      "tags": [
+        "금",
+        "화",
+        "수",
+        "가치",
+        "상승"
+      ]
+    },
+    {
+      "id": "RC-88bd8a25a3",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "개수",
+        "associated_element": "목"
+      },
+      "mechanism": "개수는 목을 통해 주도권을 넘김.",
+      "interpretation": "개수가 목을 보면 주도권이 목으로 넘어감.",
+      "action": "개수가 목을 볼 때 목의 상태를 분석하라.",
+      "cautions": [
+        "목이 약하면 주도권이 불안정할 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "목",
+        "주도권",
+        "상태",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-c76940a7a5",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "season": "봄"
+      },
+      "mechanism": "봄의 토는 씨뿌리는 역할을 함.",
+      "interpretation": "봄에 태어난 토는 기획과 계획에 강점이 있음.",
+      "action": "봄에 태어난 토는 기획과 계획 중심의 역할을 맡겨라.",
+      "cautions": [
+        "다른 계절의 토와 구분하여 해석할 것."
+      ],
+      "tags": [
+        "토",
+        "봄",
+        "기획",
+        "계획",
+        "역할"
+      ]
+    },
+    {
+      "id": "RC-802d956d3f",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "season": "가을"
+      },
+      "mechanism": "가을의 토는 추수와 용도 변경에 관여함.",
+      "interpretation": "가을에 태어난 토는 사회적 역할에 강점이 있음.",
+      "action": "가을에 태어난 토는 사회적 활동에 초점을 맞춰라.",
+      "cautions": [
+        "계절적 특성을 고려하여 해석할 것."
+      ],
+      "tags": [
+        "토",
+        "가을",
+        "추수",
+        "사회적 역할",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-d5df98644d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "associated_element": "목"
+      },
+      "mechanism": "경금은 목을 다루며 조정과 수정에 적합함.",
+      "interpretation": "경금이 목을 보면 조정과 수정의 역할을 맡음.",
+      "action": "경금이 목을 볼 때 조정과 수정 중심의 역할을 부여하라.",
+      "cautions": [
+        "목의 상태에 따라 경금의 역할이 달라질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "목",
+        "조정",
+        "수정",
+        "역할"
+      ]
+    },
+    {
+      "id": "RC-6df95672fb",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "associated_element": "병화"
+      },
+      "mechanism": "병화는 신금의 주도권을 강화함.",
+      "interpretation": "병화가 신금을 보면 신금이 주도권을 가짐.",
+      "action": "병화가 신금을 볼 때 이를 중심으로 해석하라.",
+      "cautions": [
+        "병화가 없으면 신금의 주도권이 약화될 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "병화",
+        "주도권",
+        "강화",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-f3ae30457f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "associated_element": "임수"
+      },
+      "mechanism": "임수는 신금을 끌고 가는 힘을 가짐.",
+      "interpretation": "임수가 신금을 보면 신금이 임수의 흐름에 따라 움직임.",
+      "action": "임수가 신금을 볼 때 임수의 흐름을 분석하라.",
+      "cautions": [
+        "임수의 상태에 따라 신금의 방향성이 달라질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "흐름",
+        "방향성",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-5fc4b6ad6b",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "겁재",
+        "context": "운"
+      },
+      "mechanism": "겁재가 주도권을 가지면 재물 손실 가능성이 높아짐.",
+      "interpretation": "겁재의 운에서는 재물 관리가 어려워질 수 있음.",
+      "action": "겁재의 운에서는 투자보다는 안정적인 재물 관리에 집중할 것.",
+      "cautions": [
+        "겁재의 영향으로 인해 재물 손실 가능성 증가",
+        "투자 시 신중해야 함"
+      ],
+      "tags": [
+        "겁재",
+        "재물",
+        "운",
+        "투자",
+        "손실",
+        "관리",
+        "재정",
+        "위험",
+        "주도권"
+      ]
+    },
+    {
+      "id": "RC-fa4746199b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "relation": "감목"
+      },
+      "mechanism": "신금과 감목의 조합은 재물을 소유하려는 성향을 강화함.",
+      "interpretation": "신금과 감목의 조합은 재물에 대한 집착이 강해질 수 있음.",
+      "action": "재물 관리에 있어 균형을 유지하고 과도한 집착을 피할 것.",
+      "cautions": [
+        "재물에 대한 과도한 집착은 문제를 초래할 수 있음"
+      ],
+      "tags": [
+        "신금",
+        "감목",
+        "재물",
+        "소유",
+        "집착",
+        "관리",
+        "균형",
+        "조합",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-cb5dece132",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "임수",
+        "context": "목"
+      },
+      "mechanism": "임수가 목을 주도하면 상대방의 안위보다는 자신의 욕구를 우선시함.",
+      "interpretation": "임수가 목을 주도할 때 관계에서 갈등이 발생할 수 있음.",
+      "action": "상대방의 입장을 고려하며 관계를 조율할 것.",
+      "cautions": [
+        "자신의 욕구만을 우선시하면 관계가 악화될 수 있음"
+      ],
+      "tags": [
+        "임수",
+        "목",
+        "주도권",
+        "관계",
+        "갈등",
+        "조율",
+        "상대방",
+        "욕구",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-c2a7250341",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "병화",
+        "context": "임수"
+      },
+      "mechanism": "병화가 임수와 조화를 이루면 사회성과 소통 능력이 향상됨.",
+      "interpretation": "병화와 임수의 조합은 성숙과 사회적 성장의 기회를 제공함.",
+      "action": "병화와 임수의 조화를 활용해 사회적 관계를 강화할 것.",
+      "cautions": [
+        "병화와 임수의 조화가 깨지면 갈등이 발생할 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "조화",
+        "사회성",
+        "소통",
+        "성장",
+        "관계",
+        "성숙",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-c10cc54d60",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "개수",
+        "context": "임수"
+      },
+      "mechanism": "개수가 임수를 흔들면 임수의 안정성이 약화됨.",
+      "interpretation": "개수와 임수의 관계는 감정적 동요를 유발할 수 있음.",
+      "action": "개수와 임수의 관계에서 감정적 균형을 유지할 것.",
+      "cautions": [
+        "감정적 동요로 인해 판단력이 흐려질 수 있음"
+      ],
+      "tags": [
+        "개수",
+        "임수",
+        "감정",
+        "동요",
+        "안정성",
+        "균형",
+        "관계",
+        "흔들림",
+        "판단"
+      ]
+    },
+    {
+      "id": "RC-3cedb5896e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수",
+        "context": "병화"
+      },
+      "mechanism": "임수가 병화를 만나면 점진적으로 성숙과 개선이 이루어짐.",
+      "interpretation": "임수와 병화의 관계는 성장과 발전의 기회를 제공함.",
+      "action": "임수와 병화의 관계를 활용해 자기 개선에 집중할 것.",
+      "cautions": [
+        "성장이 더디게 느껴질 수 있음"
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "성장",
+        "개선",
+        "발전",
+        "기회",
+        "관계",
+        "성숙",
+        "점진적"
+      ]
+    },
+    {
+      "id": "RC-7548e1aadc",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "임수",
+        "context": "목"
+      },
+      "mechanism": "임수가 목을 주도하면 초기에는 임수가 강하지만 시간이 지나면 목이 주도권을 가져감.",
+      "interpretation": "임수와 목의 관계는 시간이 지남에 따라 변화함.",
+      "action": "임수와 목의 관계에서 장기적인 관점을 유지할 것.",
+      "cautions": [
+        "초기와 후기의 상황 변화를 간과하지 말 것"
+      ],
+      "tags": [
+        "임수",
+        "목",
+        "주도권",
+        "변화",
+        "시간",
+        "관계",
+        "장기적",
+        "초기",
+        "후기"
+      ]
+    },
+    {
+      "id": "RC-406bf187f2",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수",
+        "context": "기토"
+      },
+      "mechanism": "기토가 강하면 임수의 주도권이 약화됨.",
+      "interpretation": "기토와 임수의 관계는 기토의 강약에 따라 달라짐.",
+      "action": "기토가 강할 때는 임수의 역할을 보완할 방안을 모색할 것.",
+      "cautions": [
+        "기토가 강하면 임수의 흐름이 막힐 수 있음"
+      ],
+      "tags": [
+        "임수",
+        "기토",
+        "주도권",
+        "강약",
+        "관계",
+        "흐름",
+        "보완",
+        "역할",
+        "방안"
+      ]
+    },
+    {
+      "id": "RC-37ee6fc069",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "개수",
+        "context": "목"
+      },
+      "mechanism": "개수가 목을 활용하면 현실적인 변화를 이끌어냄.",
+      "interpretation": "개수와 목의 관계는 실질적인 성과를 낼 수 있음.",
+      "action": "개수와 목의 관계를 활용해 현실적인 목표를 설정할 것.",
+      "cautions": [
+        "목의 상태에 따라 성과가 달라질 수 있음"
+      ],
+      "tags": [
+        "개수",
+        "목",
+        "현실",
+        "변화",
+        "성과",
+        "목표",
+        "관계",
+        "활용",
+        "설정"
+      ]
+    },
+    {
+      "id": "RC-2119bdf2e4",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "신금",
+        "context": "임수"
+      },
+      "mechanism": "신금과 임수의 관계는 상호 보완적이며 조화로움.",
+      "interpretation": "신금과 임수의 조합은 안정적이고 긍정적인 영향을 미침.",
+      "action": "신금과 임수의 조화를 활용해 안정적인 환경을 조성할 것.",
+      "cautions": [
+        "신금과 임수의 조화가 깨지지 않도록 주의할 것"
+      ],
+      "tags": [
+        "신금",
+        "임수",
+        "조화",
+        "안정",
+        "긍정",
+        "관계",
+        "보완",
+        "환경",
+        "영향"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_003",
+  "updated_at": "2025-12-23T20:27:25"
+}

@@ -4,7 +4,7 @@
 - 구조화된 JSON 응답
 - 오늘 날짜 컨텍스트 자동 주입 (연도 착각 방지)
 """
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request, Query
 from typing import Optional
 import logging
 
@@ -17,8 +17,45 @@ from app.models.schemas import (
 from app.services.gpt_interpreter import gpt_interpreter
 from app.services.engine_v2 import SajuManager
 
+# ✅ 룰카드 파이프라인(사업가형 Type2)
+from app.services.feature_tags_no_time import build_feature_tags_no_time_from_pillars
+from app.services.preset_type2 import BUSINESS_OWNER_PRESET_V2
+from app.services.focus_boost import boost_preset_focus
+from app.services.rulecard_selector import select_cards_for_preset
+
 logger = logging.getLogger(__name__)
 router = APIRouter()
+
+
+def _compress_rulecards_for_prompt(selection: dict, max_cards_per_section: int = 6) -> str:
+    """
+    GPT에 넣을 룰카드 컨텍스트를 토큰 폭발 없이 압축.
+    - 섹션별로 상위 N장만 요약(Trigger/Mechanism/Action 중심)
+    """
+    lines = []
+    lines.append("[룰카드 근거 컨텍스트: 사업가형(Type2) 프리미엄 모드]")
+    for sec in selection.get("sections", []):
+        title = sec.get("title", sec.get("key", ""))
+        meta = sec.get("meta", {})
+        avg_overlap = meta.get("avgOverlap", 0)
+        by_stage = meta.get("byStage", {})
+        lines.append(f"\n## {title} (avgOverlap={avg_overlap}, stage={by_stage})")
+
+        cards = sec.get("cards", [])[:max_cards_per_section]
+        for c in cards:
+            cid = c.get("id", "")
+            topic = c.get("topic", "")
+            tags = ", ".join((c.get("tags") or [])[:8])
+            trig = (c.get("trigger") or "")[:120]
+            mech = (c.get("mechanism") or "")[:160]
+            act = (c.get("action") or "")[:160]
+            lines.append(f"- [ID:{cid}][{topic}] tags={tags}")
+            if trig: lines.append(f"  - Trigger: {trig}")
+            if mech: lines.append(f"  - Mechanism: {mech}")
+            if act:  lines.append(f"  - Action: {act}")
+
+    lines.append("\n[요청사항] 위 룰카드 근거를 인용하여, 단정 대신 실행 가능한 전략을 제시하고, 섹션별로 'Must-Do / Never-Do'를 포함하라.")
+    return "\n".join(lines)
 
 
 @router.post(
@@ -34,24 +71,28 @@ router = APIRouter()
 
 **오늘 날짜 컨텍스트 자동 주입:**
 - GPT에게 "오늘 날짜"를 명시적으로 전달하여 연도 착각 방지
-- 예: "2024년 운세" 대신 정확한 "2025년 운세" 응답
 
-**주의사항:**
-- 의학/법률/투자 등 전문 분야 단정적 조언은 필터링됨
+**프리미엄 모드:**
+- `POST /interpret?mode=type2_rulecards`
+- 사업가형(2번) 룰카드(Quota + focusBoost + Fallback) 기반으로 근거를 주입
 """
 )
-async def interpret_saju(request: InterpretRequest):
+async def interpret_saju(
+    payload: InterpretRequest,
+    raw: Request,
+    mode: str = Query("direct", description="direct | type2_rulecards")
+):
     """
     사주 해석 API
     """
-    
+
     # 사주 데이터 구성
     saju_data = {}
-    
-    if request.saju_result:
-        saju_data = request.saju_result.model_dump()
+
+    if payload.saju_result:
+        saju_data = payload.saju_result.model_dump()
     else:
-        if not all([request.year_pillar, request.month_pillar, request.day_pillar]):
+        if not all([payload.year_pillar, payload.month_pillar, payload.day_pillar]):
             raise HTTPException(
                 status_code=400,
                 detail={
@@ -59,33 +100,80 @@ async def interpret_saju(request: InterpretRequest):
                     "message": "사주 정보가 필요합니다. saju_result 또는 각 기둥(년주/월주/일주)을 입력하세요."
                 }
             )
-        
+
         saju_data = {
-            "year_pillar": request.year_pillar,
-            "month_pillar": request.month_pillar,
-            "day_pillar": request.day_pillar,
-            "hour_pillar": request.hour_pillar,
-            "day_master": request.day_pillar[0] if request.day_pillar else "",
+            "year_pillar": payload.year_pillar,
+            "month_pillar": payload.month_pillar,
+            "day_pillar": payload.day_pillar,
+            "hour_pillar": payload.hour_pillar,
+            "day_master": payload.day_pillar[0] if payload.day_pillar else "",
             "day_master_element": ""
         }
-    
+
+    # ✅ 기본: 오늘 날짜 컨텍스트 주입(연도 착각 방지)
+    question = payload.question
+
+    # ✅ 프리미엄 모드(사업가형 룰카드 주입)
+    if mode == "type2_rulecards":
+        # FastAPI app.state에서 룰스토어 가져오기
+        store = getattr(raw.app.state, "rulestore", None)
+        if store is None:
+            raise HTTPException(
+                status_code=500,
+                detail={
+                    "error_code": "RULESTORE_NOT_LOADED",
+                    "message": "룰카드 스토어가 로드되지 않았습니다. 서버 startup 로딩을 확인하세요."
+                }
+            )
+
+        year_p = saju_data.get("year_pillar")
+        month_p = saju_data.get("month_pillar")
+        day_p = saju_data.get("day_pillar")
+        if not (year_p and month_p and day_p):
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "error_code": "MISSING_PILLARS",
+                    "message": "룰카드 모드는 year_pillar/month_pillar/day_pillar가 필요합니다."
+                }
+            )
+
+        # 1) 시 없이 featureTags 생성(2026 오버레이)
+        ft = build_feature_tags_no_time_from_pillars(year_p, month_p, day_p, overlay_year=2026)
+
+        # 2) 섹션별 focusTags 자동 보강
+        boosted = boost_preset_focus(BUSINESS_OWNER_PRESET_V2, ft["tags"])
+
+        # 3) Quota + 정밀도우선 + 폴백 룰카드 후보 선정
+        selection = select_cards_for_preset(store, boosted, ft["tags"])
+
+        # 4) 질문에 룰카드 근거 컨텍스트를 "추가"해서 GPT로 보냄
+        rule_context = _compress_rulecards_for_prompt(selection)
+        question = f"""{question}
+
+[featureTags 샘플] {", ".join(ft["tags"][:24])}
+
+{rule_context}
+"""
+
+        logger.info(f"[PremiumMode] Type2 enabled. featureTags={len(ft['tags'])} sections={len(selection.get('sections', []))}")
+
     # ⚠️ 핵심: 오늘 날짜 컨텍스트 주입 (연도 착각 방지)
-    question_with_context = SajuManager.inject_today_context(request.question)
-    
-    logger.info(f"Interpreting saju - Today: {SajuManager.get_today_string()}")
-    
+    question_with_context = SajuManager.inject_today_context(question)
+
+    logger.info(f"Interpreting saju - Today: {SajuManager.get_today_string()} mode={mode}")
+
     # 해석 실행
     try:
         result = await gpt_interpreter.interpret(
             saju_data=saju_data,
-            name=request.name,
-            gender=request.gender.value if request.gender else None,
-            concern_type=request.concern_type,
-            question=question_with_context  # 날짜 컨텍스트 포함
+            name=payload.name,
+            gender=payload.gender.value if payload.gender else None,
+            concern_type=payload.concern_type,
+            question=question_with_context
         )
-        
         return result
-        
+
     except Exception as e:
         logger.error(f"Interpretation error: {e}")
         raise HTTPException(
@@ -107,7 +195,7 @@ async def get_today_context():
     """오늘 날짜 컨텍스트 확인"""
     today = SajuManager.get_today_kst()
     sample_question = "올해 운세가 궁금합니다."
-    
+
     return {
         "today_kst": SajuManager.get_today_string(),
         "year": today.year,

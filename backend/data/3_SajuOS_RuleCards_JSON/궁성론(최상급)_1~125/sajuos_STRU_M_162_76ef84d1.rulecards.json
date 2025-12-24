@@ -1,0 +1,421 @@
+{
+  "title": "SajuOS_Logic_STRU_M_162",
+  "rulecards": [
+    {
+      "id": "RC-9b5efbce11",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목"
+      },
+      "mechanism": "6월은 계절적으로 한기가 들며, 목의 성장이 제한됨.",
+      "interpretation": "6월의 갑목은 한난조습을 해결해야 능력을 발휘할 수 있음.",
+      "action": "화를 통해 한기를 해결하고, 목생화로 능력을 드러내도록 유도.",
+      "cautions": [
+        "화가 없으면 능력이 드러나지 않음.",
+        "수만 있으면 준비만 하고 실행이 어려움."
+      ],
+      "tags": [
+        "6월",
+        "갑목",
+        "한난조습",
+        "목생화",
+        "능력발휘"
+      ]
+    },
+    {
+      "id": "RC-77b31329a1",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true
+      },
+      "mechanism": "목생화로 인해 능력이 외부로 드러남.",
+      "interpretation": "화가 있으면 갑목의 능력이 외부로 표현되고 인정받음.",
+      "action": "화의 기운을 활용해 자신의 능력을 적극적으로 드러낼 것.",
+      "cautions": [
+        "화가 없으면 능력이 묻힐 가능성이 큼."
+      ],
+      "tags": [
+        "갑목",
+        "목생화",
+        "화",
+        "능력표현",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-9b115b5ce7",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "water": true
+      },
+      "mechanism": "수는 목의 준비와 자격을 갖추는 역할을 함.",
+      "interpretation": "수는 갑목이 실력을 쌓고 준비하는 데 도움을 줌.",
+      "action": "수의 기운을 활용해 학습과 연습에 집중할 것.",
+      "cautions": [
+        "수만 있으면 실행력이 부족할 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "수",
+        "준비",
+        "학습",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-6a96fa8126",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true,
+        "earth": true
+      },
+      "mechanism": "화생토로 인해 생산성과 실질적 성과가 보장됨.",
+      "interpretation": "화와 토가 조화를 이루면 갑목의 생산성이 극대화됨.",
+      "action": "화생토 구조를 활용해 실질적 성과를 추구할 것.",
+      "cautions": [
+        "토가 없으면 생산성이 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "화생토",
+        "생산성",
+        "성과",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-1b3d024c4e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true,
+        "metal": true
+      },
+      "mechanism": "병화와 경금의 조합은 갑목의 능력을 외교적, 정치적으로 발휘하게 함.",
+      "interpretation": "병화와 경금이 있으면 외교나 정치적 능력이 두드러짐.",
+      "action": "외교적, 정치적 분야에서 자신의 능력을 발휘할 기회를 찾을 것.",
+      "cautions": [
+        "경금이 없으면 외교적 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "병화",
+        "경금",
+        "외교",
+        "정치"
+      ]
+    },
+    {
+      "id": "RC-060246d3ef",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true,
+        "earth": true,
+        "metal": true
+      },
+      "mechanism": "정화와 경금이 조화를 이루면 갑목의 청렴성과 조직 내 능력이 발휘됨.",
+      "interpretation": "정화와 경금이 있으면 갑목은 조직 내에서 청렴하고 효율적인 역할을 함.",
+      "action": "정화와 경금을 활용해 조직 내에서 신뢰를 쌓고 능력을 발휘할 것.",
+      "cautions": [
+        "정화와 경금이 없으면 조직 내 역할이 불분명해질 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "정화",
+        "경금",
+        "청렴",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-3534643a2d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true,
+        "earth": true
+      },
+      "mechanism": "병화와 토의 조합은 갑목의 생산성과 실질적 성과를 보장함.",
+      "interpretation": "병화와 토가 있으면 갑목은 실질적 성과를 내는 데 유리함.",
+      "action": "병화와 토를 활용해 실질적 성과를 추구할 것.",
+      "cautions": [
+        "토가 없으면 생산성이 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "병화",
+        "토",
+        "생산성",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-33b6bcbdff",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": 6,
+        "day_master": "갑목",
+        "fire": true,
+        "earth": true,
+        "metal": true
+      },
+      "mechanism": "정화와 경금의 조합은 갑목의 외교적, 정치적 능력을 발휘하게 함.",
+      "interpretation": "정화와 경금이 있으면 갑목은 외교나 정치적 능력이 두드러짐.",
+      "action": "정화와 경금을 활용해 외교적, 정치적 분야에서 자신의 능력을 발휘할 것.",
+      "cautions": [
+        "경금이 없으면 외교적 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "정화",
+        "경금",
+        "외교",
+        "정치"
+      ]
+    },
+    {
+      "id": "RC-dcd1256c0e",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "type": "운",
+        "element": "인성"
+      },
+      "mechanism": "인성운은 계승과 관련된 역할을 한다.",
+      "interpretation": "인성운이 들어오면 계승이나 학문적 성취가 가능해진다.",
+      "action": "인성운이 들어올 때는 학문이나 계승 관련 기회를 적극적으로 활용하라.",
+      "cautions": [
+        "인성운이 지나치게 강하면 사주 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "인성운",
+        "계승",
+        "학문",
+        "운세",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-281aebdc9c",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "type": "관계",
+        "aspect": "원진"
+      },
+      "mechanism": "원진은 관계에서 갈등과 고립을 초래할 수 있다.",
+      "interpretation": "원진 관계는 독단적 성향과 갈등을 유발할 수 있다.",
+      "action": "원진 관계에서는 타인의 의견을 수용하고 유연성을 키워라.",
+      "cautions": [
+        "원진 관계는 지나친 고집으로 인해 관계가 단절될 수 있음."
+      ],
+      "tags": [
+        "원진",
+        "관계",
+        "갈등",
+        "독단",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-cb2976893f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "정관",
+        "relation": "비견"
+      },
+      "mechanism": "정관이 비견을 극하면 리더십 성향이 강해진다.",
+      "interpretation": "정관이 비견을 극하는 사주는 통제력과 리더십이 강하다.",
+      "action": "리더십을 발휘할 기회를 찾아 조직을 이끌어라.",
+      "cautions": [
+        "지나친 통제는 주변과의 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "비견",
+        "리더십",
+        "통제",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-a3d24e9ace",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "context": "직장"
+      },
+      "mechanism": "병화는 재능과 관리 능력을 발휘하게 한다.",
+      "interpretation": "병화가 있으면 직장에서 관리자 역할을 수행할 가능성이 높다.",
+      "action": "병화를 활용해 조직 내에서 관리 능력을 발휘하라.",
+      "cautions": [
+        "병화가 약하면 재능 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "관리자",
+        "재능",
+        "직장",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-0abbef036f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "격국",
+        "element": "정화"
+      },
+      "mechanism": "정화는 사회적 역할과 학문적 성취를 돕는다.",
+      "interpretation": "정화가 격국에 있으면 사회적 역할을 충실히 이행할 수 있다.",
+      "action": "정화를 활용해 학문적 성취와 사회적 역할을 충실히 수행하라.",
+      "cautions": [
+        "정화가 약하면 사회적 역할 수행이 어려울 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "격국",
+        "사회적 역할",
+        "학문",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-c5898d1911",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "relation": "재생관"
+      },
+      "mechanism": "재생관은 부귀와 사회적 질서를 상징한다.",
+      "interpretation": "재생관이 있으면 부귀영화를 누릴 가능성이 높다.",
+      "action": "재생관을 활용해 사회적 질서를 따르고 부를 축적하라.",
+      "cautions": [
+        "재생관이 약하면 부와 지위가 불안정할 수 있음."
+      ],
+      "tags": [
+        "재생관",
+        "부귀",
+        "사회적 질서",
+        "재물",
+        "지위"
+      ]
+    },
+    {
+      "id": "RC-1c76be28b3",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "relation": "상관생제"
+      },
+      "mechanism": "상관생제는 사랑과 결혼에서 개인의 선택을 강조한다.",
+      "interpretation": "상관생제가 있으면 사랑하는 사람과 결혼하려는 경향이 강하다.",
+      "action": "상관생제를 활용해 진정으로 원하는 관계를 선택하라.",
+      "cautions": [
+        "상관생제가 강하면 현실적 조건을 간과할 수 있음."
+      ],
+      "tags": [
+        "상관생제",
+        "사랑",
+        "결혼",
+        "선택",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-cf148d3daf",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "경금",
+        "context": "직장"
+      },
+      "mechanism": "경금은 직업적 안정성과 만족도를 높인다.",
+      "interpretation": "경금이 있으면 직장에서 안정적이고 만족스러운 경력을 쌓을 수 있다.",
+      "action": "경금을 활용해 직업적 안정성을 추구하라.",
+      "cautions": [
+        "경금이 없으면 직업적 불만족이 커질 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "직장",
+        "안정성",
+        "만족도",
+        "경력"
+      ]
+    },
+    {
+      "id": "RC-5a8076fd4f",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "context": "운"
+      },
+      "mechanism": "수운은 갈등과 변화를 초래할 수 있다.",
+      "interpretation": "수운이 들어오면 기존의 고집을 내려놓고 타협하게 된다.",
+      "action": "수운이 들어올 때는 유연성을 발휘하고 변화에 적응하라.",
+      "cautions": [
+        "수운이 강하면 심리적 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "수운",
+        "갈등",
+        "변화",
+        "타협",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-eeee1aa15e",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "relation": "부모 직업"
+      },
+      "mechanism": "정화는 부모의 직업을 계승하려는 의지를 나타낸다.",
+      "interpretation": "정화가 있으면 부모의 직업이나 기술을 이어받으려는 경향이 있다.",
+      "action": "정화를 활용해 부모의 직업적 경험을 계승하고 발전시켜라.",
+      "cautions": [
+        "정화가 약하면 계승 과정에서 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "부모 직업",
+        "계승",
+        "기술",
+        "의지"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "중복된 규칙은 제거되었으며, 핵심적인 내용만 추출됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_162",
+  "updated_at": "2025-12-23T20:27:24"
+}

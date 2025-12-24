@@ -1,0 +1,450 @@
+{
+  "title": "SajuOS_Logic_STRU_M_097",
+  "rulecards": [
+    {
+      "id": "RC-6c5d1d661f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "인월",
+        "day": "갑오"
+      },
+      "mechanism": "인월의 갑목이 상관으로 인해 사회적 조건을 해결함.",
+      "interpretation": "사회적 환경에 맞추기보다 자신의 방식으로 개척하고 주도할 수 있는 구조.",
+      "action": "자신만의 길을 개척하고 독창성을 발휘하라.",
+      "cautions": [
+        "목생화가 지나치면 조급함으로 실패할 수 있음.",
+        "인성이 필요할 수 있음."
+      ],
+      "tags": [
+        "인월",
+        "갑목",
+        "상관",
+        "사회적 조건",
+        "독창성"
+      ]
+    },
+    {
+      "id": "RC-a3166a7960",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "day": "갑오",
+        "earthly_branch": "진토"
+      },
+      "mechanism": "진토가 갑목의 뿌리를 안정적으로 내리게 함.",
+      "interpretation": "재적 안정감을 제공하며 물질적, 심리적 안정감을 형성.",
+      "action": "진토의 역할을 활용해 안정적인 기반을 마련하라.",
+      "cautions": [
+        "한한 조건이 해결되지 않으면 안정감이 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "진토",
+        "재적 안정",
+        "심리적 안정",
+        "물질적 안정"
+      ]
+    },
+    {
+      "id": "RC-ad4b419da9",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "진토",
+        "interaction": "목생화"
+      },
+      "mechanism": "진토가 화와 수를 조절하며 균형을 유지.",
+      "interpretation": "화와 수의 극단적 작용을 방지하며 안정적 관계를 형성.",
+      "action": "진토의 조화력을 활용해 관계를 조율하라.",
+      "cautions": [
+        "해수와 같은 강한 수는 조절이 어려울 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "화",
+        "수",
+        "조화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-a359876fa3",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "note": "식상이 있는 부모와 자녀 관계"
+      },
+      "mechanism": "식상이 부모와 자녀 간의 친구 같은 관계를 형성.",
+      "interpretation": "부모와 자녀가 친밀하고 대화가 잘 통하는 관계.",
+      "action": "식상의 역할을 강화해 가족 간의 유대감을 높여라.",
+      "cautions": [
+        "식상이 없으면 권위적 관계가 될 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "부모-자녀 관계",
+        "친밀감",
+        "대화",
+        "유대감"
+      ]
+    },
+    {
+      "id": "RC-2d35a6f43b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day": "갑진",
+        "earthly_branch": "진토"
+      },
+      "mechanism": "진토가 갑목에게 안정감을 제공.",
+      "interpretation": "갑진일주는 재적 안정과 심리적 평온을 누릴 수 있음.",
+      "action": "진토의 안정감을 활용해 장기적인 계획을 세워라.",
+      "cautions": [
+        "조토와는 다른 안정감을 제공함."
+      ],
+      "tags": [
+        "갑진",
+        "진토",
+        "재적 안정",
+        "심리적 평온",
+        "장기 계획"
+      ]
+    },
+    {
+      "id": "RC-15cad02868",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day": "갑술",
+        "earthly_branch": "조토"
+      },
+      "mechanism": "조토가 갑목에게 불안감을 형성.",
+      "interpretation": "갑술일주는 재적 안정감이 부족하고 불안정함.",
+      "action": "습한 조건을 활용해 불안감을 해소하라.",
+      "cautions": [
+        "조토는 안정감을 제공하지 못함."
+      ],
+      "tags": [
+        "갑술",
+        "조토",
+        "불안감",
+        "습한 조건",
+        "안정감"
+      ]
+    },
+    {
+      "id": "RC-c2afb3f0df",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "interaction": "인신충"
+      },
+      "mechanism": "인신충이 초기 긴장감을 극대화함.",
+      "interpretation": "초기 몰입과 긴장감이 성공의 조건이 될 수 있음.",
+      "action": "초기 단계에서 집중력을 발휘하고 안정화 이후에는 다른 사람에게 맡겨라.",
+      "cautions": [
+        "안정화 이후에는 능력 발휘가 어려울 수 있음."
+      ],
+      "tags": [
+        "인신충",
+        "긴장감",
+        "초기 몰입",
+        "성공 조건",
+        "안정화"
+      ]
+    },
+    {
+      "id": "RC-938b5a06bc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "인월",
+        "day": "갑신"
+      },
+      "mechanism": "인신충이 집안의 흐름을 거부하며 독립성을 형성.",
+      "interpretation": "부모와의 결별 또는 독립적 삶을 추구.",
+      "action": "자신만의 길을 개척하며 독립성을 강화하라.",
+      "cautions": [
+        "충으로 인한 갈등을 완화할 수 있는 화나 수의 조건이 필요함."
+      ],
+      "tags": [
+        "인월",
+        "갑신",
+        "인신충",
+        "독립성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-fe62af20dd",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "생극 구조의 차이"
+      },
+      "mechanism": "생극 구조가 긴장감과 여유로움을 결정.",
+      "interpretation": "긴장감은 전투적 성향을, 여유로움은 나태함을 유발할 수 있음.",
+      "action": "자신의 생극 구조를 이해하고 적합한 환경을 선택하라.",
+      "cautions": [
+        "긴장감이 지나치면 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "생극",
+        "긴장감",
+        "여유로움",
+        "성향",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-a9aa2020bb",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "note": "대운에서 습한 조건"
+      },
+      "mechanism": "습한 조건이 조한 구조를 완화.",
+      "interpretation": "습한 대운이 오면 안정감과 생명력을 회복.",
+      "action": "습한 대운을 활용해 부족한 조건을 보완하라.",
+      "cautions": [
+        "습한 조건이 지나치면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "대운",
+        "습한 조건",
+        "조한 구조",
+        "안정감",
+        "생명력"
+      ]
+    },
+    {
+      "id": "RC-55719ad79b",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "position": "월지",
+        "relation": "비견"
+      },
+      "mechanism": "월지의 비견은 사회적 관계를 통해 형성된 인식을 나타냄.",
+      "interpretation": "사회적 관계에서 거리를 두고 공적인 태도를 유지함.",
+      "action": "사회적 관계에서 적절한 거리를 유지하며 배려심을 발휘하라.",
+      "cautions": [
+        "다른 조건에 따라 거리감이 달라질 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "월지",
+        "사회적 관계",
+        "공적 태도",
+        "거리 유지"
+      ]
+    },
+    {
+      "id": "RC-a85001c208",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "position": "일지",
+        "relation": "비견"
+      },
+      "mechanism": "일지의 비견은 개인적이고 친밀한 관계를 나타냄.",
+      "interpretation": "개인적 관계에서 선을 넘거나 지나치게 친밀해질 가능성이 있음.",
+      "action": "개인적 관계에서 적절한 선을 유지하라.",
+      "cautions": [
+        "지나친 친밀감이 갈등을 초래할 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "일지",
+        "개인적 관계",
+        "친밀감",
+        "선 유지"
+      ]
+    },
+    {
+      "id": "RC-f88cdd0754",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "year": 2022,
+        "month": [
+          "갑인월",
+          "을묘월"
+        ],
+        "element": "목"
+      },
+      "mechanism": "목이 지나치게 강하면 성급함이 증가하여 사고 가능성이 높아짐.",
+      "interpretation": "성급함으로 인해 사고나 문제 상황이 발생할 수 있음.",
+      "action": "특히 목이 강한 사람은 해당 시기에 신중하게 행동하라.",
+      "cautions": [
+        "성급한 결정이 사고를 초래할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "성급함",
+        "사고",
+        "갑인월",
+        "을묘월"
+      ]
+    },
+    {
+      "id": "RC-d923862860",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "quantity": "다수"
+      },
+      "mechanism": "비겁이 많으면 에너지가 분산되어 강한 힘을 발휘하지 못함.",
+      "interpretation": "비겁이 많아도 강하다고 볼 수 없으며, 일관성이 부족함.",
+      "action": "비겁이 많을 경우, 에너지를 집중할 수 있는 방법을 모색하라.",
+      "cautions": [
+        "비겁이 많으면 갈등이 증가할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "목",
+        "분산",
+        "일관성",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-9ed4e22166",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "timing": "대운/세운"
+      },
+      "mechanism": "화는 목의 과잉을 조절하고 환경을 변화시킬 수 있음.",
+      "interpretation": "화가 들어오는 시기에 변화와 결단이 가능해짐.",
+      "action": "화가 들어오는 시기를 활용해 중요한 결정을 내리라.",
+      "cautions": [
+        "화가 없을 경우 준비 단계로 머물 수 있음."
+      ],
+      "tags": [
+        "화",
+        "변화",
+        "결단",
+        "대운",
+        "세운"
+      ]
+    },
+    {
+      "id": "RC-c4ae7e353f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "condition": "난한"
+      },
+      "mechanism": "난한 조건에서 목생화가 지나치게 빠르게 진행됨.",
+      "interpretation": "성급함으로 인해 실패나 사고 가능성이 높아짐.",
+      "action": "난한 조건에서는 속도를 조절하며 신중하게 행동하라.",
+      "cautions": [
+        "목생화가 지나치면 사고 위험이 증가함."
+      ],
+      "tags": [
+        "목생화",
+        "난한",
+        "속도 조절",
+        "성급함",
+        "사고"
+      ]
+    },
+    {
+      "id": "RC-c8e4dae3c0",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "condition": "부재"
+      },
+      "mechanism": "수가 없으면 목생화가 조절되지 않아 불안정해짐.",
+      "interpretation": "목생화의 속도를 조절하기 위해 수가 필요함.",
+      "action": "수가 부족한 경우, 안정적인 환경을 조성하라.",
+      "cautions": [
+        "수가 없으면 목생화가 과도하게 진행될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "목생화",
+        "조절",
+        "안정",
+        "속도"
+      ]
+    },
+    {
+      "id": "RC-7ede15cde5",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "condition": "부재"
+      },
+      "mechanism": "화가 없으면 수생목이 진행되지 않고 정체됨.",
+      "interpretation": "화는 수생목의 순환을 돕는 중요한 요소임.",
+      "action": "화가 부족한 경우, 외부의 도움을 받아 순환을 촉진하라.",
+      "cautions": [
+        "화가 없으면 수생목이 정체될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "수생목",
+        "순환",
+        "정체",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-b408ce5427",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁재",
+        "element": "음목"
+      },
+      "mechanism": "음목은 겁재의 성급한 행동을 관찰하고 활용할 수 있음.",
+      "interpretation": "음목은 겁재보다 앞서지 않고 관망하며 기회를 잡아야 함.",
+      "action": "겁재의 행동을 관찰하고 신중히 대응하라.",
+      "cautions": [
+        "겁재보다 앞서 행동하면 실패할 가능성이 높음."
+      ],
+      "tags": [
+        "겁재",
+        "음목",
+        "관찰",
+        "성급함",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-22ca2a77d0",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "relation": "상관"
+      },
+      "mechanism": "병화 상관은 을목의 매력과 개성을 드러내는 역할을 함.",
+      "interpretation": "을목은 병화 상관을 통해 자신의 끼와 재능을 표현함.",
+      "action": "병화 상관을 활용해 자신의 매력을 적극적으로 표현하라.",
+      "cautions": [
+        "병화가 없으면 개성과 매력이 드러나지 않을 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "상관",
+        "을목",
+        "매력",
+        "개성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_097",
+  "updated_at": "2025-12-23T20:27:24"
+}

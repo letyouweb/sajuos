@@ -1,0 +1,516 @@
+{
+  "title": "SajuOS_Logic_APPL_041",
+  "rulecards": [
+    {
+      "id": "RC-0c38ff6ad5",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "mother",
+        "element": "wood",
+        "state": "alive"
+      },
+      "mechanism": "목(wood)은 화(fire)를 향하려는 본능이 있으나, 인성(mother)의 수(water)가 이를 조절하거나 억제할 수 있음.",
+      "interpretation": "모친의 영향으로 인해 자신의 본능적 방향성이 제한될 수 있음.",
+      "action": "모친과의 관계에서 자신의 방향성을 명확히 하고, 화(fire) 요소를 강화하는 방법을 모색.",
+      "cautions": [
+        "모친과의 갈등 가능성",
+        "자신의 방향성을 잃을 위험"
+      ],
+      "tags": [
+        "목",
+        "화",
+        "인성",
+        "모친",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-fb249feab2",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "in-laws",
+        "element": "wealth"
+      },
+      "mechanism": "재성(wealth)은 배우자의 부모를 나타내며, 식상(output)과 관성(authority)의 관계로 장서 갈등을 분석 가능.",
+      "interpretation": "장서 갈등은 배우자의 역할과 관계 조율 능력에 따라 달라짐.",
+      "action": "배우자가 중심을 잡고 관계를 조율하도록 지원.",
+      "cautions": [
+        "장서 갈등 심화 가능성",
+        "배우자의 역할 중요"
+      ],
+      "tags": [
+        "재성",
+        "식상",
+        "관성",
+        "장서 갈등",
+        "배우자"
+      ]
+    },
+    {
+      "id": "RC-dd89e09b0d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "mother",
+        "element": "water",
+        "type": "yang"
+      },
+      "mechanism": "임수(yang water)는 주도적이고 강한 성향으로 목(wood)과 갈등을 유발할 수 있음.",
+      "interpretation": "모친의 강한 주도성이 자녀의 방향성을 방해할 수 있음.",
+      "action": "모친의 주도성을 이해하고, 자신의 주도권을 확보할 방법을 모색.",
+      "cautions": [
+        "모친의 과도한 개입",
+        "자신의 주도권 상실"
+      ],
+      "tags": [
+        "임수",
+        "목",
+        "모친",
+        "주도성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-e44fb09fe3",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "mother",
+        "element": "water",
+        "state": "dead"
+      },
+      "mechanism": "사목(dead wood)은 수(water)의 영향을 소화하지 못하고 다음 세대로 전달하는 경향이 있음.",
+      "interpretation": "모친의 영향이 자녀에게 직접적으로 전달될 가능성이 높음.",
+      "action": "자신의 역할을 명확히 하고, 모친의 영향을 객관적으로 분석.",
+      "cautions": [
+        "모친의 영향 과도 전달",
+        "자신의 정체성 희석"
+      ],
+      "tags": [
+        "사목",
+        "수",
+        "모친",
+        "영향",
+        "전달"
+      ]
+    },
+    {
+      "id": "RC-925da24d45",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "father",
+        "element": "earth",
+        "state": "absent"
+      },
+      "mechanism": "재성(earth)이 부재하면 부친의 역할이 약화되며, 모친의 영향이 강화됨.",
+      "interpretation": "부친의 부재로 인해 모친이 자녀 양육을 주도하게 됨.",
+      "action": "부친의 역할을 대체할 수 있는 외부 지원을 모색.",
+      "cautions": [
+        "부친의 부재로 인한 불균형",
+        "모친의 과도한 부담"
+      ],
+      "tags": [
+        "재성",
+        "부친",
+        "모친",
+        "부재",
+        "양육"
+      ]
+    },
+    {
+      "id": "RC-a87de71e50",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "mother",
+        "element": "water",
+        "child": "fire"
+      },
+      "mechanism": "목생화(wood generates fire)를 통해 자녀와의 관계에서 갈등을 극복 가능.",
+      "interpretation": "자녀를 통해 모친과의 갈등을 완화할 수 있음.",
+      "action": "자녀와의 관계를 통해 모친과의 갈등을 해결.",
+      "cautions": [
+        "자녀에게 과도한 기대 부여",
+        "갈등의 근본적 해결 부족"
+      ],
+      "tags": [
+        "목생화",
+        "모친",
+        "자녀",
+        "갈등",
+        "해결"
+      ]
+    },
+    {
+      "id": "RC-5acf8012fd",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "mother",
+        "element": "water",
+        "child": "earth"
+      },
+      "mechanism": "토(earth)가 수(water)와 목(wood) 사이를 중재하여 갈등을 완화.",
+      "interpretation": "부친의 역할이 갈등을 중재하는 데 중요함.",
+      "action": "부친의 역할을 강화하거나 대체할 방안을 모색.",
+      "cautions": [
+        "부친의 역할 부재 시 갈등 심화",
+        "중재 실패 가능성"
+      ],
+      "tags": [
+        "토",
+        "수",
+        "목",
+        "부친",
+        "중재"
+      ]
+    },
+    {
+      "id": "RC-600dda51f6",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "mother",
+        "element": "water",
+        "state": "yang"
+      },
+      "mechanism": "임수(yang water)는 목(wood)의 방향성을 제한하며, 갈등을 유발할 수 있음.",
+      "interpretation": "모친의 강한 성향이 자녀의 독립성을 방해할 수 있음.",
+      "action": "모친과의 관계에서 독립성을 확보할 방법을 모색.",
+      "cautions": [
+        "모친의 과도한 개입",
+        "자녀의 독립성 저하"
+      ],
+      "tags": [
+        "임수",
+        "목",
+        "모친",
+        "독립성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-976b8c61b2",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "child",
+        "element": "fire",
+        "state": "present"
+      },
+      "mechanism": "화(fire)는 목(wood)의 에너지를 소화하며, 갈등을 완화하는 역할을 함.",
+      "interpretation": "자녀의 존재가 가족 간 갈등을 완화할 수 있음.",
+      "action": "자녀와의 관계를 통해 가족 간 조화를 도모.",
+      "cautions": [
+        "자녀에게 과도한 역할 부여",
+        "갈등의 근본적 해결 부족"
+      ],
+      "tags": [
+        "화",
+        "목",
+        "자녀",
+        "갈등",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-dc68d2d400",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "father",
+        "element": "earth",
+        "state": "present"
+      },
+      "mechanism": "재성(earth)이 수(water)와 목(wood) 사이를 중재하여 갈등을 완화.",
+      "interpretation": "부친의 역할이 가족 간 갈등을 중재하는 데 중요함.",
+      "action": "부친의 역할을 강화하거나 대체할 방안을 모색.",
+      "cautions": [
+        "부친의 역할 부재 시 갈등 심화",
+        "중재 실패 가능성"
+      ],
+      "tags": [
+        "재성",
+        "부친",
+        "갈등",
+        "중재",
+        "가족"
+      ]
+    },
+    {
+      "id": "RC-f7474c0f0d",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "임수-개수"
+      },
+      "mechanism": "임수와 개수는 양육 방식에서 차이를 보임.",
+      "interpretation": "임수는 데이터 중심적이고 저돌적이며, 개수는 효율적이고 유연함.",
+      "action": "양육 스타일에 따라 자녀의 성향을 이해하고 조율할 것.",
+      "cautions": [
+        "임수는 과도한 사랑으로 자녀에게 부담을 줄 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "개수",
+        "양육",
+        "효율성",
+        "유연성",
+        "데이터",
+        "사랑",
+        "부담",
+        "자녀",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-e66505a386",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "개수-갑목",
+        "state": "생목"
+      },
+      "mechanism": "개수가 갑목에 맞춰 에너지를 제공.",
+      "interpretation": "개수는 갑목의 필요에 맞춰 완벽하게 에너지를 제공함.",
+      "action": "자녀의 필요를 정확히 파악하고 적절히 지원할 것.",
+      "cautions": [
+        "지나친 맞춤은 자녀의 자립심을 저하시킬 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "갑목",
+        "생목",
+        "에너지",
+        "맞춤",
+        "양육",
+        "지원",
+        "자립심",
+        "조화",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-7613de927d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "개수-갑목",
+        "state": "사목"
+      },
+      "mechanism": "개수가 사목의 결핍을 채워 생목으로 전환.",
+      "interpretation": "사목은 비효율적이지만 개수의 개입으로 생산성이 향상됨.",
+      "action": "결핍을 채우는 양육 방식을 통해 자녀의 성장을 도울 것.",
+      "cautions": [
+        "사목의 고집과 비효율성을 이해하고 인내심을 가질 것."
+      ],
+      "tags": [
+        "개수",
+        "갑목",
+        "사목",
+        "생목",
+        "결핍",
+        "양육",
+        "성장",
+        "비효율",
+        "전환",
+        "인내"
+      ]
+    },
+    {
+      "id": "RC-b6198b91e1",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수-갑목"
+      },
+      "mechanism": "임수는 과도한 사랑으로 갑목에 부담을 줌.",
+      "interpretation": "임수의 지나친 사랑은 자녀에게 스트레스를 유발할 수 있음.",
+      "action": "사랑의 정도를 조절하고 자녀의 자율성을 존중할 것.",
+      "cautions": [
+        "과도한 개입은 자녀의 독립성을 저해할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "갑목",
+        "사랑",
+        "부담",
+        "양육",
+        "독립성",
+        "조절",
+        "스트레스",
+        "자율성",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-dff4e07e14",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "개수-토",
+        "state": "무토"
+      },
+      "mechanism": "무토는 자녀에게 가치관과 사회적 지침을 제공.",
+      "interpretation": "무토는 자녀의 성장과 사회적 적응에 긍정적 영향을 미침.",
+      "action": "자녀에게 명확한 가치관과 지침을 제공할 것.",
+      "cautions": [
+        "무토의 영향이 과도하면 자녀가 부담을 느낄 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "무토",
+        "가치관",
+        "사회적 지침",
+        "성장",
+        "적응",
+        "양육",
+        "부담",
+        "교육",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-c0dcf7388a",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "개수-토",
+        "state": "기토"
+      },
+      "mechanism": "기토는 자녀와의 친밀감을 형성.",
+      "interpretation": "기토는 자녀와의 애착 관계를 강화함.",
+      "action": "자녀와의 정서적 유대를 강화할 것.",
+      "cautions": [
+        "기토의 영향이 부족하면 정서적 유대가 약화될 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "기토",
+        "친밀감",
+        "애착",
+        "정서",
+        "유대",
+        "양육",
+        "관계",
+        "강화",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-720085f2a0",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "임수-토",
+        "state": "무토"
+      },
+      "mechanism": "무토는 임수의 흐름을 방해할 수 있음.",
+      "interpretation": "무토가 강하면 임수의 에너지가 막힐 수 있음.",
+      "action": "임수의 흐름을 원활히 하기 위해 토의 균형을 맞출 것.",
+      "cautions": [
+        "무토가 과도하면 임수의 에너지가 정체될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "무토",
+        "흐름",
+        "에너지",
+        "균형",
+        "정체",
+        "양육",
+        "관계",
+        "조화",
+        "방해"
+      ]
+    },
+    {
+      "id": "RC-978e950bdc",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "개수-토",
+        "state": "강한 토"
+      },
+      "mechanism": "개수는 강한 토 속에서도 안정적으로 존재 가능.",
+      "interpretation": "개수는 강한 토의 환경에서도 적응력이 뛰어남.",
+      "action": "강한 토의 환경에서도 개수의 특성을 활용할 것.",
+      "cautions": [
+        "강한 토가 개수를 지나치게 억압하지 않도록 주의."
+      ],
+      "tags": [
+        "개수",
+        "토",
+        "강한 토",
+        "안정성",
+        "적응력",
+        "환경",
+        "양육",
+        "관계",
+        "조화",
+        "억압"
+      ]
+    },
+    {
+      "id": "RC-50e8da105d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "개수-갑목",
+        "state": "생목"
+      },
+      "mechanism": "개수가 갑목의 에너지를 완벽히 충족.",
+      "interpretation": "개수는 갑목의 필요를 정확히 이해하고 지원함.",
+      "action": "자녀의 필요를 세심히 관찰하고 충족할 것.",
+      "cautions": [
+        "지나친 맞춤은 자녀의 자립심을 저하시킬 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "갑목",
+        "생목",
+        "에너지",
+        "충족",
+        "양육",
+        "지원",
+        "자립심",
+        "관찰",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-fc6d283d59",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "임수-갑목",
+        "state": "사목"
+      },
+      "mechanism": "임수는 사목의 비효율성을 극복하기 어려움.",
+      "interpretation": "임수는 사목의 고집과 비효율성에 스트레스를 받을 수 있음.",
+      "action": "사목의 특성을 이해하고 적절히 대응할 것.",
+      "cautions": [
+        "임수는 사목의 고집에 지나치게 얽매이지 않도록 주의."
+      ],
+      "tags": [
+        "임수",
+        "갑목",
+        "사목",
+        "비효율",
+        "고집",
+        "양육",
+        "스트레스",
+        "대응",
+        "이해",
+        "조화"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_041",
+  "updated_at": "2025-12-23T20:27:26"
+}

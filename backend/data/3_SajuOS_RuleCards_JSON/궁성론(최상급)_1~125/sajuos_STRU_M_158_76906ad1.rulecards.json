@@ -1,0 +1,445 @@
+{
+  "title": "SajuOS_Logic_STRU_M_158",
+  "rulecards": [
+    {
+      "id": "RC-7ad059c890",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "임수"
+      },
+      "mechanism": "임수는 모으고 응집하는 에너지를 가짐.",
+      "interpretation": "임수는 데이터를 수집하고 응집하는 능력이 뛰어남.",
+      "action": "임수의 에너지를 활용해 정보를 체계적으로 정리하고 응용할 방법을 모색.",
+      "cautions": [
+        "임수는 단순히 모으는 데 그치지 않고 활용 가능성을 고려해야 함."
+      ],
+      "tags": [
+        "임수",
+        "응집력",
+        "데이터",
+        "정보화",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-47c60c5047",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "정임합",
+        "temperature": "높음"
+      },
+      "mechanism": "정임합은 온도가 높을 경우 수증기로 변해 흩어짐.",
+      "interpretation": "정임합이 음란지합으로 작용하면 판단력이 흐려지고 감정적 행동이 증가.",
+      "action": "차분함을 유지하고 이성적 판단을 강화.",
+      "cautions": [
+        "온도가 높은 환경에서는 정임합이 부정적으로 작용할 수 있음."
+      ],
+      "tags": [
+        "정임합",
+        "음란지합",
+        "온도",
+        "판단력",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-72ded40935",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "relation": "금생수"
+      },
+      "mechanism": "신금은 멀리서부터 임수로 흐름을 지속적으로 공급.",
+      "interpretation": "신금은 임수의 에너지를 강화하고 안정적으로 유지.",
+      "action": "신금의 흐름을 활용해 장기적인 계획을 세움.",
+      "cautions": [
+        "신금이 약하면 임수의 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "금생수",
+        "지속성",
+        "안정성",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-e2a50da1ae",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "신월",
+        "element": "임수"
+      },
+      "mechanism": "신월의 임수는 금생수로 인해 강한 에너지를 가짐.",
+      "interpretation": "신월 임수는 실력과 능력을 갖춘 구조로 평가됨.",
+      "action": "신월 임수의 강점을 활용해 전문성을 개발.",
+      "cautions": [
+        "신월 임수는 활용 가능성을 높이기 위해 추가적인 조건이 필요."
+      ],
+      "tags": [
+        "신월",
+        "임수",
+        "금생수",
+        "전문성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-c5abf09119",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "임수",
+        "support": "무토"
+      },
+      "mechanism": "무토는 임수의 사용처를 결정하는 중요한 역할을 함.",
+      "interpretation": "무토는 임수의 에너지를 안정적으로 활용 가능하게 함.",
+      "action": "무토를 통해 임수의 에너지를 실질적으로 활용할 방안을 모색.",
+      "cautions": [
+        "무토가 약하면 임수의 에너지가 제대로 활용되지 못할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "무토",
+        "안정성",
+        "활용",
+        "토국수"
+      ]
+    },
+    {
+      "id": "RC-39c9553972",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "support": "화생토"
+      },
+      "mechanism": "화생토는 무토를 강화하여 임수의 에너지를 안정적으로 활용.",
+      "interpretation": "화생토는 임수의 에너지를 조직적이고 대외적으로 활용 가능하게 함.",
+      "action": "화생토의 조합을 통해 임수의 에너지를 극대화.",
+      "cautions": [
+        "화생토가 없으면 임수의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "화생토",
+        "안정성",
+        "조직",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-00eec470a5",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "support": "감목"
+      },
+      "mechanism": "감목은 임수의 에너지를 흐름으로 전환.",
+      "interpretation": "감목은 임수의 에너지를 개인적 소양으로 발휘하게 함.",
+      "action": "감목을 통해 임수의 에너지를 연구나 교육으로 활용.",
+      "cautions": [
+        "감목이 약하면 임수의 에너지가 지속적으로 활용되지 못할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "감목",
+        "흐름",
+        "연구",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-70e5c594e8",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "support": "을목"
+      },
+      "mechanism": "을목은 임수의 에너지를 상대방에 맞추는 데 유리.",
+      "interpretation": "을목은 임수의 에너지를 조화롭게 활용하지만 지속성은 약함.",
+      "action": "을목을 활용할 때 장기적인 계획보다는 단기적 목표를 설정.",
+      "cautions": [
+        "을목은 지속성이 약하므로 장기적 활용에는 한계가 있음."
+      ],
+      "tags": [
+        "임수",
+        "을목",
+        "조화",
+        "단기목표",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-111504ee1c",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "support": "정화"
+      },
+      "mechanism": "정화는 임수의 에너지를 효율적으로 정리하고 응집.",
+      "interpretation": "정화는 임수의 에너지를 조직적이고 체계적으로 활용 가능하게 함.",
+      "action": "정화를 통해 임수의 에너지를 체계적으로 정리하고 응용.",
+      "cautions": [
+        "정화가 없으면 임수의 에너지가 분산될 가능성이 있음."
+      ],
+      "tags": [
+        "임수",
+        "정화",
+        "효율성",
+        "조직",
+        "응집"
+      ]
+    },
+    {
+      "id": "RC-159c47762c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "support": "병화"
+      },
+      "mechanism": "병화는 임수의 에너지를 빠르게 응집하고 정리.",
+      "interpretation": "병화는 임수의 에너지를 효율적으로 활용 가능하게 함.",
+      "action": "병화를 통해 임수의 에너지를 빠르게 응용.",
+      "cautions": [
+        "병화가 없으면 임수의 에너지가 느리게 작용할 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "효율성",
+        "응집",
+        "속도"
+      ]
+    },
+    {
+      "id": "RC-c779df39e8",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "elements": [
+          "화",
+          "목",
+          "토"
+        ],
+        "presence": true
+      },
+      "mechanism": "화, 목, 토가 조화를 이루면 직업적 안정성과 지속 가능성이 높아짐.",
+      "interpretation": "화, 목, 토가 조화를 이루면 직업을 안정적으로 유지할 가능성이 높음.",
+      "action": "사주에 화, 목, 토가 부족하다면 이를 보완할 방안을 모색.",
+      "cautions": [
+        "화, 목, 토가 모두 없으면 직업적 불안정 가능성 증가."
+      ],
+      "tags": [
+        "직업",
+        "화",
+        "목",
+        "토",
+        "안정성",
+        "지속성",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-925a2c5202",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "presence": true
+      },
+      "mechanism": "정화는 금전적 동기를 제공하며 직업적 재미를 더함.",
+      "interpretation": "정화가 있으면 금전적 보상이 직업 선택에 중요한 요소가 됨.",
+      "action": "정화가 있다면 금전적 보상이 높은 직업을 고려.",
+      "cautions": [],
+      "tags": [
+        "정화",
+        "직업",
+        "금전",
+        "동기",
+        "재미"
+      ]
+    },
+    {
+      "id": "RC-ed710789da",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "presence": true
+      },
+      "mechanism": "병화는 흥미와 재미를 통해 직업적 지속성을 높임.",
+      "interpretation": "병화가 있으면 직업에서 흥미와 재미를 느끼며 지속 가능성이 높아짐.",
+      "action": "병화가 있다면 흥미를 느낄 수 있는 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "병화",
+        "직업",
+        "흥미",
+        "지속성",
+        "재미"
+      ]
+    },
+    {
+      "id": "RC-967f05538e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "간목",
+        "presence": true
+      },
+      "mechanism": "간목은 자아실현과 창의적 활동에 강한 동기를 부여함.",
+      "interpretation": "간목이 있으면 자아실현과 창작 활동에 집중하는 경향이 있음.",
+      "action": "간목이 있다면 창작, 교육, 예술 분야를 고려.",
+      "cautions": [],
+      "tags": [
+        "간목",
+        "자아실현",
+        "창작",
+        "교육",
+        "예술"
+      ]
+    },
+    {
+      "id": "RC-7da0fd688a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "무토",
+        "presence": true
+      },
+      "mechanism": "무토는 직업적 안정성과 배우자와의 연결성을 제공함.",
+      "interpretation": "무토가 있으면 직업과 배우자 선택에서 안정성을 추구함.",
+      "action": "무토가 있다면 안정적인 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "무토",
+        "직업",
+        "안정성",
+        "배우자",
+        "연결성"
+      ]
+    },
+    {
+      "id": "RC-a43ac39ed8",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "임진일주",
+        "presence": true
+      },
+      "mechanism": "임진일주는 정신적 깊이와 대화 능력을 중시함.",
+      "interpretation": "임진일주는 정신적이고 대화가 잘 통하는 직업을 선호.",
+      "action": "임진일주라면 연구, 교육, 철학 관련 직업을 고려.",
+      "cautions": [],
+      "tags": [
+        "임진일주",
+        "정신적",
+        "대화",
+        "연구",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-8cce2c8ef7",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "임술일주",
+        "presence": true
+      },
+      "mechanism": "임술일주는 현실적이고 실용적인 직업을 선호함.",
+      "interpretation": "임술일주는 현실적이고 금전적 안정성을 중시하는 경향이 있음.",
+      "action": "임술일주라면 실용적이고 금전적으로 안정적인 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "임술일주",
+        "현실적",
+        "실용적",
+        "금전",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-411134d958",
+      "topic": "CAREER",
+      "priority": 5,
+      "trigger": {
+        "elements": [
+          "정화",
+          "병화"
+        ],
+        "presence": true
+      },
+      "mechanism": "정화와 병화는 직업의 지속 가능성과 흥미를 높임.",
+      "interpretation": "정화와 병화가 있으면 직업에서 흥미와 지속 가능성을 동시에 추구.",
+      "action": "정화와 병화가 있다면 흥미와 지속 가능성을 고려한 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "정화",
+        "병화",
+        "직업",
+        "흥미",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-1788a95fcb",
+      "topic": "CAREER",
+      "priority": 5,
+      "trigger": {
+        "element": "술토",
+        "presence": true
+      },
+      "mechanism": "술토는 현실적이고 실용적인 직업 선택을 유도함.",
+      "interpretation": "술토가 있으면 현실적이고 실용적인 직업을 선호.",
+      "action": "술토가 있다면 실용적이고 안정적인 직업을 선택.",
+      "cautions": [],
+      "tags": [
+        "술토",
+        "현실적",
+        "실용적",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-4fa3c9a97a",
+      "topic": "CAREER",
+      "priority": 4,
+      "trigger": {
+        "elements": [
+          "을목",
+          "기토"
+        ],
+        "presence": true
+      },
+      "mechanism": "을목과 기토는 직업의 품질과 안정성에 영향을 미침.",
+      "interpretation": "을목과 기토는 직업의 품질이 낮거나 안정성이 부족할 가능성을 암시.",
+      "action": "을목과 기토가 있다면 직업 선택 시 품질과 안정성을 고려.",
+      "cautions": [],
+      "tags": [
+        "을목",
+        "기토",
+        "직업",
+        "품질",
+        "안정성"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트에서 특정 강사나 학파에 대한 언급은 제외하였음.",
+    "사례와 예시는 일반화하여 규칙으로 변환."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_158",
+  "updated_at": "2025-12-23T20:27:24"
+}

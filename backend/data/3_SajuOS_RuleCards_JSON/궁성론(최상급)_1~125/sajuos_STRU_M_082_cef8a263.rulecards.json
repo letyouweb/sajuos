@@ -1,0 +1,458 @@
+{
+  "title": "SajuOS_Logic_STRU_M_082",
+  "rulecards": [
+    {
+      "id": "RC-6778937768",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "자월",
+        "element": "병화"
+      },
+      "mechanism": "병화는 자월의 어두운 에너지를 밝게 만들어줌.",
+      "interpretation": "자월에서 병화는 소통과 존재감을 강화시킴.",
+      "action": "자월에 병화가 있다면 적극적으로 자신을 드러내고 소통을 시도하라.",
+      "cautions": [
+        "병화만으로는 안정성을 보장하지 못함."
+      ],
+      "tags": [
+        "자월",
+        "병화",
+        "소통",
+        "존재감",
+        "밝기"
+      ]
+    },
+    {
+      "id": "RC-ffa618a624",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "자월",
+        "element": "정화"
+      },
+      "mechanism": "정화는 자월의 경금에게 목적 지향성을 부여함.",
+      "interpretation": "정화는 경금이 사회적 역할을 자각하고 직업적 방향성을 찾게 함.",
+      "action": "정화가 있다면 자신의 직업적 목표를 명확히 설정하라.",
+      "cautions": [
+        "정화가 없으면 막연한 사명감만 남을 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "정화",
+        "경금",
+        "목적",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-0d06868b31",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "병화"
+      },
+      "mechanism": "병화는 경금이 자신을 드러내고 소통하게 만듦.",
+      "interpretation": "병화는 경금의 사회적 관계와 유연성을 높임.",
+      "action": "병화가 있다면 대인관계와 소통을 적극적으로 활용하라.",
+      "cautions": [
+        "병화가 없으면 경금이 고립될 가능성이 높음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "병화",
+        "소통",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-bc8f6e59df",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "정화"
+      },
+      "mechanism": "정화는 경금이 사회적 역할을 자각하게 함.",
+      "interpretation": "정화는 경금이 직업적 안정성을 추구하도록 도움.",
+      "action": "정화가 있다면 자신의 역할과 책임을 명확히 하라.",
+      "cautions": [
+        "정화가 없으면 경금이 방향성을 잃을 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "정화",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-99296f1d7d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "자월",
+        "element": "병화",
+        "support": "감목"
+      },
+      "mechanism": "감목은 병화와 함께 경금의 상관 에너지를 조화롭게 만듦.",
+      "interpretation": "감목은 경금의 상관 에너지를 직업적 안정성으로 전환시킴.",
+      "action": "감목이 있다면 상관 에너지를 활용해 직업적 성취를 추구하라.",
+      "cautions": [
+        "감목이 없으면 상관 에너지가 불안정하게 작용할 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "병화",
+        "감목",
+        "상관",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-43a889d62e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "임수"
+      },
+      "mechanism": "임수는 경금의 반복적 경험을 통해 안정성을 부여함.",
+      "interpretation": "임수는 경금이 꾸준히 노력하여 직업적 성취를 이루게 함.",
+      "action": "임수가 있다면 반복적이고 꾸준한 노력을 지속하라.",
+      "cautions": [
+        "임수가 없으면 경금이 안정성을 잃을 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "임수",
+        "반복",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-4dcbc80475",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "element": "병화",
+        "support": "무토"
+      },
+      "mechanism": "무토는 병화와 함께 자월의 조후를 조화롭게 만듦.",
+      "interpretation": "무토는 자월의 병화를 통해 밝기를 강화함.",
+      "action": "무토가 있다면 병화와 함께 조후를 활용하라.",
+      "cautions": [
+        "무토가 없으면 병화의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "병화",
+        "무토",
+        "조후",
+        "밝기"
+      ]
+    },
+    {
+      "id": "RC-1ecef1bced",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "병화",
+        "conflict": "정화"
+      },
+      "mechanism": "병화와 정화는 자월의 경금에 상반된 영향을 미침.",
+      "interpretation": "병화와 정화가 함께 있으면 경금의 에너지가 다방면으로 발휘됨.",
+      "action": "병화와 정화가 함께 있다면 균형을 유지하며 활용하라.",
+      "cautions": [
+        "병화와 정화의 혼잡으로 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "병화",
+        "정화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-68648fb357",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "감목",
+        "conflict": "무토"
+      },
+      "mechanism": "감목은 경금의 상관 에너지를 조화롭게 만듦, 무토는 이를 방해함.",
+      "interpretation": "감목은 경금의 상관 에너지를 직업적 안정성으로 전환시킴.",
+      "action": "감목이 있다면 무토의 방해를 최소화하며 활용하라.",
+      "cautions": [
+        "무토가 강하면 상관 에너지가 억제될 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "감목",
+        "무토",
+        "상관"
+      ]
+    },
+    {
+      "id": "RC-f48c2d918b",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "element": "경금",
+        "support": "병화",
+        "conflict": "임수"
+      },
+      "mechanism": "병화는 경금의 밝기를 강화하지만 임수는 이를 억제함.",
+      "interpretation": "병화와 임수가 함께 있으면 경금의 에너지가 상충될 수 있음.",
+      "action": "병화와 임수가 함께 있다면 조화를 유지하며 활용하라.",
+      "cautions": [
+        "병화와 임수의 상충으로 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "자월",
+        "경금",
+        "병화",
+        "임수",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-a4f8a74b09",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "좌우충",
+        "presence": true,
+        "갑목": true
+      },
+      "mechanism": "갑목이 좌우충의 불안정성을 해소함.",
+      "interpretation": "좌우충이 능력으로 전환되어 긍정적 결과를 가져옴.",
+      "action": "갑목을 활용하여 좌우충의 문제를 해결하고 안정성을 확보하라.",
+      "cautions": [
+        "갑목이 없으면 좌우충의 문제를 해결하기 어려움."
+      ],
+      "tags": [
+        "좌우충",
+        "갑목",
+        "안정성",
+        "능력",
+        "해소"
+      ]
+    },
+    {
+      "id": "RC-4f682183de",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "임수": true,
+        "병화": true
+      },
+      "mechanism": "임수와 병화의 조합이 직업 선택에 긍정적 영향을 미침.",
+      "interpretation": "임수는 창의적 직업, 병화는 직업적 안정성을 제공.",
+      "action": "임수와 병화를 조화롭게 활용하여 직업을 선택하라.",
+      "cautions": [
+        "정화보다는 병화가 더 적합함."
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "직업",
+        "창의성",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-699e26b9ed",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "재성": true,
+        "편인": true
+      },
+      "mechanism": "편인이 재성을 보완하여 재생살을 안정적으로 관리함.",
+      "interpretation": "편인이 있으면 재생살로 인한 재정적 문제를 예방 가능.",
+      "action": "편인을 활용하여 재정적 대비를 철저히 하라.",
+      "cautions": [
+        "편인이 없으면 재생살로 인해 재정적 어려움이 발생할 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "편인",
+        "재정",
+        "안정성",
+        "대비"
+      ]
+    },
+    {
+      "id": "RC-eed59e3ca8",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "청간과 지지가 소통되지 않는 경우"
+      },
+      "mechanism": "청간과 지지가 소통되지 않으면 인생의 방향성이 불안정해짐.",
+      "interpretation": "소통되지 않는 구조는 삶의 방향성을 잃게 만듦.",
+      "action": "청간과 지지의 연결성을 확인하고 조화롭게 조정하라.",
+      "cautions": [
+        "소통되지 않으면 예측 불가능한 삶을 살게 됨."
+      ],
+      "tags": [
+        "청간",
+        "지지",
+        "소통",
+        "방향성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-e0e7bb17c8",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "상관": true,
+        "편제": true
+      },
+      "mechanism": "상관과 편제가 직업적 재미와 성취를 제공함.",
+      "interpretation": "편제가 있으면 상관의 에너지를 즐기며 활용 가능.",
+      "action": "편제를 활용하여 직업에서 재미와 성취를 추구하라.",
+      "cautions": [
+        "편제가 없으면 상관의 에너지를 효과적으로 활용하기 어려움."
+      ],
+      "tags": [
+        "상관",
+        "편제",
+        "직업",
+        "재미",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-e0c3580d60",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "토국수": true
+      },
+      "mechanism": "토국수가 상관을 구체화하여 재물로 전환함.",
+      "interpretation": "토국수는 아이디어를 구체화하여 재물로 연결.",
+      "action": "토국수를 활용하여 구체적인 재물 창출 방안을 마련하라.",
+      "cautions": [
+        "토국수가 없으면 아이디어가 실현되지 않을 수 있음."
+      ],
+      "tags": [
+        "토국수",
+        "상관",
+        "구체화",
+        "재물",
+        "아이디어"
+      ]
+    },
+    {
+      "id": "RC-ea7d4e4ca8",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "개수": true,
+        "목": true
+      },
+      "mechanism": "개수가 목과 연결되면 단기 프로젝트에 적합.",
+      "interpretation": "개수는 단기적이고 유동적인 직업에 적합.",
+      "action": "개수를 활용하여 단기 프로젝트 중심의 직업을 선택하라.",
+      "cautions": [
+        "목과 연결되지 않으면 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "목",
+        "단기",
+        "프로젝트",
+        "유동성"
+      ]
+    },
+    {
+      "id": "RC-38951d3151",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "상관": true,
+        "관성": true
+      },
+      "mechanism": "상관이 관성을 극복하지 못하면 갈등이 발생.",
+      "interpretation": "상관과 관성의 조화가 중요하며, 갈등을 피해야 함.",
+      "action": "상관과 관성의 균형을 맞추어 갈등을 예방하라.",
+      "cautions": [
+        "상관이 관성을 무시하면 문제를 야기할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "관성",
+        "갈등",
+        "조화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-303de3ad7f",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "청간 투출 여부"
+      },
+      "mechanism": "청간 투출이 사주의 방향성을 결정함.",
+      "interpretation": "청간 투출이 명확하면 삶의 방향성이 뚜렷해짐.",
+      "action": "청간 투출 여부를 확인하고 방향성을 설정하라.",
+      "cautions": [
+        "청간 투출이 없으면 삶의 방향성이 불분명해질 수 있음."
+      ],
+      "tags": [
+        "청간",
+        "투출",
+        "방향성",
+        "명확성",
+        "설정"
+      ]
+    },
+    {
+      "id": "RC-c7212b906c",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "상관": true,
+        "교육": true
+      },
+      "mechanism": "상관이 교육적 분야에서 창의성을 발휘함.",
+      "interpretation": "상관은 교육 및 복지 분야에 적합.",
+      "action": "상관을 활용하여 교육적 직업을 선택하라.",
+      "cautions": [
+        "상관이 없으면 창의적 직업 선택이 어려울 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "교육",
+        "창의성",
+        "복지",
+        "직업"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_082",
+  "updated_at": "2025-12-23T20:27:24"
+}

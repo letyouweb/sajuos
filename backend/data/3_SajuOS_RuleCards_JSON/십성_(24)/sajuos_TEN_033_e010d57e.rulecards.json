@@ -1,0 +1,414 @@
+{
+  "title": "SajuOS_Logic_TEN_033",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "note": "목의 본질적 특성"
+      },
+      "mechanism": "목은 직선적이고 지향성을 가진 에너지로, 성장과 방향성을 나타냄.",
+      "interpretation": "목은 어딘가를 향해 나아가고자 하는 본성을 가짐.",
+      "action": "목의 지향성을 이해하고 이를 활용할 수 있는 환경을 조성.",
+      "cautions": [
+        "목의 지향점이 명확하지 않으면 혼란스러울 수 있음."
+      ],
+      "tags": [
+        "목",
+        "지향성",
+        "성장",
+        "방향성",
+        "직선적"
+      ],
+      "id": "RC-d10e392933"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "ten_god": "식신",
+        "note": "목일간의 식신이 화일 때"
+      },
+      "mechanism": "화는 목의 성장과 표현을 돕는 에너지로 작용.",
+      "interpretation": "목일간이 화를 만나면 성장과 자기 표현이 원활해짐.",
+      "action": "화의 에너지를 활용해 자신의 재능과 목표를 명확히 함.",
+      "cautions": [
+        "화가 없거나 약하면 성장의 방향성이 약해질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "식신",
+        "화",
+        "성장",
+        "표현"
+      ],
+      "id": "RC-b1ce5116ae"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "ten_god": "식신",
+        "presence": false
+      },
+      "mechanism": "식신이 없으면 목의 성장 욕구가 억제됨.",
+      "interpretation": "목일간에 식신이 없으면 성장과 목표 설정이 어려울 수 있음.",
+      "action": "외부에서 목표를 설정하거나 멘토를 찾아 도움을 받음.",
+      "cautions": [
+        "목표가 없으면 정서적 불안정이 생길 수 있음."
+      ],
+      "tags": [
+        "목",
+        "식신",
+        "목표",
+        "성장",
+        "멘토"
+      ],
+      "id": "RC-289b6c57ba"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "ten_god": "병화",
+        "note": "병화가 목일간에 미치는 영향"
+      },
+      "mechanism": "병화는 목의 전체적인 균형과 성장을 돕는 에너지.",
+      "interpretation": "병화가 있으면 목일간은 균형 잡힌 성장을 이룰 가능성이 높음.",
+      "action": "병화의 에너지를 활용해 다양한 분야에서 균형을 유지.",
+      "cautions": [
+        "병화가 과도하면 에너지가 분산될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "병화",
+        "균형",
+        "성장",
+        "에너지"
+      ],
+      "id": "RC-e60acacfdc"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "ten_god": "정화",
+        "note": "정화가 목일간에 미치는 영향"
+      },
+      "mechanism": "정화는 목의 특정 부분을 강조하며 성장시킴.",
+      "interpretation": "정화가 있으면 목일간은 특정 재능이나 영역에서 두각을 나타냄.",
+      "action": "정화의 에너지를 활용해 특화된 분야를 개발.",
+      "cautions": [
+        "정화가 강하면 다른 영역이 소홀해질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "정화",
+        "특화",
+        "성장",
+        "재능"
+      ],
+      "id": "RC-8a9a2a7ff8"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "ten_god": "식신",
+        "state": "무식상"
+      },
+      "mechanism": "무식상은 목의 성장과 표현을 제한함.",
+      "interpretation": "무식상인 목일간은 성장과 목표 설정이 어려울 수 있음.",
+      "action": "외부의 도움이나 환경을 통해 성장 기회를 모색.",
+      "cautions": [
+        "정서적 억압이나 목표 부재로 인한 좌절 가능성."
+      ],
+      "tags": [
+        "목",
+        "무식상",
+        "성장",
+        "목표",
+        "억압"
+      ],
+      "id": "RC-4a4c660b56"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "ten_god": "병화",
+        "note": "병화가 목일간의 식신으로 작용"
+      },
+      "mechanism": "병화는 목의 재능과 성장을 자연스럽게 드러냄.",
+      "interpretation": "병화가 있으면 목일간은 솔직하고 균형 잡힌 성격을 가짐.",
+      "action": "병화의 에너지를 활용해 자신의 재능을 자연스럽게 표현.",
+      "cautions": [
+        "병화가 약하면 표현력이 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "병화",
+        "식신",
+        "성장",
+        "표현"
+      ],
+      "id": "RC-f65a5ea31f"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "ten_god": "정화",
+        "note": "정화가 목일간의 상관으로 작용"
+      },
+      "mechanism": "정화는 목의 특정 재능을 극대화함.",
+      "interpretation": "정화가 있으면 목일간은 특정 분야에서 두각을 나타냄.",
+      "action": "정화의 에너지를 활용해 전문성을 개발.",
+      "cautions": [
+        "정화가 강하면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "정화",
+        "상관",
+        "재능",
+        "전문성"
+      ],
+      "id": "RC-8a904bb7ac"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "ten_god": "화",
+        "state": "무화"
+      },
+      "mechanism": "화가 없으면 목의 지향점이 불분명해짐.",
+      "interpretation": "무화인 목일간은 목표 설정과 성장이 어려울 수 있음.",
+      "action": "외부에서 목표를 설정하거나 멘토를 찾아 도움을 받음.",
+      "cautions": [
+        "목표 부재로 인한 정서적 불안정 가능성."
+      ],
+      "tags": [
+        "목",
+        "무화",
+        "목표",
+        "성장",
+        "멘토"
+      ],
+      "id": "RC-c488eb3ffd"
+    },
+    {
+      "id": "RC-38ed00f4e1",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "interaction": "목생화"
+      },
+      "mechanism": "목은 화를 생하며, 화는 의욕과 목표를 상징.",
+      "interpretation": "목일간이 화를 만나면 의욕과 목표가 강해진다.",
+      "action": "화의 기운이 강한 시기에 목표를 설정하고 실행력을 높여라.",
+      "cautions": [
+        "화의 과잉은 조급함을 유발할 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "의욕",
+        "목일간",
+        "목",
+        "화"
+      ]
+    },
+    {
+      "id": "RC-da7dd0d5f8",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "absence": "화"
+      },
+      "mechanism": "화가 없으면 목의 의욕과 추진력이 약화됨.",
+      "interpretation": "목일간에 화가 없으면 의욕이 부족하거나 목표 설정이 어려울 수 있다.",
+      "action": "의욕을 높이기 위해 운동이나 긍정적인 습관을 만들어라.",
+      "cautions": [
+        "목의 기운이 정체될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목일간",
+        "의욕부족",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-c468e52c8d",
+      "topic": "GENERAL",
+      "priority": 7,
+      "trigger": {
+        "note": "목일간이 화를 만나 의욕이 상승하는 경우"
+      },
+      "mechanism": "화는 목의 추진력을 자극함.",
+      "interpretation": "목일간은 화를 만나면 목표를 향한 열정이 강해진다.",
+      "action": "화의 기운을 활용해 새로운 도전을 시작하라.",
+      "cautions": [
+        "화의 기운이 지나치면 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목일간",
+        "목생화",
+        "의욕"
+      ]
+    },
+    {
+      "id": "RC-d9543f7d64",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "dominance": "수"
+      },
+      "mechanism": "수가 많으면 목의 성장과 의욕이 억제됨.",
+      "interpretation": "목일간에 수가 많으면 아이 같은 순수함이 억제되고 조숙해질 수 있다.",
+      "action": "아이 같은 순수함을 회복하기 위해 창의적인 활동을 시도하라.",
+      "cautions": [
+        "수가 과도하면 감정적으로 위축될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "목일간",
+        "조숙",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-f33f9df1ad",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "absence": "식상"
+      },
+      "mechanism": "식상이 없으면 목일간의 표현력과 창의성이 제한됨.",
+      "interpretation": "무식상 목일간은 대리만족을 통해 창의성을 간접적으로 경험한다.",
+      "action": "식상의 기운을 가진 사람들과 교류하며 영감을 얻어라.",
+      "cautions": [
+        "자신의 표현력을 억제하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "식상",
+        "무식상",
+        "창의성",
+        "대리만족"
+      ]
+    },
+    {
+      "id": "RC-c0d19b2a5c",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "목일간이 화를 통해 과거에 얽매이지 않는 경우"
+      },
+      "mechanism": "화는 미래 지향적인 에너지를 제공.",
+      "interpretation": "목일간은 화를 만나면 과거보다는 미래를 향해 나아간다.",
+      "action": "미래 지향적인 목표를 설정하고 실행하라.",
+      "cautions": [
+        "과거의 교훈을 무시하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "미래지향",
+        "목일간",
+        "목생화"
+      ]
+    },
+    {
+      "id": "RC-80ccb6ae8e",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "interaction": "목생화",
+        "age": "어린 시절"
+      },
+      "mechanism": "목생화는 아이가 어른이 되고자 하는 마음을 상징.",
+      "interpretation": "목일간의 어린 시절은 성장과 목표를 향한 열망으로 가득하다.",
+      "action": "아이의 성장 욕구를 존중하고 지원하라.",
+      "cautions": [
+        "아이에게 과도한 기대를 부여하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "목생화",
+        "성장",
+        "어린시절"
+      ]
+    },
+    {
+      "id": "RC-e2ba2bea3f",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "dominance": "수",
+        "age": "어린 시절"
+      },
+      "mechanism": "수가 많으면 아이가 조숙해지고 순수함이 억제됨.",
+      "interpretation": "목일간의 어린 시절에 수가 많으면 아이답지 않은 성숙함을 보일 수 있다.",
+      "action": "아이의 순수함을 존중하고 놀이를 통해 감정을 표현하게 하라.",
+      "cautions": [
+        "아이에게 과도한 책임을 부여하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "조숙",
+        "어린시절",
+        "순수함"
+      ]
+    },
+    {
+      "id": "RC-0c2b1e8f5e",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "absence": "식상",
+        "interaction": "대리만족"
+      },
+      "mechanism": "무식상은 자신의 욕구를 식상을 통해 간접적으로 충족.",
+      "interpretation": "무식상 목일간은 식상을 통해 대리만족을 느낀다.",
+      "action": "식상의 기운을 가진 활동이나 사람들과 교류하라.",
+      "cautions": [
+        "자신의 욕구를 억제하지 않도록 주의."
+      ],
+      "tags": [
+        "목",
+        "식상",
+        "무식상",
+        "대리만족",
+        "욕구"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_033",
+  "updated_at": "2025-12-23T20:27:26"
+}

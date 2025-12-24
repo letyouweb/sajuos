@@ -1,0 +1,468 @@
+{
+  "title": "SajuOS_Logic_APPL_037",
+  "rulecards": [
+    {
+      "id": "RC-201271232e",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "relation": "재성",
+        "to": "인성"
+      },
+      "mechanism": "재성은 인성을 극하는 역할을 한다.",
+      "interpretation": "재성이 인성을 통제하면 인성은 단순히 생하는 것이 아니라 재성의 영향을 받게 된다.",
+      "action": "사주에서 재성과 인성의 관계를 분석하여 부모의 역할과 영향을 이해하라.",
+      "cautions": [
+        "재성이 없으면 인성의 역할이 과도해질 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "인성",
+        "극",
+        "부모역할",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-b8d1af1e8e",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "relation": "재성",
+        "to": "일간"
+      },
+      "mechanism": "재성은 일간과 극의 관계를 형성한다.",
+      "interpretation": "재성은 사회적 관계와 조건적 역할을 강조한다.",
+      "action": "재성이 강한 경우 사회적 관계와 역할을 중시하라.",
+      "cautions": [
+        "재성이 약하면 사회적 기반이 약해질 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "일간",
+        "극",
+        "사회적관계",
+        "조건"
+      ]
+    },
+    {
+      "id": "RC-9b75f8f461",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "relation": "재성",
+        "to": "월지"
+      },
+      "mechanism": "재성이 월지에 있으면 사회적 관계와 경제적 기반이 강조된다.",
+      "interpretation": "재성이 월지에 있으면 안정적인 사회적 기반을 형성할 가능성이 높다.",
+      "action": "월지의 재성을 활용하여 사회적 관계를 강화하라.",
+      "cautions": [
+        "재성이 월지에 없으면 경제적 안정이 어려울 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "월지",
+        "사회적기반",
+        "경제적안정",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-474c6f6d30",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "relation": "재성",
+        "to": "아버지"
+      },
+      "mechanism": "재성은 아버지의 역할과 연결된다.",
+      "interpretation": "재성이 강하면 아버지의 역할이 사회적 기반과 경제적 안정에 기여한다.",
+      "action": "재성이 강한 경우 아버지와의 관계를 통해 사회적 가치를 배워라.",
+      "cautions": [
+        "재성이 약하면 아버지의 역할이 부재하거나 약화될 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "아버지",
+        "사회적기반",
+        "경제적안정",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-5597482c5c",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "relation": "재성",
+        "to": "인성",
+        "condition": "재극인"
+      },
+      "mechanism": "재극인은 인성을 통제하여 균형을 맞춘다.",
+      "interpretation": "재극인이 있으면 부모의 역할이 균형을 이루며 자녀 교육에 영향을 미친다.",
+      "action": "재극인의 유무를 확인하고 부모의 역할 분담을 이해하라.",
+      "cautions": [
+        "재극인이 없으면 부모의 역할이 한쪽으로 치우칠 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "인성",
+        "재극인",
+        "부모역할",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-00b13748fa",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "relation": "재성",
+        "to": "아버지",
+        "condition": "천간"
+      },
+      "mechanism": "재성이 천간에 있으면 아버지의 역할이 명확해진다.",
+      "interpretation": "천간의 재성은 아버지가 사회적 활동에서 두드러지는 역할을 한다는 것을 의미한다.",
+      "action": "천간의 재성을 통해 아버지의 사회적 역할을 분석하라.",
+      "cautions": [
+        "재성이 지지에만 있으면 아버지의 역할이 약화될 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "천간",
+        "아버지",
+        "사회적활동",
+        "역할"
+      ]
+    },
+    {
+      "id": "RC-19f5f484e0",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "relation": "재성",
+        "to": "아버지",
+        "condition": "정제"
+      },
+      "mechanism": "정제는 성실하고 책임감 있는 아버지를 나타낸다.",
+      "interpretation": "정제의 아버지는 자녀에게 안정적인 경제적 기반과 가치관을 제공한다.",
+      "action": "정제의 아버지로부터 성실성과 책임감을 배우라.",
+      "cautions": [
+        "정제가 약하면 경제적 안정이 부족할 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "정제",
+        "아버지",
+        "성실",
+        "책임감"
+      ]
+    },
+    {
+      "id": "RC-6b65397981",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "relation": "재성",
+        "to": "아버지",
+        "condition": "편제"
+      },
+      "mechanism": "편제는 자유롭고 확장적인 아버지를 나타낸다.",
+      "interpretation": "편제의 아버지는 자녀에게 꿈과 야망을 심어준다.",
+      "action": "편제의 아버지로부터 창의성과 확장성을 배우라.",
+      "cautions": [
+        "편제가 강하면 아버지와의 소통이 어려울 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "편제",
+        "아버지",
+        "꿈",
+        "야망"
+      ]
+    },
+    {
+      "id": "RC-9ed58a5ea5",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "relation": "재성",
+        "to": "사회적관계"
+      },
+      "mechanism": "재성은 사회적 관계와 규칙을 학습하게 한다.",
+      "interpretation": "재성이 강하면 사회적 규칙과 관계를 잘 이해하고 적응한다.",
+      "action": "재성을 활용하여 사회적 규칙을 익히고 관계를 확장하라.",
+      "cautions": [
+        "재성이 약하면 사회적 관계 형성이 어려울 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "사회적관계",
+        "규칙",
+        "적응",
+        "학습"
+      ]
+    },
+    {
+      "id": "RC-9e10df6e60",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "relation": "재성",
+        "to": "자녀"
+      },
+      "mechanism": "재성은 자녀에게 사회적 규칙과 역할을 가르친다.",
+      "interpretation": "재성이 강한 부모는 자녀에게 사회적 규칙과 역할을 잘 전달한다.",
+      "action": "재성을 통해 자녀에게 사회적 규칙과 역할을 교육하라.",
+      "cautions": [
+        "재성이 약하면 자녀의 사회적 적응력이 떨어질 수 있다."
+      ],
+      "tags": [
+        "재성",
+        "자녀",
+        "사회적규칙",
+        "교육",
+        "역할"
+      ]
+    },
+    {
+      "id": "RC-080a126950",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "gender": "female",
+        "relation": "father",
+        "presence": "weak"
+      },
+      "mechanism": "사회적 역할 변화와 전통적 성별 역할의 변화로 인해 아버지와의 관계가 약화됨.",
+      "interpretation": "여성의 사회적 활동이 증가하면서 아버지와의 관계가 과거보다 덜 뚜렷해질 수 있음.",
+      "action": "아버지와의 관계를 재정립하고, 상호 이해를 높이는 대화를 시도.",
+      "cautions": [
+        "전통적 성별 역할에 대한 고정관념을 버릴 것."
+      ],
+      "tags": [
+        "아버지",
+        "여성",
+        "사회적 역할",
+        "관계",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-919ad17420",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "earth",
+        "strength": "weak"
+      },
+      "mechanism": "토가 약하면 성별 역할이 모호해지고, 관계의 안정성이 흔들림.",
+      "interpretation": "토가 약할 경우 성적 정체성과 역할이 불분명해질 가능성이 있음.",
+      "action": "토의 기운을 보강하는 활동이나 환경을 조성.",
+      "cautions": [
+        "성적 정체성 혼란에 대한 민감한 접근 필요."
+      ],
+      "tags": [
+        "토",
+        "성별 역할",
+        "정체성",
+        "안정성",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-ca51357bad",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "偏財"
+      },
+      "mechanism": "편재는 아버지가 말로 가르치고, 허세적 성향을 보이는 경향이 있음.",
+      "interpretation": "아버지가 말로 가르치며, 실질적 도움보다는 정신적 지지를 제공.",
+      "action": "아버지의 조언을 실질적 행동으로 연결할 방법을 모색.",
+      "cautions": [
+        "허세적 조언을 과대평가하지 말 것."
+      ],
+      "tags": [
+        "편재",
+        "아버지",
+        "조언",
+        "허세",
+        "정신적 지지"
+      ]
+    },
+    {
+      "id": "RC-456fc3d835",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "正財"
+      },
+      "mechanism": "정재는 아버지가 실질적 도움을 주는 경향이 있음.",
+      "interpretation": "아버지가 실질적이고 구체적인 도움을 제공할 가능성이 높음.",
+      "action": "필요한 도움을 구체적으로 요청.",
+      "cautions": [
+        "아버지의 도움에 지나치게 의존하지 말 것."
+      ],
+      "tags": [
+        "정재",
+        "아버지",
+        "실질적 도움",
+        "재정적 지원",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-1b7349b4a3",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "position": "stem"
+      },
+      "mechanism": "천간에 재성이 있으면 아버지의 존재감이 뚜렷함.",
+      "interpretation": "아버지가 삶에 강한 영향을 미치며, 조언자 역할을 할 가능성이 큼.",
+      "action": "아버지의 조언을 적극적으로 수용하고 활용.",
+      "cautions": [
+        "아버지의 개입이 과도하지 않도록 조율."
+      ],
+      "tags": [
+        "천간",
+        "재성",
+        "아버지",
+        "조언",
+        "영향력"
+      ]
+    },
+    {
+      "id": "RC-d70b69cab6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "position": "branch"
+      },
+      "mechanism": "지지에 재성이 있으면 아버지와의 관계가 결핍적일 수 있음.",
+      "interpretation": "아버지와의 관계가 깊지 않으며, 결핍감을 느낄 가능성이 있음.",
+      "action": "아버지와의 관계를 개선하기 위한 노력을 기울임.",
+      "cautions": [
+        "결핍감을 극복하기 위한 자기 성찰 필요."
+      ],
+      "tags": [
+        "지지",
+        "재성",
+        "아버지",
+        "결핍",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-d386460fe3",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "爭財"
+      },
+      "mechanism": "쟁재는 아버지와의 관계에서 갈등이 발생할 가능성을 높임.",
+      "interpretation": "아버지와의 관계가 경쟁적이거나 갈등적일 수 있음.",
+      "action": "갈등을 줄이기 위한 대화와 이해의 노력을 강화.",
+      "cautions": [
+        "경쟁적 관계가 지나치게 심화되지 않도록 주의."
+      ],
+      "tags": [
+        "쟁재",
+        "아버지",
+        "갈등",
+        "경쟁",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-15cb4a9302",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "偏財",
+        "position": "branch"
+      },
+      "mechanism": "지지에 편재가 있으면 아버지가 다정한 성향을 보일 가능성이 있음.",
+      "interpretation": "아버지가 다정하고 감정적으로 가까운 관계를 형성할 가능성이 있음.",
+      "action": "아버지와의 감정적 유대를 강화.",
+      "cautions": [
+        "감정적 유대가 실질적 도움으로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "지지",
+        "아버지",
+        "다정함",
+        "감정적 유대"
+      ]
+    },
+    {
+      "id": "RC-0c37ce263b",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "正財",
+        "position": "stem"
+      },
+      "mechanism": "천간에 정재가 있으면 아버지가 실질적이고 구체적인 도움을 제공.",
+      "interpretation": "아버지가 재정적 지원이나 실질적 해결책을 제공할 가능성이 큼.",
+      "action": "아버지의 도움을 필요할 때 요청.",
+      "cautions": [
+        "아버지의 도움에 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "천간",
+        "아버지",
+        "실질적 도움",
+        "재정적 지원"
+      ]
+    },
+    {
+      "id": "RC-f9affbad3e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "father",
+        "element": "wealth",
+        "type": "偏財",
+        "position": "stem"
+      },
+      "mechanism": "천간에 편재가 있으면 아버지가 조언자 역할을 수행.",
+      "interpretation": "아버지가 말로 조언하고, 정신적 지지를 제공할 가능성이 큼.",
+      "action": "아버지의 조언을 경청하고, 실질적 행동으로 연결.",
+      "cautions": [
+        "조언이 실질적 해결로 이어지지 않을 수 있음."
+      ],
+      "tags": [
+        "편재",
+        "천간",
+        "아버지",
+        "조언",
+        "정신적 지지"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 내용은 요약 및 단순화되었습니다.",
+    "재성과 인성의 관계를 중심으로 육친의 역할과 영향을 분석함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_037",
+  "updated_at": "2025-12-23T20:27:26"
+}

@@ -1,0 +1,479 @@
+{
+  "title": "SajuOS_Logic_ELEM_032",
+  "rulecards": [
+    {
+      "id": "RC-ef1a7bcf1f",
+      "topic": "ELEMENTS",
+      "priority": 10,
+      "trigger": {
+        "element": "목",
+        "type": "갑"
+      },
+      "mechanism": "갑목은 수에서 가까운 초기 목의 단계로, 억압에서 벗어나 상향하려는 힘을 가진다.",
+      "interpretation": "갑목은 직선적이고 수직적인 성향을 가지며, 초기 성장과 돌파력을 상징한다.",
+      "action": "갑목의 특성을 활용해 새로운 도전을 시작하거나 억압된 상황을 돌파하라.",
+      "cautions": [
+        "초기 단계에서 과도한 에너지를 소모하지 않도록 주의"
+      ],
+      "tags": [
+        "갑목",
+        "목",
+        "성장",
+        "돌파력",
+        "초기단계",
+        "수직성",
+        "상향"
+      ]
+    },
+    {
+      "id": "RC-c6007ebe6b",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "type": "을"
+      },
+      "mechanism": "을목은 갑목에서 발전된 상태로, 화에 가까워지고 응용력이 강하다.",
+      "interpretation": "을목은 수평적이고 곡선적인 성향을 가지며, 관계와 응용을 중시한다.",
+      "action": "을목의 특성을 활용해 협력과 응용력을 발휘하라.",
+      "cautions": [
+        "변화에 지나치게 민감해 안정성을 잃지 않도록 주의"
+      ],
+      "tags": [
+        "을목",
+        "목",
+        "응용력",
+        "수평성",
+        "관계",
+        "발전",
+        "화"
+      ]
+    },
+    {
+      "id": "RC-436af110aa",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "type": "갑",
+        "state": "생목"
+      },
+      "mechanism": "생목인 갑목은 생산성을 추구하며, 물질적 성과를 중시한다.",
+      "interpretation": "생목 갑목은 실질적인 성과와 물질적 성공을 목표로 한다.",
+      "action": "생산성을 높이는 활동에 집중하라.",
+      "cautions": [
+        "물질적 성공에만 치중해 정신적 가치를 간과하지 않도록 주의"
+      ],
+      "tags": [
+        "갑목",
+        "생목",
+        "생산성",
+        "물질적",
+        "목표",
+        "성과",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-57dc4f344b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "type": "갑",
+        "state": "사목"
+      },
+      "mechanism": "사목인 갑목은 정신적 가치를 중시하며, 상징성을 띤다.",
+      "interpretation": "사목 갑목은 철학적이고 고유성을 유지하려는 성향이 강하다.",
+      "action": "자신만의 철학과 가치를 발전시키는 데 집중하라.",
+      "cautions": [
+        "타협이 어려워 사회적 관계에서 고립될 수 있음"
+      ],
+      "tags": [
+        "갑목",
+        "사목",
+        "정신적",
+        "상징성",
+        "철학",
+        "고유성",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-ff2ccd846a",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "type": "을",
+        "state": "생목"
+      },
+      "mechanism": "을목은 생목으로만 작용하며, 변화와 응용에 능하다.",
+      "interpretation": "을목은 빠른 변화와 적응력을 통해 실용적 성과를 낸다.",
+      "action": "변화에 민첩하게 대응하고 실용적인 접근을 하라.",
+      "cautions": [
+        "지나친 변화 추구로 안정성을 잃지 않도록 주의"
+      ],
+      "tags": [
+        "을목",
+        "생목",
+        "변화",
+        "응용",
+        "적응력",
+        "실용성",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-371d3085bf",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "type": "갑",
+        "comparison": "을"
+      },
+      "mechanism": "갑목은 수직적이고 직선적이며, 을목은 수평적이고 곡선적이다.",
+      "interpretation": "갑목은 높이를, 을목은 넓이를 장악하려는 성향을 가진다.",
+      "action": "갑목은 목표를 높게 설정하고, 을목은 넓은 네트워크를 구축하라.",
+      "cautions": [
+        "각자의 강점을 살리되, 서로의 차이를 이해하라"
+      ],
+      "tags": [
+        "갑목",
+        "을목",
+        "수직성",
+        "수평성",
+        "높이",
+        "넓이",
+        "차이"
+      ]
+    },
+    {
+      "id": "RC-6764679b66",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "type": "갑",
+        "growth": "early"
+      },
+      "mechanism": "갑목은 초기 성장 단계에서 강한 돌파력을 발휘한다.",
+      "interpretation": "갑목은 억압된 상황을 뚫고 나가는 힘을 상징한다.",
+      "action": "초기 단계에서 강한 추진력을 발휘하라.",
+      "cautions": [
+        "초기 에너지 소모 후 지속 가능성을 고려하라"
+      ],
+      "tags": [
+        "갑목",
+        "초기",
+        "성장",
+        "돌파력",
+        "추진력",
+        "억압",
+        "힘"
+      ]
+    },
+    {
+      "id": "RC-c8e7493ebf",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "type": "을",
+        "growth": "later"
+      },
+      "mechanism": "을목은 갑목에서 발전된 상태로, 응용과 관계 형성에 능하다.",
+      "interpretation": "을목은 성숙한 단계에서 실용적이고 관계 중심적이다.",
+      "action": "응용력을 발휘하고 관계를 강화하라.",
+      "cautions": [
+        "응용에 치중해 본질을 잃지 않도록 주의"
+      ],
+      "tags": [
+        "을목",
+        "성숙",
+        "응용",
+        "관계",
+        "실용성",
+        "발전",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-c37041e8de",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "목",
+        "type": "갑",
+        "symbolism": true
+      },
+      "mechanism": "갑목은 단일 개체로서 상징성을 띤다.",
+      "interpretation": "갑목은 고유성과 독창성을 통해 주목받는다.",
+      "action": "자신만의 고유성과 독창성을 개발하라.",
+      "cautions": [
+        "고유성을 유지하려다 고립되지 않도록 주의"
+      ],
+      "tags": [
+        "갑목",
+        "상징성",
+        "고유성",
+        "독창성",
+        "단일성",
+        "주목",
+        "개발"
+      ]
+    },
+    {
+      "id": "RC-f4e9c952ce",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "목",
+        "type": "을",
+        "symbolism": false
+      },
+      "mechanism": "을목은 군락을 이루며 상징성보다는 실용성을 중시한다.",
+      "interpretation": "을목은 다수와의 협력을 통해 실용적 성과를 낸다.",
+      "action": "협력과 실용성을 중시하며 활동하라.",
+      "cautions": [
+        "다수와의 협력에서 개성을 잃지 않도록 주의"
+      ],
+      "tags": [
+        "을목",
+        "군락",
+        "협력",
+        "실용성",
+        "다수",
+        "성과",
+        "실용"
+      ]
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "甲",
+        "context": "독립적/단일 개체"
+      },
+      "mechanism": "甲목은 독립적이고 상징적인 존재로 간주됨.",
+      "interpretation": "단일 개체로서 독보적이고 상징적인 역할을 함.",
+      "action": "독립적이고 상징적인 위치를 유지하도록 노력하라.",
+      "cautions": [
+        "군락 속에서는 甲목의 특성이 희석될 수 있음."
+      ],
+      "tags": [
+        "甲목",
+        "독립성",
+        "상징성",
+        "단일성",
+        "목"
+      ],
+      "id": "RC-688a5a7382"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "乙",
+        "context": "군락/집단"
+      },
+      "mechanism": "乙목은 집단적이고 협력적인 특성을 가짐.",
+      "interpretation": "집단 속에서 조화를 이루며 영향력을 발휘함.",
+      "action": "협력과 조화를 통해 목표를 달성하라.",
+      "cautions": [
+        "개별적으로 행동하면 영향력이 약해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "군락",
+        "협력",
+        "조화",
+        "목"
+      ],
+      "id": "RC-e9769329b0"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "甲",
+        "context": "수(水)와의 관계"
+      },
+      "mechanism": "甲목은 수(水)의 도움으로 성장 가능.",
+      "interpretation": "수(水)가 甲목의 근본적 성장을 돕는 역할을 함.",
+      "action": "수(水)의 에너지를 활용해 장기적인 성장을 도모하라.",
+      "cautions": [
+        "수(水)가 과하면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "甲목",
+        "수",
+        "성장",
+        "근본",
+        "목"
+      ],
+      "id": "RC-0722a81e7a"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "乙",
+        "context": "수(水)와의 관계"
+      },
+      "mechanism": "乙목은 이미 수(水)에서 벗어나 화(火)와 가까워짐.",
+      "interpretation": "乙목은 수(水)보다 화(火)를 더 필요로 함.",
+      "action": "화(火)의 에너지를 활용해 빠른 변화를 추구하라.",
+      "cautions": [
+        "수(水)가 과도하면 발전이 저해될 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "수",
+        "화",
+        "변화",
+        "목"
+      ],
+      "id": "RC-31a9be067d"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "甲",
+        "context": "화(火)와의 관계"
+      },
+      "mechanism": "甲목은 화(火)를 통해 꽃을 피우고 완성됨.",
+      "interpretation": "화(火)는 甲목의 성장을 완성시키는 요소임.",
+      "action": "화(火)를 통해 자신의 잠재력을 발휘하라.",
+      "cautions": [
+        "화(火)가 부족하면 성장이 지연될 수 있음."
+      ],
+      "tags": [
+        "甲목",
+        "화",
+        "성장",
+        "완성",
+        "목"
+      ],
+      "id": "RC-d3a197d272"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "乙",
+        "context": "화(火)와의 관계"
+      },
+      "mechanism": "乙목은 화(火)를 통해 빠르게 변화하고 적응함.",
+      "interpretation": "화(火)는 乙목의 적응력과 변화를 촉진함.",
+      "action": "화(火)를 활용해 변화와 적응을 가속화하라.",
+      "cautions": [
+        "화(火)가 과도하면 불안정해질 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "화",
+        "변화",
+        "적응",
+        "목"
+      ],
+      "id": "RC-d9f0c2c771"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "甲",
+        "context": "변화 주기"
+      },
+      "mechanism": "甲목은 변화 주기가 길고 안정적임.",
+      "interpretation": "변화가 느리지만 깊이 있는 성장을 추구함.",
+      "action": "장기적인 목표를 설정하고 꾸준히 노력하라.",
+      "cautions": [
+        "변화에 대한 유연성이 부족할 수 있음."
+      ],
+      "tags": [
+        "甲목",
+        "변화",
+        "주기",
+        "안정성",
+        "목"
+      ],
+      "id": "RC-8a039d848e"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "乙",
+        "context": "변화 주기"
+      },
+      "mechanism": "乙목은 변화 주기가 짧고 빠르게 적응함.",
+      "interpretation": "빠른 변화와 적응력을 통해 유연성을 발휘함.",
+      "action": "변화에 민첩하게 대응하며 기회를 포착하라.",
+      "cautions": [
+        "지나치게 빠른 변화는 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "변화",
+        "적응",
+        "유연성",
+        "목"
+      ],
+      "id": "RC-446fdc81c5"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "甲",
+        "context": "독단성"
+      },
+      "mechanism": "甲목은 독단적이고 자기 주장이 강함.",
+      "interpretation": "자신의 철학과 원칙을 고수함.",
+      "action": "자신의 신념을 명확히 하고 이를 관철하라.",
+      "cautions": [
+        "타인의 의견을 수용하는 데 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "甲목",
+        "독단성",
+        "철학",
+        "원칙",
+        "목"
+      ],
+      "id": "RC-715b2319e4"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "乙",
+        "context": "협력과 조화"
+      },
+      "mechanism": "乙목은 협력과 조화를 통해 목표를 달성함.",
+      "interpretation": "집단 속에서 영향력을 발휘하며 조화를 이룸.",
+      "action": "타인과의 협력을 통해 시너지를 창출하라.",
+      "cautions": [
+        "개인의 목소리가 묻힐 수 있음."
+      ],
+      "tags": [
+        "乙목",
+        "협력",
+        "조화",
+        "집단",
+        "목"
+      ],
+      "id": "RC-903483ede1"
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 내용은 요약 및 단순화되었습니다."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_032",
+  "updated_at": "2025-12-23T20:27:25"
+}

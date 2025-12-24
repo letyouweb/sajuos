@@ -1,0 +1,446 @@
+{
+  "title": "SajuOS_Logic_STRU_M_136",
+  "rulecards": [
+    {
+      "id": "RC-7dee5064e5",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "삼합",
+        "branches": [
+          "사",
+          "오",
+          "미"
+        ]
+      },
+      "mechanism": "삼합은 에너지의 시작, 절정, 마무리를 나타냄.",
+      "interpretation": "사오미 삼합은 시작(사), 절정(오), 마무리(미)를 의미.",
+      "action": "사주와 운에서 삼합의 흐름을 주의 깊게 분석.",
+      "cautions": [
+        "삼합의 각 단계별 에너지 변화를 놓치지 말 것."
+      ],
+      "tags": [
+        "삼합",
+        "사오미",
+        "에너지흐름",
+        "시작과끝",
+        "운분석"
+      ]
+    },
+    {
+      "id": "RC-86ef0e76c1",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "계묘",
+        "relation_years": [
+          "기해",
+          "정미"
+        ]
+      },
+      "mechanism": "계묘년은 기해년, 정미년과 연결된 흐름을 가짐.",
+      "interpretation": "계묘년의 사건은 기해년과 정미년의 영향을 받음.",
+      "action": "과거 기해년과 정미년의 사건을 분석하여 계묘년의 흐름을 예측.",
+      "cautions": [
+        "과거 사건과의 연관성을 과대평가하지 말 것."
+      ],
+      "tags": [
+        "계묘년",
+        "기해년",
+        "정미년",
+        "연결성",
+        "운흐름"
+      ]
+    },
+    {
+      "id": "RC-cf3c42d90d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "branch": "미",
+        "energy": "양기",
+        "phase": "수축"
+      },
+      "mechanism": "미월은 양기가 절정에 달한 후 수축하는 단계.",
+      "interpretation": "미월은 에너지의 완성과 안정의 시기.",
+      "action": "미월의 에너지를 활용해 안정적인 계획을 세움.",
+      "cautions": [
+        "양기의 수축으로 인한 에너지 저하에 대비."
+      ],
+      "tags": [
+        "미월",
+        "양기",
+        "완성",
+        "안정",
+        "수축"
+      ]
+    },
+    {
+      "id": "RC-315bb5d209",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "branch": "미",
+        "element": "토",
+        "property": "복사열"
+      },
+      "mechanism": "미토는 복사열을 통해 열 에너지를 저장.",
+      "interpretation": "미토는 열을 담는 역할을 하며, 직접적인 창조 에너지는 아님.",
+      "action": "미토의 에너지를 활용할 때 열을 저장하는 용도로 사용.",
+      "cautions": [
+        "미토를 창조 에너지로 오해하지 말 것."
+      ],
+      "tags": [
+        "미토",
+        "복사열",
+        "열저장",
+        "창조아님",
+        "에너지활용"
+      ]
+    },
+    {
+      "id": "RC-5527130bee",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "branch": "미",
+        "element": "토",
+        "industry": "요식업"
+      },
+      "mechanism": "미토는 가루, 분말과 연결된 물상적 에너지를 가짐.",
+      "interpretation": "미토는 분식, 피자, 면 요리 등과 잘 맞음.",
+      "action": "요식업 상담 시 미토의 특성을 고려하여 조언.",
+      "cautions": [
+        "미토가 없으면 요식업 선택에 신중."
+      ],
+      "tags": [
+        "미토",
+        "요식업",
+        "분식",
+        "피자",
+        "면요리"
+      ]
+    },
+    {
+      "id": "RC-755a5bbb89",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "branch": "미",
+        "relation": "화생토"
+      },
+      "mechanism": "미토는 화의 에너지를 수렴하여 안정화.",
+      "interpretation": "미토는 열 에너지를 안정적으로 관리.",
+      "action": "미토가 있는 사주는 열 에너지를 안정적으로 활용.",
+      "cautions": [
+        "과도한 열 에너지는 미토로도 제어가 어려울 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "화생토",
+        "열안정",
+        "에너지관리",
+        "안정화"
+      ]
+    },
+    {
+      "id": "RC-8ecc02a4e3",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "형",
+        "branches": [
+          "술",
+          "미"
+        ]
+      },
+      "mechanism": "술미형은 양면성과 갈등을 내포.",
+      "interpretation": "술미형은 내적 갈등과 양면성을 나타냄.",
+      "action": "술미형이 있는 사주는 갈등 관리에 주의.",
+      "cautions": [
+        "양면성으로 인해 신뢰를 잃을 수 있음."
+      ],
+      "tags": [
+        "술미형",
+        "양면성",
+        "갈등",
+        "내적갈등",
+        "형"
+      ]
+    },
+    {
+      "id": "RC-c6a89afaf2",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "원진",
+        "branches": [
+          "자",
+          "미"
+        ]
+      },
+      "mechanism": "미토는 자수의 형질을 변질시킴.",
+      "interpretation": "자미원진은 자수의 보호 기능이 약화됨.",
+      "action": "자미원진이 있는 경우 자수의 역할을 보완.",
+      "cautions": [
+        "자수의 변질로 인해 신경계 문제가 발생할 수 있음."
+      ],
+      "tags": [
+        "자미원진",
+        "자수",
+        "미토",
+        "변질",
+        "신경계"
+      ]
+    },
+    {
+      "id": "RC-f2a82abe82",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "branch": "미",
+        "relation": "토생금"
+      },
+      "mechanism": "미토는 화를 수렴하여 금으로 전환.",
+      "interpretation": "미토는 전환 능력이 뛰어나며 재창조의 에너지를 가짐.",
+      "action": "미토의 전환 능력을 활용해 창의적 작업에 집중.",
+      "cautions": [
+        "전환 과정에서 에너지 소모가 클 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "토생금",
+        "전환",
+        "재창조",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-b9e957ab55",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "미월",
+        "event": "사건사고"
+      },
+      "mechanism": "미월은 에너지의 집중과 변화를 유발.",
+      "interpretation": "미월에 중요한 사건과 변화가 집중됨.",
+      "action": "미월에는 중요한 결정을 신중히 내릴 것.",
+      "cautions": [
+        "미월의 에너지 집중으로 인해 과부하 가능성."
+      ],
+      "tags": [
+        "미월",
+        "사건사고",
+        "에너지집중",
+        "변화",
+        "결정"
+      ]
+    },
+    {
+      "id": "RC-05a984d43d",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "형",
+        "elements": [
+          "술",
+          "미"
+        ],
+        "presence": "정화"
+      },
+      "mechanism": "술과 미의 형 관계는 정화가 개입될 때만 성립한다.",
+      "interpretation": "술미형은 양면성을 가지며, 내적 갈등을 유발한다.",
+      "action": "정화의 역할과 갈등의 원인을 분석하여 해결 방안을 모색하라.",
+      "cautions": [
+        "정화가 없으면 형으로 간주하지 말 것."
+      ],
+      "tags": [
+        "형",
+        "술미형",
+        "정화",
+        "양면성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-6d810381a5",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "day_master": "임수",
+        "month_branch": "정미",
+        "relation": "정재"
+      },
+      "mechanism": "정미월의 임수 일주는 정재와 관련된 갈등을 유발한다.",
+      "interpretation": "돈의 분배와 관련된 지속적인 고민이 발생한다.",
+      "action": "목(특히 간목)으로 갈등을 해결하라.",
+      "cautions": [
+        "임목은 효과가 미미하니 묘목을 활용할 것."
+      ],
+      "tags": [
+        "정재",
+        "임수",
+        "정미",
+        "갈등",
+        "목극토"
+      ]
+    },
+    {
+      "id": "RC-8cecafea37",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "묘",
+          "술"
+        ]
+      },
+      "mechanism": "묘술합은 계산적이고 비즈니스적인 성격을 가진다.",
+      "interpretation": "사랑보다는 이익과 계산이 우선되는 관계를 형성한다.",
+      "action": "묘술합을 비즈니스적 협력으로 활용하라.",
+      "cautions": [
+        "다른 육합과 혼동하지 말 것."
+      ],
+      "tags": [
+        "육합",
+        "묘술합",
+        "계산적",
+        "비즈니스",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-94e2b56b74",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "충",
+        "branches": [
+          "미",
+          "축"
+        ]
+      },
+      "mechanism": "미축충은 새 것과 헌 것의 충돌을 의미한다.",
+      "interpretation": "환경 개선이나 재건축과 같은 변화가 일어난다.",
+      "action": "리모델링이나 재건축 투자에 활용하라.",
+      "cautions": [
+        "충의 에너지를 과소평가하지 말 것."
+      ],
+      "tags": [
+        "충",
+        "미축충",
+        "환경개선",
+        "재건축",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-517f437f11",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "충",
+        "branches": [
+          "미",
+          "축"
+        ],
+        "month_branch": "미"
+      },
+      "mechanism": "미월의 충은 새 것과 헌 것의 조화를 통해 가치를 창출한다.",
+      "interpretation": "고전적이거나 인문학적인 요소가 새롭게 재해석된다.",
+      "action": "새로운 시각으로 기존의 가치를 재조명하라.",
+      "cautions": [
+        "기신 여부를 반드시 확인할 것."
+      ],
+      "tags": [
+        "충",
+        "미월",
+        "가치창출",
+        "재해석",
+        "인문학"
+      ]
+    },
+    {
+      "id": "RC-7f7f9f5a41",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month_branch": "미",
+        "relation": "충",
+        "branches": [
+          "미",
+          "축"
+        ]
+      },
+      "mechanism": "미축충은 운에서 환경 변화를 촉진한다.",
+      "interpretation": "운에서 충이 오면 직장이나 거주 환경이 바뀔 수 있다.",
+      "action": "환경 변화에 대비하고 기회를 활용하라.",
+      "cautions": [
+        "기신 여부에 따라 결과가 달라질 수 있음."
+      ],
+      "tags": [
+        "충",
+        "미축충",
+        "환경변화",
+        "운",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-6ef465a9d5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "형",
+        "branches": [
+          "술",
+          "미"
+        ],
+        "day_master": "임수"
+      },
+      "mechanism": "술미형은 평소와 다른 판단을 유도할 수 있다.",
+      "interpretation": "형의 작용으로 인해 사기나 배신의 위험이 증가한다.",
+      "action": "중요한 결정을 내릴 때 신중히 검토하라.",
+      "cautions": [
+        "형의 영향을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "형",
+        "술미형",
+        "사기",
+        "배신",
+        "판단"
+      ]
+    },
+    {
+      "id": "RC-335c296c6c",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "형충파해를 다루는 기본 원리"
+      },
+      "mechanism": "형충파해는 에너지의 흐름을 읽는 데 초점이 있다.",
+      "interpretation": "형충파해를 지나치게 복잡하게 해석하지 말아야 한다.",
+      "action": "기본적인 에너지 흐름을 먼저 이해하라.",
+      "cautions": [
+        "형충파해에 과도한 의미를 부여하지 말 것."
+      ],
+      "tags": [
+        "형충파해",
+        "기본원리",
+        "에너지",
+        "흐름",
+        "해석"
+      ]
+    }
+  ],
+  "notes": [
+    "일부 사례는 특정 인물이나 사건에 대한 언급이 포함되어 있어 제외함.",
+    "텍스트에서 일부 사례는 구체적이지 않아 일반화된 규칙으로 작성됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_136",
+  "updated_at": "2025-12-23T20:27:24"
+}

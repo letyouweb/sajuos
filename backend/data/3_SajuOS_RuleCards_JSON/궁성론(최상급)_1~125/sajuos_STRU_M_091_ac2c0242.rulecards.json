@@ -1,0 +1,478 @@
+{
+  "title": "SajuOS_Logic_STRU_M_091",
+  "rulecards": [
+    {
+      "id": "RC-f7b15bd134",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인"
+      },
+      "mechanism": "양인은 일간 입장에서 에너지가 분리되어 움직이지 않음.",
+      "interpretation": "양인은 통제되지 않으면 주변과의 갈등을 유발할 수 있음.",
+      "action": "양인을 통제할 수 있는 구조를 만들어야 함.",
+      "cautions": [
+        "양인을 통제하지 않으면 재산이나 관계에서 손실 가능성 있음."
+      ],
+      "tags": [
+        "양인",
+        "묘월",
+        "갑목",
+        "통제",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-b9738d5117",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "편관"
+      },
+      "mechanism": "편관은 양인을 통제할 수 있는 주요 요소.",
+      "interpretation": "편관을 통해 양인을 다루면 리스크를 줄이고 활용 가능.",
+      "action": "편관을 강화하거나 활용할 수 있는 환경을 조성.",
+      "cautions": [
+        "편관이 약하면 양인을 통제하기 어려움."
+      ],
+      "tags": [
+        "편관",
+        "양인",
+        "통제",
+        "리스크",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-49c2e91726",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "정관"
+      },
+      "mechanism": "정관은 양인을 통제할 수 있으나 반드시 강해야 함.",
+      "interpretation": "약한 정관은 양인에게 무시당할 가능성이 높음.",
+      "action": "정관이 강한 경우에만 양인을 통제에 활용.",
+      "cautions": [
+        "약한 정관은 오히려 양인에게 피해를 입을 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "양인",
+        "통제",
+        "묘월",
+        "갑목"
+      ]
+    },
+    {
+      "id": "RC-f817e6bb98",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "정화"
+      },
+      "mechanism": "정화는 편관의 용도를 결정하고 양인을 제압 가능.",
+      "interpretation": "정화가 있으면 양인을 효과적으로 다룰 수 있음.",
+      "action": "정화를 강화하거나 운에서 정화를 만날 때 활용.",
+      "cautions": [
+        "정화가 없으면 양인을 다루기 어려움."
+      ],
+      "tags": [
+        "정화",
+        "양인",
+        "편관",
+        "통제",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-b2e9970414",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "임수"
+      },
+      "mechanism": "임수는 금생수로 양인을 간접적으로 통제 가능.",
+      "interpretation": "임수가 있으면 양인을 다룰 수 있는 시간이 필요함.",
+      "action": "임수를 활용해 양인을 점진적으로 통제.",
+      "cautions": [
+        "임수가 없으면 양인을 다루는 데 시간이 오래 걸림."
+      ],
+      "tags": [
+        "임수",
+        "양인",
+        "통제",
+        "금생수",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-9ce0775cc1",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "병화"
+      },
+      "mechanism": "병화는 양인의 관심을 다른 곳으로 돌릴 수 있음.",
+      "interpretation": "병화가 강하면 양인의 에너지를 분산 가능.",
+      "action": "병화를 활용해 양인의 에너지를 긍정적으로 전환.",
+      "cautions": [
+        "병화가 약하면 양인의 통제가 어려움."
+      ],
+      "tags": [
+        "병화",
+        "양인",
+        "통제",
+        "에너지",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-562e12c77b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "화생토"
+      },
+      "mechanism": "화생토는 양인의 에너지를 안정적으로 활용 가능.",
+      "interpretation": "화생토 구조는 양인을 활용해 부를 창출 가능.",
+      "action": "화생토 구조를 강화하거나 운에서 이를 만날 때 활용.",
+      "cautions": [
+        "화생토가 약하면 양인의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "화생토",
+        "양인",
+        "부",
+        "안정",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-5b9ea06e71",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "경금"
+      },
+      "mechanism": "경금은 편관으로 양인을 통제 가능.",
+      "interpretation": "경금이 있으면 양인을 효과적으로 다룰 수 있음.",
+      "action": "경금을 활용해 양인을 통제하거나 운에서 경금을 만날 때 대비.",
+      "cautions": [
+        "경금이 약하거나 없으면 양인을 다루기 어려움."
+      ],
+      "tags": [
+        "경금",
+        "양인",
+        "편관",
+        "통제",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-44920d607b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "토"
+      },
+      "mechanism": "토는 양인의 에너지를 안정화시키는 역할.",
+      "interpretation": "토가 있으면 양인의 에너지가 안정되고 부동산 등 재산적 안정 가능.",
+      "action": "토를 활용해 양인의 에너지를 안정화.",
+      "cautions": [
+        "토가 없으면 양인의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "토",
+        "양인",
+        "안정",
+        "부동산",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-77891a8811",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "day_master": "갑목",
+        "category": "양인",
+        "control_element": "화"
+      },
+      "mechanism": "화는 양인의 에너지를 분산시키고 통제 가능.",
+      "interpretation": "화가 강하면 양인의 에너지를 긍정적으로 활용 가능.",
+      "action": "화의 강도를 높이거나 운에서 화를 만날 때 대비.",
+      "cautions": [
+        "화가 약하면 양인의 통제가 어려움."
+      ],
+      "tags": [
+        "화",
+        "양인",
+        "통제",
+        "에너지",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-6fed4c2eba",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "earth_presence": false
+      },
+      "mechanism": "목(木)은 토(土)를 통해 안정감을 얻음.",
+      "interpretation": "사주에 토가 없으면 안정감이 부족할 수 있음.",
+      "action": "토 운이 들어올 때를 활용하여 안정감을 찾도록 노력.",
+      "cautions": [
+        "토가 없을 경우 불안정한 상황에 대비 필요."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "안정감",
+        "운",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-a1ce085687",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "fire": false
+      },
+      "mechanism": "목(木)은 화(火)를 통해 방향성을 얻음.",
+      "interpretation": "화가 없으면 목표나 방향 설정이 어려움.",
+      "action": "화의 기운을 보완할 수 있는 활동이나 환경을 조성.",
+      "cautions": [
+        "화가 없을 경우 혼란스러운 상황에 대비 필요."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "방향성",
+        "목표",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-d5cc3b6792",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "fire": "정화"
+      },
+      "mechanism": "정화는 목(木)의 타겟팅과 목표 설정을 돕는 역할.",
+      "interpretation": "정화가 있을 경우 명확한 목표 설정이 가능.",
+      "action": "정화의 기운을 활용하여 구체적인 목표를 설정.",
+      "cautions": [
+        "정화가 없을 경우 목표 설정이 어려울 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "목표",
+        "목",
+        "타겟팅",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-f62b88f385",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "fire": "병화"
+      },
+      "mechanism": "병화는 목(木)의 에너지를 확장시키고 긴장감을 유지.",
+      "interpretation": "병화가 있을 경우 재능과 능력이 잘 드러남.",
+      "action": "병화의 기운을 활용하여 자신의 재능을 발휘.",
+      "cautions": [
+        "병화가 없을 경우 재능 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "목",
+        "재능",
+        "확장",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-b83c8fc9e6",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "metal": false
+      },
+      "mechanism": "목(木)이 강할 경우 금(金)을 다루기 어려움.",
+      "interpretation": "금이 약하거나 없으면 관의 역할이 제한됨.",
+      "action": "금의 기운을 보완하거나 대체할 방법을 모색.",
+      "cautions": [
+        "금이 약할 경우 관의 높이가 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "금",
+        "관",
+        "사주",
+        "제한"
+      ]
+    },
+    {
+      "id": "RC-f838fdc977",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "fire": "병화",
+        "water": "임수"
+      },
+      "mechanism": "병화와 임수는 목(木)의 에너지를 조화롭게 만듦.",
+      "interpretation": "병화와 임수가 함께 있을 경우 균형 잡힌 구조 형성.",
+      "action": "병화와 임수의 기운을 활용하여 조화로운 삶을 추구.",
+      "cautions": [
+        "병화와 임수가 없을 경우 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "목",
+        "조화",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-998bec955e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "earth": true,
+        "fire": false
+      },
+      "mechanism": "토(土)는 목(木)의 에너지를 안정시키는 역할.",
+      "interpretation": "토가 있을 경우 목의 과잉 에너지를 조절 가능.",
+      "action": "토의 기운을 활용하여 안정적인 환경 조성.",
+      "cautions": [
+        "토가 없을 경우 목의 에너지가 과잉될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "안정",
+        "조절",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-42bf1be635",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "fire": "정화",
+        "earth": "무토"
+      },
+      "mechanism": "정화와 무토는 목(木)의 에너지를 조화롭게 만듦.",
+      "interpretation": "정화와 무토가 함께 있을 경우 안정적이고 조화로운 구조 형성.",
+      "action": "정화와 무토의 기운을 활용하여 안정적인 삶을 추구.",
+      "cautions": [
+        "정화와 무토가 없을 경우 불안정한 상황에 대비 필요."
+      ],
+      "tags": [
+        "정화",
+        "무토",
+        "목",
+        "조화",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-f5f664b506",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "fire": "병화",
+        "metal": "경금"
+      },
+      "mechanism": "병화와 경금은 목(木)의 에너지를 조화롭게 만듦.",
+      "interpretation": "병화와 경금이 함께 있을 경우 목의 에너지가 조화롭게 발현.",
+      "action": "병화와 경금의 기운을 활용하여 조화로운 삶을 추구.",
+      "cautions": [
+        "병화와 경금이 없을 경우 목의 에너지가 과잉될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "경금",
+        "목",
+        "조화",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-a4f582b82f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘월",
+        "wood": true,
+        "fire": "병화",
+        "water": "임수"
+      },
+      "mechanism": "병화와 임수는 목(木)의 에너지를 조화롭게 만듦.",
+      "interpretation": "병화와 임수가 함께 있을 경우 균형 잡힌 구조 형성.",
+      "action": "병화와 임수의 기운을 활용하여 조화로운 삶을 추구.",
+      "cautions": [
+        "병화와 임수가 없을 경우 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "목",
+        "조화",
+        "사주"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_091",
+  "updated_at": "2025-12-23T20:27:24"
+}

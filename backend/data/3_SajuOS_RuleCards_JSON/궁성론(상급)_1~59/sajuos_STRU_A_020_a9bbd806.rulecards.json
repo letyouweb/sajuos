@@ -1,0 +1,1001 @@
+{
+  "title": "SajuOS_Logic_STRU_A_020",
+  "rulecards": [
+    {
+      "id": "RC-4b11eae883",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month_branch": "묘"
+      },
+      "mechanism": "월지의 지지는 격국 형성에 중요한 역할을 함.",
+      "interpretation": "월지에 비견이 있으면 직업과 관련된 격이 형성됨.",
+      "action": "월지의 비견을 중심으로 직업적 방향성을 분석.",
+      "cautions": [
+        "적성과 무관하게 직업이 결정될 수 있음."
+      ],
+      "tags": [
+        "월지",
+        "비견",
+        "격국",
+        "직업",
+        "적성"
+      ]
+    },
+    {
+      "id": "RC-44339fb377",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "묘",
+        "has_정관": true
+      },
+      "mechanism": "정관은 직업적 안정성을 보장함.",
+      "interpretation": "정관이 있으면 공무원과 같은 안정적인 직업 가능.",
+      "action": "정관의 유무를 확인하여 직업 안정성을 평가.",
+      "cautions": [
+        "정관이 있어도 직업 변경이 어려울 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "직업",
+        "안정성",
+        "공무원",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-affa80181f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "묘",
+        "has_식상": false
+      },
+      "mechanism": "식상이 부족하면 직업적 유연성이 감소함.",
+      "interpretation": "식상이 부족하면 직업 변경이 어려워짐.",
+      "action": "식상의 유무를 확인하여 직업적 유연성을 평가.",
+      "cautions": [
+        "식상이 부족하면 직업 선택의 폭이 좁아질 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "직업",
+        "유연성",
+        "격국",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-4a29533339",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "묘",
+        "has_수": true,
+        "has_토": true
+      },
+      "mechanism": "수와 토는 직업을 보좌하는 역할을 함.",
+      "interpretation": "수와 토가 있으면 직업 외의 보조적인 업이 형성됨.",
+      "action": "수와 토의 역할을 분석하여 직업 외 활동을 평가.",
+      "cautions": [
+        "직업은 명확하나 업이 불분명할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "토",
+        "업",
+        "직업",
+        "보조"
+      ]
+    },
+    {
+      "id": "RC-d570e64531",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "note": "격과 억부를 혼용하여 판단하는 경우"
+      },
+      "mechanism": "격과 억부는 별도로 분석해야 함.",
+      "interpretation": "격은 직업, 억부는 적성을 나타냄.",
+      "action": "격과 억부를 분리하여 분석.",
+      "cautions": [
+        "격과 억부를 혼용하면 판단이 흐려질 수 있음."
+      ],
+      "tags": [
+        "격",
+        "억부",
+        "직업",
+        "적성",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-7940ecb6b7",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "묘",
+        "has_식상": true
+      },
+      "mechanism": "식상이 격의 용으로 쓰이면 적성과 직업이 일치함.",
+      "interpretation": "식상이 잘 발현되면 좋아하는 것으로 직업 설정 가능.",
+      "action": "식상의 발현 여부를 확인하여 직업 방향 설정.",
+      "cautions": [
+        "식상이 약하면 적성과 직업이 불일치할 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "격국",
+        "적성",
+        "직업",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-ed77c770ce",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "note": "운에서 정관이나 식상이 오는 시기"
+      },
+      "mechanism": "운에서 정관이나 식상이 오면 직업이 결정됨.",
+      "interpretation": "운의 흐름에 따라 직업적 변화가 가능.",
+      "action": "운의 흐름을 분석하여 직업 결정 시기를 예측.",
+      "cautions": [
+        "운이 약하면 직업이 자주 바뀔 수 있음."
+      ],
+      "tags": [
+        "운",
+        "정관",
+        "식상",
+        "직업",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-cb28f262a2",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "묘",
+        "has_정관": true,
+        "has_식상": true
+      },
+      "mechanism": "정관과 식상이 조화를 이루면 직업적 안정성과 적성이 조화됨.",
+      "interpretation": "직업과 적성이 일치하여 만족도가 높음.",
+      "action": "정관과 식상의 조화를 확인하여 직업 만족도를 평가.",
+      "cautions": [
+        "정관과 식상이 충돌하면 직업적 혼란이 생길 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "식상",
+        "직업",
+        "적성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-a43e914fb9",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "note": "격의 용신이 운에서 충을 받을 때"
+      },
+      "mechanism": "격의 용신이 충을 받으면 직업적 방향이 흔들림.",
+      "interpretation": "직업적 안정성이 약화될 수 있음.",
+      "action": "운에서 격의 용신이 충을 받는 시기를 주의.",
+      "cautions": [
+        "격의 용신이 충을 받으면 직업 변경 가능성 증가."
+      ],
+      "tags": [
+        "격",
+        "용신",
+        "충",
+        "직업",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-5fa04faebe",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "note": "월지 비견이 있는 경우"
+      },
+      "mechanism": "월지 비견은 사회적 도움을 받을 가능성을 높임.",
+      "interpretation": "초기 직업적 성공 가능성이 높음.",
+      "action": "월지 비견의 사회적 도움을 활용.",
+      "cautions": [
+        "사회적 도움에 의존하면 독립성이 약화될 수 있음."
+      ],
+      "tags": [
+        "월지",
+        "비견",
+        "사회적 도움",
+        "직업",
+        "성공"
+      ]
+    },
+    {
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "structure": "육합",
+        "context": "친구의 비리"
+      },
+      "mechanism": "육합은 애정적 결속을 형성하며, 관계를 보호하려는 성향이 강함.",
+      "interpretation": "육합이 많은 사람은 친구의 잘못을 옹호하는 경향이 있음.",
+      "action": "육합적 관계를 유지하되, 객관성을 잃지 않도록 주의.",
+      "cautions": [
+        "감정적 판단에 치우칠 수 있음",
+        "객관적 판단 부족"
+      ],
+      "tags": [
+        "육합",
+        "애정",
+        "관계",
+        "옹호",
+        "결속"
+      ],
+      "id": "RC-a7fd6b07b7"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "structure": "삼합",
+        "context": "공동의 목적"
+      },
+      "mechanism": "삼합은 공동의 목표를 중심으로 다양한 사람들이 결속함.",
+      "interpretation": "삼합적 구조는 공정성과 절차를 중시하며, 목적이 사라지면 결속이 약화됨.",
+      "action": "목표를 명확히 설정하고, 지속적으로 공유.",
+      "cautions": [
+        "목적 상실 시 결속 약화",
+        "충이 오면 쉽게 깨짐"
+      ],
+      "tags": [
+        "삼합",
+        "목적",
+        "공정성",
+        "절차",
+        "결속"
+      ],
+      "id": "RC-9f4ecd1773"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "structure": "방합",
+        "context": "같은 영역 내 결속"
+      },
+      "mechanism": "방합은 우정적 결속을 형성하며, 같은 영역 내에서 강한 연대를 가짐.",
+      "interpretation": "방합은 정치적/사회적 결속을 강화하며, 외부 충격에 강함.",
+      "action": "방합적 관계를 활용해 협력과 연대를 강화.",
+      "cautions": [
+        "외부 개입에 의해 깨질 수 있음",
+        "내부 결속 과잉"
+      ],
+      "tags": [
+        "방합",
+        "우정",
+        "결속",
+        "정치",
+        "협력"
+      ],
+      "id": "RC-0b8420061b"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "structure": "육합",
+        "context": "방합과의 차이"
+      },
+      "mechanism": "육합은 애정적 결속, 방합은 우정적 결속을 형성.",
+      "interpretation": "육합은 개인적 관계에 초점, 방합은 집단적 연대에 초점.",
+      "action": "육합과 방합의 차이를 이해하고 상황에 맞게 활용.",
+      "cautions": [
+        "혼동으로 인해 관계 관리 실패 가능"
+      ],
+      "tags": [
+        "육합",
+        "방합",
+        "애정",
+        "우정",
+        "관계"
+      ],
+      "id": "RC-97a02b2ae6"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "structure": "삼합",
+        "context": "충 발생"
+      },
+      "mechanism": "삼합은 충이 발생하면 결속이 약화되거나 깨짐.",
+      "interpretation": "삼합적 관계는 외부 충격에 취약하며, 재구성이 필요함.",
+      "action": "충 발생 시 새로운 목표를 설정하고 재결속 시도.",
+      "cautions": [
+        "충격에 의해 관계가 쉽게 붕괴"
+      ],
+      "tags": [
+        "삼합",
+        "충",
+        "목적",
+        "재구성",
+        "취약성"
+      ],
+      "id": "RC-c89a3a6c5e"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "structure": "방합",
+        "context": "충 발생"
+      },
+      "mechanism": "방합은 충이 발생해도 결속이 강화됨.",
+      "interpretation": "방합적 관계는 외부 충격에 강하며, 내부 결속이 더 단단해짐.",
+      "action": "방합적 관계를 활용해 위기 상황에서 협력 강화.",
+      "cautions": [
+        "과도한 결속으로 외부와 단절될 위험"
+      ],
+      "tags": [
+        "방합",
+        "충",
+        "결속",
+        "협력",
+        "강화"
+      ],
+      "id": "RC-a5dbacc96d"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "structure": "육합",
+        "context": "방합 깨기"
+      },
+      "mechanism": "육합은 방합을 깨는 역할을 할 수 있음.",
+      "interpretation": "육합적 에너지는 방합적 결속을 약화시킬 수 있음.",
+      "action": "육합적 관계를 활용해 방합적 결속을 조정.",
+      "cautions": [
+        "관계 조정 실패 시 갈등 발생 가능"
+      ],
+      "tags": [
+        "육합",
+        "방합",
+        "관계",
+        "조정",
+        "갈등"
+      ],
+      "id": "RC-4c161d80e8"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "structure": "삼합",
+        "context": "목적 상실"
+      },
+      "mechanism": "삼합은 목적이 사라지면 결속이 약화됨.",
+      "interpretation": "삼합적 관계는 목적 중심으로 유지되며, 목적 상실 시 재구성이 필요.",
+      "action": "목적을 지속적으로 점검하고 공유.",
+      "cautions": [
+        "목적 상실 시 관계 붕괴 가능"
+      ],
+      "tags": [
+        "삼합",
+        "목적",
+        "결속",
+        "재구성",
+        "유지"
+      ],
+      "id": "RC-12b7bb3b81"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "structure": "방합",
+        "context": "같은 계절/영역"
+      },
+      "mechanism": "방합은 같은 계절이나 영역 내에서 강한 결속을 형성.",
+      "interpretation": "방합적 관계는 동일한 환경에서 강한 연대를 가짐.",
+      "action": "같은 환경 내에서 방합적 관계를 활용.",
+      "cautions": [
+        "외부 환경 변화에 취약"
+      ],
+      "tags": [
+        "방합",
+        "계절",
+        "영역",
+        "결속",
+        "환경"
+      ],
+      "id": "RC-f7efc3f841"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "structure": "삼합",
+        "context": "목적 달성 후"
+      },
+      "mechanism": "삼합은 목적 달성 후 자연스럽게 해체됨.",
+      "interpretation": "삼합적 관계는 목적 중심으로 유지되며, 목적 달성 후 새로운 목표가 필요.",
+      "action": "목적 달성 후 새로운 목표를 설정.",
+      "cautions": [
+        "목표 부재 시 관계 유지 어려움"
+      ],
+      "tags": [
+        "삼합",
+        "목적",
+        "해체",
+        "목표",
+        "유지"
+      ],
+      "id": "RC-cbd62ce2f8"
+    },
+    {
+      "id": "RC-a84b6d3b44",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "편관",
+        "strength": "강함"
+      },
+      "mechanism": "양인격은 편관이 강해야 그 본성을 발휘할 수 있음.",
+      "interpretation": "편관이 강한 양인격은 법 집행과 같은 빠른 결단이 필요한 분야에서 두각을 나타냄.",
+      "action": "편관의 강도를 유지하거나 강화할 수 있는 환경을 선택하라.",
+      "cautions": [
+        "편관이 약하면 팝격으로 전락할 위험이 있음.",
+        "인성이나 식상이 개입되면 양인격의 본성이 약화됨."
+      ],
+      "tags": [
+        "양인격",
+        "편관",
+        "법집행",
+        "결단력",
+        "격국",
+        "강약",
+        "팝격",
+        "인성",
+        "식상"
+      ]
+    },
+    {
+      "id": "RC-19a9060de3",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "presence": "인성",
+        "position": "근접"
+      },
+      "mechanism": "인성이 양인격의 살을 순화시켜 본래의 강한 에너지를 약화시킴.",
+      "interpretation": "양인격에 인성이 가까이 있으면 살의 강도가 약해져 리더십이 약화됨.",
+      "action": "인성이 멀리 배치되도록 환경을 조정하라.",
+      "cautions": [
+        "인성이 가까이 있으면 살의 본질적 힘이 약화됨.",
+        "리더십 발휘에 어려움이 생길 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "인성",
+        "순화",
+        "리더십",
+        "격국",
+        "살",
+        "강약"
+      ]
+    },
+    {
+      "id": "RC-227ee8ca66",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "strength": "약함"
+      },
+      "mechanism": "살이 약하면 양인격의 본성을 발휘하지 못하고 오히려 주변에 휘둘림.",
+      "interpretation": "살이 약한 양인격은 리더십을 발휘하기 어렵고 희생양이 될 가능성이 높음.",
+      "action": "살의 강도를 강화할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "살이 약하면 주변의 영향을 쉽게 받음.",
+        "리더십 발휘가 어려워짐."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "강약",
+        "리더십",
+        "희생양",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-5df810e5c9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "strength": "강함"
+      },
+      "mechanism": "강한 살은 양인격의 리더십과 통제력을 극대화함.",
+      "interpretation": "살이 강한 양인격은 주변을 강력히 통제하며 리더로서의 역할을 수행함.",
+      "action": "살의 강도를 유지하며 리더십을 발휘할 수 있는 기회를 활용하라.",
+      "cautions": [
+        "살이 지나치게 강하면 독재적 성향으로 비춰질 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "강함",
+        "리더십",
+        "통제력",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-dc362b0cb6",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "정관",
+        "strength": "강함"
+      },
+      "mechanism": "정관은 살과 달리 카리스마보다는 절차적 통제를 중시함.",
+      "interpretation": "정관이 강한 양인격은 카리스마보다는 절차와 규율로 통제력을 발휘함.",
+      "action": "정관의 특성을 활용해 조직적이고 체계적인 리더십을 발휘하라.",
+      "cautions": [
+        "정관은 살에 비해 충성심을 끌어내기 어려움."
+      ],
+      "tags": [
+        "양인격",
+        "정관",
+        "절차",
+        "규율",
+        "리더십",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-5f5797e7dc",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "supporting_element": "인성"
+      },
+      "mechanism": "인성이 살을 순화시켜 강한 통제력을 약화시킴.",
+      "interpretation": "살과 인성이 함께 있으면 통제력이 약화되고 리더십이 제한됨.",
+      "action": "인성이 살과 직접적으로 연결되지 않도록 배치하라.",
+      "cautions": [
+        "인성이 살을 약화시켜 리더십 발휘에 장애가 될 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "인성",
+        "순화",
+        "리더십",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-d8228ebcf4",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "supporting_element": "식상"
+      },
+      "mechanism": "식상이 살의 에너지를 분산시켜 본래의 강한 통제력을 약화시킴.",
+      "interpretation": "살과 식상이 함께 있으면 통제력이 약화되고 주변에 휘둘릴 가능성이 높음.",
+      "action": "식상이 살과 직접적으로 연결되지 않도록 배치하라.",
+      "cautions": [
+        "식상이 살을 약화시켜 리더십 발휘에 장애가 될 수 있음."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "식상",
+        "분산",
+        "리더십",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-7b65c5953d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "timing": "살이 강해지는 운"
+      },
+      "mechanism": "살이 강해지는 운에서 양인격의 본성이 극대화됨.",
+      "interpretation": "살이 강해지는 운에서는 리더십과 통제력이 극대화됨.",
+      "action": "살이 강해지는 운을 활용해 중요한 결정을 내리거나 리더십을 발휘하라.",
+      "cautions": [
+        "살이 강해지는 운에서 지나친 독단적 행동을 주의하라."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "운",
+        "강함",
+        "리더십",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-5c1c9a2c5c",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "양인격",
+        "dominant_element": "살",
+        "timing": "살이 약해지는 운"
+      },
+      "mechanism": "살이 약해지는 운에서는 양인격의 본성이 약화됨.",
+      "interpretation": "살이 약해지는 운에서는 리더십 발휘가 어려워지고 주변에 휘둘릴 가능성이 높음.",
+      "action": "살이 약해지는 운에서는 신중하게 행동하고 리더십 발휘를 자제하라.",
+      "cautions": [
+        "살이 약해지는 운에서 중요한 결정을 피하라."
+      ],
+      "tags": [
+        "양인격",
+        "살",
+        "운",
+        "약함",
+        "리더십",
+        "격국"
+      ]
+    },
+    {
+      "id": "RC-8fdef339ea",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "note": "사주 통변 시 첫 번째로 세력을 확인해야 함"
+      },
+      "mechanism": "세력은 사주의 기본적인 힘의 균형을 나타냄",
+      "interpretation": "세력이 강한 요소가 사주의 중심이 됨",
+      "action": "사주를 분석할 때 세력의 강약을 먼저 파악하라",
+      "cautions": [
+        "세력만으로 모든 해석을 결정하지 말 것"
+      ],
+      "tags": [
+        "세력",
+        "사주분석",
+        "기본원리",
+        "강약",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-58b20fee66",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "인신충"
+      },
+      "mechanism": "충은 에너지의 충돌로 변화를 유발",
+      "interpretation": "인신충은 갈등과 변화를 나타냄",
+      "action": "충의 영향을 완화하거나 활용할 방법을 모색하라",
+      "cautions": [
+        "충의 영향이 지나치게 강하면 부정적 결과 초래 가능"
+      ],
+      "tags": [
+        "인신충",
+        "충돌",
+        "변화",
+        "갈등",
+        "사주해석"
+      ]
+    },
+    {
+      "id": "RC-55ff5763c0",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "note": "화가 강해지는 운"
+      },
+      "mechanism": "화는 사주의 에너지를 활성화",
+      "interpretation": "화가 강해지면 긍정적인 변화와 성장이 가능",
+      "action": "화의 강세를 활용해 중요한 결정을 내릴 시기로 삼아라",
+      "cautions": [
+        "화가 지나치게 강하면 균형이 깨질 수 있음"
+      ],
+      "tags": [
+        "화",
+        "운세",
+        "성장",
+        "결정",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-63b5f54c5c",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "note": "토가 개입된 사주"
+      },
+      "mechanism": "토는 안정성과 자산의 축적을 돕는 역할",
+      "interpretation": "토가 있으면 재물이 안정적으로 축적됨",
+      "action": "토의 에너지를 활용해 재정 계획을 세워라",
+      "cautions": [
+        "토가 과도하면 정체될 가능성 있음"
+      ],
+      "tags": [
+        "토",
+        "재물",
+        "안정성",
+        "축적",
+        "재정계획"
+      ]
+    },
+    {
+      "id": "RC-83cfd143ca",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "note": "상관이 강한 사주"
+      },
+      "mechanism": "상관은 창의성과 표현력을 나타냄",
+      "interpretation": "상관이 강하면 미디어나 창의적 분야에서 성공 가능",
+      "action": "상관의 에너지를 활용해 창의적 프로젝트에 집중하라",
+      "cautions": [
+        "상관이 과도하면 갈등을 유발할 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "표현력",
+        "미디어",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-b6bb504894",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "살이 강한 사주"
+      },
+      "mechanism": "살은 외부의 도전과 갈등을 의미",
+      "interpretation": "살이 강하면 문제와 갈등이 자주 발생",
+      "action": "살의 에너지를 긍정적으로 전환할 방법을 찾아라",
+      "cautions": [
+        "살의 영향이 지나치면 스트레스가 증가할 수 있음"
+      ],
+      "tags": [
+        "살",
+        "갈등",
+        "도전",
+        "문제",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-5287b1b861",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "note": "기해운이 들어오는 시기"
+      },
+      "mechanism": "기해운은 정화와 관련된 문제를 유발",
+      "interpretation": "기해운은 재정적 기회와 함께 도전도 동반",
+      "action": "기해운 동안 재정적 결정을 신중히 하라",
+      "cautions": [
+        "기해운에서 과도한 확장은 위험"
+      ],
+      "tags": [
+        "기해운",
+        "정화",
+        "재정",
+        "기회",
+        "도전"
+      ]
+    },
+    {
+      "id": "RC-77af61b982",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "note": "편관격 사주"
+      },
+      "mechanism": "편관은 외부의 압력과 도전을 나타냄",
+      "interpretation": "편관격은 도전을 통해 성장하는 구조",
+      "action": "편관의 도전을 기회로 삼아 능력을 키워라",
+      "cautions": [
+        "편관의 압박이 지나치면 스트레스가 될 수 있음"
+      ],
+      "tags": [
+        "편관",
+        "도전",
+        "성장",
+        "압력",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-9ba544b9c4",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "진토가 있는 사주"
+      },
+      "mechanism": "진토는 변화와 준비의 에너지를 상징",
+      "interpretation": "진토는 새로운 시작을 위한 준비 단계",
+      "action": "진토의 에너지를 활용해 계획을 세워라",
+      "cautions": [
+        "진토의 에너지가 부족하면 변화가 어려울 수 있음"
+      ],
+      "tags": [
+        "진토",
+        "변화",
+        "준비",
+        "계획",
+        "시작"
+      ]
+    },
+    {
+      "id": "RC-80a92744e2",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "note": "토가 강한 시기"
+      },
+      "mechanism": "토는 재물의 안정과 축적을 돕는 역할",
+      "interpretation": "토가 강하면 재정적 안정이 가능",
+      "action": "토의 에너지를 활용해 장기적인 재정 계획을 세워라",
+      "cautions": [
+        "토가 과도하면 유동성이 부족해질 수 있음"
+      ],
+      "tags": [
+        "토",
+        "재정",
+        "안정",
+        "축적",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-b10949ddbe",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "interaction": "토생금",
+        "condition": "미토 존재"
+      },
+      "mechanism": "미토는 토생금 작용을 효율적으로 촉진함.",
+      "interpretation": "미토가 있을 때 금의 생성이 강하고 효율적이다.",
+      "action": "미토가 있는 경우 금의 활용을 극대화할 방안을 모색하라.",
+      "cautions": [
+        "미토가 없을 경우 토생금 작용이 약해질 수 있음."
+      ],
+      "tags": [
+        "토",
+        "금",
+        "토생금",
+        "미토",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-dd0b4054fc",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "interaction": "진토와 수",
+        "condition": "진토 존재"
+      },
+      "mechanism": "진토는 수를 끌어들이고 안정시키는 역할을 함.",
+      "interpretation": "진토는 수를 보관하려는 성질이 있다.",
+      "action": "진토가 있는 경우 수의 안정성을 활용하라.",
+      "cautions": [
+        "진토가 없는 경우 수의 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "수",
+        "진토",
+        "안정",
+        "보관",
+        "작용"
+      ]
+    },
+    {
+      "id": "RC-3e9cc5ccf1",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "interaction": "해수와 진토",
+        "condition": "해수 존재"
+      },
+      "mechanism": "해수가 진토에 들어오면 흙탕물이 생기고 변질됨.",
+      "interpretation": "해수가 진토와 만나면 혼란과 변화가 발생한다.",
+      "action": "해수가 진토에 영향을 미치지 않도록 관리하라.",
+      "cautions": [
+        "해수가 과도하면 흙탕물이 생기고 변질될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "해수",
+        "진토",
+        "흙탕물",
+        "변질"
+      ]
+    },
+    {
+      "id": "RC-d377e75b4c",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "수",
+        "interaction": "자수와 진토",
+        "condition": "자수 존재"
+      },
+      "mechanism": "자수는 진토에 안정적으로 보관될 수 있음.",
+      "interpretation": "자수는 진토와 조화를 이루며 안정성을 제공한다.",
+      "action": "자수가 진토와 조화를 이루도록 환경을 조성하라.",
+      "cautions": [
+        "자수가 없으면 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "수",
+        "자수",
+        "진토",
+        "안정",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-3174579891",
+      "topic": "ELEMENTS",
+      "priority": 4,
+      "trigger": {
+        "element": "수",
+        "interaction": "해수와 진토",
+        "condition": "해수 과다"
+      },
+      "mechanism": "해수가 과다하면 진토가 흙탕물이 되고 변질됨.",
+      "interpretation": "해수가 많으면 진토의 안정성이 크게 손상된다.",
+      "action": "해수의 양을 조절하여 진토의 안정성을 유지하라.",
+      "cautions": [
+        "해수가 과다하면 혼란과 변질이 심화될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "해수",
+        "진토",
+        "과다",
+        "혼란"
+      ]
+    }
+  ],
+  "notes": [
+    "양인격과 관련된 다양한 조건과 해석이 포함되어 있음.",
+    "살과 인성, 식상의 상호작용이 양인격의 본성에 큰 영향을 미침.",
+    "텍스트에서 일부 내용은 구체적이지 않아 추론을 기반으로 규칙을 작성함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_020",
+  "updated_at": "2025-12-23T20:27:23"
+}

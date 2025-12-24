@@ -1,0 +1,654 @@
+{
+  "title": "SajuOS_Logic_APPL_016",
+  "rulecards": [
+    {
+      "id": "RC-bba26a4591",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "supporting_element": "수"
+      },
+      "mechanism": "토는 돈의 흐름에 개입하는 성향이 강하며, 수와의 조화가 중요하다.",
+      "interpretation": "토와 수의 조화는 재물의 흐름을 안정적으로 유지하는 데 필수적이다.",
+      "action": "토와 수의 균형을 유지하며 재물 관리에 집중하라.",
+      "cautions": [
+        "수의 흐름이 지나치게 강하면 통제가 어려울 수 있음"
+      ],
+      "tags": [
+        "토",
+        "수",
+        "재물",
+        "흐름",
+        "조화",
+        "관리",
+        "안정성",
+        "재테크"
+      ]
+    },
+    {
+      "id": "RC-46def78047",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "무토",
+        "supporting_element": "정화"
+      },
+      "mechanism": "정화는 무토를 단단하게 만들어 재물의 기반을 강화한다.",
+      "interpretation": "정화와 무토의 조합은 안정적이고 지속 가능한 재물 구조를 형성한다.",
+      "action": "정화의 에너지를 활용해 무토의 기반을 강화하라.",
+      "cautions": [
+        "병화는 무토를 충분히 단단하게 만들지 못함"
+      ],
+      "tags": [
+        "무토",
+        "정화",
+        "재물",
+        "안정성",
+        "기반",
+        "조화",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-8f4e6c3fba",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "supporting_element": "화생토"
+      },
+      "mechanism": "화생토는 토의 강도를 높여 재물의 안정성을 강화한다.",
+      "interpretation": "화생토는 재물의 기반을 더욱 견고하게 만든다.",
+      "action": "화생토의 구조를 활용해 재물의 안정성을 확보하라.",
+      "cautions": [
+        "화가 없는 토는 왕한 토로 간주되지 않음"
+      ],
+      "tags": [
+        "화생토",
+        "토",
+        "재물",
+        "안정성",
+        "강화",
+        "기반",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-fde3661c3a",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "무토",
+        "additional_element": "수"
+      },
+      "mechanism": "정화와 무토의 조합은 수의 흐름을 통제하여 재물의 안정성을 높인다.",
+      "interpretation": "정화, 무토, 수의 조합은 재물 관리의 최적 조건이다.",
+      "action": "정화와 무토를 중심으로 수의 흐름을 통제하라.",
+      "cautions": [
+        "수의 흐름이 지나치게 강하면 통제가 어려울 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "무토",
+        "수",
+        "재물",
+        "흐름",
+        "통제",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-ccc3a239a4",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "기토",
+        "supporting_element": "수가 왕한 경우"
+      },
+      "mechanism": "기토는 수의 흐름을 활용하여 재물을 형성한다.",
+      "interpretation": "수가 왕한 조건에서 기토는 재물의 흐름을 효과적으로 관리할 수 있다.",
+      "action": "수가 왕한 조건에서 기토를 활용해 재물의 흐름을 최적화하라.",
+      "cautions": [
+        "토가 지나치게 강하면 흐름이 막힐 수 있음"
+      ],
+      "tags": [
+        "기토",
+        "수",
+        "재물",
+        "흐름",
+        "관리",
+        "최적화",
+        "왕한 수"
+      ]
+    },
+    {
+      "id": "RC-166c505f76",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "supporting_element": "목생화"
+      },
+      "mechanism": "목은 재물의 흐름을 끌어오고, 목생화는 이를 강화한다.",
+      "interpretation": "목과 목생화의 조합은 재물의 유입을 극대화한다.",
+      "action": "목과 목생화를 활용해 재물의 유입을 촉진하라.",
+      "cautions": [
+        "목이 부족하면 재물 유입이 원활하지 않을 수 있음"
+      ],
+      "tags": [
+        "목",
+        "목생화",
+        "재물",
+        "유입",
+        "촉진",
+        "강화",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-4389fb3bce",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "식신",
+        "supporting_element": "재성"
+      },
+      "mechanism": "식신은 재성을 추종하며 재물 형성의 기반이 된다.",
+      "interpretation": "식신과 재성이 강하면 재물 형성이 원활하다.",
+      "action": "식신과 재성을 강화해 재물 형성을 촉진하라.",
+      "cautions": [
+        "재성이 약하면 식신의 효과가 제한될 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "재물",
+        "형성",
+        "강화",
+        "촉진",
+        "기반"
+      ]
+    },
+    {
+      "id": "RC-1823322d58",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "식신",
+        "supporting_element": "강한 재성"
+      },
+      "mechanism": "강한 재성은 식신의 활동을 지원하며 재물 형성을 돕는다.",
+      "interpretation": "재성이 강하면 식신의 활동이 원활해져 재물 형성이 촉진된다.",
+      "action": "재성을 강화해 식신의 활동을 지원하라.",
+      "cautions": [
+        "재성이 약하면 식신의 효과가 제한될 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "재물",
+        "형성",
+        "강화",
+        "지원",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-5b3847ecda",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "식신",
+        "supporting_element": "왕한 상태"
+      },
+      "mechanism": "식신이 왕하면 재물 형성에 필요한 에너지가 충분하다.",
+      "interpretation": "식신이 왕하면 재물 형성과 유지가 원활하다.",
+      "action": "식신의 왕한 상태를 유지하며 재물 형성을 촉진하라.",
+      "cautions": [
+        "식신이 약하면 재물 형성이 어려울 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "왕한 상태",
+        "재물",
+        "형성",
+        "유지",
+        "촉진",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-6d53252c5a",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "식신",
+        "supporting_element": "재성",
+        "additional_element": "편관"
+      },
+      "mechanism": "식신과 재성, 편관의 조합은 재물 형성의 다양한 가능성을 제공한다.",
+      "interpretation": "식신과 재성, 편관의 조합은 재물 형성의 다각화를 의미한다.",
+      "action": "식신, 재성, 편관의 조합을 활용해 재물 형성을 다각화하라.",
+      "cautions": [
+        "편관이 약하면 조합의 효과가 제한될 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "편관",
+        "재물",
+        "형성",
+        "다각화",
+        "조합"
+      ]
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 10,
+      "trigger": {
+        "ten_gods": "편관",
+        "strength": "왕"
+      },
+      "mechanism": "편관이 강하면 극도의 긴장감과 책임감을 요구하는 직업에서 성공 가능성이 높음.",
+      "interpretation": "편관이 왕한 사람은 큰일을 맡아 성공할 가능성이 높다.",
+      "action": "편관이 약하면 재생살을 통해 강하게 만들어야 한다.",
+      "cautions": [
+        "편관이 약하면 큰일을 감당하기 어려움."
+      ],
+      "tags": [
+        "편관",
+        "재생살",
+        "긴장감",
+        "책임",
+        "성공"
+      ],
+      "id": "RC-3d5b21d1a4"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "식신",
+        "strength": "왕"
+      },
+      "mechanism": "식신이 왕하면 지속적으로 일이 끊이지 않음.",
+      "interpretation": "식신이 왕한 사람은 일복이 많고 안정적인 수입을 얻을 가능성이 높다.",
+      "action": "식신을 왕하게 유지하여 지속적인 수입을 확보하라.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "일복",
+        "안정",
+        "수입",
+        "지속성"
+      ],
+      "id": "RC-d41ac2a54d"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "식신",
+        "strength": "왕",
+        "ten_gods_2": "편관",
+        "strength_2": "왕"
+      },
+      "mechanism": "식신과 편관이 모두 왕하면 큰 직장에서 큰일을 맡아 성공 가능.",
+      "interpretation": "큰 직장에서 능력을 발휘하며 안정적인 수입을 얻을 수 있다.",
+      "action": "식신과 편관을 왕하게 유지하며 직업적 안정성을 확보하라.",
+      "cautions": [
+        "인성이 개입하면 능력이 약화될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "편관",
+        "직장",
+        "능력",
+        "안정성"
+      ],
+      "id": "RC-4ba7886c76"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "인성",
+        "interaction": "도식",
+        "ten_gods_2": "식신"
+      },
+      "mechanism": "인성이 식신을 도식하면 프리랜서보다는 직장으로 가는 경향이 강함.",
+      "interpretation": "인성이 개입되면 직장 생활에 적합한 구조로 변화한다.",
+      "action": "인성이 강한 경우 직장 생활을 고려하라.",
+      "cautions": [
+        "직장에서 승진이나 조직 내 소외 가능성 있음."
+      ],
+      "tags": [
+        "인성",
+        "식신",
+        "직장",
+        "도식",
+        "프리랜서"
+      ],
+      "id": "RC-4aa7f37bd8"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "식신",
+        "strength": "왕",
+        "structure": "프리랜서"
+      },
+      "mechanism": "식신이 왕하면 프리랜서로서 안정적인 수입 가능.",
+      "interpretation": "프리랜서로 활동하며 지속적인 수입을 얻을 수 있다.",
+      "action": "식신을 왕하게 유지하며 프리랜서로서의 활동을 강화하라.",
+      "cautions": [
+        "인성이 개입되면 프리랜서 활동이 어려워질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "프리랜서",
+        "수입",
+        "안정성",
+        "독립"
+      ],
+      "id": "RC-3bb8f2a5f3"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "식신",
+        "strength": "왕",
+        "ten_gods_2": "재성",
+        "strength_2": "왕"
+      },
+      "mechanism": "식신과 재성이 왕하면 큰 수익을 창출할 가능성이 높음.",
+      "interpretation": "식신과 재성이 왕한 구조는 재물적 성공을 보장한다.",
+      "action": "식신과 재성을 왕하게 유지하며 재물적 기회를 극대화하라.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "재성",
+        "수익",
+        "성공",
+        "재물"
+      ],
+      "id": "RC-b1124af36f"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "식신",
+        "interaction": "제살"
+      },
+      "mechanism": "식신제살 구조는 문제 해결 능력을 강화함.",
+      "interpretation": "식신제살 구조는 문제 해결과 재물 창출에 유리하다.",
+      "action": "식신제살 구조를 활용하여 문제 해결 능력을 발휘하라.",
+      "cautions": [
+        "재성이 개입하면 식신제살 구조가 약화될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "제살",
+        "문제해결",
+        "재물",
+        "구조"
+      ],
+      "id": "RC-41ed274c9d"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "상관",
+        "strength": "왕",
+        "ten_gods_2": "재성",
+        "strength_2": "왕"
+      },
+      "mechanism": "상관과 재성이 왕하면 재능을 활용하여 큰 수익 창출 가능.",
+      "interpretation": "상관과 재성이 왕한 구조는 다재다능한 재능을 통해 수익을 극대화한다.",
+      "action": "상관과 재성을 왕하게 유지하며 재능을 활용하라.",
+      "cautions": [
+        "상관의 공격성이 강하면 대인관계에 주의 필요."
+      ],
+      "tags": [
+        "상관",
+        "재성",
+        "재능",
+        "수익",
+        "다재다능"
+      ],
+      "id": "RC-83f4b2eb21"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "ten_gods": "상관",
+        "strength": "왕",
+        "structure": "자영업"
+      },
+      "mechanism": "상관이 왕하면 자영업에서 성공 가능성이 높음.",
+      "interpretation": "상관이 왕한 사람은 자영업에서 다양한 방식으로 수익을 창출할 수 있다.",
+      "action": "상관을 왕하게 유지하며 자영업 기회를 탐색하라.",
+      "cautions": [
+        "재성이 약하면 자영업에서의 성공이 어려울 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "자영업",
+        "수익",
+        "다양성",
+        "성공"
+      ],
+      "id": "RC-210e9e7f1a"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 4,
+      "trigger": {
+        "ten_gods": "상관",
+        "interaction": "재성",
+        "structure": "유통업"
+      },
+      "mechanism": "상관과 재성이 결합하면 유통업에서 성공 가능성이 높음.",
+      "interpretation": "상관과 재성이 결합된 구조는 유통업에서의 성공을 보장한다.",
+      "action": "상관과 재성을 활용하여 유통업에서의 기회를 극대화하라.",
+      "cautions": [
+        "재성이 약하면 유통업에서의 확장이 어려울 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "재성",
+        "유통업",
+        "성공",
+        "확장"
+      ],
+      "id": "RC-983d21608f"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "ten_gods": "상관"
+      },
+      "mechanism": "상관은 사람들의 욕구를 자극하고 홍보 능력이 뛰어남.",
+      "interpretation": "상관은 필요 없는 것도 매력적으로 홍보하여 판매를 유도할 수 있음.",
+      "action": "상관의 특성을 활용해 마케팅이나 홍보 분야에서 강점을 발휘하도록 유도.",
+      "cautions": [
+        "과장된 홍보는 신뢰를 잃을 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "홍보",
+        "마케팅",
+        "재물",
+        "욕구자극"
+      ],
+      "id": "RC-134a581b97"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "식신"
+      },
+      "mechanism": "식신은 필요한 것을 정확히 파악하고 홍보함.",
+      "interpretation": "식신은 실질적이고 필요한 상품을 홍보하는 데 적합.",
+      "action": "식신의 특성을 활용해 신뢰 기반의 마케팅 전략을 세움.",
+      "cautions": [
+        "창의적이거나 감각적인 홍보에는 약할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "홍보",
+        "신뢰",
+        "재물",
+        "필요성"
+      ],
+      "id": "RC-c379d8b45f"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "상관",
+        "context": "음식 관련 사업"
+      },
+      "mechanism": "상관은 자극적이고 대중적인 맛을 선호함.",
+      "interpretation": "상관은 단짠 등 자극적인 맛을 활용한 음식 사업에 적합.",
+      "action": "상관의 특성을 반영해 대중적인 메뉴를 개발.",
+      "cautions": [
+        "지역적 입맛과 맞지 않을 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "음식",
+        "단짠",
+        "대중성",
+        "재물"
+      ],
+      "id": "RC-b0f4d2f48e"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "ten_gods": "식신",
+        "context": "음식 관련 사업"
+      },
+      "mechanism": "식신은 음식의 맛과 품질에 중점을 둠.",
+      "interpretation": "식신은 맛과 품질로 승부하는 음식 사업에 적합.",
+      "action": "식신의 특성을 반영해 고품질의 음식을 제공.",
+      "cautions": [
+        "분위기나 감각적 요소는 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "음식",
+        "품질",
+        "맛",
+        "재물"
+      ],
+      "id": "RC-af2c678f33"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "상관",
+        "context": "술집/호프 운영"
+      },
+      "mechanism": "상관은 사람들의 기호를 잘 파악하고 이를 활용함.",
+      "interpretation": "상관은 대중의 기호를 반영한 술집 운영에 유리.",
+      "action": "상관의 특성을 활용해 대중적인 메뉴와 분위기를 조성.",
+      "cautions": [
+        "특색 없는 메뉴는 경쟁력을 잃을 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "술집",
+        "호프",
+        "기호",
+        "재물"
+      ],
+      "id": "RC-dc24a5f8ed"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "식신",
+        "context": "술집/호프 운영"
+      },
+      "mechanism": "식신은 음식의 맛과 품질을 중시함.",
+      "interpretation": "식신은 맛있는 음식으로 술집의 경쟁력을 높일 수 있음.",
+      "action": "식신의 특성을 반영해 맛있는 안주를 개발.",
+      "cautions": [
+        "분위기나 감각적 요소는 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "술집",
+        "호프",
+        "맛",
+        "재물"
+      ],
+      "id": "RC-a9defef579"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "상관",
+        "context": "홍보 활동"
+      },
+      "mechanism": "상관은 재미있고 매력적인 방식으로 사람들을 끌어들임.",
+      "interpretation": "상관은 사람들의 관심을 끌어내는 데 탁월.",
+      "action": "상관의 특성을 활용해 창의적이고 매력적인 홍보 전략을 수립.",
+      "cautions": [
+        "지나친 과장은 신뢰를 떨어뜨릴 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "홍보",
+        "창의성",
+        "재미",
+        "재물"
+      ],
+      "id": "RC-9f0255de75"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "ten_gods": "식신",
+        "context": "홍보 활동"
+      },
+      "mechanism": "식신은 실질적이고 필요한 정보를 제공함.",
+      "interpretation": "식신은 신뢰를 기반으로 한 홍보에 적합.",
+      "action": "식신의 특성을 활용해 실질적이고 신뢰감 있는 홍보를 진행.",
+      "cautions": [
+        "감각적이거나 창의적인 요소는 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "홍보",
+        "신뢰",
+        "실질성",
+        "재물"
+      ],
+      "id": "RC-d292fa61b4"
+    }
+  ],
+  "notes": [
+    "상관과 식신의 차이를 음식 및 홍보 분야에서 구체적으로 설명."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_016",
+  "updated_at": "2025-12-23T20:27:26"
+}

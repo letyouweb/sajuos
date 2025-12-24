@@ -1,0 +1,664 @@
+{
+  "title": "SajuOS_Logic_STRU_A_007",
+  "rulecards": [
+    {
+      "id": "RC-40c0439248",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "축",
+        "day_branch": "축"
+      },
+      "mechanism": "축월과 기축일주는 사회적 관계에서 개인적 관계로 전환됨.",
+      "interpretation": "사회적 관계보다 개인적 관계가 강조되며, 내향적 성향이 강해짐.",
+      "action": "개인적 관계를 강화하고 내면적 성장을 도모하라.",
+      "cautions": [
+        "사회적 관계에서 고립될 가능성 있음."
+      ],
+      "tags": [
+        "축월",
+        "기축일주",
+        "사회적 관계",
+        "개인적 관계",
+        "내향성"
+      ]
+    },
+    {
+      "id": "RC-5d94730232",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "earth_element": "기토",
+        "fire_element": false
+      },
+      "mechanism": "기토는 화기가 있어야 생산성을 발휘할 수 있음.",
+      "interpretation": "화기가 없으면 기토의 잠재력이 제한됨.",
+      "action": "화기를 보강할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "화기가 없으면 기토의 활용도가 낮아짐."
+      ],
+      "tags": [
+        "기토",
+        "화기",
+        "생산성",
+        "환경",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-41c133db6d",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편관",
+        "element": "을목"
+      },
+      "mechanism": "을목 편관은 생목으로 작용하며 끈질기게 생존하려는 성향을 가짐.",
+      "interpretation": "을목은 안정되지 못하고 끊임없이 생존을 위해 노력함.",
+      "action": "을목의 끈질긴 성향을 긍정적으로 활용하라.",
+      "cautions": [
+        "을목이 불안정한 환경에서 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "편관",
+        "생목",
+        "끈질김",
+        "생존"
+      ]
+    },
+    {
+      "id": "RC-71dc424b4d",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth_element": "축",
+        "wood_element": true,
+        "fire_element": true
+      },
+      "mechanism": "목과 화가 축의 에너지를 전환시키는 역할을 함.",
+      "interpretation": "목과 화가 축의 부정적 에너지를 긍정적으로 바꿀 수 있음.",
+      "action": "목과 화의 조화를 통해 축의 잠재력을 발휘하라.",
+      "cautions": [
+        "목과 화가 없으면 축의 에너지가 정체될 수 있음."
+      ],
+      "tags": [
+        "축",
+        "목",
+        "화",
+        "전환",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-24094b739b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "토생금",
+        "gold_element": "경금"
+      },
+      "mechanism": "토생금은 금이 설기를 통해 전환될 때만 가능함.",
+      "interpretation": "금이 강해야 토생금의 전환이 이루어짐.",
+      "action": "금의 강도를 높이고 설기를 유도하라.",
+      "cautions": [
+        "금이 약하면 전환이 어렵고 정체될 수 있음."
+      ],
+      "tags": [
+        "토생금",
+        "경금",
+        "설기",
+        "전환",
+        "강도"
+      ]
+    },
+    {
+      "id": "RC-70f86f1fee",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "earth_element": "축",
+        "status": "음적"
+      },
+      "mechanism": "축은 음적 성향으로 인해 에너지를 내향적으로 축적함.",
+      "interpretation": "축은 외부로 발산하기보다 내부에 에너지를 저장함.",
+      "action": "내부 에너지를 긍정적으로 활용할 방법을 모색하라.",
+      "cautions": [
+        "내향적 성향이 과도하면 고립될 수 있음."
+      ],
+      "tags": [
+        "축",
+        "음적",
+        "내향성",
+        "에너지",
+        "저장"
+      ]
+    },
+    {
+      "id": "RC-48f1ea93eb",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "정인",
+        "earth_element": "축"
+      },
+      "mechanism": "정인은 축의 특성상 오래된 지식이나 전통과 연결됨.",
+      "interpretation": "축의 정인은 고전적이고 전통적인 지식을 선호함.",
+      "action": "고전적 지식을 현대적으로 재해석하라.",
+      "cautions": [
+        "전통에만 머물러 현대적 활용을 놓칠 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "축",
+        "전통",
+        "고전",
+        "지식"
+      ]
+    },
+    {
+      "id": "RC-dcc03b7360",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth_element": "축",
+        "status": "폐기물"
+      },
+      "mechanism": "축은 폐기된 자원을 재활용할 수 있는 잠재력을 가짐.",
+      "interpretation": "축은 남들이 버린 것을 가치 있게 바꿀 수 있음.",
+      "action": "폐기된 자원을 새로운 가치로 전환하라.",
+      "cautions": [
+        "전환 실패 시 자원이 낭비될 수 있음."
+      ],
+      "tags": [
+        "축",
+        "폐기물",
+        "재활용",
+        "전환",
+        "가치"
+      ]
+    },
+    {
+      "id": "RC-f548f20f38",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "earth_element": "축",
+        "water_element": true
+      },
+      "mechanism": "축은 수와 결합하여 습한 환경을 형성함.",
+      "interpretation": "습한 환경은 정체와 딜레이를 유발할 수 있음.",
+      "action": "습기를 조절하여 환경을 개선하라.",
+      "cautions": [
+        "습기가 과도하면 문제 해결이 어려워질 수 있음."
+      ],
+      "tags": [
+        "축",
+        "수",
+        "습기",
+        "환경",
+        "정체"
+      ]
+    },
+    {
+      "id": "RC-d6bbbf6de6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "토국수",
+        "earth_element": "축",
+        "water_element": "자수"
+      },
+      "mechanism": "축토는 자수를 방조하며 극하는 것처럼 보임.",
+      "interpretation": "축토는 자수를 억제하기보다 지원하는 역할을 함.",
+      "action": "축토와 자수의 조화를 통해 에너지를 활용하라.",
+      "cautions": [
+        "극하는 것으로 오해할 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "자수",
+        "토국수",
+        "방조",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-f7b36e221f",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "exists": true
+      },
+      "mechanism": "화는 사회적 인기와 대중적 영향력을 상징함.",
+      "interpretation": "화가 있으면 대중적 인기를 얻고, 인기 강사가 될 가능성이 높음.",
+      "action": "화의 에너지를 활용해 대중과 소통하는 직업을 선택하라.",
+      "cautions": [
+        "화가 없으면 대중적 인기를 얻기 어려움."
+      ],
+      "tags": [
+        "화",
+        "인기",
+        "강사",
+        "대중",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-4ffb506ae5",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "목",
+        "exists": true
+      },
+      "mechanism": "목은 직업 안정성과 연결됨.",
+      "interpretation": "목이 있으면 직업이 안정적으로 유지될 가능성이 높음.",
+      "action": "목의 에너지를 활용해 안정적인 직업 환경을 구축하라.",
+      "cautions": [
+        "목이 없으면 직업의 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "안정성",
+        "직업",
+        "환경",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-513c0f6caa",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "exists": true
+      },
+      "mechanism": "수는 개인 중심의 직업 형성과 연결됨.",
+      "interpretation": "수가 있으면 독립적이고 개인 중심의 직업을 가질 가능성이 높음.",
+      "action": "수의 에너지를 활용해 독립적인 직업을 탐구하라.",
+      "cautions": [
+        "수가 없으면 조직 중심의 직업에 더 적합할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "독립",
+        "직업",
+        "개인",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-5dc03ebbef",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "exists": true
+      },
+      "mechanism": "토는 환경적 제약과 연결됨.",
+      "interpretation": "토가 많으면 환경 변화에 적응하기 어려움.",
+      "action": "토의 영향을 줄이고 외부 에너지를 받아들일 방법을 모색하라.",
+      "cautions": [
+        "토가 많으면 답보 상태에 빠질 가능성이 있음."
+      ],
+      "tags": [
+        "토",
+        "환경",
+        "제약",
+        "적응",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-d55df88292",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "exists": true
+      },
+      "mechanism": "금은 기술적 전문성과 연결됨.",
+      "interpretation": "금이 강하면 기술적 전문성을 발휘할 가능성이 높음.",
+      "action": "금의 에너지를 활용해 기술적 전문성을 개발하라.",
+      "cautions": [
+        "금이 약하면 기술적 전문성을 발휘하기 어려움."
+      ],
+      "tags": [
+        "금",
+        "기술",
+        "전문성",
+        "발전",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-cd81f846c0",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "축",
+        "exists": true
+      },
+      "mechanism": "축은 오래된 가치와 연결됨.",
+      "interpretation": "축이 있으면 오래된 것을 복원하거나 계승하는 직업에 적합함.",
+      "action": "축의 에너지를 활용해 전통적 기술이나 가치를 계승하라.",
+      "cautions": [
+        "축이 없으면 전통적 가치와의 연결이 약할 수 있음."
+      ],
+      "tags": [
+        "축",
+        "전통",
+        "가치",
+        "복원",
+        "계승"
+      ]
+    },
+    {
+      "id": "RC-0455c0e407",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "편인",
+        "exists": true
+      },
+      "mechanism": "편인은 깊이 있는 탐구와 연결됨.",
+      "interpretation": "편인이 강하면 특정 분야에 깊이 파고드는 성향이 강함.",
+      "action": "편인의 에너지를 활용해 전문성을 강화하라.",
+      "cautions": [
+        "편인이 약하면 깊이 있는 탐구가 어려울 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "탐구",
+        "전문성",
+        "깊이",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-6301a93e28",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정인",
+        "exists": true
+      },
+      "mechanism": "정인은 넓은 지식과 연결됨.",
+      "interpretation": "정인이 강하면 다양한 분야를 아우르는 능력이 있음.",
+      "action": "정인의 에너지를 활용해 폭넓은 지식을 쌓아라.",
+      "cautions": [
+        "정인이 약하면 지식의 폭이 좁아질 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "지식",
+        "넓이",
+        "학문",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-2c0b5f32ba",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "exists": false
+      },
+      "mechanism": "화가 없으면 대중적 영향력이 약해짐.",
+      "interpretation": "화가 없으면 대중적 인기를 얻기 어려움.",
+      "action": "화가 없는 경우, 소규모의 전문성을 강화하라.",
+      "cautions": [
+        "대중적 성공을 기대하기 어려움."
+      ],
+      "tags": [
+        "화",
+        "대중",
+        "영향력",
+        "전문성",
+        "소규모"
+      ]
+    },
+    {
+      "id": "RC-16ed65bd44",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "exists": false
+      },
+      "mechanism": "목이 없으면 직업 안정성이 약해짐.",
+      "interpretation": "목이 없으면 직업이 불안정할 가능성이 있음.",
+      "action": "목의 부족을 보완할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "직업의 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "목",
+        "안정성",
+        "직업",
+        "환경",
+        "구조"
+      ]
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "note": "식상이 없는 경우"
+      },
+      "mechanism": "식상은 자아를 의식화하고 발현시키는 역할을 함.",
+      "interpretation": "식상이 없으면 자아실현과 자기 인식이 어려움.",
+      "action": "자아를 찾기 위해 외부 활동이나 창의적 활동을 시도.",
+      "cautions": [
+        "무기력감과 회의감에 빠질 가능성 있음."
+      ],
+      "tags": [
+        "식상",
+        "자아실현",
+        "의식화",
+        "무기력",
+        "창의성"
+      ],
+      "id": "RC-28df9ea6a7"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "note": "고지가 없는 경우"
+      },
+      "mechanism": "고지는 에너지를 마무리하고 안정시키는 역할을 함.",
+      "interpretation": "고지가 없으면 일의 마무리가 어렵고 흐지부지될 가능성이 큼.",
+      "action": "작업을 체계적으로 계획하고 마무리에 집중.",
+      "cautions": [
+        "중간에 포기하거나 흐름을 잃을 가능성 있음."
+      ],
+      "tags": [
+        "고지",
+        "마무리",
+        "안정",
+        "계획",
+        "집중"
+      ],
+      "id": "RC-d5c9ea491b"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "생지만 있는 경우"
+      },
+      "mechanism": "생지는 시작의 에너지를 나타내지만 지속력은 부족함.",
+      "interpretation": "생지만 있으면 시작은 잘하지만 끝까지 이어가기 어려움.",
+      "action": "꾸준히 지속할 수 있는 환경과 동기를 마련.",
+      "cautions": [
+        "초반 열정이 사라지면 쉽게 포기할 수 있음."
+      ],
+      "tags": [
+        "생지",
+        "시작",
+        "지속력",
+        "포기",
+        "동기"
+      ],
+      "id": "RC-d8c32ab87a"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "왕지가 없는 경우"
+      },
+      "mechanism": "왕지는 결과를 만들어내는 힘을 제공함.",
+      "interpretation": "왕지가 없으면 결과를 내기 어려움.",
+      "action": "결과 중심의 목표를 설정하고 이를 위한 전략을 세움.",
+      "cautions": [
+        "결과를 내지 못해 좌절할 가능성 있음."
+      ],
+      "tags": [
+        "왕지",
+        "결과",
+        "목표",
+        "전략",
+        "좌절"
+      ],
+      "id": "RC-d2d8254ca6"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "note": "편인이 강한 경우"
+      },
+      "mechanism": "편인은 자기검열과 폐쇄적 성향을 강화함.",
+      "interpretation": "편인이 강하면 자기검열로 인해 표현이 억제되고 폐쇄적 성향이 나타남.",
+      "action": "자신의 생각을 표현하고 외부와 소통하려는 노력을 기울임.",
+      "cautions": [
+        "자기검열이 심해지면 공황이나 자폐적 성향이 나타날 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "자기검열",
+        "표현",
+        "폐쇄성",
+        "소통"
+      ],
+      "id": "RC-cb69634904"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "토가 과다한 경우"
+      },
+      "mechanism": "토는 수의 흐름을 막고 화의 영역을 제한함.",
+      "interpretation": "토가 과다하면 자아정체성과 사회적 위치에 문제가 생길 수 있음.",
+      "action": "목과 화의 에너지를 보완하여 균형을 맞춤.",
+      "cautions": [
+        "정서적 문제나 도덕적 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "토",
+        "수",
+        "화",
+        "자아정체성",
+        "균형"
+      ],
+      "id": "RC-32173f0085"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "note": "편인이 연애에 영향을 미치는 경우"
+      },
+      "mechanism": "편인은 관계를 검증하고 반복적으로 되돌아보게 만듦.",
+      "interpretation": "편인이 강하면 이별과 만남이 반복될 가능성이 높음.",
+      "action": "관계를 지속적으로 검토하기보다는 현재에 집중.",
+      "cautions": [
+        "과거를 끄집어내는 습관이 관계를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "연애",
+        "이별",
+        "반복",
+        "관계"
+      ],
+      "id": "RC-740ac02b2f"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "note": "매금된 경우"
+      },
+      "mechanism": "매금은 수와 화의 사용을 제한함.",
+      "interpretation": "매금되면 직업적 완성도가 떨어지고 경력이 단절될 가능성이 있음.",
+      "action": "수와 화의 에너지를 활성화할 수 있는 활동을 찾음.",
+      "cautions": [
+        "직업적 만족도가 낮아질 수 있음."
+      ],
+      "tags": [
+        "매금",
+        "수",
+        "화",
+        "직업",
+        "완성도"
+      ],
+      "id": "RC-e55b36b6d4"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "명리학과 심리학의 연관성"
+      },
+      "mechanism": "명리학은 심리학적 개념을 포함하고 있음.",
+      "interpretation": "명리학은 심리학적 통찰을 제공할 수 있음.",
+      "action": "명리학과 심리학을 함께 공부하여 통합적 이해를 도모.",
+      "cautions": [
+        "명리학의 용어와 개념을 오해하지 않도록 주의."
+      ],
+      "tags": [
+        "명리학",
+        "심리학",
+        "통찰",
+        "통합",
+        "이해"
+      ],
+      "id": "RC-49cb07ad55"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "note": "왕지가 들어오는 해"
+      },
+      "mechanism": "왕지는 결과를 만들어내는 해로 작용함.",
+      "interpretation": "왕지가 들어오는 해는 실속 있는 결과를 낼 가능성이 높음.",
+      "action": "목표를 설정하고 결과를 내기 위한 노력을 집중.",
+      "cautions": [
+        "결과를 내지 못하면 실망할 수 있음."
+      ],
+      "tags": [
+        "왕지",
+        "결과",
+        "목표",
+        "노력",
+        "해"
+      ],
+      "id": "RC-02a43991d7"
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "축과 관련된 다양한 사례와 해석이 포함됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_007",
+  "updated_at": "2025-12-23T20:27:23"
+}

@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_STRU_M_078",
+  "rulecards": [
+    {
+      "id": "RC-255ecbbdd7",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "season": "winter",
+        "energy": "cold"
+      },
+      "mechanism": "겨울생은 한한 에너지를 조절하지 못하면 문제가 발생함.",
+      "interpretation": "한한 에너지를 풀지 못하면 타이밍을 놓치거나 판단이 늦어질 수 있음.",
+      "action": "한한 에너지를 조절할 수 있는 방법을 찾아야 함.",
+      "cautions": [
+        "조급함으로 인해 실수를 유발할 수 있음.",
+        "타인의 조언을 무시하지 말 것."
+      ],
+      "tags": [
+        "겨울생",
+        "한한",
+        "타이밍",
+        "판단",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-dc11b0d73d",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "energy_balance": "cold-dry"
+      },
+      "mechanism": "한한 에너지가 조절되면 주변 환경과의 관계가 개선됨.",
+      "interpretation": "조우가 잘 되면 사람들에게 호감을 얻고 관계가 원활해짐.",
+      "action": "조우를 통해 주변과의 관계를 개선하도록 노력할 것.",
+      "cautions": [
+        "조우가 부족하면 관계 형성에 어려움이 있을 수 있음."
+      ],
+      "tags": [
+        "조우",
+        "관계",
+        "호감",
+        "한한",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-93c61c6040",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "fire",
+        "month": "zi"
+      },
+      "mechanism": "병화가 자월의 한한 에너지를 조절하여 활용 가능하게 만듦.",
+      "interpretation": "병화가 있으면 자월의 에너지를 효과적으로 사용할 수 있음.",
+      "action": "병화를 활용하여 응집된 에너지를 풀어낼 방법을 모색할 것.",
+      "cautions": [
+        "병화가 없으면 에너지를 제대로 활용하지 못할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "자월",
+        "한한",
+        "에너지",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-2deaf8cd88",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "목 없는 집안"
+      },
+      "mechanism": "목이 없으면 일상적인 대화와 감정 교류가 부족해짐.",
+      "interpretation": "목이 없는 환경에서는 인간관계가 건조하고 소통이 부족할 수 있음.",
+      "action": "목의 에너지를 보완할 수 있는 활동을 시도할 것.",
+      "cautions": [
+        "소통 부족으로 인해 오해가 생길 수 있음."
+      ],
+      "tags": [
+        "목",
+        "소통",
+        "감정",
+        "대화",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-2cc0a7e8da",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "wood",
+        "month": "zi"
+      },
+      "mechanism": "간목이 자월의 조건을 다룰 수 있는 자격을 부여함.",
+      "interpretation": "간목이 있으면 학업과 직업에서 안정성과 성취를 얻을 가능성이 높음.",
+      "action": "간목의 에너지를 활용하여 장기적인 목표를 설정할 것.",
+      "cautions": [
+        "간목이 없으면 학업이나 직업에서 지속성이 부족할 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "자월",
+        "학업",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-79755af77a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "earth",
+        "type": "mu"
+      },
+      "mechanism": "무토가 자월의 조건을 안정적으로 활용하게 만듦.",
+      "interpretation": "무토가 있으면 관리와 감독 역할에 적합한 직업을 가질 가능성이 높음.",
+      "action": "무토의 에너지를 활용하여 안정적인 직업을 선택할 것.",
+      "cautions": [
+        "무토가 없으면 직업 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "관리",
+        "감독",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-6729772631",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "water",
+        "type": "im"
+      },
+      "mechanism": "임수가 병화의 능력을 드러내게 함.",
+      "interpretation": "임수가 있으면 병화의 권위와 영향력이 확대됨.",
+      "action": "임수의 에너지를 활용하여 리더십을 발휘할 것.",
+      "cautions": [
+        "임수만 있고 간목이 없으면 허세로 보일 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "권위",
+        "리더십",
+        "영향력"
+      ]
+    },
+    {
+      "id": "RC-696b388edb",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "wood",
+        "type": "eul"
+      },
+      "mechanism": "을목은 자월의 조건을 무시하고 일간 중심으로 작용함.",
+      "interpretation": "을목이 있으면 이기적인 성향이 강해질 수 있음.",
+      "action": "을목의 에너지를 조화롭게 활용하여 균형을 맞출 것.",
+      "cautions": [
+        "을목이 강하면 사회적 관계에서 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "자월",
+        "이기적",
+        "균형",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-d02c9601c0",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "fire",
+        "month": "zi"
+      },
+      "mechanism": "병화가 자월의 한한 에너지를 조절하여 주변을 따뜻하게 만듦.",
+      "interpretation": "병화가 있으면 주변 사람들에게 호감을 얻고 분위기를 개선할 수 있음.",
+      "action": "병화를 활용하여 긍정적인 관계를 형성할 것.",
+      "cautions": [
+        "병화가 없으면 주변과의 관계가 경직될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "자월",
+        "호감",
+        "관계",
+        "분위기"
+      ]
+    },
+    {
+      "id": "RC-ff4ed4def7",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "earth",
+        "type": "gi"
+      },
+      "mechanism": "기토는 이익 중심의 관계를 추구함.",
+      "interpretation": "기토가 있으면 실리적인 접근으로 직업적 성공을 추구할 가능성이 높음.",
+      "action": "기토의 에너지를 활용하여 실리적인 목표를 설정할 것.",
+      "cautions": [
+        "기토가 강하면 지나치게 이익 중심적으로 보일 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "이익",
+        "실리",
+        "직업",
+        "목표"
+      ]
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "겁재",
+        "condition": "잃을 것이 없음"
+      },
+      "mechanism": "겁재는 정재와 대립하며, 잃을 것이 없을 때 위험성이 증가함.",
+      "interpretation": "겁재가 잃을 것이 없을 때 충동적이고 위험한 행동을 할 가능성이 높음.",
+      "action": "잃을 것이 없는 상황을 피하고, 안정적인 환경을 유지하도록 노력.",
+      "cautions": [
+        "법적 문제를 무시할 가능성",
+        "충동적 행동 주의"
+      ],
+      "tags": [
+        "겁재",
+        "정재",
+        "위험",
+        "충동",
+        "안정"
+      ],
+      "id": "RC-22d5113603"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "관 무시",
+        "관": "뚜렷하지 않음"
+      },
+      "mechanism": "관이 뚜렷하지 않으면 법적, 사회적 규범을 무시하는 경향이 생김.",
+      "interpretation": "관이 약하거나 무시되면 규범을 따르지 않고 독단적으로 행동할 가능성이 있음.",
+      "action": "관을 보완하기 위해 금이나 목, 또는 수를 투관시켜 균형을 맞춤.",
+      "cautions": [
+        "법적 문제 발생 가능성",
+        "사회적 갈등 유발"
+      ],
+      "tags": [
+        "관",
+        "규범",
+        "법",
+        "균형",
+        "사회"
+      ],
+      "id": "RC-99ea5872a2"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "왕지끼리 겹침",
+        "합": false
+      },
+      "mechanism": "왕지끼리 겹치면 합이 되지 않고 분리된 에너지로 작용함.",
+      "interpretation": "관의 에너지가 분리되어 두 가지 역할을 겸하거나, 두 번 결혼할 가능성이 있음.",
+      "action": "수가 투관되거나 토로 분리된 에너지를 조화롭게 다룰 방법을 모색.",
+      "cautions": [
+        "관계의 불안정성",
+        "겸직으로 인한 부담"
+      ],
+      "tags": [
+        "왕지",
+        "합",
+        "분리",
+        "관계",
+        "겸직"
+      ],
+      "id": "RC-082f3ffda1"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "day_master": "병화"
+      },
+      "mechanism": "자월 병화는 자수를 극하며 관에 대한 고집이 강함.",
+      "interpretation": "자월 병화는 관과 타협이 어려워 잔소리나 개입이 많아질 수 있음.",
+      "action": "관을 다룰 때 유연성을 기르고, 가족과의 관계에서 조화를 추구.",
+      "cautions": [
+        "가족 간 갈등",
+        "고집으로 인한 문제"
+      ],
+      "tags": [
+        "자월",
+        "병화",
+        "관",
+        "고집",
+        "가족"
+      ],
+      "id": "RC-6ed09013ac"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "day_master": "병화",
+        "month": "자월",
+        "support": "무토"
+      },
+      "mechanism": "무토는 병화를 안정적으로 지원하며 직업적 안정성을 제공함.",
+      "interpretation": "무토가 병화를 지원하면 안정적인 직장 생활이 가능함.",
+      "action": "무토의 영향을 활용해 안정적인 직업을 선택.",
+      "cautions": [
+        "무토 부족 시 직업적 불안정 가능성"
+      ],
+      "tags": [
+        "병화",
+        "무토",
+        "직업",
+        "안정",
+        "지원"
+      ],
+      "id": "RC-797817af88"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_master": "병화",
+        "month": "자월",
+        "support": "감목"
+      },
+      "mechanism": "감목은 병화의 학문적 성장을 지원하며 능력을 개발하게 함.",
+      "interpretation": "감목이 병화를 지원하면 학문적 성취와 능력 개발이 용이함.",
+      "action": "감목의 영향을 활용해 학문적 목표를 설정하고 성취.",
+      "cautions": [
+        "감목 부족 시 학문적 성취 저하 가능성"
+      ],
+      "tags": [
+        "병화",
+        "감목",
+        "학문",
+        "성장",
+        "능력"
+      ],
+      "id": "RC-935c883f16"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "relation": "일지정관",
+        "month": "자월"
+      },
+      "mechanism": "일지정관과 월지정관이 분리되면 결혼 생활에 영향을 미침.",
+      "interpretation": "결혼 생활에서 두 번 결혼하거나, 늦게 결혼할 가능성이 있음.",
+      "action": "결혼 시기를 신중히 선택하고, 관계의 조화를 위해 노력.",
+      "cautions": [
+        "결혼 생활의 불안정성",
+        "관계 갈등"
+      ],
+      "tags": [
+        "결혼",
+        "정관",
+        "자월",
+        "관계",
+        "조화"
+      ],
+      "id": "RC-558984f085"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "천간과 지지의 조화 여부"
+      },
+      "mechanism": "천간은 사주의 방향성을 결정하며, 지지는 보조적 역할을 함.",
+      "interpretation": "천간이 강하면 사주의 방향성이 뚜렷해지고, 지지는 이를 보완함.",
+      "action": "천간의 구조를 우선적으로 분석하고, 지지와의 조화를 고려.",
+      "cautions": [
+        "천간 부족 시 방향성 약화"
+      ],
+      "tags": [
+        "천간",
+        "지지",
+        "조화",
+        "방향성",
+        "구조"
+      ],
+      "id": "RC-4d9ab7ea85"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_master": "병화",
+        "month": "자월",
+        "support": "임수"
+      },
+      "mechanism": "임수는 병화를 빛내며 실용적이고 유연한 직업 선택을 가능하게 함.",
+      "interpretation": "임수가 병화를 지원하면 실용적이고 유연한 직업 선택이 가능함.",
+      "action": "임수의 영향을 활용해 실용적인 직업을 선택.",
+      "cautions": [
+        "임수 부족 시 직업 선택의 제한"
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "직업",
+        "유연성",
+        "실용성"
+      ],
+      "id": "RC-cfe41cc07e"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "day_master": "병화",
+        "month": "자월",
+        "support": "무토",
+        "field": "교육"
+      },
+      "mechanism": "무토는 병화의 교육적 성향을 강화하며, 안정적인 교육 분야로 이끎.",
+      "interpretation": "무토가 병화를 지원하면 교육 분야에서 안정적인 성과를 낼 수 있음.",
+      "action": "교육 분야에서 무토의 영향을 활용해 안정적인 커리어를 구축.",
+      "cautions": [
+        "무토 부족 시 교육 분야에서의 어려움"
+      ],
+      "tags": [
+        "병화",
+        "무토",
+        "교육",
+        "안정",
+        "커리어"
+      ],
+      "id": "RC-3c2a19eda9"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_078",
+  "updated_at": "2025-12-23T20:27:24"
+}

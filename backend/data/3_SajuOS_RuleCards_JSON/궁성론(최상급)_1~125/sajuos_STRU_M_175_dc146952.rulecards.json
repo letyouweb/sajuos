@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_STRU_M_175",
+  "rulecards": [
+    {
+      "id": "RC-58b7c15562",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "을목",
+        "environment": "술토"
+      },
+      "mechanism": "을목은 수평적 확장성을 가지며 술토와의 소통이 어려움.",
+      "interpretation": "을목은 술토 환경에서 생존과 소통에 어려움을 겪음.",
+      "action": "술토 환경에서 을목의 생존을 위해 개수와 병화를 보완적으로 활용.",
+      "cautions": [
+        "술토 환경에서 을목은 단독으로 생존하기 어려움."
+      ],
+      "tags": [
+        "을목",
+        "술토",
+        "생존",
+        "소통",
+        "개수",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-6bb6a840c9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "을목",
+        "month": "술월",
+        "support": [
+          "개수",
+          "병화"
+        ]
+      },
+      "mechanism": "개수는 조환 에너지를 완화하고 병화는 을목의 생존력을 강화.",
+      "interpretation": "술월에서 을목은 개수와 병화가 있으면 생존 가능.",
+      "action": "술월에 태어난 을목은 개수와 병화를 활용해 생존 기반을 마련.",
+      "cautions": [
+        "개수와 병화가 없으면 생존이 어려울 수 있음."
+      ],
+      "tags": [
+        "술월",
+        "을목",
+        "개수",
+        "병화",
+        "생존"
+      ]
+    },
+    {
+      "id": "RC-ab8d7f0a92",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "wealth": "정제",
+        "support": "간목"
+      },
+      "mechanism": "간목은 을목이 정제를 다룰 수 있도록 지원.",
+      "interpretation": "을목이 정제를 통해 부를 얻으려면 간목의 지원이 필요.",
+      "action": "정제를 다루기 위해 간목을 활용하고 재무 계획을 세움.",
+      "cautions": [
+        "간목이 없으면 정제를 다루기 어려움."
+      ],
+      "tags": [
+        "을목",
+        "정제",
+        "간목",
+        "부",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-01e924210f",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "month": "술월",
+        "career": "사업"
+      },
+      "mechanism": "술월의 을목은 상관생제로 인해 사업에서 피드백이 부족.",
+      "interpretation": "술월의 을목은 사업보다는 안정적인 직업이 적합.",
+      "action": "사업 대신 직장생활을 선택하거나 사업 시 철저한 계획 필요.",
+      "cautions": [
+        "사업에서 손실 가능성 높음."
+      ],
+      "tags": [
+        "을목",
+        "술월",
+        "사업",
+        "직장",
+        "상관생제"
+      ]
+    },
+    {
+      "id": "RC-a43e614be8",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "을목",
+        "month": "술월",
+        "support": [
+          "간목",
+          "병화"
+        ]
+      },
+      "mechanism": "간목은 을목의 확장을 돕고 병화는 생존력을 강화.",
+      "interpretation": "술월의 을목은 간목과 병화가 있으면 환경을 극복 가능.",
+      "action": "간목과 병화를 활용해 술월의 어려움을 극복.",
+      "cautions": [
+        "간목과 병화가 없으면 환경 극복이 어려움."
+      ],
+      "tags": [
+        "술월",
+        "을목",
+        "간목",
+        "병화",
+        "환경 극복"
+      ]
+    },
+    {
+      "id": "RC-973781c20a",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "wealth": "정제",
+        "support": [
+          "간목",
+          "병화"
+        ]
+      },
+      "mechanism": "간목과 병화는 정제를 다룰 수 있는 기반 제공.",
+      "interpretation": "정제를 통해 부를 얻으려면 간목과 병화의 지원 필요.",
+      "action": "간목과 병화를 활용해 정제를 다룰 수 있는 능력 강화.",
+      "cautions": [
+        "간목과 병화가 없으면 정제를 다루기 어려움."
+      ],
+      "tags": [
+        "을목",
+        "정제",
+        "간목",
+        "병화",
+        "부"
+      ]
+    },
+    {
+      "id": "RC-2aeb4cf4d4",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "relation": "묘술합"
+      },
+      "mechanism": "묘술합은 비즈니스적이고 이성적인 관계를 형성.",
+      "interpretation": "묘술합은 을목에게 적절한 타협과 협력의 기회를 제공.",
+      "action": "묘술합을 활용해 비즈니스 관계를 강화.",
+      "cautions": [
+        "묘술합이 없으면 협력 관계 형성이 어려움."
+      ],
+      "tags": [
+        "을목",
+        "묘술합",
+        "비즈니스",
+        "협력",
+        "타협"
+      ]
+    },
+    {
+      "id": "RC-42b1089d38",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "career": "군/검/경",
+        "support": "간목"
+      },
+      "mechanism": "간목은 을목이 편관 직업에서 안정적으로 활동하도록 지원.",
+      "interpretation": "을목은 간목의 지원으로 군/검/경 등 편관 직업에서 성공 가능.",
+      "action": "간목의 지원을 활용해 편관 직업에서 경력을 쌓음.",
+      "cautions": [
+        "간목이 없으면 편관 직업에서 어려움이 있을 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "간목",
+        "편관",
+        "군",
+        "검",
+        "경"
+      ]
+    },
+    {
+      "id": "RC-5b09c91414",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "year": "간목 대운"
+      },
+      "mechanism": "간목 대운은 을목에게 확장과 기회를 제공.",
+      "interpretation": "간목 대운은 을목이 환경을 극복하고 성장할 시기.",
+      "action": "간목 대운을 활용해 새로운 기회를 모색.",
+      "cautions": [
+        "간목 대운이 지나면 기회가 줄어들 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "간목",
+        "대운",
+        "기회",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-bd14abe399",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "을목",
+        "wealth": "정제",
+        "support": "병화"
+      },
+      "mechanism": "병화는 을목이 정제를 다룰 수 있는 에너지를 제공.",
+      "interpretation": "병화는 을목이 정제를 통해 부를 얻는 데 필수적.",
+      "action": "병화를 활용해 정제를 다룰 수 있는 능력을 강화.",
+      "cautions": [
+        "병화가 없으면 정제를 다루기 어려움."
+      ],
+      "tags": [
+        "을목",
+        "정제",
+        "병화",
+        "부",
+        "재물"
+      ]
+    },
+    {
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "축술형",
+        "element": "신금"
+      },
+      "mechanism": "축술형은 형벌과 갈등을 유발하는 관계로 작용함.",
+      "interpretation": "신금이 나오면 형벌과 갈등 상황이 발생할 가능성이 높음.",
+      "action": "형벌과 갈등 상황을 피하기 위해 신중히 행동할 것.",
+      "cautions": [
+        "불법과 합법 사이에서 갈등 가능성",
+        "사업에서 무리한 행동 주의"
+      ],
+      "tags": [
+        "형",
+        "축술형",
+        "신금",
+        "갈등",
+        "형벌"
+      ],
+      "id": "RC-36a51e852b"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "병신합",
+        "element": "신금"
+      },
+      "mechanism": "병신합은 형벌을 해소하는 작용을 함.",
+      "interpretation": "병신합이 형벌을 해결하고 문제를 완화함.",
+      "action": "병신합의 기회를 활용해 갈등을 해결할 것.",
+      "cautions": [],
+      "tags": [
+        "병신합",
+        "형벌해소",
+        "갈등해결",
+        "신금",
+        "병화"
+      ],
+      "id": "RC-c21b7b488e"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "condition": "토가 많음"
+      },
+      "mechanism": "을목은 토가 많을 때 생존과 성장에 어려움을 겪음.",
+      "interpretation": "을목이 토의 과다로 인해 제약을 받음.",
+      "action": "토의 영향을 줄이기 위해 적절한 조치를 취할 것.",
+      "cautions": [
+        "을목의 성장 저해",
+        "환경의 제약"
+      ],
+      "tags": [
+        "을목",
+        "토과다",
+        "성장제약",
+        "환경",
+        "생존"
+      ],
+      "id": "RC-4985758187"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "갑진년",
+        "element": "을목"
+      },
+      "mechanism": "갑진년은 을목에게 긍정적인 영향을 미침.",
+      "interpretation": "을목에게 갑진년은 좋은 기회와 운을 제공함.",
+      "action": "갑진년의 기회를 활용해 목표를 달성할 것.",
+      "cautions": [
+        "연애와 관련된 문제 주의"
+      ],
+      "tags": [
+        "갑진년",
+        "을목",
+        "운",
+        "기회",
+        "긍정적"
+      ],
+      "id": "RC-103b0c9e57"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "축술미형",
+        "element": "감목"
+      },
+      "mechanism": "감목은 축술미형을 조절하고 해결하는 역할을 함.",
+      "interpretation": "감목이 축술미형의 갈등을 완화하고 조화롭게 만듦.",
+      "action": "감목의 역할을 활용해 갈등을 해결할 것.",
+      "cautions": [],
+      "tags": [
+        "축술미형",
+        "감목",
+        "갈등해결",
+        "조화",
+        "조절"
+      ],
+      "id": "RC-99933db92c"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "condition": "환경 부담"
+      },
+      "mechanism": "개수는 환경 부담을 완화하는 방어 기제로 작용함.",
+      "interpretation": "개수가 있으면 생존과 안정감을 제공함.",
+      "action": "개수를 활용해 환경 부담을 줄일 것.",
+      "cautions": [
+        "자기 합리화에 의존하지 않도록 주의"
+      ],
+      "tags": [
+        "개수",
+        "환경부담",
+        "방어기제",
+        "생존",
+        "안정"
+      ],
+      "id": "RC-bfac44019f"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "병화",
+        "condition": "음목"
+      },
+      "mechanism": "병화는 음목에게 재능 발휘와 생존 방법을 제공함.",
+      "interpretation": "병화가 음목의 재능을 활성화하고 생존을 돕는 역할을 함.",
+      "action": "병화를 통해 자신의 재능을 발휘할 것.",
+      "cautions": [],
+      "tags": [
+        "병화",
+        "음목",
+        "재능",
+        "생존",
+        "활성화"
+      ],
+      "id": "RC-b1a5f8f0d5"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "겁제",
+        "element": "감목"
+      },
+      "mechanism": "감목은 겁제를 통해 귀인을 만나는 기회를 제공함.",
+      "interpretation": "감목이 귀인을 만나 인생에 긍정적인 변화를 가져옴.",
+      "action": "감목의 기회를 활용해 귀인을 만날 것.",
+      "cautions": [],
+      "tags": [
+        "감목",
+        "겁제",
+        "귀인",
+        "긍정적변화",
+        "기회"
+      ],
+      "id": "RC-ff3d4fed19"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "음목",
+        "condition": "감목 없음"
+      },
+      "mechanism": "감목이 없으면 음목은 귀인을 만나기 어려움.",
+      "interpretation": "감목이 없는 음목은 인생에서 큰 변화를 기대하기 어려움.",
+      "action": "감목의 역할을 보완할 방법을 모색할 것.",
+      "cautions": [],
+      "tags": [
+        "음목",
+        "감목",
+        "귀인",
+        "변화",
+        "보완"
+      ],
+      "id": "RC-4e26c67609"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "감목",
+        "condition": "토가 많음"
+      },
+      "mechanism": "감목은 토가 많은 환경에서 조절 역할을 함.",
+      "interpretation": "감목이 토의 과다를 조절해 균형을 맞춤.",
+      "action": "감목의 조절 능력을 활용해 환경을 개선할 것.",
+      "cautions": [],
+      "tags": [
+        "감목",
+        "토과다",
+        "조절",
+        "균형",
+        "환경개선"
+      ],
+      "id": "RC-fcacefe99d"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_175",
+  "updated_at": "2025-12-23T20:27:25"
+}

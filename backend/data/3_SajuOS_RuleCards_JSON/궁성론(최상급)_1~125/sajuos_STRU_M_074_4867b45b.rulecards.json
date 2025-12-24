@@ -1,0 +1,454 @@
+{
+  "title": "SajuOS_Logic_STRU_M_074",
+  "rulecards": [
+    {
+      "id": "RC-48aaf6b84b",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "해월",
+        "daymaster": "계수",
+        "relation": "겁재"
+      },
+      "mechanism": "해월의 계수는 겁재로 인해 흐르는 성향을 가지며, 자기 자신을 드러내는 에너지가 강해진다.",
+      "interpretation": "계수가 흐르면 자기 자신을 드러내며, 대상을 빛내는 역할보다는 자기 중심적 성향을 보인다.",
+      "action": "겁재의 흐름을 제어할 수 있는 무토를 활용하거나, 금생수를 통해 균형을 잡아야 한다.",
+      "cautions": [
+        "겁재의 흐름에 휩쓸리지 않도록 주의",
+        "무토가 없을 경우 갈등 상황이 발생할 수 있음"
+      ],
+      "tags": [
+        "해월",
+        "계수",
+        "겁재",
+        "흐름",
+        "무토"
+      ]
+    },
+    {
+      "id": "RC-9c18962ae0",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "겁재",
+        "daymaster": "계수"
+      },
+      "mechanism": "겁재는 항상 이질적인 에너지를 제공하며, 이를 잘 활용하면 새로운 가능성을 열 수 있다.",
+      "interpretation": "겁재를 잘 다루면 자신에게 없는 에너지를 활용할 수 있다.",
+      "action": "겁재를 통제하고 자신의 방향으로 끌어올 수 있는 전략을 세워야 한다.",
+      "cautions": [
+        "겁재에 휩쓸릴 경우 방향성을 잃을 수 있음"
+      ],
+      "tags": [
+        "겁재",
+        "이질성",
+        "통제",
+        "전략",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-70dd82396b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "해월",
+        "daymaster": "계수",
+        "element": "무토"
+      },
+      "mechanism": "무토는 해월의 계수와 겁재의 흐름을 제어할 수 있는 중요한 요소이다.",
+      "interpretation": "무토가 있으면 겁재의 흐름을 제어하고 안정적인 구조를 형성할 수 있다.",
+      "action": "무토를 활용하여 겁재의 흐름을 제어하고 균형을 유지하라.",
+      "cautions": [
+        "무토가 없을 경우 겁재의 흐름이 통제되지 않을 수 있음"
+      ],
+      "tags": [
+        "무토",
+        "해월",
+        "계수",
+        "겁재",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-fd72f0bb55",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁재",
+        "element": "금"
+      },
+      "mechanism": "금은 겁재를 다루는 데 필요한 인성으로 작용한다.",
+      "interpretation": "금이 있으면 겁재를 통제하고 자신의 방향으로 활용할 수 있다.",
+      "action": "신금을 활용하여 금생수의 흐름을 만들어 겁재를 다루어라.",
+      "cautions": [
+        "경금은 지나치게 인성 중심으로 흐를 수 있음"
+      ],
+      "tags": [
+        "금",
+        "신금",
+        "경금",
+        "겁재",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-63b0f59ead",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "해월",
+        "daymaster": "계수",
+        "element": "간목"
+      },
+      "mechanism": "간목은 해월의 계수와 조화를 이루며 겁재를 활용할 수 있는 요소이다.",
+      "interpretation": "간목이 있으면 겁재를 활용하여 새로운 가능성을 열 수 있다.",
+      "action": "간목을 통해 겁재의 에너지를 조화롭게 활용하라.",
+      "cautions": [
+        "간목이 없을 경우 겁재의 에너지가 분산될 수 있음"
+      ],
+      "tags": [
+        "간목",
+        "해월",
+        "계수",
+        "겁재",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-91bb028f04",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁재",
+        "element": "병화"
+      },
+      "mechanism": "병화는 간목과 조화를 이루어 겁재의 에너지를 대중적으로 드러낸다.",
+      "interpretation": "병화가 있으면 겁재의 에너지가 대중적으로 발휘된다.",
+      "action": "병화를 활용하여 겁재의 에너지를 대중적으로 드러내라.",
+      "cautions": [
+        "병화가 없을 경우 겁재의 에너지가 제한될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "간목",
+        "겁재",
+        "대중성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-2f56012d16",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁재",
+        "element": "정화"
+      },
+      "mechanism": "정화는 겁재의 에너지를 목적 지향적으로 활용한다.",
+      "interpretation": "정화가 있으면 겁재의 에너지가 목적 지향적으로 발휘된다.",
+      "action": "정화를 활용하여 겁재의 에너지를 목표에 맞게 조정하라.",
+      "cautions": [
+        "정화가 없을 경우 겁재의 에너지가 분산될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "겁재",
+        "목적성",
+        "조정",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-c1b8d2a190",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "해월",
+        "daymaster": "계수",
+        "relation": "쟁재"
+      },
+      "mechanism": "쟁재는 재물과 관련된 경쟁과 갈등을 나타낸다.",
+      "interpretation": "쟁재가 있으면 재물과 관련된 경쟁과 갈등이 빈번하다.",
+      "action": "쟁재를 통제하고 재물 관리에 신중을 기하라.",
+      "cautions": [
+        "쟁재가 통제되지 않으면 재물 손실 가능성 있음"
+      ],
+      "tags": [
+        "쟁재",
+        "재물",
+        "경쟁",
+        "갈등",
+        "통제"
+      ]
+    },
+    {
+      "id": "RC-b1120fbff3",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁재",
+        "element": "토"
+      },
+      "mechanism": "토는 겁재를 통제하고 안정적인 구조를 형성한다.",
+      "interpretation": "토가 있으면 겁재의 에너지를 안정적으로 활용할 수 있다.",
+      "action": "토를 활용하여 겁재의 에너지를 통제하라.",
+      "cautions": [
+        "토가 없을 경우 겁재의 에너지가 불안정해질 수 있음"
+      ],
+      "tags": [
+        "토",
+        "겁재",
+        "통제",
+        "안정",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-f6b5d844be",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "해월",
+        "daymaster": "계수",
+        "relation": "인성"
+      },
+      "mechanism": "인성은 겁재를 다루는 데 필요한 지혜와 전략을 제공한다.",
+      "interpretation": "인성이 있으면 겁재를 효과적으로 다룰 수 있다.",
+      "action": "인성을 활용하여 겁재를 다루는 전략을 세워라.",
+      "cautions": [
+        "인성이 없을 경우 겁재를 다루기 어려울 수 있음"
+      ],
+      "tags": [
+        "인성",
+        "겁재",
+        "지혜",
+        "전략",
+        "다룸"
+      ]
+    },
+    {
+      "id": "RC-fc002197b2",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "ten_gods": "겁재",
+        "action": "활용"
+      },
+      "mechanism": "겁재는 심리적 통찰과 활용 능력을 통해 재물을 얻는 데 기여한다.",
+      "interpretation": "겁재를 잘 활용하면 투기적이지만 큰 재물을 얻을 수 있다.",
+      "action": "겁재의 심리를 이해하고 투자나 사업에서 활용하라.",
+      "cautions": [
+        "겁재를 통제하지 못하면 손실이 클 수 있다."
+      ],
+      "tags": [
+        "겁재",
+        "투자",
+        "심리",
+        "재물",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-84fdc4d1f0",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "structure": "인성+재성",
+        "focus": "죄 관련 문제 해결"
+      },
+      "mechanism": "인성과 재성이 결합되면 사회적 문제 해결 능력이 강화된다.",
+      "interpretation": "죄와 관련된 문제를 해결하는 직업이 적합하다.",
+      "action": "법률, 상담, 재정 관리 등 죄 관련 직업을 고려하라.",
+      "cautions": [
+        "죄와 관련 없는 상담은 적합하지 않을 수 있다."
+      ],
+      "tags": [
+        "인성",
+        "재성",
+        "직업",
+        "사회문제",
+        "해결"
+      ]
+    },
+    {
+      "id": "RC-ac10fe6347",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "structure": "편재",
+        "focus": "전문성"
+      },
+      "mechanism": "편재는 재능과 전문성을 통해 재물을 창출한다.",
+      "interpretation": "편재는 단순히 돈을 보는 것이 아니라 전문성을 통해 재물을 얻는다.",
+      "action": "전문성을 강화하고 이를 통해 수익을 창출하라.",
+      "cautions": [
+        "편재를 단순히 돈으로만 해석하지 말라."
+      ],
+      "tags": [
+        "편재",
+        "전문성",
+        "재물",
+        "능력",
+        "수익"
+      ]
+    },
+    {
+      "id": "RC-32f859fc01",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "무토",
+        "condition": "수 강함"
+      },
+      "mechanism": "무토는 강한 수를 억제하기 어렵다.",
+      "interpretation": "무토를 사용할 경우 큰 리스크가 발생할 수 있다.",
+      "action": "무토 대신 간목과 병화를 활용하라.",
+      "cautions": [
+        "무토 사용 시 산사태와 같은 큰 문제 발생 가능."
+      ],
+      "tags": [
+        "무토",
+        "수",
+        "리스크",
+        "간목",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-3454833760",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "condition": "식신 통제"
+      },
+      "mechanism": "금은 식신을 통제하여 낭비를 줄이고 고부가가치를 창출한다.",
+      "interpretation": "금이 있으면 효율적 자원 관리와 부의 축적이 가능하다.",
+      "action": "금의 에너지를 활용해 자동화와 비용 절감을 도모하라.",
+      "cautions": [
+        "금이 없으면 낭비를 막기 어렵다."
+      ],
+      "tags": [
+        "금",
+        "식신",
+        "통제",
+        "효율",
+        "부가가치"
+      ]
+    },
+    {
+      "id": "RC-f3ea6643a7",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "쟁재",
+        "focus": "겁제 활용"
+      },
+      "mechanism": "쟁재는 겁제의 시간을 활용하여 생산성을 높인다.",
+      "interpretation": "쟁재는 겁제의 자원을 활용해 더 큰 성과를 낼 수 있다.",
+      "action": "겁제의 시간을 효율적으로 관리하라.",
+      "cautions": [
+        "쟁재를 나쁘게만 보지 말라."
+      ],
+      "tags": [
+        "쟁재",
+        "겁제",
+        "시간",
+        "효율",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-d54f4f0eb5",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "관",
+        "focus": "사업 연결"
+      },
+      "mechanism": "관은 공공기관이나 정책과 연결된 사업에 적합하다.",
+      "interpretation": "관의 에너지는 관공서나 정책 기반 사업에서 성공 가능성을 높인다.",
+      "action": "정부 지원 사업이나 정책 기반 사업을 고려하라.",
+      "cautions": [
+        "관을 직장인으로만 해석하지 말라."
+      ],
+      "tags": [
+        "관",
+        "사업",
+        "정책",
+        "공공기관",
+        "정부지원"
+      ]
+    },
+    {
+      "id": "RC-d213bfaaae",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "year": "갑술",
+        "relation": "진술충"
+      },
+      "mechanism": "진술충은 변화를 촉진하며 새로운 기회를 제공한다.",
+      "interpretation": "갑술년에는 새로운 사업이나 변화를 시도할 기회가 있다.",
+      "action": "갑술년의 기회를 활용해 새로운 도전을 시도하라.",
+      "cautions": [
+        "충동적인 결정은 피하라."
+      ],
+      "tags": [
+        "갑술",
+        "진술충",
+        "변화",
+        "기회",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-7b3d9c72e5",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "인성과 화의 조합"
+      },
+      "mechanism": "인성과 화는 효율성과 편리함을 추구하는 동기를 제공한다.",
+      "interpretation": "인성과 화가 조화되면 게으르지만 효율적인 부를 창출할 수 있다.",
+      "action": "효율성을 높이는 방법을 연구하고 적용하라.",
+      "cautions": [
+        "노동 중심의 사고방식을 버려라."
+      ],
+      "tags": [
+        "인성",
+        "화",
+        "효율",
+        "부",
+        "편리"
+      ]
+    },
+    {
+      "id": "RC-4a139d2746",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "condition": "부동산 활용"
+      },
+      "mechanism": "토는 자산을 안정적으로 보존하는 역할을 한다.",
+      "interpretation": "토가 있으면 부동산을 통해 자산을 보존할 수 있다.",
+      "action": "부동산 투자나 자산 보존 전략을 고려하라.",
+      "cautions": [
+        "토가 없으면 자산 보존이 어려울 수 있다."
+      ],
+      "tags": [
+        "토",
+        "부동산",
+        "자산",
+        "보존",
+        "안정"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_074",
+  "updated_at": "2025-12-23T20:27:24"
+}

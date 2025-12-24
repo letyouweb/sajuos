@@ -1,0 +1,450 @@
+{
+  "title": "SajuOS_Logic_APPL_002",
+  "rulecards": [
+    {
+      "id": "RC-b06bf2b809",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "type": "삼합",
+        "presence": true
+      },
+      "mechanism": "삼합은 다른 오행이 모여 하나의 에너지를 형성함.",
+      "interpretation": "삼합은 일관성과 강한 몰입 능력을 나타냄.",
+      "action": "삼합의 에너지를 중심으로 목표를 설정하고 추진.",
+      "cautions": [
+        "삼합이 불완전하면 에너지 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "삼합",
+        "몰입",
+        "일관성",
+        "오행",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-f2879c2258",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "type": "방합",
+        "presence": true
+      },
+      "mechanism": "방합은 같은 오행이 모여 본능적 몰입을 강화함.",
+      "interpretation": "방합은 강한 결속력과 동반자적 관계를 형성.",
+      "action": "방합의 에너지를 활용해 신뢰와 협력을 강화.",
+      "cautions": [
+        "방합은 비슷한 성향의 사람과 더 잘 어울림."
+      ],
+      "tags": [
+        "방합",
+        "결속력",
+        "동반자",
+        "오행",
+        "몰입"
+      ]
+    },
+    {
+      "id": "RC-0e60c624e0",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "type": "삼합",
+        "seasonal_alignment": true
+      },
+      "mechanism": "삼합은 계절적 에너지의 조화를 통해 강한 결속을 형성.",
+      "interpretation": "삼합은 상호 보완적 관계를 통해 협력적 결혼 가능.",
+      "action": "서로 다른 성향을 가진 사람과 협력적 관계를 구축.",
+      "cautions": [
+        "삼합은 역할 분리가 명확해야 함."
+      ],
+      "tags": [
+        "삼합",
+        "계절",
+        "협력",
+        "결혼",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-64316ac024",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "type": "방합",
+        "seasonal_alignment": true
+      },
+      "mechanism": "방합은 같은 계절의 에너지가 모여 강한 유대감을 형성.",
+      "interpretation": "방합은 비슷한 성향의 사람과 결혼 가능성이 높음.",
+      "action": "비슷한 가치관과 성향을 가진 사람과 관계를 형성.",
+      "cautions": [
+        "방합은 지나치게 비슷한 성향이 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "방합",
+        "계절",
+        "유대감",
+        "결혼",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-76411f7674",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "type": "방합",
+        "social_alignment": true
+      },
+      "mechanism": "방합은 사회적 활동성과 결속력을 강화.",
+      "interpretation": "방합은 사회적 관계에서 신뢰와 지지를 얻음.",
+      "action": "사회적 관계에서 방합의 에너지를 활용.",
+      "cautions": [
+        "방합은 충돌 상황에서 더 강한 결속력을 발휘."
+      ],
+      "tags": [
+        "방합",
+        "사회적",
+        "활동성",
+        "신뢰",
+        "결속력"
+      ]
+    },
+    {
+      "id": "RC-2058fe8101",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "type": "삼합",
+        "economic_alignment": true
+      },
+      "mechanism": "삼합은 경제적 협력을 통해 상승 효과를 발휘.",
+      "interpretation": "삼합은 경제적 안정과 협력적 결혼 가능성을 높임.",
+      "action": "경제적 협력을 기반으로 관계를 구축.",
+      "cautions": [
+        "경제적 불균형이 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "삼합",
+        "경제",
+        "협력",
+        "결혼",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-480a4c6cf5",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "type": "방합",
+        "emotional_alignment": true
+      },
+      "mechanism": "방합은 감정적 지지를 통해 관계를 강화.",
+      "interpretation": "방합은 감정적으로 안정된 관계를 형성.",
+      "action": "감정적 지지를 통해 관계를 유지.",
+      "cautions": [
+        "감정적 의존이 지나치면 독립성을 잃을 수 있음."
+      ],
+      "tags": [
+        "방합",
+        "감정",
+        "지지",
+        "안정",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-2a1d3a7c8b",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "type": "삼합",
+        "presence": false
+      },
+      "mechanism": "삼합이 불완전하면 에너지 발휘가 제한됨.",
+      "interpretation": "삼합이 완전하지 않으면 관계 형성에 어려움.",
+      "action": "삼합의 부족한 부분을 보완하려는 노력이 필요.",
+      "cautions": [
+        "불완전한 삼합은 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "삼합",
+        "불완전",
+        "에너지",
+        "관계",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-9e3a7c4972",
+      "topic": "RELATION",
+      "priority": 4,
+      "trigger": {
+        "type": "방합",
+        "presence": false
+      },
+      "mechanism": "방합이 불완전하면 결속력이 약화됨.",
+      "interpretation": "방합이 완전하지 않으면 신뢰 형성에 어려움.",
+      "action": "방합의 부족한 부분을 보완하려는 노력이 필요.",
+      "cautions": [
+        "불완전한 방합은 신뢰를 약화시킬 수 있음."
+      ],
+      "tags": [
+        "방합",
+        "불완전",
+        "결속력",
+        "신뢰",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-1afd68ecb9",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "type": "충",
+        "presence": true
+      },
+      "mechanism": "방합은 충돌 상황에서 더 강한 결속력을 발휘.",
+      "interpretation": "충돌은 방합의 결속력을 강화하는 계기가 됨.",
+      "action": "충돌 상황에서 방합의 에너지를 활용해 관계를 강화.",
+      "cautions": [
+        "충돌이 지나치면 관계가 파괴될 수 있음."
+      ],
+      "tags": [
+        "방합",
+        "충돌",
+        "결속력",
+        "강화",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-3ec83e5b94",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "structure": "편인격",
+        "goal": "결혼"
+      },
+      "mechanism": "편인격은 이상적이고 감정적인 만족을 중시하며, 현실적 조건보다는 행복을 추구한다.",
+      "interpretation": "편인격은 결혼에서 감정적 안정과 이상적 관계를 중요시한다.",
+      "action": "결혼 상대와의 대화에서 현실적 조건보다는 감정적 공감과 희망을 강조하라.",
+      "cautions": [
+        "현실적 조건을 지나치게 강조하면 상처받을 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "결혼",
+        "감정",
+        "행복",
+        "이상주의"
+      ]
+    },
+    {
+      "id": "RC-42cea6a627",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편인격",
+        "partner_trait": "긍정적"
+      },
+      "mechanism": "편인격은 긍정적인 에너지를 가진 사람과의 관계에서 안정감을 느낀다.",
+      "interpretation": "긍정적인 성향의 배우자가 편인격에게 적합하다.",
+      "action": "긍정적이고 낙관적인 사람과의 관계를 우선적으로 고려하라.",
+      "cautions": [
+        "부정적인 성향의 사람과는 갈등이 생길 가능성이 높음."
+      ],
+      "tags": [
+        "편인격",
+        "긍정",
+        "배우자",
+        "연애",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-dff306ea8e",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "structure": "편인격",
+        "partner_trait": "식신 강함"
+      },
+      "mechanism": "식신은 편인격의 소외된 성향을 끌어내어 사회적 관계를 형성하게 한다.",
+      "interpretation": "식신이 강한 사람과의 관계에서 편인격은 더 활발해질 수 있다.",
+      "action": "식신이 강한 사람과의 교류를 통해 자신을 더 표현하라.",
+      "cautions": [
+        "식신이 약한 사람과는 관계가 깊어지기 어려울 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "식신",
+        "사회성",
+        "연애",
+        "활발"
+      ]
+    },
+    {
+      "id": "RC-01632be959",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "structure": "편인격",
+        "timing": "정재운"
+      },
+      "mechanism": "정재운에서의 결혼은 현실적 이유로 이루어질 가능성이 높다.",
+      "interpretation": "정재운에서의 결혼은 감정적 만족보다는 현실적 필요에 의해 이루어질 수 있다.",
+      "action": "정재운에서의 결혼 결정을 신중히 검토하라.",
+      "cautions": [
+        "결혼 후 후회할 가능성이 있음.",
+        "감정적 만족이 부족할 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "정재운",
+        "결혼",
+        "현실",
+        "신중"
+      ]
+    },
+    {
+      "id": "RC-2c26e1d5fe",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "structure": "편인격",
+        "timing": "편재운"
+      },
+      "mechanism": "편재운은 자아실현과 재능 발휘를 중시하는 시기이다.",
+      "interpretation": "편재운에서의 결혼은 자아실현과 조화를 이룰 가능성이 높다.",
+      "action": "편재운에서의 결혼은 긍정적으로 고려하라.",
+      "cautions": [
+        "편재운이 약하면 결혼 후 안정이 부족할 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "편재운",
+        "결혼",
+        "자아실현",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-8a75d645e9",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "structure": "억부 중심",
+        "goal": "결혼"
+      },
+      "mechanism": "억부 중심의 사람은 자신의 감정과 선호를 중시하며 외부 에너지와의 조화를 어려워한다.",
+      "interpretation": "억부 중심의 사람은 결혼보다는 독립적인 삶을 선호할 가능성이 높다.",
+      "action": "결혼보다는 연애를 통해 감정적 만족을 추구하라.",
+      "cautions": [
+        "결혼 후 갈등이 심화될 가능성이 있음."
+      ],
+      "tags": [
+        "억부",
+        "결혼",
+        "독립",
+        "연애",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-3a3a32b8a7",
+      "topic": "LOVE",
+      "priority": 9,
+      "trigger": {
+        "structure": "격 중심",
+        "goal": "결혼"
+      },
+      "mechanism": "격 중심의 사람은 외부 에너지와의 조화를 통해 안정감을 추구한다.",
+      "interpretation": "격 중심의 사람은 결혼을 통해 인생의 안정과 조화를 이룰 가능성이 높다.",
+      "action": "결혼을 통해 안정적인 삶을 계획하라.",
+      "cautions": [
+        "결혼 상대와의 조화가 중요함."
+      ],
+      "tags": [
+        "격",
+        "결혼",
+        "안정",
+        "조화",
+        "삶"
+      ]
+    },
+    {
+      "id": "RC-c08beea3df",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "structure": "편인격",
+        "child": true
+      },
+      "mechanism": "자녀는 편인격의 결혼 생활을 안정시키는 역할을 한다.",
+      "interpretation": "자녀는 부부 간의 갈등을 완화하고 결혼 생활을 유지하는 데 도움을 준다.",
+      "action": "결혼 후 자녀 계획을 적극적으로 고려하라.",
+      "cautions": [
+        "자녀 계획이 없는 경우 결혼 생활이 불안정할 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "자녀",
+        "결혼",
+        "안정",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-37a11d8a13",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "structure": "편인격",
+        "trait": "파격"
+      },
+      "mechanism": "파격적인 성향은 결혼 실패를 용납하며 새로운 시작을 가능하게 한다.",
+      "interpretation": "파격적인 성향은 결혼 실패 후에도 긍정적으로 재출발할 수 있다.",
+      "action": "실패를 두려워하지 말고 새로운 관계를 시작하라.",
+      "cautions": [
+        "사회적 시선에 민감할 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "파격",
+        "결혼",
+        "실패",
+        "재출발"
+      ]
+    },
+    {
+      "id": "RC-a7c324eeca",
+      "topic": "LOVE",
+      "priority": 5,
+      "trigger": {
+        "structure": "편인격",
+        "interest": "전문직"
+      },
+      "mechanism": "편인격은 일반적인 직업보다 전문직에서 더 큰 만족을 느낀다.",
+      "interpretation": "편인격은 자신만의 독특한 전문성을 발휘할 수 있는 직업을 선호한다.",
+      "action": "전문직이나 독창적인 분야에서 직업을 탐색하라.",
+      "cautions": [
+        "일반적인 직업에서는 만족도가 낮을 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "전문직",
+        "직업",
+        "만족",
+        "독창성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_002",
+  "updated_at": "2025-12-23T20:27:26"
+}

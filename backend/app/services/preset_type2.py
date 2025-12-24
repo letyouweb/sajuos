@@ -1,0 +1,26 @@
+BUSINESS_OWNER_PRESET_V2 = {
+  "name": "TYPE2_BUSINESS_OWNER_2026",
+  "sections": [
+    {"key":"EXEC_SUMMARY","title":"Executive Summary","totalTarget":10,
+     "perTopic":[{"topic":"STRUCTURE","k":3},{"topic":"TEN_GODS","k":2},{"topic":"ELEMENTS","k":2},{"topic":"CAREER","k":1},{"topic":"WEALTH","k":1},{"topic":"GENERAL","k":1}],
+     "focusTags":["목표","성과","성취","성공","리스크","안정성","조절","권위","책임"]},
+    {"key":"MONEY","title":"Money & Cashflow","totalTarget":20,
+     "perTopic":[{"topic":"WEALTH","k":12},{"topic":"TEN_GODS","k":4},{"topic":"STRUCTURE","k":2},{"topic":"ELEMENTS","k":1},{"topic":"TIMING","k":1}],
+     "focusTags":["재물","재정","자산","투자","수익","유동성","소비","축적","리스크","위험","재테크"]},
+    {"key":"BUSINESS","title":"Business Strategy","totalTarget":20,
+     "perTopic":[{"topic":"CAREER","k":12},{"topic":"TIMING","k":3},{"topic":"TEN_GODS","k":3},{"topic":"STRUCTURE","k":1},{"topic":"ELEMENTS","k":1}],
+     "focusTags":["사업","확장","조직","리더십","관리","전문성","직업","성취","권위","책임","기회","타이밍"]},
+    {"key":"TEAM_RISK","title":"Team / Partner Risk","totalTarget":15,
+     "perTopic":[{"topic":"RELATION","k":10},{"topic":"TEN_GODS","k":2},{"topic":"STRUCTURE","k":2},{"topic":"TIMING","k":1}],
+     "focusTags":["관계","갈등","소통","협력","경쟁","동업","원진","충","형","합","귀인"]},
+    {"key":"HEALTH_PERF","title":"Health / Performance","totalTarget":10,
+     "perTopic":[{"topic":"ELEMENTS","k":5},{"topic":"STRUCTURE","k":3},{"topic":"HEALTH","k":2}],
+     "focusTags":["조후","조절","스트레스","번아웃","멘탈","수면","에너지","건조","조열","불균형"]},
+    {"key":"CALENDAR","title":"12-Month Tactical Calendar","totalTarget":15,
+     "perTopic":[{"topic":"TIMING","k":10},{"topic":"WEALTH","k":3},{"topic":"CAREER","k":1},{"topic":"RELATION","k":1}],
+     "focusTags":["타이밍","기회","변화","계획","결정","대운","운","시기","리스크","충","형"]},
+    {"key":"SPRINT_90D","title":"90-Day Sprint Plan","totalTarget":10,
+     "perTopic":[{"topic":"WEALTH","k":4},{"topic":"CAREER","k":4},{"topic":"TIMING","k":1},{"topic":"STRUCTURE","k":1}],
+     "focusTags":["목표","성과","성취","관리","실행","계획","기회","확장","수익","효율성"]},
+  ]
+}

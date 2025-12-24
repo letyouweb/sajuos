@@ -1,0 +1,448 @@
+{
+  "title": "SajuOS_Logic_STRU_M_104",
+  "rulecards": [
+    {
+      "id": "RC-e067cd387f",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화생토"
+      },
+      "mechanism": "화의 에너지가 토로 전이되며 점진적으로 소모됨.",
+      "interpretation": "화생토는 지속적인 에너지 소모를 의미하며, 시간이 지남에 따라 에너지가 줄어듦.",
+      "action": "화생토의 에너지 소모를 인지하고, 에너지 관리에 신경 쓸 것.",
+      "cautions": [
+        "에너지 소모로 인해 지속력이 약해질 수 있음."
+      ],
+      "tags": [
+        "화생토",
+        "에너지",
+        "소모",
+        "지속력",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-22aee451bb",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "식신",
+        "position": "월"
+      },
+      "mechanism": "월간 식신은 사회적 접점과 반응성을 강화함.",
+      "interpretation": "월 식신은 사회적 활동성과 오지랖이 넓은 성향을 나타냄.",
+      "action": "사회적 관계를 활용하여 긍정적인 네트워크를 형성할 것.",
+      "cautions": [
+        "과도한 개입으로 피로감이 생길 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "사회성",
+        "반응성",
+        "오지랖",
+        "네트워크"
+      ]
+    },
+    {
+      "id": "RC-6b6498390c",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "진월",
+        "ten_god": "병화"
+      },
+      "mechanism": "진월 병화는 시작 에너지가 크고 확장성이 강함.",
+      "interpretation": "진월 병화는 손이 크고, 시작은 잘하지만 마무리가 부족할 수 있음.",
+      "action": "시작한 일을 끝까지 마무리하는 습관을 기를 것.",
+      "cautions": [
+        "유시무종의 경향이 강할 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "병화",
+        "확장성",
+        "시작",
+        "마무리"
+      ]
+    },
+    {
+      "id": "RC-503bf07b7e",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "element": "목"
+      },
+      "mechanism": "목생화가 화생토를 보완하며 에너지 순환을 돕음.",
+      "interpretation": "목의 존재는 화생토의 소모를 보충하고 균형을 유지함.",
+      "action": "목의 에너지를 활용하여 지속 가능성을 높일 것.",
+      "cautions": [
+        "목이 없으면 에너지 소모가 가속화될 수 있음."
+      ],
+      "tags": [
+        "목생화",
+        "화생토",
+        "균형",
+        "보충",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-693446d421",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "element": "임수"
+      },
+      "mechanism": "임수는 직업적 안정성과 조직 내 역할을 강화함.",
+      "interpretation": "임수가 있으면 조직 생활에서 인정받고 안정적인 직업을 가질 가능성이 높음.",
+      "action": "임수의 에너지를 활용하여 직업적 목표를 설정할 것.",
+      "cautions": [
+        "임수가 없으면 직업적 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "직업",
+        "안정성",
+        "조직",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-3bf5f8779c",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "month": "진월",
+        "ten_god": "편제"
+      },
+      "mechanism": "편제는 주변 사건과 재물에 대한 관심을 높임.",
+      "interpretation": "편제가 강하면 개인 사업이나 프리랜서 형태로 재물을 얻을 가능성이 높음.",
+      "action": "편제의 에너지를 활용하여 재물 관리와 사업 기회를 모색할 것.",
+      "cautions": [
+        "재물에 대한 과도한 집착은 피할 것."
+      ],
+      "tags": [
+        "편제",
+        "재물",
+        "사업",
+        "프리랜서",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-9a1d9197e6",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "element": "간목"
+      },
+      "mechanism": "간목은 진월 병화의 에너지를 조절하고 균형을 잡음.",
+      "interpretation": "간목이 있으면 진월 병화의 오지랖과 에너지가 절제됨.",
+      "action": "간목의 에너지를 활용하여 자기 절제와 균형을 유지할 것.",
+      "cautions": [
+        "간목이 없으면 에너지 과잉으로 문제가 생길 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "조절",
+        "균형",
+        "절제",
+        "진월"
+      ]
+    },
+    {
+      "id": "RC-e8bda1bf2f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "인신충"
+      },
+      "mechanism": "인신충은 간목의 뿌리를 흔들어 위기를 초래함.",
+      "interpretation": "인신충이 발생하면 간목의 안정성이 약화될 수 있음.",
+      "action": "인신충의 영향을 최소화하기 위해 대비책을 마련할 것.",
+      "cautions": [
+        "위기 상황에서 신중히 대처할 것."
+      ],
+      "tags": [
+        "인신충",
+        "간목",
+        "위기",
+        "안정성",
+        "대비"
+      ]
+    },
+    {
+      "id": "RC-46aaadbed4",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "element": "경금"
+      },
+      "mechanism": "경금은 재생살로 승진과 직위 상승을 유도함.",
+      "interpretation": "경금이 오면 승진 기회가 생기지만, 인성에 영향을 줄 수 있음.",
+      "action": "승진 시 과거의 자격과 기록을 점검할 것.",
+      "cautions": [
+        "인성 손상으로 인해 신뢰를 잃을 위험이 있음."
+      ],
+      "tags": [
+        "경금",
+        "승진",
+        "재생살",
+        "직위",
+        "인성"
+      ]
+    },
+    {
+      "id": "RC-0f63d0730d",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "진월 병화의 일반적 특성"
+      },
+      "mechanism": "진월 병화는 에너지의 시작과 확장이 강함.",
+      "interpretation": "진월 병화는 다방면으로 활동적이지만 마무리가 부족할 수 있음.",
+      "action": "활동을 줄이고 집중력을 높이는 연습을 할 것.",
+      "cautions": [
+        "과도한 활동으로 인해 피로가 누적될 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "병화",
+        "활동성",
+        "집중력",
+        "마무리"
+      ]
+    },
+    {
+      "id": "RC-9cebc22a13",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "fire_intensity": "high",
+        "water_presence": false
+      },
+      "mechanism": "강한 화를 조절하려면 수가 필요하며, 수가 없으면 금이 과열되어 위험해진다.",
+      "interpretation": "화가 강한 경우 수가 없으면 금이 터져서 문제를 일으킬 수 있다.",
+      "action": "화가 강한 사주에서는 수를 보완하여 균형을 맞추도록 한다.",
+      "cautions": [
+        "수가 없으면 금이 과열되어 건강 문제를 유발할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "금",
+        "수",
+        "조절",
+        "건강"
+      ]
+    },
+    {
+      "id": "RC-a4591d4658",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "earth_type": "진토",
+        "fire_intensity": "high"
+      },
+      "mechanism": "진토는 화의 강한 에너지를 안정적으로 조절할 수 있다.",
+      "interpretation": "진토는 화를 조절하는 데 가장 안정적인 역할을 한다.",
+      "action": "화가 강한 경우 진토를 활용하여 에너지를 안정화한다.",
+      "cautions": [
+        "진토가 없으면 화의 에너지가 조절되지 않을 수 있음."
+      ],
+      "tags": [
+        "화",
+        "진토",
+        "조절",
+        "안정",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-724396ee3a",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "earth_type": "축토",
+        "fire_intensity": "high"
+      },
+      "mechanism": "축토는 화를 조절하지만 급격한 변화를 초래할 수 있다.",
+      "interpretation": "축토는 화를 조절하지만 안정성이 떨어질 수 있다.",
+      "action": "축토를 사용할 경우 조절 과정에서의 급격한 변화를 주의한다.",
+      "cautions": [
+        "축토는 조절이 불안정할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "축토",
+        "조절",
+        "급격",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-8269a08d96",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "fire_intensity": "high",
+        "wood_presence": true
+      },
+      "mechanism": "간목은 화와 토의 에너지를 조절하며 균형을 잡아준다.",
+      "interpretation": "간목이 있으면 화와 토의 에너지가 조화롭게 작용한다.",
+      "action": "진월 병화 사주에서는 간목을 활용하여 조화를 이룬다.",
+      "cautions": [
+        "간목이 없으면 화와 토의 에너지가 불균형해질 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "병화",
+        "간목",
+        "조화",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-2750ba08d5",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "water_presence": false
+      },
+      "mechanism": "수가 없으면 직장 생활보다는 프리랜서나 자영업이 더 적합하다.",
+      "interpretation": "진월 병화 사주에서 수가 없으면 직장보다는 독립적인 직업이 유리하다.",
+      "action": "수가 없는 경우 프리랜서나 자영업을 고려한다.",
+      "cautions": [
+        "수가 없으면 직장 생활에서 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "병화",
+        "수",
+        "직업",
+        "프리랜서"
+      ]
+    },
+    {
+      "id": "RC-dcae59fc14",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "earth_type": "진토",
+        "earth_type_2": "술토"
+      },
+      "mechanism": "술토는 진토의 확장성을 조절하여 안정성을 부여한다.",
+      "interpretation": "진토와 술토의 조합은 확장성과 안정성을 동시에 제공한다.",
+      "action": "진토와 술토의 조합을 활용하여 균형을 유지한다.",
+      "cautions": [
+        "술토가 없으면 진토의 확장성이 과도해질 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "술토",
+        "확장성",
+        "안정성",
+        "조합"
+      ]
+    },
+    {
+      "id": "RC-be9712481c",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "wood_presence": true,
+        "water_presence": true
+      },
+      "mechanism": "간목과 임수는 교육과 조언 능력을 강화한다.",
+      "interpretation": "간목과 임수가 있으면 교육 및 조언 역할에 적합하다.",
+      "action": "교육 관련 직업이나 조언 역할을 고려한다.",
+      "cautions": [
+        "간목과 임수가 없으면 교육적 역할이 제한될 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "임수",
+        "교육",
+        "조언",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-5077cdb412",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "fire_intensity": "high",
+        "wood_presence": false
+      },
+      "mechanism": "간목이 없으면 화와 토의 에너지가 조화롭지 못하다.",
+      "interpretation": "간목이 없으면 화와 토의 에너지가 불균형해질 수 있다.",
+      "action": "간목을 보완하여 에너지 균형을 맞춘다.",
+      "cautions": [
+        "간목이 없으면 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "병화",
+        "간목",
+        "조화",
+        "불균형"
+      ]
+    },
+    {
+      "id": "RC-9d33f7996f",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "earth_type": "진토",
+        "spouse_palace": true
+      },
+      "mechanism": "진토가 배우자궁에 있으면 배우자 복이 강하다.",
+      "interpretation": "배우자궁에 진토가 있으면 안정적인 결혼 생활이 가능하다.",
+      "action": "배우자궁의 진토를 활용하여 결혼 생활을 안정적으로 유지한다.",
+      "cautions": [
+        "진토가 없으면 배우자 복이 약할 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "배우자궁",
+        "결혼",
+        "안정",
+        "복"
+      ]
+    },
+    {
+      "id": "RC-1608190e68",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "water_presence": true
+      },
+      "mechanism": "임수는 지속력을 제공하며 직업적 안정성을 높인다.",
+      "interpretation": "임수가 있으면 직업에서 지속적인 성과를 낼 수 있다.",
+      "action": "임수를 활용하여 직업적 안정성을 강화한다.",
+      "cautions": [
+        "임수가 없으면 직업적 변동성이 클 수 있음."
+      ],
+      "tags": [
+        "진월",
+        "임수",
+        "직업",
+        "안정성",
+        "지속력"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_104",
+  "updated_at": "2025-12-23T20:27:24"
+}

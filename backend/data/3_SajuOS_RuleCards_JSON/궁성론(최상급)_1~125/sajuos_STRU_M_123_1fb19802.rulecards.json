@@ -1,0 +1,479 @@
+{
+  "title": "SajuOS_Logic_STRU_M_123",
+  "rulecards": [
+    {
+      "id": "RC-dd0b61c5ad",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "쟁재",
+        "bi_gab": true
+      },
+      "mechanism": "쟁재와 비겁이 많으면 아버지의 경제적 능력이 약화됨.",
+      "interpretation": "가족 내 경제적 어려움이 발생할 가능성이 있음.",
+      "action": "가족의 경제적 상황을 객관적으로 분석하고 대처 방안을 마련.",
+      "cautions": [
+        "가족 간의 갈등을 유발할 수 있음.",
+        "자책하지 않도록 주의."
+      ],
+      "tags": [
+        "쟁재",
+        "비겁",
+        "경제적 어려움",
+        "가족",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-358077bd98",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "개수",
+        "month": "4월"
+      },
+      "mechanism": "4월의 개수는 신약하지만 윤활 조건을 통해 조화를 이룸.",
+      "interpretation": "상대방을 통해 자신의 존재감을 드러내는 삶의 방식.",
+      "action": "상대방과의 협력을 통해 자신의 가치를 극대화.",
+      "cautions": [
+        "자신의 주체성을 잃지 않도록 주의.",
+        "대상 의존성을 경계."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "윤활",
+        "조화",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-de9de53026",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "간목",
+          "무토"
+        ]
+      },
+      "mechanism": "간목과 무토가 개수의 윤활 조건을 강화.",
+      "interpretation": "간목과 무토가 있으면 개수가 더 큰 성과를 낼 수 있음.",
+      "action": "간목과 무토의 역할을 활용하여 자신의 능력을 발휘.",
+      "cautions": [
+        "간목과 무토가 없을 경우 대안적 방법 모색 필요."
+      ],
+      "tags": [
+        "개수",
+        "간목",
+        "무토",
+        "윤활",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-33c5acb781",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "method": "억부법"
+      },
+      "mechanism": "억부법으로 개수의 신강약을 논하는 것은 부적절.",
+      "interpretation": "4월의 개수는 신강약보다 윤활 조건이 더 중요.",
+      "action": "억부법 대신 윤활 조건을 중심으로 해석.",
+      "cautions": [
+        "억부법에 지나치게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "억부법",
+        "윤활",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-169261f79e",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "신금"
+        ]
+      },
+      "mechanism": "신금이 개수의 즉시 활용 가능성을 높임.",
+      "interpretation": "신금이 있으면 빠르게 배우고 적용할 수 있음.",
+      "action": "신금의 특성을 활용하여 전문성을 강화.",
+      "cautions": [
+        "신금이 없을 경우 학습 속도가 느려질 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "신금",
+        "전문성",
+        "학습"
+      ]
+    },
+    {
+      "id": "RC-9c3204114f",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "토"
+        ]
+      },
+      "mechanism": "토가 있으면 규모를 키우는 데 유리.",
+      "interpretation": "토가 있으면 사업이나 프로젝트를 확장 가능.",
+      "action": "토의 에너지를 활용하여 사업 규모를 확장.",
+      "cautions": [
+        "토가 없을 경우 확장에 한계가 있을 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "토",
+        "확장",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-5f091de516",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "재"
+        ]
+      },
+      "mechanism": "재를 다룰 수 있는 능력이 재복을 결정.",
+      "interpretation": "재를 잘 다루면 경제적 안정과 성공 가능.",
+      "action": "재 관련 지식과 기술을 습득하여 활용.",
+      "cautions": [
+        "재를 다루는 능력이 부족하면 손실 가능."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "재복",
+        "경제",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-cc2d3b98f5",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "인성"
+        ]
+      },
+      "mechanism": "인성이 개수의 사회적 시스템 적응력을 높임.",
+      "interpretation": "인성이 있으면 사회적 시스템에서 중요한 역할 가능.",
+      "action": "인성을 활용하여 사회적 시스템에 기여.",
+      "cautions": [
+        "인성이 없을 경우 적응력이 떨어질 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "인성",
+        "사회적 시스템",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-14ea008acb",
+      "topic": "GENERAL",
+      "priority": 7,
+      "trigger": {
+        "note": "4월의 개수와 관련된 일반적 특성"
+      },
+      "mechanism": "4월의 개수는 조화와 균형을 중시.",
+      "interpretation": "사회적 관계에서 조화로운 역할을 수행.",
+      "action": "균형을 유지하며 관계를 조율.",
+      "cautions": [
+        "균형을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "조화",
+        "균형",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-115f672185",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "개수",
+        "month": "4월",
+        "supporting_elements": [
+          "목생화"
+        ]
+      },
+      "mechanism": "목생화가 개수의 성장과 발전을 돕음.",
+      "interpretation": "목생화가 있으면 지속적인 성장 가능.",
+      "action": "목생화의 에너지를 활용하여 발전.",
+      "cautions": [
+        "목생화가 없을 경우 성장 속도가 느려질 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "4월",
+        "목생화",
+        "성장",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-3cc5d6b3ec",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "month": "사월",
+        "element": "금",
+        "strength": "strong"
+      },
+      "mechanism": "금이 재를 운용하는 데 필요한 안정성을 제공함.",
+      "interpretation": "금이 있으면 재를 효과적으로 관리하고 부를 축적할 가능성이 높아짐.",
+      "action": "금의 에너지를 활용해 재정 계획을 세우고 실행하라.",
+      "cautions": [
+        "금이 없으면 재를 관리하기 어려울 수 있음.",
+        "재다신약일 경우 소비와 지출 통제에 주의 필요."
+      ],
+      "tags": [
+        "사월",
+        "금",
+        "재복",
+        "재다신약",
+        "재정관리"
+      ]
+    },
+    {
+      "id": "RC-f380637d0c",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "사월",
+        "element": "금",
+        "career_path": "study"
+      },
+      "mechanism": "금이 공부와 직업적 성공을 지원함.",
+      "interpretation": "금이 있으면 학업과 직장생활에서 안정적 성과를 낼 가능성이 높음.",
+      "action": "금의 에너지를 활용해 학업과 직업적 목표를 설정하고 달성하라.",
+      "cautions": [
+        "금이 없으면 학업과 직업적 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "금",
+        "학업",
+        "직장",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-7ddb6c2e3e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "사월",
+        "element": "개수",
+        "relation": "strong"
+      },
+      "mechanism": "개수가 관계를 조화롭게 유지하는 데 도움을 줌.",
+      "interpretation": "사월의 개수는 주변 사람들과의 관계를 원활히 유지하는 데 유리함.",
+      "action": "개수의 에너지를 활용해 인간관계를 강화하라.",
+      "cautions": [
+        "개수가 약하면 관계 유지에 어려움이 있을 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "개수",
+        "관계",
+        "조화",
+        "이타성"
+      ]
+    },
+    {
+      "id": "RC-d807c2c1b4",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "사월",
+        "element": "금",
+        "structure": "재관"
+      },
+      "mechanism": "재관 구조가 금의 에너지를 통해 강화됨.",
+      "interpretation": "재관 구조가 뚜렷하면 자신의 목표를 달성할 기회가 많아짐.",
+      "action": "재관 구조를 활용해 목표를 명확히 하고 실행하라.",
+      "cautions": [
+        "재관 구조가 약하면 목표 달성에 어려움이 있을 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "금",
+        "재관",
+        "목표",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-224e5c8658",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "사월의 개축일주와 관련된 일반적 특성"
+      },
+      "mechanism": "사월의 개축일주는 기본적으로 안정적이고 조화로운 에너지를 가짐.",
+      "interpretation": "사월의 개축일주는 평범하면서도 안정적인 삶을 살 가능성이 높음.",
+      "action": "사월의 기본 에너지를 활용해 안정적인 삶을 유지하라.",
+      "cautions": [
+        "극단적인 선택을 피하고 안정성을 유지하라."
+      ],
+      "tags": [
+        "사월",
+        "개축일주",
+        "안정성",
+        "조화",
+        "평범"
+      ]
+    },
+    {
+      "id": "RC-90432f9a0f",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "month": "사월",
+        "element": "재다신약",
+        "gender": "male"
+      },
+      "mechanism": "재다신약은 이성 관계에서 주목받는 특성을 가짐.",
+      "interpretation": "재다신약 남성은 이성에게 매력적으로 보이지만 관계에서 휘둘릴 가능성이 있음.",
+      "action": "이성 관계에서 자신의 주도권을 유지하려 노력하라.",
+      "cautions": [
+        "재다신약은 이성 관계에서 지나치게 휘둘릴 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "재다신약",
+        "이성",
+        "관계",
+        "매력"
+      ]
+    },
+    {
+      "id": "RC-1a0c89191d",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "신축",
+        "element": "금",
+        "impact": "positive"
+      },
+      "mechanism": "신축년의 금 에너지가 재를 운용하는 데 도움을 줌.",
+      "interpretation": "신축년은 재정적 독립과 안정성을 구축하기 좋은 시기임.",
+      "action": "신축년의 기회를 활용해 재정적 목표를 달성하라.",
+      "cautions": [
+        "신축년의 기회를 놓치지 않도록 계획적으로 행동하라."
+      ],
+      "tags": [
+        "신축년",
+        "금",
+        "재정",
+        "독립",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-0996eacd7e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "사월",
+        "element": "금",
+        "career_path": "entrepreneurship"
+      },
+      "mechanism": "금이 사업적 기질과 자기 주도성을 강화함.",
+      "interpretation": "사월의 금은 사업적 성공과 자기 주도적 성향을 지원함.",
+      "action": "사업적 기회를 탐색하고 자기 주도적으로 실행하라.",
+      "cautions": [
+        "사업적 실패를 방지하기 위해 철저한 계획이 필요함."
+      ],
+      "tags": [
+        "사월",
+        "금",
+        "사업",
+        "자기주도",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-50663dbbbc",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "사월",
+        "element": "목",
+        "structure": "식상"
+      },
+      "mechanism": "목의 식상 에너지가 창의성과 탈출구를 제공함.",
+      "interpretation": "목이 있으면 스트레스를 해소하고 창의적 활동을 통해 삶의 질을 높일 수 있음.",
+      "action": "목의 에너지를 활용해 창의적 활동에 참여하라.",
+      "cautions": [
+        "목이 없으면 스트레스 해소 방법을 찾기 어려울 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "목",
+        "식상",
+        "창의성",
+        "스트레스"
+      ]
+    },
+    {
+      "id": "RC-1c4017f1a4",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "사월",
+        "element": "평관",
+        "relation": "strong"
+      },
+      "mechanism": "평관이 동지애와 강한 관계를 형성함.",
+      "interpretation": "평관이 강하면 동료와의 관계에서 깊은 유대감을 형성할 가능성이 높음.",
+      "action": "평관의 에너지를 활용해 동료와의 관계를 강화하라.",
+      "cautions": [
+        "평관이 약하면 관계에서 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "사월",
+        "평관",
+        "동지애",
+        "유대감",
+        "관계"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_123",
+  "updated_at": "2025-12-23T20:27:24"
+}

@@ -1,0 +1,464 @@
+{
+  "title": "SajuOS_Logic_STRU_M_141",
+  "rulecards": [
+    {
+      "id": "RC-f5aa435cee",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "미월",
+        "element": "정화"
+      },
+      "mechanism": "미월의 정화는 높은 온도를 가지며 인위적이고 목적 지향적이다.",
+      "interpretation": "정화는 대상을 필요로 하며 기술적이고 기능적인 면에서 뛰어나다.",
+      "action": "정화의 특성을 살려 만지고 조작할 수 있는 활동을 추천한다.",
+      "cautions": [
+        "초반 열정은 강하지만 지속력이 약할 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "온도",
+        "기술",
+        "목적지향"
+      ]
+    },
+    {
+      "id": "RC-933a45dbdf",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "경금"
+      },
+      "mechanism": "미월 정화는 경금을 통해 완성도를 높일 수 있다.",
+      "interpretation": "경금이 없으면 정화의 열이 부족해 완성도가 떨어질 수 있다.",
+      "action": "경금을 활용해 정화의 에너지를 보완하도록 한다.",
+      "cautions": [
+        "경금이 없으면 작심삼일 경향이 강해질 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "경금",
+        "완성도",
+        "열"
+      ]
+    },
+    {
+      "id": "RC-a7378fb9db",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "감목"
+      },
+      "mechanism": "감목은 정화의 동기부여와 지속력을 강화한다.",
+      "interpretation": "감목이 있으면 정화는 끝까지 해내는 힘을 얻는다.",
+      "action": "감목을 통해 동기부여를 강화하고 지속력을 유지한다.",
+      "cautions": [
+        "감목이 없으면 환경 활용이 어려울 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "감목",
+        "동기부여",
+        "지속력"
+      ]
+    },
+    {
+      "id": "RC-23d3148f28",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "개수"
+      },
+      "mechanism": "개수는 정화의 열을 낮추어 에너지 활용을 방해할 수 있다.",
+      "interpretation": "개수가 있으면 정화의 열성이 약화되어 풍파를 겪을 가능성이 높다.",
+      "action": "개수가 있을 경우 무토를 활용해 균형을 맞춘다.",
+      "cautions": [
+        "개수가 강하면 정화의 에너지가 얼어붙을 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "개수",
+        "열",
+        "무토"
+      ]
+    },
+    {
+      "id": "RC-c654431942",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "대운"
+      },
+      "mechanism": "대운의 방향에 따라 정화의 에너지 활용이 달라진다.",
+      "interpretation": "대운에서 빛으로 쓰이는 방향이 정화에게 유리하다.",
+      "action": "대운의 흐름을 분석해 정화의 에너지를 최적화한다.",
+      "cautions": [
+        "대운에서 개수가 강하면 고난이 예상된다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "대운",
+        "빛",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-0323bd0475",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "경금"
+      },
+      "mechanism": "경금은 정화의 기술적 능력을 강화한다.",
+      "interpretation": "정화는 경금을 통해 분석적이고 실무적인 직업에 적합하다.",
+      "action": "경금을 활용해 기술적 전문성을 키운다.",
+      "cautions": [
+        "경금이 없으면 실무 능력이 약화될 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "경금",
+        "기술",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-bde7b85b74",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "감목"
+      },
+      "mechanism": "감목은 정화의 학습 동기를 강화한다.",
+      "interpretation": "감목이 있으면 정화는 학업에서 꾸준히 성과를 낼 수 있다.",
+      "action": "감목의 영향을 활용해 학습 목표를 명확히 한다.",
+      "cautions": [
+        "감목이 없으면 학업 지속력이 약할 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "감목",
+        "학업",
+        "동기"
+      ]
+    },
+    {
+      "id": "RC-766c00e7a6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "relation": "편관"
+      },
+      "mechanism": "편관은 정화에게 고난과 도전을 의미한다.",
+      "interpretation": "편관이 있으면 정화는 어려움을 통해 성장할 가능성이 높다.",
+      "action": "편관의 도전을 극복하며 성장의 기회로 삼는다.",
+      "cautions": [
+        "편관이 강하면 고난이 지나치게 클 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "편관",
+        "고난",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-30fd152b6f",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "month": "미월",
+        "element": "정화",
+        "supporting_element": "경금"
+      },
+      "mechanism": "경금은 정화의 재물 관리 능력을 강화한다.",
+      "interpretation": "경금을 통해 정화는 재테크와 자산 관리에 능숙해진다.",
+      "action": "경금을 활용해 재테크 전략을 세운다.",
+      "cautions": [
+        "경금이 없으면 재물 관리가 어려울 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "경금",
+        "재물",
+        "재테크"
+      ]
+    },
+    {
+      "id": "RC-5913907747",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "미월 정화의 일반적 특성"
+      },
+      "mechanism": "미월 정화는 열정적이지만 지속력이 약하다.",
+      "interpretation": "초반 열정은 강하지만 꾸준히 이어가기 어렵다.",
+      "action": "목표를 설정하고 지속적으로 동기를 부여한다.",
+      "cautions": [
+        "작심삼일 경향이 강할 수 있다."
+      ],
+      "tags": [
+        "정화",
+        "미월",
+        "열정",
+        "지속력",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-62e00e7305",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "관인상생": true
+      },
+      "mechanism": "관성과 인성이 조화를 이루어 긍정적인 관계를 형성함.",
+      "interpretation": "배우자와의 관계가 조화롭고 사랑을 끌어오는 매력이 있음.",
+      "action": "관성과 인성의 조화를 유지하도록 노력.",
+      "cautions": [
+        "관성이 약해지면 제극인이 발생할 수 있음."
+      ],
+      "tags": [
+        "관성",
+        "인성",
+        "관계",
+        "조화",
+        "사랑"
+      ]
+    },
+    {
+      "id": "RC-087bb80255",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "관성": {
+          "strength": "weak"
+        }
+      },
+      "mechanism": "관성이 약하면 제극인이 발생하여 갈등이 생김.",
+      "interpretation": "배우자가 중심을 잡지 못하고 갈등이 발생할 가능성이 있음.",
+      "action": "관성을 강화하거나 조화롭게 유지할 방법을 모색.",
+      "cautions": [
+        "갈등 상황을 방치하지 말 것."
+      ],
+      "tags": [
+        "관성",
+        "갈등",
+        "제극인",
+        "배우자",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-baccaf3303",
+      "topic": "EXAM",
+      "priority": 9,
+      "trigger": {
+        "월지": "미월",
+        "정화": true,
+        "청관": {
+          "목": true
+        }
+      },
+      "mechanism": "목이 정화를 지원하여 학업 성취를 돕는 구조.",
+      "interpretation": "목이 있으면 학업 성과가 상위권으로 올라갈 가능성이 높음.",
+      "action": "목의 기운을 활용하여 학업에 집중.",
+      "cautions": [
+        "목이 없으면 학업 성과가 평범할 수 있음."
+      ],
+      "tags": [
+        "미월",
+        "정화",
+        "목",
+        "학업",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-f4fbf134bc",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "인성": true,
+        "경금": false
+      },
+      "mechanism": "인성이 직업적 안정성을 제공하지만 경금이 없으면 자영업보다는 취직이 유리.",
+      "interpretation": "직장생활을 통해 안정적인 경력을 쌓을 가능성이 높음.",
+      "action": "취업을 목표로 준비하고 면접 경험을 쌓을 것.",
+      "cautions": [
+        "경금이 없으면 자영업은 어려울 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "취업",
+        "직장생활",
+        "경금",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-3f150a206d",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "인성": true,
+        "경금": true
+      },
+      "mechanism": "경금이 있으면 기술적 코드와 손재주를 활용한 직업 선택 가능.",
+      "interpretation": "정비나 기술 관련 직업에 적합.",
+      "action": "기술적 역량을 개발하고 관련 직업을 탐색.",
+      "cautions": [
+        "경금이 없으면 기술직은 어려울 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "기술",
+        "정비",
+        "손재주",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-7e938b4aa7",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "미월": true,
+        "정화": true,
+        "목": false
+      },
+      "mechanism": "목이 없으면 정화가 학업 성취에 어려움을 겪음.",
+      "interpretation": "학업 성과가 낮고 시간 대비 효율이 떨어질 가능성이 있음.",
+      "action": "목의 기운을 보완하거나 학습 전략을 조정.",
+      "cautions": [
+        "목이 없으면 학업 성과가 제한적일 수 있음."
+      ],
+      "tags": [
+        "미월",
+        "정화",
+        "목",
+        "학업",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-a01e775a6c",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "인성": true,
+        "목": false,
+        "경금": false
+      },
+      "mechanism": "목과 경금이 없으면 직업적 안정성이 낮아짐.",
+      "interpretation": "직업 선택에 어려움이 있을 수 있음.",
+      "action": "목과 경금의 기운을 보완하거나 현실적인 직업 목표 설정.",
+      "cautions": [
+        "목과 경금이 없으면 직업적 불안정 가능."
+      ],
+      "tags": [
+        "인성",
+        "목",
+        "경금",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-bd834ef8ac",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "충미충": true
+      },
+      "mechanism": "충미충은 부모와의 기대치 갈등을 나타냄.",
+      "interpretation": "독립적인 성향이 강하고 부모의 기대를 거스르는 경향이 있음.",
+      "action": "독립을 지원하고 자율성을 존중.",
+      "cautions": [
+        "부모와의 갈등을 최소화하려는 노력이 필요."
+      ],
+      "tags": [
+        "충미충",
+        "독립",
+        "갈등",
+        "부모",
+        "자율성"
+      ]
+    },
+    {
+      "id": "RC-702847e9c4",
+      "topic": "EXAM",
+      "priority": 7,
+      "trigger": {
+        "미월": true,
+        "정화": true,
+        "감목": true
+      },
+      "mechanism": "감목이 정화를 지원하여 학업 성취를 돕는 구조.",
+      "interpretation": "감목이 있으면 학업 성과가 더욱 향상될 가능성이 있음.",
+      "action": "감목의 기운을 활용하여 학업에 집중.",
+      "cautions": [
+        "감목이 없으면 학업 성과가 제한적일 수 있음."
+      ],
+      "tags": [
+        "미월",
+        "정화",
+        "감목",
+        "학업",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-7b0fa54800",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "미월": true,
+        "정화": true,
+        "목": true
+      },
+      "mechanism": "목이 정화를 지원하여 직업적 성취를 돕는 구조.",
+      "interpretation": "목이 있으면 직업적 성과가 높아질 가능성이 있음.",
+      "action": "목의 기운을 활용하여 직업 목표를 설정.",
+      "cautions": [
+        "목이 없으면 직업적 성과가 제한적일 수 있음."
+      ],
+      "tags": [
+        "미월",
+        "정화",
+        "목",
+        "직업",
+        "성취"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_141",
+  "updated_at": "2025-12-23T20:27:24"
+}

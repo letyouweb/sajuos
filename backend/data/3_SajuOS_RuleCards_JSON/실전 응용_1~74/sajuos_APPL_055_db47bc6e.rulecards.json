@@ -1,0 +1,465 @@
+{
+  "title": "SajuOS_Logic_APPL_055",
+  "rulecards": [
+    {
+      "id": "RC-7a96b2dbce",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "병화",
+        "context": "눈과 심장 관련"
+      },
+      "mechanism": "병화는 눈과 심장 에너지와 연결됨.",
+      "interpretation": "눈과 심장 건강에 주의가 필요함.",
+      "action": "눈과 심장 관련 정기 검진을 권장.",
+      "cautions": [
+        "과도한 스트레스 주의",
+        "심혈관 질환 가족력 확인"
+      ],
+      "tags": [
+        "병화",
+        "눈",
+        "심장",
+        "건강",
+        "스트레스",
+        "혈관",
+        "질병",
+        "검진"
+      ]
+    },
+    {
+      "id": "RC-f99d344425",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "갑목",
+        "context": "혈압 정상 범위"
+      },
+      "mechanism": "갑목은 혈액 공급과 에너지 순환을 원활히 함.",
+      "interpretation": "혈압이 안정적이고 건강 상태가 양호할 가능성이 높음.",
+      "action": "규칙적인 운동과 균형 잡힌 식단 유지.",
+      "cautions": [
+        "혈압 변화 주의",
+        "운동 부족 경계"
+      ],
+      "tags": [
+        "갑목",
+        "혈압",
+        "에너지",
+        "건강",
+        "운동",
+        "식단",
+        "혈액순환"
+      ]
+    },
+    {
+      "id": "RC-52c7e00873",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "context": "혈압 변동성"
+      },
+      "mechanism": "을목은 에너지 변동성이 크고 불안정함.",
+      "interpretation": "건강 관리가 어려울 수 있음.",
+      "action": "규칙적인 생활 습관과 운동으로 안정성 확보.",
+      "cautions": [
+        "혈압 변동 주의",
+        "스트레스 관리 필요"
+      ],
+      "tags": [
+        "을목",
+        "혈압",
+        "건강관리",
+        "운동",
+        "스트레스",
+        "변동성"
+      ]
+    },
+    {
+      "id": "RC-01e10ab687",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "목생화",
+        "context": "토의 간섭"
+      },
+      "mechanism": "목생화가 토에 의해 방해받으면 화의 에너지가 약화됨.",
+      "interpretation": "시력과 심장 건강에 이상이 생길 수 있음.",
+      "action": "토의 영향을 줄이는 생활 습관 유지.",
+      "cautions": [
+        "토의 과도한 영향 주의",
+        "정기 검진 필요"
+      ],
+      "tags": [
+        "목생화",
+        "토",
+        "시력",
+        "심장",
+        "건강",
+        "에너지",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-0c6699864d",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "화생토",
+        "context": "노화 속도"
+      },
+      "mechanism": "화생토는 적절한 노화 속도를 유지함.",
+      "interpretation": "자연스러운 노화 과정을 의미.",
+      "action": "균형 잡힌 생활 습관 유지.",
+      "cautions": [
+        "화생토 불균형 주의",
+        "노화 관련 질병 예방"
+      ],
+      "tags": [
+        "화생토",
+        "노화",
+        "건강",
+        "균형",
+        "생활습관",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-3c6933cea0",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "금",
+        "context": "피부와 교환 시스템"
+      },
+      "mechanism": "금은 피부와 산소 교환 시스템을 관장함.",
+      "interpretation": "피부 건강과 호흡기 건강에 중요.",
+      "action": "피부 관리와 호흡기 건강 유지.",
+      "cautions": [
+        "피부 질환 주의",
+        "호흡기 질환 예방"
+      ],
+      "tags": [
+        "금",
+        "피부",
+        "호흡기",
+        "건강",
+        "교환 시스템",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-14996d2e91",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "화극금",
+        "context": "혈관 문제"
+      },
+      "mechanism": "화가 금을 과도하게 압박하면 혈관 손상이 발생.",
+      "interpretation": "고혈압, 동맥경화 등 혈관 질환 위험 증가.",
+      "action": "콜레스테롤 관리와 혈압 조절.",
+      "cautions": [
+        "고혈압 주의",
+        "콜레스테롤 수치 확인"
+      ],
+      "tags": [
+        "화극금",
+        "혈관",
+        "고혈압",
+        "콜레스테롤",
+        "질병",
+        "건강"
+      ]
+    },
+    {
+      "id": "RC-cac9f26fd3",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "금생수",
+        "context": "신장과 회복력"
+      },
+      "mechanism": "금생수는 신장의 여과력과 회복력을 강화함.",
+      "interpretation": "신장 건강과 체력 회복에 도움.",
+      "action": "수분 섭취와 신장 건강 관리.",
+      "cautions": [
+        "신장 기능 저하 주의",
+        "수분 부족 경계"
+      ],
+      "tags": [
+        "금생수",
+        "신장",
+        "회복력",
+        "건강",
+        "수분",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-95ec529f84",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "토극수",
+        "context": "수의 활용"
+      },
+      "mechanism": "토극수는 수의 에너지를 안정적으로 활용함.",
+      "interpretation": "생식기 건강과 에너지 활용에 중요.",
+      "action": "토와 수의 균형 유지.",
+      "cautions": [
+        "토극수 불균형 주의",
+        "생식기 건강 확인"
+      ],
+      "tags": [
+        "토극수",
+        "수",
+        "생식기",
+        "건강",
+        "균형",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-78e0cc7b3e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "수국화",
+        "context": "혈액순환 문제"
+      },
+      "mechanism": "수국화는 화의 에너지를 억제하여 혈액순환에 영향을 미침.",
+      "interpretation": "혈액순환 장애와 관련된 질병 위험.",
+      "action": "운동과 체온 유지로 혈액순환 개선.",
+      "cautions": [
+        "혈액순환 장애 주의",
+        "체온 관리 필요"
+      ],
+      "tags": [
+        "수국화",
+        "혈액순환",
+        "건강",
+        "운동",
+        "체온",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-8fd78a6ed6",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "note": "운이 맞춰지지 않을 때"
+      },
+      "mechanism": "운이 건강과 연결되어 있음.",
+      "interpretation": "운에 따라 적절한 의사나 치료를 만날 수 있음.",
+      "action": "운에 맞춰 병원을 방문하거나 치료를 계획.",
+      "cautions": [
+        "운이 맞지 않으면 치료 효과가 떨어질 수 있음."
+      ],
+      "tags": [
+        "운",
+        "치료",
+        "건강",
+        "의사",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-f77aa9da6a",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "note": "수생목의 에너지 부족"
+      },
+      "mechanism": "수생목은 신경계와 호르몬 체계에 영향을 미침.",
+      "interpretation": "수생목 부족은 신경계 및 호르몬 관련 질병과 연결됨.",
+      "action": "수생목을 보완하는 활동이나 환경을 조성.",
+      "cautions": [
+        "호르몬 불균형으로 인한 질병 가능성."
+      ],
+      "tags": [
+        "수생목",
+        "신경계",
+        "호르몬",
+        "질병",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-84f569b3f7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "note": "토의 에너지 부족 또는 과다"
+      },
+      "mechanism": "토는 음양의 균형과 정체성 형성에 관여.",
+      "interpretation": "토의 불균형은 성 정체성 문제를 유발할 수 있음.",
+      "action": "토의 균형을 맞추는 활동을 고려.",
+      "cautions": [
+        "토의 과다나 부족은 정체성 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "토",
+        "균형",
+        "정체성",
+        "음양",
+        "불균형"
+      ]
+    },
+    {
+      "id": "RC-5de4fc832b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "note": "금과 목의 충돌"
+      },
+      "mechanism": "금극목은 뼈와 피부, 관절 문제와 연결됨.",
+      "interpretation": "금극목은 통증과 정형외과적 질병을 유발할 수 있음.",
+      "action": "금극목 해소를 위한 화수의 보완을 고려.",
+      "cautions": [
+        "통증 및 관절 문제 가능성."
+      ],
+      "tags": [
+        "금극목",
+        "통증",
+        "관절",
+        "정형외과",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-048bb1d5b6",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "note": "원진 관계가 있을 때"
+      },
+      "mechanism": "원진은 극의 관계를 강화하여 질병을 유발.",
+      "interpretation": "원진은 질병 코드와 연결될 가능성이 높음.",
+      "action": "유연성을 기르는 운동을 통해 원진의 영향을 완화.",
+      "cautions": [
+        "원진은 증상이 없더라도 취약성을 증가시킬 수 있음."
+      ],
+      "tags": [
+        "원진",
+        "질병",
+        "유연성",
+        "극",
+        "취약성"
+      ]
+    },
+    {
+      "id": "RC-a44d46ca8a",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "note": "수의 에너지 고갈"
+      },
+      "mechanism": "수는 신장과 신체의 액체 순환에 영향을 미침.",
+      "interpretation": "수의 고갈은 신체의 건조와 노화를 가속화.",
+      "action": "수의 에너지를 보충하는 생활습관을 유지.",
+      "cautions": [
+        "수분 부족은 건강 문제를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "수",
+        "신장",
+        "건조",
+        "노화",
+        "수분"
+      ]
+    },
+    {
+      "id": "RC-7e926c88eb",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "note": "식상 운이 올 때"
+      },
+      "mechanism": "식상은 신체적 활동과 실행력을 강화.",
+      "interpretation": "식상 운은 건강 개선을 위한 실행의 시기.",
+      "action": "운동이나 식습관 교정을 통해 건강을 개선.",
+      "cautions": [
+        "운동이나 교정을 중단하지 않도록 주의."
+      ],
+      "tags": [
+        "식상",
+        "운동",
+        "실행",
+        "건강",
+        "교정"
+      ]
+    },
+    {
+      "id": "RC-313a9d8b91",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "note": "인성 운이 올 때"
+      },
+      "mechanism": "인성은 지식과 사람을 통해 회복을 돕음.",
+      "interpretation": "인성 운은 건강 정보를 탐구하고 활용할 시기.",
+      "action": "건강 관련 정보를 탐구하고 전문가의 도움을 받음.",
+      "cautions": [
+        "정보 탐구에만 그치지 말고 실행으로 연결."
+      ],
+      "tags": [
+        "인성",
+        "정보",
+        "탐구",
+        "건강",
+        "전문가"
+      ]
+    },
+    {
+      "id": "RC-c601fe21ae",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "note": "관 운이 올 때"
+      },
+      "mechanism": "관은 강제성과 장소적 요소를 포함.",
+      "interpretation": "관 운은 외부 도움과 환경 변화로 회복할 시기.",
+      "action": "휴양, 사우나 등 장소적 치료를 활용.",
+      "cautions": [
+        "강제적 환경 변화에 적응 필요."
+      ],
+      "tags": [
+        "관",
+        "강제성",
+        "장소",
+        "치료",
+        "회복"
+      ]
+    },
+    {
+      "id": "RC-57e090edcd",
+      "topic": "TIMING",
+      "priority": 5,
+      "trigger": {
+        "note": "비겁 운이 올 때"
+      },
+      "mechanism": "비겁은 자연치유와 식욕 회복을 촉진.",
+      "interpretation": "비겁 운은 자연치유와 건강 회복의 시기.",
+      "action": "식욕과 자연치유를 활용한 건강 관리.",
+      "cautions": [
+        "비겁이 과도하면 오히려 문제를 유발할 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "자연치유",
+        "식욕",
+        "건강",
+        "회복"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 길고 복잡하여 일부 규칙은 요약 및 단순화됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_055",
+  "updated_at": "2025-12-23T20:27:26"
+}

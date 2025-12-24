@@ -1,0 +1,121 @@
+{
+  "title": "SajuOS_Logic_ELEM_036",
+  "rulecards": [
+    {
+      "id": "RC-b0d5eadc49",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "임수"
+      },
+      "mechanism": "임수는 모으고 응집하는 에너지를 가짐.",
+      "interpretation": "임수는 데이터를 수집하고 응집하는 특성을 가짐.",
+      "action": "임수의 에너지를 활용해 정보를 체계적으로 정리하고 활용할 것.",
+      "cautions": [
+        "데이터만 모으고 활용하지 않으면 비효율적일 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "수집",
+        "응집",
+        "데이터",
+        "정보"
+      ]
+    },
+    {
+      "id": "RC-c76cf7a44b",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "정임합",
+        "temperature": "high"
+      },
+      "mechanism": "정화가 임수의 온도를 높여 수증기로 변환시킴.",
+      "interpretation": "정임합이 고온에서 발생하면 임수의 응집력이 약화되고 흩어짐.",
+      "action": "정임합이 있는 경우 차분함을 유지하고 이성적 판단을 강화할 것.",
+      "cautions": [
+        "고온 환경에서는 판단력이 흐려질 수 있음.",
+        "감정적 행동에 주의 필요."
+      ],
+      "tags": [
+        "정임합",
+        "온도",
+        "응집력",
+        "흩어짐",
+        "판단력"
+      ]
+    },
+    {
+      "id": "RC-27cc5d5acd",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "정임합",
+        "state": "음란지합"
+      },
+      "mechanism": "정임합이 음란지합 상태가 되면 임수의 본래 특성이 손상됨.",
+      "interpretation": "음란지합은 판단력 저하와 감정적 행동을 유발.",
+      "action": "음란지합 상태에서는 차분함을 유지하고 유혹에 주의할 것.",
+      "cautions": [
+        "이성적 판단이 어려워질 수 있음.",
+        "감정적 판단에 휘둘릴 가능성 있음."
+      ],
+      "tags": [
+        "정임합",
+        "음란지합",
+        "판단력",
+        "감정",
+        "유혹"
+      ]
+    },
+    {
+      "id": "RC-75510a023d",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "state": "수답지 않음"
+      },
+      "mechanism": "임수가 본래의 응집력을 발휘하지 못함.",
+      "interpretation": "수답지 않은 상태는 인내심 부족과 감정적 불안정을 초래.",
+      "action": "수답지 않은 상태에서는 감정을 다스리고 안정감을 유지할 것.",
+      "cautions": [
+        "인내심 부족으로 실수를 초래할 수 있음.",
+        "감정적 판단에 주의 필요."
+      ],
+      "tags": [
+        "임수",
+        "수답지 않음",
+        "인내심",
+        "감정",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-c71909114c",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "금생수",
+        "source": "distant"
+      },
+      "mechanism": "멀리서 온 금이 임수를 생성함.",
+      "interpretation": "금생수가 원활하면 임수의 에너지가 강화됨.",
+      "action": "금생수가 잘 이루어지도록 환경을 조성할 것.",
+      "cautions": [
+        "금생수의 원천이 약하면 임수의 에너지가 약화될 수 있음."
+      ],
+      "tags": [
+        "금생수",
+        "임수",
+        "생성",
+        "에너지",
+        "원천"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_036",
+  "updated_at": "2025-12-23T20:27:25"
+}

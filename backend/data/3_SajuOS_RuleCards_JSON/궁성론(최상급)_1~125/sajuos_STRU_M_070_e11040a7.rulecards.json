@@ -1,0 +1,449 @@
+{
+  "title": "SajuOS_Logic_STRU_M_070",
+  "rulecards": [
+    {
+      "id": "RC-634e70e298",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금"
+      },
+      "mechanism": "경금은 용도가 불분명하여 활용 방안이 명확하지 않음.",
+      "interpretation": "경금은 주변 환경과 조화를 이루어야만 제대로 활용 가능.",
+      "action": "경금의 용도를 결정하기 위해 화와 수의 영향을 분석하라.",
+      "cautions": [
+        "경금의 활용이 불명확하면 번아웃 가능성 있음."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "수",
+        "활용",
+        "번아웃"
+      ]
+    },
+    {
+      "id": "RC-877b571637",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "supporting_elements": [
+          "화",
+          "수"
+        ]
+      },
+      "mechanism": "화는 경금을 압박하고, 수는 경금이 선호하는 방향으로 유도.",
+      "interpretation": "화와 수의 조화가 경금의 방향성을 결정.",
+      "action": "화와 수의 균형을 통해 경금의 역할을 명확히 하라.",
+      "cautions": [
+        "화와 수가 모두 없으면 경금의 직업적 방향성이 약화됨."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "수",
+        "조화",
+        "방향성"
+      ]
+    },
+    {
+      "id": "RC-b6c05beb1f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "해월",
+        "element": "경금"
+      },
+      "mechanism": "해월의 경금은 식신으로서 사회적 영향력을 발휘.",
+      "interpretation": "해월의 경금은 좋아하는 일을 직업화할 가능성이 높음.",
+      "action": "자신이 좋아하는 일을 반복적으로 계량하여 직업화하라.",
+      "cautions": [
+        "목표 설정이 어렵고, 반복이 핵심임을 잊지 말 것."
+      ],
+      "tags": [
+        "해월",
+        "경금",
+        "식신",
+        "직업화",
+        "반복"
+      ]
+    },
+    {
+      "id": "RC-ba465044ce",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "감목",
+        "month": "해월"
+      },
+      "mechanism": "감목은 식신의 결과를 직업화하는 데 필수적.",
+      "interpretation": "감목이 있으면 좋아하는 일이 직업으로 연결됨.",
+      "action": "감목의 유무를 확인하고, 없을 경우 대체 방안을 모색하라.",
+      "cautions": [
+        "감목이 없으면 직업화가 어려워질 수 있음."
+      ],
+      "tags": [
+        "감목",
+        "해월",
+        "식신",
+        "직업화",
+        "결과"
+      ]
+    },
+    {
+      "id": "RC-89b8741ed5",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "병화",
+        "month": "해월"
+      },
+      "mechanism": "병화는 경금의 식신생제를 활성화.",
+      "interpretation": "병화는 경금의 재능을 자연스럽게 드러내는 역할.",
+      "action": "병화의 유무를 확인하고, 활용 가능한 방안을 찾으라.",
+      "cautions": [
+        "병화가 없으면 재능 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "경금",
+        "식신생제",
+        "재능",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-fada60013e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "month": "해월"
+      },
+      "mechanism": "정화는 경금에게 명확한 목표를 부여.",
+      "interpretation": "정화는 경금의 직업적 안정성을 높임.",
+      "action": "정화의 영향을 분석하여 경금의 직업적 방향을 설정하라.",
+      "cautions": [
+        "정화가 없으면 목표 설정이 어려울 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "목표",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-89a4251cfd",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "무토",
+        "month": "해월"
+      },
+      "mechanism": "무토는 식신과 상관의 혼잡을 조절.",
+      "interpretation": "무토는 경금의 전문성을 강화.",
+      "action": "무토를 활용하여 식신과 상관의 균형을 맞추라.",
+      "cautions": [
+        "무토가 없으면 식신과 상관의 혼잡이 지속될 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "식신",
+        "상관",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-dec37c01fb",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "진해원진"
+      },
+      "mechanism": "진해원진은 한습 문제를 유발.",
+      "interpretation": "진해원진은 감정적 집착과 우울감을 초래.",
+      "action": "갑목을 활용하여 현실 인식을 강화하라.",
+      "cautions": [
+        "진해원진은 직업적 발전을 저해할 수 있음."
+      ],
+      "tags": [
+        "진해원진",
+        "한습",
+        "감정",
+        "우울",
+        "현실"
+      ]
+    },
+    {
+      "id": "RC-180f0abd53",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "갑목",
+        "month": "해월"
+      },
+      "mechanism": "갑목은 현실 인식을 강화하고 직업적 방향성을 제공.",
+      "interpretation": "갑목은 경금의 식신을 현실적으로 활용 가능하게 함.",
+      "action": "갑목의 유무를 확인하고, 없을 경우 대체 방안을 모색하라.",
+      "cautions": [
+        "갑목이 없으면 현실 인식이 약화될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "경금",
+        "현실",
+        "직업",
+        "방향성"
+      ]
+    },
+    {
+      "id": "RC-6e36cf4306",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "condition": "습 문제 해결 필요"
+      },
+      "mechanism": "병화는 습 문제를 해결하고 경금의 식신을 활성화.",
+      "interpretation": "병화는 경금의 재능을 극대화.",
+      "action": "병화를 활용하여 습 문제를 해결하고 재능을 발휘하라.",
+      "cautions": [
+        "병화가 없으면 습 문제로 인해 재능 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "습",
+        "경금",
+        "재능",
+        "해결"
+      ]
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "갑목",
+        "present": true
+      },
+      "mechanism": "갑목은 현실을 인식하고 문제를 해결하는 힘을 제공함.",
+      "interpretation": "갑목이 있으면 현실을 직시하고 상상력을 기반으로 직업적 성취를 이룰 수 있음.",
+      "action": "갑목의 에너지를 활용해 현실적인 목표를 설정하고 실행하라.",
+      "cautions": [
+        "갑목이 없으면 현실 회피 경향이 강해질 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "현실",
+        "직업",
+        "상상력",
+        "목"
+      ],
+      "id": "RC-6774bc8d7e"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "present": true
+      },
+      "mechanism": "병화는 습기를 해결하고 만족도를 높이는 역할을 함.",
+      "interpretation": "병화가 있으면 직업적 만족도가 높아지고 재물운이 좋아짐.",
+      "action": "병화를 활용해 습기를 해소하고 직업적 성취를 추구하라.",
+      "cautions": [
+        "병화가 없으면 직업적 불만이 생길 가능성이 있음."
+      ],
+      "tags": [
+        "병화",
+        "습기",
+        "만족도",
+        "재물",
+        "화"
+      ],
+      "id": "RC-5a7a85b613"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "식신생제",
+        "present": true
+      },
+      "mechanism": "식신생제는 재물을 창출하고 인기를 얻는 구조를 형성함.",
+      "interpretation": "식신생제가 강하면 창작 활동에서 성공 가능성이 높음.",
+      "action": "창작 활동에 집중하고 지속적으로 노력하라.",
+      "cautions": [
+        "식신생제가 약하면 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "식신생제",
+        "창작",
+        "재물",
+        "인기",
+        "지속성"
+      ],
+      "id": "RC-5bf96235b0"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "갑목-병화",
+        "present": true
+      },
+      "mechanism": "갑목과 병화의 조합은 현실적 문제 해결과 재물 창출에 유리함.",
+      "interpretation": "갑목과 병화가 함께 있으면 강력한 사회적 능력을 발휘할 수 있음.",
+      "action": "갑목과 병화의 조화를 활용해 사회적 성취를 추구하라.",
+      "cautions": [
+        "둘 중 하나라도 없으면 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "병화",
+        "사회적 능력",
+        "재물",
+        "조화"
+      ],
+      "id": "RC-ea973b9127"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "갑목-을목",
+        "present": true
+      },
+      "mechanism": "갑목은 현실적이고 을목은 이상적이어서 역할이 다름.",
+      "interpretation": "을목은 갑목을 대체할 수 없으며, 현실적 성취에 한계가 있음.",
+      "action": "을목을 활용할 때는 이상보다는 현실적인 접근을 고려하라.",
+      "cautions": [
+        "을목만으로는 현실적 문제 해결이 어려움."
+      ],
+      "tags": [
+        "갑목",
+        "을목",
+        "현실",
+        "이상",
+        "차이"
+      ],
+      "id": "RC-101ec03378"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "갑목",
+        "present": true
+      },
+      "mechanism": "갑목은 직업적 지속성을 제공함.",
+      "interpretation": "갑목이 있으면 직업적 안정성과 지속성이 높아짐.",
+      "action": "갑목의 에너지를 활용해 장기적인 직업 계획을 세워라.",
+      "cautions": [
+        "갑목이 없으면 직업적 불안정성이 커질 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "직업",
+        "지속성",
+        "안정성",
+        "목"
+      ],
+      "id": "RC-dc28c979be"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "relation": "갑목",
+        "partner": true
+      },
+      "mechanism": "갑목이 있는 사람과의 관계는 상호 발전적임.",
+      "interpretation": "갑목이 있는 사람과의 관계는 서로에게 긍정적인 영향을 미침.",
+      "action": "갑목이 있는 사람과의 관계를 적극적으로 유지하라.",
+      "cautions": [
+        "갑목이 없는 사람과는 관계 발전이 더딜 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "관계",
+        "발전",
+        "파트너",
+        "사랑"
+      ],
+      "id": "RC-d70f16831d"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "element": "갑목",
+        "luck_cycle": true
+      },
+      "mechanism": "운에서 갑목이 오면 현실적 문제 해결과 성취가 가능해짐.",
+      "interpretation": "갑목 운이 오면 중요한 결정을 내리기에 적합한 시기임.",
+      "action": "갑목 운이 올 때 현실적 목표를 설정하고 실행하라.",
+      "cautions": [
+        "갑목 운이 없으면 성취가 지연될 수 있음."
+      ],
+      "tags": [
+        "갑목",
+        "운",
+        "현실",
+        "결정",
+        "목표"
+      ],
+      "id": "RC-7f55f1283a"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "월중심의 사회적 능력 평가"
+      },
+      "mechanism": "월중심은 사회적 능력을 판단하는 중요한 기준임.",
+      "interpretation": "월중심이 강하면 사회적 성취 가능성이 높음.",
+      "action": "월중심의 에너지를 활용해 사회적 목표를 설정하라.",
+      "cautions": [
+        "월중심이 약하면 사회적 성취가 어려울 수 있음."
+      ],
+      "tags": [
+        "월중심",
+        "사회적 능력",
+        "성취",
+        "목표",
+        "평가"
+      ],
+      "id": "RC-a44d73332b"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "정화",
+        "present": true
+      },
+      "mechanism": "정화는 주도권과 권한을 제공함.",
+      "interpretation": "정화가 있으면 승진, 당선 등 주도적 성취가 가능함.",
+      "action": "정화를 활용해 리더십을 발휘하고 목표를 달성하라.",
+      "cautions": [
+        "정화가 없으면 주도권을 잃을 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "주도권",
+        "승진",
+        "당선",
+        "리더십"
+      ],
+      "id": "RC-d0fd0706bb"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_070",
+  "updated_at": "2025-12-23T20:27:24"
+}

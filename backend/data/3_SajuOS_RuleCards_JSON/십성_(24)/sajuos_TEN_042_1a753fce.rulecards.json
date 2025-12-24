@@ -1,0 +1,405 @@
+{
+  "title": "SajuOS_Logic_TEN_042",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "quantity": "high"
+      },
+      "mechanism": "토는 영역을 설정하고 한정시키는 역할을 한다.",
+      "interpretation": "토가 많으면 다양한 영역을 설정할 수 있다.",
+      "action": "자신의 영역을 명확히 하고 그 안에서 활동을 계획하라.",
+      "cautions": [
+        "영역이 지나치게 많아질 경우 혼란이 생길 수 있음."
+      ],
+      "tags": [
+        "토",
+        "영역",
+        "한정",
+        "안정감",
+        "다양성"
+      ],
+      "id": "RC-788972c30a"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "quantity": "low"
+      },
+      "mechanism": "토가 부족하면 영역 설정이 약해진다.",
+      "interpretation": "삶의 안정감이 떨어지고 방향성이 약해질 수 있다.",
+      "action": "자신의 목표와 경계를 명확히 설정하라.",
+      "cautions": [
+        "불안정한 삶의 구조로 인해 혼란이 생길 수 있음."
+      ],
+      "tags": [
+        "토",
+        "부족",
+        "안정감",
+        "방향성",
+        "목표"
+      ],
+      "id": "RC-627aba16b4"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "relation": "비겁"
+      },
+      "mechanism": "비겁은 사람을 다루는 일과 연결된다.",
+      "interpretation": "사람을 조직하고 관리하는 능력이 뛰어나다.",
+      "action": "사람을 다루는 직업이나 역할을 고려하라.",
+      "cautions": [
+        "비겁이 과도하면 경쟁과 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "사람관리",
+        "조직",
+        "리더십",
+        "토"
+      ],
+      "id": "RC-776741093e"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "기토"
+      },
+      "mechanism": "기토는 낮은 지대와 접근성을 상징한다.",
+      "interpretation": "현실적이고 생산적인 성향을 가진다.",
+      "action": "현실적인 목표를 설정하고 실행하라.",
+      "cautions": [
+        "지나치게 현실적일 경우 창의성이 제한될 수 있음."
+      ],
+      "tags": [
+        "기토",
+        "현실성",
+        "생산성",
+        "접근성",
+        "목표"
+      ],
+      "id": "RC-499906ae1d"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "무토"
+      },
+      "mechanism": "무토는 높은 지대와 상징적 가치를 나타낸다.",
+      "interpretation": "정신적, 도덕적 가치를 중시한다.",
+      "action": "자신의 이상과 가치를 명확히 하라.",
+      "cautions": [
+        "현실적 접근이 부족할 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "정신적가치",
+        "도덕성",
+        "상징성",
+        "이상"
+      ],
+      "id": "RC-09c4f03e1a"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "비견",
+        "quantity": 2
+      },
+      "mechanism": "비견이 두 개면 영역이 두 개로 나뉜다.",
+      "interpretation": "업무나 재능이 두 가지로 분산될 수 있다.",
+      "action": "한 가지에 집중하거나 우선순위를 정하라.",
+      "cautions": [
+        "분산으로 인해 효율성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "영역",
+        "분산",
+        "우선순위",
+        "효율성"
+      ],
+      "id": "RC-be3a591dbd"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "비견",
+        "quantity": 3
+      },
+      "mechanism": "비견이 세 개면 협동으로 연결된다.",
+      "interpretation": "협력과 조화를 이루기 쉽다.",
+      "action": "팀워크를 활용한 프로젝트를 계획하라.",
+      "cautions": [
+        "협동이 지나치면 독립성이 약화될 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "협동",
+        "조화",
+        "팀워크",
+        "연결"
+      ],
+      "id": "RC-4dc7dc5a42"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁재",
+        "element": "미토"
+      },
+      "mechanism": "미토는 화기를 품어 무토를 강화한다.",
+      "interpretation": "무토의 안정성과 강인함을 지원한다.",
+      "action": "미토의 도움을 받아 자신의 강점을 강화하라.",
+      "cautions": [
+        "화기가 과도하면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "미토",
+        "무토",
+        "강화",
+        "안정성"
+      ],
+      "id": "RC-ba9a6d5a01"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "겁재",
+        "element": "축토"
+      },
+      "mechanism": "축토는 무토와 이질적이며 동상이몽의 관계를 형성한다.",
+      "interpretation": "갈등과 불일치가 발생할 수 있다.",
+      "action": "상대방의 관점을 이해하고 조율하라.",
+      "cautions": [
+        "갈등이 심화되면 관계가 단절될 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "축토",
+        "무토",
+        "갈등",
+        "조율"
+      ],
+      "id": "RC-4392dfb6a2"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "비견",
+        "element": "술토"
+      },
+      "mechanism": "술토는 무토를 더 높게 만든다.",
+      "interpretation": "고립되거나 접근성이 떨어질 수 있다.",
+      "action": "인간관계를 넓히고 유연성을 키워라.",
+      "cautions": [
+        "고립으로 인해 외로움을 느낄 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "술토",
+        "무토",
+        "고립",
+        "접근성"
+      ],
+      "id": "RC-44cf2deca2"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "겁재",
+        "element": "진토"
+      },
+      "mechanism": "진토는 습토로 인간관계를 복잡하게 만든다.",
+      "interpretation": "쓸데없는 인간관계가 많아질 수 있다.",
+      "action": "관계를 정리하고 효율성을 높여라.",
+      "cautions": [
+        "복잡한 관계로 인해 에너지가 소모될 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "진토",
+        "복잡성",
+        "관계정리",
+        "효율성"
+      ],
+      "id": "RC-a357a34e38"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "context": "중재"
+      },
+      "mechanism": "토는 오행 간의 윤활작용을 한다.",
+      "interpretation": "중재와 조정 능력이 뛰어나다.",
+      "action": "갈등 상황에서 중재자로 나서라.",
+      "cautions": [
+        "중재가 실패하면 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "토",
+        "중재",
+        "조정",
+        "윤활",
+        "갈등해결"
+      ],
+      "id": "RC-30a0ac1ded"
+    },
+    {
+      "id": "RC-25da79c046",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "context": "단독 존재"
+      },
+      "mechanism": "토는 다른 오행과 조화를 이루며 존재하는 성질을 가짐.",
+      "interpretation": "토는 단독으로 존재하기 어렵고, 다른 오행과 섞여야 그 가치를 발휘함.",
+      "action": "자신의 역할을 다른 오행과의 조화 속에서 찾을 것.",
+      "cautions": [
+        "단독으로 고립되지 않도록 주의할 것."
+      ],
+      "tags": [
+        "토",
+        "오행",
+        "조화",
+        "중재",
+        "연결"
+      ]
+    },
+    {
+      "id": "RC-63eecb0a5c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "context": "발달"
+      },
+      "mechanism": "토는 윤활작용과 중재력을 발휘하는 성질을 가짐.",
+      "interpretation": "토가 발달한 사람은 인간관계에서 중재와 연결의 역할을 잘 수행함.",
+      "action": "인간관계에서 중재자 역할을 적극적으로 수행할 것.",
+      "cautions": [
+        "중재 과정에서 자신의 입장을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "토",
+        "중재",
+        "발달",
+        "인간관계",
+        "연결"
+      ]
+    },
+    {
+      "id": "RC-9b0f92327b",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "ten_god": "겁재",
+        "context": "활용 가치 부족"
+      },
+      "mechanism": "겁재는 주변 환경과의 조화가 중요함.",
+      "interpretation": "겁재가 단독으로 있을 경우 활용 가치가 떨어질 수 있음.",
+      "action": "겁재를 다른 오행과 조화롭게 활용할 방법을 모색할 것.",
+      "cautions": [
+        "겁재가 단독으로 있을 때 지나친 의존이나 갈등에 주의."
+      ],
+      "tags": [
+        "겁재",
+        "토",
+        "조화",
+        "활용",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-3055686e74",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "structure": "종격"
+      },
+      "mechanism": "종격은 특정 오행의 힘을 극대화함.",
+      "interpretation": "토가 종격으로 발휘되면 단독으로도 강한 힘을 가질 수 있음.",
+      "action": "종격일 경우 토의 고유한 힘을 활용할 방안을 찾을 것.",
+      "cautions": [
+        "종격이 아닌 경우 다른 오행과의 조화를 우선시할 것."
+      ],
+      "tags": [
+        "토",
+        "종격",
+        "구조",
+        "강한 힘",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-7156b35f11",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "element": "토",
+        "relation": "목화금수"
+      },
+      "mechanism": "토는 다른 오행과의 관계 속에서 그 역할이 드러남.",
+      "interpretation": "토는 목화금수와의 관계에서 중재와 연결의 역할을 함.",
+      "action": "다른 오행과의 관계를 통해 자신의 역할을 명확히 할 것.",
+      "cautions": [
+        "다른 오행과의 관계에서 균형을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "토",
+        "목화금수",
+        "관계",
+        "중재",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-6effac05a9",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "ten_god": "비견",
+        "context": "고립"
+      },
+      "mechanism": "비견은 협력보다는 독립성을 강조함.",
+      "interpretation": "비견이 단독으로 있을 경우 고립되거나 주변에 끌려갈 수 있음.",
+      "action": "비견을 다른 오행과 조화롭게 활용할 방법을 모색할 것.",
+      "cautions": [
+        "비견이 고립되지 않도록 주의."
+      ],
+      "tags": [
+        "비견",
+        "토",
+        "고립",
+        "조화",
+        "십성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_042",
+  "updated_at": "2025-12-23T20:27:26"
+}

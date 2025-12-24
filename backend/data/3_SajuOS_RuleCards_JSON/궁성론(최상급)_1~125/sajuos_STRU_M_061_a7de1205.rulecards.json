@@ -1,0 +1,449 @@
+{
+  "title": "SajuOS_Logic_STRU_M_061",
+  "rulecards": [
+    {
+      "id": "RC-71fd3fe12a",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "진토",
+        "relation": "인목"
+      },
+      "mechanism": "진토가 인목을 현실적인 영역으로 끌어들임.",
+      "interpretation": "재극인이 현실 감각을 강화하여 논리적 체계를 구축함.",
+      "action": "현실적인 아이디어를 논리적으로 정리하고 실행에 옮길 것.",
+      "cautions": [
+        "비현실적인 아이디어에만 치중하지 말 것."
+      ],
+      "tags": [
+        "진토",
+        "인목",
+        "재극인",
+        "현실감각",
+        "논리"
+      ]
+    },
+    {
+      "id": "RC-ad9e5cee47",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "진토",
+        "relation": "화"
+      },
+      "mechanism": "진토가 화의 과도한 치열함을 조절함.",
+      "interpretation": "화가 지나치게 강하면 속도와 방향성 문제가 발생.",
+      "action": "화의 에너지를 적절히 활용하여 균형을 유지할 것.",
+      "cautions": [
+        "화가 과도하면 투자나 행동에서 과잉이 발생할 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "화",
+        "조절",
+        "속도",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-d8f154fb71",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "condition": "재생살"
+      },
+      "mechanism": "재생살은 과도한 욕심과 투자 과잉을 유발.",
+      "interpretation": "재생살이 강하면 재정적 손실 가능성이 높음.",
+      "action": "투자 시 신중하고 과도한 욕심을 경계할 것.",
+      "cautions": [
+        "재생살로 인해 빚을 질 가능성 있음."
+      ],
+      "tags": [
+        "재생살",
+        "투자",
+        "욕심",
+        "재정",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-1baaa105ca",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "진토",
+        "relation": "편인"
+      },
+      "mechanism": "진토가 편인을 통해 상상력을 조절함.",
+      "interpretation": "편인이 많으면 상상력이 지나치게 활성화됨.",
+      "action": "상상력을 현실적으로 조율하고 활용할 것.",
+      "cautions": [
+        "과도한 상상력은 불안감을 유발할 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "편인",
+        "상상력",
+        "조절",
+        "현실"
+      ]
+    },
+    {
+      "id": "RC-61a9bcee0b",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "진토",
+        "relation": "재"
+      },
+      "mechanism": "진토와 재의 조합이 안정적인 기획 능력을 제공.",
+      "interpretation": "기획 및 전략적 사고에 강점을 가짐.",
+      "action": "기획 및 마케팅 관련 직무를 고려할 것.",
+      "cautions": [
+        "재와 진토의 조화가 깨지면 불안정해질 수 있음."
+      ],
+      "tags": [
+        "진토",
+        "재",
+        "기획",
+        "전략",
+        "마케팅"
+      ]
+    },
+    {
+      "id": "RC-5c4460b823",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "개수",
+        "relation": "진토"
+      },
+      "mechanism": "개수가 진토에서 나와 상상을 현실로 전환.",
+      "interpretation": "상상한 것을 현실로 구현하는 능력이 뛰어남.",
+      "action": "창의적 아이디어를 실행 가능한 계획으로 전환할 것.",
+      "cautions": [
+        "실행력 부족으로 아이디어가 사장될 수 있음."
+      ],
+      "tags": [
+        "개수",
+        "진토",
+        "상상",
+        "현실화",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-631e265895",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "상관",
+        "relation": "편재"
+      },
+      "mechanism": "상관이 편재와 결합하여 유통적 구성을 강화.",
+      "interpretation": "유통 및 프랜차이즈 사업에 적합.",
+      "action": "유통 및 납품 관련 사업을 고려할 것.",
+      "cautions": [
+        "과도한 확장은 위험할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "편재",
+        "유통",
+        "프랜차이즈",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-98f11fde78",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "술토",
+        "relation": "인목"
+      },
+      "mechanism": "술토가 인목의 수직적 작용을 방해.",
+      "interpretation": "술토는 안정 추구형으로 변화에 저항.",
+      "action": "변화에 대한 저항을 완화하고 수용성을 키울 것.",
+      "cautions": [
+        "안정만 추구하면 발전이 어려움."
+      ],
+      "tags": [
+        "술토",
+        "인목",
+        "안정",
+        "변화",
+        "저항"
+      ]
+    },
+    {
+      "id": "RC-d5c63a03a3",
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "relation": "인월"
+      },
+      "mechanism": "병화가 인월의 조건을 충족시켜 학습 능력을 강화.",
+      "interpretation": "병화가 있으면 학습 동기와 성과가 높아짐.",
+      "action": "병화의 에너지를 활용해 학습 목표를 설정할 것.",
+      "cautions": [
+        "병화가 없으면 학습 동기가 약화될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "인월",
+        "학습",
+        "동기",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-c2285dd8e2",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "condition": "인신충"
+      },
+      "mechanism": "인신충은 금목의 충돌을 유발.",
+      "interpretation": "충돌을 해결하면 감각이 예민해지고 능력이 강화됨.",
+      "action": "충돌을 해결하는 방법을 학습할 것.",
+      "cautions": [
+        "충돌이 해결되지 않으면 불안정해질 수 있음."
+      ],
+      "tags": [
+        "인신충",
+        "금목",
+        "충돌",
+        "해결",
+        "능력"
+      ]
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "type": "상관경관",
+        "exists": true
+      },
+      "mechanism": "상관이 관을 긴장시키며 다양한 가능성을 탐구함.",
+      "interpretation": "상관은 관을 단순히 따르지 않고, 모든 경우의 수를 고려하며 치밀하게 행동함.",
+      "action": "상관의 능력을 활용해 새로운 접근법을 모색하라.",
+      "cautions": [
+        "상관이 과도하면 관과의 조화가 깨질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "경관",
+        "치밀함",
+        "탐구",
+        "긴장감"
+      ],
+      "id": "RC-a318886e43"
+    },
+    {
+      "topic": "EXAM",
+      "priority": 8,
+      "trigger": {
+        "type": "상관",
+        "exists": true
+      },
+      "mechanism": "상관은 새로운 유형의 문제를 해결하는 데 강점이 있음.",
+      "interpretation": "상관은 기존 기출 문제를 넘어 새로운 유형에도 적응 가능.",
+      "action": "기출 문제 외에도 다양한 문제 유형을 연습하라.",
+      "cautions": [
+        "새로운 유형에만 집중하면 기본을 놓칠 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "시험",
+        "적응력",
+        "문제해결",
+        "기출"
+      ],
+      "id": "RC-b992d7a09a"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "type": "상관",
+        "exists": true
+      },
+      "mechanism": "상관은 자신이 좋아하는 것에 집중하며 성취를 추구함.",
+      "interpretation": "상관은 자신이 좋아하고 잘하는 것에 몰두하며 성과를 냄.",
+      "action": "자신의 흥미와 재능을 파악하고 그에 집중하라.",
+      "cautions": [
+        "다양한 가능성을 배제하면 성장 기회를 놓칠 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "흥미",
+        "재능",
+        "집중",
+        "성취"
+      ],
+      "id": "RC-6dc5ff25ff"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "type": "정재",
+        "exists": true
+      },
+      "mechanism": "정재는 관리와 루틴을 통해 안정성을 추구함.",
+      "interpretation": "정재는 꾸준한 관리와 루틴을 통해 직업적 안정성을 유지함.",
+      "action": "일상적인 루틴을 만들어 꾸준히 실천하라.",
+      "cautions": [
+        "루틴이 지나치게 경직되면 유연성이 부족할 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "관리",
+        "안정성",
+        "루틴",
+        "직업"
+      ],
+      "id": "RC-4290604adf"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "type": "월간",
+        "exists": true
+      },
+      "mechanism": "월간은 사주의 중심으로 격을 결정하는 핵심 요소임.",
+      "interpretation": "월간이 투출된 경우 이를 중심으로 격을 판단해야 함.",
+      "action": "월간의 기운을 중심으로 사주를 분석하라.",
+      "cautions": [
+        "월간 외 다른 요소를 간과하지 않도록 주의."
+      ],
+      "tags": [
+        "월간",
+        "격",
+        "중심",
+        "투출",
+        "분석"
+      ],
+      "id": "RC-b9bd1522d1"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "이민",
+        "exam": true
+      },
+      "mechanism": "이민년은 상관의 기운을 강화하여 성과를 높임.",
+      "interpretation": "이민년에 시험을 보면 고득점 가능성이 높음.",
+      "action": "이민년에는 중요한 시험을 계획하라.",
+      "cautions": [
+        "다른 연운과의 조화를 고려해야 함."
+      ],
+      "tags": [
+        "이민년",
+        "시험",
+        "상관",
+        "고득점",
+        "연운"
+      ],
+      "id": "RC-5baea00494"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "type": "무관",
+        "exists": true
+      },
+      "mechanism": "무관은 직업의 안정성보다는 유연성을 중시함.",
+      "interpretation": "무관은 다양한 직업적 가능성을 탐구하며 유연하게 대처함.",
+      "action": "안정성보다는 유연성을 살려 직업을 선택하라.",
+      "cautions": [
+        "안정성을 지나치게 간과하면 불안정해질 수 있음."
+      ],
+      "tags": [
+        "무관",
+        "유연성",
+        "직업",
+        "탐구",
+        "다양성"
+      ],
+      "id": "RC-042e5205d0"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "type": "상관생재",
+        "exists": true
+      },
+      "mechanism": "상관이 재를 생하면 성과를 내는 데 집중함.",
+      "interpretation": "상관생재는 성과를 내는 데 강한 동기를 부여함.",
+      "action": "성과를 낼 수 있는 분야에 집중하라.",
+      "cautions": [
+        "성과에만 집착하면 과정이 소홀해질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "재",
+        "성과",
+        "동기",
+        "집중"
+      ],
+      "id": "RC-cf274edc49"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "임식",
+        "exam": true
+      },
+      "mechanism": "임식년은 상관의 기운을 억제하여 성과를 저하시킴.",
+      "interpretation": "임식년에 시험을 보면 고득점 가능성이 낮음.",
+      "action": "임식년에는 시험 준비를 더욱 철저히 하라.",
+      "cautions": [
+        "연운의 영향을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "임식년",
+        "시험",
+        "상관",
+        "저조",
+        "연운"
+      ],
+      "id": "RC-3c30495612"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "type": "정재격",
+        "exists": true
+      },
+      "mechanism": "정재격은 관리와 루틴을 통해 직업적 안정성을 추구함.",
+      "interpretation": "정재격은 꾸준한 관리와 루틴을 통해 안정적인 직업을 유지함.",
+      "action": "정재격의 특성을 살려 안정적인 직업을 선택하라.",
+      "cautions": [
+        "루틴이 지나치게 경직되면 유연성이 부족할 수 있음."
+      ],
+      "tags": [
+        "정재격",
+        "관리",
+        "안정성",
+        "루틴",
+        "직업"
+      ],
+      "id": "RC-1795d165b2"
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_061",
+  "updated_at": "2025-12-23T20:27:24"
+}

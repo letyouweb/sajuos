@@ -1,0 +1,451 @@
+{
+  "title": "SajuOS_Logic_BASIC_022",
+  "rulecards": [
+    {
+      "id": "RC-b4f0c05110",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "concept": "용신",
+        "source": "월지"
+      },
+      "mechanism": "용신은 사회적 기능을 강화하는 역할을 한다.",
+      "interpretation": "용신이 강하면 사회적 성취와 안정이 가능하다.",
+      "action": "용신을 통해 사회적 목표를 설정하고 달성 방안을 모색하라.",
+      "cautions": [
+        "용신의 역할을 개인적 감정과 혼동하지 말 것."
+      ],
+      "tags": [
+        "용신",
+        "월지",
+        "사회적성취",
+        "격국",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-8367fa40cd",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "concept": "정재격",
+        "features": [
+          "항상성",
+          "소유욕"
+        ]
+      },
+      "mechanism": "정재격은 안정성과 소유욕을 기반으로 사회적 책임을 수행한다.",
+      "interpretation": "정재격은 책임감과 관리 능력을 발휘한다.",
+      "action": "정재격의 특성을 활용해 장기적 목표를 설정하라.",
+      "cautions": [
+        "책임감이 과도하면 부담으로 작용할 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "항상성",
+        "소유욕",
+        "책임감",
+        "관리능력"
+      ]
+    },
+    {
+      "id": "RC-e4de19a489",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "책임감 부족"
+      },
+      "mechanism": "정재격이 약하면 책임 회피 성향이 나타난다.",
+      "interpretation": "책임을 회피하거나 부담을 느낄 가능성이 높다.",
+      "action": "책임감을 키우기 위한 훈련과 목표 설정이 필요하다.",
+      "cautions": [
+        "책임 회피가 반복되면 신뢰를 잃을 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "책임감",
+        "부담",
+        "회피",
+        "목표설정"
+      ]
+    },
+    {
+      "id": "RC-ad0662fcf0",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "리스크 회피"
+      },
+      "mechanism": "정재격은 리스크를 최소화하려는 경향이 있다.",
+      "interpretation": "리스크가 큰 상황에서 스트레스를 받을 가능성이 높다.",
+      "action": "리스크를 분석하고 관리 가능한 수준에서 도전하라.",
+      "cautions": [
+        "리스크를 지나치게 회피하면 기회를 놓칠 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "리스크",
+        "분석",
+        "관리",
+        "스트레스"
+      ]
+    },
+    {
+      "id": "RC-23e9f270f7",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "목표 달성 후 공허감"
+      },
+      "mechanism": "정재격은 목표 달성 후 새로운 목표가 필요하다.",
+      "interpretation": "목표가 없으면 동기 부여가 약화된다.",
+      "action": "목표를 지속적으로 설정하고 관리하라.",
+      "cautions": [
+        "목표 상실로 인해 무기력해질 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "목표",
+        "동기부여",
+        "공허감",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-15d8e46460",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "재생관"
+      },
+      "mechanism": "재생관은 재를 보호하고 안정성을 강화한다.",
+      "interpretation": "재생관은 사회적 안정과 직업적 성공을 의미한다.",
+      "action": "재생관의 에너지를 활용해 안정적인 직업을 선택하라.",
+      "cautions": [
+        "재생관이 약하면 재탈 가능성이 높아진다."
+      ],
+      "tags": [
+        "정재격",
+        "재생관",
+        "안정성",
+        "직업",
+        "재탈"
+      ]
+    },
+    {
+      "id": "RC-4a9abe3ea9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "상관 운"
+      },
+      "mechanism": "상관 운은 재를 설계하거나 리스크를 초래할 수 있다.",
+      "interpretation": "상관 운은 기회와 위험이 공존한다.",
+      "action": "상관 운에서 기회를 활용하고 리스크를 관리하라.",
+      "cautions": [
+        "리스크 관리 실패 시 손실이 발생할 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "상관운",
+        "기회",
+        "리스크",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-728eab3c51",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "결혼"
+      },
+      "mechanism": "정재격은 결혼을 통해 안정과 책임을 추구한다.",
+      "interpretation": "결혼은 재적 안정과 사회적 울타리를 제공한다.",
+      "action": "결혼 시 안정성과 책임감을 고려하라.",
+      "cautions": [
+        "결혼에 대한 부담감이 클 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "결혼",
+        "안정",
+        "책임",
+        "사회적울타리"
+      ]
+    },
+    {
+      "id": "RC-fdb5f61eac",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "직업 선택"
+      },
+      "mechanism": "정재격은 안정적이고 예측 가능한 직업을 선호한다.",
+      "interpretation": "정재격은 재무, 관리, 공무원 등 안정적인 직업에 적합하다.",
+      "action": "안정성과 예측 가능성을 기준으로 직업을 선택하라.",
+      "cautions": [
+        "리스크가 큰 직업은 스트레스를 유발할 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "직업",
+        "안정성",
+        "재무",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-8b99d3ebd9",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "concept": "정재격",
+        "condition": "재와 관의 조화"
+      },
+      "mechanism": "재와 관의 조화는 사회적 안정과 성공을 보장한다.",
+      "interpretation": "재와 관이 조화로우면 직업적 성취와 안정이 가능하다.",
+      "action": "재와 관의 균형을 유지하며 사회적 목표를 달성하라.",
+      "cautions": [
+        "재와 관의 불균형은 스트레스와 실패를 초래할 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "재",
+        "관",
+        "조화",
+        "사회적성공"
+      ]
+    },
+    {
+      "id": "RC-d2ad10ed49",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "정제격"
+      },
+      "mechanism": "정제격은 안정성과 유지에 초점을 맞추며, 리스크를 최소화하려는 경향이 강하다.",
+      "interpretation": "정제격은 안정적인 환경에서 꾸준히 성과를 내는 데 적합하다.",
+      "action": "리스크가 적은 투자와 안정적인 직업을 선택하라.",
+      "cautions": [
+        "리스크를 지나치게 회피하면 성장 기회를 놓칠 수 있다."
+      ],
+      "tags": [
+        "정제격",
+        "안정성",
+        "유지",
+        "리스크",
+        "투자"
+      ]
+    },
+    {
+      "id": "RC-ba0f15b026",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편재격"
+      },
+      "mechanism": "편재격은 확장성과 활용에 초점을 맞추며, 리스크를 감수하고 기회를 극대화하려는 경향이 있다.",
+      "interpretation": "편재격은 창의적이고 확장적인 활동에 적합하다.",
+      "action": "리스크를 감수하더라도 확장 가능성이 있는 기회를 탐색하라.",
+      "cautions": [
+        "과도한 낙관주의로 인해 실패할 가능성이 있다."
+      ],
+      "tags": [
+        "편재격",
+        "확장성",
+        "활용",
+        "리스크",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-0b5775b4be",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정제격",
+        "element": "식신"
+      },
+      "mechanism": "정제격에서 식신은 안정적인 에너지를 제공하며, 꾸준한 성과를 유지하는 데 도움을 준다.",
+      "interpretation": "정제격에서 식신은 안정적인 직업과 생활을 유지하는 데 유리하다.",
+      "action": "식신의 에너지를 활용해 꾸준히 성과를 내는 방향으로 활동하라.",
+      "cautions": [
+        "식신이 약하면 안정성이 흔들릴 수 있다."
+      ],
+      "tags": [
+        "정제격",
+        "식신",
+        "안정성",
+        "성과",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-27d888ef2a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편재격",
+        "element": "상관"
+      },
+      "mechanism": "편재격에서 상관은 창의성과 확장성을 극대화하는 역할을 한다.",
+      "interpretation": "상관이 강한 편재격은 새로운 아이디어와 확장적인 활동에 적합하다.",
+      "action": "창의적인 아이디어를 활용해 사업이나 프로젝트를 확장하라.",
+      "cautions": [
+        "과도한 확장은 관리의 어려움을 초래할 수 있다."
+      ],
+      "tags": [
+        "편재격",
+        "상관",
+        "창의성",
+        "확장성",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-e32c431e76",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정재격",
+        "element": "관"
+      },
+      "mechanism": "정재격에서 관은 안정적인 관리와 책임감을 강조한다.",
+      "interpretation": "정재격에서 관은 조직 내에서 신뢰받는 역할을 수행한다.",
+      "action": "책임감 있는 태도로 조직 내에서 신뢰를 쌓아라.",
+      "cautions": [
+        "책임감이 과도하면 스트레스를 받을 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "관",
+        "책임감",
+        "관리",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-49c0c5119c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편재격",
+        "element": "관살"
+      },
+      "mechanism": "편재격에서 관살은 확장적인 활동을 제도적으로 지원한다.",
+      "interpretation": "관살이 강한 편재격은 대규모 프로젝트나 조직 관리에 적합하다.",
+      "action": "제도적 지원을 활용해 대규모 프로젝트를 추진하라.",
+      "cautions": [
+        "제도적 제약으로 인해 창의성이 제한될 수 있다."
+      ],
+      "tags": [
+        "편재격",
+        "관살",
+        "확장성",
+        "제도",
+        "프로젝트"
+      ]
+    },
+    {
+      "id": "RC-c69d8f8011",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "편재격",
+        "element": "재생살"
+      },
+      "mechanism": "편재격에서 재생살은 리스크를 감수하며 확장적인 활동을 촉진한다.",
+      "interpretation": "재생살이 강한 편재격은 도전적이고 혁신적인 활동에 적합하다.",
+      "action": "리스크를 감수하더라도 혁신적인 프로젝트에 도전하라.",
+      "cautions": [
+        "리스크 관리가 부족하면 실패할 가능성이 높다."
+      ],
+      "tags": [
+        "편재격",
+        "재생살",
+        "리스크",
+        "혁신",
+        "도전"
+      ]
+    },
+    {
+      "id": "RC-b4f4cb1f3e",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정재격",
+        "element": "식상"
+      },
+      "mechanism": "정재격에서 식상은 안정적인 성과를 유지하며, 꾸준한 활동을 지원한다.",
+      "interpretation": "식상이 강한 정재격은 안정적인 직업과 생활을 유지하는 데 유리하다.",
+      "action": "식상의 에너지를 활용해 꾸준히 성과를 내는 방향으로 활동하라.",
+      "cautions": [
+        "식상이 약하면 안정성이 흔들릴 수 있다."
+      ],
+      "tags": [
+        "정재격",
+        "식상",
+        "안정성",
+        "성과",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-d59a32a74c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "편재격",
+        "element": "식상"
+      },
+      "mechanism": "편재격에서 식상은 창의성과 확장성을 극대화하는 역할을 한다.",
+      "interpretation": "식상이 강한 편재격은 새로운 아이디어와 확장적인 활동에 적합하다.",
+      "action": "창의적인 아이디어를 활용해 사업이나 프로젝트를 확장하라.",
+      "cautions": [
+        "과도한 확장은 관리의 어려움을 초래할 수 있다."
+      ],
+      "tags": [
+        "편재격",
+        "식상",
+        "창의성",
+        "확장성",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-d54cd58200",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "편재격",
+        "element": "상관",
+        "context": "사업"
+      },
+      "mechanism": "상관이 강한 편재격은 사업 확장과 창의적인 활동에 유리하다.",
+      "interpretation": "상관이 강한 편재격은 다양한 사업 기회를 탐색하고 확장할 수 있다.",
+      "action": "창의적인 아이디어를 활용해 사업을 확장하라.",
+      "cautions": [
+        "과도한 확장은 관리의 어려움을 초래할 수 있다."
+      ],
+      "tags": [
+        "편재격",
+        "상관",
+        "사업",
+        "확장",
+        "창의성"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_022",
+  "updated_at": "2025-12-23T20:27:25"
+}

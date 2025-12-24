@@ -1,0 +1,461 @@
+{
+  "title": "SajuOS_Logic_STRU_M_111",
+  "rulecards": [
+    {
+      "id": "RC-db10d2723b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "계수",
+        "context": "진월"
+      },
+      "mechanism": "계수는 윤화의 성질을 가지며, 대상을 중심으로 작용함.",
+      "interpretation": "진월의 계수는 대상을 빛나게 하며, 지원과 서브 역할에서 강점을 가짐.",
+      "action": "대상 중심의 역할을 수행하며, 지원과 협력에 집중할 것.",
+      "cautions": [
+        "자기중심적 성향으로 변질되지 않도록 주의"
+      ],
+      "tags": [
+        "계수",
+        "진월",
+        "윤화",
+        "지원",
+        "대상중심"
+      ]
+    },
+    {
+      "id": "RC-939d2d8906",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "계수",
+        "relation": "신자진 삼합"
+      },
+      "mechanism": "삼합은 공통된 목표를 형성하며, 에너지를 집중시킴.",
+      "interpretation": "진중 계수는 과거의 정보를 축적하고 이를 활용하는 성질을 가짐.",
+      "action": "과거의 경험과 정보를 활용하여 목표를 달성할 것.",
+      "cautions": [
+        "과거에만 의존하지 말고 현재와 연결할 것"
+      ],
+      "tags": [
+        "삼합",
+        "진중계수",
+        "정보축적",
+        "목표",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-7e32470261",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "진월",
+        "condition": "병화 존재"
+      },
+      "mechanism": "병화는 계수와 간목의 조화를 통해 관을 거스르지 않게 함.",
+      "interpretation": "병화가 있으면 계수의 능력을 극대화하며, 사회적 조화를 이룸.",
+      "action": "병화를 활용하여 관과 상관의 균형을 유지할 것.",
+      "cautions": [
+        "병화가 없을 경우 관과 상관의 갈등이 심화될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "계수",
+        "간목",
+        "관",
+        "상관"
+      ]
+    },
+    {
+      "id": "RC-c64fbdfe46",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "진월",
+        "relation": "축토"
+      },
+      "mechanism": "축토와 진토는 수의 성질을 다르게 형성함.",
+      "interpretation": "축토는 세력적 형태, 진토는 기적 형태로 작용.",
+      "action": "축토와 진토의 차이를 이해하고 적절히 활용할 것.",
+      "cautions": [
+        "축토와 진토의 에너지를 혼동하지 말 것"
+      ],
+      "tags": [
+        "축토",
+        "진토",
+        "세력",
+        "기적",
+        "수"
+      ]
+    },
+    {
+      "id": "RC-933c70ffc5",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "진월",
+        "condition": "간목 존재"
+      },
+      "mechanism": "간목은 진토를 통제하고 활용 가능하게 만듦.",
+      "interpretation": "간목이 있으면 진월의 계수가 사회적 역할을 잘 수행함.",
+      "action": "간목을 통해 진토의 에너지를 조화롭게 사용할 것.",
+      "cautions": [
+        "간목이 없으면 진토의 활용이 제한될 수 있음"
+      ],
+      "tags": [
+        "간목",
+        "진토",
+        "통제",
+        "조화",
+        "사회적 역할"
+      ]
+    },
+    {
+      "id": "RC-607a3f55c8",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "진월",
+        "relation": "관살 혼잡"
+      },
+      "mechanism": "관살 혼잡은 갈등 요소를 증가시키지만, 조절 가능하면 대안적 사고를 제공.",
+      "interpretation": "혼잡을 잘 다루면 다양한 선택지를 활용할 수 있음.",
+      "action": "관살 혼잡을 조절하여 유연한 대처 방식을 개발할 것.",
+      "cautions": [
+        "혼잡을 방치하면 갈등과 혼란이 심화될 수 있음"
+      ],
+      "tags": [
+        "관살혼잡",
+        "조절",
+        "갈등",
+        "대안",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-84ac36588c",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "진월",
+        "condition": "병화와 간목 존재"
+      },
+      "mechanism": "병화와 간목은 계수의 에너지를 조화롭게 연결함.",
+      "interpretation": "병화와 간목이 있으면 계수의 잠재력이 극대화됨.",
+      "action": "병화와 간목을 활용하여 조화로운 구조를 형성할 것.",
+      "cautions": [
+        "병화와 간목이 없으면 계수의 에너지가 분산될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "간목",
+        "계수",
+        "조화",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-3941793a2e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "진월",
+        "relation": "축진파"
+      },
+      "mechanism": "축진파는 습한 조건을 형성하며 갈등을 유발.",
+      "interpretation": "축진파는 선택의 어려움과 판단 미스를 초래할 수 있음.",
+      "action": "축진파의 갈등 요소를 조절하여 명확한 선택을 할 것.",
+      "cautions": [
+        "축진파를 방치하면 결혼이나 직업 선택에서 어려움이 발생할 수 있음"
+      ],
+      "tags": [
+        "축진파",
+        "습",
+        "갈등",
+        "선택",
+        "판단"
+      ]
+    },
+    {
+      "id": "RC-98efb898a2",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "진월",
+        "condition": "유금 존재"
+      },
+      "mechanism": "유금은 전문성을 강화하며, 세밀한 분석을 가능하게 함.",
+      "interpretation": "유금이 있으면 진월 계수의 전문성이 강화됨.",
+      "action": "유금을 활용하여 세밀하고 전문적인 접근을 할 것.",
+      "cautions": [
+        "유금이 없으면 분석의 깊이가 부족할 수 있음"
+      ],
+      "tags": [
+        "유금",
+        "전문성",
+        "분석",
+        "세밀함",
+        "진월"
+      ]
+    },
+    {
+      "id": "RC-1004e8da77",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "진월",
+        "condition": "병화와 유금 존재"
+      },
+      "mechanism": "병화와 유금은 계수의 에너지를 조화롭게 연결하며, 관중심 구조를 형성.",
+      "interpretation": "병화와 유금이 있으면 계수의 사회적 역할이 강화됨.",
+      "action": "병화와 유금을 활용하여 관중심 구조를 유지할 것.",
+      "cautions": [
+        "병화와 유금이 없으면 관중심 구조가 약화될 수 있음"
+      ],
+      "tags": [
+        "병화",
+        "유금",
+        "계수",
+        "관중심",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-5064697c07",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "진월",
+        "daymaster": "계수",
+        "structure": "정관격"
+      },
+      "mechanism": "진월의 계수는 정관격으로서 관중심의 에너지를 형성한다.",
+      "interpretation": "관중심으로 에너지가 쏠리며, 대상을 규정하고 안정감을 제공한다.",
+      "action": "정관격의 역할을 충실히 수행하며, 관중심의 흐름을 유지하도록 한다.",
+      "cautions": [
+        "관의 균형이 깨지면 불안정해질 수 있음"
+      ],
+      "tags": [
+        "진월",
+        "계수",
+        "정관격",
+        "관중심",
+        "안정감"
+      ]
+    },
+    {
+      "id": "RC-bf8b1aa021",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "재생관",
+        "month": "진월",
+        "daymaster": "계수"
+      },
+      "mechanism": "재생관이 잘 이루어지면 관중심의 흐름이 강화된다.",
+      "interpretation": "대상을 지원하고 성공으로 이끄는 능력이 강하다.",
+      "action": "재생관의 흐름을 유지하며, 대상을 효과적으로 지원한다.",
+      "cautions": [
+        "재생관이 약하면 관중심의 흐름이 약화될 수 있음"
+      ],
+      "tags": [
+        "재생관",
+        "관중심",
+        "지원",
+        "성공",
+        "진월"
+      ]
+    },
+    {
+      "id": "RC-9fcfc71eec",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "daymaster": "계수",
+        "month": "진월",
+        "relation": "관중심"
+      },
+      "mechanism": "관중심의 흐름이 결혼 생활에서 남편의 성공을 지원한다.",
+      "interpretation": "결혼 후 배우자를 성공으로 이끄는 능력이 있다.",
+      "action": "배우자를 지원하며, 가정의 안정과 성공을 도모한다.",
+      "cautions": [
+        "배우자와의 관계에서 지나친 통제는 피해야 함"
+      ],
+      "tags": [
+        "결혼",
+        "배우자",
+        "지원",
+        "성공",
+        "관중심"
+      ]
+    },
+    {
+      "id": "RC-63cfa7b5d4",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "daymaster": "계수",
+        "trait": "조율능력"
+      },
+      "mechanism": "계수는 상황을 조율하고 균형을 맞추는 능력이 뛰어나다.",
+      "interpretation": "분위기를 조절하며, 극단으로 치우치지 않는다.",
+      "action": "조율 능력을 활용해 주변 상황을 안정적으로 관리한다.",
+      "cautions": [
+        "극단적인 상황에서는 조율이 어려울 수 있음"
+      ],
+      "tags": [
+        "계수",
+        "조율",
+        "균형",
+        "안정",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-8c652bac34",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "제관",
+        "strength": "뚜렷"
+      },
+      "mechanism": "제관이 뚜렷하면 세상과 자신의 역할을 명확히 인식한다.",
+      "interpretation": "자신의 위치와 역할에 대한 안정감이 강하다.",
+      "action": "제관의 흐름을 유지하며, 자신의 역할을 명확히 한다.",
+      "cautions": [
+        "제관이 약하면 불안정감이 커질 수 있음"
+      ],
+      "tags": [
+        "제관",
+        "안정감",
+        "역할",
+        "인식",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-e38dfa811e",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "겁재",
+        "control": "약함"
+      },
+      "mechanism": "겁재를 통제하지 못하면 재물 관리가 어려워진다.",
+      "interpretation": "겁재를 활용하지 못하면 재물의 흐름이 불안정하다.",
+      "action": "겁재를 통제할 수 있는 조건을 강화한다.",
+      "cautions": [
+        "겁재 통제가 실패하면 재물 손실 가능성 있음"
+      ],
+      "tags": [
+        "겁재",
+        "재물",
+        "통제",
+        "관리",
+        "불안정"
+      ]
+    },
+    {
+      "id": "RC-e2e5aa0943",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "관중심",
+        "fire": "병화"
+      },
+      "mechanism": "병화가 있으면 관중심의 흐름이 강화되고 대인관계가 원활해진다.",
+      "interpretation": "병화는 직업적 안정성과 대인관계의 조화를 돕는다.",
+      "action": "병화를 활용해 직업적 안정성과 관계를 개선한다.",
+      "cautions": [
+        "병화가 없으면 고집으로 인해 실패 가능성 증가"
+      ],
+      "tags": [
+        "병화",
+        "관중심",
+        "직업",
+        "안정성",
+        "대인관계"
+      ]
+    },
+    {
+      "id": "RC-0bc8aaf6b2",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "관",
+        "fire": "병화"
+      },
+      "mechanism": "병화는 관의 균형을 잡아주며, 대화와 수용성을 높인다.",
+      "interpretation": "병화가 있으면 대인관계에서 조화와 소통이 가능하다.",
+      "action": "병화를 통해 대화와 수용성을 강화한다.",
+      "cautions": [
+        "병화가 없으면 대화 단절과 고립 가능성 있음"
+      ],
+      "tags": [
+        "병화",
+        "관",
+        "대화",
+        "수용성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-5f2de0e714",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "관",
+        "fire": "병화"
+      },
+      "mechanism": "병화는 관의 흐름을 원활히 하며, 구조적 안정성을 제공한다.",
+      "interpretation": "병화는 관의 역할을 강화하고 안정감을 준다.",
+      "action": "병화를 활용해 구조적 안정성을 유지한다.",
+      "cautions": [
+        "병화가 없으면 구조적 불안정 가능성 있음"
+      ],
+      "tags": [
+        "병화",
+        "관",
+        "구조",
+        "안정성",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-19c40f90ad",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "daymaster": "계수",
+        "relation": "관",
+        "fire": "병화"
+      },
+      "mechanism": "병화는 결혼 생활에서 조화와 소통을 돕는다.",
+      "interpretation": "병화가 있으면 배우자와의 관계가 원만해진다.",
+      "action": "병화를 통해 배우자와의 관계를 개선한다.",
+      "cautions": [
+        "병화가 없으면 배우자와의 갈등 가능성 있음"
+      ],
+      "tags": [
+        "병화",
+        "결혼",
+        "배우자",
+        "조화",
+        "소통"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 내용은 요약 및 단순화됨.",
+    "추가적인 규칙은 다음 청크에서 계속될 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_111",
+  "updated_at": "2025-12-23T20:27:24"
+}

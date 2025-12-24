@@ -1,0 +1,455 @@
+{
+  "title": "SajuOS_Logic_STRU_M_114",
+  "rulecards": [
+    {
+      "id": "RC-ea898ed2b7",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목"
+      },
+      "mechanism": "4월의 을목은 따뜻한 계절에 적응하며 상관의 에너지를 강하게 발휘함.",
+      "interpretation": "을목은 사회적 조건에 민감하며, 상관을 통해 창의적이고 직업화 가능한 에너지를 발휘.",
+      "action": "상관의 에너지를 직업화하거나 사회적 조건에 맞추어 활용.",
+      "cautions": [
+        "형식을 갖추지 않으면 사회적 인정이 어려움.",
+        "과도한 혁신은 대중의 수용성을 떨어뜨릴 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "상관",
+        "창의성",
+        "직업화",
+        "사회적 조건",
+        "혁신",
+        "형식"
+      ]
+    },
+    {
+      "id": "RC-2a57990d19",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목"
+      },
+      "mechanism": "을목은 목생화를 위해 개수를 필요로 함.",
+      "interpretation": "개수는 을목의 상관 에너지를 조절하고 형식을 갖추게 함.",
+      "action": "개수를 통해 상관의 에너지를 조화롭게 활용.",
+      "cautions": [
+        "개수가 없으면 상관의 에너지가 불안정해질 수 있음.",
+        "수가 과도하면 상관의 에너지가 억제될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "목생화",
+        "개수",
+        "조화",
+        "형식",
+        "상관"
+      ]
+    },
+    {
+      "id": "RC-a952ef15b7",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "water_strength": "왕"
+      },
+      "mechanism": "수가 왕하면 상관의 에너지가 억제되거나 불안정해짐.",
+      "interpretation": "수가 왕한 경우 상관 패인이나 파료 상관의 형태로 나타날 수 있음.",
+      "action": "수가 왕하지 않도록 조절하고, 병화나 목생화를 통해 균형을 맞춤.",
+      "cautions": [
+        "수가 왕하면 상관의 에너지가 억제되어 자신감 저하 및 사회적 활동 저해."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "수가 왕",
+        "상관 패인",
+        "파료 상관",
+        "균형",
+        "병화"
+      ]
+    },
+    {
+      "id": "RC-3953b84e3f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "earth_presence": false
+      },
+      "mechanism": "토가 없으면 상관의 에너지가 안정되지 않음.",
+      "interpretation": "토는 상관의 에너지를 수렴하고 직업적 안정성을 제공.",
+      "action": "토를 통해 상관의 에너지를 안정화하고 직업적 기반을 마련.",
+      "cautions": [
+        "토가 없으면 상관의 에너지가 불안정하고 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "토",
+        "상관 안정",
+        "직업 안정",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-07991a87ff",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "fire_presence": true
+      },
+      "mechanism": "병화는 목생화를 촉진하며 상관의 에너지를 강화.",
+      "interpretation": "병화는 상관의 에너지를 외부로 발산하고 창의성을 극대화.",
+      "action": "병화를 통해 상관의 에너지를 적극적으로 활용.",
+      "cautions": [
+        "병화가 없으면 상관의 에너지가 충분히 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "병화",
+        "목생화",
+        "창의성",
+        "상관 강화"
+      ]
+    },
+    {
+      "id": "RC-5ab9b25bb9",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "metal_presence": true
+      },
+      "mechanism": "금은 상관의 에너지를 조절하고 형식을 갖추게 함.",
+      "interpretation": "금은 상관의 에너지를 사회적 조건에 맞게 조율.",
+      "action": "금의 에너지를 활용해 상관의 에너지를 조화롭게 발휘.",
+      "cautions": [
+        "금이 없으면 상관의 에너지가 과도하게 발산될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "금",
+        "상관 조절",
+        "형식",
+        "사회적 조건"
+      ]
+    },
+    {
+      "id": "RC-24a5966967",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "water_presence": true,
+        "fire_presence": true
+      },
+      "mechanism": "수가 왕하지 않고 병화가 있으면 목생화가 원활히 이루어짐.",
+      "interpretation": "수가 왕하지 않은 조건에서 병화는 상관의 에너지를 안정적으로 발휘하게 함.",
+      "action": "병화와 수의 균형을 맞추어 상관의 에너지를 활용.",
+      "cautions": [
+        "수가 과도하면 상관의 에너지가 억제될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "병화",
+        "수가 왕하지 않음",
+        "목생화",
+        "상관 안정"
+      ]
+    },
+    {
+      "id": "RC-d42fbf7a2d",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "earth_presence": true
+      },
+      "mechanism": "토는 상관의 에너지를 수렴하고 직업적 안정성을 제공.",
+      "interpretation": "토는 상관의 에너지를 안정화하며 지속성을 보장.",
+      "action": "토를 통해 상관의 에너지를 안정화하고 직업적 기반을 마련.",
+      "cautions": [
+        "토가 없으면 상관의 에너지가 불안정하고 지속성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "토",
+        "상관 안정",
+        "직업 안정",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-40f8208166",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "month": "4월",
+        "day_master": "을목",
+        "water_presence": true,
+        "earth_presence": true
+      },
+      "mechanism": "개수와 토는 상관의 에너지를 조화롭게 조절.",
+      "interpretation": "개수와 토는 상관의 에너지를 안정화하고 직업적 기반을 마련.",
+      "action": "개수와 토를 통해 상관의 에너지를 조화롭게 활용.",
+      "cautions": [
+        "개수와 토가 없으면 상관의 에너지가 불안정할 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "4월",
+        "개수",
+        "토",
+        "상관 안정",
+        "직업 안정",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-787d26de3f",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "type": "상관",
+        "presence": true
+      },
+      "mechanism": "상관은 예측 불가한 행동과 창의성을 나타냄.",
+      "interpretation": "상관은 창의적이고 독창적인 에너지를 발휘할 수 있음.",
+      "action": "상관의 에너지를 긍정적으로 활용할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "구설수에 휘말릴 가능성",
+        "예측 불가한 행동으로 인한 문제"
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "예측불가",
+        "구설수",
+        "행동"
+      ]
+    },
+    {
+      "id": "RC-a3b64a2e79",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "type": "상관",
+        "interaction": "재"
+      },
+      "mechanism": "재가 상관의 에너지를 수렴하고 예측 가능하게 만듦.",
+      "interpretation": "상관이 재를 만나면 행동이 체계화되고 안정됨.",
+      "action": "재를 통해 상관의 에너지를 조율하라.",
+      "cautions": [
+        "재가 없을 경우 상관의 에너지가 통제되지 않을 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "재",
+        "조율",
+        "안정",
+        "체계화"
+      ]
+    },
+    {
+      "id": "RC-7001a9b39f",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "type": "상관",
+        "interaction": "비겁"
+      },
+      "mechanism": "비겁이 상관의 에너지를 증폭시킴.",
+      "interpretation": "비겁과 상관이 함께 있으면 말과 행동의 영향력이 커짐.",
+      "action": "비겁과 상관이 함께 있을 때 말과 행동에 신중하라.",
+      "cautions": [
+        "구설수와 오해를 유발할 가능성"
+      ],
+      "tags": [
+        "상관",
+        "비겁",
+        "구설수",
+        "말",
+        "행동"
+      ]
+    },
+    {
+      "id": "RC-1fb6ee9d0f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "type": "상관",
+        "element": "화",
+        "support": "토"
+      },
+      "mechanism": "토가 화의 에너지를 안정적으로 수렴함.",
+      "interpretation": "화가 많을 때 토가 있으면 에너지가 안정됨.",
+      "action": "화가 강할 경우 토의 역할을 활용하라.",
+      "cautions": [
+        "토가 없으면 화의 에너지가 과도하게 발산될 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "화",
+        "토",
+        "안정",
+        "조율"
+      ]
+    },
+    {
+      "id": "RC-14d32a4555",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "type": "상관",
+        "element": "금",
+        "month": "4월"
+      },
+      "mechanism": "4월의 금은 상관의 에너지를 조절하고 활용함.",
+      "interpretation": "4월에 금이 있으면 상관의 에너지가 체계적으로 활용됨.",
+      "action": "4월에 금이 있을 경우 이를 활용해 상관의 에너지를 조율하라.",
+      "cautions": [
+        "금이 없으면 상관의 에너지가 통제되지 않을 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "금",
+        "4월",
+        "조율",
+        "체계화"
+      ]
+    },
+    {
+      "id": "RC-fb92d0f6a2",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "type": "상관",
+        "interaction": "살"
+      },
+      "mechanism": "상관이 살을 다루면 반복적인 문제를 해결하는 능력이 강화됨.",
+      "interpretation": "상관은 반복적인 문제를 해결하고 관리하는 데 강점이 있음.",
+      "action": "상관의 에너지를 활용해 반복적인 문제를 해결하라.",
+      "cautions": [
+        "살을 다루는 방식에 따라 결과가 달라질 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "살",
+        "문제해결",
+        "반복",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-0f2769279e",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "type": "상관",
+        "interaction": "직"
+      },
+      "mechanism": "상관은 외교, 영업 등 대인관계 중심의 직업에 적합함.",
+      "interpretation": "상관은 대인관계와 타협이 필요한 직업에서 강점을 발휘함.",
+      "action": "상관의 에너지를 활용해 대인관계 중심의 직업을 선택하라.",
+      "cautions": [
+        "타협이 어려운 환경에서는 부적합할 수 있음"
+      ],
+      "tags": [
+        "상관",
+        "직업",
+        "대인관계",
+        "타협",
+        "외교"
+      ]
+    },
+    {
+      "id": "RC-ebbe6249ed",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "type": "사화",
+        "presence": false
+      },
+      "mechanism": "사화가 없으면 남편이 무례하거나 험하게 대할 가능성이 높음.",
+      "interpretation": "사화는 배우자와의 관계를 조율하고 부드럽게 만듦.",
+      "action": "사화가 없을 경우 배우자와의 관계에서 신중하라.",
+      "cautions": [
+        "사화가 없으면 관계가 거칠어질 수 있음"
+      ],
+      "tags": [
+        "사화",
+        "배우자",
+        "관계",
+        "조율",
+        "부드러움"
+      ]
+    },
+    {
+      "id": "RC-188ea902c8",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "type": "토",
+        "interaction": "수"
+      },
+      "mechanism": "토와 수의 조합은 재테크와 자산 축적에 유리함.",
+      "interpretation": "토가 발달하고 수가 있으면 재물을 효과적으로 관리할 수 있음.",
+      "action": "토와 수의 조합을 활용해 재테크 전략을 세워라.",
+      "cautions": [
+        "수가 없으면 자산 축적이 어려울 수 있음"
+      ],
+      "tags": [
+        "토",
+        "수",
+        "재테크",
+        "자산",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-35cc1eb3eb",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "type": "토",
+        "interaction": "없음"
+      },
+      "mechanism": "토가 없으면 재물 관리와 방향성이 부족해질 수 있음.",
+      "interpretation": "토가 없으면 재물 관리에서 방황할 가능성이 있음.",
+      "action": "토가 부족할 경우 재물 관리에 신중을 기하라.",
+      "cautions": [
+        "방향성 부족으로 인해 재물 손실 가능성"
+      ],
+      "tags": [
+        "토",
+        "재물",
+        "방향성",
+        "관리",
+        "손실"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_114",
+  "updated_at": "2025-12-23T20:27:24"
+}

@@ -1,0 +1,451 @@
+{
+  "title": "SajuOS_Logic_STRU_M_128",
+  "rulecards": [
+    {
+      "id": "RC-5a8f029e49",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "정화"
+      },
+      "mechanism": "정화는 인위적이고 집중적인 속성을 가지며, 빛과 열로 작용한다.",
+      "interpretation": "정화는 집중력과 몰입력을 상징하며, 기술적이고 창의적인 활동에 적합하다.",
+      "action": "정화의 속성을 활용해 기술적, 창의적 작업에 몰입하라.",
+      "cautions": [
+        "과도한 몰입으로 주변 상황을 놓칠 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "집중력",
+        "몰입",
+        "기술",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-2d43753e61",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "5월"
+      },
+      "mechanism": "5월의 정화는 열로 작용할 확률이 높다.",
+      "interpretation": "5월의 정화는 열을 활용한 기술적, 기능적 활동에 강점을 가진다.",
+      "action": "열을 활용한 기술적 작업에 집중하라.",
+      "cautions": [
+        "환경 변화에 따라 열의 작용이 달라질 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "5월",
+        "열",
+        "기술",
+        "기능"
+      ]
+    },
+    {
+      "id": "RC-6d374e60ba",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "relation": "경금"
+      },
+      "mechanism": "정화는 경금을 다루며, 원석을 가공하는 능력을 상징한다.",
+      "interpretation": "정화와 경금의 조합은 창조적이고 세밀한 작업 능력을 의미한다.",
+      "action": "경금을 활용한 창조적 작업에 도전하라.",
+      "cautions": [
+        "경금이 없으면 창조적 작업의 동기가 약해질 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "창조",
+        "가공",
+        "세밀함"
+      ]
+    },
+    {
+      "id": "RC-fd1fb21c4c",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "relation": "신금"
+      },
+      "mechanism": "정화와 신금의 조합은 반복적 작업과 수리 능력을 상징한다.",
+      "interpretation": "정화와 신금은 분해, 재조립, 수리 능력을 강화한다.",
+      "action": "수리와 재조립 작업에 강점을 활용하라.",
+      "cautions": [
+        "반복 작업이 과도하면 피로가 누적될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "신금",
+        "수리",
+        "재조립",
+        "반복"
+      ]
+    },
+    {
+      "id": "RC-320a77ef8f",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "relation": "간목"
+      },
+      "mechanism": "간목은 정화를 보조하며 기술적 자격을 강화한다.",
+      "interpretation": "간목은 정화의 기술적 능력을 공인된 자격으로 승화시킨다.",
+      "action": "간목의 도움으로 기술적 자격을 취득하라.",
+      "cautions": [
+        "간목이 없으면 자격 취득이 어려울 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "간목",
+        "자격",
+        "기술",
+        "공인"
+      ]
+    },
+    {
+      "id": "RC-88e003dd5d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "relation": "임수"
+      },
+      "mechanism": "임수는 정화의 열을 조절하며 관직과 연결된다.",
+      "interpretation": "임수는 정화의 열을 안정화시켜 관직을 유지하게 한다.",
+      "action": "임수를 활용해 관직에서 안정성을 추구하라.",
+      "cautions": [
+        "임수가 없으면 관직 유지가 어려울 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "임수",
+        "열",
+        "관직",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-3e96ffaee1",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "relation": "축토"
+      },
+      "mechanism": "축토는 정화의 열을 급격히 흡수하며 감정의 출렁임을 유발한다.",
+      "interpretation": "축토는 정화의 열을 억제하며 감정적 불안정을 초래할 수 있다.",
+      "action": "축토의 영향을 받는 환경에서 감정 조절에 주의하라.",
+      "cautions": [
+        "감정 기복이 심해질 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "축토",
+        "열",
+        "감정",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-f4815f2c0e",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "정화",
+        "relation": "개수"
+      },
+      "mechanism": "개수는 정화의 열을 과도하게 식혀 환경 적응을 어렵게 만든다.",
+      "interpretation": "개수는 정화의 열을 억제하여 활동성을 저하시킨다.",
+      "action": "개수의 영향을 최소화하고 열을 유지하라.",
+      "cautions": [
+        "개수가 강하면 활동성이 크게 저하될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "개수",
+        "열",
+        "활동성",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-eca35246ef",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "relation": "삼합"
+      },
+      "mechanism": "삼합은 정화의 빛을 강화하며 기세를 높인다.",
+      "interpretation": "삼합은 정화의 빛을 극대화하여 창조적 성취를 돕는다.",
+      "action": "삼합의 기세를 활용해 창조적 목표를 달성하라.",
+      "cautions": [
+        "삼합이 없으면 빛의 작용이 약해질 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "삼합",
+        "빛",
+        "기세",
+        "창조"
+      ]
+    },
+    {
+      "id": "RC-180b9aad8b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "relation": "목생화"
+      },
+      "mechanism": "목생화는 정화의 열을 강화하며 창조적 에너지를 증폭시킨다.",
+      "interpretation": "목생화는 정화의 열을 활용한 창조적 작업을 돕는다.",
+      "action": "목생화를 통해 창조적 에너지를 극대화하라.",
+      "cautions": [
+        "목생화가 없으면 열의 증폭이 제한될 수 있음"
+      ],
+      "tags": [
+        "정화",
+        "목생화",
+        "열",
+        "창조",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-84fba0c281",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "오화",
+        "삼합": true
+      },
+      "mechanism": "삼합적 코드는 기세를 강화하여 빚의 작용을 유도함.",
+      "interpretation": "오화가 삼합적 코드를 가지면 빚의 작용이 커지고, 이를 기회로 승화 가능.",
+      "action": "삼합적 코드를 활용하여 어려움을 극복하고 성과를 만들어라.",
+      "cautions": [
+        "삼합이 없으면 빚의 작용이 약화될 수 있음."
+      ],
+      "tags": [
+        "오화",
+        "삼합",
+        "기세",
+        "승화",
+        "빚"
+      ]
+    },
+    {
+      "id": "RC-9e2f1ea370",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "정화",
+        "temperature": "high"
+      },
+      "mechanism": "정화의 높은 온도는 문명 발달과 기술적 진보를 상징.",
+      "interpretation": "정화가 강하면 첨단 기술 분야에서 두각을 나타낼 가능성이 높음.",
+      "action": "첨단 기술 분야나 고도화된 산업에 도전하라.",
+      "cautions": [
+        "온도가 지나치게 높으면 불안정성이 생길 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "온도",
+        "첨단기술",
+        "문명발달",
+        "진보"
+      ]
+    },
+    {
+      "id": "RC-cab2d982b7",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "정화",
+        "support": [
+          "경금",
+          "임수"
+        ]
+      },
+      "mechanism": "경금과 임수는 정화의 에너지를 안정적으로 활용하게 함.",
+      "interpretation": "경금과 임수가 있으면 정화의 잠재력을 극대화할 수 있음.",
+      "action": "경금과 임수를 활용하여 전문성을 강화하라.",
+      "cautions": [
+        "경금과 임수가 없으면 방황하거나 불안정해질 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "임수",
+        "안정성",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-d12f98d0f6",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "정화",
+        "element": "간목"
+      },
+      "mechanism": "간목은 정화의 에너지를 계승하고 발전시킴.",
+      "interpretation": "간목이 있으면 정화의 에너지가 지속적으로 유지되고 계승됨.",
+      "action": "간목을 통해 지속적인 학습과 발전을 도모하라.",
+      "cautions": [
+        "간목이 없으면 에너지의 지속성이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "간목",
+        "계승",
+        "발전",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-b379892b99",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "month": "정화",
+        "condition": "습"
+      },
+      "mechanism": "습은 경계를 무너뜨리고 불안정성을 유발함.",
+      "interpretation": "습이 강하면 관의 경계가 약화되어 혼란이 발생할 수 있음.",
+      "action": "습을 조절하고 경계를 유지하려는 노력이 필요함.",
+      "cautions": [
+        "습이 과도하면 성격적 불안정과 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "습",
+        "경계",
+        "불안정",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-e10ac33fb5",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month": "정화",
+        "field": "첨단기술"
+      },
+      "mechanism": "정화는 빛과 열을 다루는 능력을 상징.",
+      "interpretation": "정화는 반도체, AI 등 첨단 기술 분야에 적합.",
+      "action": "첨단 기술 관련 직업을 탐색하고 전문성을 키워라.",
+      "cautions": [
+        "기술 변화에 민감하게 대응해야 함."
+      ],
+      "tags": [
+        "정화",
+        "첨단기술",
+        "반도체",
+        "AI",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-c874816cda",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "정화",
+        "element": "경금"
+      },
+      "mechanism": "경금은 정화의 에너지를 안정적으로 활용하게 함.",
+      "interpretation": "경금이 있으면 유지관리 및 보수 분야에서 강점을 발휘.",
+      "action": "유지관리 및 보수 관련 직업을 고려하라.",
+      "cautions": [
+        "경금이 없으면 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "유지관리",
+        "보수",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-ebec9a6ebc",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "정화",
+        "element": "편인"
+      },
+      "mechanism": "편인은 독창성과 비전통적 사고를 상징.",
+      "interpretation": "편인이 강하면 특이한 직업이나 전문성을 추구할 가능성이 높음.",
+      "action": "비전통적 분야에서 독창성을 발휘하라.",
+      "cautions": [
+        "편인의 에너지가 왜곡되면 천재성과 괴리될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "편인",
+        "독창성",
+        "비전통",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-d447ab7385",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "month": "정화",
+        "condition": "조"
+      },
+      "mechanism": "조한 환경은 까다로운 성격을 유발.",
+      "interpretation": "조한 사람은 술주정이나 감정 표현이 적음.",
+      "action": "조한 성격을 이해하고 적절히 조화하라.",
+      "cautions": [
+        "조한 성격은 대인관계에서 거리감을 유발할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "조",
+        "성격",
+        "대인관계",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-0cd36f88a1",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "정화",
+        "element": "무토"
+      },
+      "mechanism": "무토는 정화의 에너지를 수렴하고 결집시킴.",
+      "interpretation": "무토가 있으면 안정적이고 실용적인 직업 선택 가능.",
+      "action": "무토의 에너지를 활용하여 실용적 분야에 집중하라.",
+      "cautions": [
+        "무토가 없으면 방황하거나 목적성이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "무토",
+        "안정성",
+        "실용성",
+        "직업"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_128",
+  "updated_at": "2025-12-23T20:27:24"
+}

@@ -1,0 +1,1126 @@
+{
+  "title": "SajuOS_Logic_STRU_A_036",
+  "rulecards": [
+    {
+      "id": "RC-35675a018c",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "purity": false
+      },
+      "mechanism": "토는 에너지를 안정시키고 갈무리하는 역할을 한다.",
+      "interpretation": "토가 없으면 에너지가 안정되지 않아 전환이 어렵다.",
+      "action": "사주에서 토의 역할을 확인하고 부족하면 보완책을 찾는다.",
+      "cautions": [
+        "토의 과잉은 에너지의 흐름을 막을 수 있다."
+      ],
+      "tags": [
+        "토",
+        "안정",
+        "갈무리",
+        "전환",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-ba71457e95",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "미토",
+        "state": "활성"
+      },
+      "mechanism": "미토는 화의 세력을 안정시키고 목의 성장을 마무리한다.",
+      "interpretation": "미토는 에너지를 모아 안정시키며, 외형적 성장은 끝났음을 의미한다.",
+      "action": "미토의 에너지를 활용해 안정적이고 마무리적인 작업에 집중한다.",
+      "cautions": [
+        "미토의 에너지를 과도하게 사용하면 실패로 이어질 수 있다."
+      ],
+      "tags": [
+        "미토",
+        "안정",
+        "화",
+        "목",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-347be039bd",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "미토",
+        "interaction": "수"
+      },
+      "mechanism": "미토는 수를 흡수하며 에너지를 스며들게 한다.",
+      "interpretation": "미토와 수의 조합은 긍정적이지만, 수의 형태를 변질시킬 수 있다.",
+      "action": "미토와 수의 조합에서 수의 균형을 유지하도록 주의한다.",
+      "cautions": [
+        "수의 형태가 변질되지 않도록 목의 조화가 필요하다."
+      ],
+      "tags": [
+        "미토",
+        "수",
+        "흡수",
+        "변질",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-0c1857a733",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "미토",
+        "state": "미완성"
+      },
+      "mechanism": "미토는 외형적으로 완성된 것처럼 보이지만 내적으로는 미완성 상태이다.",
+      "interpretation": "미토는 미완성된 상태에서 완성을 추구하는 성향을 가진다.",
+      "action": "미완성된 상태를 인정하고 점진적으로 완성을 추구한다.",
+      "cautions": [
+        "완성되지 않은 상태에서 성급히 드러내려는 경향을 주의한다."
+      ],
+      "tags": [
+        "미토",
+        "미완성",
+        "완성",
+        "내적",
+        "외적"
+      ]
+    },
+    {
+      "id": "RC-b6e2eb124d",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "미토",
+        "interaction": "목"
+      },
+      "mechanism": "미토는 목의 성장을 마무리하고 더 이상 성장하지 않게 한다.",
+      "interpretation": "미토는 목의 외형적 성장을 끝내고 내적 성장을 유도한다.",
+      "action": "목의 성장이 멈춘 이후 내적 성장을 도모한다.",
+      "cautions": [
+        "외형적 성장에만 집착하지 않도록 한다."
+      ],
+      "tags": [
+        "미토",
+        "목",
+        "성장",
+        "내적",
+        "외형"
+      ]
+    },
+    {
+      "id": "RC-678b28e7a0",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "미토",
+        "state": "열성"
+      },
+      "mechanism": "미토는 열성과 빛을 혼재하며 화학적 반응을 일으킨다.",
+      "interpretation": "미토는 열과 빛을 활용한 창의적 작업에 적합하다.",
+      "action": "열성과 빛을 활용한 분야에서 능력을 발휘한다.",
+      "cautions": [
+        "열성을 과도하게 사용하면 실패로 이어질 수 있다."
+      ],
+      "tags": [
+        "미토",
+        "열성",
+        "빛",
+        "화학",
+        "창의"
+      ]
+    },
+    {
+      "id": "RC-9ca99f54d7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "미토",
+        "interaction": "금"
+      },
+      "mechanism": "미토는 화를 금으로 넘기는 전환 역할을 한다.",
+      "interpretation": "미토는 에너지를 다음 단계로 전환하는 중요한 역할을 한다.",
+      "action": "미토의 전환 에너지를 활용해 새로운 시작을 준비한다.",
+      "cautions": [
+        "전환 과정에서 에너지가 소모되지 않도록 주의한다."
+      ],
+      "tags": [
+        "미토",
+        "금",
+        "화",
+        "전환",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-97b0fbebfc",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "미토",
+        "state": "가루 형태"
+      },
+      "mechanism": "미토는 고운 입자 형태로 물과 잘 섞이는 성질을 가진다.",
+      "interpretation": "미토는 가루 형태의 물질과 관련된 작업에 적합하다.",
+      "action": "가루 형태의 물질을 활용한 분야에서 능력을 발휘한다.",
+      "cautions": [
+        "미토의 성질을 과소평가하지 않도록 한다."
+      ],
+      "tags": [
+        "미토",
+        "가루",
+        "입자",
+        "물",
+        "섞임"
+      ]
+    },
+    {
+      "id": "RC-29b6156ff9",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "미토",
+        "interaction": "수화"
+      },
+      "mechanism": "미토는 수화의 에너지를 교차하며 안정적인 상태를 만든다.",
+      "interpretation": "미토는 수화의 균형을 유지하며 에너지를 조화롭게 만든다.",
+      "action": "수화의 균형을 유지하며 미토의 에너지를 활용한다.",
+      "cautions": [
+        "수화의 균형이 깨지지 않도록 주의한다."
+      ],
+      "tags": [
+        "미토",
+        "수화",
+        "균형",
+        "안정",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-bb9e3d4def",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "미토",
+        "interaction": "목화"
+      },
+      "mechanism": "미토는 목화의 에너지를 안정시키고 갈무리한다.",
+      "interpretation": "미토는 목화의 에너지를 활용해 안정적인 결과를 만든다.",
+      "action": "목화의 에너지를 활용해 안정적인 작업을 수행한다.",
+      "cautions": [
+        "목화의 에너지가 과도하게 소모되지 않도록 한다."
+      ],
+      "tags": [
+        "미토",
+        "목화",
+        "안정",
+        "갈무리",
+        "결과"
+      ]
+    },
+    {
+      "id": "RC-f772d9819e",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "earth": true,
+        "wood": true
+      },
+      "mechanism": "목(木)이 토(土)를 조절하여 수(水)를 보호함.",
+      "interpretation": "목이 토를 조절하면 토가 안정되고 수의 흐름이 원활해짐.",
+      "action": "사주에 목과 토가 함께 있으면 목의 역할을 활용하여 균형을 유지.",
+      "cautions": [
+        "목이 없으면 토가 수를 막아 문제가 발생할 수 있음."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "수",
+        "조화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-6be398074f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth": "미토",
+        "water": true,
+        "wood": true
+      },
+      "mechanism": "미토가 수와 목을 동반하면 열성을 조절하고 생산성을 높임.",
+      "interpretation": "미토는 수와 목이 함께 있을 때 재물과 명예를 얻기 쉬움.",
+      "action": "미토가 있는 사주는 수와 목의 조화를 통해 사회적 성공을 도모.",
+      "cautions": [
+        "수와 목이 없으면 사회적 문제나 정신적 어려움이 발생할 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "수",
+        "목",
+        "재물",
+        "명예"
+      ]
+    },
+    {
+      "id": "RC-8ae6ac050f",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "earth": "미토",
+        "metal": "신금"
+      },
+      "mechanism": "미토가 신금을 통해 새로운 가치를 창출함.",
+      "interpretation": "미토와 신금의 조합은 기존의 것을 새로운 가치로 전환시킴.",
+      "action": "미토와 신금이 함께 있을 때 창의적이고 미래지향적인 시각을 활용.",
+      "cautions": [
+        "신금이 없으면 전환 과정이 원활하지 않을 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "신금",
+        "전환",
+        "창의성",
+        "미래지향"
+      ]
+    },
+    {
+      "id": "RC-62b03c2346",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "earth": "미토",
+        "metal": "유금"
+      },
+      "mechanism": "유금은 미토와의 조합에서 전환력이 약함.",
+      "interpretation": "유금은 미토와 함께 있을 때 생산성이 떨어질 수 있음.",
+      "action": "유금과 미토가 함께 있을 경우 조화로운 환경을 조성.",
+      "cautions": [
+        "유금이 미토와 만나면 불필요한 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "유금",
+        "전환력",
+        "생산성",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-c41da9dd9a",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth": "미토",
+        "fire": true
+      },
+      "mechanism": "화(火)가 미토를 통해 열을 조절함.",
+      "interpretation": "미토와 화의 조합은 열을 조절하여 안정성을 높임.",
+      "action": "미토와 화가 함께 있을 때 열의 균형을 유지.",
+      "cautions": [
+        "화가 과도하면 미토가 조열해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "화",
+        "열",
+        "조절",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-8048384f10",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "earth": "미토",
+        "fire": "5화"
+      },
+      "mechanism": "5화와 미토의 6합은 강한 결속력을 형성.",
+      "interpretation": "5화와 미토의 조합은 의리와 협력의 에너지를 강화.",
+      "action": "5화와 미토가 함께 있을 때 협력 관계를 강화.",
+      "cautions": [
+        "6합이 없으면 결속력이 약해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "5화",
+        "6합",
+        "의리",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-eaefc412f8",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "earth": "미토",
+        "wood": "묘목"
+      },
+      "mechanism": "묘목이 미토의 열성을 조절하고 안정성을 제공.",
+      "interpretation": "미토와 묘목의 조합은 생산성과 안정성을 높임.",
+      "action": "미토와 묘목이 함께 있을 때 조화로운 환경을 조성.",
+      "cautions": [
+        "묘목이 없으면 미토의 열성이 과도해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "묘목",
+        "안정성",
+        "생산성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-bd976feca0",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth": "미토",
+        "water": "계수"
+      },
+      "mechanism": "계수가 미토와 목의 조화를 돕고 안정성을 제공.",
+      "interpretation": "계수가 미토와 목의 균형을 유지하여 문제를 해결.",
+      "action": "계수가 미토와 함께 있을 때 심리적 안정감을 활용.",
+      "cautions": [
+        "계수가 없으면 미토와 목의 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "계수",
+        "목",
+        "안정성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-f2e33ed295",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "earth": "미토",
+        "fire": "4화"
+      },
+      "mechanism": "4화가 미토를 통해 열을 조절하고 생산성을 높임.",
+      "interpretation": "4화와 미토의 조합은 생산성을 강화.",
+      "action": "4화와 미토가 함께 있을 때 열의 균형을 유지.",
+      "cautions": [
+        "4화가 과도하면 미토가 조열해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "4화",
+        "열",
+        "생산성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-6912a44857",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "earth": "미토",
+        "metal": "경금"
+      },
+      "mechanism": "경금이 미토와의 조합에서 재물을 끌어오는 역할.",
+      "interpretation": "경금과 미토의 조합은 재물 운을 강화.",
+      "action": "경금과 미토가 함께 있을 때 재물 운을 활용.",
+      "cautions": [
+        "경금이 없으면 재물 운이 약해질 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "경금",
+        "재물",
+        "운",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-994509c344",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "type": "극",
+        "note": "극의 에너지가 강한 경우"
+      },
+      "mechanism": "극의 에너지는 감정적 교류를 제한하고 철저히 실리적 관점에서 작용함.",
+      "interpretation": "감정적 교류가 부족하고 관계에서 거리를 두는 경향이 있음.",
+      "action": "극의 에너지를 완화하기 위해 생설의 에너지를 활용하도록 노력.",
+      "cautions": [
+        "감정적 단절로 인해 인간관계가 소원해질 수 있음."
+      ],
+      "tags": [
+        "극",
+        "생설",
+        "감정",
+        "거리",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-8cbcb2222f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "비겁이 강하고 인성이 약한 경우"
+      },
+      "mechanism": "비겁이 강하면 인성과 식상이 억제되어 에너지 흐름이 막힘.",
+      "interpretation": "자신의 감정과 사고가 지나치게 내향적으로 치우칠 수 있음.",
+      "action": "인성과 식상의 균형을 맞추는 방향으로 노력.",
+      "cautions": [
+        "내향적 사고로 인해 외부와의 소통이 어려울 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "인성",
+        "식상",
+        "균형",
+        "내향"
+      ]
+    },
+    {
+      "id": "RC-a7642bb6c3",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "type": "생설",
+        "note": "생설의 에너지가 강한 경우"
+      },
+      "mechanism": "생설은 감정적 교류와 타인에 대한 포용력을 강화함.",
+      "interpretation": "타인의 감정을 이해하고 보듬는 능력이 뛰어남.",
+      "action": "생설의 에너지를 활용해 인간관계를 풍요롭게 유지.",
+      "cautions": [
+        "지나친 감정적 몰입으로 인해 스스로 소진될 수 있음."
+      ],
+      "tags": [
+        "생설",
+        "감정",
+        "포용",
+        "관계",
+        "소진"
+      ]
+    },
+    {
+      "id": "RC-e5185f9de7",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "elements": [
+          "진토",
+          "미토"
+        ],
+        "note": "목이 없는 경우"
+      },
+      "mechanism": "목이 없으면 진토와 미토의 잠재력이 발현되지 못함.",
+      "interpretation": "잠재력은 있으나 이를 실현하기 어려운 구조.",
+      "action": "목의 에너지를 보완하여 잠재력을 발휘하도록 노력.",
+      "cautions": [
+        "잠재력만으로는 성과를 내기 어려움."
+      ],
+      "tags": [
+        "진토",
+        "미토",
+        "목",
+        "잠재력",
+        "발현"
+      ]
+    },
+    {
+      "id": "RC-fa63fc3be5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "type": "술미형",
+        "note": "술미형이 형성된 경우"
+      },
+      "mechanism": "술미형은 조환 에너지를 형성하며 변화와 갈등을 유발.",
+      "interpretation": "변화와 갈등을 통해 새로운 방향성을 모색함.",
+      "action": "술미형의 에너지를 긍정적으로 활용하여 발전의 기회로 삼음.",
+      "cautions": [
+        "갈등이 지나치면 관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "술미형",
+        "조환",
+        "변화",
+        "갈등",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-e059a4211d",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "type": "충",
+        "note": "충의 에너지가 강한 경우"
+      },
+      "mechanism": "충은 격발적 에너지를 통해 변화를 촉진함.",
+      "interpretation": "갑작스러운 변화와 결단력이 요구되는 상황이 발생.",
+      "action": "충의 에너지를 활용해 새로운 기회를 모색.",
+      "cautions": [
+        "충의 에너지가 지나치면 불안정성이 커질 수 있음."
+      ],
+      "tags": [
+        "충",
+        "격발",
+        "변화",
+        "결단",
+        "불안정"
+      ]
+    },
+    {
+      "id": "RC-9618661a68",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "elements": [
+          "정화",
+          "미토"
+        ],
+        "note": "정화가 투관되지 않은 경우"
+      },
+      "mechanism": "정화가 투관되지 않으면 갈등이 형성되지 않음.",
+      "interpretation": "내적 갈등이 적고 안정적인 상태를 유지.",
+      "action": "정화의 에너지를 적절히 활용하여 균형을 유지.",
+      "cautions": [
+        "정화가 투관되면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "미토",
+        "투관",
+        "갈등",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-0bd1f9550f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "elements": [
+          "미토",
+          "목"
+        ],
+        "note": "미토와 목이 연결된 경우"
+      },
+      "mechanism": "미토와 목의 연결은 확장성과 변화를 촉진함.",
+      "interpretation": "창의적이고 유연한 사고를 통해 성과를 낼 수 있음.",
+      "action": "목의 에너지를 적극 활용하여 잠재력을 발휘.",
+      "cautions": [
+        "목의 에너지가 부족하면 잠재력이 제한될 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "목",
+        "확장",
+        "변화",
+        "창의성"
+      ]
+    },
+    {
+      "id": "RC-90887799f4",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "type": "충미충",
+        "note": "충미충이 형성된 경우"
+      },
+      "mechanism": "충미충은 격정적이고 격발적인 에너지를 형성함.",
+      "interpretation": "갑작스러운 변화와 감정적 격동이 발생.",
+      "action": "충미충의 에너지를 긍정적으로 활용하여 새로운 기회를 창출.",
+      "cautions": [
+        "격정적 에너지가 지나치면 혼란을 초래할 수 있음."
+      ],
+      "tags": [
+        "충미충",
+        "격정",
+        "격발",
+        "변화",
+        "혼란"
+      ]
+    },
+    {
+      "id": "RC-f94e220a08",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "elements": [
+          "미토",
+          "정제"
+        ],
+        "note": "미토가 정제로 작용하는 경우"
+      },
+      "mechanism": "미토의 정제는 성급함과 부실함을 유발할 수 있음.",
+      "interpretation": "결과를 서두르다 보니 만족도가 낮아질 수 있음.",
+      "action": "인성의 에너지를 활용하여 성급함을 조절.",
+      "cautions": [
+        "성급함으로 인해 실속이 부족할 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "정제",
+        "성급함",
+        "부실",
+        "인성"
+      ]
+    },
+    {
+      "id": "RC-43653c35e3",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "정제",
+        "branch": "축"
+      },
+      "mechanism": "축의 정제는 변화와 적응이 어려운 성질을 가짐.",
+      "interpretation": "축의 정제가 강하면 가난을 물려받을 가능성이 높음.",
+      "action": "재정적 어려움을 인정하고 장기적인 계획을 세울 것.",
+      "cautions": [
+        "빚 상속 가능성",
+        "재정적 변화 어려움"
+      ],
+      "tags": [
+        "정제",
+        "축",
+        "가난",
+        "상속",
+        "재정"
+      ]
+    },
+    {
+      "id": "RC-05e955e9fd",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "정제",
+        "branch": "미",
+        "water": true
+      },
+      "mechanism": "미의 정제는 수가 있을 때 상속 가능성을 높임.",
+      "interpretation": "수가 있으면 유산 상속 가능성이 높아짐.",
+      "action": "수가 있는 경우 상속 기회를 활용할 것.",
+      "cautions": [
+        "수가 없으면 상속 어려움"
+      ],
+      "tags": [
+        "정제",
+        "미",
+        "상속",
+        "수가 중요",
+        "유산"
+      ]
+    },
+    {
+      "id": "RC-88a6ee8520",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "branch": "미",
+        "water": true
+      },
+      "mechanism": "수가 목의 발현 속도를 조절함.",
+      "interpretation": "목일간이 미월에 수가 있으면 실속을 갖춘 결과를 얻음.",
+      "action": "수가 있는 경우 속도 조절에 집중할 것.",
+      "cautions": [
+        "수가 없으면 조급함으로 인해 실속 부족"
+      ],
+      "tags": [
+        "목일간",
+        "미월",
+        "수",
+        "속도 조절",
+        "실속"
+      ]
+    },
+    {
+      "id": "RC-9f6e081a12",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "관",
+        "branch": "미",
+        "strength": "weak"
+      },
+      "mechanism": "미월의 약한 관은 무시당할 가능성이 높음.",
+      "interpretation": "약한 관은 자존감 문제를 유발할 수 있음.",
+      "action": "자존감을 높이는 활동에 집중할 것.",
+      "cautions": [
+        "약한 관은 직장이나 대인관계에서 어려움"
+      ],
+      "tags": [
+        "관",
+        "미월",
+        "자존감",
+        "약한 관",
+        "무시"
+      ]
+    },
+    {
+      "id": "RC-1364701d7b",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "정제",
+        "branch": "미",
+        "water": false
+      },
+      "mechanism": "미월의 정제는 실속이 부족할 가능성이 있음.",
+      "interpretation": "수가 없으면 실속 없는 재물 구조가 됨.",
+      "action": "수가 없는 경우 재정적 안정성을 강화할 것.",
+      "cautions": [
+        "실속 부족",
+        "조급함"
+      ],
+      "tags": [
+        "정제",
+        "미월",
+        "수가 없음",
+        "실속 부족",
+        "재정"
+      ]
+    },
+    {
+      "id": "RC-7f5e6dd960",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "branch": "미",
+        "water": true
+      },
+      "mechanism": "수가 목의 발현을 돕고 안정성을 제공함.",
+      "interpretation": "수가 있으면 직업적 안정성과 성과가 높아짐.",
+      "action": "수가 있는 경우 장기적인 목표를 설정할 것.",
+      "cautions": [
+        "수가 없으면 불안정한 경향"
+      ],
+      "tags": [
+        "목일간",
+        "미월",
+        "수",
+        "직업 안정",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-ae68d6c460",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "관",
+        "branch": "미",
+        "strength": "weak"
+      },
+      "mechanism": "약한 관은 대인관계에서 신뢰를 얻기 어려움.",
+      "interpretation": "약한 관은 관계에서 불만을 초래할 수 있음.",
+      "action": "관계를 개선하기 위해 신뢰를 쌓는 노력을 할 것.",
+      "cautions": [
+        "약한 관은 갈등 유발 가능성"
+      ],
+      "tags": [
+        "관",
+        "미월",
+        "대인관계",
+        "신뢰",
+        "약한 관"
+      ]
+    },
+    {
+      "id": "RC-a7406db9b2",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "branch": "미",
+        "water": true
+      },
+      "mechanism": "수가 정제의 실속을 강화함.",
+      "interpretation": "수가 있으면 재물 관리 능력이 향상됨.",
+      "action": "수가 있는 경우 재정 계획을 세울 것.",
+      "cautions": [
+        "수가 없으면 재정적 불안정"
+      ],
+      "tags": [
+        "정제",
+        "미월",
+        "수",
+        "재정 관리",
+        "실속"
+      ]
+    },
+    {
+      "id": "RC-8045d11da7",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "미월의 정제와 관련된 일반적 조건"
+      },
+      "mechanism": "미월의 정제는 조급한 성향을 가짐.",
+      "interpretation": "조급함은 실속 부족으로 이어질 수 있음.",
+      "action": "조급함을 줄이고 계획적으로 행동할 것.",
+      "cautions": [
+        "조급함으로 인한 실수"
+      ],
+      "tags": [
+        "미월",
+        "정제",
+        "조급함",
+        "실속 부족",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-fdab4b9ad0",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "관",
+        "branch": "미",
+        "strength": "weak"
+      },
+      "mechanism": "약한 관은 배우자나 상사와의 관계에서 갈등을 유발할 수 있음.",
+      "interpretation": "약한 관은 관계에서 불만을 초래할 가능성이 높음.",
+      "action": "관계를 개선하기 위해 대화와 이해를 중시할 것.",
+      "cautions": [
+        "약한 관은 갈등 유발 가능성"
+      ],
+      "tags": [
+        "관",
+        "미월",
+        "관계",
+        "갈등",
+        "약한 관"
+      ]
+    },
+    {
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": 55
+      },
+      "mechanism": "해당 시기의 운이 강한 영향을 미침.",
+      "interpretation": "힘든 시기일 수 있으나 적절한 대처로 안정 가능.",
+      "action": "운의 흐름에 맞춰 계획을 조정하라.",
+      "cautions": [
+        "과도한 활동은 피하라."
+      ],
+      "tags": [
+        "운",
+        "시기",
+        "대운",
+        "조정",
+        "안정"
+      ],
+      "id": "RC-a98aff027c"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "intensity": "강함"
+      },
+      "mechanism": "화가 강하면 조해질 가능성이 높음.",
+      "interpretation": "조화가 깨질 수 있는 상황.",
+      "action": "수기를 보완하여 균형을 맞춰라.",
+      "cautions": [
+        "과도한 화의 영향 주의."
+      ],
+      "tags": [
+        "화",
+        "조화",
+        "균형",
+        "수기",
+        "강약"
+      ],
+      "id": "RC-a5ff0fbb42"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "note": "인성이 부족한 사주"
+      },
+      "mechanism": "인성은 학문적 깊이와 보충의 욕구를 나타냄.",
+      "interpretation": "공부나 학문적 성취가 제한될 수 있음.",
+      "action": "인성을 보완할 수 있는 활동을 찾아라.",
+      "cautions": [
+        "지속적인 학습 태도 유지 필요."
+      ],
+      "tags": [
+        "인성",
+        "학문",
+        "보충",
+        "공부",
+        "성취"
+      ],
+      "id": "RC-686dc4cc91"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "relation": "재관",
+        "stability": "부족"
+      },
+      "mechanism": "재관은 결혼 생활의 안정과 만족을 상징.",
+      "interpretation": "결혼 생활에서 안정감이 부족할 수 있음.",
+      "action": "재관의 균형을 맞추는 노력을 하라.",
+      "cautions": [
+        "결혼 생활의 불안정성 주의."
+      ],
+      "tags": [
+        "재관",
+        "결혼",
+        "안정",
+        "만족",
+        "관계"
+      ],
+      "id": "RC-a0ef25cfe3"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "interaction": "충해",
+        "effect": "stability_loss"
+      },
+      "mechanism": "충해는 안정된 구조를 흔들 수 있음.",
+      "interpretation": "사건 사고로 인해 변화가 발생할 수 있음.",
+      "action": "충해 시기에는 신중히 행동하라.",
+      "cautions": [
+        "구조 변화에 대비 필요."
+      ],
+      "tags": [
+        "충해",
+        "안정",
+        "변화",
+        "사건",
+        "구조"
+      ],
+      "id": "RC-44ed0d1380"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "편제",
+        "placement": "연"
+      },
+      "mechanism": "편제는 전체를 보는 능력과 경영 능력을 상징.",
+      "interpretation": "국제적 경영이나 외교적 활동에 적합.",
+      "action": "국제적 관점에서 경력을 설계하라.",
+      "cautions": [
+        "세부적인 부분을 놓치지 않도록 주의."
+      ],
+      "tags": [
+        "편제",
+        "경영",
+        "국제",
+        "외교",
+        "능력"
+      ],
+      "id": "RC-4ed964156f"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "편제",
+        "structure": "강함"
+      },
+      "mechanism": "편제는 부를 이루는 능력을 나타냄.",
+      "interpretation": "재물적 성공 가능성이 높음.",
+      "action": "재물 관리와 투자에 신중하라.",
+      "cautions": [
+        "과도한 욕심은 피하라."
+      ],
+      "tags": [
+        "편제",
+        "부",
+        "재물",
+        "성공",
+        "관리"
+      ],
+      "id": "RC-3d564b8aed"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "미토와 음목의 조합"
+      },
+      "mechanism": "미토와 음목은 정신적 안정과 빠른 발현을 상징.",
+      "interpretation": "정신적으로 안정된 상태에서 빠른 성과 가능.",
+      "action": "안정된 환경에서 계획을 실행하라.",
+      "cautions": [
+        "환경 변화에 민감할 수 있음."
+      ],
+      "tags": [
+        "미토",
+        "음목",
+        "안정",
+        "성과",
+        "환경"
+      ],
+      "id": "RC-6d8ecb1d58"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "편제",
+        "placement": "월"
+      },
+      "mechanism": "월의 편제는 국내적 관점의 경영 능력을 나타냄.",
+      "interpretation": "국내 시장에서의 성공 가능성.",
+      "action": "국내 시장에 집중하라.",
+      "cautions": [
+        "국제적 관점과의 균형 필요."
+      ],
+      "tags": [
+        "편제",
+        "경영",
+        "국내",
+        "시장",
+        "성공"
+      ],
+      "id": "RC-b9105b1e78"
+    },
+    {
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "신유대원"
+      },
+      "mechanism": "신유대원은 정치적 색채와 표현의 시기.",
+      "interpretation": "자신의 색깔을 드러낼 수 있는 시기.",
+      "action": "신중히 자신의 입장을 표현하라.",
+      "cautions": [
+        "과도한 표현은 피하라."
+      ],
+      "tags": [
+        "신유대원",
+        "정치",
+        "표현",
+        "색깔",
+        "시기"
+      ],
+      "id": "RC-b8f52f0420"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_036",
+  "updated_at": "2025-12-23T20:27:23"
+}

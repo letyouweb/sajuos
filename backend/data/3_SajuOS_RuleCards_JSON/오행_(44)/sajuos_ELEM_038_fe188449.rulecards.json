@@ -1,0 +1,199 @@
+{
+  "title": "SajuOS_Logic_ELEM_038",
+  "rulecards": [
+    {
+      "id": "RC-8994662a96",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "자미 원진"
+      },
+      "mechanism": "미토는 자수를 풀어지게 하고 고유성을 잃게 만듦.",
+      "interpretation": "자미 원진은 자수의 안정성과 고유성을 무너뜨리는 관계.",
+      "action": "자수를 보호하기 위해 금의 기운을 활용.",
+      "cautions": [
+        "자각 증상이 없을 수 있음",
+        "신경계와 관련된 문제 발생 가능"
+      ],
+      "tags": [
+        "자미",
+        "원진",
+        "자수",
+        "미토",
+        "오행",
+        "고유성",
+        "불안정",
+        "금",
+        "보호",
+        "신경계"
+      ]
+    },
+    {
+      "id": "RC-bc03a5ff02",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토"
+      },
+      "mechanism": "토는 오행의 변화를 자연스럽게 조절하는 역할을 함.",
+      "interpretation": "토는 오행 간의 균형을 잡아주는 중요한 요소.",
+      "action": "토의 기운을 활용해 전체적인 조화를 유지.",
+      "cautions": [],
+      "tags": [
+        "토",
+        "오행",
+        "조화",
+        "균형",
+        "변화",
+        "조절",
+        "목생화",
+        "자연스러움"
+      ]
+    },
+    {
+      "id": "RC-5ca3449090",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "축토 vs 미토"
+      },
+      "mechanism": "축토는 압축하고 미토는 풀어지게 만듦.",
+      "interpretation": "축토는 안정적이고 탄력적이며, 미토는 느슨하고 불안정.",
+      "action": "축토와 미토의 차이를 이해하고 적절히 활용.",
+      "cautions": [],
+      "tags": [
+        "축토",
+        "미토",
+        "안정성",
+        "탄력",
+        "불안정",
+        "오행",
+        "차이",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-673c167406",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "재극인"
+      },
+      "mechanism": "미토는 재극인을 형성하며 인성을 무너뜨림.",
+      "interpretation": "재극인은 도덕성과 학문적 성향이 약화된 상태.",
+      "action": "재극인의 영향을 줄이기 위해 인성을 보완.",
+      "cautions": [
+        "자각 증상이 없을 수 있음",
+        "도덕성 약화 가능"
+      ],
+      "tags": [
+        "재극인",
+        "인성",
+        "도덕성",
+        "학문",
+        "미토",
+        "약화",
+        "보완",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-550c657d3d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "자수 충"
+      },
+      "mechanism": "충은 자각 증상을 유발하며 긴장감을 줌.",
+      "interpretation": "자수 충은 자각을 통해 문제를 인식하게 함.",
+      "action": "충의 긴장감을 활용해 문제를 해결.",
+      "cautions": [],
+      "tags": [
+        "자수",
+        "충",
+        "자각",
+        "긴장감",
+        "문제",
+        "해결",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-8947212d33",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "자미 원진"
+      },
+      "mechanism": "미토는 자수를 무너뜨리며 긴장감 없이 변화시킴.",
+      "interpretation": "자미 원진은 무의식적으로 문제를 야기할 수 있음.",
+      "action": "자미 원진의 영향을 줄이기 위해 금의 기운을 보완.",
+      "cautions": [
+        "긴장감 부족",
+        "무의식적 문제 발생 가능"
+      ],
+      "tags": [
+        "자미",
+        "원진",
+        "자수",
+        "미토",
+        "긴장감",
+        "문제",
+        "금",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-79388981bf",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "억부 해석"
+      },
+      "mechanism": "억부 해석은 개인의 성향과 심리를 파악하는 데 유용.",
+      "interpretation": "억부 해석은 심리적 분석에 적합.",
+      "action": "억부 해석을 심리적 관점에서 활용.",
+      "cautions": [
+        "단순화된 해석에 주의"
+      ],
+      "tags": [
+        "억부",
+        "해석",
+        "심리",
+        "성향",
+        "분석",
+        "활용",
+        "주의"
+      ]
+    },
+    {
+      "id": "RC-21fc61aa1e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "정미 vs 정축"
+      },
+      "mechanism": "정미는 상관생제가 강하고, 정축은 인성을 더 잘 활용.",
+      "interpretation": "정미는 표현과 알림에 집중, 정축은 완벽주의적 성향.",
+      "action": "정미와 정축의 차이를 이해하고 적절히 활용.",
+      "cautions": [],
+      "tags": [
+        "정미",
+        "정축",
+        "상관생제",
+        "인성",
+        "표현",
+        "완벽주의",
+        "차이",
+        "활용"
+      ]
+    }
+  ],
+  "notes": [
+    "자미 원진은 자각 증상이 없다는 점이 핵심.",
+    "금의 기운이 자수를 보호하는 데 중요."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_038",
+  "updated_at": "2025-12-23T20:27:25"
+}

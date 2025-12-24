@@ -1,0 +1,228 @@
+{
+  "title": "SajuOS_Logic_ELEM_019",
+  "rulecards": [
+    {
+      "topic": "ELEMENTS",
+      "priority": 10,
+      "trigger": {
+        "element": "토"
+      },
+      "mechanism": "토는 다른 오행의 배경 역할을 하며, 특정한 방향성이나 캐릭터성이 없다.",
+      "interpretation": "토는 목화금수가 각자의 역할을 제대로 수행할 수 있도록 돕는다.",
+      "action": "사주에서 토의 유무를 확인하고, 다른 오행의 조화를 돕는 역할을 이해하라.",
+      "cautions": [
+        "토가 없으면 오행 간 경계가 무너질 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "배경",
+        "조화",
+        "경계"
+      ],
+      "id": "RC-ce80a6c07b"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "interaction": "목"
+      },
+      "mechanism": "토는 목의 뿌리를 안정시켜 목이 더 높이 성장할 수 있도록 돕는다.",
+      "interpretation": "목이 토를 만나면 안정적인 기반 위에서 성장한다.",
+      "action": "목과 토의 상호작용을 통해 성장 가능성을 분석하라.",
+      "cautions": [
+        "토가 없으면 목의 성장이 불안정할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "목",
+        "성장",
+        "안정"
+      ],
+      "id": "RC-dee6d576f7"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "interaction": "화"
+      },
+      "mechanism": "토는 화의 팽창과 분열을 조절하여 안정적인 상태를 유지한다.",
+      "interpretation": "화가 토를 만나면 확산이 멈추고 영역이 규정된다.",
+      "action": "화와 토의 조합을 통해 에너지의 균형을 유지하라.",
+      "cautions": [
+        "토가 없으면 화의 에너지가 과도하게 확산될 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "화",
+        "조절",
+        "균형"
+      ],
+      "id": "RC-15a81f52ab"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "금"
+      },
+      "mechanism": "토는 금의 경계를 부드럽게 형성하며, 명확한 울타리를 제공하지 않는다.",
+      "interpretation": "토는 금의 영역을 자연스럽게 구분짓는다.",
+      "action": "금과 토의 상호작용을 통해 경계 설정을 분석하라.",
+      "cautions": [
+        "금과 토의 경계 차이를 혼동하지 말 것."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "금",
+        "경계",
+        "형성"
+      ],
+      "id": "RC-91a607e276"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "수"
+      },
+      "mechanism": "토는 수의 흐름을 조절하며, 과도한 확산을 막는다.",
+      "interpretation": "수와 토의 조합은 안정적인 흐름을 만든다.",
+      "action": "수와 토의 상호작용을 통해 조화로운 흐름을 유지하라.",
+      "cautions": [
+        "토가 없으면 수의 흐름이 통제되지 않을 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "수",
+        "조절",
+        "흐름"
+      ],
+      "id": "RC-1b42d2dab5"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "absence": true
+      },
+      "mechanism": "토가 없으면 오행 간 경계와 조절 기능이 약화된다.",
+      "interpretation": "토가 없는 사주는 불안정성과 조화 부족을 겪을 수 있다.",
+      "action": "토가 부족한 사주에 안정성을 보완할 방법을 찾으라.",
+      "cautions": [
+        "토의 부재는 심리적 불안정성을 초래할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "부재",
+        "불안정",
+        "조화"
+      ],
+      "id": "RC-a051385e4b"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "excess": true
+      },
+      "mechanism": "토가 과도하면 자신의 생각이나 감정을 드러내지 않는다.",
+      "interpretation": "토가 많은 사람은 주변과 잘 섞이지만 개성이 약하다.",
+      "action": "토가 많은 사주는 자신의 개성을 표현하는 방법을 찾아라.",
+      "cautions": [
+        "과도한 토는 소통의 어려움을 초래할 수 있다."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "과다",
+        "개성",
+        "소통"
+      ],
+      "id": "RC-b07edc07f9"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "interaction": "목화금수"
+      },
+      "mechanism": "토는 모든 오행의 완충 역할을 하며, 조화를 유지한다.",
+      "interpretation": "토는 오행 간의 균형을 잡아주는 중심 역할을 한다.",
+      "action": "토의 역할을 이해하고, 오행 간 조화를 분석하라.",
+      "cautions": [
+        "토의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "조화",
+        "완충",
+        "균형"
+      ],
+      "id": "RC-1a6eb383bc"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "정신적 가치"
+      },
+      "mechanism": "토는 정신적 가치를 형성하고 안정감을 제공한다.",
+      "interpretation": "토는 정신적 안정과 내면의 균형을 상징한다.",
+      "action": "정신적 가치를 중시하는 사주에서 토의 역할을 분석하라.",
+      "cautions": [
+        "정신적 가치와 물질적 가치를 혼동하지 말 것."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "정신적 가치",
+        "안정",
+        "균형"
+      ],
+      "id": "RC-69bd9991ed"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "물질적 가치"
+      },
+      "mechanism": "토는 물질적 가치를 안정적으로 유지하는 역할을 한다.",
+      "interpretation": "토는 현실적 안정과 물질적 기반을 상징한다.",
+      "action": "물질적 가치를 중시하는 사주에서 토의 역할을 분석하라.",
+      "cautions": [
+        "물질적 가치와 정신적 가치를 균형 있게 고려하라."
+      ],
+      "tags": [
+        "오행",
+        "토",
+        "물질적 가치",
+        "안정",
+        "기반"
+      ],
+      "id": "RC-383be1cd33"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_019",
+  "updated_at": "2025-12-23T20:27:25"
+}

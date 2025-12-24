@@ -1,0 +1,229 @@
+{
+  "title": "SajuOS_Logic_TEN_041",
+  "rulecards": [
+    {
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "type": "편관",
+        "usable": true
+      },
+      "mechanism": "편관은 일간을 극하지만 통제 가능하면 유용하게 활용할 수 있다.",
+      "interpretation": "편관은 위험과 명예를 동시에 나타내며, 적절히 다루면 긍정적인 결과를 가져올 수 있다.",
+      "action": "편관을 통제 가능한지 판단하고, 활용 가능한 방향으로 사용하라.",
+      "cautions": [
+        "편관을 통제하지 못하면 부정적인 결과를 초래할 수 있다."
+      ],
+      "tags": [
+        "편관",
+        "통제",
+        "위험",
+        "명예",
+        "활용"
+      ],
+      "id": "RC-8f9d0dc0dc"
+    },
+    {
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "type": "편관",
+        "usable": false
+      },
+      "mechanism": "편관이 통제되지 않으면 위험 요소로 작용한다.",
+      "interpretation": "편관이 통제되지 않으면 삶에 풍파와 문제를 일으킬 수 있다.",
+      "action": "편관이 통제 불가능한 경우, 이를 억제하거나 피하는 전략을 세워라.",
+      "cautions": [
+        "편관을 과신하거나 방치하지 말 것."
+      ],
+      "tags": [
+        "편관",
+        "위험",
+        "통제불가",
+        "문제",
+        "억제"
+      ],
+      "id": "RC-23356edec0"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "type": "살",
+        "usable": true
+      },
+      "mechanism": "살은 통제 가능할 때 유용하게 활용할 수 있다.",
+      "interpretation": "살을 적절히 다루면 긍정적인 결과를 얻을 수 있다.",
+      "action": "살을 통제 가능한지 판단하고, 활용 가능한 방향으로 사용하라.",
+      "cautions": [
+        "살을 과도하게 사용하거나 통제하지 못하면 부정적인 결과를 초래할 수 있다."
+      ],
+      "tags": [
+        "살",
+        "통제",
+        "활용",
+        "위험",
+        "긍정"
+      ],
+      "id": "RC-6407d363b9"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "type": "살",
+        "usable": false
+      },
+      "mechanism": "살이 통제되지 않으면 삶에 문제를 일으킬 수 있다.",
+      "interpretation": "살을 통제하지 못하면 풍파와 문제를 초래할 수 있다.",
+      "action": "살이 통제 불가능한 경우, 이를 억제하거나 피하는 전략을 세워라.",
+      "cautions": [
+        "살을 과신하거나 방치하지 말 것."
+      ],
+      "tags": [
+        "살",
+        "위험",
+        "통제불가",
+        "문제",
+        "억제"
+      ],
+      "id": "RC-247e97e061"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "type": "살",
+        "strength": "약함"
+      },
+      "mechanism": "살이 약할 경우, 이를 보완할 수 있는 요소가 필요하다.",
+      "interpretation": "살이 약하면 이를 보완하거나 다른 요소를 활용해야 한다.",
+      "action": "살이 약한 경우, 재생살이나 상관생제를 활용하라.",
+      "cautions": [
+        "살이 약한 상태에서 무리하게 사용하지 말 것."
+      ],
+      "tags": [
+        "살",
+        "약함",
+        "보완",
+        "재생살",
+        "상관생제"
+      ],
+      "id": "RC-1197b0f5cc"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "type": "살",
+        "strength": "강함"
+      },
+      "mechanism": "살이 강할 경우, 이를 적절히 통제해야 한다.",
+      "interpretation": "살이 강하면 통제하지 못할 경우 부정적인 결과를 초래할 수 있다.",
+      "action": "살이 강한 경우, 통제 가능한 범위 내에서 활용하라.",
+      "cautions": [
+        "살이 강한 상태에서 과도하게 사용하지 말 것."
+      ],
+      "tags": [
+        "살",
+        "강함",
+        "통제",
+        "위험",
+        "활용"
+      ],
+      "id": "RC-f78e255a69"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "type": "재생살",
+        "usable": true
+      },
+      "mechanism": "재생살은 살을 보완하고 활용 가능성을 높인다.",
+      "interpretation": "재생살은 살을 감당할 수 있는 조건을 만들어준다.",
+      "action": "재생살을 활용하여 살의 긍정적인 면을 극대화하라.",
+      "cautions": [
+        "재생살을 과도하게 의존하지 말 것."
+      ],
+      "tags": [
+        "재생살",
+        "살",
+        "보완",
+        "활용",
+        "긍정"
+      ],
+      "id": "RC-aa4cfdd319"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "type": "상관생제",
+        "usable": true
+      },
+      "mechanism": "상관생제는 살을 보완하고 활용 가능성을 높인다.",
+      "interpretation": "상관생제는 살을 감당할 수 있는 조건을 만들어준다.",
+      "action": "상관생제를 활용하여 살의 긍정적인 면을 극대화하라.",
+      "cautions": [
+        "상관생제를 과도하게 의존하지 말 것."
+      ],
+      "tags": [
+        "상관생제",
+        "살",
+        "보완",
+        "활용",
+        "긍정"
+      ],
+      "id": "RC-6292c8c98c"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "type": "살",
+        "boundary": "아슬아슬함"
+      },
+      "mechanism": "살은 아슬아슬한 경계에서 활용될 때 긍정적이거나 부정적인 결과를 초래할 수 있다.",
+      "interpretation": "살이 아슬아슬한 경계에 있을 때, 통제 여부에 따라 결과가 달라진다.",
+      "action": "살이 아슬아슬한 경계에 있을 경우, 신중하게 통제하라.",
+      "cautions": [
+        "살의 경계를 넘지 않도록 주의하라."
+      ],
+      "tags": [
+        "살",
+        "경계",
+        "아슬아슬",
+        "통제",
+        "위험"
+      ],
+      "id": "RC-ef88a38069"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "type": "살",
+        "event": "청문회"
+      },
+      "mechanism": "살을 가진 사람이 청문회와 같은 상황에서 통제력을 잃으면 부정적인 결과를 초래할 수 있다.",
+      "interpretation": "살을 가진 사람은 중요한 상황에서 신중하게 행동해야 한다.",
+      "action": "청문회와 같은 중요한 상황에서 살의 통제력을 유지하라.",
+      "cautions": [
+        "중요한 상황에서 감정적으로 행동하지 말 것."
+      ],
+      "tags": [
+        "살",
+        "청문회",
+        "통제",
+        "신중",
+        "위험"
+      ],
+      "id": "RC-9cea14627b"
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_041",
+  "updated_at": "2025-12-23T20:27:26"
+}

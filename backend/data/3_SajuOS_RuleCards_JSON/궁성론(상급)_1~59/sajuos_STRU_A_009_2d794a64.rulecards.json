@@ -1,0 +1,1078 @@
+{
+  "title": "SajuOS_Logic_STRU_A_009",
+  "rulecards": [
+    {
+      "id": "RC-7da72a95a7",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "임목"
+      },
+      "mechanism": "임목은 시작하는 에너지가 강하고 순수함을 유지하는 특성이 있음.",
+      "interpretation": "임목은 새로운 시작과 지속적인 순수성을 상징.",
+      "action": "임목의 특성을 활용해 새로운 프로젝트나 아이디어를 시작할 때 유리함.",
+      "cautions": [
+        "조급함과 성급함을 주의해야 함."
+      ],
+      "tags": [
+        "임목",
+        "순수성",
+        "시작",
+        "에너지",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-6325ca138b",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "비견",
+        "element": "임목"
+      },
+      "mechanism": "비견은 내부적 지지와 협력의 역할을 함.",
+      "interpretation": "임목의 비견은 자기 확신과 정신적 연결을 강화.",
+      "action": "비견의 에너지를 활용해 자신감을 높이고 협력 관계를 구축.",
+      "cautions": [
+        "비견이 과도하면 독단적이 될 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "임목",
+        "협력",
+        "자신감",
+        "내부 지지"
+      ]
+    },
+    {
+      "id": "RC-31fccc4ee1",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "condition": "지지에 임목이 하나만 있음"
+      },
+      "mechanism": "지지에 하나의 근거만 있을 때 일관성이 유지됨.",
+      "interpretation": "임목이 하나일 때 안정적이고 명확한 방향성을 가짐.",
+      "action": "지지의 근거를 단일화하여 명확한 목표를 설정.",
+      "cautions": [
+        "근거가 여러 개일 경우 혼란과 일관성 부족 발생."
+      ],
+      "tags": [
+        "임목",
+        "지지",
+        "일관성",
+        "근거",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-0f81b6a79c",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "비견",
+        "location": "연지"
+      },
+      "mechanism": "연지의 비견은 초기 호감과 연결성을 형성.",
+      "interpretation": "연지의 비견은 첫인상에서 강한 호감을 주는 역할.",
+      "action": "첫 만남에서 긍정적인 인상을 남기도록 노력.",
+      "cautions": [
+        "연지의 비견이 멀리 있으면 직접적인 도움은 제한적."
+      ],
+      "tags": [
+        "연지",
+        "비견",
+        "호감",
+        "첫인상",
+        "연결성"
+      ]
+    },
+    {
+      "id": "RC-2367125d3b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "임목",
+        "relation": "식상"
+      },
+      "mechanism": "임목은 식상과 연결되어 새로움을 창출.",
+      "interpretation": "임목은 지속적으로 새로움을 추구하고 창의성을 발휘.",
+      "action": "임목의 식상 에너지를 활용해 창의적인 활동에 집중.",
+      "cautions": [
+        "지속적인 새로움 추구가 피로를 초래할 수 있음."
+      ],
+      "tags": [
+        "임목",
+        "식상",
+        "창의성",
+        "새로움",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-f9350ed0c3",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "condition": "임목이 연지에 있음"
+      },
+      "mechanism": "연지의 임목은 가문의 기운을 끌어오는 역할.",
+      "interpretation": "연지의 임목은 집안의 기운을 활용할 수 있는 가능성을 제공.",
+      "action": "가문의 자원을 활용할 수 있는 방법을 모색.",
+      "cautions": [
+        "연지의 임목이 일관과 멀리 있으면 체감이 어려움."
+      ],
+      "tags": [
+        "임목",
+        "연지",
+        "가문",
+        "기운",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-186dace950",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임목",
+        "relation": "화"
+      },
+      "mechanism": "임목과 화는 상호 보완적 관계를 형성.",
+      "interpretation": "임목은 화를 통해 에너지를 발산하고 성장.",
+      "action": "화의 에너지를 활용해 임목의 잠재력을 극대화.",
+      "cautions": [
+        "화가 부족하면 임목의 에너지가 제한될 수 있음."
+      ],
+      "tags": [
+        "임목",
+        "화",
+        "성장",
+        "에너지",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-66af50a257",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "condition": "임목이 월지에 있음"
+      },
+      "mechanism": "월지의 임목은 초기 단계의 에너지를 상징.",
+      "interpretation": "월지의 임목은 시작 단계에서의 가능성과 잠재력을 나타냄.",
+      "action": "초기 단계에서의 계획과 준비에 집중.",
+      "cautions": [
+        "월지의 임목은 약한 상태로 보호가 필요."
+      ],
+      "tags": [
+        "임목",
+        "월지",
+        "초기",
+        "잠재력",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-7213d53838",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "비견",
+        "condition": "국외에 있음"
+      },
+      "mechanism": "국외의 비견은 해외에서의 협력과 연결성을 강화.",
+      "interpretation": "국외의 비견은 해외에서의 기회와 도움을 상징.",
+      "action": "해외 네트워크를 구축하고 활용.",
+      "cautions": [
+        "국내에서는 비견의 효과가 제한적일 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "국외",
+        "협력",
+        "해외",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-14338fe0ae",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "임목",
+        "relation": "수"
+      },
+      "mechanism": "임목은 수의 에너지를 끌어내고 정화.",
+      "interpretation": "임목은 수의 잠재력을 발휘하게 하는 역할.",
+      "action": "수의 에너지를 활용해 임목의 성장을 도모.",
+      "cautions": [
+        "임목이 약하면 수의 에너지를 소화하지 못할 수 있음."
+      ],
+      "tags": [
+        "임목",
+        "수",
+        "정화",
+        "성장",
+        "잠재력"
+      ]
+    },
+    {
+      "id": "RC-c87ec92c5b",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "note": "사주에 전록이 포함된 경우"
+      },
+      "mechanism": "전록은 고집과 융화력의 양면성을 가짐.",
+      "interpretation": "전록은 성급하고 시야가 좁아 초기 결정을 빠르게 내리는 경향이 있음.",
+      "action": "중요한 결정을 내릴 때 신중함을 기를 것.",
+      "cautions": [
+        "성급한 판단으로 인한 후회 가능성",
+        "다양한 관점을 고려하지 못할 위험"
+      ],
+      "tags": [
+        "전록",
+        "성급함",
+        "시야",
+        "결정",
+        "융화력"
+      ]
+    },
+    {
+      "id": "RC-8fbd0b317f",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "note": "전록이 강하고 연애 경험이 많은 경우"
+      },
+      "mechanism": "시야가 좁아 특정 조건에만 집중함.",
+      "interpretation": "결혼 상대를 선택할 때 특정 조건에만 집착할 가능성이 높음.",
+      "action": "다양한 관점을 고려하고 상대방의 전체적인 면을 평가할 것.",
+      "cautions": [
+        "결혼 후 다른 문제들이 발생할 가능성"
+      ],
+      "tags": [
+        "전록",
+        "결혼",
+        "연애",
+        "선택",
+        "집착"
+      ]
+    },
+    {
+      "id": "RC-a77c09772e",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "note": "사주에 금이 없고 목이 강한 경우"
+      },
+      "mechanism": "목의 강한 에너지를 조절하기 위해 화나 수가 필요함.",
+      "interpretation": "화로 조절하면 이상적이며, 수로 조절할 경우 불편함이 따름.",
+      "action": "화의 에너지를 활용할 수 있는 환경을 조성할 것.",
+      "cautions": [
+        "수로 조절 시 불편함 증가 가능성"
+      ],
+      "tags": [
+        "목",
+        "금",
+        "화",
+        "수",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-d6d88111aa",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "note": "사주에 인목이 포함된 경우"
+      },
+      "mechanism": "인목은 사람을 끌어들이는 리더십을 가짐.",
+      "interpretation": "사업적 형태로 발전 가능성이 높음.",
+      "action": "리더십을 발휘하여 사람들과 협력할 것.",
+      "cautions": [
+        "금이 없으면 사업화가 어려울 수 있음"
+      ],
+      "tags": [
+        "인목",
+        "리더십",
+        "사업",
+        "협력",
+        "금"
+      ]
+    },
+    {
+      "id": "RC-d55027c69b",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "note": "운에서 관이 오는 시기"
+      },
+      "mechanism": "관의 에너지가 법인화와 규칙 강요로 연결됨.",
+      "interpretation": "개인업에서 법인 형태로 전환될 가능성이 있음.",
+      "action": "운의 흐름에 따라 사업 구조를 조정할 것.",
+      "cautions": [
+        "법인화 과정에서 갈등 가능성"
+      ],
+      "tags": [
+        "운",
+        "관",
+        "법인",
+        "사업",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-78dc059464",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "note": "사주에 상관이 강한 경우"
+      },
+      "mechanism": "상관은 창의성과 문제 해결 능력을 나타냄.",
+      "interpretation": "직장에서 독창적인 아이디어로 인정받을 가능성이 높음.",
+      "action": "창의성을 발휘할 수 있는 업무를 선택할 것.",
+      "cautions": [
+        "상관이 과도하면 갈등 유발 가능성"
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "문제 해결",
+        "직장",
+        "아이디어"
+      ]
+    },
+    {
+      "id": "RC-50c15f5eec",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "목이 강하고 화가 약한 경우"
+      },
+      "mechanism": "목은 간과 혈액 정화와 관련됨.",
+      "interpretation": "목이 약하면 간 건강과 혈액 관련 질병에 취약함.",
+      "action": "간 건강을 유지하기 위해 적절한 활동과 식습관을 유지할 것.",
+      "cautions": [
+        "혈액 질환 발생 가능성"
+      ],
+      "tags": [
+        "목",
+        "간",
+        "건강",
+        "혈액",
+        "질병"
+      ]
+    },
+    {
+      "id": "RC-214642acc8",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "note": "사주에 비견이 강한 경우"
+      },
+      "mechanism": "비견은 대인관계와 친화력을 나타냄.",
+      "interpretation": "사람들과 쉽게 친해지고 관계를 유지하는 데 유리함.",
+      "action": "대인관계를 적극적으로 활용하여 네트워크를 확장할 것.",
+      "cautions": [
+        "과도한 친화력으로 인한 오해 가능성"
+      ],
+      "tags": [
+        "비견",
+        "대인관계",
+        "친화력",
+        "네트워크",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-6712007888",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "note": "운에서 화운이 지나간 경우"
+      },
+      "mechanism": "화운은 에너지를 활성화시키는 역할을 함.",
+      "interpretation": "화운이 지나가면 새로운 시작보다는 유지에 집중해야 함.",
+      "action": "기존의 성과를 유지하고 안정화에 집중할 것.",
+      "cautions": [
+        "새로운 시도를 할 경우 실패 가능성"
+      ],
+      "tags": [
+        "화운",
+        "유지",
+        "안정화",
+        "성과",
+        "시기"
+      ]
+    },
+    {
+      "id": "RC-ec7a0a8782",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "note": "사주에 상관과 편관이 공존하는 경우"
+      },
+      "mechanism": "상관은 편관을 다루는 역할을 함.",
+      "interpretation": "문제 해결 능력이 뛰어나지만 갈등이 잦을 수 있음.",
+      "action": "갈등 상황에서 중재자로서의 역할을 수행할 것.",
+      "cautions": [
+        "과도한 스트레스로 인한 건강 문제"
+      ],
+      "tags": [
+        "상관",
+        "편관",
+        "갈등",
+        "중재",
+        "문제 해결"
+      ]
+    },
+    {
+      "id": "RC-950f3b6590",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "age_range": [
+          50,
+          60
+        ],
+        "element": "식상",
+        "strength": "강함"
+      },
+      "mechanism": "식상이 강한 시기에는 개인적 책임과 독립성이 강조됨.",
+      "interpretation": "결혼보다는 독립적이고 자유로운 관계가 더 적합함.",
+      "action": "주말 부부 형태의 관계를 고려하거나 결혼을 미루는 것이 좋음.",
+      "cautions": [
+        "책임감 과중으로 스트레스 가능성",
+        "상대방과의 갈등 가능성"
+      ],
+      "tags": [
+        "식상",
+        "결혼",
+        "독립",
+        "책임",
+        "스트레스"
+      ]
+    },
+    {
+      "id": "RC-ba2b75c52e",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "겁재",
+        "position": "연지",
+        "supporting_element": "화"
+      },
+      "mechanism": "겁재가 연지에 위치하면 인간관계가 폭넓어지지만 리스크도 커짐.",
+      "interpretation": "인간관계에서 긍정적 영향과 부정적 영향이 공존함.",
+      "action": "인간관계에서 신중함을 유지하고, 신뢰할 수 있는 사람들과 교류를 강화.",
+      "cautions": [
+        "재산 손실 가능성",
+        "신뢰 문제 발생 가능성"
+      ],
+      "tags": [
+        "겁재",
+        "연지",
+        "인간관계",
+        "리스크",
+        "신중함"
+      ]
+    },
+    {
+      "id": "RC-006f36bb9f",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "strength": "약함"
+      },
+      "mechanism": "화가 약하면 식신을 다루기 어렵고, 재물 운용에 문제가 생김.",
+      "interpretation": "재물의 순환과 활용이 원활하지 않음.",
+      "action": "재물 관리에 신중하고, 화를 보완할 수 있는 환경을 조성.",
+      "cautions": [
+        "재물 손실 가능성",
+        "투자 실패 가능성"
+      ],
+      "tags": [
+        "화",
+        "식신",
+        "재물",
+        "순환",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-645b10fc68",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "겁재",
+        "position": "연지",
+        "connected_to": "정재"
+      },
+      "mechanism": "겁재가 정재와 연결되면 소유권 주장에 어려움이 생김.",
+      "interpretation": "재물이나 관계에서 손실 가능성이 높음.",
+      "action": "재물과 관계에서 소유권을 명확히 하고, 신중하게 관리.",
+      "cautions": [
+        "재산 분쟁 가능성",
+        "관계 악화 가능성"
+      ],
+      "tags": [
+        "겁재",
+        "정재",
+        "소유권",
+        "재산",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-aa4b03dc0a",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "element": "수",
+        "strength": "강함"
+      },
+      "mechanism": "수의 강함은 부정적이고 어두운 시각을 강화함.",
+      "interpretation": "세상을 부정적으로 바라보는 경향이 강해짐.",
+      "action": "긍정적인 환경과 사람들과의 교류를 통해 시각을 개선.",
+      "cautions": [
+        "우울감 증가 가능성",
+        "생산성 저하 가능성"
+      ],
+      "tags": [
+        "수",
+        "부정적",
+        "시각",
+        "환경",
+        "교류"
+      ]
+    },
+    {
+      "id": "RC-0b8480a168",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "겁재",
+        "position": "연지",
+        "connected_to": "식상"
+      },
+      "mechanism": "겁재가 식상과 연결되면 인간관계에서 긍정적 에너지를 품음.",
+      "interpretation": "인간관계에서 창의적이고 긍정적인 영향을 미침.",
+      "action": "창의적이고 긍정적인 관계를 유지하며, 신뢰를 쌓음.",
+      "cautions": [
+        "과도한 개방으로 인한 리스크"
+      ],
+      "tags": [
+        "겁재",
+        "식상",
+        "창의성",
+        "긍정적",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-fc18569b4e",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화가 강하면 겁재를 잘 활용하여 리더십을 발휘할 수 있음.",
+      "interpretation": "조직 내에서 리더십을 발휘하고, 긍정적인 영향력을 미침.",
+      "action": "리더십을 발휘할 수 있는 역할을 맡고, 팀워크를 강화.",
+      "cautions": [
+        "과도한 책임감으로 인한 스트레스"
+      ],
+      "tags": [
+        "화",
+        "겁재",
+        "리더십",
+        "조직",
+        "팀워크"
+      ]
+    },
+    {
+      "id": "RC-71dad6b43f",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "겁재",
+        "position": "시에 위치"
+      },
+      "mechanism": "겁재가 시에 위치하면 가족 내 갈등 가능성이 높아짐.",
+      "interpretation": "가족 간 재산 분쟁이나 갈등이 발생할 가능성이 있음.",
+      "action": "가족 간 재산 문제를 명확히 하고, 갈등을 예방.",
+      "cautions": [
+        "가족 간 갈등",
+        "재산 분쟁"
+      ],
+      "tags": [
+        "겁재",
+        "가족",
+        "재산",
+        "갈등",
+        "분쟁"
+      ]
+    },
+    {
+      "id": "RC-c2aa958c94",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "strength": "강함"
+      },
+      "mechanism": "화가 강하면 재물의 순환과 활용이 원활해짐.",
+      "interpretation": "재물 운용에서 긍정적인 결과를 얻을 가능성이 높음.",
+      "action": "화의 강점을 활용하여 재물 관리와 투자를 적극적으로 진행.",
+      "cautions": [
+        "과도한 낙관으로 인한 투자 실패 가능성"
+      ],
+      "tags": [
+        "화",
+        "재물",
+        "순환",
+        "투자",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-651be7d8ad",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "element": "수",
+        "strength": "약함"
+      },
+      "mechanism": "수의 약함은 감정적 안정과 생산성을 저해함.",
+      "interpretation": "감정적으로 불안정하고, 생산성이 떨어질 가능성이 있음.",
+      "action": "감정적 안정과 생산성을 높이기 위한 환경을 조성.",
+      "cautions": [
+        "감정적 불안정",
+        "생산성 저하"
+      ],
+      "tags": [
+        "수",
+        "감정",
+        "안정",
+        "생산성",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-ab3437f723",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "condition": "겁재가 강하게 작용"
+      },
+      "mechanism": "겁재는 타인의 자원을 활용하는 능력을 의미",
+      "interpretation": "타인의 시간을 잘 활용하면 부자가 될 가능성이 높음",
+      "action": "타인의 도움을 적극적으로 활용하고 협업을 강화",
+      "cautions": [
+        "타인의 도움을 지나치게 의존하지 않도록 주의"
+      ],
+      "tags": [
+        "겁재",
+        "부자",
+        "타인",
+        "시간",
+        "협업"
+      ]
+    },
+    {
+      "id": "RC-ae7b2f4da2",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "condition": "토가 강하게 작용"
+      },
+      "mechanism": "토는 축적과 안정성을 의미",
+      "interpretation": "토가 있으면 돈이 축적되고 안정적으로 관리됨",
+      "action": "토의 에너지를 활용해 저축과 자산 관리를 강화",
+      "cautions": [
+        "토가 없으면 돈이 쉽게 유출될 가능성 있음"
+      ],
+      "tags": [
+        "토",
+        "축적",
+        "안정성",
+        "저축",
+        "자산관리"
+      ]
+    },
+    {
+      "id": "RC-dd6f5e9c7b",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "condition": "토국수 작용"
+      },
+      "mechanism": "토국수는 현금을 제어하는 힘을 의미",
+      "interpretation": "토가 있으면 현금을 효과적으로 관리 가능",
+      "action": "현금 흐름을 철저히 관리하고 통장 잔고를 유지",
+      "cautions": [
+        "목생화가 강하면 투자로 인해 돈이 유출될 수 있음"
+      ],
+      "tags": [
+        "토국수",
+        "현금",
+        "관리",
+        "투자",
+        "유출"
+      ]
+    },
+    {
+      "id": "RC-c9c30e22f3",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "condition": "비겁이 강하게 작용"
+      },
+      "mechanism": "비겁은 자원의 확장을 의미",
+      "interpretation": "비겁이 강하면 사업 규모가 커질 가능성이 높음",
+      "action": "비겁의 에너지를 활용해 사업 확장을 도모",
+      "cautions": [
+        "비겁이 없으면 사업 규모가 제한될 수 있음"
+      ],
+      "tags": [
+        "비겁",
+        "사업",
+        "확장",
+        "규모",
+        "자원"
+      ]
+    },
+    {
+      "id": "RC-98ee5816b1",
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "condition": "운에서 비겁이 들어옴"
+      },
+      "mechanism": "운에서 온 비겁은 일시적인 자원 확장을 의미",
+      "interpretation": "운에서 온 비겁은 지속성이 부족함",
+      "action": "운에서 온 비겁을 활용해 단기적인 이익을 극대화",
+      "cautions": [
+        "운이 끝나면 자원이 사라질 수 있음"
+      ],
+      "tags": [
+        "운",
+        "비겁",
+        "일시적",
+        "자원",
+        "단기이익"
+      ]
+    },
+    {
+      "id": "RC-f3c895cf3f",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "condition": "토가 부동산과 연결"
+      },
+      "mechanism": "토는 부동산과 밀접한 연관이 있음",
+      "interpretation": "토가 있으면 부동산 투자에 유리",
+      "action": "부동산 관련 자산을 적극적으로 관리",
+      "cautions": [
+        "토가 없으면 부동산 투자에서 손실 가능성 있음"
+      ],
+      "tags": [
+        "토",
+        "부동산",
+        "투자",
+        "자산",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-5131b6dfc8",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "condition": "목생화가 강하게 작용"
+      },
+      "mechanism": "목생화는 자원의 순환과 투자를 의미",
+      "interpretation": "목생화가 강하면 자원이 투자로 전환될 가능성이 높음",
+      "action": "투자 계획을 신중히 세우고 리스크를 관리",
+      "cautions": [
+        "무분별한 투자는 손실을 초래할 수 있음"
+      ],
+      "tags": [
+        "목생화",
+        "투자",
+        "순환",
+        "리스크",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-0c62077be6",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "condition": "정재가 천간에 노출"
+      },
+      "mechanism": "정재가 노출되면 재산이 타인의 관심을 받음",
+      "interpretation": "재산이 노출되면 주변 사람들의 간섭이 증가",
+      "action": "재산 관리에 신중하고 비밀 유지에 주의",
+      "cautions": [
+        "재산 노출로 인해 갈등이 발생할 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "천간",
+        "노출",
+        "재산",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-fbbd9dff48",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "condition": "정재가 지지에 위치"
+      },
+      "mechanism": "지지에 위치한 정재는 숨겨진 재산을 의미",
+      "interpretation": "재산이 숨겨져 있어 외부 간섭이 적음",
+      "action": "재산을 안전하게 관리하고 유언장을 준비",
+      "cautions": [
+        "재산이 숨겨져 있어 상속 문제가 발생할 수 있음"
+      ],
+      "tags": [
+        "정재",
+        "지지",
+        "숨겨진 재산",
+        "관리",
+        "유언장"
+      ]
+    },
+    {
+      "id": "RC-14487b908b",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "condition": "무토가 강하게 작용"
+      },
+      "mechanism": "무토는 고립과 고독을 의미",
+      "interpretation": "무토가 강하면 재산이 많아도 고독해질 가능성이 있음",
+      "action": "사회적 관계를 유지하며 고립을 방지",
+      "cautions": [
+        "재산이 많아도 인간관계가 소홀해질 수 있음"
+      ],
+      "tags": [
+        "무토",
+        "고독",
+        "재산",
+        "사회적 관계",
+        "고립"
+      ]
+    },
+    {
+      "id": "RC-7871859e77",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "relation": "식상"
+      },
+      "mechanism": "토가 식상으로 연결되면 안정성을 형성함.",
+      "interpretation": "연구, 개발, 강의 등 교육적 성향의 직업에 적합.",
+      "action": "교육 관련 직업을 고려하거나 전문성을 키워라.",
+      "cautions": [
+        "업의 성향에서 벗어나기 어려움"
+      ],
+      "tags": [
+        "토",
+        "식상",
+        "안정성",
+        "교육",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-1502e58e54",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "술",
+        "relation": "구조"
+      },
+      "mechanism": "술이 업의 안정성을 강화하지 못함.",
+      "interpretation": "교육적 성향이 강하며, 장사보다는 교육에 적합.",
+      "action": "교육 관련 분야에서 경력을 쌓아라.",
+      "cautions": [
+        "장사와 같은 업종은 적합하지 않음"
+      ],
+      "tags": [
+        "술",
+        "교육",
+        "안정성",
+        "직업",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-b20ddbc903",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "인이 많음",
+        "count": 2
+      },
+      "mechanism": "인이 많으면 업이 중첩되며 변화가 많음.",
+      "interpretation": "직업이나 업종이 두 번 이상 바뀔 가능성이 큼.",
+      "action": "변화에 유연하게 대처하고 새로운 기회를 준비하라.",
+      "cautions": [
+        "갈등 요소가 많아질 수 있음"
+      ],
+      "tags": [
+        "인",
+        "변화",
+        "직업",
+        "업종",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-00f6ad67f7",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "인이 많음",
+        "count": 3
+      },
+      "mechanism": "인이 세 개면 업이 세 번 바뀌는 경향이 있음.",
+      "interpretation": "직업 변화가 잦고 다양한 경험을 하게 됨.",
+      "action": "다양한 분야에서 경험을 쌓고 적응력을 키워라.",
+      "cautions": [
+        "안정성이 부족할 수 있음"
+      ],
+      "tags": [
+        "인",
+        "변화",
+        "직업",
+        "경험",
+        "적응"
+      ]
+    },
+    {
+      "id": "RC-7c3284acf9",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "편인",
+        "relation": "관성"
+      },
+      "mechanism": "편인이 관성과 연결되면 업이 주어지는 형태로 형성됨.",
+      "interpretation": "스스로 선택하기보다는 권유나 물려받은 업에 종사.",
+      "action": "주어진 기회를 잘 활용하고 책임감을 가지라.",
+      "cautions": [
+        "자율성이 부족할 수 있음"
+      ],
+      "tags": [
+        "편인",
+        "관성",
+        "업",
+        "권유",
+        "책임"
+      ]
+    },
+    {
+      "id": "RC-56b55c9f8c",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "이민",
+        "relation": "구조"
+      },
+      "mechanism": "이민 구조는 직업이 보장되는 형태를 형성함.",
+      "interpretation": "집안의 권유나 물려받은 직업에 종사할 가능성이 큼.",
+      "action": "가업을 이어받거나 안정적인 직업을 선택하라.",
+      "cautions": [
+        "자신의 의지와 상관없이 결정될 수 있음"
+      ],
+      "tags": [
+        "이민",
+        "구조",
+        "직업",
+        "가업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-059a9e67bd",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "이민",
+        "relation": "재산"
+      },
+      "mechanism": "이민 구조는 재산을 물려받는 형태를 형성함.",
+      "interpretation": "가업과 함께 재산을 상속받을 가능성이 큼.",
+      "action": "가족과의 협력을 통해 재산을 잘 관리하라.",
+      "cautions": [
+        "재산 관리에 주의가 필요함"
+      ],
+      "tags": [
+        "이민",
+        "재산",
+        "상속",
+        "가업",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-bb17a716f4",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "금",
+        "relation": "재해"
+      },
+      "mechanism": "금은 재해 관련 업종과 연결됨.",
+      "interpretation": "재해 관련 분야에서 전문성을 발휘할 수 있음.",
+      "action": "재해 관련 공부를 통해 전문성을 키워라.",
+      "cautions": [
+        "금의 사용이 불편할 수 있음"
+      ],
+      "tags": [
+        "금",
+        "재해",
+        "전문성",
+        "공부",
+        "업종"
+      ]
+    },
+    {
+      "id": "RC-18d0c06c1c",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "경인",
+        "relation": "반도체"
+      },
+      "mechanism": "경인은 금과 회로의 특성을 나타냄.",
+      "interpretation": "반도체와 같은 기술적 분야에 적합.",
+      "action": "기술 관련 분야에서 경력을 쌓아라.",
+      "cautions": [
+        "기술 변화에 민감하게 대응해야 함"
+      ],
+      "tags": [
+        "경인",
+        "반도체",
+        "기술",
+        "금",
+        "회로"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_009",
+  "updated_at": "2025-12-23T20:27:23"
+}

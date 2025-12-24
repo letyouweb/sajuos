@@ -1,0 +1,160 @@
+{
+  "title": "SajuOS_Logic_TEN_037",
+  "rulecards": [
+    {
+      "id": "RC-8f7fd02e57",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "strength": "weak"
+      },
+      "mechanism": "신약은 스스로 모든 것을 처리하려는 경향이 강함.",
+      "interpretation": "신약한 사람은 타인을 신뢰하지 못하고 혼자 모든 일을 처리하려 함.",
+      "action": "업무를 분담하고 타인과 협력하는 방식을 배워야 함.",
+      "cautions": [
+        "타인과의 신뢰 부족으로 인해 성장에 한계가 있을 수 있음."
+      ],
+      "tags": [
+        "신약",
+        "강약",
+        "협력",
+        "신뢰",
+        "자영업"
+      ]
+    },
+    {
+      "id": "RC-c12b88c2ad",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "strength": "strong"
+      },
+      "mechanism": "신왕은 타인을 가르치고 조직을 확장하는 데 능숙함.",
+      "interpretation": "신왕한 사람은 타인을 복제하듯 가르치며 조직을 확장할 수 있음.",
+      "action": "타인을 신뢰하고 교육하며 조직을 키우는 데 집중해야 함.",
+      "cautions": [
+        "지나친 확장은 관리의 어려움을 초래할 수 있음."
+      ],
+      "tags": [
+        "신왕",
+        "강약",
+        "조직",
+        "교육",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-99b774d203",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "strength": "strong",
+        "wealth_type": "direct"
+      },
+      "mechanism": "정제 중심의 신왕은 필수재를 제공하는 사업에 적합함.",
+      "interpretation": "정제 중심의 신왕은 먹고 자는 것과 같은 필수재를 다루는 사업에서 성공 가능성이 높음.",
+      "action": "필수재 관련 사업을 고려하고 안정적인 수익 모델을 구축해야 함.",
+      "cautions": [
+        "시장 변화에 민감하게 반응해야 함."
+      ],
+      "tags": [
+        "정제",
+        "필수재",
+        "사업",
+        "신왕",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-1fc50d270b",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "strength": "strong",
+        "wealth_type": "indirect"
+      },
+      "mechanism": "편제 중심의 신왕은 사치재를 다루는 사업에 적합함.",
+      "interpretation": "편제 중심의 신왕은 꼭 필요하지 않은 사치재를 다루는 사업에서 성공 가능성이 높음.",
+      "action": "사치재 관련 사업을 고려하고 차별화된 가치를 제공해야 함.",
+      "cautions": [
+        "경기 침체 시 수익이 감소할 수 있음."
+      ],
+      "tags": [
+        "편제",
+        "사치재",
+        "사업",
+        "신왕",
+        "차별화"
+      ]
+    },
+    {
+      "id": "RC-0e568f3bb6",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "strength": "strong",
+        "element": "output"
+      },
+      "mechanism": "식신과 재성이 조화를 이루면 부를 창출할 수 있음.",
+      "interpretation": "식신생재 구조는 자영업에서 부를 이루는 데 유리함.",
+      "action": "식신과 재성을 활용한 사업 모델을 개발해야 함.",
+      "cautions": [
+        "식신과 재성의 균형이 깨지지 않도록 주의해야 함."
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "식신생재",
+        "자영업",
+        "부"
+      ]
+    },
+    {
+      "id": "RC-678c4b27d9",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "output_weak"
+      },
+      "mechanism": "식신이 약하면 재성을 충분히 지원하지 못함.",
+      "interpretation": "식신이 약한 경우 재성을 활용한 사업에서 어려움을 겪을 수 있음.",
+      "action": "식신을 보완하거나 다른 강점을 활용한 전략을 세워야 함.",
+      "cautions": [
+        "식신 부족으로 인해 재성의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "재성",
+        "약점",
+        "보완",
+        "사업"
+      ]
+    },
+    {
+      "id": "RC-752859bc68",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "strength": "strong",
+        "element": "output"
+      },
+      "mechanism": "신왕은 도전과 모험을 통해 성과를 창출함.",
+      "interpretation": "신왕한 사람은 도전적이고 모험적인 사업에서 성공 가능성이 높음.",
+      "action": "새로운 기회를 탐색하고 과감한 결정을 내릴 준비를 해야 함.",
+      "cautions": [
+        "무리한 도전은 실패로 이어질 수 있음."
+      ],
+      "tags": [
+        "신왕",
+        "도전",
+        "모험",
+        "사업",
+        "성공"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_037",
+  "updated_at": "2025-12-23T20:27:26"
+}

@@ -1,0 +1,447 @@
+{
+  "title": "SajuOS_Logic_BASIC_011",
+  "rulecards": [
+    {
+      "id": "RC-8b34d9803c",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "자수"
+      },
+      "mechanism": "자수는 멈추는 성질을 가지며, 안정성과 지속성을 제공한다.",
+      "interpretation": "자수는 정신적 치유와 자기 치유 능력을 나타낸다.",
+      "action": "자수가 있는 사람은 상담이나 치유 관련 활동에 적합하다.",
+      "cautions": [
+        "자수의 성질을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "자수",
+        "치유",
+        "안정성",
+        "지속성",
+        "정신력"
+      ]
+    },
+    {
+      "id": "RC-40633638b6",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "해수",
+        "relation": "목"
+      },
+      "mechanism": "해수는 흐르는 성질을 가지며, 목이 흐름의 길을 제공한다.",
+      "interpretation": "해수는 목과의 조합으로 생산적 활동과 협력의 가능성을 높인다.",
+      "action": "해수와 목의 조합을 활용해 협력적 프로젝트를 추진하라.",
+      "cautions": [
+        "목이 없을 경우 흐름이 약화될 수 있음."
+      ],
+      "tags": [
+        "해수",
+        "목",
+        "흐름",
+        "협력",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-e939343377",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "계수",
+        "relation": "해수"
+      },
+      "mechanism": "계수가 해수를 기반으로 주도성을 가지려는 경향이 있다.",
+      "interpretation": "계해일주는 주도적이고 독립적인 성향을 보인다.",
+      "action": "계해일주를 직원으로 둘 경우 독립 가능성을 염두에 두라.",
+      "cautions": [
+        "계해일주의 독립성을 억제하려 하지 말 것."
+      ],
+      "tags": [
+        "계수",
+        "해수",
+        "독립성",
+        "주도성",
+        "계해일주"
+      ]
+    },
+    {
+      "id": "RC-1d455f56cc",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "겁제",
+        "relation": "재"
+      },
+      "mechanism": "겁제는 재물을 적극적으로 확보하려는 성향을 강화한다.",
+      "interpretation": "겁제를 잘 활용하면 부를 축적할 가능성이 높다.",
+      "action": "겁제를 활용해 생산적 활동과 자산 관리를 강화하라.",
+      "cautions": [
+        "겁제를 과도하게 사용하면 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "겁제",
+        "재물",
+        "부",
+        "활용",
+        "자산관리"
+      ]
+    },
+    {
+      "id": "RC-ab520d1cff",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "임수",
+        "relation": "자수"
+      },
+      "mechanism": "임수는 자수와 조화를 이루며 정신적 안정성을 강화한다.",
+      "interpretation": "임수와 자수의 조합은 비물질적, 정신적 영역에서 강점을 보인다.",
+      "action": "임수와 자수의 조합을 활용해 정신적 성장을 도모하라.",
+      "cautions": [
+        "자수의 성질을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "임수",
+        "자수",
+        "정신적 안정",
+        "조화",
+        "비물질적"
+      ]
+    },
+    {
+      "id": "RC-a6e63712b5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "진토",
+        "relation": "수"
+      },
+      "mechanism": "진토는 수를 안정시키고 정신적 균형을 제공한다.",
+      "interpretation": "진토는 수와의 조합으로 정신적 치유와 안정감을 제공한다.",
+      "action": "진토와 수의 조합을 활용해 정신적 안정과 치유를 도모하라.",
+      "cautions": [
+        "진토의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "진토",
+        "수",
+        "안정",
+        "치유",
+        "정신적 균형"
+      ]
+    },
+    {
+      "id": "RC-ff2ae6eeaf",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "element": "계수",
+        "relation": "진토"
+      },
+      "mechanism": "진토는 계수를 품으며 애정 지수를 높인다.",
+      "interpretation": "계수와 진토의 조합은 결혼과 애정 관계에서 긍정적이다.",
+      "action": "계수와 진토의 조합을 활용해 결혼을 추진하라.",
+      "cautions": [
+        "진토의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "계수",
+        "진토",
+        "애정",
+        "결혼",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-7822b2c572",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "술토",
+        "relation": "수"
+      },
+      "mechanism": "술토는 수를 차단하거나 억제하는 성질을 가진다.",
+      "interpretation": "술토는 수와의 관계에서 엄격함과 거리감을 나타낸다.",
+      "action": "술토와 수의 관계를 조정해 균형을 유지하라.",
+      "cautions": [
+        "술토의 엄격함이 지나치지 않도록 주의."
+      ],
+      "tags": [
+        "술토",
+        "수",
+        "엄격함",
+        "거리감",
+        "조정"
+      ]
+    },
+    {
+      "id": "RC-258b160944",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "relation": "토"
+      },
+      "mechanism": "목은 토를 극복하며 생산적 활동을 촉진한다.",
+      "interpretation": "목과 토의 조합은 실질적 성과와 권력을 나타낸다.",
+      "action": "목과 토의 조합을 활용해 실질적 성과를 도모하라.",
+      "cautions": [
+        "목과 토의 균형을 유지하라."
+      ],
+      "tags": [
+        "목",
+        "토",
+        "생산성",
+        "권력",
+        "조합"
+      ]
+    },
+    {
+      "id": "RC-352ffb8931",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "화생토"
+      },
+      "mechanism": "화생토는 토의 지속성과 강도를 강화한다.",
+      "interpretation": "화생토는 안정적이고 지속 가능한 구조를 나타낸다.",
+      "action": "화생토를 활용해 안정적 기반을 구축하라.",
+      "cautions": [
+        "화생토의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "화생토",
+        "토",
+        "안정성",
+        "지속성",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-14533906dc",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "토",
+        "interaction": "화생토"
+      },
+      "mechanism": "화가 토를 생조하면 토의 밀도가 높아짐.",
+      "interpretation": "토가 단단하고 안정적인 성질을 가지게 됨.",
+      "action": "화생토의 구조를 활용해 안정적인 기반을 마련.",
+      "cautions": [
+        "화의 강도가 지나치면 토가 과도하게 강해질 수 있음."
+      ],
+      "tags": [
+        "화생토",
+        "토의 밀도",
+        "안정성",
+        "구조",
+        "생조"
+      ]
+    },
+    {
+      "id": "RC-1f95d346b9",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "월지",
+        "note": "월지의 위치와 영향"
+      },
+      "mechanism": "월지는 사주의 중심적 역할을 하며 모든 영향을 미침.",
+      "interpretation": "월지가 사주의 핵심적인 에너지를 결정.",
+      "action": "월지의 특성과 위치를 분석하여 사주의 흐름을 파악.",
+      "cautions": [
+        "월지의 영향력을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "월지",
+        "중심",
+        "영향력",
+        "사주 분석",
+        "핵심"
+      ]
+    },
+    {
+      "id": "RC-9a5e29cdc7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "condition": "강함"
+      },
+      "mechanism": "토가 지나치게 강하면 배타적 성향이 나타남.",
+      "interpretation": "다양성을 수용하지 못하고 폐쇄적이 될 가능성.",
+      "action": "토의 강도를 조절하여 균형을 유지.",
+      "cautions": [
+        "토가 강할 경우 사회적 고립 가능성."
+      ],
+      "tags": [
+        "토의 강함",
+        "배타성",
+        "균형",
+        "사회성",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-1198e18a26",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "condition": "약함"
+      },
+      "mechanism": "토가 약하면 포용력이 부족해짐.",
+      "interpretation": "사람이나 상황을 수용하는 능력이 약화됨.",
+      "action": "토의 에너지를 보강하여 포용력을 키움.",
+      "cautions": [
+        "약한 토는 정체성 혼란을 유발할 수 있음."
+      ],
+      "tags": [
+        "토의 약함",
+        "포용력",
+        "정체성",
+        "보강",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-489de15f62",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "condition": "오화"
+      },
+      "mechanism": "오화는 토를 지나치게 건조하게 만듦.",
+      "interpretation": "토의 생산성이 급격히 저하됨.",
+      "action": "오화의 영향을 줄이고 수의 에너지를 보강.",
+      "cautions": [
+        "오화가 강하면 생식 기능에 문제 발생 가능."
+      ],
+      "tags": [
+        "오화",
+        "토의 건조",
+        "생산성",
+        "수 보강",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-9019c8d1d4",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "condition": "화다토조"
+      },
+      "mechanism": "화다토조는 토를 지나치게 건조하게 만듦.",
+      "interpretation": "생산성과 생식 기능의 저하를 의미.",
+      "action": "수의 에너지를 보강하여 균형을 맞춤.",
+      "cautions": [
+        "화다토조는 현실적 문제에서 멀어질 가능성."
+      ],
+      "tags": [
+        "화다토조",
+        "토의 건조",
+        "생산성 저하",
+        "수 보강",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-7c4b0558f6",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "interaction": "토생금"
+      },
+      "mechanism": "토가 금을 생조하면 금의 에너지가 활성화됨.",
+      "interpretation": "금의 작용이 강화되어 실질적 성과를 냄.",
+      "action": "토생금의 구조를 활용해 금의 에너지를 극대화.",
+      "cautions": [
+        "토와 금이 따로 놀면 효과가 약화됨."
+      ],
+      "tags": [
+        "토생금",
+        "금의 활성화",
+        "성과",
+        "구조 활용",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-dc73155c7a",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "토국수"
+      },
+      "mechanism": "토가 수를 제어하여 흐름을 조절.",
+      "interpretation": "수의 에너지를 통제하여 안정성을 확보.",
+      "action": "토국수의 구조를 활용해 흐름을 관리.",
+      "cautions": [
+        "토가 지나치게 강하면 수의 흐름을 막을 수 있음."
+      ],
+      "tags": [
+        "토국수",
+        "수의 통제",
+        "안정성",
+        "흐름 관리",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-c7c59c2ffa",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "토",
+        "condition": "기토"
+      },
+      "mechanism": "기토는 주변과 섞이며 조화를 추구.",
+      "interpretation": "대인관계가 폭넓고 유연한 성향.",
+      "action": "기토의 조화로운 성향을 활용해 협력 관계를 구축.",
+      "cautions": [
+        "기토가 강하면 고집으로 인해 문제 발생 가능."
+      ],
+      "tags": [
+        "기토",
+        "조화",
+        "대인관계",
+        "유연성",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-e9057e2d57",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "element": "토",
+        "condition": "무토"
+      },
+      "mechanism": "무토는 강한 통제력을 발휘하며 독립적 성향.",
+      "interpretation": "자신의 이익을 우선시하며 고립될 가능성.",
+      "action": "무토의 강점을 활용하되 타인과의 조화를 고려.",
+      "cautions": [
+        "무토가 지나치게 강하면 사회적 고립 가능."
+      ],
+      "tags": [
+        "무토",
+        "통제력",
+        "독립성",
+        "고립",
+        "조화"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_011",
+  "updated_at": "2025-12-23T20:27:25"
+}

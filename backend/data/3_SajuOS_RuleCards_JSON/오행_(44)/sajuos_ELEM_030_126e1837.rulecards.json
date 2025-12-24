@@ -1,0 +1,454 @@
+{
+  "title": "SajuOS_Logic_ELEM_030",
+  "rulecards": [
+    {
+      "id": "RC-4d2445f7ed",
+      "topic": "ELEMENTS",
+      "priority": 10,
+      "trigger": {
+        "element": "금",
+        "associated_elements": [
+          "수",
+          "화"
+        ]
+      },
+      "mechanism": "금은 수와 화의 영향을 받아 작용이 결정됨.",
+      "interpretation": "금은 분별과 분리의 역할을 하며, 수와 화가 이를 보완하거나 강화함.",
+      "action": "사주에서 금이 강할 경우, 수와 화의 유무를 확인하여 금의 작용성을 판단.",
+      "cautions": [
+        "수와 화가 모두 없을 경우 금의 작용이 둔화될 수 있음."
+      ],
+      "tags": [
+        "금",
+        "수",
+        "화",
+        "분별",
+        "분리",
+        "천간",
+        "오행",
+        "작용"
+      ]
+    },
+    {
+      "id": "RC-0b37763e42",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "associated_elements": [
+          "화"
+        ]
+      },
+      "mechanism": "경금은 화를 통해 가공되어 사용 가능해짐.",
+      "interpretation": "경금이 화를 만나면 사회적 역할과 직업적 안정성이 강화됨.",
+      "action": "경금이 화를 만날 경우, 공적인 영역에서의 역할을 중시.",
+      "cautions": [
+        "화가 지나치게 강하면 경금이 과도하게 소모될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "가공",
+        "사회성",
+        "직업",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-e53dcad8a1",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "associated_elements": [
+          "수"
+        ]
+      },
+      "mechanism": "경금이 수를 만나면 스스로의 역할을 찾아가며 발전함.",
+      "interpretation": "경금이 수를 만나면 개인적 성취와 전문성이 강조됨.",
+      "action": "경금이 수를 만날 경우, 꾸준한 노력과 자기 개발을 통해 성과를 추구.",
+      "cautions": [
+        "성과가 나타나기까지 시간이 오래 걸릴 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "수",
+        "개인성",
+        "전문성",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-7b5cff0f99",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "associated_elements": [
+          "수"
+        ]
+      },
+      "mechanism": "신금은 수를 통해 보관과 유지의 역할을 수행함.",
+      "interpretation": "신금이 수를 만나면 안정성과 지속 가능성이 강화됨.",
+      "action": "신금이 수를 만날 경우, 장기적인 계획과 보존을 중시.",
+      "cautions": [
+        "수의 과잉은 신금의 작용을 제한할 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "수",
+        "보관",
+        "유지",
+        "안정성",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-6a198535ca",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "associated_elements": [
+          "화"
+        ]
+      },
+      "mechanism": "신금은 화를 통해 자신의 가치를 드러냄.",
+      "interpretation": "신금이 화를 만나면 외부로 드러나는 능력과 성과가 강조됨.",
+      "action": "신금이 화를 만날 경우, 자신의 능력을 적극적으로 표현.",
+      "cautions": [
+        "화가 지나치게 강하면 신금의 예민함이 과도해질 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "화",
+        "표현",
+        "성과",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-8906420997",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "condition": "화 없음, 수 없음"
+      },
+      "mechanism": "경금은 화와 수가 없으면 둔금으로 작용하며, 용도가 불명확해짐.",
+      "interpretation": "경금이 화와 수를 만나지 못하면 자신의 역할을 찾기 어려움.",
+      "action": "화나 수가 들어오는 시기를 활용하여 자신의 방향성을 설정.",
+      "cautions": [
+        "용도가 불명확한 상태가 지속되면 혼란이 가중될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "둔금",
+        "화",
+        "수",
+        "용도",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-6dd3b3bbe4",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "신금",
+        "condition": "정화 있음"
+      },
+      "mechanism": "정화는 신금의 예민함을 극대화시킴.",
+      "interpretation": "신금이 정화를 만나면 까다롭고 예민한 성향이 강화됨.",
+      "action": "정화가 있는 신금은 자신의 예민함을 긍정적으로 활용할 방법을 모색.",
+      "cautions": [
+        "주변 사람들과의 관계에서 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "정화",
+        "예민함",
+        "까다로움",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-fc9e6488bb",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "condition": "화 있음"
+      },
+      "mechanism": "화는 경금을 가공하여 사회적 역할을 부여함.",
+      "interpretation": "경금이 화를 만나면 공적인 영역에서의 역할이 강조됨.",
+      "action": "화가 있는 경금은 사회적 책임과 역할을 수용.",
+      "cautions": [
+        "화가 지나치게 강하면 경금이 소모될 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "화",
+        "사회성",
+        "공적 역할",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-d7d5e3446c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "condition": "수 있음"
+      },
+      "mechanism": "수는 경금의 개인적 성취와 전문성을 강화함.",
+      "interpretation": "경금이 수를 만나면 개인적 발전과 전문성이 강조됨.",
+      "action": "수가 있는 경금은 꾸준한 자기 개발을 통해 성과를 추구.",
+      "cautions": [
+        "성과가 나타나기까지 시간이 오래 걸릴 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "수",
+        "개인성",
+        "전문성",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-ff12a93762",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "신금",
+        "condition": "화 없음, 수 없음"
+      },
+      "mechanism": "신금은 화와 수가 없으면 자신의 가치를 드러내기 어려움.",
+      "interpretation": "신금이 화와 수를 만나지 못하면 자신의 역할을 찾기 어려움.",
+      "action": "화나 수가 들어오는 시기를 활용하여 자신의 방향성을 설정.",
+      "cautions": [
+        "자신의 가치를 드러내지 못하면 좌절감을 느낄 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "화",
+        "수",
+        "가치",
+        "천간",
+        "오행"
+      ]
+    },
+    {
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "elements": [
+          "신금",
+          "정화"
+        ]
+      },
+      "mechanism": "신금과 정화의 조합은 예민함과 까칠함을 극대화시킴.",
+      "interpretation": "이 조합은 주변 사람들에게 까칠하게 보일 가능성이 높음.",
+      "action": "자신의 예민함을 인지하고 타인과의 관계에서 조심스럽게 행동할 것.",
+      "cautions": [
+        "주변 사람들과 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "신금",
+        "정화",
+        "예민함",
+        "까칠함",
+        "관계"
+      ],
+      "id": "RC-b7d911fc93"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금"
+        ]
+      },
+      "mechanism": "경금은 무토의 영역에서 식신으로 작용하며 공적인 역할을 함.",
+      "interpretation": "경금은 공공의 이익을 위한 도구로 사용됨.",
+      "action": "공적인 역할에서 자신의 능력을 발휘할 수 있는 환경을 찾을 것.",
+      "cautions": [
+        "사적인 영역에서 경금의 역할이 제한될 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "식신",
+        "공적 역할",
+        "도구"
+      ],
+      "id": "RC-97f426ede0"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금",
+          "정화"
+        ]
+      },
+      "mechanism": "정화는 경금의 식신 활동에 정당성을 부여함.",
+      "interpretation": "정화는 경금의 공공성과 사회적 정당성을 강화함.",
+      "action": "사회적 제도와 규범을 잘 따르는 행동을 유지할 것.",
+      "cautions": [
+        "반사회적 행동을 피해야 함."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "정화",
+        "식신",
+        "정당성"
+      ],
+      "id": "RC-faa0567bf4"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금",
+          "임수"
+        ]
+      },
+      "mechanism": "임수는 경금의 공공성을 개인적으로 변환시킴.",
+      "interpretation": "경금의 공공적 역할이 개인적 성향으로 변질될 수 있음.",
+      "action": "공적 역할과 개인적 이익의 균형을 유지할 것.",
+      "cautions": [
+        "개인적 이익만을 추구하면 공공성을 잃을 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "임수",
+        "공공성",
+        "개인성"
+      ],
+      "id": "RC-37f17aede8"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금",
+          "정화"
+        ]
+      },
+      "mechanism": "정화는 경금의 공공적 성향을 강화하여 공무원적 성향을 부여함.",
+      "interpretation": "공무원과 같은 공공직업에 적합한 성향을 가짐.",
+      "action": "공공기관이나 사회적 역할이 강조된 직업을 고려할 것.",
+      "cautions": [
+        "개인적 성향이 강하면 공공직업에 적응하기 어려울 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "정화",
+        "공무원",
+        "직업"
+      ],
+      "id": "RC-ea8b313c3c"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금",
+          "임수"
+        ]
+      },
+      "mechanism": "임수는 경금의 개인적 성향을 강화하여 사업가적 기질을 부여함.",
+      "interpretation": "사업가로서의 성향이 강하며 독립적인 직업에 적합함.",
+      "action": "사업이나 독립적인 직업을 고려할 것.",
+      "cautions": [
+        "사업 성공을 위해 추가적인 조건이 필요함."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "임수",
+        "사업가",
+        "직업"
+      ],
+      "id": "RC-f93ea4bf07"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "day_master": "무토",
+        "elements": [
+          "경금",
+          "을목"
+        ]
+      },
+      "mechanism": "경금과 을목의 조합은 식신이 정제와 연결됨.",
+      "interpretation": "행동이 결과를 계산하며 움직이는 성향을 가짐.",
+      "action": "행동의 결과를 미리 계획하고 실행할 것.",
+      "cautions": [
+        "계산된 행동이 지나치면 진정성을 잃을 수 있음."
+      ],
+      "tags": [
+        "무토",
+        "경금",
+        "을목",
+        "식신",
+        "정제"
+      ],
+      "id": "RC-c3f74f16cf"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "elements": [
+          "경금",
+          "병화"
+        ]
+      },
+      "mechanism": "경금과 병화의 조합은 허세적 성향을 나타냄.",
+      "interpretation": "실제 능력보다 과장된 모습을 보일 가능성이 있음.",
+      "action": "겸손한 태도를 유지하고 실질적인 능력을 키울 것.",
+      "cautions": [
+        "허세로 인해 신뢰를 잃을 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "병화",
+        "허세",
+        "겸손",
+        "신뢰"
+      ],
+      "id": "RC-e19aed0b4a"
+    }
+  ],
+  "notes": [
+    "일간보다 천간의 구성과 관계가 더 중요하다는 점을 강조."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_030",
+  "updated_at": "2025-12-23T20:27:25"
+}

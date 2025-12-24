@@ -1,0 +1,462 @@
+{
+  "title": "SajuOS_Logic_STRU_M_164",
+  "rulecards": [
+    {
+      "id": "RC-4071fe1d6c",
+      "topic": "TIMING",
+      "priority": 9,
+      "trigger": {
+        "month": "6월",
+        "element": "병화"
+      },
+      "mechanism": "6월의 병화는 태양의 역할이 약화되며 물질적 실체보다는 정신적 의미가 강조됨.",
+      "interpretation": "6월의 병화는 만물을 성장시키는 역할이 끝나고 정신적 성숙과 의미를 추구하는 시기로 전환됨.",
+      "action": "정신적 성장과 내면의 의미를 탐구하는 활동에 집중할 것.",
+      "cautions": [
+        "물질적 성과에 집착하지 말 것.",
+        "정신적 성숙을 방해하는 외부 요인에 주의할 것."
+      ],
+      "tags": [
+        "병화",
+        "6월",
+        "정신적 의미",
+        "성숙",
+        "태양"
+      ]
+    },
+    {
+      "id": "RC-148b8b25e2",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "month": "6월",
+        "12운성": "사지"
+      },
+      "mechanism": "병화가 6월에 사지로 들어가며 역할이 약화됨.",
+      "interpretation": "병화의 물질적 역할이 끝나고 내면적 의미가 강조됨.",
+      "action": "내면적 성찰과 정신적 가치를 추구할 것.",
+      "cautions": [
+        "외부 환경에 의존하지 말고 내면의 힘을 키울 것."
+      ],
+      "tags": [
+        "병화",
+        "6월",
+        "사지",
+        "내면",
+        "정신적 가치"
+      ]
+    },
+    {
+      "id": "RC-c5b386ba23",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "month": "6월",
+        "supporting_element": "임수"
+      },
+      "mechanism": "임수가 병화의 밝음을 드러내는 역할을 함.",
+      "interpretation": "임수가 병화의 정신적 가치를 외부로 표현하게 함.",
+      "action": "임수의 영향을 활용해 자신의 가치를 외부에 드러낼 것.",
+      "cautions": [
+        "임수가 없을 경우 자기 인식이 부족할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "정신적 가치",
+        "표현",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-1276868816",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "병화",
+        "month": "6월",
+        "supporting_element": "개수"
+      },
+      "mechanism": "개수가 병화의 밝음을 가리며 실용적 역할을 강조함.",
+      "interpretation": "개수는 병화의 정신적 가치를 제한하고 실용적 성과를 추구하게 함.",
+      "action": "실용적 목표를 설정하고 이를 달성하기 위한 계획을 세울 것.",
+      "cautions": [
+        "개수가 병화의 본질적 가치를 약화시킬 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "개수",
+        "실용성",
+        "제한",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-b7fa3be851",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "정제",
+        "month": "6월"
+      },
+      "mechanism": "정제가 책임과 의무를 강조하며 순차적 사고를 유도함.",
+      "interpretation": "정제는 책임감과 성실성을 기반으로 한 계획적 행동을 유도함.",
+      "action": "구체적이고 실현 가능한 계획을 세우고 이를 성실히 실행할 것.",
+      "cautions": [
+        "책임감이 과도해 스트레스를 유발할 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "책임감",
+        "성실성",
+        "계획",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-7b3361377d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "supporting_element": "상관"
+      },
+      "mechanism": "상관이 정제의 책임감을 보완하며 창의적 사고를 유도함.",
+      "interpretation": "상관은 정제의 계획적 성향을 보완하여 유연한 사고를 가능하게 함.",
+      "action": "창의적 접근법을 활용해 문제를 해결할 것.",
+      "cautions": [
+        "상관이 과도하면 정제의 질서를 방해할 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "상관",
+        "창의성",
+        "유연성",
+        "책임감"
+      ]
+    },
+    {
+      "id": "RC-8209ed544c",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "정제",
+        "month": "6월",
+        "supporting_element": "기토"
+      },
+      "mechanism": "기토가 정제의 책임감을 강화하며 재물에 대한 집착을 유도함.",
+      "interpretation": "기토는 정제의 재물 관리 능력을 강화하고 실질적 성과를 추구하게 함.",
+      "action": "재물 관리와 투자 계획을 철저히 세울 것.",
+      "cautions": [
+        "재물에 대한 과도한 집착을 경계할 것."
+      ],
+      "tags": [
+        "정제",
+        "기토",
+        "재물",
+        "책임감",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-955c91c320",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "month": "6월",
+        "supporting_element": "무토"
+      },
+      "mechanism": "무토가 정제의 책임감을 안정적으로 유지하며 균형을 제공함.",
+      "interpretation": "무토는 정제의 책임감을 안정적으로 유지하며 지속 가능한 성과를 유도함.",
+      "action": "장기적 관점에서 목표를 설정하고 이를 실행할 것.",
+      "cautions": [
+        "무토가 부족하면 안정감이 결여될 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "무토",
+        "안정성",
+        "책임감",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-6fadaad662",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "병화",
+        "month": "6월",
+        "supporting_element": "임수",
+        "opposing_element": "겁재"
+      },
+      "mechanism": "임수가 겁재를 제어하며 병화의 정신적 가치를 드러냄.",
+      "interpretation": "임수는 겁재의 부정적 영향을 줄이고 병화의 정신적 가치를 강화함.",
+      "action": "임수의 영향을 활용해 겁재의 부정적 영향을 최소화할 것.",
+      "cautions": [
+        "겁재가 강하면 임수의 효과가 약화될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "임수",
+        "겁재",
+        "정신적 가치",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-8f5ac4bcad",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정제",
+        "month": "6월",
+        "supporting_element": "식신"
+      },
+      "mechanism": "식신이 정제의 책임감을 보완하며 실질적 성과를 유도함.",
+      "interpretation": "식신은 정제의 책임감을 보완하여 실질적이고 구체적인 성과를 가능하게 함.",
+      "action": "식신의 영향을 활용해 실질적 목표를 달성할 것.",
+      "cautions": [
+        "식신이 부족하면 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "식신",
+        "책임감",
+        "성과",
+        "6월"
+      ]
+    },
+    {
+      "id": "RC-128a5069df",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "element": "겁재",
+        "interaction": "쟁제"
+      },
+      "mechanism": "겁재는 자신의 것을 빼앗기는 상황을 의미하며, 쟁제는 이를 통해 갈등이 발생함.",
+      "interpretation": "겁재와 쟁제가 작용하면 계획이 틀어지고 갈등이 생길 가능성이 높음.",
+      "action": "겁재와 쟁제가 작용할 때는 투자나 중요한 결정을 피하고 신중히 행동할 것.",
+      "cautions": [
+        "감정적 대응을 피할 것",
+        "재산 손실 가능성 주의"
+      ],
+      "tags": [
+        "겁재",
+        "쟁제",
+        "갈등",
+        "투자",
+        "신중"
+      ]
+    },
+    {
+      "id": "RC-b9bb9169ee",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "임수",
+        "role": "합살"
+      },
+      "mechanism": "임수가 겁재를 합살하여 긍정적으로 활용할 수 있음.",
+      "interpretation": "임수가 있으면 겁재를 통제하고 직업적 성취를 이룰 가능성이 높음.",
+      "action": "임수를 활용하여 겁재를 긍정적으로 전환할 방안을 모색할 것.",
+      "cautions": [
+        "임수의 강약을 확인할 것",
+        "겁재의 영향력 과소평가 금지"
+      ],
+      "tags": [
+        "임수",
+        "겁재",
+        "합살",
+        "직업",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-20d7ba9e65",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "element": "식신",
+        "relation": "정재"
+      },
+      "mechanism": "식신과 정재는 주어진 일을 성실히 감당하는 성향을 나타냄.",
+      "interpretation": "이 조합은 신뢰를 얻고 책임감 있는 행동을 의미함.",
+      "action": "주어진 일을 끝까지 책임지고 완수할 것.",
+      "cautions": [
+        "과도한 책임감으로 인한 스트레스 주의"
+      ],
+      "tags": [
+        "식신",
+        "정재",
+        "책임감",
+        "신뢰",
+        "성실"
+      ]
+    },
+    {
+      "id": "RC-bdf2008474",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "element": "목",
+        "interaction": "재극인"
+      },
+      "mechanism": "목이 재극인으로 작용하면 계산적이고 이익을 추구하는 성향이 강해짐.",
+      "interpretation": "목의 사용은 신중해야 하며, 지나친 계산적 태도는 피해야 함.",
+      "action": "목을 활용할 때는 이익과 윤리적 판단을 균형 있게 고려할 것.",
+      "cautions": [
+        "지나친 계산적 태도 주의",
+        "인간관계 악화 가능성"
+      ],
+      "tags": [
+        "목",
+        "재극인",
+        "계산",
+        "이익",
+        "윤리"
+      ]
+    },
+    {
+      "id": "RC-086239cff6",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "진유합",
+        "interaction": "진토"
+      },
+      "mechanism": "진유합은 유금의 날카로움과 깔끔함을 진토가 감춤.",
+      "interpretation": "진유합은 말과 행동에서 신중함이 필요함을 의미함.",
+      "action": "말과 행동을 조심하고 신중히 표현할 것.",
+      "cautions": [
+        "말실수로 인한 문제 주의",
+        "행동의 일관성 유지"
+      ],
+      "tags": [
+        "진유합",
+        "진토",
+        "유금",
+        "신중",
+        "표현"
+      ]
+    },
+    {
+      "id": "RC-df461e547b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "병술일주",
+        "interaction": "술토"
+      },
+      "mechanism": "술토는 말 없이 행동으로 옮기는 힘을 나타냄.",
+      "interpretation": "병술일주는 실행력이 강하며 신뢰를 얻는 성향이 있음.",
+      "action": "행동으로 신뢰를 쌓고 꾸준히 노력할 것.",
+      "cautions": [
+        "과도한 책임감으로 인한 피로 주의"
+      ],
+      "tags": [
+        "병술일주",
+        "술토",
+        "행동력",
+        "신뢰",
+        "책임감"
+      ]
+    },
+    {
+      "id": "RC-6de0760da8",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "병진일주",
+        "interaction": "목"
+      },
+      "mechanism": "병진일주는 목이 없으면 소극적이고 불안정한 성향을 보임.",
+      "interpretation": "목이 병진일주에 안정감을 제공하며 적극성을 유도함.",
+      "action": "목의 활용을 통해 적극적인 태도를 유지할 것.",
+      "cautions": [
+        "목의 부족으로 인한 소극적 태도 주의"
+      ],
+      "tags": [
+        "병진일주",
+        "목",
+        "소극성",
+        "안정감",
+        "적극성"
+      ]
+    },
+    {
+      "id": "RC-018242ea52",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "정인",
+        "interaction": "자격증"
+      },
+      "mechanism": "정인은 자격증을 통해 전문성을 확보하려는 성향을 나타냄.",
+      "interpretation": "정인은 전문성을 통해 직업적 성취를 추구함.",
+      "action": "자격증 취득을 통해 전문성을 강화할 것.",
+      "cautions": [
+        "과도한 자격증 취득으로 인한 시간 낭비 주의"
+      ],
+      "tags": [
+        "정인",
+        "자격증",
+        "전문성",
+        "직업",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-34aa13775a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "토",
+        "interaction": "사업"
+      },
+      "mechanism": "토는 사업적 코드와 연결되어 안정적인 기반을 제공함.",
+      "interpretation": "토가 있으면 사업적 성공 가능성이 높아짐.",
+      "action": "토를 활용하여 사업적 기반을 마련할 것.",
+      "cautions": [
+        "과도한 스트레스 관리 필요"
+      ],
+      "tags": [
+        "토",
+        "사업",
+        "기반",
+        "성공",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-f77acf7cc4",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "element": "재관",
+        "interaction": "결혼"
+      },
+      "mechanism": "재관은 결혼에서 신뢰와 협력의 의미를 강화함.",
+      "interpretation": "재관이 있으면 결혼 생활에서 안정성과 신뢰를 얻을 가능성이 높음.",
+      "action": "재관의 긍정적 영향을 활용하여 관계를 강화할 것.",
+      "cautions": [
+        "재관의 과도한 의존성 주의"
+      ],
+      "tags": [
+        "재관",
+        "결혼",
+        "신뢰",
+        "협력",
+        "안정"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_164",
+  "updated_at": "2025-12-23T20:27:24"
+}

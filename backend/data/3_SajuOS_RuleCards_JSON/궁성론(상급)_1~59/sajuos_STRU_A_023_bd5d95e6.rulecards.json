@@ -1,0 +1,887 @@
+{
+  "title": "SajuOS_Logic_STRU_A_023",
+  "rulecards": [
+    {
+      "id": "RC-f750409ca4",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "type": "식신",
+        "relation": "살"
+      },
+      "mechanism": "식신이 살을 제거하는 역할을 함.",
+      "interpretation": "살의 위협을 제거하여 일간을 보호함.",
+      "action": "살의 위협이 있을 때 식신의 강약을 확인하고 활용.",
+      "cautions": [
+        "식신이 살보다 약하면 오히려 흉을 부를 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "살",
+        "위협",
+        "보호",
+        "긴장감"
+      ]
+    },
+    {
+      "id": "RC-d6a67f0700",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "type": "식신",
+        "relation": "재"
+      },
+      "mechanism": "식신이 재를 보면 여유로운 성향을 띔.",
+      "interpretation": "삶에 여유가 생기고 주변에 긍정적 영향을 미침.",
+      "action": "여유를 활용해 주변과 조화를 이루는 활동을 계획.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "재",
+        "여유",
+        "조화",
+        "긍정적 영향"
+      ]
+    },
+    {
+      "id": "RC-e4e8aba6b0",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "type": "식신",
+        "relation": "강약"
+      },
+      "mechanism": "식신이 강해야 살을 제거할 수 있음.",
+      "interpretation": "강한 식신은 살의 위협을 효과적으로 제거함.",
+      "action": "식신의 강약을 분석하여 적절히 활용.",
+      "cautions": [
+        "약한 식신은 살을 건드리면 흉을 초래할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "강약",
+        "살",
+        "위협 제거",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-c26ee0a7d7",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "type": "식신",
+        "relation": "생제"
+      },
+      "mechanism": "식신이 재를 생하면 여유롭고 느긋한 성향을 가짐.",
+      "interpretation": "삶의 여유와 건강을 증진시킴.",
+      "action": "여유를 활용해 건강과 조화를 유지.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "생제",
+        "여유",
+        "건강",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-61c19e7a65",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "type": "식신",
+        "relation": "편인"
+      },
+      "mechanism": "편인이 식신을 도식하면 식신의 작용이 방해됨.",
+      "interpretation": "자기검열이 심해지고 실행력이 저하됨.",
+      "action": "편인의 영향을 최소화하고 실행력을 강화.",
+      "cautions": [
+        "편인 도식은 공황장애나 무대공포증을 유발할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "편인",
+        "도식",
+        "자기검열",
+        "실행력"
+      ]
+    },
+    {
+      "id": "RC-36e44e0d60",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "type": "식신",
+        "relation": "정관"
+      },
+      "mechanism": "식신은 정관을 싫어하지만 받아들임.",
+      "interpretation": "정관과 조화를 이루며 안정적인 삶을 유지.",
+      "action": "정관과의 관계를 긍정적으로 활용.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "정관",
+        "조화",
+        "안정",
+        "수용"
+      ]
+    },
+    {
+      "id": "RC-799ccfa76e",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "type": "식신",
+        "relation": "연간"
+      },
+      "mechanism": "연간의 식신은 사회적 코드와 연결됨.",
+      "interpretation": "사람들을 모으고 조화를 이루는 힘을 가짐.",
+      "action": "사회적 활동에서 식신의 장점을 활용.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "연간",
+        "사회적 코드",
+        "조화",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-9f128fc5df",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "type": "식신",
+        "relation": "연지"
+      },
+      "mechanism": "연지의 식신은 가문의 흐름과 연결됨.",
+      "interpretation": "유복한 환경과 건강한 가문을 상징.",
+      "action": "가문의 자원을 활용해 안정적인 삶을 계획.",
+      "cautions": [
+        "연지의 식신이 다른 흉신과 연결되면 복이 약화될 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "연지",
+        "가문",
+        "유복",
+        "건강"
+      ]
+    },
+    {
+      "id": "RC-48a00db5fa",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "type": "식신",
+        "relation": "월간"
+      },
+      "mechanism": "월간의 식신은 격처럼 작용함.",
+      "interpretation": "사회적 관계와 활동의 중심이 됨.",
+      "action": "월간의 식신을 활용해 사회적 활동을 계획.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "월간",
+        "격",
+        "사회적 관계",
+        "활동"
+      ]
+    },
+    {
+      "id": "RC-d87176c219",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "type": "식신",
+        "relation": "강약"
+      },
+      "mechanism": "강한 식신은 자아실현과 연관됨.",
+      "interpretation": "자아실현을 통해 삶의 만족을 얻음.",
+      "action": "식신의 강점을 활용해 목표를 설정.",
+      "cautions": [],
+      "tags": [
+        "식신",
+        "강약",
+        "자아실현",
+        "목표",
+        "만족"
+      ]
+    },
+    {
+      "id": "RC-c9f1214b29",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "position": "월간",
+        "element": "식신"
+      },
+      "mechanism": "월간의 식신은 격으로 작용하며 사회적 활동과 연결됨.",
+      "interpretation": "월간에 식신이 있으면 사회적 활동에서 중요한 역할을 함.",
+      "action": "월간 식신의 강약과 연결된 요소를 분석하여 직업적 방향성을 설정.",
+      "cautions": [
+        "식신의 강약을 정확히 판단해야 함.",
+        "재성이나 살과의 관계를 고려해야 함."
+      ],
+      "tags": [
+        "월간",
+        "식신",
+        "격",
+        "사회활동",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-14b1d01145",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "식신",
+        "relation": "생재"
+      },
+      "mechanism": "식신이 재성을 생하면 자영업적 성향이 강해짐.",
+      "interpretation": "식신 생재는 자영업에 적합하며, 영리를 추구하는 성향을 가짐.",
+      "action": "자영업이나 독립적인 직업을 고려.",
+      "cautions": [
+        "프리랜서와 자영업의 차이를 명확히 이해해야 함.",
+        "재성의 유무에 따라 결과가 달라질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "생재",
+        "자영업",
+        "프리랜서",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-b80b223db3",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "식신",
+        "relation": "재살"
+      },
+      "mechanism": "식신이 재살과 연결되면 생명 관련 직업군과 연관됨.",
+      "interpretation": "생명과 관련된 직업군(의사, 군인 등)에 적합.",
+      "action": "생명 관련 직업군을 탐색.",
+      "cautions": [
+        "재살의 강약과 식신의 위치를 고려해야 함.",
+        "직업 선택 시 사명감을 확인."
+      ],
+      "tags": [
+        "식신",
+        "재살",
+        "생명",
+        "직업",
+        "의사"
+      ]
+    },
+    {
+      "id": "RC-ad1758f1fb",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "식신",
+        "position": "일지"
+      },
+      "mechanism": "일지 식신은 꾸준함과 책임감을 나타냄.",
+      "interpretation": "일지 식신이 강하면 배우자와의 관계에서 책임감이 강함.",
+      "action": "배우자와의 관계에서 신뢰를 기반으로 관계를 유지.",
+      "cautions": [
+        "식신이 사를 보면 관계가 달라질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "일지",
+        "책임감",
+        "배우자",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-e67d72a093",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "element": "식신",
+        "position": "월지"
+      },
+      "mechanism": "월지의 식신은 부모로부터 물려받은 성향을 나타냄.",
+      "interpretation": "월지 식신은 부모의 성향과 환경을 반영.",
+      "action": "부모의 성향과 환경을 분석하여 자신의 성향을 이해.",
+      "cautions": [
+        "월지 식신이 투관되지 않으면 환경적 영향에 머물 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "월지",
+        "부모",
+        "환경",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-b4508a992a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "식신",
+        "position": "시지"
+      },
+      "mechanism": "시지의 식신은 늦게 발현되며 개인적 성향을 드러냄.",
+      "interpretation": "시지 식신은 말년에 개인적 성향과 직업적 성취를 나타냄.",
+      "action": "말년의 직업적 방향성을 계획.",
+      "cautions": [
+        "시지 식신의 발현 시기를 고려해야 함."
+      ],
+      "tags": [
+        "식신",
+        "시지",
+        "말년",
+        "직업",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-a8fd5b1567",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "element": "식신",
+        "relation": "본능"
+      },
+      "mechanism": "식신은 본능적이고 꾸준한 성향을 나타냄.",
+      "interpretation": "식신은 본능적 욕구와 안정감을 중시.",
+      "action": "식신의 본능적 성향을 이해하고 활용.",
+      "cautions": [
+        "식신의 강약에 따라 성향이 달라질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "본능",
+        "꾸준함",
+        "안정감",
+        "성향"
+      ]
+    },
+    {
+      "id": "RC-2d5a081762",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "식신",
+        "relation": "생재",
+        "position": "월간"
+      },
+      "mechanism": "월간 식신 생재는 직업적 성취와 연결됨.",
+      "interpretation": "월간 식신 생재는 직업적 성공 가능성을 높임.",
+      "action": "월간 식신 생재의 강약을 분석하여 직업적 방향성을 설정.",
+      "cautions": [
+        "재성의 유무와 강약을 고려해야 함."
+      ],
+      "tags": [
+        "식신",
+        "생재",
+        "월간",
+        "직업",
+        "성취"
+      ]
+    },
+    {
+      "id": "RC-c8e4133851",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "element": "식신",
+        "relation": "사회공헌"
+      },
+      "mechanism": "식신은 사회적 역할과 연결됨.",
+      "interpretation": "식신이 강하면 사회적 공헌에 적합.",
+      "action": "사회적 역할을 고려한 직업 선택.",
+      "cautions": [
+        "식신의 강약과 위치를 고려해야 함."
+      ],
+      "tags": [
+        "식신",
+        "사회공헌",
+        "직업",
+        "역할",
+        "공헌"
+      ]
+    },
+    {
+      "id": "RC-1dae15b70f",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "element": "식신",
+        "relation": "모성애"
+      },
+      "mechanism": "식신은 모성애와 보호 본능을 나타냄.",
+      "interpretation": "식신이 강하면 가족과 친지에 대한 보호 본능이 강함.",
+      "action": "가족과 친지의 어려움을 적극적으로 돕기.",
+      "cautions": [
+        "모성애를 악용하는 사람을 조심해야 함."
+      ],
+      "tags": [
+        "식신",
+        "모성애",
+        "보호",
+        "가족",
+        "친지"
+      ]
+    },
+    {
+      "id": "RC-19590a13f9",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "정재",
+        "position": "월간"
+      },
+      "mechanism": "월간의 정재는 구체화와 실체화를 잘 시킴.",
+      "interpretation": "계획을 실천으로 옮기고, 안정적인 재물 관리를 가능하게 함.",
+      "action": "미래 계획을 구체화하고 실천에 옮길 수 있는 환경을 조성하라.",
+      "cautions": [
+        "과도한 대출은 피하라.",
+        "실천력이 부족하면 계획이 무산될 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "구체화",
+        "실천",
+        "재물관리",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-7e78837455",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "정재",
+        "position": "연간"
+      },
+      "mechanism": "연간의 정재는 막연한 형태로 나타남.",
+      "interpretation": "재물이나 책임감이 명확하지 않고, 외부 요인에 의존할 가능성이 있음.",
+      "action": "재물 관리와 책임감을 명확히 하고, 외부 요인에 휘둘리지 않도록 하라.",
+      "cautions": [
+        "욕심을 부리면 손실이 발생할 수 있음.",
+        "탈세 등 불법적인 행동은 피하라."
+      ],
+      "tags": [
+        "정재",
+        "연간",
+        "책임감",
+        "외부요인",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-419a971b73",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "식신과 조합"
+      },
+      "mechanism": "식신생재는 꾸준함과 성실함을 극대화함.",
+      "interpretation": "근면성실하며 신뢰도가 높아, 안정적인 재물 축적이 가능.",
+      "action": "꾸준한 노력과 성실함을 유지하며 신뢰를 쌓아라.",
+      "cautions": [
+        "과도한 책임감으로 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "식신",
+        "성실",
+        "신뢰",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-a21e24d78c",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "편재 없음"
+      },
+      "mechanism": "정재만 있을 경우, 지나치게 아끼는 성향이 나타남.",
+      "interpretation": "재물 관리에 지나치게 보수적이거나 인색해질 수 있음.",
+      "action": "필요한 곳에는 과감히 투자하고, 균형 잡힌 재물 관리를 하라.",
+      "cautions": [
+        "인색함으로 인해 인간관계가 악화될 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "편재",
+        "재물관리",
+        "균형",
+        "인색"
+      ]
+    },
+    {
+      "id": "RC-7849d02c67",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "시간 관리"
+      },
+      "mechanism": "정재는 시간과 순차성을 중시함.",
+      "interpretation": "계획적이고 체계적인 사고방식을 가짐.",
+      "action": "우선순위를 정하고 체계적으로 행동하라.",
+      "cautions": [
+        "과도한 계획으로 유연성을 잃을 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "시간관리",
+        "순차성",
+        "계획",
+        "체계"
+      ]
+    },
+    {
+      "id": "RC-36b0fe3e66",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "연애"
+      },
+      "mechanism": "정재는 연애에서도 우선순위를 중시함.",
+      "interpretation": "연애 초기에는 상대방이 우선순위지만, 시간이 지나면 우선순위가 변함.",
+      "action": "상대방에게 지속적인 관심과 배려를 유지하라.",
+      "cautions": [
+        "우선순위 변화로 인해 관계가 소원해질 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "연애",
+        "우선순위",
+        "관계",
+        "배려"
+      ]
+    },
+    {
+      "id": "RC-3b1faf0b07",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "책임감"
+      },
+      "mechanism": "정재는 책임감과 신뢰를 중시함.",
+      "interpretation": "책임감 있는 행동으로 신뢰를 얻음.",
+      "action": "책임감을 가지고 약속을 지키며 신뢰를 쌓아라.",
+      "cautions": [
+        "책임감이 과도하면 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "책임감",
+        "신뢰",
+        "약속",
+        "행동"
+      ]
+    },
+    {
+      "id": "RC-870338c179",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "식신 없음"
+      },
+      "mechanism": "식신이 없으면 정재의 실천력이 약화됨.",
+      "interpretation": "계획은 세우지만 실행력이 부족할 수 있음.",
+      "action": "실천력을 강화하기 위해 작은 목표부터 실행하라.",
+      "cautions": [
+        "계획만 세우고 실행하지 않는 습관을 주의하라."
+      ],
+      "tags": [
+        "정재",
+        "식신",
+        "실천력",
+        "계획",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-1553fe7cd0",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "연간 부정적"
+      },
+      "mechanism": "연간의 정재가 부정적이면 인색함이 드러남.",
+      "interpretation": "첫인상에서 인색하거나 쩨쩨한 모습으로 비춰질 수 있음.",
+      "action": "첫인상에서 과감하고 긍정적인 모습을 보여라.",
+      "cautions": [
+        "첫인상이 관계에 큰 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "연간",
+        "첫인상",
+        "인색",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-37cd6b7642",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "정재",
+        "condition": "프레임 설정"
+      },
+      "mechanism": "정재는 결과를 정해놓고 과정을 맞추는 사고방식을 가짐.",
+      "interpretation": "계획적이고 목표 지향적인 성향을 보임.",
+      "action": "목표를 명확히 하고, 이를 달성하기 위한 구체적인 계획을 세워라.",
+      "cautions": [
+        "결과에 집착하여 유연성을 잃을 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "프레임",
+        "계획",
+        "목표",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-55fd8e26d2",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "position": "월간",
+        "type": "정재"
+      },
+      "mechanism": "월간의 정재는 구체화와 실천력을 강화함.",
+      "interpretation": "미래 계획을 구체화하고 실천할 수 있는 능력을 가짐.",
+      "action": "미래 계획을 세우고 실천에 옮길 수 있는 구체적인 전략을 마련하라.",
+      "cautions": [
+        "과도한 물질적 집착에 주의할 것."
+      ],
+      "tags": [
+        "정재",
+        "월간",
+        "미래계획",
+        "구체화",
+        "실천력"
+      ]
+    },
+    {
+      "id": "RC-f4cfcf8163",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "position": "연월",
+        "type": "정재"
+      },
+      "mechanism": "연월의 정재는 자산을 미래로 전환하는 경향을 보임.",
+      "interpretation": "연금이나 장기적인 자산 관리에 관심이 많음.",
+      "action": "장기적인 재정 계획을 세우고 연금 등 미래 자산을 준비하라.",
+      "cautions": [
+        "가족이나 주변인의 재정적 요구에 휘둘리지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "연월",
+        "연금",
+        "자산관리",
+        "장기계획"
+      ]
+    },
+    {
+      "id": "RC-8913b80ec8",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "position": "시에",
+        "type": "정재"
+      },
+      "mechanism": "시의 정재는 개인적 책임과 미래 자산 관리에 초점.",
+      "interpretation": "개인적으로 모든 재정적 책임을 감당해야 할 가능성이 높음.",
+      "action": "비상금이나 예비 자금을 마련하고 재정적 독립을 준비하라.",
+      "cautions": [
+        "과도한 책임감으로 인한 스트레스에 주의."
+      ],
+      "tags": [
+        "정재",
+        "시에",
+        "책임",
+        "비상금",
+        "미래자산"
+      ]
+    },
+    {
+      "id": "RC-8d18a420e5",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "position": "연지",
+        "type": "정재"
+      },
+      "mechanism": "연지의 정재는 집안의 경제적 흐름과 연결됨.",
+      "interpretation": "가족의 경제적 유산이나 신뢰를 기반으로 한 자산 형성이 가능.",
+      "action": "가족의 경제적 자산과 유산을 잘 관리하고 활용하라.",
+      "cautions": [
+        "가족 간의 재정적 갈등에 주의."
+      ],
+      "tags": [
+        "정재",
+        "연지",
+        "가족유산",
+        "경제흐름",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-2730e9320f",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "position": "월지",
+        "type": "정재"
+      },
+      "mechanism": "월지의 정재는 초기 환경과 부모의 경제력과 관련됨.",
+      "interpretation": "부모의 경제적 지원과 교육 환경이 중요하게 작용.",
+      "action": "부모의 경제적 조언을 참고하고 자신의 경제적 기반을 다져라.",
+      "cautions": [
+        "부모의 경제적 의존에서 벗어나 독립성을 유지할 것."
+      ],
+      "tags": [
+        "정재",
+        "월지",
+        "부모경제력",
+        "교육환경",
+        "초기조건"
+      ]
+    },
+    {
+      "id": "RC-3d6ae1bccc",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "position": "일지",
+        "type": "정재"
+      },
+      "mechanism": "일지의 정재는 현재의 점유와 물질적 현실에 초점.",
+      "interpretation": "현재의 자산과 점유 공간에 대한 강한 집착을 보임.",
+      "action": "현재의 자산을 효율적으로 관리하고 실질적인 목표를 설정하라.",
+      "cautions": [
+        "과도한 현실주의로 인해 장기적인 시야를 잃지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "일지",
+        "현재",
+        "점유",
+        "물질적현실"
+      ]
+    },
+    {
+      "id": "RC-d58a0f8d85",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "position": "시에",
+        "type": "정재",
+        "condition": "비밀적 성향"
+      },
+      "mechanism": "시지의 정재는 비밀스럽고 개인적인 자산 관리와 관련됨.",
+      "interpretation": "비상금이나 숨겨진 자산을 보유할 가능성이 높음.",
+      "action": "비상금이나 예비 자금을 체계적으로 관리하라.",
+      "cautions": [
+        "비밀 자산 관리로 인한 고립감에 주의."
+      ],
+      "tags": [
+        "정재",
+        "시에",
+        "비밀",
+        "비상금",
+        "개인자산"
+      ]
+    },
+    {
+      "id": "RC-dbca82a823",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "position": "연지",
+        "type": "정재",
+        "condition": "긍정적 흐름"
+      },
+      "mechanism": "연지의 정재는 집안의 긍정적 경제적 영향을 상징.",
+      "interpretation": "가족의 경제적 성공과 신뢰를 기반으로 한 자산 형성이 가능.",
+      "action": "가족의 경제적 자산을 활용하여 자신의 경제적 기반을 강화하라.",
+      "cautions": [
+        "가족의 경제적 문제에 지나치게 얽히지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "연지",
+        "가족경제",
+        "신뢰",
+        "긍정적영향"
+      ]
+    },
+    {
+      "id": "RC-0fe61b830e",
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "position": "월지",
+        "type": "정재",
+        "condition": "식신과 연결"
+      },
+      "mechanism": "월지의 정재와 식신의 연결은 부모의 근면 성실함을 반영.",
+      "interpretation": "부모의 성실함과 경제적 지혜를 본받을 가능성이 높음.",
+      "action": "부모의 경제적 지혜를 배우고 자신의 경제적 목표를 설정하라.",
+      "cautions": [
+        "부모의 방식에 지나치게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "정재",
+        "월지",
+        "식신",
+        "부모성실",
+        "경제지혜"
+      ]
+    },
+    {
+      "id": "RC-6d65bf6c0b",
+      "topic": "WEALTH",
+      "priority": 5,
+      "trigger": {
+        "position": "시에",
+        "type": "정재",
+        "condition": "부정적 흐름"
+      },
+      "mechanism": "시에 정재가 부정적으로 작용하면 고독과 책임감이 증가.",
+      "interpretation": "개인적으로 모든 책임을 감당해야 할 가능성이 높음.",
+      "action": "책임을 분담할 수 있는 방안을 모색하라.",
+      "cautions": [
+        "과도한 책임감으로 인한 스트레스와 고립에 주의."
+      ],
+      "tags": [
+        "정재",
+        "시에",
+        "책임",
+        "고독",
+        "부정적흐름"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_023",
+  "updated_at": "2025-12-23T20:27:23"
+}

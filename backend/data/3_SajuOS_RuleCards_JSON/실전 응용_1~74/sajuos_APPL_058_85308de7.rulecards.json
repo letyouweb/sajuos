@@ -1,0 +1,468 @@
+{
+  "title": "SajuOS_Logic_APPL_058",
+  "rulecards": [
+    {
+      "id": "RC-f2fbd2ebee",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "fire_intensity": "high",
+        "metal_intensity": "low",
+        "water_support": false
+      },
+      "mechanism": "강한 화가 약한 금을 극하고 수의 조절이 없을 때 균형이 깨짐.",
+      "interpretation": "혈관계 질환, 특히 동맥 관련 문제가 발생할 가능성이 높음.",
+      "action": "휴식을 충분히 취하고 과로를 피하며, 혈압 관리에 신경 쓸 것.",
+      "cautions": [
+        "갑작스러운 활동 후 바로 샤워 금지",
+        "혈압 급변 주의"
+      ],
+      "tags": [
+        "화극금",
+        "혈관",
+        "동맥",
+        "과로",
+        "휴식"
+      ]
+    },
+    {
+      "id": "RC-bda5e9ab1b",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "metal_element": "weak",
+        "water_generation": "excessive"
+      },
+      "mechanism": "금생수가 지나치면 금의 에너지가 고갈됨.",
+      "interpretation": "신장 문제, 탈수, 요로결석 등의 가능성이 증가.",
+      "action": "충분한 수분 섭취와 신장 건강 관리.",
+      "cautions": [
+        "탈수 방지",
+        "신장 결석 예방"
+      ],
+      "tags": [
+        "금생수",
+        "신장",
+        "요로결석",
+        "수분",
+        "건강"
+      ]
+    },
+    {
+      "id": "RC-5d2624b902",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "fire_element": "strong",
+        "water_element": "weak"
+      },
+      "mechanism": "화의 강렬함이 수의 조절 없이 지속되면 불안정성을 초래.",
+      "interpretation": "정신적 불안정과 감정 폭발 가능성.",
+      "action": "명상, 심리적 안정 활동 권장.",
+      "cautions": [
+        "감정 조절 필요",
+        "스트레스 관리"
+      ],
+      "tags": [
+        "화",
+        "수",
+        "불안정",
+        "감정",
+        "정신건강"
+      ]
+    },
+    {
+      "id": "RC-a7ab29dcaf",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "metal_element": "weak",
+        "fire_element": "strong",
+        "water_generation": false
+      },
+      "mechanism": "금생수가 이루어지지 않으면 회복력이 저하됨.",
+      "interpretation": "과로와 회복 부족으로 인한 만성 피로 가능성.",
+      "action": "충분한 휴식과 균형 잡힌 생활 패턴 유지.",
+      "cautions": [
+        "과로 방지",
+        "회복 시간 확보"
+      ],
+      "tags": [
+        "금생수",
+        "회복",
+        "피로",
+        "휴식",
+        "생활균형"
+      ]
+    },
+    {
+      "id": "RC-1048ff08a7",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "metal_element": "weak",
+        "fire_element": "strong",
+        "earth_element": "dominant"
+      },
+      "mechanism": "토가 금을 고립시키고 화의 영향을 증폭시킴.",
+      "interpretation": "소화기 질환 및 위장 관련 문제 가능성.",
+      "action": "소화기 건강 관리와 식습관 개선.",
+      "cautions": [
+        "위장 건강 주의",
+        "과식 금지"
+      ],
+      "tags": [
+        "토",
+        "금",
+        "화",
+        "소화기",
+        "위장"
+      ]
+    },
+    {
+      "id": "RC-cccc69862c",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "water_element": "excessive",
+        "metal_element": "weak"
+      },
+      "mechanism": "과도한 수가 금을 고갈시키고 신체의 균형을 깨뜨림.",
+      "interpretation": "혈액 순환 문제와 동맥 경화 가능성.",
+      "action": "혈류 개선을 위한 식이요법과 운동 권장.",
+      "cautions": [
+        "혈액 순환 관리",
+        "지질 관리"
+      ],
+      "tags": [
+        "수",
+        "금",
+        "혈액",
+        "동맥경화",
+        "운동"
+      ]
+    },
+    {
+      "id": "RC-e934e64347",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "water_element": "weak",
+        "fire_element": "strong"
+      },
+      "mechanism": "화가 수를 압도하면 신체 내부 압력 불균형 발생.",
+      "interpretation": "뇌혈관 질환 및 심혈관계 문제 가능성.",
+      "action": "혈압 관리와 정기적인 건강 검진.",
+      "cautions": [
+        "혈압 급변 주의",
+        "심혈관 건강 관리"
+      ],
+      "tags": [
+        "화",
+        "수",
+        "뇌혈관",
+        "심혈관",
+        "건강검진"
+      ]
+    },
+    {
+      "id": "RC-6624dc8bf6",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "water_element": "weak",
+        "earth_element": "dominant"
+      },
+      "mechanism": "토가 수를 고립시키면 체내 순환이 저하됨.",
+      "interpretation": "하지 정맥류 및 혈액 정체 가능성.",
+      "action": "근력 운동과 혈액 순환 개선 활동 권장.",
+      "cautions": [
+        "하지 정맥류 주의",
+        "운동 부족 방지"
+      ],
+      "tags": [
+        "토",
+        "수",
+        "정맥류",
+        "순환",
+        "운동"
+      ]
+    },
+    {
+      "id": "RC-550c68a27e",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "water_element": "weak",
+        "fire_element": "strong",
+        "metal_element": "weak"
+      },
+      "mechanism": "화와 금의 불균형이 수의 조절을 방해.",
+      "interpretation": "신체 내부 열 조절 문제와 탈수 가능성.",
+      "action": "수분 섭취와 체온 조절에 신경 쓸 것.",
+      "cautions": [
+        "탈수 방지",
+        "체온 관리"
+      ],
+      "tags": [
+        "화",
+        "금",
+        "수",
+        "탈수",
+        "체온"
+      ]
+    },
+    {
+      "id": "RC-4f42efece0",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "water_element": "excessive",
+        "earth_element": "dominant"
+      },
+      "mechanism": "과도한 수와 토의 상호작용이 체내 불순물 축적을 유발.",
+      "interpretation": "신장 및 방광 관련 질환 가능성.",
+      "action": "수분 섭취와 신장 건강 관리.",
+      "cautions": [
+        "방광 건강 주의",
+        "수분 부족 방지"
+      ],
+      "tags": [
+        "수",
+        "토",
+        "신장",
+        "방광",
+        "건강"
+      ]
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "자수"
+      },
+      "mechanism": "자수는 신장과 연결되며, 에너지의 근원으로 작용함.",
+      "interpretation": "신장이 건강하면 신체 기관들이 정상적으로 기능함.",
+      "action": "신장 건강을 유지하기 위해 적절한 섭생과 수분 섭취를 관리하라.",
+      "cautions": [
+        "신장 관련 질환 주의",
+        "과도한 염분 섭취 주의"
+      ],
+      "tags": [
+        "자수",
+        "신장",
+        "건강",
+        "에너지",
+        "섭생"
+      ],
+      "id": "RC-1c2b02c9cc"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "자수",
+        "condition": "불균형"
+      },
+      "mechanism": "자수의 불균형은 섭생과 식습관에 영향을 미침.",
+      "interpretation": "자수가 약하면 건강하지 않은 음식을 선호할 가능성이 높음.",
+      "action": "균형 잡힌 식단과 건강한 음식 섭취를 유도하라.",
+      "cautions": [
+        "과도한 인스턴트 음식 섭취 주의"
+      ],
+      "tags": [
+        "자수",
+        "섭생",
+        "식습관",
+        "건강",
+        "균형"
+      ],
+      "id": "RC-50664b1b83"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "자수",
+        "linked_element": "토"
+      },
+      "mechanism": "토가 자수를 지나치게 억압하면 생식기 및 호르몬 문제 발생 가능.",
+      "interpretation": "토국수가 심하면 성기능 저하나 생식 관련 문제로 이어질 수 있음.",
+      "action": "토와 자수의 균형을 맞추는 방안을 모색하라.",
+      "cautions": [
+        "호르몬 불균형 주의",
+        "생식기 건강 관리 필요"
+      ],
+      "tags": [
+        "자수",
+        "토국수",
+        "호르몬",
+        "생식기",
+        "균형"
+      ],
+      "id": "RC-ab5f0ba09f"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "자수",
+        "linked_element": "금"
+      },
+      "mechanism": "금생수가 원활하면 생식기능과 정자 생성이 활발해짐.",
+      "interpretation": "금생수가 잘 이루어지면 생식 건강이 양호함.",
+      "action": "금의 에너지를 강화하여 자수를 보완하라.",
+      "cautions": [
+        "금 부족 시 생식기능 저하 가능"
+      ],
+      "tags": [
+        "자수",
+        "금생수",
+        "생식기",
+        "정자",
+        "건강"
+      ],
+      "id": "RC-3acb75f3fd"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "자묘형"
+      },
+      "mechanism": "자묘형은 자수의 순환 에너지를 방해함.",
+      "interpretation": "자묘형이 있으면 생식기 질환이나 성병에 노출될 가능성이 높음.",
+      "action": "예방접종 및 위생 관리를 철저히 하라.",
+      "cautions": [
+        "성병 노출 주의",
+        "위생 관리 필요"
+      ],
+      "tags": [
+        "자묘형",
+        "생식기",
+        "성병",
+        "위생",
+        "질병"
+      ],
+      "id": "RC-fbf0b28e9b"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "자수",
+        "linked_element": "화"
+      },
+      "mechanism": "화는 자수의 에너지를 활성화시켜 호르몬 작동을 돕는다.",
+      "interpretation": "화가 있으면 자수의 기능이 원활해지고 호르몬 균형이 유지됨.",
+      "action": "화의 에너지를 활용하여 자수의 기능을 보완하라.",
+      "cautions": [
+        "화 부족 시 호르몬 불균형 가능"
+      ],
+      "tags": [
+        "자수",
+        "화",
+        "호르몬",
+        "균형",
+        "활성화"
+      ],
+      "id": "RC-127f90fb48"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "자수",
+        "condition": "약함"
+      },
+      "mechanism": "자수가 약하면 생식기 및 호르몬 관련 문제가 발생할 수 있음.",
+      "interpretation": "자수가 약하면 무정자증, 생리 불순 등의 문제가 나타날 수 있음.",
+      "action": "자수를 보강하기 위한 생활습관 개선을 권장하라.",
+      "cautions": [
+        "생식기 건강 주의",
+        "호르몬 균형 유지 필요"
+      ],
+      "tags": [
+        "자수",
+        "생식기",
+        "호르몬",
+        "건강",
+        "보강"
+      ],
+      "id": "RC-f8514779c0"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "자미원진"
+      },
+      "mechanism": "자미원진은 신경계와 전기신호 전달에 문제를 일으킬 수 있음.",
+      "interpretation": "자미원진이 있으면 신경계 질환이나 떨림 증상이 나타날 가능성이 있음.",
+      "action": "신경계 건강을 위한 정기 검진을 권장하라.",
+      "cautions": [
+        "신경계 질환 주의",
+        "정기 검진 필요"
+      ],
+      "tags": [
+        "자미원진",
+        "신경계",
+        "전기신호",
+        "질환",
+        "건강"
+      ],
+      "id": "RC-cc839c8ec1"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "자수",
+        "linked_element": "목"
+      },
+      "mechanism": "목이 자수를 지나치게 흡수하면 자수의 에너지가 약화됨.",
+      "interpretation": "목이 강하면 자수의 기능이 저하될 수 있음.",
+      "action": "목과 자수의 균형을 유지하도록 조정하라.",
+      "cautions": [
+        "목 과다로 인한 자수 약화 주의"
+      ],
+      "tags": [
+        "자수",
+        "목",
+        "균형",
+        "흡수",
+        "약화"
+      ],
+      "id": "RC-1f5c1c1c68"
+    },
+    {
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "자수",
+        "condition": "강함"
+      },
+      "mechanism": "자수가 강하면 생식기능과 에너지 생성이 활발해짐.",
+      "interpretation": "자수가 강하면 생식 건강과 신체 에너지가 양호함.",
+      "action": "자수의 강점을 활용하여 건강을 유지하라.",
+      "cautions": [
+        "자수 과잉으로 인한 불균형 주의"
+      ],
+      "tags": [
+        "자수",
+        "강함",
+        "생식기",
+        "에너지",
+        "건강"
+      ],
+      "id": "RC-faaa4438cd"
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "추가적인 규칙은 다음 청크에서 계속될 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_APPL_058",
+  "updated_at": "2025-12-23T20:27:27"
+}

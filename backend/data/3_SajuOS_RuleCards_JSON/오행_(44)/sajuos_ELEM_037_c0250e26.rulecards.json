@@ -1,0 +1,204 @@
+{
+  "title": "SajuOS_Logic_ELEM_037",
+  "rulecards": [
+    {
+      "id": "RC-f05bb3fb04",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ]
+      },
+      "mechanism": "寅과 亥는 생지로서 초기에 강하게 작용하며, 수색목의 에너지가 급격히 발생한다.",
+      "interpretation": "초반에 강렬한 인연과 빠른 관계 형성이 이루어진다.",
+      "action": "초기 관계 형성에 집중하고, 긍정적인 방향으로 발전시킬 방법을 모색하라.",
+      "cautions": [
+        "초기 강렬함이 끝까지 지속되지 않을 수 있음",
+        "관계의 목적이 달라질 가능성 있음"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "생지",
+        "수색목",
+        "초기강렬"
+      ]
+    },
+    {
+      "id": "RC-9276fe5c4c",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "phase": "later"
+      },
+      "mechanism": "생지의 에너지가 후반부로 갈수록 소진되며, 관계의 목적이 달라진다.",
+      "interpretation": "관계 후반부에 불만과 갈등이 발생할 가능성이 있다.",
+      "action": "관계의 변화와 갈등을 미리 인지하고 대비책을 마련하라.",
+      "cautions": [
+        "후반부에 에너지 소진",
+        "목적 불일치로 인한 갈등 가능"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "생지",
+        "갈등",
+        "후반부"
+      ]
+    },
+    {
+      "id": "RC-500f1fa2fe",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "element": "화"
+      },
+      "mechanism": "화의 존재가 목생화를 촉진하며 관계의 갈등을 완화한다.",
+      "interpretation": "화가 있으면 관계의 긍정적인 마무리가 가능하다.",
+      "action": "사주에 화의 기운을 활용하여 관계를 조율하라.",
+      "cautions": [
+        "화가 없으면 갈등이 지속될 가능성 있음"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "화",
+        "목생화",
+        "갈등완화"
+      ]
+    },
+    {
+      "id": "RC-906226d54b",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "element": "수"
+      },
+      "mechanism": "亥수는 寅목을 강하게 끌어당기며, 목생화를 방해할 수 있다.",
+      "interpretation": "수의 과도한 작용이 관계의 균형을 깨뜨릴 수 있다.",
+      "action": "수의 작용을 조절하고 목생화를 지원할 방안을 찾으라.",
+      "cautions": [
+        "수의 과도한 작용으로 인한 방해",
+        "목생화 저해 가능"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "수",
+        "목생화",
+        "방해"
+      ]
+    },
+    {
+      "id": "RC-98eeeeec4b",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "context": "초기"
+      },
+      "mechanism": "초반에 강렬한 감정과 인연이 형성된다.",
+      "interpretation": "첫 만남에서 강한 끌림과 빠른 관계 발전이 가능하다.",
+      "action": "초기 감정을 신중히 다루고, 장기적인 관계를 고려하라.",
+      "cautions": [
+        "초기 감정에만 의존하지 말 것"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "초기강렬",
+        "감정",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-4bd67b8d35",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "context": "후기"
+      },
+      "mechanism": "관계 후반부에 감정의 변화와 목적의 차이가 발생한다.",
+      "interpretation": "후반부에 갈등과 실망이 생길 수 있다.",
+      "action": "관계의 변화에 유연하게 대처하고, 서로의 목적을 조율하라.",
+      "cautions": [
+        "후반부 갈등 가능성",
+        "감정 소진"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "후반부",
+        "갈등",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-5711e8ea36",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "육합",
+        "branches": [
+          "寅",
+          "亥"
+        ],
+        "element": "목"
+      },
+      "mechanism": "목은 수의 지원을 받아 성장하지만, 화로의 이동이 필요하다.",
+      "interpretation": "목생화가 이루어지지 않으면 관계가 정체될 수 있다.",
+      "action": "목생화를 촉진할 수 있는 환경을 조성하라.",
+      "cautions": [
+        "목생화가 이루어지지 않을 경우 정체 가능"
+      ],
+      "tags": [
+        "육합",
+        "寅",
+        "亥",
+        "목",
+        "목생화",
+        "정체"
+      ]
+    }
+  ],
+  "notes": [
+    "인해 육합은 초반의 강렬함과 후반의 갈등 가능성을 모두 고려해야 함.",
+    "화의 존재가 관계의 긍정적 발전에 중요한 역할을 함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_037",
+  "updated_at": "2025-12-23T20:27:25"
+}

@@ -1,0 +1,443 @@
+{
+  "title": "SajuOS_Logic_STRU_M_155",
+  "rulecards": [
+    {
+      "id": "RC-52717bebe3",
+      "topic": "STRUCTURE",
+      "priority": 10,
+      "trigger": {
+        "month_branch": "비견"
+      },
+      "mechanism": "월지 비견은 권록격을 형성하며 독립적이고 자수성가적인 성향을 강화한다.",
+      "interpretation": "권록격은 집안의 시작점이 되는 인물로, 독립적이고 자주적인 성향을 지닌다.",
+      "action": "자신의 독립성과 자수성가적인 성향을 활용하여 목표를 설정하고 실행하라.",
+      "cautions": [
+        "비겁이 많으면 권록격의 힘이 약화될 수 있음."
+      ],
+      "tags": [
+        "권록격",
+        "비견",
+        "독립성",
+        "자수성가",
+        "월지"
+      ]
+    },
+    {
+      "id": "RC-6f9ea7cb14",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "비견"
+      },
+      "mechanism": "비견은 동기화와 공감을 통해 관계를 강화한다.",
+      "interpretation": "비견은 친구나 동료와의 관계에서 동기화와 공감을 잘 이끌어낸다.",
+      "action": "사회적 관계에서 공감 능력을 활용하여 신뢰를 쌓아라.",
+      "cautions": [
+        "비견이 없으면 관계에서 공감이 부족할 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "공감",
+        "동기화",
+        "사회적 관계",
+        "친구"
+      ]
+    },
+    {
+      "id": "RC-9fcea7b3ca",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "비견",
+        "other_branches": "비겁 없음"
+      },
+      "mechanism": "비겁이 없을 때 월지 비견의 에너지가 통일되어 권록격이 강화된다.",
+      "interpretation": "비겁이 없으면 권록격의 독립성과 자주성이 더욱 두드러진다.",
+      "action": "비겁의 영향을 최소화하고 자신의 독립성을 극대화하라.",
+      "cautions": [
+        "비겁이 많으면 에너지 분산으로 권록격이 약화됨."
+      ],
+      "tags": [
+        "권록격",
+        "비견",
+        "비겁",
+        "독립성",
+        "자주성"
+      ]
+    },
+    {
+      "id": "RC-381806e3d6",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "day_branch": "비견"
+      },
+      "mechanism": "일지 비견은 배우자와의 동기화를 중시한다.",
+      "interpretation": "배우자와 생각이 일치하지 않으면 갈등이 발생할 수 있다.",
+      "action": "배우자와의 소통을 통해 생각을 조율하라.",
+      "cautions": [
+        "동기화가 부족하면 사소한 문제로도 갈등이 커질 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "일지",
+        "배우자",
+        "동기화",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-a59bc412be",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "비견",
+        "career_focus": "사람 관리"
+      },
+      "mechanism": "월지 비견은 사람을 다루고 협업하는 직업적 코드를 강화한다.",
+      "interpretation": "사람과의 관계를 기반으로 한 직업에서 성공 가능성이 높다.",
+      "action": "사람을 다루는 직업을 선택하고 관계 관리를 강화하라.",
+      "cautions": [
+        "사람 관리에 소홀하면 직업적 성과가 저하될 수 있음."
+      ],
+      "tags": [
+        "비견",
+        "월지",
+        "사람 관리",
+        "협업",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-63b82006ef",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "비견",
+        "element": "정관"
+      },
+      "mechanism": "정관은 월지 비견을 다루는 데 필요한 권위를 제공한다.",
+      "interpretation": "정관이 있으면 비견을 효과적으로 통제하고 조직을 이끌 수 있다.",
+      "action": "정관의 에너지를 활용하여 리더십을 발휘하라.",
+      "cautions": [
+        "정관이 없으면 조직 내에서 권위가 약화될 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "비견",
+        "리더십",
+        "조직",
+        "권위"
+      ]
+    },
+    {
+      "id": "RC-90a1bac4fe",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year_element": "수",
+        "month_element": "화"
+      },
+      "mechanism": "수와 화의 조화는 경금의 목적의식을 강화한다.",
+      "interpretation": "수와 화가 조화를 이루면 경금의 목표 달성이 용이해진다.",
+      "action": "수와 화의 운이 올 때 목표를 설정하고 실행하라.",
+      "cautions": [
+        "수와 화가 조화를 이루지 않으면 목표 달성이 어려울 수 있음."
+      ],
+      "tags": [
+        "경금",
+        "수",
+        "화",
+        "목표",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-f9c208bb4b",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "month_branch": "비견",
+        "element": "정화"
+      },
+      "mechanism": "정화는 경금의 재능을 특정 분야로 집중시킨다.",
+      "interpretation": "정화가 있으면 경금의 재능이 전문성을 갖추게 된다.",
+      "action": "정화의 에너지를 활용하여 특정 분야에서 전문성을 키워라.",
+      "cautions": [
+        "정화가 없으면 다재다능하지만 전문성이 부족할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "전문성",
+        "재능",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-f64ba30e91",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month_branch": "비견",
+        "element": "임수"
+      },
+      "mechanism": "임수는 경금의 재능을 발현시키는 데 도움을 준다.",
+      "interpretation": "임수가 있으면 경금의 재능이 다방면으로 발휘된다.",
+      "action": "임수의 에너지를 활용하여 다양한 분야에서 재능을 발휘하라.",
+      "cautions": [
+        "임수가 없으면 재능 발현이 제한될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "경금",
+        "재능",
+        "발현",
+        "다방면"
+      ]
+    },
+    {
+      "id": "RC-433be9103e",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month_branch": "비견",
+        "element": "간목"
+      },
+      "mechanism": "간목은 경금의 재능을 실질적인 성과로 연결시킨다.",
+      "interpretation": "간목이 있으면 경금의 재능이 경제적 성과로 이어진다.",
+      "action": "간목의 에너지를 활용하여 재능을 경제적 성과로 전환하라.",
+      "cautions": [
+        "간목이 없으면 경제적 성과로 연결되기 어려울 수 있음."
+      ],
+      "tags": [
+        "간목",
+        "경금",
+        "재능",
+        "경제적 성과",
+        "실질"
+      ]
+    },
+    {
+      "id": "RC-1a1bbf3f08",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "combination": "인호술 삼합"
+      },
+      "mechanism": "인호술 삼합은 화의 에너지를 안정적으로 유지하고 보호함.",
+      "interpretation": "화의 내용물을 지키는 역할을 함.",
+      "action": "인호술 삼합의 조화를 유지하도록 노력.",
+      "cautions": [
+        "삼합이 깨지면 화의 안정성이 약화될 수 있음."
+      ],
+      "tags": [
+        "삼합",
+        "화",
+        "안정성",
+        "보호",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-3e009a6290",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편인",
+        "interaction": "비견"
+      },
+      "mechanism": "비견이 편인의 고집스러움을 완화시킴.",
+      "interpretation": "편인의 고집이 생산적인 방향으로 변화함.",
+      "action": "비견의 영향을 활용해 편인의 에너지를 긍정적으로 전환.",
+      "cautions": [
+        "비견이 없을 경우 편인의 고집이 극대화될 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "비견",
+        "고집",
+        "완화",
+        "생산성"
+      ]
+    },
+    {
+      "id": "RC-012c6b7b33",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "earthly_branch": "술토",
+        "heavenly_stem": "정화"
+      },
+      "mechanism": "술토는 정화를 보호하고 안정적으로 유지함.",
+      "interpretation": "정화가 흔들리지 않고 품격을 유지함.",
+      "action": "정화를 활용해 품격과 안정성을 높이는 방향으로 계획.",
+      "cautions": [
+        "정화가 설계되면 품격이 약화될 수 있음."
+      ],
+      "tags": [
+        "술토",
+        "정화",
+        "보호",
+        "품격",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-0eba282648",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "spouse": "임수",
+        "interaction": "식신"
+      },
+      "mechanism": "임수와 식신의 조합은 배우자와의 관계를 부드럽게 만듦.",
+      "interpretation": "배우자가 애정 표현을 잘하고 관계가 원활해짐.",
+      "action": "임수와 식신의 에너지를 활용해 배우자와의 관계를 개선.",
+      "cautions": [
+        "임수와 식신이 없으면 관계가 경직될 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "식신",
+        "배우자",
+        "애정",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-899cfe8506",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "진토",
+        "heavenly_stem": "정화"
+      },
+      "mechanism": "진토가 정화를 설계하여 직업적 안정성을 약화시킴.",
+      "interpretation": "직업 선택과 유지가 어려워질 수 있음.",
+      "action": "감목을 활용해 정화를 보완하고 직업적 안정성을 확보.",
+      "cautions": [
+        "감목이 없으면 직업적 어려움이 지속될 가능성 있음."
+      ],
+      "tags": [
+        "진토",
+        "정화",
+        "감목",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-bb1c389318",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": "개묘년",
+        "earthly_branch": "진토"
+      },
+      "mechanism": "진토가 정화를 설계하여 직업적 변동을 초래함.",
+      "interpretation": "개묘년에는 직업적 변화나 어려움이 예상됨.",
+      "action": "감목이나 임수를 활용해 변동을 최소화.",
+      "cautions": [
+        "준비 없이 변동을 맞이하면 큰 손실이 있을 수 있음."
+      ],
+      "tags": [
+        "개묘년",
+        "진토",
+        "정화",
+        "직업",
+        "변동"
+      ]
+    },
+    {
+      "id": "RC-bcbe477059",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "신월의 경금"
+      },
+      "mechanism": "신월의 경금은 분별력과 재고성을 가짐.",
+      "interpretation": "분별력과 재고성을 직업적 재능으로 활용 가능.",
+      "action": "정화와 임수를 활용해 경금의 재능을 극대화.",
+      "cautions": [
+        "정화와 임수가 없으면 재능 발휘가 제한될 수 있음."
+      ],
+      "tags": [
+        "신월",
+        "경금",
+        "분별력",
+        "재고성",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-1cd1c4629b",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "wood": "감목",
+        "presence": true
+      },
+      "mechanism": "감목은 재물의 흐름을 원활하게 만듦.",
+      "interpretation": "감목이 있으면 재물 운이 안정적이고 지속적임.",
+      "action": "감목의 에너지를 활용해 재물 관리를 강화.",
+      "cautions": [
+        "감목이 없으면 재물 운이 불안정해질 수 있음."
+      ],
+      "tags": [
+        "감목",
+        "재물",
+        "안정성",
+        "흐름",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-a44380503f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "월지 비견"
+      },
+      "mechanism": "월지의 비견은 공감을 일으키는 에너지를 가짐.",
+      "interpretation": "월지 비견은 고집보다는 신념에 가까운 성향을 보임.",
+      "action": "월지 비견의 공감 능력을 활용해 대인 관계를 개선.",
+      "cautions": [
+        "일지 비견과 혼동하지 않도록 주의."
+      ],
+      "tags": [
+        "월지",
+        "비견",
+        "공감",
+        "신념",
+        "대인관계"
+      ]
+    },
+    {
+      "id": "RC-d2558901b9",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "water": "임수",
+        "combination": "신-진 삼합"
+      },
+      "mechanism": "신-진 삼합의 임수는 창작과 예술적 재능을 강화함.",
+      "interpretation": "창작, 예술, 교육 분야에서 재능을 발휘할 수 있음.",
+      "action": "임수의 에너지를 활용해 창작적 활동에 집중.",
+      "cautions": [
+        "임수가 없으면 창작적 재능 발휘가 어려울 수 있음."
+      ],
+      "tags": [
+        "임수",
+        "삼합",
+        "창작",
+        "예술",
+        "재능"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_155",
+  "updated_at": "2025-12-23T20:27:24"
+}

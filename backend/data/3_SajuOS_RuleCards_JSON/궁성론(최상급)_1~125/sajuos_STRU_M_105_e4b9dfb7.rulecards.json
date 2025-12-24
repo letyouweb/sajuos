@@ -1,0 +1,464 @@
+{
+  "title": "SajuOS_Logic_STRU_M_105",
+  "rulecards": [
+    {
+      "id": "RC-823df813cd",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화"
+      },
+      "mechanism": "진월에서 정화는 상관으로 작용하며 외부 자극에 민감하게 반응한다.",
+      "interpretation": "정화는 외부 환경에 쉽게 영향을 받아 자신의 중심을 잃기 쉽다.",
+      "action": "외부 자극에 휘둘리지 않도록 자기 통제력을 키워야 한다.",
+      "cautions": [
+        "감정 기복이 심할 수 있음",
+        "외부 환경에 지나치게 의존할 가능성"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "상관",
+        "외부 자극",
+        "감정 기복"
+      ]
+    },
+    {
+      "id": "RC-dc97ca5eb0",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "간목"
+      },
+      "mechanism": "간목은 진월의 정화가 상관에 휘둘리지 않도록 돕는다.",
+      "interpretation": "간목은 정화의 중심을 잡아주고 상관의 에너지를 조절한다.",
+      "action": "간목의 역할을 활용해 상관의 에너지를 통제하라.",
+      "cautions": [
+        "간목이 없으면 상관에 휘둘릴 가능성 증가"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "간목",
+        "상관 조절",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-92a7bafbfd",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "경금"
+      },
+      "mechanism": "경금은 정화에게 목적성을 부여하고 자기 재능을 인식하게 한다.",
+      "interpretation": "경금이 있으면 정화는 자신의 강점을 파악하고 직업적 성취를 이룰 가능성이 높다.",
+      "action": "경금을 활용해 자신의 재능을 직업화하라.",
+      "cautions": [
+        "경금이 없으면 자신의 강점을 인식하기 어려움"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "경금",
+        "목적성",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-19c0b818e1",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "목극토"
+      },
+      "mechanism": "목극토는 진월의 정화가 상관의 에너지를 조절하도록 돕는다.",
+      "interpretation": "목극토는 정화가 외부 환경에 휘둘리지 않고 중심을 잡게 한다.",
+      "action": "목극토의 에너지를 활용해 상관을 다스려라.",
+      "cautions": [
+        "목극토가 없으면 상관의 에너지가 과도해질 수 있음"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "목극토",
+        "상관 조절",
+        "중심"
+      ]
+    },
+    {
+      "id": "RC-22c1680034",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "임수"
+      },
+      "mechanism": "임수는 정화가 겁재를 컨트롤할 수 있는 힘을 제공한다.",
+      "interpretation": "임수가 있으면 정화는 겁재를 다루는 능력이 강화된다.",
+      "action": "임수를 활용해 겁재를 효과적으로 다뤄라.",
+      "cautions": [
+        "임수가 없으면 겁재에 휘둘릴 가능성 증가"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "임수",
+        "겁재",
+        "컨트롤"
+      ]
+    },
+    {
+      "id": "RC-60c3d03a78",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "갑목"
+      },
+      "mechanism": "갑목은 진월의 정화가 겁재를 주도적으로 활용할 수 있게 한다.",
+      "interpretation": "갑목이 있으면 정화는 겁재를 자신의 방식으로 끌어올 수 있다.",
+      "action": "갑목을 활용해 겁재를 주도적으로 다뤄라.",
+      "cautions": [
+        "갑목이 없으면 겁재에 휘둘릴 가능성 증가"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "갑목",
+        "겁재",
+        "주도성"
+      ]
+    },
+    {
+      "id": "RC-4547b4f401",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "무토"
+      },
+      "mechanism": "무토는 정화의 에너지를 안정시키고 외부 습기를 막아준다.",
+      "interpretation": "무토는 정화의 온도를 유지하며 왜곡된 에너지를 방지한다.",
+      "action": "무토를 활용해 정화를 보호하라.",
+      "cautions": [
+        "무토가 없으면 정화가 외부 습기에 의해 왜곡될 가능성 증가"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "무토",
+        "안정성",
+        "보호"
+      ]
+    },
+    {
+      "id": "RC-8053c0dcf2",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "을목"
+      },
+      "mechanism": "을목은 빠르게 적응하지만 일관성이 부족하다.",
+      "interpretation": "을목이 있으면 정화는 환경에 빠르게 적응하지만 안정성이 떨어질 수 있다.",
+      "action": "을목의 적응력을 활용하되 장기적인 계획을 세워라.",
+      "cautions": [
+        "을목이 있으면 일관성이 부족할 수 있음"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "을목",
+        "적응력",
+        "일관성"
+      ]
+    },
+    {
+      "id": "RC-b95396861a",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "경금",
+        "absence_of": "인성"
+      },
+      "mechanism": "인성이 없으면 경금이 재를 다루는 능력이 제한된다.",
+      "interpretation": "경금이 있어도 인성이 없으면 부가가치를 창출하기 어렵다.",
+      "action": "인성을 보완해 경금을 효과적으로 활용하라.",
+      "cautions": [
+        "인성이 없으면 재를 다루는 능력이 제한됨"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "경금",
+        "인성",
+        "부가가치"
+      ]
+    },
+    {
+      "id": "RC-afed7c64e5",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "month": "진월",
+        "day_master": "정화",
+        "presence_of": "겁재"
+      },
+      "mechanism": "겁재는 정화가 외부 환경에 휘둘릴 가능성을 높인다.",
+      "interpretation": "겁재가 있으면 정화는 자신의 주도권을 잃기 쉽다.",
+      "action": "겁재를 다룰 수 있는 간목이나 임수를 활용하라.",
+      "cautions": [
+        "겁재가 조절되지 않으면 외부 환경에 휘둘릴 가능성 증가"
+      ],
+      "tags": [
+        "진월",
+        "정화",
+        "겁재",
+        "주도권",
+        "외부 환경"
+      ]
+    },
+    {
+      "id": "RC-4f2b8e17c1",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation": "원진",
+        "condition": "exists"
+      },
+      "mechanism": "원진은 의사소통의 왜곡과 감정적 불만을 축적시킴.",
+      "interpretation": "원진은 감정 해소가 어렵고 관계에 우울감을 초래할 수 있음.",
+      "action": "조화로운 에너지를 통해 원진을 해소할 방법을 모색.",
+      "cautions": [
+        "감정적 왜곡 주의",
+        "우울감 방지 필요"
+      ],
+      "tags": [
+        "원진",
+        "감정",
+        "왜곡",
+        "관계",
+        "해소"
+      ]
+    },
+    {
+      "id": "RC-9924796a84",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "갑목",
+        "condition": "exists"
+      },
+      "mechanism": "갑목은 습한 기운을 조절하고 균형을 잡아줌.",
+      "interpretation": "갑목은 습한 에너지를 해소하고 조화로운 환경을 만듦.",
+      "action": "갑목의 에너지를 활용해 습한 기운을 조절.",
+      "cautions": [
+        "갑목만으로는 부족할 수 있음",
+        "보조 요소 필요"
+      ],
+      "tags": [
+        "갑목",
+        "습",
+        "조화",
+        "조절",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-1fae9d466f",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "병화",
+        "condition": "exists"
+      },
+      "mechanism": "병화는 갑목의 부담을 덜어주고 조화로운 에너지를 형성.",
+      "interpretation": "병화는 갑목과 함께 습한 기운을 해소하는 데 도움.",
+      "action": "병화를 통해 갑목의 역할을 보완.",
+      "cautions": [
+        "병화가 없으면 갑목의 역할이 제한됨"
+      ],
+      "tags": [
+        "병화",
+        "갑목",
+        "습",
+        "조화",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-baf29ca26e",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "원진",
+        "condition": "resolved"
+      },
+      "mechanism": "원진이 해소되면 관계의 긍정적 전환 가능.",
+      "interpretation": "원진 해소는 대인관계에서 플러스 요인으로 작용.",
+      "action": "원진 해소 방법을 학습하고 적용.",
+      "cautions": [
+        "해소되지 않으면 관계 악화 가능"
+      ],
+      "tags": [
+        "원진",
+        "해소",
+        "관계",
+        "긍정",
+        "전환"
+      ]
+    },
+    {
+      "id": "RC-0089994ea9",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "편인",
+        "condition": "무성"
+      },
+      "mechanism": "편인이 무성하면 정신적 혼란과 잡생각이 많아짐.",
+      "interpretation": "편인의 과잉은 정신적 문제와 비효율성을 초래.",
+      "action": "편인을 해소할 수 있는 상관이나 식상을 활용.",
+      "cautions": [
+        "정신적 혼란 주의",
+        "효율성 저하 가능"
+      ],
+      "tags": [
+        "편인",
+        "무성",
+        "정신",
+        "혼란",
+        "해소"
+      ]
+    },
+    {
+      "id": "RC-4045c0826e",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "무토",
+        "condition": "exists"
+      },
+      "mechanism": "무토는 편인을 해소하고 습한 기운을 조절.",
+      "interpretation": "무토는 정신적 안정과 에너지 발산을 돕는 역할.",
+      "action": "무토를 통해 편인의 과잉을 조절.",
+      "cautions": [
+        "무토가 없으면 편인 해소 어려움"
+      ],
+      "tags": [
+        "무토",
+        "편인",
+        "습",
+        "조절",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-a379765681",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "상관",
+        "condition": "견관"
+      },
+      "mechanism": "상관 견관은 의사소통에서 부정적 영향을 미침.",
+      "interpretation": "상관 견관은 기분 나쁜 말투와 부정적 감정을 유발.",
+      "action": "상관의 부정적 영향을 줄이기 위한 조화로운 대화법 학습.",
+      "cautions": [
+        "의사소통 문제 주의",
+        "부정적 감정 축적 방지"
+      ],
+      "tags": [
+        "상관",
+        "견관",
+        "의사소통",
+        "부정적",
+        "감정"
+      ]
+    },
+    {
+      "id": "RC-044b1c4c67",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "간목",
+        "condition": "exists"
+      },
+      "mechanism": "간목은 식상을 조절하고 에너지를 균형 있게 분배.",
+      "interpretation": "간목은 식상의 혼잡을 해소하고 안정감을 제공.",
+      "action": "간목을 활용해 식상의 혼잡을 조절.",
+      "cautions": [
+        "간목이 없으면 식상 혼잡 지속"
+      ],
+      "tags": [
+        "간목",
+        "식상",
+        "조절",
+        "안정",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-37bd11f957",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "element": "감목",
+        "condition": "운에서 등장"
+      },
+      "mechanism": "운에서 감목이 들어오면 부정적 감정을 해소.",
+      "interpretation": "감목은 운에서 긍정적 전환을 유도.",
+      "action": "운에서 감목의 영향을 활용해 삶의 방향 전환.",
+      "cautions": [
+        "운에서 감목이 없으면 부정적 상태 지속 가능"
+      ],
+      "tags": [
+        "감목",
+        "운",
+        "긍정",
+        "전환",
+        "해소"
+      ]
+    },
+    {
+      "id": "RC-0454362e28",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "경금",
+        "condition": "exists"
+      },
+      "mechanism": "경금은 상관의 목적성을 부여하고 사회적 역할을 강화.",
+      "interpretation": "경금은 상관을 통해 사회적 성취를 도모.",
+      "action": "경금을 활용해 상관의 에너지를 사회적 시스템에 적용.",
+      "cautions": [
+        "경금이 없으면 상관의 에너지가 분산될 수 있음"
+      ],
+      "tags": [
+        "경금",
+        "상관",
+        "목적성",
+        "사회적",
+        "성취"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_105",
+  "updated_at": "2025-12-23T20:27:24"
+}

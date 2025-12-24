@@ -1,0 +1,928 @@
+{
+  "title": "SajuOS_Logic_STRU_A_018",
+  "rulecards": [
+    {
+      "id": "RC-b2618d0d28",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "earthly_branch": "편관"
+      },
+      "mechanism": "일지에 편관이 있으면 개인적인 규칙을 강하게 형성함.",
+      "interpretation": "자신만의 규칙을 고수하며 타인의 조율을 어렵게 만듦.",
+      "action": "타인과 협력 시 자신의 규칙을 명확히 전달하고 조율을 시도.",
+      "cautions": [
+        "타인의 의견을 무시하지 않도록 주의.",
+        "독단적 태도가 관계를 악화시킬 수 있음."
+      ],
+      "tags": [
+        "기묘일주",
+        "편관",
+        "독단",
+        "규칙",
+        "일지"
+      ]
+    },
+    {
+      "id": "RC-93f88959a2",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "화"
+      },
+      "mechanism": "화가 있으면 규칙을 납득시키는 능력이 강화됨.",
+      "interpretation": "타인에게 자신의 규칙을 설득하고 신뢰를 얻음.",
+      "action": "규칙을 설명하고 타인의 동의를 구하는 데 집중.",
+      "cautions": [
+        "설득 과정에서 지나친 강요를 피할 것."
+      ],
+      "tags": [
+        "기묘일주",
+        "화",
+        "설득",
+        "신뢰",
+        "규칙"
+      ]
+    },
+    {
+      "id": "RC-10b036879a",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "수"
+      },
+      "mechanism": "수가 강하면 규칙을 유리하게 변경하려는 경향이 생김.",
+      "interpretation": "자신의 이익을 위해 규칙을 변형하거나 무시할 가능성이 있음.",
+      "action": "규칙을 공정하게 유지하려는 노력을 기울일 것.",
+      "cautions": [
+        "타인에게 불신을 초래할 수 있음.",
+        "규칙의 일관성을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "수",
+        "규칙변경",
+        "이기심",
+        "공정성"
+      ]
+    },
+    {
+      "id": "RC-8df189e2d5",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "금"
+      },
+      "mechanism": "금이 강하면 문제 해결에 직접 개입하며 분주해짐.",
+      "interpretation": "즉각적인 문제 해결을 위해 노력하지만 긴장감이 높아짐.",
+      "action": "문제 해결 시 체계적 접근을 시도.",
+      "cautions": [
+        "지나친 스트레스를 피할 것.",
+        "장기적 관점을 잃지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "금",
+        "문제해결",
+        "긴장",
+        "직접개입"
+      ]
+    },
+    {
+      "id": "RC-2088a56e28",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "살"
+      },
+      "mechanism": "살을 사용하면 비일반적인 방법으로 문제를 해결함.",
+      "interpretation": "즉각적인 효과를 얻지만 비공식적 방법을 선호.",
+      "action": "문제 해결 시 합법적이고 공식적인 방법을 우선 고려.",
+      "cautions": [
+        "법적 문제를 초래할 수 있음.",
+        "장기적 신뢰를 잃을 위험이 있음."
+      ],
+      "tags": [
+        "기묘일주",
+        "살",
+        "비공식",
+        "즉각효과",
+        "문제해결"
+      ]
+    },
+    {
+      "id": "RC-3a9c3c0a81",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "화",
+        "position": "일지"
+      },
+      "mechanism": "화가 일지에 있으면 규칙을 스스로 지키는 성향이 강함.",
+      "interpretation": "자신의 규칙을 엄격히 준수하며 신뢰를 얻음.",
+      "action": "규칙 준수의 모범을 보이며 타인의 신뢰를 강화.",
+      "cautions": [
+        "자신에게 지나치게 엄격하지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "화",
+        "규칙준수",
+        "신뢰",
+        "일지"
+      ]
+    },
+    {
+      "id": "RC-e48573258d",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "수",
+        "position": "일지"
+      },
+      "mechanism": "수가 일지에 있으면 규칙을 자의적으로 변경하려는 경향이 있음.",
+      "interpretation": "규칙의 일관성이 약화되어 신뢰를 잃을 수 있음.",
+      "action": "규칙의 일관성을 유지하며 공정성을 강조.",
+      "cautions": [
+        "타인의 신뢰를 잃지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "수",
+        "일지",
+        "규칙변경",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-3f88c35826",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "정화",
+        "career_type": "특수직"
+      },
+      "mechanism": "정화는 특정 분야에서 특화된 능력을 발휘함.",
+      "interpretation": "특수직이나 전문 분야에서 두각을 나타냄.",
+      "action": "자신의 전문성을 살릴 수 있는 직업을 선택.",
+      "cautions": [
+        "일반적인 직업에서는 만족도가 낮을 수 있음."
+      ],
+      "tags": [
+        "기묘일주",
+        "정화",
+        "특수직",
+        "전문성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-81d57f983d",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "금",
+        "relation": "배우자"
+      },
+      "mechanism": "금이 강하면 배우자와의 관계에서 문제를 해결하려는 경향이 강함.",
+      "interpretation": "배우자와의 문제를 직접 해결하려는 성향.",
+      "action": "배우자와의 문제를 해결할 때 감정적 접근을 피하고 논리적으로 접근.",
+      "cautions": [
+        "배우자와의 갈등이 심화되지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "금",
+        "배우자",
+        "문제해결",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-a29626efab",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_pillar": "기묘일주",
+        "element": "살",
+        "relation": "가족"
+      },
+      "mechanism": "살을 사용하면 가족 문제를 비공식적 방법으로 해결하려 함.",
+      "interpretation": "가족 문제에서 즉각적인 해결책을 선호.",
+      "action": "가족 문제를 해결할 때 공식적이고 합법적인 방법을 우선 고려.",
+      "cautions": [
+        "가족 간 신뢰를 잃지 않도록 주의."
+      ],
+      "tags": [
+        "기묘일주",
+        "살",
+        "가족",
+        "문제해결",
+        "비공식"
+      ]
+    },
+    {
+      "id": "RC-ac2d7c0d86",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "relation_type": "혼잡",
+        "element": "묘"
+      },
+      "mechanism": "혼잡은 두 가지 성향이 공존하여 일관성이 떨어짐.",
+      "interpretation": "혼잡 구조는 관계에서 갈등과 불만족을 초래할 가능성이 높음.",
+      "action": "혼잡 구조를 가진 경우, 관계에서의 기대치를 조정하고 갈등을 줄이는 방법을 모색해야 함.",
+      "cautions": [
+        "혼잡 구조는 관계의 안정성을 저해할 수 있음."
+      ],
+      "tags": [
+        "혼잡",
+        "묘",
+        "관계",
+        "갈등",
+        "불만족",
+        "기대치",
+        "조정",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-3c6dee18f2",
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "day_master": "무토",
+        "gender": "female"
+      },
+      "mechanism": "무토 일간 여성은 남성에 대한 만족도가 낮은 경향이 있음.",
+      "interpretation": "무토 일간 여성은 전통적인 남녀 역할이 바뀌는 경우가 많음.",
+      "action": "정신적 사랑을 우선시하며 관계를 유지하는 방법을 고민해야 함.",
+      "cautions": [
+        "육체적 만족보다 정신적 만족을 중시해야 함."
+      ],
+      "tags": [
+        "무토",
+        "여성",
+        "만족도",
+        "정신적 사랑",
+        "남녀 역할",
+        "관계 유지"
+      ]
+    },
+    {
+      "id": "RC-2aadf90b2f",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "year": 2024,
+        "heavenly_stem": "갑"
+      },
+      "mechanism": "갑진년은 갑목이 등장하여 관계의 전환점을 제공함.",
+      "interpretation": "2024년에는 중요한 관계 변화나 결혼 가능성이 높아짐.",
+      "action": "2024년의 기회를 활용하여 관계를 재정비하거나 새로운 시작을 고려해야 함.",
+      "cautions": [
+        "갑진년의 기회를 놓치지 않도록 준비해야 함."
+      ],
+      "tags": [
+        "갑진년",
+        "2024",
+        "관계 변화",
+        "결혼",
+        "기회",
+        "전환점"
+      ]
+    },
+    {
+      "id": "RC-f2526919dc",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "supporting_elements": [
+          "인성",
+          "재성"
+        ]
+      },
+      "mechanism": "정관격은 인성과 재성이 조화를 이루어야 제대로 작동함.",
+      "interpretation": "정관격은 직업적 안정성과 명확한 목표를 추구함.",
+      "action": "인성과 재성을 강화하여 정관격의 장점을 극대화해야 함.",
+      "cautions": [
+        "인성과 재성이 부족하면 정관격의 잠재력이 약화됨."
+      ],
+      "tags": [
+        "정관격",
+        "인성",
+        "재성",
+        "직업 안정성",
+        "목표",
+        "조화",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-2fbb715c2a",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "career_focus": "공무원"
+      },
+      "mechanism": "정관격은 공무원적 성향이 강하며 안정적인 직업을 선호함.",
+      "interpretation": "정관격은 공무원이나 대기업과 같은 안정적인 직업에 적합함.",
+      "action": "공무원 시험이나 대기업 취업을 목표로 준비해야 함.",
+      "cautions": [
+        "정관격은 안정성을 추구하므로 변동성이 큰 직업은 피해야 함."
+      ],
+      "tags": [
+        "정관격",
+        "공무원",
+        "대기업",
+        "안정성",
+        "직업",
+        "준비",
+        "시험"
+      ]
+    },
+    {
+      "id": "RC-13909645b1",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation_type": "연애",
+        "placement": "연간"
+      },
+      "mechanism": "연간에 있는 관은 관계의 안정성과 지속성에 영향을 미침.",
+      "interpretation": "연간의 관은 멀리 있는 관계에서 안정감을 제공하지만 가까이에서는 갈등을 유발할 수 있음.",
+      "action": "연간의 관을 가진 경우, 관계에서 적절한 거리감을 유지해야 함.",
+      "cautions": [
+        "가까운 관계에서 실망감을 느낄 수 있음."
+      ],
+      "tags": [
+        "연간",
+        "관계",
+        "안정성",
+        "거리감",
+        "갈등",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-d6061ed188",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "정관격",
+        "strength": "약함"
+      },
+      "mechanism": "정관격이 약하면 직업적 목표와 방향성이 희미해짐.",
+      "interpretation": "정관격이 약한 경우, 직업적 안정성을 확보하기 어려움.",
+      "action": "정관격을 보완하기 위해 인성과 재성을 강화해야 함.",
+      "cautions": [
+        "목표가 불분명하면 직업적 혼란이 발생할 수 있음."
+      ],
+      "tags": [
+        "정관격",
+        "약함",
+        "직업 목표",
+        "방향성",
+        "안정성",
+        "보완"
+      ]
+    },
+    {
+      "id": "RC-bce8967814",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "structure": "재생관",
+        "career_focus": "고위직"
+      },
+      "mechanism": "재생관은 고위직에서의 책임감을 감당하는 능력을 제공함.",
+      "interpretation": "재생관 구조는 고위직에서의 성공 가능성을 높임.",
+      "action": "재생관을 강화하여 고위직에서의 역할을 잘 수행하도록 준비해야 함.",
+      "cautions": [
+        "재생관이 약하면 고위직에서의 압박을 견디기 어려움."
+      ],
+      "tags": [
+        "재생관",
+        "고위직",
+        "책임감",
+        "성공",
+        "준비",
+        "강화"
+      ]
+    },
+    {
+      "id": "RC-abc6b16b1e",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation_type": "연애",
+        "placement": "시에 있음"
+      },
+      "mechanism": "시에 있는 관은 개인적인 관계에 영향을 미침.",
+      "interpretation": "시에 있는 관은 개인적인 관계에서의 자유로움을 제공함.",
+      "action": "시에 있는 관을 가진 경우, 관계에서 독립성을 유지해야 함.",
+      "cautions": [
+        "관계에서 지나치게 독립적일 경우 소통이 부족할 수 있음."
+      ],
+      "tags": [
+        "시에 있음",
+        "관계",
+        "독립성",
+        "소통",
+        "연애"
+      ]
+    },
+    {
+      "id": "RC-b6e419f57f",
+      "topic": "GENERAL",
+      "priority": 4,
+      "trigger": {
+        "note": "정관의 위치와 역할에 대한 일반적 설명"
+      },
+      "mechanism": "정관은 법치주의적 사고와 안정성을 상징함.",
+      "interpretation": "정관은 사회적 규범과 질서를 중시하는 성향을 나타냄.",
+      "action": "정관의 특성을 이해하고 이를 활용하여 안정적인 삶을 추구해야 함.",
+      "cautions": [
+        "정관이 약하면 규범을 무시하는 경향이 생길 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "법치주의",
+        "안정성",
+        "사회적 규범",
+        "질서"
+      ]
+    },
+    {
+      "id": "RC-643140c0b8",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "재생관"
+      },
+      "mechanism": "재생관 구조는 사회성과 성공지향적 성향을 강화함.",
+      "interpretation": "사회적 관계와 성공을 중시하는 성향이 강함.",
+      "action": "사회적 네트워크를 적극적으로 활용하고 목표를 명확히 설정.",
+      "cautions": [
+        "재관이 없으면 균형이 깨질 수 있음."
+      ],
+      "tags": [
+        "재생관",
+        "사회성",
+        "성공지향",
+        "구조",
+        "사주"
+      ]
+    },
+    {
+      "id": "RC-492141598c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "정관격",
+        "conditions": [
+          "재관 존재"
+        ]
+      },
+      "mechanism": "정관격은 안정적이고 체계적인 성향을 나타냄.",
+      "interpretation": "정관격은 체계적이고 안정적인 직업적 성향을 가짐.",
+      "action": "정관격을 활용해 안정적인 직업을 선택.",
+      "cautions": [
+        "정관만으로는 유지가 어려움."
+      ],
+      "tags": [
+        "정관격",
+        "안정성",
+        "체계",
+        "직업",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-93d15088ee",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "관인 상생",
+        "incoming_luck": "재운"
+      },
+      "mechanism": "재운이 관인 상생을 방해하여 인성을 약화시킴.",
+      "interpretation": "재운이 들어오면 인성의 역할이 약화되고 압박을 받음.",
+      "action": "재운 시기에는 인성의 역할을 보완할 방안을 모색.",
+      "cautions": [
+        "재운이 강하면 승진이나 자리 유지가 어려움."
+      ],
+      "tags": [
+        "관인상생",
+        "재운",
+        "인성",
+        "압박",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-c2c0ed7449",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "재생관",
+        "incoming_luck": "비겁"
+      },
+      "mechanism": "비겁이 재를 쟁제하여 재생관의 흐름을 방해함.",
+      "interpretation": "정치적 갈등이나 경쟁에 휘말릴 가능성이 있음.",
+      "action": "비겁 운에서는 갈등을 피하고 협력적 태도를 유지.",
+      "cautions": [
+        "정치적 싸움에 휘말릴 위험."
+      ],
+      "tags": [
+        "재생관",
+        "비겁",
+        "쟁재",
+        "갈등",
+        "운"
+      ]
+    },
+    {
+      "id": "RC-6dad299d6d",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "structure": "식상",
+        "relation": "관파"
+      },
+      "mechanism": "식상이 관을 파괴하여 기존 제도를 비판하고 개혁함.",
+      "interpretation": "언론, NGO, 시민단체 등 개혁적 직업에 적합.",
+      "action": "사회적 문제를 해결하거나 개혁하는 직업을 선택.",
+      "cautions": [
+        "기득권과의 갈등 가능성."
+      ],
+      "tags": [
+        "식상",
+        "관파",
+        "개혁",
+        "직업",
+        "사회"
+      ]
+    },
+    {
+      "id": "RC-a7390b76c9",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "격",
+        "clarity": "뚜렷"
+      },
+      "mechanism": "뚜렷한 격은 특정 능력을 특화시킴.",
+      "interpretation": "특정 분야에서 두각을 나타내며 직업이 일찍 정해짐.",
+      "action": "강점이 있는 분야에 집중.",
+      "cautions": [
+        "다른 분야로의 전환이 어려움."
+      ],
+      "tags": [
+        "격",
+        "뚜렷",
+        "특화",
+        "직업",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-2b295d401b",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "격",
+        "clarity": "애매"
+      },
+      "mechanism": "애매한 격은 다양한 선택지를 제공함.",
+      "interpretation": "다양한 직업과 활동을 시도할 수 있음.",
+      "action": "다양한 경험을 통해 적성을 탐색.",
+      "cautions": [
+        "집중력이 부족할 수 있음."
+      ],
+      "tags": [
+        "격",
+        "애매",
+        "다양성",
+        "선택",
+        "적성"
+      ]
+    },
+    {
+      "id": "RC-44c0b6f8fc",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "팝격"
+      },
+      "mechanism": "팝격은 고정된 틀에서 벗어나 다양한 가능성을 열어줌.",
+      "interpretation": "다양한 직업과 활동에 적합하며 유연성이 높음.",
+      "action": "다양한 분야를 탐구하고 새로운 기회를 모색.",
+      "cautions": [
+        "집중력 부족으로 인해 성과가 분산될 수 있음."
+      ],
+      "tags": [
+        "팝격",
+        "유연성",
+        "다양성",
+        "직업",
+        "탐구"
+      ]
+    },
+    {
+      "id": "RC-3da2c140bc",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "성격"
+      },
+      "mechanism": "성격은 특정 직업에 고정되며 안정성을 제공함.",
+      "interpretation": "특정 직업에서 지속적으로 활동하며 전문성을 쌓음.",
+      "action": "전문성을 요구하는 직업을 선택.",
+      "cautions": [
+        "다른 분야로의 전환이 어려움."
+      ],
+      "tags": [
+        "성격",
+        "안정성",
+        "전문성",
+        "직업",
+        "고정"
+      ]
+    },
+    {
+      "id": "RC-c34368efd2",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "age": {
+          "start": 45,
+          "end": 60
+        },
+        "structure": "시의 관"
+      },
+      "mechanism": "시의 관은 중년 이후에도 직업적 기회를 제공함.",
+      "interpretation": "은퇴 후에도 새로운 직업적 기회가 주어질 가능성이 높음.",
+      "action": "중년 이후의 직업적 기회를 준비.",
+      "cautions": [
+        "시의 관이 약하면 기회가 제한될 수 있음."
+      ],
+      "tags": [
+        "시의 관",
+        "중년",
+        "직업",
+        "기회",
+        "은퇴"
+      ]
+    },
+    {
+      "id": "RC-920b6e895f",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "묘"
+      },
+      "mechanism": "정화는 인공적인 불로, 묘월에서는 목생화가 어려워짐.",
+      "interpretation": "정화는 묘월에서 업을 소화하기 어려운 숙명을 가짐.",
+      "action": "정화의 특성을 활용해 깊이 있는 학문적 접근을 시도하라.",
+      "cautions": [
+        "목다화식으로 인해 정화가 약화될 수 있음.",
+        "정신적 부담이 클 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "묘월",
+        "목생화",
+        "업",
+        "학문"
+      ]
+    },
+    {
+      "id": "RC-aaa534f314",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "편인격",
+        "support": "식상"
+      },
+      "mechanism": "편인격은 식상을 통해 연구와 교육으로 발현됨.",
+      "interpretation": "편인격은 연구와 교육 분야에서 두각을 나타낼 수 있음.",
+      "action": "식상을 활용해 연구 성과를 교육으로 연결하라.",
+      "cautions": [
+        "식상이 없으면 발현이 어려울 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "식상",
+        "연구",
+        "교육",
+        "발현"
+      ]
+    },
+    {
+      "id": "RC-894bb9c477",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "화"
+      },
+      "mechanism": "화가 강하면 정화가 목을 소화하며 천재적 성향을 발휘함.",
+      "interpretation": "정화는 화의 지원을 받으면 학문적 깊이와 속도를 가질 수 있음.",
+      "action": "화의 지원을 극대화해 학문적 성취를 이루라.",
+      "cautions": [
+        "화가 약하면 정화의 능력이 제한될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "화",
+        "학문",
+        "천재성",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-a317bce200",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "편인격",
+        "support": "재극인"
+      },
+      "mechanism": "재극인은 인성을 조절하여 연구적 성향을 강화함.",
+      "interpretation": "재극인이 잘 작용하면 사회 현상을 연구하는 데 뛰어난 능력을 발휘함.",
+      "action": "재극인을 활용해 현실과 이론을 조화롭게 연구하라.",
+      "cautions": [
+        "재극인이 약하면 연구 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "편인격",
+        "재극인",
+        "연구",
+        "조화",
+        "현실"
+      ]
+    },
+    {
+      "id": "RC-e2abecdc55",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "토"
+      },
+      "mechanism": "토는 화를 보호하며 지속성을 유지시킴.",
+      "interpretation": "토의 지원으로 정화는 안정적인 직업적 성취를 이룰 수 있음.",
+      "action": "토의 역할을 강화해 지속 가능한 성과를 추구하라.",
+      "cautions": [
+        "토가 부족하면 화의 지속성이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "토",
+        "지속성",
+        "안정성",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-d6da905b1b",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "수"
+      },
+      "mechanism": "수는 정화의 빛을 강조하며 주목받게 함.",
+      "interpretation": "수의 지원으로 정화는 사회적 주목을 받을 수 있음.",
+      "action": "수의 에너지를 활용해 대중적 영향력을 키워라.",
+      "cautions": [
+        "수의 과잉은 정화의 에너지를 소모시킬 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "수",
+        "주목",
+        "영향력",
+        "사회성"
+      ]
+    },
+    {
+      "id": "RC-15570b9718",
+      "topic": "CAREER",
+      "priority": 9,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "목"
+      },
+      "mechanism": "목은 정화의 인성을 드러내며 교육적 재능을 강화함.",
+      "interpretation": "목의 지원으로 정화는 교육 분야에서 두각을 나타낼 수 있음.",
+      "action": "목의 에너지를 활용해 교육적 성과를 극대화하라.",
+      "cautions": [
+        "목이 과다하면 정화가 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "목",
+        "교육",
+        "재능",
+        "성과"
+      ]
+    },
+    {
+      "id": "RC-fac0c9846a",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "화생토"
+      },
+      "mechanism": "화생토는 정화의 에너지를 안정적으로 유지시킴.",
+      "interpretation": "화생토의 조화로 정화는 안정적인 직업적 성취를 이룰 수 있음.",
+      "action": "화생토의 조화를 유지하며 직업적 안정성을 추구하라.",
+      "cautions": [
+        "화생토의 균형이 깨지면 직업적 불안정이 생길 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "화생토",
+        "안정성",
+        "직업",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-54c940d157",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "식상"
+      },
+      "mechanism": "식상은 정화의 연구와 교육 능력을 발휘하게 함.",
+      "interpretation": "식상의 지원으로 정화는 교육과 연구 분야에서 성공할 수 있음.",
+      "action": "식상을 활용해 연구 성과를 교육으로 연결하라.",
+      "cautions": [
+        "식상이 약하면 발현이 어려울 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "식상",
+        "연구",
+        "교육",
+        "발현"
+      ]
+    },
+    {
+      "id": "RC-91dce253df",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "정화",
+        "month": "묘",
+        "support": "관"
+      },
+      "mechanism": "관은 정화의 업을 직업으로 연결시킴.",
+      "interpretation": "관의 지원으로 정화는 사회적 성과를 낼 수 있음.",
+      "action": "관의 에너지를 활용해 사회적 성과를 추구하라.",
+      "cautions": [
+        "관이 약하면 사회적 성과가 제한될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "관",
+        "업",
+        "직업",
+        "성과"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "기묘일주의 편관과 관련된 다양한 상황을 다룸.",
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화됨.",
+    "텍스트가 매우 방대하여 일부 내용은 요약 및 재구성됨.",
+    "정화와 묘월의 조합에 대한 상세한 설명이 포함됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_018",
+  "updated_at": "2025-12-23T20:27:23"
+}

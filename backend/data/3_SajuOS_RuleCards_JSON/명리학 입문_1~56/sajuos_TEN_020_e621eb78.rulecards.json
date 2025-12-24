@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_TEN_020",
+  "rulecards": [
+    {
+      "id": "RC-f4f0fd2540",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "겁재": true,
+        "제압": true
+      },
+      "mechanism": "겁재를 제압하면 자신감과 대담함이 생김.",
+      "interpretation": "겁재를 제압한 사람은 강한 정신력과 대담함을 가짐.",
+      "action": "겁재를 제압하는 방법을 찾아 자신감을 키워라.",
+      "cautions": [
+        "겁재를 제압하지 못하면 두려움에 압도될 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "제압",
+        "자신감",
+        "대담함",
+        "정신력"
+      ]
+    },
+    {
+      "id": "RC-10c1720926",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "겁재": true,
+        "압도": true
+      },
+      "mechanism": "겁재에 압도되면 두려움과 불안이 커짐.",
+      "interpretation": "겁재에 압도된 사람은 작은 문제에도 크게 반응함.",
+      "action": "겁재에 압도되지 않도록 자기 통제력을 키워라.",
+      "cautions": [
+        "겁재에 압도되면 비합리적인 행동을 할 수 있음."
+      ],
+      "tags": [
+        "겁재",
+        "압도",
+        "두려움",
+        "불안",
+        "통제력"
+      ]
+    },
+    {
+      "id": "RC-4708ec72ed",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "편재": true,
+        "감각": true
+      },
+      "mechanism": "편재는 세상의 흐름과 원리를 파악하는 감각을 의미함.",
+      "interpretation": "편재가 발달한 사람은 경제적 변화에 민감함.",
+      "action": "편재의 감각을 활용해 경제적 기회를 포착하라.",
+      "cautions": [
+        "편재가 없으면 경제적 흐름을 이해하기 어려움."
+      ],
+      "tags": [
+        "편재",
+        "감각",
+        "경제",
+        "흐름",
+        "민감성"
+      ]
+    },
+    {
+      "id": "RC-d556cb4282",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "쟁재": true,
+        "편재": true,
+        "겁재": true
+      },
+      "mechanism": "편재와 겁재가 쟁재하면 재적 민감도가 극대화됨.",
+      "interpretation": "이 조합은 극단적인 경제적 기복을 초래할 수 있음.",
+      "action": "위험한 투자나 도박을 피하고 안정적인 계획을 세워라.",
+      "cautions": [
+        "중독이나 한탕주의에 빠질 위험이 큼."
+      ],
+      "tags": [
+        "쟁재",
+        "편재",
+        "겁재",
+        "민감성",
+        "위험"
+      ]
+    },
+    {
+      "id": "RC-6514defba6",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "편재": true,
+        "겁재": true,
+        "극": true
+      },
+      "mechanism": "겁재가 편재를 극하면 한탕주의적 성향이 강해짐.",
+      "interpretation": "이 조합은 도덕적 가치관을 무너뜨릴 수 있음.",
+      "action": "도덕적 기준을 유지하며 재적 활동을 조절하라.",
+      "cautions": [
+        "리스크가 큰 행동으로 인해 실패할 가능성이 높음."
+      ],
+      "tags": [
+        "편재",
+        "겁재",
+        "극",
+        "한탕주의",
+        "도덕"
+      ]
+    },
+    {
+      "id": "RC-d1f2398c1c",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "정재": true,
+        "겁재": true,
+        "쟁재": true
+      },
+      "mechanism": "정재가 겁재에 의해 쟁재되면 소유와 목표가 방해받음.",
+      "interpretation": "정재를 지키려는 강한 방어기제가 작동함.",
+      "action": "소유에 집착하지 말고 유연한 사고를 유지하라.",
+      "cautions": [
+        "피해의식과 자격지심이 생길 수 있음."
+      ],
+      "tags": [
+        "정재",
+        "겁재",
+        "쟁재",
+        "소유",
+        "방어기제"
+      ]
+    },
+    {
+      "id": "RC-445deb4751",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "정재": true,
+        "겁재": true,
+        "피해의식": true
+      },
+      "mechanism": "겁재가 정재를 침범하면 피해의식이 강화됨.",
+      "interpretation": "자신의 소유와 목표가 위협받는다고 느낄 수 있음.",
+      "action": "자신의 가치를 인정하고 긍정적인 사고를 키워라.",
+      "cautions": [
+        "피해의식이 심화되면 인간관계에 부정적 영향을 미침."
+      ],
+      "tags": [
+        "정재",
+        "겁재",
+        "피해의식",
+        "소유",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-f4f5a0315f",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "겁재": true,
+        "인성": true
+      },
+      "mechanism": "겁재와 인성이 결합하면 설득력이 강해짐.",
+      "interpretation": "이 조합은 타인을 쉽게 설득하거나 영향을 미칠 수 있음.",
+      "action": "설득력을 긍정적으로 활용하라.",
+      "cautions": [
+        "타인을 조종하거나 가스라이팅할 위험이 있음."
+      ],
+      "tags": [
+        "겁재",
+        "인성",
+        "설득력",
+        "영향력",
+        "가스라이팅"
+      ]
+    },
+    {
+      "id": "RC-a5d6d95392",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "편인": true,
+        "겁재": true
+      },
+      "mechanism": "편인이 겁재를 생하면 진심으로 돕는 구조가 형성됨.",
+      "interpretation": "이 조합은 타인에게 진심으로 도움을 줄 수 있음.",
+      "action": "타인을 돕는 데 주저하지 말고 진심을 다하라.",
+      "cautions": [
+        "도움을 주는 과정에서 자신의 손해를 감수해야 할 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "겁재",
+        "도움",
+        "진심",
+        "희생"
+      ]
+    },
+    {
+      "id": "RC-e2160e37bb",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "겁재": true,
+        "인성": true,
+        "배경": true
+      },
+      "mechanism": "인성이 겁재를 생하면 배경이 튼튼해짐.",
+      "interpretation": "이 조합은 강력한 배경이나 지원을 의미함.",
+      "action": "배경을 활용해 자신의 목표를 달성하라.",
+      "cautions": [
+        "배경에 의존하지 말고 자신의 능력을 키워라."
+      ],
+      "tags": [
+        "겁재",
+        "인성",
+        "배경",
+        "지원",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-9b525cec2b",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "인성"
+      },
+      "mechanism": "인성은 배경을 나타내며, 품질에 따라 그 역할이 달라진다.",
+      "interpretation": "인성이 훌륭하면 안정적이고 유리한 배경을 제공한다.",
+      "action": "인성의 품질을 분석하여 배경의 강약을 판단하라.",
+      "cautions": [
+        "인성의 품질을 과대평가하지 말 것."
+      ],
+      "tags": [
+        "인성",
+        "배경",
+        "품질",
+        "십성",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-4abb08ed11",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "겁제",
+        "position": "연월"
+      },
+      "mechanism": "연월의 겁제는 사회적 관계와 관련된다.",
+      "interpretation": "연월의 겁제는 사회적 경쟁이나 외부적 손실을 의미한다.",
+      "action": "연월의 겁제를 통해 사회적 관계와 손실 요인을 분석하라.",
+      "cautions": [
+        "사회적 관계를 지나치게 부정적으로 해석하지 말 것."
+      ],
+      "tags": [
+        "겁제",
+        "연월",
+        "사회적 관계",
+        "손실",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-68a9b22785",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "겁제",
+        "position": "시"
+      },
+      "mechanism": "시의 겁제는 개인적 관계와 관련된다.",
+      "interpretation": "시의 겁제는 가족이나 자식과의 갈등을 나타낼 수 있다.",
+      "action": "시의 겁제를 통해 가족 내 갈등 요인을 분석하라.",
+      "cautions": [
+        "가족 관계를 지나치게 단정적으로 해석하지 말 것."
+      ],
+      "tags": [
+        "겁제",
+        "시",
+        "가족",
+        "갈등",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-1979bb78ee",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "겁제",
+        "position": "천간"
+      },
+      "mechanism": "천간의 겁제는 외부적 손실과 경쟁을 강조한다.",
+      "interpretation": "천간의 겁제는 외부적 요인으로 인한 손실을 의미한다.",
+      "action": "천간의 겁제를 통해 외부적 손실 요인을 분석하라.",
+      "cautions": [
+        "외부적 요인을 과도하게 부정적으로 해석하지 말 것."
+      ],
+      "tags": [
+        "겁제",
+        "천간",
+        "손실",
+        "경쟁",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-de65dbecca",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "겁제",
+        "position": "지지"
+      },
+      "mechanism": "지지의 겁제는 내적 갈등과 관련된다.",
+      "interpretation": "지지의 겁제는 내적 불안이나 갈등을 나타낼 수 있다.",
+      "action": "지지의 겁제를 통해 내적 갈등 요인을 분석하라.",
+      "cautions": [
+        "내적 갈등을 과도하게 확대 해석하지 말 것."
+      ],
+      "tags": [
+        "겁제",
+        "지지",
+        "내적 갈등",
+        "불안",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-c4bd81c72f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "position_priority": [
+          "연",
+          "월"
+        ]
+      },
+      "mechanism": "연월의 기둥은 사회적 활동과 관련이 깊다.",
+      "interpretation": "연월의 기둥은 사회적 역할과 대외적 활동을 나타낸다.",
+      "action": "연월의 기둥을 분석하여 사회적 활동의 방향성을 파악하라.",
+      "cautions": [
+        "연월의 기둥만으로 개인사를 단정하지 말 것."
+      ],
+      "tags": [
+        "연월",
+        "기둥",
+        "사회적 활동",
+        "대외적 역할",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-f90b42de1b",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "position_priority": [
+          "시"
+        ]
+      },
+      "mechanism": "시의 기둥은 개인적 활동과 관련이 깊다.",
+      "interpretation": "시의 기둥은 개인적 삶과 가족 관계를 나타낸다.",
+      "action": "시의 기둥을 분석하여 개인적 활동의 방향성을 파악하라.",
+      "cautions": [
+        "시의 기둥만으로 사회적 활동을 단정하지 말 것."
+      ],
+      "tags": [
+        "시",
+        "기둥",
+        "개인적 활동",
+        "가족 관계",
+        "구조"
+      ]
+    },
+    {
+      "id": "RC-d7382c6782",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "비견",
+        "ten_god_2": "겁제"
+      },
+      "mechanism": "비견과 겁제가 함께 있으면 관계 문제가 발생할 수 있다.",
+      "interpretation": "비견과 겁제가 조화를 이루지 못하면 갈등이 생긴다.",
+      "action": "비견과 겁제의 관계를 분석하여 갈등 요인을 파악하라.",
+      "cautions": [
+        "비견과 겁제를 지나치게 대립적으로 해석하지 말 것."
+      ],
+      "tags": [
+        "비견",
+        "겁제",
+        "관계 문제",
+        "갈등",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-ca16ea4aa4",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "비견",
+        "supporting_element": "식상"
+      },
+      "mechanism": "식상이 비견과 겁제의 조화를 돕는다.",
+      "interpretation": "식상이 발달하면 비견과 겁제의 갈등이 완화된다.",
+      "action": "식상의 발달 여부를 분석하여 조화 가능성을 평가하라.",
+      "cautions": [
+        "식상의 역할을 과대평가하지 말 것."
+      ],
+      "tags": [
+        "비견",
+        "겁제",
+        "식상",
+        "조화",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-d19879984b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "note": "비겁이 없는 명조"
+      },
+      "mechanism": "비겁이 없으면 쟁제와 쟁관이 어렵다.",
+      "interpretation": "비겁이 없으면 사회적 경쟁과 승진이 제한된다.",
+      "action": "비겁의 유무를 분석하여 사회적 한계를 파악하라.",
+      "cautions": [
+        "비겁의 부재를 지나치게 부정적으로 해석하지 말 것."
+      ],
+      "tags": [
+        "비겁",
+        "쟁제",
+        "쟁관",
+        "사회적 경쟁",
+        "구조"
+      ]
+    }
+  ],
+  "notes": [
+    "일부 내용은 해석의 여지가 있어 보완이 필요할 수 있음."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_020",
+  "updated_at": "2025-12-23T20:27:26"
+}

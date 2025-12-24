@@ -1,0 +1,448 @@
+{
+  "title": "SajuOS_Logic_STRU_M_071",
+  "rulecards": [
+    {
+      "id": "RC-c17f1fe6d4",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "경금",
+        "state": "미완"
+      },
+      "mechanism": "경금은 원석처럼 용도가 불분명하며, 외부적 에너지가 필요함.",
+      "interpretation": "경금은 특정 용도를 가지기 위해 외부적 자극이 필요하다.",
+      "action": "정화를 통해 경금의 용도를 명확히 하도록 유도.",
+      "cautions": [
+        "경금을 완성되지 않은 상태로 판단하지 말 것."
+      ],
+      "tags": [
+        "경금",
+        "정화",
+        "용도",
+        "완성",
+        "외부자극"
+      ]
+    },
+    {
+      "id": "RC-40fd6a374a",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "신금",
+        "state": "완성"
+      },
+      "mechanism": "신금은 이미 일정한 용도를 가지고 있음.",
+      "interpretation": "신금은 특정한 목적성을 가지고 활용될 수 있음.",
+      "action": "신금의 특성을 활용하여 구체적인 방향성을 설정.",
+      "cautions": [
+        "신금의 용도를 과소평가하지 말 것."
+      ],
+      "tags": [
+        "신금",
+        "완성",
+        "용도",
+        "특성",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-84df3a7795",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "상관",
+        "position": "월"
+      },
+      "mechanism": "월의 상관은 가족 및 직업적 환경에 영향을 미침.",
+      "interpretation": "상관은 자유분방한 성향과 예술적 감각을 나타냄.",
+      "action": "상관의 재능을 발현할 수 있는 환경을 조성.",
+      "cautions": [
+        "상관의 과도한 자유로움이 문제를 일으킬 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "월",
+        "자유",
+        "예술",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-3580ff31d1",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "상관",
+        "element": "금수"
+      },
+      "mechanism": "금수 상관은 청각적 감각과 예술적 재능을 강조.",
+      "interpretation": "음악적 재능과 청각적 민감성을 나타냄.",
+      "action": "음악이나 청각 관련 분야에서 재능을 발휘.",
+      "cautions": [
+        "재능을 발현하지 못하면 아까운 자원이 될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "금수",
+        "청각",
+        "음악",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-cc5d98b826",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "structure": "상관",
+        "support": "임수"
+      },
+      "mechanism": "임수가 투관되면 상관의 재능이 발현됨.",
+      "interpretation": "임수는 상관의 재능을 꺼내어 활용 가능하게 함.",
+      "action": "임수를 투관시켜 상관의 재능을 극대화.",
+      "cautions": [
+        "임수가 없으면 재능이 발현되지 않을 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "임수",
+        "투관",
+        "재능",
+        "발현"
+      ]
+    },
+    {
+      "id": "RC-bc1dcb2515",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "상관",
+        "support": "간목"
+      },
+      "mechanism": "간목은 상관의 지속성을 보장함.",
+      "interpretation": "간목은 상관의 재능을 안정적으로 유지시킴.",
+      "action": "간목을 활용하여 상관의 재능을 지속적으로 발휘.",
+      "cautions": [
+        "간목이 없으면 상관의 재능이 불안정할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "간목",
+        "지속성",
+        "안정",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-d297e39ad0",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "상관",
+        "support": "무토"
+      },
+      "mechanism": "무토는 상관의 흐름을 통제하고 안정화.",
+      "interpretation": "무토는 상관의 재능을 한정하여 구체화함.",
+      "action": "무토를 활용하여 상관의 재능을 구체적인 방향으로 유도.",
+      "cautions": [
+        "무토가 과도하면 상관의 자유로움이 억제될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "무토",
+        "통제",
+        "안정",
+        "구체화"
+      ]
+    },
+    {
+      "id": "RC-a9091cae18",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "relation": "상관-정관"
+      },
+      "mechanism": "상관은 정관과의 관계에서 자유로움을 추구.",
+      "interpretation": "상관은 정관의 틀을 깨고 새로운 방향을 제시.",
+      "action": "상관의 창의성을 활용하여 기존 틀을 혁신.",
+      "cautions": [
+        "정관과의 충돌이 과도하면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "정관",
+        "자유",
+        "혁신",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-48a21cb9e9",
+      "topic": "TIMING",
+      "priority": 6,
+      "trigger": {
+        "timing": "대운",
+        "element": "간목"
+      },
+      "mechanism": "간목 대운은 상관의 재능을 발현시킴.",
+      "interpretation": "간목 대운은 상관의 재능을 실질적으로 활용할 기회를 제공.",
+      "action": "간목 대운에서 상관의 재능을 적극적으로 활용.",
+      "cautions": [
+        "간목 대운이 지나가면 재능 발현이 어려워질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "간목",
+        "대운",
+        "재능",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-749d3d0956",
+      "topic": "TIMING",
+      "priority": 5,
+      "trigger": {
+        "timing": "세운",
+        "element": "갑목"
+      },
+      "mechanism": "갑목 세운은 상관의 재능을 일시적으로 발현.",
+      "interpretation": "갑목 세운은 상관의 재능을 단기적으로 활용 가능.",
+      "action": "갑목 세운에서 재능을 발휘하되 장기적 계획을 고려.",
+      "cautions": [
+        "세운의 효과는 일시적이므로 과도한 기대는 금물."
+      ],
+      "tags": [
+        "상관",
+        "갑목",
+        "세운",
+        "재능",
+        "단기"
+      ]
+    },
+    {
+      "id": "RC-f07b2c412c",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "상관": true,
+        "관": true
+      },
+      "mechanism": "상관이 관을 보면 상관의 에너지가 발동하여 격정적인 성향을 띔.",
+      "interpretation": "상관이 관을 볼 때, 격정적이고 저항적인 성향이 강해짐.",
+      "action": "상관의 에너지를 긍정적인 방향으로 전환하도록 유도.",
+      "cautions": [
+        "상관과 관의 충돌로 인해 갈등이 심화될 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "관",
+        "격정",
+        "저항",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-9982bff1f1",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "상관": true,
+        "인성": true
+      },
+      "mechanism": "인성이 상관을 제압하여 관을 보호하려는 작용을 함.",
+      "interpretation": "상관 패인은 도덕적 올바름을 추구하며 자기와 타인에게 엄격함.",
+      "action": "자신과 타인에 대한 기대치를 조정하고 유연성을 키움.",
+      "cautions": [
+        "타인에게 과도한 도덕적 요구를 하지 않도록 주의."
+      ],
+      "tags": [
+        "상관",
+        "인성",
+        "도덕",
+        "엄격",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-f0f6216cd1",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "인성": true,
+        "비겁": true
+      },
+      "mechanism": "비겁이 인성과 상관의 긴장을 조절하여 유연성을 부여함.",
+      "interpretation": "비겁이 개입하면 상관 패인의 강도가 완화됨.",
+      "action": "비겁의 역할을 활용하여 갈등을 조정.",
+      "cautions": [
+        "비겁이 없으면 상관 패인의 강도가 높아질 수 있음."
+      ],
+      "tags": [
+        "비겁",
+        "인성",
+        "상관",
+        "조절",
+        "유연성"
+      ]
+    },
+    {
+      "id": "RC-798895759d",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "상관": true,
+        "재성": true
+      },
+      "mechanism": "상관이 재성을 보면 에너지가 재물 추구로 전환됨.",
+      "interpretation": "상관의 에너지가 재물 창출로 이어질 가능성이 높음.",
+      "action": "상관의 에너지를 재물 창출에 집중하도록 유도.",
+      "cautions": [
+        "재성이 없으면 상관의 에너지가 갈등으로 이어질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "재성",
+        "재물",
+        "에너지",
+        "집중"
+      ]
+    },
+    {
+      "id": "RC-8e965c165c",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "인성": true,
+        "재성": true
+      },
+      "mechanism": "인성이 재성의 가치를 높이고 부가가치를 창출함.",
+      "interpretation": "인성이 재물의 가치를 극대화하여 더 큰 부를 창출함.",
+      "action": "인성을 활용하여 재물의 가치를 높이는 전략을 구사.",
+      "cautions": [
+        "인성이 없으면 재물의 가치를 제대로 활용하지 못할 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "재성",
+        "부가가치",
+        "재물",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-5a4ef0eb19",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "상관": true,
+        "비겁": true
+      },
+      "mechanism": "상관이 비겁과 결합하면 리더십과 조직 관리 능력이 발휘됨.",
+      "interpretation": "상관과 비겁의 조합은 리더십과 협업 능력을 강화함.",
+      "action": "리더십을 발휘할 수 있는 직업을 선택.",
+      "cautions": [
+        "비겁이 과도하면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "비겁",
+        "리더십",
+        "조직",
+        "협업"
+      ]
+    },
+    {
+      "id": "RC-43dd9b2ecf",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "상관": true,
+        "목": true,
+        "토": true
+      },
+      "mechanism": "목극토의 긴장감이 상관의 에너지를 조절함.",
+      "interpretation": "목극토가 상관의 에너지를 안정적으로 활용하게 만듦.",
+      "action": "목과 토의 균형을 유지하여 상관의 에너지를 활용.",
+      "cautions": [
+        "목과 토의 균형이 깨지면 상관의 에너지가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "목",
+        "토",
+        "균형",
+        "조절"
+      ]
+    },
+    {
+      "id": "RC-1526caaedf",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "재성": true,
+        "비겁": true
+      },
+      "mechanism": "비겁이 재성을 활용하여 투자와 자본 증식을 가능하게 함.",
+      "interpretation": "비겁과 재성의 조합은 자본주의적 성공을 가능하게 함.",
+      "action": "비겁을 활용하여 재성의 가치를 극대화.",
+      "cautions": [
+        "비겁이 과도하면 재성의 리스크가 커질 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "비겁",
+        "투자",
+        "자본",
+        "성공"
+      ]
+    },
+    {
+      "id": "RC-61c7f55eaf",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "결혼": false
+      },
+      "mechanism": "결혼은 음양의 조화를 이루어 개인의 한계를 극복하게 함.",
+      "interpretation": "결혼은 개인의 부족한 부분을 보완하여 삶의 균형을 맞춤.",
+      "action": "결혼을 통해 삶의 안정과 조화를 추구.",
+      "cautions": [
+        "결혼하지 않으면 개인의 한계가 지속될 수 있음."
+      ],
+      "tags": [
+        "결혼",
+        "음양",
+        "조화",
+        "안정",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-1ba40d1d85",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "상관": true,
+        "일지": "해수"
+      },
+      "mechanism": "해수의 욕심과 상관의 에너지가 결합하여 창의적 직업을 선호함.",
+      "interpretation": "해수와 상관의 조합은 창의적이고 독창적인 직업에 적합함.",
+      "action": "창의적이고 설계 중심의 직업을 선택.",
+      "cautions": [
+        "욕심이 과도하면 실패의 리스크가 커질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "해수",
+        "창의성",
+        "직업",
+        "설계"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_071",
+  "updated_at": "2025-12-23T20:27:24"
+}

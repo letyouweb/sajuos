@@ -1,0 +1,454 @@
+{
+  "title": "SajuOS_Logic_BASIC_002",
+  "rulecards": [
+    {
+      "id": "RC-9ae137bde6",
+      "topic": "GENERAL",
+      "priority": 9,
+      "trigger": {
+        "focus": "일간",
+        "note": "일간이 신왕하거나 신약한 경우"
+      },
+      "mechanism": "일간의 강약에 따라 주도권이 달라짐.",
+      "interpretation": "신왕하면 자기 주도성이 강하고, 신약하면 외부 환경에 영향을 받음.",
+      "action": "일간의 강약을 파악하여 사주 해석의 중심을 설정하라.",
+      "cautions": [
+        "일간만으로 모든 것을 판단하지 말 것."
+      ],
+      "tags": [
+        "일간",
+        "신왕",
+        "신약",
+        "주도권",
+        "사주 해석"
+      ]
+    },
+    {
+      "id": "RC-b5a1b9ff72",
+      "topic": "GENERAL",
+      "priority": 8,
+      "trigger": {
+        "focus": "천간",
+        "note": "천간 중심으로 사건을 해석할 때"
+      },
+      "mechanism": "천간의 체성과 중심 글자가 사건의 원인이 됨.",
+      "interpretation": "일간 외의 다른 천간이 사건의 중심이 될 수 있음.",
+      "action": "천간의 체성과 중심 글자를 분석하라.",
+      "cautions": [
+        "일간 중심 해석에만 의존하지 말 것."
+      ],
+      "tags": [
+        "천간",
+        "체성",
+        "사건",
+        "중심",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-699ad686e4",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "type": "양간",
+        "note": "양간의 특징을 분석할 때"
+      },
+      "mechanism": "양간은 수직 운동을 통해 높낮이를 형성.",
+      "interpretation": "양간은 이상적이고 정신적인 특성을 가짐.",
+      "action": "양간의 수직적 특성을 활용하여 해석하라.",
+      "cautions": [
+        "양간의 특성을 과대평가하지 말 것."
+      ],
+      "tags": [
+        "양간",
+        "수직 운동",
+        "정신적",
+        "특성",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-b2bf86ca86",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "type": "음간",
+        "note": "음간의 특징을 분석할 때"
+      },
+      "mechanism": "음간은 수평 운동을 통해 넓이를 형성.",
+      "interpretation": "음간은 실질적이고 현실적인 특성을 가짐.",
+      "action": "음간의 수평적 특성을 활용하여 해석하라.",
+      "cautions": [
+        "음간의 특성을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "음간",
+        "수평 운동",
+        "현실적",
+        "특성",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-d62f0f9298",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "focus": "간목",
+        "note": "간목이 주도권을 가질 때"
+      },
+      "mechanism": "간목은 수생목의 지원을 통해 주도권을 형성.",
+      "interpretation": "간목이 주도권을 가지려면 계수의 지원이 필요.",
+      "action": "간목과 계수의 관계를 분석하여 주도권 여부를 판단하라.",
+      "cautions": [
+        "계수 없이 간목의 주도권을 과신하지 말 것."
+      ],
+      "tags": [
+        "간목",
+        "계수",
+        "수생목",
+        "주도권",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-a405fecd86",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "focus": "병화",
+        "note": "병화가 간목과 함께 있을 때"
+      },
+      "mechanism": "병화는 간목의 성장을 촉진하고 방향성을 제공.",
+      "interpretation": "병화는 간목의 목표 달성을 돕는 역할을 함.",
+      "action": "병화와 간목의 조합을 활용하여 성장 가능성을 분석하라.",
+      "cautions": [
+        "병화의 역할을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "병화",
+        "간목",
+        "목생화",
+        "성장",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-faa2ae468f",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "focus": "경금",
+        "note": "경금이 간목과 함께 있을 때"
+      },
+      "mechanism": "경금은 간목의 실용성을 높이고 쓰임새를 강화.",
+      "interpretation": "경금은 간목의 활용 가능성을 높이는 역할을 함.",
+      "action": "경금과 간목의 관계를 분석하여 실용성을 평가하라.",
+      "cautions": [
+        "경금의 상태를 무시하지 말 것."
+      ],
+      "tags": [
+        "경금",
+        "간목",
+        "실용성",
+        "활용",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-edd5ca0ef7",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "focus": "임수",
+        "note": "임수가 간목과 함께 있을 때"
+      },
+      "mechanism": "임수는 간목의 주도권을 제한하고 외부 의존성을 증가.",
+      "interpretation": "임수는 간목의 독립성을 약화시킬 수 있음.",
+      "action": "임수와 간목의 관계를 분석하여 의존성을 평가하라.",
+      "cautions": [
+        "임수의 영향력을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "임수",
+        "간목",
+        "의존성",
+        "주도권",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-a87cb5a368",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "focus": "간목",
+        "note": "간목이 병화와 함께 있을 때"
+      },
+      "mechanism": "병화는 간목의 에너지를 끌어내어 출력 가능성을 높임.",
+      "interpretation": "병화는 간목의 잠재력을 실현시키는 역할을 함.",
+      "action": "병화와 간목의 조합을 활용하여 잠재력을 분석하라.",
+      "cautions": [
+        "병화의 출력 역할을 간과하지 말 것."
+      ],
+      "tags": [
+        "간목",
+        "병화",
+        "출력",
+        "잠재력",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-f5a297284d",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "focus": "간목",
+        "note": "간목이 신금과 함께 있을 때"
+      },
+      "mechanism": "신금은 간목의 쓰임새를 강화하고 실질적 성과를 유도.",
+      "interpretation": "신금은 간목의 실질적 활용을 돕는 역할을 함.",
+      "action": "신금과 간목의 관계를 분석하여 성과 가능성을 평가하라.",
+      "cautions": [
+        "신금의 상태를 과소평가하지 말 것."
+      ],
+      "tags": [
+        "간목",
+        "신금",
+        "활용",
+        "성과",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-a2f2495fc3",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "정화",
+        "presence": true,
+        "supporting_element": "경금"
+      },
+      "mechanism": "정화는 경금을 통해 목표와 방향을 명확히 설정할 수 있음.",
+      "interpretation": "정화가 경금을 만나면 몰입과 전문성이 강화됨.",
+      "action": "경금과의 조화를 통해 자신의 강점을 활용할 수 있는 분야를 찾을 것.",
+      "cautions": [
+        "경금이 없으면 정화의 방향성이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "몰입",
+        "목표",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-463c061e09",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "challenging_element": "임수"
+      },
+      "mechanism": "임수는 정화를 억제하여 몰입과 방향성을 방해함.",
+      "interpretation": "임수가 강한 운에서는 정화의 능력이 제한될 수 있음.",
+      "action": "임수의 영향을 완화할 수 있는 무토 등의 요소를 활용할 것.",
+      "cautions": [
+        "임수의 과도한 개입은 정화의 잠재력을 억제할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "임수",
+        "운",
+        "방향성",
+        "억제"
+      ]
+    },
+    {
+      "id": "RC-20e9c6c55b",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "을목",
+        "supporting_element": "병화"
+      },
+      "mechanism": "병화는 을목의 꼬임을 풀어주고 활력을 부여함.",
+      "interpretation": "을목이 병화를 만나면 긴장감과 추진력이 생김.",
+      "action": "병화의 도움을 받아 자신의 에너지를 확산시키고 활용할 것.",
+      "cautions": [
+        "병화가 없으면 을목의 잠재력이 제한될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "병화",
+        "긴장감",
+        "추진력",
+        "활력"
+      ]
+    },
+    {
+      "id": "RC-5e38a3ffc0",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "목"
+      },
+      "mechanism": "목은 정화의 에너지를 보강하고 주도권을 강화함.",
+      "interpretation": "정화가 목을 만나면 주도권을 가지려는 성향이 강해짐.",
+      "action": "목의 지원을 활용해 자신의 계획을 추진할 것.",
+      "cautions": [
+        "목이 약하면 정화의 주도권이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "목",
+        "주도권",
+        "보강",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-cd787e8b18",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "무토"
+      },
+      "mechanism": "무토는 정화가 임수의 영향을 극복하도록 돕는 역할을 함.",
+      "interpretation": "무토가 있으면 정화는 어려운 상황에서도 극복력을 발휘할 수 있음.",
+      "action": "무토의 도움을 받아 임수의 방해를 완화할 것.",
+      "cautions": [
+        "무토가 없으면 임수의 영향이 강하게 작용할 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "무토",
+        "임수",
+        "극복",
+        "방해"
+      ]
+    },
+    {
+      "id": "RC-2be7b0df2e",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "challenging_element": "임수"
+      },
+      "mechanism": "임수는 을목을 과도하게 자극하여 불안정하게 만듦.",
+      "interpretation": "임수가 강하면 을목은 방향성을 잃고 방황할 가능성이 높음.",
+      "action": "임수의 영향을 줄이고 병화나 무토를 통해 안정성을 확보할 것.",
+      "cautions": [
+        "임수의 과도한 자극은 을목의 성장을 방해할 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "임수",
+        "방향성",
+        "안정성",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-ceade266cf",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "경금",
+        "challenging_element": "임수"
+      },
+      "mechanism": "경금은 정화의 목표 설정을 돕고, 임수는 이를 방해함.",
+      "interpretation": "경금이 강하면 정화는 몰입과 목표 설정이 가능하지만, 임수가 강하면 방해를 받음.",
+      "action": "경금의 도움을 극대화하고 임수의 영향을 최소화할 것.",
+      "cautions": [
+        "임수의 방해를 무시하면 정화의 잠재력이 제한될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "경금",
+        "임수",
+        "목표",
+        "몰입"
+      ]
+    },
+    {
+      "id": "RC-bd5e79a249",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "supporting_element": "병화",
+        "challenging_element": "임수"
+      },
+      "mechanism": "병화는 을목의 활력을 강화하고, 임수는 이를 약화시킴.",
+      "interpretation": "병화가 강하면 을목은 활력을 얻지만, 임수가 강하면 방해를 받음.",
+      "action": "병화의 지원을 극대화하고 임수의 영향을 줄일 것.",
+      "cautions": [
+        "임수의 방해를 간과하면 을목의 성장이 제한될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "병화",
+        "임수",
+        "활력",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-98431c32e8",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "element": "정화",
+        "supporting_element": "목",
+        "challenging_element": "수"
+      },
+      "mechanism": "목은 정화를 보강하고, 수는 이를 억제함.",
+      "interpretation": "목이 강하면 정화는 주도권을 가지지만, 수가 강하면 방해를 받음.",
+      "action": "목의 지원을 활용하고 수의 영향을 완화할 것.",
+      "cautions": [
+        "수의 방해를 무시하면 정화의 주도권이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "목",
+        "수",
+        "주도권",
+        "방해"
+      ]
+    },
+    {
+      "id": "RC-3c6d6fd130",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "을목",
+        "supporting_element": "병화",
+        "challenging_element": "토"
+      },
+      "mechanism": "병화는 을목의 활력을 강화하고, 토는 이를 제한함.",
+      "interpretation": "병화가 강하면 을목은 활력을 얻지만, 토가 강하면 제한을 받음.",
+      "action": "병화의 지원을 극대화하고 토의 영향을 줄일 것.",
+      "cautions": [
+        "토의 제한을 간과하면 을목의 성장이 방해받을 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "병화",
+        "토",
+        "활력",
+        "성장"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_BASIC_002",
+  "updated_at": "2025-12-23T20:27:25"
+}

@@ -1,0 +1,1077 @@
+{
+  "title": "SajuOS_Logic_STRU_A_005",
+  "rulecards": [
+    {
+      "id": "RC-3de0207613",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "wood_type": "간목",
+        "earth_type": "축토"
+      },
+      "mechanism": "간목은 축토를 소토의 개념으로 바라보며 생명력 있는 땅으로 변화시킨다.",
+      "interpretation": "간목은 축토를 본능적으로 소화하고 뿌리를 내려 생명력을 부여한다.",
+      "action": "간목이 축토를 만났을 때 소토를 통해 환경을 개선하려는 노력을 기울여라.",
+      "cautions": [
+        "축토를 다루는 과정에서 과도한 에너지 소모 주의"
+      ],
+      "tags": [
+        "간목",
+        "축토",
+        "소토",
+        "생명력",
+        "변화"
+      ]
+    },
+    {
+      "id": "RC-3e357581c6",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토"
+      },
+      "mechanism": "을목은 축토를 소유적 관점에서 바라보며 점유하려는 경향이 강하다.",
+      "interpretation": "을목은 축토를 다루기 어려워도 소유하려는 의지가 강하다.",
+      "action": "을목이 축토를 만났을 때 소유를 위한 전략적 접근이 필요하다.",
+      "cautions": [
+        "축토를 소유하려다 실패할 가능성 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "소유",
+        "점유",
+        "전략"
+      ]
+    },
+    {
+      "id": "RC-04b2c8e080",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토",
+        "fire_support": true
+      },
+      "mechanism": "병화나 사화가 축토를 활성화시켜 을목이 소유할 수 있게 돕는다.",
+      "interpretation": "을목이 축토를 소유하려면 병화나 사화의 지원이 필요하다.",
+      "action": "축토를 다룰 때 병화나 사화를 활용하라.",
+      "cautions": [
+        "화의 과도한 사용으로 인한 부작용 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "병화",
+        "사화",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-6672363556",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토",
+        "perception": "편재"
+      },
+      "mechanism": "을목은 축토를 편재로 인식하며 통찰력을 발휘한다.",
+      "interpretation": "을목은 축토를 통해 부가가치를 창출할 수 있다.",
+      "action": "축토를 다룰 때 통찰력을 활용하여 부가가치를 높여라.",
+      "cautions": [
+        "편재적 시각의 과도한 의존 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "편재",
+        "통찰력",
+        "부가가치"
+      ]
+    },
+    {
+      "id": "RC-89239cd8f3",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토",
+        "fire_support": false
+      },
+      "mechanism": "화의 부재는 축토를 다루는 을목의 어려움을 가중시킨다.",
+      "interpretation": "화가 없으면 을목이 축토를 다루기 어렵다.",
+      "action": "화의 부재를 보완할 수 있는 다른 요소를 찾아라.",
+      "cautions": [
+        "화의 부재로 인한 축토 다루기 어려움 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "화",
+        "부재",
+        "어려움"
+      ]
+    },
+    {
+      "id": "RC-c578a37689",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earth_type": "축토",
+        "placement": "연지"
+      },
+      "mechanism": "연지의 축토는 조상으로부터 물려받은 재적 자산을 나타낸다.",
+      "interpretation": "연지의 축토는 조상 대대로 이어진 부를 상징한다.",
+      "action": "조상으로부터 물려받은 자산을 잘 관리하라.",
+      "cautions": [
+        "조상 자산에 대한 과도한 의존 주의"
+      ],
+      "tags": [
+        "축토",
+        "연지",
+        "조상",
+        "재산",
+        "유산"
+      ]
+    },
+    {
+      "id": "RC-750b4b53b6",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "earth_type": "축토",
+        "placement": "월지"
+      },
+      "mechanism": "월지의 축토는 환경적 속박과 어려움을 나타낸다.",
+      "interpretation": "월지의 축토는 개인의 환경적 제약을 상징한다.",
+      "action": "환경적 속박을 극복할 수 있는 방법을 모색하라.",
+      "cautions": [
+        "환경적 제약으로 인한 좌절감 주의"
+      ],
+      "tags": [
+        "축토",
+        "월지",
+        "환경",
+        "속박",
+        "제약"
+      ]
+    },
+    {
+      "id": "RC-164143e7c2",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "earth_type": "축토",
+        "placement": "월지",
+        "fire_support": true
+      },
+      "mechanism": "화의 지원은 축토의 속박을 완화하고 환경을 개선한다.",
+      "interpretation": "화가 있으면 축토의 제약을 극복하기 쉽다.",
+      "action": "화의 지원을 활용하여 환경적 제약을 극복하라.",
+      "cautions": [
+        "화의 과도한 사용으로 인한 부작용 주의"
+      ],
+      "tags": [
+        "축토",
+        "월지",
+        "화",
+        "지원",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-37810c49af",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토",
+        "relation": "목극토"
+      },
+      "mechanism": "을목은 축토를 목극토로 다루며 점유하려는 경향이 강하다.",
+      "interpretation": "을목은 축토를 점유하려는 강한 의지를 보인다.",
+      "action": "축토를 점유하려는 을목의 의지를 전략적으로 활용하라.",
+      "cautions": [
+        "목극토로 인한 갈등 가능성 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "목극토",
+        "점유",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-77d00b4afb",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "wood_type": "을목",
+        "earth_type": "축토",
+        "relation": "상관"
+      },
+      "mechanism": "을목의 상관은 축토를 다룰 때 민감성과 통찰력을 발휘한다.",
+      "interpretation": "을목의 상관은 축토를 다루는 데 있어 창의적 접근을 가능하게 한다.",
+      "action": "상관의 민감성과 통찰력을 활용하여 축토를 다루어라.",
+      "cautions": [
+        "상관의 과도한 민감성으로 인한 부작용 주의"
+      ],
+      "tags": [
+        "을목",
+        "축토",
+        "상관",
+        "민감성",
+        "통찰력"
+      ]
+    },
+    {
+      "topic": "LOVE",
+      "priority": 8,
+      "trigger": {
+        "hour_pillar": "상관",
+        "note": "시에 상관이 있는 경우"
+      },
+      "mechanism": "상관은 자유를 추구하며 결혼 생활에서 제약을 느낄 수 있음.",
+      "interpretation": "결혼 생활에서 이혼 가능성이 높아질 수 있음.",
+      "action": "결혼 전 상대방과의 가치관 차이를 충분히 논의할 것.",
+      "cautions": [
+        "자녀 문제로 인해 결혼 유지 가능성 있음.",
+        "결혼 후에도 자유를 추구하려는 경향이 강함."
+      ],
+      "tags": [
+        "상관",
+        "결혼",
+        "이혼",
+        "자유",
+        "가치관"
+      ],
+      "id": "RC-b807cf15c8"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "heavenly_stem": "편관",
+        "note": "편관이 직업적으로 작용하는 경우"
+      },
+      "mechanism": "편관은 빠른 결과와 높은 지위를 추구하지만 안정성은 낮음.",
+      "interpretation": "임원직과 같은 계약직 형태의 직업에서 두각을 나타낼 가능성이 높음.",
+      "action": "성과 중심의 직업에서 자신의 능력을 발휘할 것.",
+      "cautions": [
+        "스트레스가 많고 장기적인 안정성이 부족할 수 있음."
+      ],
+      "tags": [
+        "편관",
+        "직업",
+        "성과",
+        "지위",
+        "계약직"
+      ],
+      "id": "RC-62b54804d2"
+    },
+    {
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "earthly_branch": "축월",
+        "note": "축월에 태어난 경우"
+      },
+      "mechanism": "축월은 환경적 제약과 추운 기운을 상징함.",
+      "interpretation": "환경적 어려움을 극복하면 높은 부가가치를 창출할 수 있음.",
+      "action": "환경을 개선하거나 극복할 방법을 모색할 것.",
+      "cautions": [
+        "환경적 제약으로 인해 초기에는 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "축월",
+        "환경",
+        "극복",
+        "부가가치",
+        "제약"
+      ],
+      "id": "RC-d905251ba6"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "축",
+        "note": "축월에 계수가 투출된 경우"
+      },
+      "mechanism": "계수는 업의 코드를 형성하며 직업적 방향성을 제공함.",
+      "interpretation": "직업적으로 안정적인 기반을 형성할 가능성이 높음.",
+      "action": "계수의 에너지를 활용해 직업적 목표를 설정할 것.",
+      "cautions": [
+        "직업 선택 시 만족도가 낮을 수 있음."
+      ],
+      "tags": [
+        "축월",
+        "계수",
+        "직업",
+        "안정성",
+        "목표"
+      ],
+      "id": "RC-9169c65efc"
+    },
+    {
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "earthly_branch": "축",
+        "note": "축월의 을목이 있는 경우"
+      },
+      "mechanism": "축은 을목을 붙들어 고립감을 형성함.",
+      "interpretation": "결혼 생활에서 외로움을 느낄 가능성이 있음.",
+      "action": "파트너와의 소통을 통해 고립감을 해소할 것.",
+      "cautions": [
+        "외로움이 심화되면 종교적 활동에 의존할 가능성 있음."
+      ],
+      "tags": [
+        "축월",
+        "을목",
+        "외로움",
+        "결혼",
+        "소통"
+      ],
+      "id": "RC-ec805a3e49"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "축",
+        "note": "축월에 금이 있는 경우"
+      },
+      "mechanism": "금은 직업적 성취와 전문성을 상징함.",
+      "interpretation": "직업적으로 높은 성취를 이룰 가능성이 있음.",
+      "action": "금의 에너지를 활용해 전문성을 강화할 것.",
+      "cautions": [
+        "직업적 만족도가 낮을 수 있음."
+      ],
+      "tags": [
+        "축월",
+        "금",
+        "직업",
+        "성취",
+        "전문성"
+      ],
+      "id": "RC-33b81d43d1"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "축토가 화를 볼 때"
+      },
+      "mechanism": "축토는 화를 급격히 끌어당겨 설계함.",
+      "interpretation": "화의 에너지가 축토에 의해 강하게 제약됨.",
+      "action": "목의 에너지를 활용해 축토의 제약을 완화할 것.",
+      "cautions": [
+        "화의 에너지가 축토에 의해 소진될 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "화",
+        "설계",
+        "제약",
+        "목"
+      ],
+      "id": "RC-d1f0394577"
+    },
+    {
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "note": "축토와 병화의 상관 관계"
+      },
+      "mechanism": "축토는 병화를 노출시키고 극대화함.",
+      "interpretation": "병화의 에너지가 과도하게 드러나 불편함을 초래할 수 있음.",
+      "action": "목의 에너지를 통해 병화와 축토의 균형을 맞출 것.",
+      "cautions": [
+        "병화의 과도한 노출로 인해 사회적 관계에서 어려움을 겪을 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "노출",
+        "균형",
+        "사회적 관계"
+      ],
+      "id": "RC-7da4d28216"
+    },
+    {
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "note": "축월의 병화가 있는 경우"
+      },
+      "mechanism": "병화는 축토에 의해 강하게 노출됨.",
+      "interpretation": "사회적 관계에서 두각을 나타낼 가능성이 있음.",
+      "action": "병화의 에너지를 활용해 자신의 전문성을 강화할 것.",
+      "cautions": [
+        "병화의 과도한 노출로 인해 스트레스를 받을 수 있음."
+      ],
+      "tags": [
+        "축월",
+        "병화",
+        "사회적 관계",
+        "전문성",
+        "노출"
+      ],
+      "id": "RC-04ef44858e"
+    },
+    {
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "축토와 오화의 관계"
+      },
+      "mechanism": "축토는 오화를 끌어당겨 중독성을 형성함.",
+      "interpretation": "오화의 에너지가 축토에 의해 제약될 가능성이 있음.",
+      "action": "목의 에너지를 통해 축토와 오화의 균형을 맞출 것.",
+      "cautions": [
+        "오화의 에너지가 축토에 의해 소진될 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "오화",
+        "중독",
+        "균형",
+        "제약"
+      ],
+      "id": "RC-48591bb80f"
+    },
+    {
+      "id": "RC-93aab4aa44",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "병화",
+        "location": "축토"
+      },
+      "mechanism": "병화는 축토에서 목의 조절을 필요로 함.",
+      "interpretation": "목이 병화와 축토의 균형을 잡아줌으로써 사회적 관계와 전문성을 형성함.",
+      "action": "목의 영향을 강화하거나 목이 들어오는 시기를 활용하라.",
+      "cautions": [
+        "목이 없으면 병화와 축토의 조화가 어려움.",
+        "사회적 관계에서 어려움이 발생할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "축토",
+        "목",
+        "조절",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-ba980a004f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "supporting_elements": [
+          "금",
+          "목"
+        ]
+      },
+      "mechanism": "토는 금이나 목의 영향을 받아야 활용 가치가 결정됨.",
+      "interpretation": "금이나 목이 없으면 토의 잠재력이 발휘되지 않음.",
+      "action": "금이나 목의 영향을 강화하여 토의 가치를 높여라.",
+      "cautions": [
+        "금과 목이 없으면 재능이 발휘되지 않을 수 있음."
+      ],
+      "tags": [
+        "토",
+        "금",
+        "목",
+        "활용",
+        "잠재력"
+      ]
+    },
+    {
+      "id": "RC-5a8f681ebe",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "element": "축토",
+        "relation": "병화"
+      },
+      "mechanism": "축토는 병화와의 관계에서 목의 조절이 필요함.",
+      "interpretation": "목이 없으면 병화와 축토의 관계가 불안정해짐.",
+      "action": "목의 영향을 강화하거나 목이 들어오는 시기를 활용하라.",
+      "cautions": [
+        "목이 없으면 병화와 축토의 관계가 불안정해질 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "목",
+        "조절",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-bc741c246c",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "상관",
+        "location": "연지"
+      },
+      "mechanism": "연지의 상관은 사회적 영향력을 극대화함.",
+      "interpretation": "연지 상관은 사회적 파괴력과 영향력을 가짐.",
+      "action": "상관의 위치를 활용하여 사회적 활동을 계획하라.",
+      "cautions": [
+        "연지 상관은 과도한 파괴력을 가질 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "연지",
+        "사회적 영향력",
+        "파괴력",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-c75e6e8da2",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "상관",
+        "relation": "패인"
+      },
+      "mechanism": "상관패인은 자격과 전문성을 갖추게 함.",
+      "interpretation": "상관패인은 사회적 인정과 논리적 강점을 제공함.",
+      "action": "상관패인을 활용하여 전문성을 강화하라.",
+      "cautions": [
+        "상관패인이 없으면 사회적 인정이 어려울 수 있음."
+      ],
+      "tags": [
+        "상관패인",
+        "전문성",
+        "자격",
+        "사회적 인정",
+        "논리"
+      ]
+    },
+    {
+      "id": "RC-53e7f4266d",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "축토",
+        "relation": "병화",
+        "supporting_elements": [
+          "목",
+          "금"
+        ]
+      },
+      "mechanism": "목과 금이 축토와 병화의 조화를 돕고 직업적 안정성을 제공함.",
+      "interpretation": "목과 금이 축토와 병화의 잠재력을 발휘하게 함.",
+      "action": "목과 금의 영향을 강화하여 직업적 안정성을 확보하라.",
+      "cautions": [
+        "목과 금이 없으면 직업적 불안정성이 발생할 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "목",
+        "금",
+        "직업 안정성"
+      ]
+    },
+    {
+      "id": "RC-438dde5d41",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "상관",
+        "location": "월지"
+      },
+      "mechanism": "월지의 상관은 직업적 코드와 연결됨.",
+      "interpretation": "월지 상관은 직업적 방향성을 결정함.",
+      "action": "월지 상관을 활용하여 직업적 목표를 설정하라.",
+      "cautions": [
+        "월지 상관이 조절되지 않으면 직업적 혼란이 발생할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "월지",
+        "직업",
+        "방향성",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-70683e6808",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "축토",
+        "relation": "병화",
+        "supporting_elements": [
+          "목"
+        ]
+      },
+      "mechanism": "목은 축토와 병화의 조화를 이루고 자격을 갖추게 함.",
+      "interpretation": "목이 축토와 병화의 균형을 잡아줌.",
+      "action": "목의 영향을 강화하여 자격을 갖추고 균형을 유지하라.",
+      "cautions": [
+        "목이 없으면 축토와 병화의 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "목",
+        "조화",
+        "자격"
+      ]
+    },
+    {
+      "id": "RC-19cebe0565",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "상관",
+        "relation": "패인",
+        "supporting_elements": [
+          "목"
+        ]
+      },
+      "mechanism": "상관패인은 목의 조절로 전문성을 강화함.",
+      "interpretation": "목이 상관패인의 전문성을 높임.",
+      "action": "목의 영향을 강화하여 상관패인의 효과를 극대화하라.",
+      "cautions": [
+        "목이 없으면 상관패인의 효과가 제한될 수 있음."
+      ],
+      "tags": [
+        "상관패인",
+        "목",
+        "전문성",
+        "조절",
+        "효과"
+      ]
+    },
+    {
+      "id": "RC-f6e3c97b25",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "element": "축토",
+        "relation": "병화",
+        "supporting_elements": [
+          "금"
+        ]
+      },
+      "mechanism": "금은 축토와 병화의 직업적 잠재력을 발휘하게 함.",
+      "interpretation": "금이 축토와 병화의 직업적 안정성을 제공함.",
+      "action": "금의 영향을 활용하여 직업적 목표를 달성하라.",
+      "cautions": [
+        "금이 없으면 직업적 불안정성이 발생할 수 있음."
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "금",
+        "직업",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-7472627479",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "ten_god": "상관",
+        "element": "병화"
+      },
+      "mechanism": "병화는 상관으로 작용할 때 자부심과 자만으로 이어질 수 있음.",
+      "interpretation": "병화 상관은 뛰어난 능력을 발휘하지만 과도한 자만으로 문제를 일으킬 수 있음.",
+      "action": "자신의 능력을 과신하지 말고 겸손을 유지하며 타인의 의견을 수용할 것.",
+      "cautions": [
+        "자만으로 인해 관계가 악화될 수 있음",
+        "타인의 비판을 무시하지 말 것"
+      ],
+      "tags": [
+        "병화",
+        "상관",
+        "자부심",
+        "자만",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-2f4d3c37ef",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "earthly_branch": "축",
+        "heavenly_stem": "병화"
+      },
+      "mechanism": "축토는 병화의 출력을 막아 본질을 왜곡시킴.",
+      "interpretation": "축토가 병화를 억제하면 생산성과 표현력이 저하됨.",
+      "action": "목의 기운을 활용해 병화의 출력을 돕고 생산성을 높일 것.",
+      "cautions": [
+        "목이 없으면 생산성이 극도로 저하됨",
+        "축토의 억제력을 주의할 것"
+      ],
+      "tags": [
+        "축토",
+        "병화",
+        "생산성",
+        "억제",
+        "목"
+      ]
+    },
+    {
+      "id": "RC-c79e362ae6",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "context": "기축시"
+      },
+      "mechanism": "목은 흐름을 만들어 구름을 걷어내고 햇빛을 드러냄.",
+      "interpretation": "목의 기운이 병화의 출력을 돕고 긍정적인 변화를 유도함.",
+      "action": "목의 기운을 강화하거나 목과 연결된 활동을 늘릴 것.",
+      "cautions": [
+        "목이 없으면 병화의 출력이 막힘",
+        "목의 흐름이 끊기지 않도록 주의"
+      ],
+      "tags": [
+        "목",
+        "병화",
+        "흐름",
+        "구름",
+        "햇빛"
+      ]
+    },
+    {
+      "id": "RC-b6cff5fe4e",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "재극인",
+        "context": "인신충"
+      },
+      "mechanism": "재극인은 현실적이고 검증된 공부를 추구하게 만듦.",
+      "interpretation": "재극인이 작용하면 실용적이고 돈이 되는 학문에 집중함.",
+      "action": "현실적이고 검증된 학문을 선택해 전문성을 키울 것.",
+      "cautions": [
+        "재극인이 과도하면 창의성이 억제될 수 있음"
+      ],
+      "tags": [
+        "재극인",
+        "현실성",
+        "검증",
+        "학문",
+        "전문성"
+      ]
+    },
+    {
+      "id": "RC-b47d168fb4",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "earthly_branch": "축",
+        "context": "정화"
+      },
+      "mechanism": "축토는 정화의 열성을 억제하고 빛으로 작용하게 만듦.",
+      "interpretation": "정화가 빛으로 작용하면 가르치는 역할에 적합함.",
+      "action": "정화의 빛을 활용해 교육이나 강의에 집중할 것.",
+      "cautions": [
+        "열로 작용하면 실패 가능성이 높아짐"
+      ],
+      "tags": [
+        "축토",
+        "정화",
+        "빛",
+        "열",
+        "교육"
+      ]
+    },
+    {
+      "id": "RC-b85c6d8e57",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "식신",
+        "context": "연지"
+      },
+      "mechanism": "연지의 식신은 안정적이고 보호적인 성향을 가짐.",
+      "interpretation": "연지에 식신이 있으면 주변을 보호하고 여유로운 인상을 줌.",
+      "action": "식신의 보호적 성향을 활용해 사람들과 협력할 것.",
+      "cautions": [
+        "과도한 여유로움이 게으름으로 이어질 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "연지",
+        "보호",
+        "여유",
+        "협력"
+      ]
+    },
+    {
+      "id": "RC-c5bfd9e928",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "earthly_branch": "축",
+        "context": "습 발생"
+      },
+      "mechanism": "축토는 습을 발생시켜 집착적 성향을 유발함.",
+      "interpretation": "습이 발생하면 정신적 혼란과 집착이 심화될 수 있음.",
+      "action": "습을 해결할 수 있는 조토나 금의 기운을 활용할 것.",
+      "cautions": [
+        "습이 해결되지 않으면 정신적 문제로 이어질 수 있음"
+      ],
+      "tags": [
+        "축토",
+        "습",
+        "집착",
+        "정신적 문제",
+        "조토"
+      ]
+    },
+    {
+      "id": "RC-1f3e8898eb",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "ten_god": "편인",
+        "context": "정묘"
+      },
+      "mechanism": "정묘의 편인은 독창적이고 새로운 아이디어를 생성함.",
+      "interpretation": "정묘 편인은 독자적인 학문이나 강의로 성공 가능성이 높음.",
+      "action": "독창적인 아이디어를 활용해 차별화된 콘텐츠를 개발할 것.",
+      "cautions": [
+        "편인의 호불호가 강해 대중성과 충돌할 수 있음"
+      ],
+      "tags": [
+        "편인",
+        "정묘",
+        "독창성",
+        "강의",
+        "아이디어"
+      ]
+    },
+    {
+      "id": "RC-9813f86fe5",
+      "topic": "STRUCTURE",
+      "priority": 5,
+      "trigger": {
+        "earthly_branch": "축",
+        "context": "출렁거림"
+      },
+      "mechanism": "축토의 출렁거림은 말의 호소력과 파괴력을 강화함.",
+      "interpretation": "축토가 잘 작용하면 강의력과 설득력이 뛰어남.",
+      "action": "축토의 출렁거림을 활용해 청중을 설득하고 감동을 줄 것.",
+      "cautions": [
+        "출렁거림이 과도하면 불안정해질 수 있음"
+      ],
+      "tags": [
+        "축토",
+        "출렁거림",
+        "강의력",
+        "설득력",
+        "호소력"
+      ]
+    },
+    {
+      "id": "RC-cde8c5fb98",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "ten_god": "식신",
+        "context": "축토"
+      },
+      "mechanism": "축토의 식신은 고전적이고 안정적인 학문을 선호함.",
+      "interpretation": "축토 식신은 전통적이고 오래된 학문에 강점을 가짐.",
+      "action": "고전적 학문을 기반으로 전문성을 키울 것.",
+      "cautions": [
+        "현대적 변화에 적응하기 어려울 수 있음"
+      ],
+      "tags": [
+        "식신",
+        "축토",
+        "고전",
+        "학문",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-527b1f727a",
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "재성",
+        "interaction": [
+          "식신생제",
+          "재극인"
+        ]
+      },
+      "mechanism": "재성은 결과를 만들어내는 힘을 가짐.",
+      "interpretation": "재성이 강하면 결과를 만들어내는 능력이 뛰어남.",
+      "action": "재성이 강한 시기에는 결과를 내는 데 집중하라.",
+      "cautions": [
+        "재성이 약하면 결과를 내기 어려울 수 있음."
+      ],
+      "tags": [
+        "재성",
+        "식신생제",
+        "재극인",
+        "결과",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-da3178059e",
+      "topic": "CAREER",
+      "priority": 8,
+      "trigger": {
+        "structure": "정묘"
+      },
+      "mechanism": "정묘는 독자성을 강조함.",
+      "interpretation": "정묘 구조는 독창적이고 차별화된 능력을 발휘함.",
+      "action": "자신만의 독창적인 아이디어를 활용하라.",
+      "cautions": [
+        "독자성이 지나치면 고립될 수 있음."
+      ],
+      "tags": [
+        "정묘",
+        "독자성",
+        "차별화",
+        "창의성",
+        "능력"
+      ]
+    },
+    {
+      "id": "RC-16babfd3e9",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "ten_gods": "편인",
+        "count": 1
+      },
+      "mechanism": "편인은 호불호가 강하게 갈리는 특성을 가짐.",
+      "interpretation": "편인이 강한 사람은 특정 그룹에서 열광적 지지를 받을 수 있음.",
+      "action": "자신의 독특한 매력을 강조하라.",
+      "cautions": [
+        "호불호가 강해 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "호불호",
+        "독특함",
+        "매력",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-7d23d1e78a",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "ten_gods": "정인",
+        "count": 1
+      },
+      "mechanism": "정인은 일반성과 안정성을 강조함.",
+      "interpretation": "정인이 강한 사람은 대체로 중립적이고 안정적인 관계를 유지함.",
+      "action": "평범하고 안정적인 관계를 유지하라.",
+      "cautions": [
+        "지나치게 평범하면 흥미를 잃을 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "안정성",
+        "중립",
+        "관계",
+        "일반성"
+      ]
+    },
+    {
+      "id": "RC-88a1c7b69a",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "편인끼리"
+      },
+      "mechanism": "편인끼리는 강한 호불호와 갈등 가능성이 큼.",
+      "interpretation": "편인끼리의 관계는 초기에는 강렬하지만 갈등이 심할 수 있음.",
+      "action": "갈등을 줄이기 위해 서로의 차이를 인정하라.",
+      "cautions": [
+        "갈등이 심화되면 관계가 파괴될 수 있음."
+      ],
+      "tags": [
+        "편인",
+        "호불호",
+        "갈등",
+        "관계",
+        "차이"
+      ]
+    },
+    {
+      "id": "RC-64b205f7b2",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "정인",
+        "relation_with": [
+          "정관",
+          "식신"
+        ]
+      },
+      "mechanism": "정인, 정관, 식신은 안정적이고 한결같은 관계를 형성함.",
+      "interpretation": "이 조합은 신뢰와 안정성을 기반으로 한 관계를 형성함.",
+      "action": "이 조합과의 관계를 유지하며 신뢰를 쌓아라.",
+      "cautions": [
+        "지나치게 안정적이면 자극이 부족할 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "정관",
+        "식신",
+        "안정성",
+        "신뢰"
+      ]
+    },
+    {
+      "id": "RC-d24bafeb32",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "정인",
+        "relation_with": "편인"
+      },
+      "mechanism": "정인은 편인의 강한 개성을 안정시킬 수 있음.",
+      "interpretation": "정인과 편인의 조합은 균형을 이루는 관계를 형성함.",
+      "action": "편인의 개성을 존중하며 안정감을 제공하라.",
+      "cautions": [
+        "편인의 강한 개성이 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "정인",
+        "편인",
+        "안정성",
+        "균형",
+        "개성"
+      ]
+    }
+  ],
+  "notes": [
+    "축토와 을목의 관계는 소유와 점유의 관점에서 다루어짐.",
+    "화의 지원은 축토를 다루는 데 중요한 역할을 함.",
+    "축토는 환경적 속박과 제약을 상징하며, 이를 극복하는 방법이 중요.",
+    "텍스트에서 특정 인물이나 사례는 일반화하여 규칙으로 변환함.",
+    "일부 내용은 구체적 조건으로 표현하기 어려워 일반적 설명으로 대체함.",
+    "일부 규칙은 구체적 조건이 부족하여 일반적인 해석으로 작성됨."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_005",
+  "updated_at": "2025-12-23T20:27:23"
+}

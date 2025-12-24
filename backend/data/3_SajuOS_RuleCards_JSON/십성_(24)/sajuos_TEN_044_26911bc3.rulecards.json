@@ -1,0 +1,353 @@
+{
+  "title": "SajuOS_Logic_TEN_044",
+  "rulecards": [
+    {
+      "id": "RC-f70b2cf0f7",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "interaction": "토"
+      },
+      "mechanism": "화(火)는 빛과 열로 나뉘며, 토(土)는 화의 에너지를 제한하는 역할을 한다.",
+      "interpretation": "화일간이 토를 만나면 에너지의 확산 범위가 제한된다.",
+      "action": "화일간의 에너지가 제한되는 상황을 이해하고, 이를 활용할 수 있는 방향으로 계획을 세운다.",
+      "cautions": [
+        "토가 과도하면 화의 본질이 약화될 수 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "에너지",
+        "제한",
+        "오행"
+      ]
+    },
+    {
+      "id": "RC-4d9324a0ee",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "day_master": "정화",
+        "interaction": "무토"
+      },
+      "mechanism": "무토는 정화의 에너지를 보존하고 안정화시키는 역할을 한다.",
+      "interpretation": "정화일간이 무토를 만나면 본질을 유지하며 안정적인 성향을 띤다.",
+      "action": "무토의 안정적 에너지를 활용해 장기적인 계획을 세운다.",
+      "cautions": [
+        "무토가 과도하면 정화의 활력이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "무토",
+        "안정",
+        "보존",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-381fd417fe",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "day_master": "정화",
+        "interaction": "기토"
+      },
+      "mechanism": "기토는 정화의 에너지를 소모시키며 열과 빛을 약화시킨다.",
+      "interpretation": "정화일간이 기토를 만나면 에너지가 분산되고 효율성이 떨어질 수 있다.",
+      "action": "기토의 영향을 받는 상황에서는 에너지 관리에 주의한다.",
+      "cautions": [
+        "기토가 강하면 정화의 본질이 약화될 가능성이 있음."
+      ],
+      "tags": [
+        "정화",
+        "기토",
+        "소모",
+        "효율",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-b5ad5a5df4",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_master": "병화",
+        "interaction": "무토"
+      },
+      "mechanism": "무토는 병화의 빛을 제한하여 존재감을 명확히 한다.",
+      "interpretation": "병화일간이 무토를 만나면 자신의 역할과 정체성을 명확히 인지하게 된다.",
+      "action": "무토의 제한적 에너지를 활용해 자신의 강점을 강화한다.",
+      "cautions": [
+        "무토가 과도하면 병화의 활력이 약화될 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "무토",
+        "존재감",
+        "정체성",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-5fa12ba481",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "정화",
+        "branch": "진토"
+      },
+      "mechanism": "진토는 정화의 에너지를 끌어들여 상관적 특성을 증폭시킨다.",
+      "interpretation": "정화일간이 진토를 만나면 구설과 말실수의 가능성이 높아진다.",
+      "action": "말과 행동에 신중을 기하고, 목의 조화로 균형을 잡는다.",
+      "cautions": [
+        "구설과 사건 사고에 휘말릴 가능성이 있음."
+      ],
+      "tags": [
+        "정화",
+        "진토",
+        "상관",
+        "구설",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-86c48b4541",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "병화",
+        "branch": "진토"
+      },
+      "mechanism": "진토는 병화의 식신으로 작용하며, 주변 사건에 밝은 성향을 띤다.",
+      "interpretation": "병화일간이 진토를 만나면 주변의 소소한 사건에 관심이 많아진다.",
+      "action": "관심사를 긍정적으로 활용해 인간관계를 넓힌다.",
+      "cautions": [
+        "과도한 관심이 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "진토",
+        "식신",
+        "관심",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-60d0ca9d46",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "정화",
+        "branch": "술토"
+      },
+      "mechanism": "술토는 정화의 상관으로 작용하며, 에너지를 안정적으로 보관한다.",
+      "interpretation": "정화일간이 술토를 만나면 조용하고 내성적인 성향을 띤다.",
+      "action": "술토의 안정적 에너지를 활용해 신중한 결정을 내린다.",
+      "cautions": [
+        "과도한 내성으로 인해 표현력이 약화될 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "술토",
+        "상관",
+        "안정",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-a2d04ae150",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "day_master": "병화",
+        "branch": "술토"
+      },
+      "mechanism": "술토는 병화의 식신으로 작용하며, 에너지를 내적으로 수렴한다.",
+      "interpretation": "병화일간이 술토를 만나면 조용하고 신중한 성향을 띤다.",
+      "action": "술토의 에너지를 활용해 내적 성장을 도모한다.",
+      "cautions": [
+        "과도한 신중함이 기회를 놓치게 할 수 있음."
+      ],
+      "tags": [
+        "병화",
+        "술토",
+        "식신",
+        "내성",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-4b4f5c5afd",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "day_master": "정화",
+        "branch": "축토"
+      },
+      "mechanism": "축토는 정화의 식신으로 작용하며, 에너지를 강하게 끌어들인다.",
+      "interpretation": "정화일간이 축토를 만나면 위축되거나 소심한 성향을 보일 수 있다.",
+      "action": "목의 조화를 통해 축토의 에너지를 조절한다.",
+      "cautions": [
+        "과도한 위축으로 인해 자신감을 잃을 수 있음."
+      ],
+      "tags": [
+        "정화",
+        "축토",
+        "식신",
+        "위축",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-55a8ae235d",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "병화",
+        "branch": "축토"
+      },
+      "mechanism": "축토는 병화의 상관으로 작용하며, 에너지를 강하게 끌어들인다.",
+      "interpretation": "병화일간이 축토를 만나면 말실수나 사건 사고의 가능성이 높아진다.",
+      "action": "목의 조화를 통해 상관의 에너지를 조절한다.",
+      "cautions": [
+        "말과 행동에 신중을 기해야 함."
+      ],
+      "tags": [
+        "병화",
+        "축토",
+        "상관",
+        "사건",
+        "십성"
+      ]
+    },
+    {
+      "id": "RC-cd6a3625dd",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "relation": "토"
+      },
+      "mechanism": "토는 화의 채도를 높이고 에너지를 증폭시킴.",
+      "interpretation": "화가 토를 만나면 에너지가 강화되고 자기 정체성을 명확히 할 수 있음.",
+      "action": "토의 영향을 활용해 자신의 강점을 극대화할 방법을 모색하라.",
+      "cautions": [
+        "토가 없을 경우 정신적 불안정 가능성 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "식신",
+        "상관",
+        "에너지",
+        "채도",
+        "정체성",
+        "증폭",
+        "정신건강"
+      ]
+    },
+    {
+      "id": "RC-d7546c6057",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "relation": "화"
+      },
+      "mechanism": "토는 화의 에너지를 증폭시키는 감칠맛 같은 역할을 함.",
+      "interpretation": "토는 화의 특성을 더욱 돋보이게 하고 강렬하게 만듦.",
+      "action": "토의 에너지를 활용해 자신의 표현력을 강화하라.",
+      "cautions": [
+        "토의 과도한 증폭은 균형을 잃을 수 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "오행",
+        "감칠맛",
+        "증폭",
+        "표현력",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-fb89f9ddb3",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "relation": "미"
+      },
+      "mechanism": "수가 미의 열기를 잡아주어 들뜬 에너지를 안정시킴.",
+      "interpretation": "수는 미의 과도한 에너지를 조절하여 균형을 유지함.",
+      "action": "수의 조화로운 배치를 통해 안정감을 유지하라.",
+      "cautions": [
+        "수의 부족은 에너지 과잉으로 이어질 수 있음."
+      ],
+      "tags": [
+        "수",
+        "미",
+        "오행",
+        "조절",
+        "안정",
+        "균형",
+        "열기"
+      ]
+    },
+    {
+      "id": "RC-daacd81138",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "묘",
+        "relation": "미"
+      },
+      "mechanism": "묘가 목극토를 통해 미의 들뜬 에너지를 조절함.",
+      "interpretation": "묘는 미의 에너지를 일정 부분 안정화시킴.",
+      "action": "묘의 역할을 활용해 에너지의 균형을 맞추라.",
+      "cautions": [
+        "묘의 과도한 개입은 다른 요소와의 충돌 가능성 있음."
+      ],
+      "tags": [
+        "묘",
+        "미",
+        "목극토",
+        "조절",
+        "안정",
+        "균형",
+        "에너지"
+      ]
+    },
+    {
+      "id": "RC-5dbb7e2b6c",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "element": "화",
+        "relation": "토",
+        "absence": true
+      },
+      "mechanism": "토가 없으면 화의 에너지가 불안정해질 가능성이 있음.",
+      "interpretation": "토가 없을 경우 화는 정신적 불안정 상태에 빠질 수 있음.",
+      "action": "토의 부재를 보완할 수 있는 다른 요소를 찾아라.",
+      "cautions": [
+        "정신적 불안정으로 공황장애 가능성 있음."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "부재",
+        "정신건강",
+        "불안정",
+        "보완"
+      ]
+    }
+  ],
+  "notes": [
+    "임상적 데이터가 부족하여 일부 해석은 이론적 추정에 기반함."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_044",
+  "updated_at": "2025-12-23T20:27:26"
+}

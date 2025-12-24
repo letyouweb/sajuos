@@ -1,0 +1,457 @@
+{
+  "title": "SajuOS_Logic_STRU_M_099",
+  "rulecards": [
+    {
+      "id": "RC-b29159c244",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금"
+      },
+      "mechanism": "묘월의 신금은 편재로 작용하며, 개인성과 사회성을 동시에 가진다.",
+      "interpretation": "묘월의 신금은 재를 통해 개인적 기질과 사회적 역할을 조화롭게 수행한다.",
+      "action": "월의 편재를 활용하여 사회적 관계와 자원을 적극적으로 관리하라.",
+      "cautions": [
+        "재의 균형을 잃지 않도록 주의할 것."
+      ],
+      "tags": [
+        "묘월",
+        "신금",
+        "편재",
+        "개인성",
+        "사회성"
+      ]
+    },
+    {
+      "id": "RC-dfb47d2b82",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "ten_god": "편재",
+        "month": "묘"
+      },
+      "mechanism": "편재는 외부 자원을 활용하려는 성향이 강하다.",
+      "interpretation": "편재는 전체를 조망하며 실물적 가치를 중시한다.",
+      "action": "외부 자원을 적극적으로 활용하고, 전체적인 관점을 유지하라.",
+      "cautions": [
+        "세부적인 디테일을 놓치지 않도록 주의할 것."
+      ],
+      "tags": [
+        "편재",
+        "외부 자원",
+        "전체성",
+        "실물 가치",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-aeeb18e49c",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "season": "봄"
+      },
+      "mechanism": "봄의 금은 약하며, 목과 수의 생설로 보완이 필요하다.",
+      "interpretation": "봄에 태어난 금은 약하기 때문에 생설의 구조를 통해 강해질 수 있다.",
+      "action": "목과 수의 생설을 통해 금의 에너지를 보완하라.",
+      "cautions": [
+        "금의 약함을 과소평가하지 말 것."
+      ],
+      "tags": [
+        "금",
+        "봄",
+        "생설",
+        "목",
+        "수"
+      ]
+    },
+    {
+      "id": "RC-e8ba610946",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "임수"
+      },
+      "mechanism": "임수는 신금을 움직이게 하며, 외부 자극에 반응하게 만든다.",
+      "interpretation": "임수는 신금의 지속력과 경험치를 높이는 역할을 한다.",
+      "action": "임수를 통해 외부 자극에 반응하며 지속적으로 경험을 쌓아라.",
+      "cautions": [
+        "외부 자극에 과도하게 의존하지 않도록 주의할 것."
+      ],
+      "tags": [
+        "임수",
+        "신금",
+        "지속력",
+        "경험",
+        "외부 자극"
+      ]
+    },
+    {
+      "id": "RC-e68a5589c8",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "병화"
+      },
+      "mechanism": "병화는 신금의 역할을 명확히 하고 사회적 조건을 강화한다.",
+      "interpretation": "병화는 신금에게 사회적 역할과 책임감을 부여한다.",
+      "action": "병화를 통해 사회적 역할을 명확히 하고 책임감을 강화하라.",
+      "cautions": [
+        "병화의 영향으로 개인적 감정을 억누르지 않도록 주의할 것."
+      ],
+      "tags": [
+        "병화",
+        "신금",
+        "사회적 역할",
+        "책임감",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-d38bbdd5f9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "임수",
+        "ten_god_2": "병화"
+      },
+      "mechanism": "임수와 병화가 함께 있을 때, 신금은 월의 조건을 잘 활용할 수 있다.",
+      "interpretation": "임수와 병화의 조합은 신금의 사회적 성공 가능성을 높인다.",
+      "action": "임수와 병화의 조화를 통해 사회적 조건을 극대화하라.",
+      "cautions": [
+        "임수와 병화의 균형을 유지할 것."
+      ],
+      "tags": [
+        "임수",
+        "병화",
+        "신금",
+        "사회적 성공",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-f82f56cf5f",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "개수"
+      },
+      "mechanism": "개수는 신금의 형을 유지하지만 지속력은 부족하다.",
+      "interpretation": "개수는 신금의 에너지를 단기적으로 활용할 수 있게 한다.",
+      "action": "개수를 통해 단기적인 목표를 설정하고 실행하라.",
+      "cautions": [
+        "장기적인 지속력을 기대하지 말 것."
+      ],
+      "tags": [
+        "개수",
+        "신금",
+        "단기 목표",
+        "형 유지",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-a1b43d4962",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "편재"
+      },
+      "mechanism": "묘월의 편재는 재를 다루는 감각이 뛰어나며, 구체적이고 실물적이다.",
+      "interpretation": "묘월의 편재는 재를 통해 직업적 재능을 발휘할 수 있다.",
+      "action": "재를 다루는 감각을 활용하여 직업적 성공을 도모하라.",
+      "cautions": [
+        "재의 감각을 과신하지 말 것."
+      ],
+      "tags": [
+        "편재",
+        "묘월",
+        "재능",
+        "직업",
+        "실물적"
+      ]
+    },
+    {
+      "id": "RC-f37b7ed7f9",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "임수"
+      },
+      "mechanism": "임수는 신금을 씻어내며, 반복적인 경험을 통해 능력을 강화한다.",
+      "interpretation": "임수는 신금의 지속적인 학습과 성장을 돕는다.",
+      "action": "임수를 통해 반복적인 학습과 경험을 쌓아라.",
+      "cautions": [
+        "반복에 지치지 않도록 주의할 것."
+      ],
+      "tags": [
+        "임수",
+        "신금",
+        "반복",
+        "학습",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-f175da6358",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "묘",
+        "day_master": "신금",
+        "ten_god": "병화"
+      },
+      "mechanism": "병화는 신금을 빛내며, 사회적 역할을 강화한다.",
+      "interpretation": "병화는 신금의 사회적 존재감을 높인다.",
+      "action": "병화를 통해 사회적 관계를 강화하고 역할을 명확히 하라.",
+      "cautions": [
+        "병화의 영향으로 과도한 책임감을 느끼지 않도록 주의할 것."
+      ],
+      "tags": [
+        "병화",
+        "신금",
+        "사회적 존재감",
+        "역할",
+        "묘월"
+      ]
+    },
+    {
+      "id": "RC-1a75a42c60",
+      "topic": "RELATION",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "relation": "목생화"
+      },
+      "mechanism": "화는 목생화를 보장하며 안정성과 지속성을 제공한다.",
+      "interpretation": "화가 있으면 목생화가 안정적으로 이루어지고, 사업적 확장이 가능하다.",
+      "action": "화가 있는 경우 이를 활용해 사업을 안정적으로 운영하라.",
+      "cautions": [
+        "화가 없으면 목생화가 불안정할 수 있다."
+      ],
+      "tags": [
+        "목생화",
+        "화",
+        "안정성",
+        "사업",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-f5bccf50e3",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "relation": "목 안정"
+      },
+      "mechanism": "토는 목을 안정시켜 자금 관리와 축적을 가능하게 한다.",
+      "interpretation": "토가 있으면 자금을 안정적으로 관리하고 축적할 수 있다.",
+      "action": "토를 활용해 자금을 분산 투자하거나 자산을 축적하라.",
+      "cautions": [
+        "토가 없으면 자금이 불안정하고 지속적인 지출이 발생할 수 있다."
+      ],
+      "tags": [
+        "토",
+        "목 안정",
+        "자금 관리",
+        "투자",
+        "자산 축적"
+      ]
+    },
+    {
+      "id": "RC-8dbfa2b7cf",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "관",
+        "relation": "투관"
+      },
+      "mechanism": "관이 투관되면 사회적 인정과 정당성을 확보할 수 있다.",
+      "interpretation": "관이 투관되면 직장에서 인정받고 승진 가능성이 높아진다.",
+      "action": "관을 투관시켜 사회적 정당성을 확보하라.",
+      "cautions": [
+        "관이 투관되지 않으면 개인적 정당성에 머물러 사회적 불합리성을 초래할 수 있다."
+      ],
+      "tags": [
+        "관",
+        "투관",
+        "사회적 인정",
+        "정당성",
+        "승진"
+      ]
+    },
+    {
+      "id": "RC-80b91c5aa6",
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "임수",
+        "relation": "수생목"
+      },
+      "mechanism": "임수는 지속적인 수생목을 보장한다.",
+      "interpretation": "임수가 있으면 사업의 지속성과 안정성이 높아진다.",
+      "action": "임수를 활용해 사업의 지속성을 유지하라.",
+      "cautions": [
+        "임수가 없으면 매출이 들쑥날쑥할 수 있다."
+      ],
+      "tags": [
+        "임수",
+        "수생목",
+        "지속성",
+        "사업 안정",
+        "매출"
+      ]
+    },
+    {
+      "id": "RC-d9eca38e4a",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "정관",
+        "relation": "일지"
+      },
+      "mechanism": "정관이 일지에만 있으면 개인적 정당성에 머물러 사회적 불합리성을 초래할 수 있다.",
+      "interpretation": "정관이 일지에만 있으면 자기중심적 사고로 인해 갈등이 발생할 수 있다.",
+      "action": "정관을 투관시켜 사회적 정당성을 확보하라.",
+      "cautions": [
+        "정관이 투관되지 않으면 사회적 갈등이 발생할 수 있다."
+      ],
+      "tags": [
+        "정관",
+        "일지",
+        "정당성",
+        "사회적 갈등",
+        "투관"
+      ]
+    },
+    {
+      "id": "RC-cf85b85575",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "비겁",
+        "relation": "재 운용"
+      },
+      "mechanism": "비겁은 재를 과감하게 운용할 수 있는 감각을 제공한다.",
+      "interpretation": "비겁이 있으면 투자와 재 운용에서 과감한 결정을 내릴 수 있다.",
+      "action": "비겁을 활용해 투자 결정을 과감히 실행하라.",
+      "cautions": [
+        "비겁이 없으면 재 운용이 보수적일 수 있다."
+      ],
+      "tags": [
+        "비겁",
+        "재 운용",
+        "투자",
+        "감각",
+        "결정"
+      ]
+    },
+    {
+      "id": "RC-8d7d6f13f8",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "element": "관",
+        "relation": "운영"
+      },
+      "mechanism": "관은 시스템을 정착시켜 안정적인 운영을 가능하게 한다.",
+      "interpretation": "관이 있으면 사업이나 조직의 운영이 체계적으로 이루어진다.",
+      "action": "관을 활용해 시스템을 구축하고 운영을 안정화하라.",
+      "cautions": [
+        "관이 없으면 운영의 편차가 발생할 수 있다."
+      ],
+      "tags": [
+        "관",
+        "운영",
+        "시스템",
+        "안정성",
+        "체계"
+      ]
+    },
+    {
+      "id": "RC-37c7be4571",
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "개수",
+        "relation": "재 운용"
+      },
+      "mechanism": "개수는 재를 안정적으로 운용하지만 지속성은 부족하다.",
+      "interpretation": "개수가 있으면 단기적으로 재를 운용할 수 있다.",
+      "action": "개수를 활용해 단기적인 재 운용 계획을 세워라.",
+      "cautions": [
+        "개수는 장기적인 지속성이 부족할 수 있다."
+      ],
+      "tags": [
+        "개수",
+        "재 운용",
+        "안정성",
+        "단기",
+        "지속성"
+      ]
+    },
+    {
+      "id": "RC-6a6fcb1c57",
+      "topic": "CAREER",
+      "priority": 6,
+      "trigger": {
+        "element": "신유일주",
+        "relation": "묘월"
+      },
+      "mechanism": "신유일주는 묘월에서 관을 주도하려는 성향이 강하다.",
+      "interpretation": "신유일주는 직장 내에서 주도적인 역할을 맡을 가능성이 높다.",
+      "action": "신유일주의 주도성을 활용해 조직 내에서 리더십을 발휘하라.",
+      "cautions": [
+        "주도성이 과하면 갈등을 초래할 수 있다."
+      ],
+      "tags": [
+        "신유일주",
+        "묘월",
+        "주도성",
+        "리더십",
+        "조직"
+      ]
+    },
+    {
+      "id": "RC-7d3aa65563",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "편재",
+        "relation": "베팅"
+      },
+      "mechanism": "편재는 과감한 베팅과 재 운용을 가능하게 한다.",
+      "interpretation": "편재가 있으면 불확실한 상황에서도 과감한 결정을 내릴 수 있다.",
+      "action": "편재를 활용해 과감한 투자 결정을 실행하라.",
+      "cautions": [
+        "편재가 과도하면 손실 위험이 있다."
+      ],
+      "tags": [
+        "편재",
+        "베팅",
+        "재 운용",
+        "투자",
+        "결정"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_099",
+  "updated_at": "2025-12-23T20:27:24"
+}

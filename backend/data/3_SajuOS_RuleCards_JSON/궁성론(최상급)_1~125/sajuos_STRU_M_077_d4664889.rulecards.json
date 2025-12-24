@@ -1,0 +1,440 @@
+{
+  "title": "SajuOS_Logic_STRU_M_077",
+  "rulecards": [
+    {
+      "id": "RC-7ae72829e0",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목"
+      },
+      "mechanism": "자월의 을목은 생목으로서의 역할을 해야 하지만, 자월의 수생목 조건이 을목에게는 어려움을 준다.",
+      "interpretation": "자월의 을목은 외롭고 힘든 출발을 하며, 병화가 있어야 상관으로 목생화를 통해 활용 가능하다.",
+      "action": "병화를 활용하여 상관으로 목생화를 유도하고, 기토를 통해 생목의 역할을 강화하라.",
+      "cautions": [
+        "무토는 을목에게 적합하지 않으며, 기토가 더 적합하다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "병화",
+        "기토",
+        "생목",
+        "상관",
+        "목생화",
+        "자수",
+        "수생목"
+      ]
+    },
+    {
+      "id": "RC-fdd05ac6aa",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목",
+        "presence_of": [
+          "갑목"
+        ]
+      },
+      "mechanism": "갑목은 을목의 인복과 귀인 역할을 한다.",
+      "interpretation": "자월의 을목이 갑목을 만나면 인덕과 귀인의 도움을 받을 수 있다.",
+      "action": "갑목의 도움을 적극적으로 활용하라.",
+      "cautions": [
+        "갑목이 없으면 외로움과 어려움이 지속될 수 있다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "갑목",
+        "인복",
+        "귀인",
+        "도움",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-e3cc129f7f",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목",
+        "presence_of": [
+          "축토"
+        ]
+      },
+      "mechanism": "축토는 자수를 안정시키고 덩어리로 유지하는 역할을 한다.",
+      "interpretation": "축토가 자월의 을목에게 안정감을 제공하며, 부지런한 성향을 유도한다.",
+      "action": "축토의 안정감을 활용하여 계획적으로 행동하라.",
+      "cautions": [
+        "축토가 없으면 자수가 불안정해질 수 있다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "축토",
+        "안정감",
+        "부지런함",
+        "자수",
+        "덩어리"
+      ]
+    },
+    {
+      "id": "RC-2cf335d646",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "year": "갑진",
+        "month": "자월",
+        "day_master": "을목"
+      },
+      "mechanism": "갑진년은 자월의 을목에게 은인과 재물의 기회를 제공한다.",
+      "interpretation": "갑진년은 자월의 을목에게 중요한 기회와 재물의 가능성을 제공한다.",
+      "action": "갑진년의 기회를 놓치지 말고 적극적으로 활용하라.",
+      "cautions": [
+        "화가 없으면 기회를 제대로 활용하지 못할 수 있다."
+      ],
+      "tags": [
+        "갑진년",
+        "자월",
+        "을목",
+        "기회",
+        "재물",
+        "타이밍",
+        "행동"
+      ]
+    },
+    {
+      "id": "RC-223a89615c",
+      "topic": "LOVE",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목",
+        "presence_of": [
+          "미토"
+        ]
+      },
+      "mechanism": "미토는 자월의 을목에게 배우자복과 안정감을 제공한다.",
+      "interpretation": "미토가 있는 자월의 을목은 배우자와의 관계에서 안정감을 얻는다.",
+      "action": "배우자와의 관계를 소중히 여기고 안정감을 유지하라.",
+      "cautions": [
+        "미토가 없으면 배우자복이 약해질 수 있다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "미토",
+        "배우자복",
+        "안정감",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-e09d4279a4",
+      "topic": "CAREER",
+      "priority": 7,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목",
+        "presence_of": [
+          "병화"
+        ]
+      },
+      "mechanism": "병화는 을목의 생목 역할을 강화하며, 직업적 성취를 돕는다.",
+      "interpretation": "병화가 있는 자월의 을목은 직업적으로 안정성과 성취를 얻을 수 있다.",
+      "action": "병화를 활용하여 직업적 목표를 달성하라.",
+      "cautions": [
+        "병화가 없으면 직업적 성취가 어려울 수 있다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "병화",
+        "직업",
+        "성취",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-6e1f98c0f7",
+      "topic": "GENERAL",
+      "priority": 5,
+      "trigger": {
+        "note": "자월의 을목이 생목으로 작용해야 하는 조건"
+      },
+      "mechanism": "자월의 을목은 생목으로서의 역할을 해야 하지만, 환경적 제약이 크다.",
+      "interpretation": "자월의 을목은 환경적 어려움을 극복해야 한다.",
+      "action": "환경을 개선하거나 독립적인 공간을 확보하라.",
+      "cautions": [
+        "환경적 제약이 극복되지 않으면 발전이 어렵다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "생목",
+        "환경",
+        "독립",
+        "발전"
+      ]
+    },
+    {
+      "id": "RC-d78aa54fe2",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목",
+        "presence_of": [
+          "감목"
+        ]
+      },
+      "mechanism": "감목은 자월의 을목에게 인복과 안정감을 제공한다.",
+      "interpretation": "감목이 있는 자월의 을목은 귀인의 도움을 받을 수 있다.",
+      "action": "감목의 도움을 적극적으로 활용하라.",
+      "cautions": [
+        "감목이 없으면 외로움과 어려움이 지속될 수 있다."
+      ],
+      "tags": [
+        "자월",
+        "을목",
+        "감목",
+        "인복",
+        "귀인",
+        "안정감"
+      ]
+    },
+    {
+      "id": "RC-f2fd09fca0",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "month": "자월",
+        "day_master": "을목"
+      },
+      "mechanism": "자월의 차가운 기운이 을목의 생목 특성을 억제함.",
+      "interpretation": "을목은 자월에서 철이 들게 되며, 본래의 순수함과 생목다운 매력을 잃을 수 있음.",
+      "action": "을목의 본래 특성을 유지하려면 병화의 도움을 활용해야 함.",
+      "cautions": [
+        "병화가 없으면 을목의 순수성과 생명력이 약화될 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "자월",
+        "병화",
+        "생목",
+        "철듦"
+      ]
+    },
+    {
+      "id": "RC-d072489d51",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "day_master": "을목",
+        "month": "자월",
+        "fire_presence": false
+      },
+      "mechanism": "병화가 없으면 자월의 차가운 기운을 극복하기 어려움.",
+      "interpretation": "병화가 없으면 을목이 자월의 환경에서 힘들게 살아가며, 본연의 특성을 잃음.",
+      "action": "병화를 통해 자월의 차가운 기운을 극복하고 본연의 특성을 유지하도록 조언.",
+      "cautions": [
+        "병화가 없으면 을목이 환경에 의해 억압될 가능성이 큼."
+      ],
+      "tags": [
+        "을목",
+        "자월",
+        "병화",
+        "환경",
+        "극복"
+      ]
+    },
+    {
+      "id": "RC-05cffc6a8b",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "day_master": "을목",
+        "metal_presence": true
+      },
+      "mechanism": "경금이 을목에 영향을 주어 철들게 만듦.",
+      "interpretation": "경금이 을목에 붙으면 을목이 본래의 순수함을 잃고 조숙해짐.",
+      "action": "경금의 영향을 최소화하고 병화를 통해 균형을 맞추도록 조언.",
+      "cautions": [
+        "경금이 을목의 본래 매력을 약화시킬 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "경금",
+        "철듦",
+        "병화",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-5aaded73f9",
+      "topic": "TIMING",
+      "priority": 8,
+      "trigger": {
+        "day_master": "을목",
+        "fire_luck": true
+      },
+      "mechanism": "화운이 을목의 환경을 개선하고 생명력을 강화함.",
+      "interpretation": "화운이 들어오면 을목이 환경을 극복하고 본연의 특성을 발휘할 수 있음.",
+      "action": "화운이 들어오는 시기를 활용해 중요한 결정을 내릴 것을 권장.",
+      "cautions": [
+        "화운이 없으면 환경 극복이 어려울 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "화운",
+        "환경",
+        "결정",
+        "생명력"
+      ]
+    },
+    {
+      "id": "RC-0429ffa0a5",
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "day_master": "을목",
+        "earth_presence": false
+      },
+      "mechanism": "토가 없으면 재물에 대한 불안감이 커지고 과도한 욕심을 부름.",
+      "interpretation": "토가 부족하면 을목이 재물을 얻기 위해 무리한 행동을 할 가능성이 높음.",
+      "action": "토의 안정성을 확보하여 재물에 대한 욕심을 조절하도록 조언.",
+      "cautions": [
+        "토가 없으면 재물 문제로 인해 극단적인 선택을 할 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "토",
+        "재물",
+        "안정",
+        "욕심"
+      ]
+    },
+    {
+      "id": "RC-3bf22da043",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "day_master": "을목",
+        "earth_presence": true,
+        "earth_type": "술토"
+      },
+      "mechanism": "술토는 을목의 뿌리를 안정시키고 환경을 개선함.",
+      "interpretation": "술토가 있으면 을목이 안정된 환경에서 성장할 수 있음.",
+      "action": "술토의 영향을 활용해 안정적인 삶을 추구하도록 조언.",
+      "cautions": [
+        "술토가 없으면 환경적 불안정이 커질 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "술토",
+        "안정",
+        "환경",
+        "성장"
+      ]
+    },
+    {
+      "id": "RC-2ee2afe820",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_master": "을목",
+        "parental_support": false
+      },
+      "mechanism": "부모의 지원이 부족하면 을목이 독립적으로 성장하려는 경향이 강해짐.",
+      "interpretation": "부모의 지원이 부족한 환경에서 을목은 스스로 환경을 극복하려 함.",
+      "action": "부모의 지원이 부족한 경우, 스스로 자립할 수 있는 방법을 모색하도록 조언.",
+      "cautions": [
+        "부모의 지원 부족이 을목의 성장에 부정적 영향을 미칠 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "부모",
+        "지원",
+        "독립",
+        "환경"
+      ]
+    },
+    {
+      "id": "RC-e7f0b74674",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "day_master": "을목",
+        "fire_luck": true,
+        "earth_luck": true
+      },
+      "mechanism": "화운과 토운이 함께 들어오면 을목의 환경이 크게 개선됨.",
+      "interpretation": "화운과 토운이 함께 들어오면 을목이 안정된 환경에서 성장할 수 있음.",
+      "action": "화운과 토운이 들어오는 시기를 활용해 중요한 결정을 내릴 것을 권장.",
+      "cautions": [
+        "화운과 토운이 없으면 환경 개선이 어려울 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "화운",
+        "토운",
+        "환경",
+        "결정"
+      ]
+    },
+    {
+      "id": "RC-0109fd3c9e",
+      "topic": "GENERAL",
+      "priority": 6,
+      "trigger": {
+        "note": "궁의 영향이 강한 사주"
+      },
+      "mechanism": "궁은 인생의 전반적인 프로그램을 결정함.",
+      "interpretation": "궁의 배치에 따라 인생의 방향성과 환경이 크게 달라짐.",
+      "action": "궁의 배치를 분석하여 인생의 방향성을 조언.",
+      "cautions": [
+        "궁의 영향을 간과하면 중요한 해석을 놓칠 수 있음."
+      ],
+      "tags": [
+        "궁",
+        "인생",
+        "방향성",
+        "환경",
+        "분석"
+      ]
+    },
+    {
+      "id": "RC-3d761bb324",
+      "topic": "RELATION",
+      "priority": 5,
+      "trigger": {
+        "day_master": "을목",
+        "fire_presence": true,
+        "hour_branch": "병화"
+      },
+      "mechanism": "병화가 시지에 있으면 을목이 성숙한 관계를 유지할 수 있음.",
+      "interpretation": "병화가 시지에 있으면 을목이 어머니와의 관계에서 안정감을 느낄 수 있음.",
+      "action": "병화의 영향을 활용해 가족 관계를 개선하도록 조언.",
+      "cautions": [
+        "병화가 없으면 가족 관계에서 불안정이 발생할 수 있음."
+      ],
+      "tags": [
+        "을목",
+        "병화",
+        "가족",
+        "관계",
+        "안정"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트가 매우 길고 복잡하여 일부 규칙은 요약 및 단순화되었습니다.",
+    "추가적인 규칙은 다음 청크에서 계속 추출될 예정입니다."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_077",
+  "updated_at": "2025-12-23T20:27:24"
+}

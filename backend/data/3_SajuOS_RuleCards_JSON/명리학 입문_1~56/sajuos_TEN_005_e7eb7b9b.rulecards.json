@@ -1,0 +1,436 @@
+{
+  "title": "SajuOS_Logic_TEN_005",
+  "rulecards": [
+    {
+      "id": "RC-37725e246a",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "relation": "생설"
+      },
+      "mechanism": "생설은 일관을 통해 에너지가 흐르는 관계로 유정함을 나타냄.",
+      "interpretation": "생설 관계는 정이 있는 관계로, 자연스럽고 조화로운 흐름을 의미함.",
+      "action": "생설 관계를 활용해 조화로운 인간관계를 유지하도록 노력.",
+      "cautions": [
+        "생설 관계를 과도하게 의존하지 않도록 주의."
+      ],
+      "tags": [
+        "생설",
+        "유정",
+        "조화",
+        "일관",
+        "흐름"
+      ]
+    },
+    {
+      "id": "RC-cab546ea23",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "relation": "극재"
+      },
+      "mechanism": "극재는 일관과 무관하게 발생하는 관계로 무정함을 나타냄.",
+      "interpretation": "극재 관계는 내 의지와 상관없이 주어지는 복을 의미함.",
+      "action": "극재 관계에서 주어진 복을 수용하고 활용할 방법을 모색.",
+      "cautions": [
+        "복에만 의존하지 말고 덕을 함께 키우도록 노력."
+      ],
+      "tags": [
+        "극재",
+        "무정",
+        "복",
+        "일관",
+        "의지"
+      ]
+    },
+    {
+      "id": "RC-0ceb53fe12",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "concept": "복과 덕"
+      },
+      "mechanism": "복은 의지와 상관없이 주어지는 것이고, 덕은 의지와 노력으로 얻는 것.",
+      "interpretation": "복과 덕은 상호보완적이며, 둘 중 하나만 있어도 삶에 영향을 미침.",
+      "action": "복과 덕의 균형을 이해하고, 덕을 키우는 데 노력.",
+      "cautions": [
+        "복과 덕을 혼동하지 않도록 주의."
+      ],
+      "tags": [
+        "복",
+        "덕",
+        "균형",
+        "의지",
+        "노력"
+      ]
+    },
+    {
+      "id": "RC-ef81e9a1b8",
+      "topic": "LOVE",
+      "priority": 7,
+      "trigger": {
+        "concept": "남편복"
+      },
+      "mechanism": "남편복은 배우자의 성공과 관련된 복을 의미.",
+      "interpretation": "남편복이 있으면 배우자가 성공적일 가능성이 높음.",
+      "action": "배우자의 성공을 지원하며 관계를 유지.",
+      "cautions": [
+        "남편복만 의존하면 내적 관계가 소홀해질 수 있음."
+      ],
+      "tags": [
+        "남편복",
+        "배우자",
+        "성공",
+        "관계",
+        "지원"
+      ]
+    },
+    {
+      "id": "RC-797b271e15",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "concept": "정제"
+      },
+      "mechanism": "정제는 소유와 책임감을 나타내며, 결과를 중시함.",
+      "interpretation": "정제가 강하면 책임감과 소유욕이 강하며, 결과 중심적 사고를 가짐.",
+      "action": "책임감을 기반으로 목표를 설정하고 성과를 관리.",
+      "cautions": [
+        "소유욕이 과도하면 관계에 문제가 생길 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "책임감",
+        "소유욕",
+        "결과",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-342e2c23cf",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "concept": "정제와 배우자"
+      },
+      "mechanism": "정제는 배우자를 소유적 관점에서 바라보는 경향이 있음.",
+      "interpretation": "정제가 강한 사람은 배우자를 자신의 일부로 간주하며 책임감을 느낌.",
+      "action": "배우자를 존중하며 소유적 태도를 조정.",
+      "cautions": [
+        "소유적 태도가 지나치면 갈등이 발생할 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "배우자",
+        "소유",
+        "책임감",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-dbb84c2e8a",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "concept": "정제와 시간관리"
+      },
+      "mechanism": "정제는 시간과 물질에 우선순위를 두며, 생산성을 중시함.",
+      "interpretation": "정제가 강한 사람은 시간 관리를 잘하며 생산적인 활동을 선호.",
+      "action": "시간을 효율적으로 관리하고 생산성을 높이는 활동에 집중.",
+      "cautions": [
+        "과도한 생산성 추구로 인해 휴식을 소홀히 하지 않도록 주의."
+      ],
+      "tags": [
+        "정제",
+        "시간관리",
+        "생산성",
+        "우선순위",
+        "효율"
+      ]
+    },
+    {
+      "id": "RC-df6d74ea34",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "concept": "정제와 소유욕"
+      },
+      "mechanism": "정제는 소유적 개념을 기반으로 관계와 물질을 관리.",
+      "interpretation": "정제가 강한 사람은 소유욕이 강하며, 자신의 것으로 간주한 것을 중요시함.",
+      "action": "소유욕을 긍정적으로 활용하며, 지나친 집착을 피함.",
+      "cautions": [
+        "소유욕이 관계를 해치지 않도록 주의."
+      ],
+      "tags": [
+        "정제",
+        "소유욕",
+        "관리",
+        "관계",
+        "집착"
+      ]
+    },
+    {
+      "id": "RC-5eadef64b9",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "concept": "정제와 결과"
+      },
+      "mechanism": "정제는 결과를 중시하며, 구체적이고 가시적인 성과를 추구.",
+      "interpretation": "정제가 강한 사람은 결과 중심적이며, 성과를 통해 만족을 느낌.",
+      "action": "구체적인 목표를 설정하고 성과를 시각화.",
+      "cautions": [
+        "성과에만 집착하면 과정의 중요성을 간과할 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "결과",
+        "성과",
+        "구체적",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-d11ee9aa32",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "concept": "정제와 행복"
+      },
+      "mechanism": "정제는 구체적 목표에 집중하나, 목표 달성 후 허무함을 느낄 수 있음.",
+      "interpretation": "정제가 강한 사람은 행복보다는 만족에 초점을 맞춤.",
+      "action": "추상적이고 장기적인 목표를 설정해 삶의 방향성을 유지.",
+      "cautions": [
+        "구체적 목표에만 매몰되지 않도록 주의."
+      ],
+      "tags": [
+        "정제",
+        "행복",
+        "목표",
+        "허무함",
+        "만족"
+      ]
+    },
+    {
+      "id": "RC-4d2e2bdba8",
+      "topic": "TEN_GODS",
+      "priority": 9,
+      "trigger": {
+        "has_siksang": false
+      },
+      "mechanism": "식상이 없으면 감정적 소통이 어려워짐.",
+      "interpretation": "감정 표현과 소통이 부족하여 무정하게 보일 수 있음.",
+      "action": "식상이 없는 사람과의 관계에서는 명확한 의사소통을 시도할 것.",
+      "cautions": [
+        "감정적 소통 부족으로 오해가 생길 수 있음."
+      ],
+      "tags": [
+        "식상",
+        "감정소통",
+        "무정",
+        "의사소통",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-00b9d105c6",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "has_siksin": true
+      },
+      "mechanism": "식신은 일관의 에너지를 활용하여 꾸준히 행동함.",
+      "interpretation": "꾸준하고 안정적인 성향을 가지며 자기 객관화가 가능함.",
+      "action": "식신이 있는 사람은 자신의 강점을 활용해 장기적인 목표를 설정할 것.",
+      "cautions": [
+        "고집스러움으로 인해 유연성이 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "꾸준함",
+        "안정성",
+        "자기객관화",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-6bdc528421",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "has_sangwan": true
+      },
+      "mechanism": "상관은 외부의 에너지를 활용하여 유연하게 행동함.",
+      "interpretation": "창의적이고 순발력이 뛰어나며 다양한 방법을 시도함.",
+      "action": "상관이 있는 사람은 창의성을 발휘할 수 있는 환경을 조성할 것.",
+      "cautions": [
+        "목적을 위해 수단과 방법을 가리지 않을 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "창의성",
+        "순발력",
+        "유연성",
+        "목적"
+      ]
+    },
+    {
+      "id": "RC-151f10e757",
+      "topic": "TEN_GODS",
+      "priority": 8,
+      "trigger": {
+        "has_siksin": true,
+        "has_jeongjae": true
+      },
+      "mechanism": "식신과 정제가 조화를 이루면 언행일치가 완벽해짐.",
+      "interpretation": "신뢰도가 높고 안정적인 삶을 영위함.",
+      "action": "식신과 정제가 있는 사람은 신뢰를 기반으로 관계를 구축할 것.",
+      "cautions": [
+        "변화에 대한 적응력이 부족할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "정제",
+        "언행일치",
+        "신뢰",
+        "안정성"
+      ]
+    },
+    {
+      "id": "RC-7bce700fb2",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "has_sangwan": true,
+        "has_jeongjae": true
+      },
+      "mechanism": "상관은 정제를 활용하여 유연하게 결과를 도출함.",
+      "interpretation": "결과 중심적이며 창의적인 접근 방식을 선호함.",
+      "action": "상관과 정제가 있는 사람은 다양한 방법으로 목표를 달성할 것.",
+      "cautions": [
+        "결과만 중시하여 과정에서 갈등이 생길 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "정제",
+        "결과중심",
+        "창의성",
+        "목표"
+      ]
+    },
+    {
+      "id": "RC-17f0c886e6",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "has_siksin": true,
+        "has_sangwan": true
+      },
+      "mechanism": "식신과 상관이 혼재되면 유연성과 꾸준함이 조화를 이룸.",
+      "interpretation": "다양한 상황에 적응하며 목표를 달성할 수 있음.",
+      "action": "식신과 상관이 있는 사람은 상황에 따라 적절한 전략을 선택할 것.",
+      "cautions": [
+        "혼재된 에너지가 갈등을 유발할 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "상관",
+        "유연성",
+        "꾸준함",
+        "적응력"
+      ]
+    },
+    {
+      "id": "RC-9cef41bafa",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "has_jeongjae": true,
+        "has_gwan": true
+      },
+      "mechanism": "정제가 관을 만나면 사회적 노출과 책임이 증가함.",
+      "interpretation": "사회적 활동과 관계 형성이 중요해짐.",
+      "action": "정제와 관이 있는 사람은 사회적 관계를 적극적으로 관리할 것.",
+      "cautions": [
+        "책임감이 과중될 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "관",
+        "사회적노출",
+        "책임",
+        "관계"
+      ]
+    },
+    {
+      "id": "RC-96070fb38b",
+      "topic": "TEN_GODS",
+      "priority": 5,
+      "trigger": {
+        "has_siksin": true,
+        "has_inseong": true
+      },
+      "mechanism": "인성이 식신을 방해하면 결과 도출에 변수가 생김.",
+      "interpretation": "목표 달성에 어려움을 겪을 수 있음.",
+      "action": "인성이 강한 경우 식신의 에너지를 보완할 방법을 모색할 것.",
+      "cautions": [
+        "인성의 간섭으로 인해 계획이 틀어질 수 있음."
+      ],
+      "tags": [
+        "식신",
+        "인성",
+        "변수",
+        "목표",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-e37eedf7ca",
+      "topic": "TEN_GODS",
+      "priority": 7,
+      "trigger": {
+        "has_sangwan": true,
+        "has_inseong": true
+      },
+      "mechanism": "상관과 인성이 조화를 이루면 창의성과 학습 능력이 강화됨.",
+      "interpretation": "새로운 아이디어를 학습하고 적용하는 데 유리함.",
+      "action": "상관과 인성이 있는 사람은 학습과 창의적 활동을 병행할 것.",
+      "cautions": [
+        "과도한 창의성으로 인해 현실성이 부족할 수 있음."
+      ],
+      "tags": [
+        "상관",
+        "인성",
+        "창의성",
+        "학습",
+        "아이디어"
+      ]
+    },
+    {
+      "id": "RC-4b0ad4fe7c",
+      "topic": "TEN_GODS",
+      "priority": 6,
+      "trigger": {
+        "has_jeongjae": true,
+        "has_siksin": true
+      },
+      "mechanism": "정제와 식신이 조화를 이루면 안정적이고 꾸준한 삶을 영위함.",
+      "interpretation": "소박한 목표를 설정하고 이를 성취함.",
+      "action": "정제와 식신이 있는 사람은 장기적인 계획을 세우고 실행할 것.",
+      "cautions": [
+        "큰 변화를 추구하지 않아 도전 정신이 부족할 수 있음."
+      ],
+      "tags": [
+        "정제",
+        "식신",
+        "안정성",
+        "꾸준함",
+        "소박함"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_TEN_005",
+  "updated_at": "2025-12-23T20:27:25"
+}

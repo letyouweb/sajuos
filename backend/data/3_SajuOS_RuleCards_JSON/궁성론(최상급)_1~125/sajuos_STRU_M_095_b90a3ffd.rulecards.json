@@ -1,0 +1,451 @@
+{
+  "title": "SajuOS_Logic_STRU_M_095",
+  "rulecards": [
+    {
+      "id": "RC-6144cebdc9",
+      "topic": "RELATION",
+      "priority": 8,
+      "trigger": {
+        "relation": "형",
+        "note": "형이 존재하는 경우"
+      },
+      "mechanism": "형은 관계의 갈등이나 충돌을 나타낼 수 있음.",
+      "interpretation": "형이 있다고 해서 반드시 부정적인 결과를 초래하지는 않음.",
+      "action": "형의 영향을 과대평가하지 말고, 전체적인 사주 구조를 고려하여 해석.",
+      "cautions": [
+        "형만으로 모든 문제를 판단하지 말 것."
+      ],
+      "tags": [
+        "형",
+        "관계",
+        "갈등",
+        "사주구조",
+        "해석"
+      ]
+    },
+    {
+      "id": "RC-1167e42a9f",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "position": "투관"
+      },
+      "mechanism": "목의 투관은 격국의 안정성과 활용 가능성을 높임.",
+      "interpretation": "목이 투관되면 격국을 뚜렷하게 사용할 수 있음.",
+      "action": "목의 투관 여부를 확인하고 격국 활용 방안을 모색.",
+      "cautions": [
+        "목이 투관되지 않으면 격국 활용이 제한될 수 있음."
+      ],
+      "tags": [
+        "목",
+        "투관",
+        "격국",
+        "안정성",
+        "활용"
+      ]
+    },
+    {
+      "id": "RC-608c83c55f",
+      "topic": "TIMING",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "note": "화운이 들어오는 시기"
+      },
+      "mechanism": "화운은 직업적 성취와 안정성을 강화함.",
+      "interpretation": "화운이 들어오면 직업적 기회와 성과가 증가할 가능성이 높음.",
+      "action": "화운 시기에 직업적 결정을 내리거나 새로운 기회를 모색.",
+      "cautions": [
+        "화운이 없을 경우 직업적 성취가 제한될 수 있음."
+      ],
+      "tags": [
+        "화운",
+        "직업",
+        "성취",
+        "기회",
+        "타이밍"
+      ]
+    },
+    {
+      "id": "RC-fce54a8327",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "토",
+        "note": "화가 없는 토"
+      },
+      "mechanism": "화는 토의 에너지를 조절하고 활용 가능성을 높임.",
+      "interpretation": "화가 없는 토는 왕하다고 보기 어려움.",
+      "action": "토의 활용성을 높이기 위해 화의 존재 여부를 확인.",
+      "cautions": [
+        "화가 없으면 토의 퀄리티가 낮아질 수 있음."
+      ],
+      "tags": [
+        "토",
+        "화",
+        "조절",
+        "활용",
+        "퀄리티"
+      ]
+    },
+    {
+      "id": "RC-ccd9a0d9c3",
+      "topic": "RELATION",
+      "priority": 6,
+      "trigger": {
+        "relation": "재성운",
+        "note": "재성운이 들어오는 경우"
+      },
+      "mechanism": "재성운은 재생관 또는 재극인의 작용을 유발.",
+      "interpretation": "재성운이 들어오면 재생관으로 기회가 증가하거나 재극인으로 갈등이 발생.",
+      "action": "재성운 시기에 재생관과 재극인의 작용을 구분하여 대응.",
+      "cautions": [
+        "재극인이 발생하면 갈등을 조정해야 함."
+      ],
+      "tags": [
+        "재성운",
+        "재생관",
+        "재극인",
+        "기회",
+        "갈등"
+      ]
+    },
+    {
+      "id": "RC-3dd71290c0",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "인성",
+        "note": "인성이 있는 경우"
+      },
+      "mechanism": "인성은 관격의 에너지를 소화하고 활용 가능성을 높임.",
+      "interpretation": "인성이 있으면 관격의 퀄리티가 높아지고 직업적 성취 가능성이 증가.",
+      "action": "인성의 유무를 확인하고 관격의 활용 방안을 모색.",
+      "cautions": [
+        "인성이 없으면 관격의 퀄리티가 낮아질 수 있음."
+      ],
+      "tags": [
+        "인성",
+        "관격",
+        "소화",
+        "활용",
+        "직업"
+      ]
+    },
+    {
+      "id": "RC-4fd48478d6",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "식신",
+        "note": "일지에 식신이 있는 경우"
+      },
+      "mechanism": "식신은 관을 나 중심으로 바라보게 만듦.",
+      "interpretation": "식신이 있으면 관을 통제하거나 거부하는 성향이 강함.",
+      "action": "식신이 있는 경우 관과의 관계를 조정.",
+      "cautions": [
+        "식신이 강하면 관을 거부할 가능성이 높음."
+      ],
+      "tags": [
+        "식신",
+        "관",
+        "통제",
+        "거부",
+        "조정"
+      ]
+    },
+    {
+      "id": "RC-36aecd5718",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "note": "화가 있는 경우"
+      },
+      "mechanism": "화는 목과 토의 조화를 돕고 에너지를 활성화.",
+      "interpretation": "화가 있으면 목과 토의 조화가 이루어지고 활용성이 증가.",
+      "action": "화의 존재 여부를 확인하고 목과 토의 조화를 극대화.",
+      "cautions": [
+        "화가 없으면 목과 토의 조화가 어려울 수 있음."
+      ],
+      "tags": [
+        "화",
+        "목",
+        "토",
+        "조화",
+        "활성화"
+      ]
+    },
+    {
+      "id": "RC-a393397fc8",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "element": "정관",
+        "note": "정관 중심의 격"
+      },
+      "mechanism": "정관은 안정성과 절차를 중시하는 에너지를 제공.",
+      "interpretation": "정관 중심의 격은 안정적이고 절차를 중시하는 성향을 나타냄.",
+      "action": "정관 중심의 격을 활용하여 안정적인 직업적 기반을 마련.",
+      "cautions": [
+        "정관이 약하면 안정성이 떨어질 수 있음."
+      ],
+      "tags": [
+        "정관",
+        "안정성",
+        "절차",
+        "직업",
+        "기반"
+      ]
+    },
+    {
+      "id": "RC-5ca8dbf0d6",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "편관",
+        "note": "편관 중심의 격"
+      },
+      "mechanism": "편관은 속도와 현장 중심의 에너지를 제공.",
+      "interpretation": "편관 중심의 격은 빠른 속도와 현장 중심의 성향을 나타냄.",
+      "action": "편관 중심의 격을 활용하여 현장 중심의 직업적 기회를 모색.",
+      "cautions": [
+        "편관이 약하면 현장 대응력이 떨어질 수 있음."
+      ],
+      "tags": [
+        "편관",
+        "속도",
+        "현장",
+        "직업",
+        "대응력"
+      ]
+    },
+    {
+      "id": "RC-3ba6ace1ed",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "element": "무토"
+      },
+      "mechanism": "묘월의 무토는 화의 조절을 통해 안정성을 얻는다.",
+      "interpretation": "화가 부족하면 인생이 고달프고, 화가 들어오면 운이 풀린다.",
+      "action": "대운이나 세운에서 화를 활용해 조화를 이루도록 노력하라.",
+      "cautions": [
+        "화가 없으면 금의 조절이 어렵다.",
+        "묘월의 조건을 거스르기 어렵다."
+      ],
+      "tags": [
+        "묘월",
+        "무토",
+        "화",
+        "조절",
+        "대운"
+      ]
+    },
+    {
+      "id": "RC-89b4731b21",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "길격",
+        "action": "생설"
+      },
+      "mechanism": "길격은 주어진 조건을 그대로 활용하는 구조이다.",
+      "interpretation": "조건을 수용하고 지원하면 안정적인 삶을 살 수 있다.",
+      "action": "주어진 환경을 긍정적으로 받아들이고 활용하라.",
+      "cautions": [
+        "조건을 거스르려 하지 말라."
+      ],
+      "tags": [
+        "길격",
+        "생설",
+        "수용",
+        "환경",
+        "안정"
+      ]
+    },
+    {
+      "id": "RC-83d12a203f",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "흉격",
+        "action": "극설"
+      },
+      "mechanism": "흉격은 주어진 조건을 극복하고 변화시키는 구조이다.",
+      "interpretation": "환경을 개선하지 않으면 사회적 부적응으로 이어질 수 있다.",
+      "action": "주어진 조건을 분석하고 개선 방안을 찾아 실행하라.",
+      "cautions": [
+        "극단적인 선택은 피하라.",
+        "사회적 부적응을 경계하라."
+      ],
+      "tags": [
+        "흉격",
+        "극설",
+        "개선",
+        "환경",
+        "사회적 적응"
+      ]
+    },
+    {
+      "id": "RC-611e725ca9",
+      "topic": "RELATION",
+      "priority": 7,
+      "trigger": {
+        "relation": "살인상생",
+        "element": "화"
+      },
+      "mechanism": "살인상생은 흉신의 에너지를 화를 통해 순화시킨다.",
+      "interpretation": "화가 강할수록 흉신의 부정적 에너지를 긍정적으로 전환할 수 있다.",
+      "action": "화의 에너지를 활용해 흉신을 순화하고 조화롭게 만들어라.",
+      "cautions": [
+        "화가 약하면 흉신의 부정적 영향이 강해질 수 있다."
+      ],
+      "tags": [
+        "살인상생",
+        "흉신",
+        "화",
+        "순화",
+        "조화"
+      ]
+    },
+    {
+      "id": "RC-dde93fd563",
+      "topic": "STRUCTURE",
+      "priority": 9,
+      "trigger": {
+        "month": "묘월",
+        "element": "기토"
+      },
+      "mechanism": "묘월의 기토는 화를 통해 직업적 재능을 발휘한다.",
+      "interpretation": "화가 직업적 정체성과 재능을 활성화시킨다.",
+      "action": "화의 에너지를 활용해 직업적 목표를 달성하라.",
+      "cautions": [
+        "화가 없으면 직업적 성취가 어려울 수 있다."
+      ],
+      "tags": [
+        "묘월",
+        "기토",
+        "화",
+        "직업",
+        "재능"
+      ]
+    },
+    {
+      "id": "RC-fdfcaf0fce",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "structure": "평관",
+        "element": "화"
+      },
+      "mechanism": "평관은 화를 통해 적을 이해하고 대응한다.",
+      "interpretation": "적을 이해하면 위태롭지 않게 대처할 수 있다.",
+      "action": "적을 분석하고 화의 에너지를 활용해 대응하라.",
+      "cautions": [
+        "화가 약하면 적에 대한 대응이 어려울 수 있다."
+      ],
+      "tags": [
+        "평관",
+        "화",
+        "적",
+        "이해",
+        "대응"
+      ]
+    },
+    {
+      "id": "RC-2206e4d345",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "structure": "식신",
+        "action": "제살"
+      },
+      "mechanism": "식신은 살을 완전히 제거하는 방식으로 대응한다.",
+      "interpretation": "문제를 근본적으로 해결하려는 태도를 가진다.",
+      "action": "문제를 철저히 분석하고 근본적으로 해결하라.",
+      "cautions": [
+        "과도한 제거는 부작용을 초래할 수 있다."
+      ],
+      "tags": [
+        "식신",
+        "제살",
+        "문제 해결",
+        "근본적",
+        "대응"
+      ]
+    },
+    {
+      "id": "RC-31227de2f3",
+      "topic": "STRUCTURE",
+      "priority": 6,
+      "trigger": {
+        "structure": "상관",
+        "action": "제살"
+      },
+      "mechanism": "상관은 살과 타협하며 임시적으로 문제를 해결한다.",
+      "interpretation": "문제를 완전히 제거하지 않고 유연하게 대처한다.",
+      "action": "상황에 따라 타협점을 찾아 문제를 해결하라.",
+      "cautions": [
+        "타협이 지나치면 문제를 악화시킬 수 있다."
+      ],
+      "tags": [
+        "상관",
+        "제살",
+        "타협",
+        "유연성",
+        "문제 해결"
+      ]
+    },
+    {
+      "id": "RC-240d4bd72e",
+      "topic": "STRUCTURE",
+      "priority": 8,
+      "trigger": {
+        "element": "관",
+        "state": "결핍"
+      },
+      "mechanism": "관의 결핍은 명예와 인정에 대한 갈망을 유발한다.",
+      "interpretation": "결핍된 관은 과도한 자기 과시로 나타날 수 있다.",
+      "action": "자기 가치를 내면적으로 인정하고 과시를 줄여라.",
+      "cautions": [
+        "결핍을 과도하게 보완하려는 행동을 경계하라."
+      ],
+      "tags": [
+        "관",
+        "결핍",
+        "명예",
+        "인정",
+        "자기 과시"
+      ]
+    },
+    {
+      "id": "RC-f072ab0a48",
+      "topic": "STRUCTURE",
+      "priority": 7,
+      "trigger": {
+        "element": "재",
+        "state": "결핍"
+      },
+      "mechanism": "재의 결핍은 과소비와 과도한 물질적 욕망으로 나타난다.",
+      "interpretation": "결핍된 재는 물질적 안정에 대한 불안을 유발한다.",
+      "action": "재정 관리를 철저히 하고 과소비를 줄여라.",
+      "cautions": [
+        "과도한 소비로 인해 재정적 어려움이 생길 수 있다."
+      ],
+      "tags": [
+        "재",
+        "결핍",
+        "과소비",
+        "물질적 욕망",
+        "재정 관리"
+      ]
+    }
+  ],
+  "notes": [],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_STRU_095",
+  "updated_at": "2025-12-23T20:27:24"
+}

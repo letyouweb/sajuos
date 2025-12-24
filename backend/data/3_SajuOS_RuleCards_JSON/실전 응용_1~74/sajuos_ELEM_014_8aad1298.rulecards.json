@@ -1,0 +1,623 @@
+{
+  "title": "SajuOS_Logic_ELEM_014",
+  "rulecards": [
+    {
+      "topic": "WEALTH",
+      "priority": 10,
+      "trigger": {
+        "element": "수"
+      },
+      "mechanism": "수는 근원적 에너지로, 현금이나 미사용 자산을 상징.",
+      "interpretation": "수가 강한 사람은 현금을 보유하거나 자산을 모으는 경향이 강함.",
+      "action": "현금을 효율적으로 관리하고, 여유 자금을 확보하라.",
+      "cautions": [
+        "수가 없으면 현금 부족으로 인해 재정적 위기가 발생할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "현금",
+        "자산",
+        "재물",
+        "근원에너지"
+      ],
+      "id": "RC-bda5a514a8"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "화"
+      },
+      "mechanism": "화는 사용된 자산이나 소비를 상징.",
+      "interpretation": "화가 강한 사람은 소비 욕구가 강하고, 자산을 빠르게 활용하려는 경향이 있음.",
+      "action": "소비를 통제하고, 장기적인 재정 계획을 세워라.",
+      "cautions": [
+        "과도한 소비로 인해 재정적 불안정이 발생할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "소비",
+        "활성화",
+        "재물",
+        "유동성"
+      ],
+      "id": "RC-159e9dfdb2"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "element_strength": "강함"
+      },
+      "mechanism": "수가 강하면 현금 보유와 자산 안정성이 높아짐.",
+      "interpretation": "현금 중심의 사고방식과 자산 관리 능력이 뛰어남.",
+      "action": "현금성 자산을 활용한 안정적인 투자 전략을 고려하라.",
+      "cautions": [
+        "현금 보유에만 집중하면 자산의 성장 가능성을 놓칠 수 있음."
+      ],
+      "tags": [
+        "수",
+        "현금",
+        "안정성",
+        "투자",
+        "자산관리"
+      ],
+      "id": "RC-2d7907f55a"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "element_strength": "강함"
+      },
+      "mechanism": "화가 강하면 자산의 유동성과 소비가 활발해짐.",
+      "interpretation": "빠르게 움직이는 자산이나 단기적 이익에 관심이 많음.",
+      "action": "단기적 이익보다는 장기적 안정성을 고려한 재정 계획을 세워라.",
+      "cautions": [
+        "과도한 유동성 추구로 인해 재정적 위험이 커질 수 있음."
+      ],
+      "tags": [
+        "화",
+        "유동성",
+        "소비",
+        "단기이익",
+        "재정계획"
+      ],
+      "id": "RC-27484f596a"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "element_strength": "약함"
+      },
+      "mechanism": "수가 약하면 현금 보유 능력이 떨어지고, 재정적 여유가 부족해짐.",
+      "interpretation": "현금 부족으로 인해 재정적 위기가 발생할 가능성이 높음.",
+      "action": "비상금을 마련하고, 현금 흐름을 안정적으로 관리하라.",
+      "cautions": [
+        "현금 부족으로 인해 흑자부도와 같은 상황이 발생할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "현금부족",
+        "재정위기",
+        "흑자부도",
+        "비상금"
+      ],
+      "id": "RC-87105b2445"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 7,
+      "trigger": {
+        "element": "화",
+        "element_strength": "약함"
+      },
+      "mechanism": "화가 약하면 자산의 활용성과 소비 욕구가 낮아짐.",
+      "interpretation": "자산을 활용하거나 소비를 통해 즐거움을 느끼는 능력이 부족함.",
+      "action": "자산 활용 방안을 모색하고, 소비를 통해 삶의 질을 높이는 방법을 찾아라.",
+      "cautions": [
+        "자산 활용 부족으로 인해 기회 손실이 발생할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "소비부족",
+        "자산활용",
+        "기회손실",
+        "삶의질"
+      ],
+      "id": "RC-119129caba"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "화",
+        "element_strength": "약함"
+      },
+      "mechanism": "수가 강하고 화가 약하면 자산을 모으는 데 집중하지만, 활용 능력이 부족함.",
+      "interpretation": "재정적으로 안정적이지만, 자산 활용이 제한적일 수 있음.",
+      "action": "자산 활용 방안을 모색하고, 소비를 통해 균형을 맞춰라.",
+      "cautions": [
+        "과도한 저축으로 인해 삶의 질이 저하될 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "저축",
+        "자산활용",
+        "균형"
+      ],
+      "id": "RC-c517fa51f4"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 9,
+      "trigger": {
+        "element": "수",
+        "element_strength": "약함"
+      },
+      "mechanism": "화가 강하고 수가 약하면 소비 욕구가 강하고, 현금 보유 능력이 부족함.",
+      "interpretation": "재정적으로 불안정하며, 과도한 소비로 인해 부채가 증가할 가능성이 있음.",
+      "action": "소비를 통제하고, 현금 보유를 늘리는 전략을 세워라.",
+      "cautions": [
+        "과도한 소비로 인해 부채가 증가할 수 있음."
+      ],
+      "tags": [
+        "화",
+        "수",
+        "소비",
+        "부채",
+        "재정불안정"
+      ],
+      "id": "RC-cf2d362249"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "element_strength": "강함"
+      },
+      "mechanism": "수가 강하고 화도 강하면 자산의 안정성과 활용성이 균형을 이룸.",
+      "interpretation": "재정적으로 안정적이며, 자산을 효과적으로 활용할 수 있음.",
+      "action": "균형 잡힌 재정 계획을 세우고, 자산을 효율적으로 관리하라.",
+      "cautions": [
+        "균형이 깨질 경우 재정적 불안정이 발생할 수 있음."
+      ],
+      "tags": [
+        "수",
+        "화",
+        "균형",
+        "재정계획",
+        "자산관리"
+      ],
+      "id": "RC-a1e78c7262"
+    },
+    {
+      "topic": "WEALTH",
+      "priority": 6,
+      "trigger": {
+        "element": "수",
+        "element_strength": "강함",
+        "season": "겨울"
+      },
+      "mechanism": "겨울생은 수의 에너지가 강해 자산을 묵직하게 관리하는 경향이 있음.",
+      "interpretation": "큰 자산에 집중하며, 안정적인 투자 성향을 가짐.",
+      "action": "장기적인 투자 전략을 세우고, 큰 자산에 집중하라.",
+      "cautions": [
+        "과도한 집중으로 인해 분산 투자 기회를 놓칠 수 있음."
+      ],
+      "tags": [
+        "수",
+        "겨울생",
+        "장기투자",
+        "안정성",
+        "집중"
+      ],
+      "id": "RC-3aa409c687"
+    },
+    {
+      "id": "RC-bfadffa2dd",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "목",
+        "interaction": "수화"
+      },
+      "mechanism": "목은 수와 화 사이의 흐름을 설계하고 연결하는 역할을 한다.",
+      "interpretation": "목은 재물의 흐름에서 실체와 과정을 만들어내는 중요한 역할을 한다.",
+      "action": "목의 역할을 이해하고, 재물 흐름에서 실체와 과정을 명확히 하라.",
+      "cautions": [
+        "목이 없으면 재물 흐름의 일관성이 부족할 수 있다."
+      ],
+      "tags": [
+        "목",
+        "수화",
+        "흐름",
+        "실체",
+        "과정"
+      ]
+    },
+    {
+      "id": "RC-c8336328f9",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "수",
+        "type": "현금"
+      },
+      "mechanism": "수는 현금성 자산을 상징하며, 자산의 기본적인 실체를 나타낸다.",
+      "interpretation": "수는 재물의 기초로, 자산의 안정성과 유동성을 의미한다.",
+      "action": "현금성 자산을 확보하고, 재물의 기초를 튼튼히 하라.",
+      "cautions": [
+        "수가 부족하면 재물의 안정성이 약화될 수 있다."
+      ],
+      "tags": [
+        "수",
+        "현금",
+        "자산",
+        "안정성",
+        "유동성"
+      ]
+    },
+    {
+      "id": "RC-ef95738527",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "type": "투자"
+      },
+      "mechanism": "화는 자산의 팽창과 투자를 상징하며, 자본의 사용을 나타낸다.",
+      "interpretation": "화는 재물의 활용과 확장을 의미한다.",
+      "action": "투자와 자산 활용 계획을 세워 재물을 확장하라.",
+      "cautions": [
+        "화가 과도하면 불안정성과 혼란을 초래할 수 있다."
+      ],
+      "tags": [
+        "화",
+        "투자",
+        "팽창",
+        "활용",
+        "확장"
+      ]
+    },
+    {
+      "id": "RC-3d104575b2",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "금",
+        "interaction": "수화"
+      },
+      "mechanism": "금은 수와 화 사이의 흐름을 정리하고 실체를 파악하게 한다.",
+      "interpretation": "금은 재물의 본질을 이해하고 정리하는 역할을 한다.",
+      "action": "금의 역할을 활용해 자산의 본질을 분석하라.",
+      "cautions": [
+        "금이 없으면 자산의 본질을 파악하기 어려울 수 있다."
+      ],
+      "tags": [
+        "금",
+        "수화",
+        "정리",
+        "분석",
+        "본질"
+      ]
+    },
+    {
+      "id": "RC-f562b4506a",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "목",
+        "condition": "목생화"
+      },
+      "mechanism": "목생화는 자산의 소비와 팽창을 촉진한다.",
+      "interpretation": "목생화는 재물의 사용과 소비를 의미한다.",
+      "action": "재물 소비를 계획적으로 관리하라.",
+      "cautions": [
+        "목생화가 과도하면 빚으로 이어질 수 있다."
+      ],
+      "tags": [
+        "목",
+        "화",
+        "소비",
+        "팽창",
+        "관리"
+      ]
+    },
+    {
+      "id": "RC-235248073f",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "수",
+        "condition": "부족"
+      },
+      "mechanism": "수가 부족하면 재물의 실체가 약화되고 불안정해진다.",
+      "interpretation": "수가 부족하면 재물의 기초가 흔들릴 수 있다.",
+      "action": "현금성 자산을 확보해 재물의 안정성을 높여라.",
+      "cautions": [
+        "수가 부족하면 빚에 의존할 가능성이 높아진다."
+      ],
+      "tags": [
+        "수",
+        "부족",
+        "안정성",
+        "현금",
+        "기초"
+      ]
+    },
+    {
+      "id": "RC-6837b2eb59",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "element": "화",
+        "condition": "과도"
+      },
+      "mechanism": "화가 과도하면 자산의 불안정성과 혼란을 초래한다.",
+      "interpretation": "화가 과도하면 재물의 흐름이 불안정해질 수 있다.",
+      "action": "화의 균형을 유지하며 자산을 관리하라.",
+      "cautions": [
+        "화가 과도하면 자산 손실 위험이 높아진다."
+      ],
+      "tags": [
+        "화",
+        "과도",
+        "불안정",
+        "혼란",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-81688a6d3e",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "element": "금",
+        "condition": "금생수"
+      },
+      "mechanism": "금생수는 자산의 유동성을 높이고 현금화를 촉진한다.",
+      "interpretation": "금생수는 자산의 유동성과 현금화를 의미한다.",
+      "action": "금생수를 활용해 자산의 유동성을 확보하라.",
+      "cautions": [
+        "금생수가 부족하면 자산의 유동성이 낮아질 수 있다."
+      ],
+      "tags": [
+        "금",
+        "수",
+        "유동성",
+        "현금화",
+        "자산"
+      ]
+    },
+    {
+      "id": "RC-0f081cc09b",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "element": "목",
+        "condition": "수색목"
+      },
+      "mechanism": "수색목은 자산의 설계와 방향성을 결정한다.",
+      "interpretation": "수색목은 재물의 흐름에서 방향성과 계획을 의미한다.",
+      "action": "수색목을 활용해 재물의 방향성을 명확히 하라.",
+      "cautions": [
+        "수색목이 부족하면 재물의 방향성이 흐려질 수 있다."
+      ],
+      "tags": [
+        "목",
+        "수",
+        "설계",
+        "방향성",
+        "계획"
+      ]
+    },
+    {
+      "id": "RC-164fc669d2",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "element": "화",
+        "condition": "화생토"
+      },
+      "mechanism": "화생토는 자산의 감가상각과 유지비를 증가시킨다.",
+      "interpretation": "화생토는 자산의 소모와 유지 비용을 의미한다.",
+      "action": "화생토의 영향을 고려해 자산 관리를 계획하라.",
+      "cautions": [
+        "화생토가 과도하면 자산 유지 비용이 과도하게 증가할 수 있다."
+      ],
+      "tags": [
+        "화",
+        "토",
+        "감가상각",
+        "유지비",
+        "소모"
+      ]
+    },
+    {
+      "id": "RC-16097558d9",
+      "topic": "ELEMENTS",
+      "priority": 9,
+      "trigger": {
+        "fire_to_earth": true
+      },
+      "mechanism": "화생토는 화의 에너지가 소모되며 토로 전환됨.",
+      "interpretation": "소비 형태가 감가상각이 큰 물건이나 투자로 이어질 가능성이 높음.",
+      "action": "소비나 투자 시 감가상각을 고려하고 장기적 가치를 평가하라.",
+      "cautions": [
+        "타이밍을 놓치지 않도록 주의할 것.",
+        "감가상각이 큰 소비를 피할 것."
+      ],
+      "tags": [
+        "화생토",
+        "소비",
+        "투자",
+        "감가상각",
+        "타이밍"
+      ]
+    },
+    {
+      "id": "RC-bd6915847e",
+      "topic": "ELEMENTS",
+      "priority": 8,
+      "trigger": {
+        "fire_weak": true,
+        "wood_to_fire": true
+      },
+      "mechanism": "목생화가 이루어지면 시간이 지나면서 화가 강해짐.",
+      "interpretation": "시간이 지날수록 재물적 이익이 커질 가능성이 있음.",
+      "action": "장기적인 관점에서 투자와 사업을 계획하라.",
+      "cautions": [
+        "단기적 성과에 집착하지 말 것.",
+        "목의 역할을 유지할 것."
+      ],
+      "tags": [
+        "목생화",
+        "화약",
+        "장기투자",
+        "사업",
+        "시간"
+      ]
+    },
+    {
+      "id": "RC-17cdffa8ca",
+      "topic": "ELEMENTS",
+      "priority": 7,
+      "trigger": {
+        "fire_strong": true,
+        "metal_strong": true
+      },
+      "mechanism": "화와 금의 균형이 잘 맞으면 재물적 안정성이 높아짐.",
+      "interpretation": "거래를 통한 이익 창출이 용이함.",
+      "action": "화와 금의 균형을 유지하며 재물 관리를 하라.",
+      "cautions": [
+        "한쪽으로 치우치지 않도록 주의할 것."
+      ],
+      "tags": [
+        "화강",
+        "금강",
+        "균형",
+        "거래",
+        "재물"
+      ]
+    },
+    {
+      "id": "RC-2a93085e32",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "water_absent": true
+      },
+      "mechanism": "수가 없으면 현금 흐름이 불안정해짐.",
+      "interpretation": "들어오는 돈은 많아도 나가는 돈이 많아 여유가 없어질 수 있음.",
+      "action": "현금 흐름을 안정시키기 위해 수의 역할을 보완하라.",
+      "cautions": [
+        "지출 관리에 신경 쓸 것.",
+        "현금 유동성을 확보할 것."
+      ],
+      "tags": [
+        "수부족",
+        "현금흐름",
+        "지출",
+        "유동성",
+        "재정관리"
+      ]
+    },
+    {
+      "id": "RC-a200f1505e",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "fire_absent": true
+      },
+      "mechanism": "화가 없으면 재물적 기회 창출이 어려움.",
+      "interpretation": "오행 외의 다른 요소를 통해 재물적 기회를 찾아야 함.",
+      "action": "오행 외의 다른 방법으로 재물적 기회를 모색하라.",
+      "cautions": [
+        "오행만으로 판단하지 말 것."
+      ],
+      "tags": [
+        "화부족",
+        "재물기회",
+        "오행외",
+        "대안",
+        "기회"
+      ]
+    },
+    {
+      "id": "RC-2834331381",
+      "topic": "ELEMENTS",
+      "priority": 6,
+      "trigger": {
+        "metal_to_water": true
+      },
+      "mechanism": "금생수가 이루어지면 현금 흐름이 안정됨.",
+      "interpretation": "기회가 왔을 때 자금을 활용할 수 있는 여유가 생김.",
+      "action": "금생수를 통해 현금 유동성을 확보하라.",
+      "cautions": [
+        "금과 수의 균형을 유지할 것."
+      ],
+      "tags": [
+        "금생수",
+        "현금흐름",
+        "유동성",
+        "기회",
+        "재정안정"
+      ]
+    },
+    {
+      "id": "RC-ce96d13eb2",
+      "topic": "ELEMENTS",
+      "priority": 4,
+      "trigger": {
+        "fire_to_metal": true
+      },
+      "mechanism": "화생금이 이루어지면 거래를 통한 이익이 발생함.",
+      "interpretation": "거래 중심의 재물 활동이 유리함.",
+      "action": "거래를 통한 재물 창출에 집중하라.",
+      "cautions": [
+        "화와 금의 균형을 유지할 것."
+      ],
+      "tags": [
+        "화생금",
+        "거래",
+        "재물활동",
+        "이익",
+        "균형"
+      ]
+    },
+    {
+      "id": "RC-5bf1607268",
+      "topic": "ELEMENTS",
+      "priority": 5,
+      "trigger": {
+        "note": "화와 금의 균형이 깨진 경우"
+      },
+      "mechanism": "화와 금의 불균형은 재물적 불안정을 초래함.",
+      "interpretation": "재물 관리에 어려움이 생길 수 있음.",
+      "action": "화와 금의 균형을 회복하기 위한 조치를 취하라.",
+      "cautions": [
+        "불균형 상태를 방치하지 말 것."
+      ],
+      "tags": [
+        "화금불균형",
+        "재물불안정",
+        "균형회복",
+        "재정관리",
+        "조화"
+      ]
+    }
+  ],
+  "notes": [
+    "텍스트에서 언급된 '토'와 관련된 내용은 다음 주제로 이어질 예정."
+  ],
+  "schema_version": "rulecards.v1",
+  "module_code": "SajuOS_ELEM_014",
+  "updated_at": "2025-12-23T20:27:25"
+}
