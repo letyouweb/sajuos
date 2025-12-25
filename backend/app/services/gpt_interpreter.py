@@ -263,19 +263,115 @@ Analyze and respond in JSON format."""
         return str(pillar) if pillar else ""
 
     def _build_result(self, data: Dict[str, Any], name: str) -> Dict[str, Any]:
+        """
+        GPT 응답을 InterpretResponse 형식으로 변환
+        - 30페이지 프리미엄 구조: structure 필드에 전체 저장
+        - 레거시 필드: 기존 프론트엔드 호환성 유지
+        """
+        # 레거시 필드 추출 (legacy_fields 또는 최상위)
+        legacy = data.get("legacy_fields", {})
+        
+        # 요약 (summary)
+        summary = (
+            data.get("summary") or
+            legacy.get("summary") or
+            data.get("section_1_executive_summary", {}).get("one_line_insight") or
+            "2026년 프리미엄 사주 분석 완료"
+        )
+        
+        # 일간 분석
+        day_master_analysis = (
+            data.get("day_master_analysis") or
+            legacy.get("day_master_analysis") or
+            data.get("section_2_day_master_profile", {}).get("personality_analysis") or
+            ""
+        )
+        
+        # 강점
+        strengths = (
+            data.get("strengths") or
+            legacy.get("strengths") or
+            data.get("section_1_executive_summary", {}).get("key_opportunities") or
+            []
+        )
+        
+        # 리스크
+        risks = (
+            data.get("risks") or
+            legacy.get("risks") or
+            data.get("section_1_executive_summary", {}).get("key_risks") or
+            []
+        )
+        
+        # 답변
+        answer = (
+            data.get("answer") or
+            legacy.get("answer") or
+            data.get("section_1_executive_summary", {}).get("year_overview") or
+            ""
+        )
+        
+        # 액션 플랜
+        action_plan = (
+            data.get("action_plan") or
+            legacy.get("action_plan") or
+            data.get("section_8_90day_sprint", {}).get("week_1_4", {}).get("actions") or
+            []
+        )
+        
+        # 좋은 시기
+        lucky_periods = (
+            data.get("lucky_periods") or
+            legacy.get("lucky_periods") or
+            data.get("section_7_monthly_calendar", {}).get("best_months") or
+            []
+        )
+        
+        # 주의 시기
+        caution_periods = (
+            data.get("caution_periods") or
+            legacy.get("caution_periods") or
+            data.get("section_7_monthly_calendar", {}).get("caution_months") or
+            []
+        )
+        
+        # 행운 요소
+        lucky_elements = (
+            data.get("lucky_elements") or
+            legacy.get("lucky_elements") or
+            data.get("section_9_lucky_elements")
+        )
+        if lucky_elements and isinstance(lucky_elements, dict):
+            # 새 구조면 레거시 형식으로 변환
+            if "lucky_colors" in lucky_elements:
+                lucky_elements = {
+                    "color": lucky_elements.get("lucky_colors", [""])[0] if lucky_elements.get("lucky_colors") else "",
+                    "direction": lucky_elements.get("lucky_directions", [""])[0] if lucky_elements.get("lucky_directions") else "",
+                    "number": lucky_elements.get("lucky_numbers", [""])[0] if lucky_elements.get("lucky_numbers") else ""
+                }
+        
+        # 축복 메시지
+        blessing = (
+            data.get("blessing") or
+            legacy.get("blessing") or
+            data.get("closing_message", {}).get("blessing") or
+            f"{name}님, 2026년 큰 성취를 응원합니다!"
+        )
+        
         return {
             "success": True,
-            "summary": data.get("summary", "Analysis complete"),
-            "day_master_analysis": data.get("day_master_analysis", ""),
-            "strengths": data.get("strengths", []),
-            "risks": data.get("risks", []),
-            "answer": data.get("answer", ""),
-            "action_plan": data.get("action_plan", []),
-            "lucky_periods": data.get("lucky_periods", []),
-            "caution_periods": data.get("caution_periods", []),
-            "lucky_elements": data.get("lucky_elements"),
-            "blessing": data.get("blessing", f"{name}, good luck!"),
-            "disclaimer": "For entertainment only."
+            "summary": summary,
+            "structure": data,  # 30페이지 전체 구조 저장
+            "day_master_analysis": day_master_analysis,
+            "strengths": strengths if isinstance(strengths, list) else [strengths],
+            "risks": risks if isinstance(risks, list) else [risks],
+            "answer": answer,
+            "action_plan": action_plan if isinstance(action_plan, list) else [action_plan],
+            "lucky_periods": lucky_periods if isinstance(lucky_periods, list) else [lucky_periods],
+            "caution_periods": caution_periods if isinstance(caution_periods, list) else [caution_periods],
+            "lucky_elements": lucky_elements,
+            "blessing": blessing,
+            "disclaimer": data.get("disclaimer", "오락/참고 목적으로 제공되며, 전문적 조언을 대체하지 않습니다.")
         }
 
     def _fallback(self, name: str, error_code: str = "UNKNOWN", error_msg: str = "") -> InterpretResponse:

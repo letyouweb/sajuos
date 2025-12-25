@@ -24,13 +24,13 @@ class Settings(BaseSettings):
     port: int = 8000
     debug: bool = False
     
-    # Token Limits
-    max_output_tokens: int = 2000
-    max_input_tokens: int = 4000
+    # Token Limits (30페이지 보고서용)
+    max_output_tokens: int = 12000  # ~6000자 = 15페이지+
+    max_input_tokens: int = 8000
     
-    # Retry Settings
+    # Retry Settings (30페이지 보고서용 타임아웃 증가)
     sajuos_max_retries: int = 3
-    sajuos_timeout: int = 90
+    sajuos_timeout: int = 180  # 3분 (긴 보고서 생성 대응)
     sajuos_retry_base_delay: float = 1.0
     sajuos_retry_max_delay: float = 30.0
     
