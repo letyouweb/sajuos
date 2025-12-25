@@ -4,7 +4,6 @@
 """
 from fastapi import APIRouter, HTTPException, Request, Query
 from typing import Optional
-import re
 import logging
 
 from app.models.schemas import (
@@ -27,17 +26,6 @@ router = APIRouter()
 
 
 # ============ 2026 컨텍스트 강제 ============
-
-def _extract_year_from_question(text: str) -> Optional[int]:
-    """질문에서 연도 추출"""
-    m = re.search(r"(19|20)\d{2}", text or "")
-    if not m:
-        return None
-    y = int(m.group(0))
-    if 1900 <= y <= 2099:
-        return y
-    return None
-
 
 def inject_year_context(question: str, target_year: int) -> str:
     """
@@ -132,10 +120,10 @@ async def interpret_saju(
         question = f"{question}\n\n[featureTags] {', '.join(ft['tags'][:24])}\n\n{rule_context}"
         logger.info(f"[PremiumMode] Type2 | featureTags={len(ft['tags'])} sections={len(selection.get('sections', []))}")
 
-    # 2026 컨텍스트 강제: target_year 기준
-    target_year = payload.target_year or 2026
-    q_year = _extract_year_from_question(question)
-    final_year = q_year or target_year
+    # 2026 신년운세: target_year 항상 우선 (기본 2026)
+    # - payload.target_year가 명시되면 그걸 사용
+    # - 없으면 2026 고정 (신년운세 상품)
+    final_year = payload.target_year if payload.target_year else 2026
     
     question_with_context = inject_year_context(question, final_year)
     logger.info(f"[INTERPRET] TargetYear={final_year} | Mode={mode}")

@@ -91,12 +91,31 @@ class CalculationError(Exception):
 # ============ 간지 정규화 (가짜 mismatch 방지) ============
 
 def _norm_ganji(x) -> str:
-    """간지 문자열 정규화 - invisible chars 제거"""
+    """
+    간지 문자열 정규화
+    - KASI: '무인(戊寅)' → '무인'
+    - ephem: '무인' → '무인'
+    - 괄호+한자, invisible chars 제거
+    """
     s = str(x)
+    
+    # 1. 괄호와 그 안의 내용 제거: '무인(戊寅)' → '무인'
+    s = re.sub(r"\([^)]*\)", "", s)
+    
+    # 2. invisible chars 제거
     s = s.replace("\u200b", "")  # zero-width space
     s = s.replace("\ufeff", "")  # BOM
     s = s.replace("\xa0", "")    # NBSP
-    return re.sub(r"\s+", "", s)  # all whitespace
+    
+    # 3. 모든 공백 제거
+    s = re.sub(r"\s+", "", s)
+    
+    # 4. 한글 간지만 추출 (2글자)
+    hangul_match = re.search(r"[가-힣]{2}", s)
+    if hangul_match:
+        return hangul_match.group(0)
+    
+    return s.strip()
 
 
 class SajuManager:
