@@ -143,7 +143,7 @@ async def calculate_saju(
         return CalculateResponse(**response_data)
         
     except CalculationError as e:
-        logger.error(f"Calculation error: {e}")
+        logger.error(f"Calculation error: {type(e).__name__}")
         raise HTTPException(
             status_code=500,
             detail={
@@ -153,7 +153,7 @@ async def calculate_saju(
             }
         )
     except Exception as e:
-        logger.error(f"Unexpected error: {e}")
+        logger.error(f"Unexpected error: {type(e).__name__}")
         raise HTTPException(
             status_code=500,
             detail={

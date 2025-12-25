@@ -1,52 +1,59 @@
 """
-사주 AI 서비스 설정
+Saju AI Service Settings
 """
 from pydantic_settings import BaseSettings
-from functools import lru_cache
 from typing import List
-import re
+import os
 
 
 class Settings(BaseSettings):
     # OpenAI
     openai_api_key: str = ""
-    openai_model: str = "gpt-4o"  # 안정적인 최신 모델
+    openai_model: str = "gpt-4o"
     
     @property
     def clean_openai_api_key(self) -> str:
-        """API 키에서 공백, 줄바꿈 등 제거"""
-        return self.openai_api_key.strip().replace('\n', '').replace('\r', '').replace('#n', '')
+        """Clean API key"""
+        return self.openai_api_key.strip().replace('\n', '').replace('\r', '')
     
-    # KASI (한국천문연구원) API
+    # KASI API
     kasi_api_key: str = ""
     
     # Server
     host: str = "0.0.0.0"
     port: int = 8000
-    debug: bool = False  # 프로덕션에서는 False
+    debug: bool = False
     
-    # Token Limits (비용 통제)
-    max_output_tokens: int = 1200
-    max_input_tokens: int = 2000
+    # Token Limits
+    max_output_tokens: int = 2000
+    max_input_tokens: int = 4000
+    
+    # Retry Settings
+    sajuos_max_retries: int = 3
+    sajuos_timeout: int = 90
+    sajuos_retry_base_delay: float = 1.0
+    sajuos_retry_max_delay: float = 30.0
     
     # Cache
-    cache_ttl_seconds: int = 86400  # 24시간
+    cache_ttl_seconds: int = 86400
     cache_max_size: int = 10000
     
-    # CORS - 프로덕션 도메인 포함
-    # Vercel 프리뷰 URL도 허용하려면 환경변수에 추가
+    # CORS
     allowed_origins: str = "http://localhost:3000,https://sajuos.com,https://www.sajuos.com"
     
     @property
     def allowed_origins_list(self) -> List[str]:
-        origins = [origin.strip() for origin in self.allowed_origins.split(",")]
-        return origins
+        return [origin.strip() for origin in self.allowed_origins.split(",")]
+    
+    # Debug Mode
+    debug_show_refs: bool = False
     
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"
+        extra = "ignore"
 
 
-@lru_cache()
+# No cache - fresh settings each time
 def get_settings() -> Settings:
     return Settings()
