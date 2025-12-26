@@ -25,8 +25,6 @@ function getApiBaseUrl(): string {
       console.warn('⚠️ NEXT_PUBLIC_API_URL 미설정 → localhost:8000 사용');
       return 'http://localhost:8000';
     }
-    // 프로덕션 fallback
-    console.error('❌ NEXT_PUBLIC_API_URL 환경변수 미설정!');
     return 'https://api.sajuos.com';
   }
   
@@ -108,23 +106,25 @@ export async function calculateSaju(
 }
 
 /**
- * 사주 해석 API
- * POST /api/v1/interpret
+ * 프리미엄 30페이지 보고서 생성 API
+ * POST /api/v1/generate-report
+ * 
+ * 7개 섹션 병렬 생성 (약 2~3분 소요)
  */
 export async function interpretSaju(
   data: InterpretRequest
 ): Promise<InterpretResponse> {
   const result = await fetchApi<InterpretResponse>(
-    '/api/v1/generate-report', // 기존 /interpret 에서 변경
+    '/api/v1/generate-report',
     { 
       method: 'POST', 
       body: data, 
-      timeout: 90000 // 리포트 생성이므로 타임아웃 넉넉히 90초
+      timeout: 300000 // 5분 (7섹션 병렬 생성 대응)
     }
   );
   
-  // 서버에서 fallback 응답이 올 경우 에러 처리
-  if (result.model_used === 'fallback') {
+  // 레거시 폴백 응답 체크
+  if ((result as any).model_used === 'fallback') {
     throw new Error('AI 해석 서비스에 일시적인 문제가 발생했습니다. 잠시 후 다시 시도해주세요.');
   }
   

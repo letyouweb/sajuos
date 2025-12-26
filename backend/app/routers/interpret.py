@@ -1,9 +1,11 @@
 """
-/interpret endpoint - Production Ready
-- 2026 신년운세: target_year 강제 컨텍스트
+/interpret endpoint - Premium Report Builder
+- 7개 섹션 병렬 생성 (Chaining)
+- 2026 신년운세 기준
 - RuleCards 8,500장 데이터 자동 활용
 """
 from fastapi import APIRouter, HTTPException, Request, Query
+from fastapi.responses import JSONResponse
 from typing import Optional
 import logging
 
@@ -14,6 +16,7 @@ from app.models.schemas import (
     ConcernType
 )
 from app.services.gpt_interpreter import gpt_interpreter
+from app.services.report_builder import report_builder, SECTION_SPECS
 from app.services.engine_v2 import SajuManager
 
 # RuleCard pipeline
@@ -29,9 +32,7 @@ router = APIRouter()
 # ============ 2026 컨텍스트 강제 ============
 
 def inject_year_context(question: str, target_year: int) -> str:
-    """
-    2026 신년운세용: 연도 강제 컨텍스트 주입
-    """
+    """2026 신년운세용: 연도 강제 컨텍스트 주입"""
     return f"""[분석 기준 고정]
 - 이 분석은 반드시 {target_year}년 1월~12월 기준으로만 작성합니다.
 - 월별 운세/좋은 시기/조심할 시기는 {target_year}년 달력 흐름으로 제시합니다.
@@ -41,7 +42,65 @@ def inject_year_context(question: str, target_year: int) -> str:
 {question}""".strip()
 
 
-# ============ RuleCards 컨텍스트 생성 ============
+# ============ Helper Functions ============
+
+def _get_pillar_ganji(pillar_data) -> str:
+    """사주 기둥에서 간지 문자열 추출"""
+    if isinstance(pillar_data, dict):
+        if pillar_data.get("ganji"):
+            return pillar_data["ganji"]
+        gan = pillar_data.get("gan", "")
+        ji = pillar_data.get("ji", "")
+        if gan and ji:
+            return gan + ji
+        return ""
+    elif isinstance(pillar_data, str):
+        return pillar_data
+    return ""
+
+
+def _extract_pillars_from_saju_data(saju_data: dict) -> tuple:
+    """사주 데이터에서 연/월/일 간지 추출"""
+    if "saju" in saju_data and isinstance(saju_data["saju"], dict):
+        saju = saju_data["saju"]
+        year_p = _get_pillar_ganji(saju.get("year_pillar", {}))
+        month_p = _get_pillar_ganji(saju.get("month_pillar", {}))
+        day_p = _get_pillar_ganji(saju.get("day_pillar", {}))
+        return year_p, month_p, day_p
+    
+    year_p = _get_pillar_ganji(saju_data.get("year_pillar", saju_data.get("year", "")))
+    month_p = _get_pillar_ganji(saju_data.get("month_pillar", saju_data.get("month", "")))
+    day_p = _get_pillar_ganji(saju_data.get("day_pillar", saju_data.get("day", "")))
+    
+    return year_p, month_p, day_p
+
+
+def _get_all_rulecards(saju_data: dict, store, target_year: int) -> list:
+    """사주 데이터에 맞는 전체 RuleCards 반환"""
+    year_p, month_p, day_p = _extract_pillars_from_saju_data(saju_data)
+    
+    logger.info(f"[RuleCards] 추출된 기둥: 년={year_p}, 월={month_p}, 일={day_p}")
+    
+    if not (year_p and month_p and day_p):
+        logger.warning("[RuleCards] 사주 기둥 데이터 부족")
+        return []
+    
+    # Feature Tags 생성
+    ft = build_feature_tags_no_time_from_pillars(year_p, month_p, day_p, overlay_year=target_year)
+    feature_tags = ft.get("tags", [])
+    
+    # Preset 부스트 및 카드 선택
+    boosted = boost_preset_focus(BUSINESS_OWNER_PRESET_V2, feature_tags)
+    selection = select_cards_for_preset(store, boosted, feature_tags)
+    
+    # 모든 카드 수집
+    all_cards = []
+    for sec in selection.get("sections", []):
+        all_cards.extend(sec.get("cards", []))
+    
+    logger.info(f"[RuleCards] ✅ 총 {len(all_cards)}장 수집")
+    return all_cards
+
 
 def _compress_rulecards_for_prompt(selection: dict, max_cards_per_section: int = 8) -> str:
     """RuleCards를 GPT 프롬프트용으로 압축"""
@@ -84,58 +143,8 @@ def _compress_rulecards_for_prompt(selection: dict, max_cards_per_section: int =
     return "\n".join(lines)
 
 
-def _get_pillar_ganji(pillar_data) -> str:
-    """
-    사주 기둥에서 간지 문자열 추출
-    - Pillar dict: {"gan": "무", "ji": "인", "ganji": "무인", ...} → '무인'
-    - str: '무인' → '무인'
-    """
-    if isinstance(pillar_data, dict):
-        # ganji 필드 우선
-        if pillar_data.get("ganji"):
-            return pillar_data["ganji"]
-        # gan + ji 조합
-        gan = pillar_data.get("gan", "")
-        ji = pillar_data.get("ji", "")
-        if gan and ji:
-            return gan + ji
-        return ""
-    elif isinstance(pillar_data, str):
-        return pillar_data
-    return ""
-
-
-def _extract_pillars_from_saju_data(saju_data: dict) -> tuple:
-    """
-    사주 데이터에서 연/월/일 간지 추출
-    
-    지원 구조:
-    1. saju_result.saju.year_pillar.ganji (프론트엔드 전체 구조)
-    2. saju_data.year_pillar.ganji (saju 서브필드)
-    3. saju_data.year_pillar (문자열)
-    """
-    # Case 1: saju 서브필드가 있는 경우 (saju_result.saju)
-    if "saju" in saju_data and isinstance(saju_data["saju"], dict):
-        saju = saju_data["saju"]
-        year_p = _get_pillar_ganji(saju.get("year_pillar", {}))
-        month_p = _get_pillar_ganji(saju.get("month_pillar", {}))
-        day_p = _get_pillar_ganji(saju.get("day_pillar", {}))
-        return year_p, month_p, day_p
-    
-    # Case 2: 직접 year_pillar 필드 (문자열 또는 dict)
-    year_p = _get_pillar_ganji(saju_data.get("year_pillar", saju_data.get("year", "")))
-    month_p = _get_pillar_ganji(saju_data.get("month_pillar", saju_data.get("month", "")))
-    day_p = _get_pillar_ganji(saju_data.get("day_pillar", saju_data.get("day", "")))
-    
-    return year_p, month_p, day_p
-
-
 def build_rulecards_context(saju_data: dict, store, target_year: int = 2026) -> tuple:
-    """
-    사주 데이터에서 RuleCards 컨텍스트 생성
-    Returns: (context_string, feature_tags_list, cards_count)
-    """
-    # 사주 기둥 추출 (다양한 구조 지원)
+    """사주 데이터에서 RuleCards 컨텍스트 생성"""
     year_p, month_p, day_p = _extract_pillars_from_saju_data(saju_data)
     
     logger.info(f"[RuleCards] 추출된 기둥: 년={year_p}, 월={month_p}, 일={day_p}")
@@ -144,36 +153,33 @@ def build_rulecards_context(saju_data: dict, store, target_year: int = 2026) -> 
         logger.warning("[RuleCards] 사주 기둥 데이터 부족")
         return "", [], 0
     
-    # Feature Tags 생성
     ft = build_feature_tags_no_time_from_pillars(year_p, month_p, day_p, overlay_year=target_year)
     feature_tags = ft.get("tags", [])
     
-    # Preset 부스트 및 카드 선택
     boosted = boost_preset_focus(BUSINESS_OWNER_PRESET_V2, feature_tags)
     selection = select_cards_for_preset(store, boosted, feature_tags)
     
-    # 컨텍스트 압축
     context = _compress_rulecards_for_prompt(selection)
-    
-    # 총 카드 수 계산
     total_cards = sum(len(sec.get("cards", [])) for sec in selection.get("sections", []))
     
     return context, feature_tags, total_cards
 
 
+# ============ API Endpoints ============
+
 @router.post(
     "/interpret",
     response_model=InterpretResponse,
     responses={400: {"model": ErrorResponse}, 500: {"model": ErrorResponse}},
-    summary="Saju Interpretation (RuleCards 자동 적용)"
+    summary="Saju Interpretation (Legacy, RuleCards 자동 적용)"
 )
 async def interpret_saju(
     payload: InterpretRequest,
     raw: Request,
-    mode: str = Query("auto", description="auto | direct (auto=RuleCards 자동 적용)")
+    mode: str = Query("auto", description="auto | direct | sectioned")
 ):
     """
-    사주 해석 API
+    사주 해석 API (Legacy 단일 호출)
     - 8,500장 RuleCards 데이터 자동 활용
     - 2026년 신년운세 기준
     """
@@ -195,11 +201,8 @@ async def interpret_saju(
         }
 
     question = payload.question
-    
-    # 2026 신년운세: target_year 항상 우선 (기본 2026)
     final_year = payload.target_year if payload.target_year else 2026
     
-    # RuleCards 컨텍스트 생성 (자동)
     store = getattr(raw.app.state, "rulestore", None)
     rulecards_context = ""
     feature_tags = []
@@ -215,15 +218,8 @@ async def interpret_saju(
                 logger.info(f"[RuleCards] ✅ 적용: {cards_count}장, featureTags={len(feature_tags)}")
         except Exception as e:
             logger.warning(f"[RuleCards] 컨텍스트 생성 실패: {e}")
-    else:
-        if not store:
-            logger.warning("[RuleCards] ⚠️ RuleStore 미로드 - direct 모드로 진행")
-        else:
-            logger.info("[RuleCards] direct 모드 - RuleCards 미적용")
     
-    # 연도 컨텍스트 주입
     question_with_context = inject_year_context(question, final_year)
-    
     logger.info(f"[INTERPRET] TargetYear={final_year} | Mode={mode} | RuleCards={cards_count}장")
 
     try:
@@ -242,17 +238,88 @@ async def interpret_saju(
 
 @router.post(
     "/generate-report",
-    response_model=InterpretResponse,
     responses={400: {"model": ErrorResponse}, 500: {"model": ErrorResponse}},
-    summary="Generate Saju Report (RuleCards 자동 적용)"
+    summary="프리미엄 30페이지 보고서 생성 (7섹션 병렬)"
 )
 async def generate_report(
     payload: InterpretRequest,
     raw: Request,
-    mode: str = Query("auto", description="auto | direct")
+    mode: str = Query("sectioned", description="sectioned | legacy")
 ):
-    """Generate Saju Report - Alias endpoint for /interpret"""
-    return await interpret_saju(payload, raw, mode)
+    """
+    프리미엄 비즈니스 컨설팅 보고서 생성
+    
+    - 7개 섹션 병렬 생성 (Chaining)
+    - 섹션별 룰카드 분배
+    - 30페이지급 상세 분석
+    
+    **섹션 구성:**
+    1. Executive Summary (2p)
+    2. Money & Cashflow (5p)
+    3. Business Strategy (5p)
+    4. Team & Partner Risk (4p)
+    5. Health & Performance (3p)
+    6. 12-Month Calendar (6p)
+    7. 90-Day Sprint Plan (5p)
+    """
+    # Legacy 모드면 기존 로직 사용
+    if mode == "legacy":
+        return await interpret_saju(payload, raw, "auto")
+    
+    # 사주 데이터 추출
+    saju_data = {}
+    if payload.saju_result:
+        saju_data = payload.saju_result.model_dump()
+    else:
+        if not all([payload.year_pillar, payload.month_pillar, payload.day_pillar]):
+            raise HTTPException(
+                status_code=400,
+                detail={"error_code": "MISSING_SAJU_DATA", "message": "Saju data required"}
+            )
+        saju_data = {
+            "year_pillar": payload.year_pillar,
+            "month_pillar": payload.month_pillar,
+            "day_pillar": payload.day_pillar,
+            "hour_pillar": payload.hour_pillar,
+            "day_master": payload.day_pillar[0] if payload.day_pillar else "",
+            "day_master_element": ""
+        }
+    
+    final_year = payload.target_year if payload.target_year else 2026
+    
+    # RuleCards 로드
+    store = getattr(raw.app.state, "rulestore", None)
+    rulecards = []
+    
+    if store:
+        try:
+            rulecards = _get_all_rulecards(saju_data, store, final_year)
+        except Exception as e:
+            logger.warning(f"[ReportBuilder] RuleCards 로드 실패: {e}")
+    else:
+        logger.warning("[ReportBuilder] ⚠️ RuleStore 미로드")
+    
+    logger.info(f"[GENERATE-REPORT] Year={final_year} | RuleCards={len(rulecards)} | Mode={mode}")
+    
+    try:
+        # 7섹션 병렬 생성
+        report = await report_builder.build_report(
+            saju_data=saju_data,
+            rulecards=rulecards,
+            target_year=final_year,
+            user_question=payload.question,
+            name=payload.name
+        )
+        
+        # 전체 JSON 반환 (프론트에서 렌더링 가능한 구조)
+        return JSONResponse(content=report)
+        
+    except Exception as e:
+        logger.error(f"[GENERATE-REPORT] Error: {type(e).__name__}: {str(e)[:200]}")
+        raise HTTPException(
+            status_code=500,
+            detail={"error_code": "REPORT_GENERATION_ERROR", "message": str(e)[:200]}
+        )
 
 
 @router.get("/interpret/today", summary="Today Date")
@@ -301,6 +368,24 @@ async def get_rulecards_status(raw: Request):
         "total_cards": 0,
         "topics": [],
         "topics_count": 0
+    }
+
+
+@router.get("/interpret/report-sections", summary="Report Sections Info")
+async def get_report_sections():
+    """프리미엄 리포트 섹션 정보"""
+    return {
+        "sections": [
+            {
+                "id": spec["id"],
+                "title": spec["title"],
+                "pages": spec["pages"],
+                "rulecard_quota": spec["rulecard_quota"],
+                "topics": spec["topics"]
+            }
+            for spec in SECTION_SPECS.values()
+        ],
+        "total_pages": sum(s["pages"] for s in SECTION_SPECS.values())
     }
 
 

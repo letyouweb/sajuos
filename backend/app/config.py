@@ -24,13 +24,28 @@ class Settings(BaseSettings):
     port: int = 8000
     debug: bool = False
     
-    # Token Limits (30페이지 보고서용)
-    max_output_tokens: int = 12000  # ~6000자 = 15페이지+
+    # ============ 30페이지 프리미엄 리포트 설정 ============
+    
+    # 섹션별 토큰 제한
+    report_section_max_output_tokens: int = 4000  # 섹션당 최대 출력 토큰
+    report_section_max_rulecards: int = 60  # 섹션당 최대 룰카드 수
+    
+    # 병렬 처리 설정
+    report_max_concurrency: int = 3  # 동시 GPT 호출 수 (레이트리밋 방지)
+    report_section_timeout: int = 60  # 섹션당 타임아웃 (초)
+    report_total_timeout: int = 300  # 전체 리포트 타임아웃 (5분)
+    
+    # 폴백 설정
+    report_enable_fallback: bool = True  # 실패 시 폴백 활성화
+    report_fallback_short_mode: bool = True  # 짧은 모드 재시도
+    
+    # 레거시 호환 (단일 호출 모드)
+    max_output_tokens: int = 12000
     max_input_tokens: int = 8000
     
-    # Retry Settings (30페이지 보고서용 타임아웃 증가)
+    # Retry Settings
     sajuos_max_retries: int = 3
-    sajuos_timeout: int = 180  # 3분 (긴 보고서 생성 대응)
+    sajuos_timeout: int = 180
     sajuos_retry_base_delay: float = 1.0
     sajuos_retry_max_delay: float = 30.0
     
