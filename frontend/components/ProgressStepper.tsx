@@ -42,12 +42,36 @@ const formatEta = (progress: number): string => {
 const getStatusText = (status: string): string => {
   const statusMap: Record<string, string> = {
     pending: '대기 중',
-    generating: '생성 중',
+    generating: '분석 중',
     completed: '완료',
     failed: '실패',
     skipped: '스킵됨',
   };
   return statusMap[status] || status;
+};
+
+// 🔥 프리미엄 진행 메시지 변환
+const getPremiumStepMessage = (step: string, sectionId?: string): string => {
+  // 섹션별 프리미엄 메시지
+  const sectionMessages: Record<string, string> = {
+    'exec': '🎯 경영진 요약 - 핵심 인사이트 도출 중...',
+    'money': '💰 재물운 분석 - 현금흐름 최적화 전략 수립 중...',
+    'business': '📈 사업 전략 - 2026 성장 로드맵 설계 중...',
+    'team': '👥 팀/파트너십 - 인재 운용 전략 분석 중...',
+    'health': '⚡ 컨디션 관리 - 에너지 최적화 구간 분석 중...',
+    'calendar': '📅 월별 액션 캘린더 - 골든타임 계산 중...',
+    'sprint': '🚀 90일 스프린트 - 우선순위 체크리스트 생성 중...',
+  };
+  
+  if (sectionId && sectionMessages[sectionId]) {
+    return sectionMessages[sectionId];
+  }
+  
+  // 기본 메시지 변환
+  if (step.includes('초기화')) return '🔮 8,543장 룰카드 중 최적 100장 선별 중...';
+  if (step.includes('RuleCards')) return '🔮 사주 데이터 기반 룰카드 매칭 중...';
+  
+  return step || '준비 중...';
 };
 
 const getStatusColor = (status: string): string => {
@@ -86,7 +110,7 @@ export function useReportPolling(
     const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
     
     try {
-      const response = await fetch(`${apiUrl}/api/reports/${reportId}/status`);
+      const response = await fetch(`${apiUrl}/api/v1/reports/${reportId}/status`);  // 🔥 통일
       
       if (!response.ok) {
         throw new Error(`상태 조회 실패: ${response.status}`);
@@ -104,7 +128,7 @@ export function useReportPolling(
         }
         
         // 결과 조회
-        const resultResponse = await fetch(`${apiUrl}/api/reports/${reportId}/result`);
+        const resultResponse = await fetch(`${apiUrl}/api/v1/reports/${reportId}/result`);  // 🔥 통일
         const resultData = await resultResponse.json();
         
         if (resultData.completed && resultData.result) {
@@ -282,7 +306,7 @@ export default function ProgressStepper({ reportId, onComplete, onError }: Progr
         {/* 현재 상태 + ETA */}
         <div className="flex items-center justify-between mt-3 text-sm">
           <div className="text-purple-100">
-            {current_step || '준비 중...'}
+            {getPremiumStepMessage(current_step, activeSection?.id)}
           </div>
           <div className="text-purple-200">
             {progress < 100 ? `남은 시간: ${formatEta(progress)}` : '완료!'}
@@ -308,10 +332,10 @@ export default function ProgressStepper({ reportId, onComplete, onError }: Progr
         <div className="flex items-start gap-3 text-sm text-slate-600">
           <span className="text-lg">💡</span>
           <div>
-            <p className="font-medium">잠깐! 창을 닫아도 괜찮아요</p>
+            <p className="font-medium">서버에서 생성 중입니다</p>
             <p className="text-slate-500 mt-1">
-              백그라운드에서 생성 중입니다. 완료되면 이메일로 알려드려요.
-              <br />같은 링크로 언제든 다시 확인할 수 있습니다.
+              창을 닫아도 백그라운드에서 계속 진행됩니다.
+              <br />완료되면 <strong>이메일로 결과 링크</strong>를 보내드려요.
             </p>
           </div>
         </div>
