@@ -143,4 +143,8 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+    import os
+    # Railway가 주입해주는 PORT 변수를 읽어옵니다. 없으면 기본값 8080 사용.
+    port = int(os.environ.get("PORT", 8080))
+    # host는 반드시 "0.0.0.0"이어야 외부(Railway)에서 접근 가능합니다.
+    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=False)
