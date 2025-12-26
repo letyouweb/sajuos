@@ -1,18 +1,23 @@
 """
-Saju AI Service - FastAPI Main App
+Saju AI Service - FastAPI Main App v3
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+P0 요구사항:
+- /health: 외부 의존성 0, 즉시 OK
+- /ready: 준비상태 체크 (OpenAI/RuleCards/Supabase)
+- 포트: PORT 환경변수, 기본 8080
+- Supabase: Lazy-init (import 시점 초기화 금지)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
+import os
+import logging
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from contextlib import asynccontextmanager
-import logging
-import re
 
 from app.config import get_settings
 from app.routers import calculate, interpret, reports
-from app.services.openai_key import get_openai_api_key, key_fingerprint, key_tail
-from app.services.rulecards_store import RuleCardStore
-from app.services.supabase_client import is_supabase_available
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,69 +26,60 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def is_allowed_origin(origin: str, allowed_origins: list) -> bool:
-    if not origin:
-        return False
-    if origin in allowed_origins:
-        return True
-    if origin.endswith('.vercel.app') and origin.startswith('https://'):
-        return True
-    return False
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info("Saju AI Service starting...")
+    """서버 시작/종료 시 실행"""
+    logger.info("🚀 Saju AI Service starting...")
     settings = get_settings()
     
-    # OpenAI API Key 확인
+    # 1. OpenAI API Key 확인 (lazy하지 않음 - 필수)
+    app.state.openai_ready = False
     try:
+        from app.services.openai_key import get_openai_api_key, key_fingerprint, key_tail
         key = get_openai_api_key()
-        logger.info("OPENAI key fp=%s tail=%s", key_fingerprint(key), key_tail(key))
-        logger.info(f"Model: {settings.openai_model}")
+        logger.info(f"✅ OPENAI key fp={key_fingerprint(key)} tail={key_tail(key)}")
+        logger.info(f"✅ Model: {settings.openai_model}")
         app.state.openai_ready = True
-    except RuntimeError as e:
-        logger.error(f"OPENAI_API_KEY error: {e}")
-        app.state.openai_ready = False
+    except Exception as e:
+        logger.error(f"❌ OPENAI_API_KEY error: {e}")
     
-    # RuleCards 로드 (8,500장 사주 데이터)
+    # 2. RuleCards 로드 (시작 시 필수)
+    app.state.rulestore = None
     try:
-        import os
+        from app.services.rulecards_store import RuleCardStore
         
-        # 여러 경로 시도 (Railway/로컬 호환)
-        base_dir = os.path.dirname(os.path.dirname(__file__))  # backend/
+        base_dir = os.path.dirname(os.path.dirname(__file__))
         possible_paths = [
             os.path.join(base_dir, "data", "sajuos_master_db.jsonl"),
             os.path.join(os.getcwd(), "data", "sajuos_master_db.jsonl"),
-            "/app/data/sajuos_master_db.jsonl",  # Docker/Railway
-            "data/sajuos_master_db.jsonl",  # 상대 경로
+            "/app/data/sajuos_master_db.jsonl",
+            "data/sajuos_master_db.jsonl",
         ]
         
-        rulecards_path = None
         for p in possible_paths:
             if os.path.exists(p):
-                rulecards_path = p
+                rulestore = RuleCardStore(p)
+                rulestore.load()
+                app.state.rulestore = rulestore
+                logger.info(f"✅ RuleCards 로드 완료: {len(rulestore.cards)}장")
                 break
         
-        if not rulecards_path:
-            logger.error(f"❌ RuleCards 파일 없음. 시도한 경로: {possible_paths}")
-            app.state.rulestore = None
-        else:
-            rulestore = RuleCardStore(rulecards_path)
-            rulestore.load()
-            app.state.rulestore = rulestore
-            logger.info(f"✅ RuleCards 로드 완료: {len(rulestore.cards)}장, topics={len(rulestore.by_topic)}, path={rulecards_path}")
+        if not app.state.rulestore:
+            logger.error(f"❌ RuleCards 파일 없음")
     except Exception as e:
         logger.error(f"❌ RuleCards 로드 실패: {e}")
-        app.state.rulestore = None
     
-    # Supabase 상태 저장
-    app.state.supabase_ready = is_supabase_available()
+    # 3. Supabase 상태 체크 (Lazy-init - 실제 호출 시에만 연결)
+    app.state.supabase_configured = bool(
+        settings.supabase_url and settings.supabase_service_role_key
+    )
+    if app.state.supabase_configured:
+        logger.info("✅ Supabase 환경변수 설정됨 (Lazy-init)")
+    else:
+        logger.warning("⚠️ Supabase 환경변수 없음")
     
-    logger.info(f"CORS origins: {settings.allowed_origins_list}")
-    
-    # 🔥 서버 시작 시 미완료 Job 복구 (컨테이너 재시작 대응)
-    if app.state.supabase_ready:
+    # 4. 서버 시작 시 미완료 Job 복구
+    if app.state.supabase_configured:
         try:
             from app.services.job_recovery import recover_interrupted_jobs
             recovered = await recover_interrupted_jobs(app.state.rulestore)
@@ -92,15 +88,21 @@ async def lifespan(app: FastAPI):
         except Exception as e:
             logger.warning(f"Job 복구 스킵: {e}")
     
+    logger.info(f"✅ CORS origins: {settings.allowed_origins_list}")
+    
     yield
     
-    logger.info("Saju AI Service stopped")
+    logger.info("👋 Saju AI Service stopped")
 
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# FastAPI App 생성
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 app = FastAPI(
     title="Saju AI Service",
-    description="AI-based Saju interpretation",
-    version="2.1.0",
+    description="99,000원 프리미엄 비즈니스 사주 컨설팅",
+    version="3.0.0",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc"
@@ -108,6 +110,7 @@ app = FastAPI(
 
 settings = get_settings()
 
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -116,32 +119,42 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 라우터 등록 (P0: 라우트 통일 + alias)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 기본 라우터
 app.include_router(calculate.router, prefix="/api/v1", tags=["Calculate"])
 app.include_router(interpret.router, prefix="/api/v1", tags=["Interpret"])
+
+# 🔥 프리미엄 리포트 라우터 (Primary + Aliases)
+# Primary: /api/v1/reports/*
 app.include_router(reports.router, prefix="/api/v1", tags=["Premium Reports"])
+
+# Alias 1: /api/reports/* (프론트 호환)
 app.include_router(reports.router, prefix="/api", tags=["Reports Alias"], include_in_schema=False)
 
 
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 시스템 엔드포인트
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 @app.get("/", tags=["System"])
 async def root():
+    """서비스 정보"""
     return {
         "service": "Saju AI Service",
-        "status": "running",
-        "version": "2.1.0",
-        "model": settings.openai_model,
-        "supabase": "connected" if is_supabase_available() else "not_configured"
+        "version": "3.0.0",
+        "status": "running"
     }
 
-
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 🔥 헬스체크 분리: /health (경량) vs /ready (준비상태)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.get("/health", tags=["System"])
 async def health_check():
     """
-    🏥 헬스체크 - 외부 의존성 0, 즉시 응답
-    Railway/K8s가 이걸로 컨테이너 살아있는지 확인
+    🏥 헬스체크 - 외부 의존성 0, 즉시 OK
+    Railway/K8s 컨테이너 상태 확인용
     """
     return {"status": "ok"}
 
@@ -149,21 +162,18 @@ async def health_check():
 @app.get("/ready", tags=["System"])
 async def readiness_check(request: Request):
     """
-    🚀 준비상태 체크 - 실제 서비스 가능 여부 확인
-    - OpenAI API Key 설정됨?
-    - RuleCards 로드됨?
-    - Supabase 연결됨?
+    🚀 준비상태 체크 - 실제 서비스 가능 여부
     """
     checks = {
         "openai": getattr(request.app.state, "openai_ready", False),
         "rulecards": request.app.state.rulestore is not None,
-        "supabase": getattr(request.app.state, "supabase_ready", False),
+        "supabase": getattr(request.app.state, "supabase_configured", False),
     }
     
     all_ready = all(checks.values())
+    rulecard_count = len(request.app.state.rulestore.cards) if request.app.state.rulestore else 0
     
     if all_ready:
-        rulecard_count = len(request.app.state.rulestore.cards) if request.app.state.rulestore else 0
         return {
             "status": "ready",
             "checks": checks,
@@ -172,37 +182,36 @@ async def readiness_check(request: Request):
     else:
         return JSONResponse(
             status_code=503,
-            content={
-                "status": "not_ready",
-                "checks": checks,
-                "message": "일부 서비스가 준비되지 않았습니다."
-            }
+            content={"status": "not_ready", "checks": checks}
         )
 
 
 @app.get("/env-check", tags=["System"])
 async def env_check():
+    """환경변수 설정 상태"""
     return {
         "openai_api_key": "SET" if settings.openai_api_key else "NOT_SET",
         "supabase_url": "SET" if settings.supabase_url else "NOT_SET",
         "supabase_key": "SET" if settings.supabase_service_role_key else "NOT_SET",
         "resend_key": "SET" if settings.resend_api_key else "NOT_SET",
         "model": settings.openai_model,
-        "allowed_origins": settings.allowed_origins_list
     }
 
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
-    logger.error(f"Exception: {type(exc).__name__}")
+    logger.error(f"Exception: {type(exc).__name__}: {str(exc)[:200]}")
     return JSONResponse(
         status_code=500,
         content={"success": False, "error": "Internal server error"}
     )
 
 
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 직접 실행 (Railway/Docker)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 if __name__ == "__main__":
     import uvicorn
-    import os
     port = int(os.environ.get("PORT", 8080))
     uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=False)
