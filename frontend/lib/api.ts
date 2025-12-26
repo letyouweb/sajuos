@@ -1,6 +1,7 @@
 /**
  * Railway 백엔드 API 통신 모듈
- * - 99,000원 프리미엄 리포트: 10분 타임아웃 (순차 처리)
+ * - 99,000원 프리미엄 리포트: SSE 스트리밍 지원
+ * - 실시간 진행 상태 + 재시도 표시
  */
 
 import type {
@@ -25,7 +26,7 @@ function getApiBaseUrl(): string {
   return url;
 }
 
-const API_BASE_URL = getApiBaseUrl();
+export const API_BASE_URL = getApiBaseUrl();
 
 // ============ 공통 Fetch ============
 
@@ -191,4 +192,55 @@ export async function testConnection(): Promise<{
       error: error instanceof Error ? error.message : '알 수 없는 오류'
     };
   }
+}
+
+
+// ============ 🔥 비동기 프리미엄 리포트 (SSE 지원) ============
+
+export interface AsyncReportResponse {
+  job_id: string;
+  status: 'queued';
+  stream_url: string;
+  result_url: string;
+  sections: { id: string; title: string }[];
+}
+
+/**
+ * 🔥 비동기 프리미엄 리포트 생성 시작
+ * - 즉시 job_id 반환 → SSE로 진행 상태 추적
+ */
+export async function startReportGeneration(
+  data: InterpretRequest
+): Promise<AsyncReportResponse> {
+  return fetchApi<AsyncReportResponse>(
+    '/api/v1/generate-report-async',
+    { method: 'POST', body: data, timeout: 30000 }
+  );
+}
+
+/**
+ * 리포트 결과 조회
+ */
+export async function getReportResult(jobId: string): Promise<any> {
+  return fetchApi<any>(
+    `/api/v1/report-result?job_id=${jobId}`,
+    { timeout: 10000 }
+  );
+}
+
+/**
+ * 진행 상태 폴링 (SSE 대안)
+ */
+export async function getReportProgress(jobId: string): Promise<any> {
+  return fetchApi<any>(
+    `/api/v1/report-progress?job_id=${jobId}`,
+    { timeout: 10000 }
+  );
+}
+
+/**
+ * SSE 스트리밍 URL 생성
+ */
+export function getStreamUrl(jobId: string): string {
+  return `${API_BASE_URL}/api/v1/report-progress/stream?job_id=${jobId}`;
 }

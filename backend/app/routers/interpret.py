@@ -4,12 +4,15 @@
 1) 룰카드 선택 엔진: featureTags + Top-100 RuleCards
 2) JSON Schema 강제: Responses API + json_schema(strict)
 3) 안정성: Semaphore(2), exponential backoff, regenerate-section
+4) 🔥 SSE 스트리밍: 실시간 진행 상태 + 재시도 표시
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
-from fastapi import APIRouter, HTTPException, Request, Query
-from fastapi.responses import JSONResponse
+from fastapi import APIRouter, HTTPException, Request, Query, BackgroundTasks
+from fastapi.responses import JSONResponse, StreamingResponse
 from typing import Optional, List
 import logging
+import asyncio
+import json
 
 from app.models.schemas import (
     InterpretRequest,
@@ -20,6 +23,7 @@ from app.models.schemas import (
 from app.services.gpt_interpreter import gpt_interpreter
 from app.services.report_builder import premium_report_builder, PREMIUM_SECTIONS
 from app.services.engine_v2 import SajuManager
+from app.services.job_store import job_store, JobStatus
 
 # RuleCard pipeline
 from app.services.feature_tags_no_time import build_feature_tags_no_time_from_pillars
@@ -466,3 +470,249 @@ async def test_gpt_connection():
         }
     except Exception as e:
         return {"success": False, "error_type": type(e).__name__, "error": str(e)[:200]}
+
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 🔥 SSE 스트리밍 API (실시간 진행 상태)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+async def _run_report_generation(
+    job_id: str,
+    saju_data: dict,
+    rulecards: list,
+    feature_tags: list,
+    target_year: int,
+    user_question: str,
+    name: str
+):
+    """백그라운드 리포트 생성 태스크"""
+    try:
+        await premium_report_builder.build_premium_report(
+            saju_data=saju_data,
+            rulecards=rulecards,
+            feature_tags=feature_tags,
+            target_year=target_year,
+            user_question=user_question,
+            name=name,
+            mode="premium_business_30p",
+            job_id=job_id
+        )
+    except Exception as e:
+        logger.error(f"[AsyncReport] Job {job_id} 실패: {e}")
+        await job_store.fail_job(job_id, str(e)[:500])
+
+
+@router.post(
+    "/generate-report-async",
+    responses={400: {"model": ErrorResponse}},
+    summary="🔥 비동기 프리미엄 보고서 생성 (SSE용)"
+)
+async def generate_report_async(
+    payload: InterpretRequest,
+    raw: Request,
+    background_tasks: BackgroundTasks
+):
+    """
+    🎯 비동기 프리미엄 리포트 생성 시작
+    
+    즉시 job_id 반환 → SSE로 진행 상태 스트리밍
+    
+    **응답:**
+    ```json
+    {
+      "job_id": "abc12345",
+      "status": "queued",
+      "stream_url": "/api/v1/report-progress/stream?job_id=abc12345",
+      "result_url": "/api/v1/report-result?job_id=abc12345"
+    }
+    ```
+    """
+    saju_data = _extract_saju_data_from_payload(payload)
+    final_year = payload.target_year if payload.target_year else 2026
+    
+    # RuleCards + FeatureTags 준비
+    store = getattr(raw.app.state, "rulestore", None)
+    rulecards = []
+    feature_tags = []
+    
+    if store:
+        try:
+            rulecards, feature_tags, _ = _get_rulecards_and_feature_tags(
+                saju_data, store, final_year
+            )
+        except Exception as e:
+            logger.warning(f"[AsyncReport] RuleCards 로드 실패: {e}")
+    
+    # Job 생성 (섹션 정보 포함)
+    section_specs = [(spec.id, spec.title) for spec in PREMIUM_SECTIONS.values()]
+    job_id = await job_store.create_job(section_specs)
+    
+    logger.info(f"[AsyncReport] Job 생성: {job_id} | Year={final_year}")
+    
+    # 백그라운드 태스크 등록
+    background_tasks.add_task(
+        _run_report_generation,
+        job_id=job_id,
+        saju_data=saju_data,
+        rulecards=rulecards,
+        feature_tags=feature_tags,
+        target_year=final_year,
+        user_question=payload.question,
+        name=payload.name
+    )
+    
+    return JSONResponse(content={
+        "job_id": job_id,
+        "status": "queued",
+        "stream_url": f"/api/v1/report-progress/stream?job_id={job_id}",
+        "result_url": f"/api/v1/report-result?job_id={job_id}",
+        "sections": [{"id": s.id, "title": s.title} for s in PREMIUM_SECTIONS.values()]
+    })
+
+
+@router.get(
+    "/report-progress/stream",
+    summary="🔥 SSE 진행 상태 스트리밍"
+)
+async def stream_report_progress(
+    job_id: str = Query(..., description="Job ID")
+):
+    """
+    🎯 SSE(Server-Sent Events) 실시간 진행 상태 스트리밍
+    
+    **이벤트 형식:**
+    ```
+    event: progress
+    data: {"job_id":"abc","overall":{"total":7,"done":3,"percent":42},...}
+    
+    event: complete
+    data: {"job_id":"abc"}
+    ```
+    
+    **프론트엔드 사용 예:**
+    ```javascript
+    const evtSource = new EventSource('/api/v1/report-progress/stream?job_id=abc');
+    evtSource.addEventListener('progress', (e) => {
+      const data = JSON.parse(e.data);
+      console.log('진행률:', data.overall.percent);
+    });
+    evtSource.addEventListener('complete', () => {
+      evtSource.close();
+      // 결과 fetch
+    });
+    ```
+    """
+    job = await job_store.get_job(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail=f"Job not found: {job_id}")
+    
+    async def event_generator():
+        queue = await job_store.subscribe(job_id)
+        
+        try:
+            # 초기 상태 전송
+            initial = (await job_store.get_job(job_id))
+            if initial:
+                yield f"event: progress\ndata: {json.dumps(initial.to_dict())}\n\n"
+            
+            while True:
+                try:
+                    # 5초 타임아웃으로 이벤트 대기
+                    data = await asyncio.wait_for(queue.get(), timeout=5.0)
+                    
+                    # 완료 신호 확인
+                    if isinstance(data, dict) and data.get("type") == "complete":
+                        yield f"event: complete\ndata: {json.dumps({'job_id': job_id})}\n\n"
+                        break
+                    
+                    yield f"event: progress\ndata: {json.dumps(data)}\n\n"
+                    
+                except asyncio.TimeoutError:
+                    # keepalive
+                    yield f": keepalive\n\n"
+                    
+                    # Job 상태 확인
+                    current_job = await job_store.get_job(job_id)
+                    if not current_job:
+                        break
+                    if current_job.status in [JobStatus.COMPLETED, JobStatus.FAILED]:
+                        yield f"event: complete\ndata: {json.dumps({'job_id': job_id, 'status': current_job.status.value})}\n\n"
+                        break
+                        
+        except Exception as e:
+            logger.error(f"[SSE] 스트리밍 오류: {e}")
+            yield f"event: error\ndata: {json.dumps({'error': str(e)[:200]})}\n\n"
+        finally:
+            await job_store.unsubscribe(job_id, queue)
+    
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no"  # Nginx 버퍼링 비활성화
+        }
+    )
+
+
+@router.get(
+    "/report-result",
+    summary="완료된 리포트 결과 조회"
+)
+async def get_report_result(
+    job_id: str = Query(..., description="Job ID")
+):
+    """
+    🎯 완료된 리포트 결과 조회
+    
+    Job이 완료되면 최종 결과를 반환합니다.
+    진행 중이면 현재 상태를 반환합니다.
+    """
+    job = await job_store.get_job(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail=f"Job not found: {job_id}")
+    
+    if job.status == JobStatus.COMPLETED and job.final_result:
+        return JSONResponse(content={
+            "status": "completed",
+            "job_id": job_id,
+            "result": job.final_result
+        })
+    
+    if job.status == JobStatus.FAILED:
+        return JSONResponse(
+            status_code=500,
+            content={
+                "status": "failed",
+                "job_id": job_id,
+                "error": job.error_message
+            }
+        )
+    
+    # 아직 진행 중
+    return JSONResponse(content={
+        "status": job.status.value,
+        "job_id": job_id,
+        "progress": job.to_dict()
+    })
+
+
+@router.get(
+    "/report-progress",
+    summary="진행 상태 폴링 조회 (SSE 대안)"
+)
+async def get_report_progress(
+    job_id: str = Query(..., description="Job ID")
+):
+    """
+    🎯 폴링 방식 진행 상태 조회
+    
+    SSE가 불안정한 환경에서 1~2초마다 호출하여 진행 상태를 확인합니다.
+    """
+    job = await job_store.get_job(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail=f"Job not found: {job_id}")
+    
+    return JSONResponse(content=job.to_dict())
