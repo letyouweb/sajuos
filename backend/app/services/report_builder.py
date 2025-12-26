@@ -1045,7 +1045,18 @@ class PremiumReportBuilder:
         # 🔥 Progress: Job 완료
         if job_id:
             await job_store.complete_job(job_id, report)
-        
+        # 🔥 v7: Supabase에 최종 리포트 영구 저장
+        try:
+            from app.services.supabase_service import save_report_to_db # 저장 함수가 있다고 가정
+            await save_report_to_db(
+                job_id=job_id,
+                user_id=saju_data.get("user_id"), # 사용자 ID
+                report_data=report,
+                status="COMPLETED"
+            )
+            logger.info(f"✅ [Supabase] 리포트 영구 저장 완료 (Job: {job_id})")
+        except Exception as e:
+            logger.error(f"❌ [Supabase] 저장 중 오류 발생: {str(e)}")
         return report
     
     async def regenerate_single_section(
