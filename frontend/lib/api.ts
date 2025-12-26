@@ -1,6 +1,6 @@
 /**
  * Railway 백엔드 API 통신 모듈
- * - 99,000원 프리미엄 리포트: 7분 타임아웃
+ * - 99,000원 프리미엄 리포트: 10분 타임아웃 (순차 처리)
  */
 
 import type {
@@ -72,7 +72,7 @@ async function fetchApi<T>(
     
     if (error instanceof Error) {
       if (error.name === 'AbortError') {
-        throw new Error('프리미엄 보고서 생성 중입니다. 최대 5분까지 소요될 수 있습니다. 잠시만 기다려주세요.');
+        throw new Error('프리미엄 보고서 생성 중입니다. 최대 10분까지 소요될 수 있습니다. 잠시만 기다려주세요.');
       }
       if (error.message.includes('fetch') || error.message.includes('Failed')) {
         throw new Error('서버에 연결할 수 없습니다. 네트워크 연결을 확인해주세요.');
@@ -100,8 +100,8 @@ export async function calculateSaju(
 
 /**
  * 99,000원 프리미엄 비즈니스 컨설팅 보고서 API
- * - 7개 섹션 병렬 생성
- * - 최대 7분 소요 (420초)
+ * - 7개 섹션 순차 생성 (안정성 우선)
+ * - 최대 10분 소요 (600초)
  */
 export async function interpretSaju(
   data: InterpretRequest
@@ -111,7 +111,7 @@ export async function interpretSaju(
     { 
       method: 'POST', 
       body: data, 
-      timeout: 420000 // 7분 (프리미엄 리포트용)
+      timeout: 600000 // 10분 (순차 처리 대응)
     }
   );
   
@@ -121,6 +121,23 @@ export async function interpretSaju(
   }
   
   return result;
+}
+
+/**
+ * 단일 섹션 재생성 API (Sprint 복구용)
+ */
+export async function regenerateSection(
+  data: InterpretRequest,
+  sectionId: string
+): Promise<any> {
+  return fetchApi<any>(
+    `/api/v1/regenerate-section?section_id=${sectionId}`,
+    { 
+      method: 'POST', 
+      body: data, 
+      timeout: 120000 // 2분
+    }
+  );
 }
 
 /**

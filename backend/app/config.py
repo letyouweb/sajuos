@@ -27,22 +27,26 @@ class Settings(BaseSettings):
     
     # ============ 99,000원 프리미엄 리포트 설정 ============
     
-    # 섹션별 토큰 제한 (프리미엄은 더 길게)
-    report_section_max_output_tokens: int = 4500  # 섹션당 최대 출력 토큰
-    report_section_max_rulecards: int = 80  # 섹션당 최대 룰카드 수
+    # 섹션별 토큰 제한
+    report_section_max_output_tokens: int = 4500
+    report_section_max_rulecards: int = 80
     
-    # 병렬 처리 설정
-    report_max_concurrency: int = 2  # 동시 GPT 호출 수 (레이트리밋 방지)
-    report_section_timeout: int = 90  # 섹션당 타임아웃 (초) - 확장 루프 고려
-    report_total_timeout: int = 420  # 전체 리포트 타임아웃 (7분)
+    # 병렬 처리 설정 (안정성 우선: 1로 설정)
+    report_max_concurrency: int = 1  # 순차 처리 (레이트리밋 방지)
+    report_section_timeout: int = 120  # 섹션당 타임아웃 (초) - retry 고려
+    report_total_timeout: int = 600  # 전체 리포트 타임아웃 (10분)
+    
+    # Retry 설정
+    report_max_retries: int = 3  # OpenAI 호출 최대 재시도
+    report_retry_base_delay: float = 2.0  # 기본 대기 시간 (초)
     
     # 분량 강제 설정
-    report_min_chars_multiplier: float = 1.0  # 최소 분량 배율 (1.0 = 기본, 1.5 = 50% 더)
-    report_max_expansion_retries: int = 2  # 분량 미달 시 최대 재시도 횟수
+    report_min_chars_multiplier: float = 0.7  # 최소 분량 배율 (완화)
+    report_max_expansion_retries: int = 1  # 분량 미달 시 최대 재시도
     
     # 폴백 설정
-    report_enable_fallback: bool = True  # 실패 시 폴백 활성화
-    report_partial_success: bool = True  # 부분 성공 허용 (일부 섹션 실패해도 반환)
+    report_enable_fallback: bool = True
+    report_partial_success: bool = True
     
     # 레거시 호환 (단일 호출 모드)
     max_output_tokens: int = 12000
@@ -74,6 +78,5 @@ class Settings(BaseSettings):
         extra = "ignore"
 
 
-# No cache - fresh settings each time
 def get_settings() -> Settings:
     return Settings()

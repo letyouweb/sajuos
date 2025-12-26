@@ -1,7 +1,7 @@
 """
 /interpret endpoint - Premium Business Report Engine
-- 99,000원 프리미엄 모드: 7섹션 병렬 생성 + 용어 치환 + 분량 강제
-- 기본 모드: 레거시 단일 호출
+- 99,000원 프리미엄 모드: 7섹션 순차 생성 + 용어 치환 + Retry
+- 단독 섹션 재생성 엔드포인트
 - RuleCards 8,500장 데이터 자동 활용
 """
 from fastapi import APIRouter, HTTPException, Request, Query
@@ -72,15 +72,12 @@ def _get_all_rulecards(saju_data: dict, store, target_year: int) -> list:
         logger.warning("[RuleCards] 사주 기둥 데이터 부족")
         return []
     
-    # Feature Tags 생성
     ft = build_feature_tags_no_time_from_pillars(year_p, month_p, day_p, overlay_year=target_year)
     feature_tags = ft.get("tags", [])
     
-    # Preset 부스트 및 카드 선택
     boosted = boost_preset_focus(BUSINESS_OWNER_PRESET_V2, feature_tags)
     selection = select_cards_for_preset(store, boosted, feature_tags)
     
-    # 모든 카드 수집
     all_cards = []
     for sec in selection.get("sections", []):
         all_cards.extend(sec.get("cards", []))
@@ -158,11 +155,7 @@ async def interpret_saju(
     raw: Request,
     mode: str = Query("auto", description="auto | direct | premium")
 ):
-    """
-    사주 해석 API (Legacy 단일 호출)
-    - premium 모드는 /generate-report 사용 권장
-    """
-    # premium 모드면 리다이렉트
+    """사주 해석 API (Legacy 단일 호출)"""
     if mode == "premium":
         return await generate_premium_report(payload, raw, mode)
     
@@ -226,33 +219,106 @@ async def generate_premium_report(
     """
     🎯 99,000원 프리미엄 비즈니스 컨설팅 보고서
     
-    **특징:**
-    - 7개 섹션 병렬 생성 (약 2~3분 소요)
-    - 명리학 용어 → 비즈니스 용어 100% 치환
-    - 섹션당 최소 분량 강제 + 자동 확장
-    - 맥킨지/BCG급 컨설팅 보고서 스타일
-    
-    **섹션 구성:**
-    1. Executive Summary (2p)
-    2. Money & Cashflow (5p)
-    3. Business Strategy (5p)
-    4. Team & Partner Risk (4p)
-    5. Health & Performance (3p)
-    6. 12-Month Tactical Calendar (6p)
-    7. 90-Day Sprint Plan (5p)
-    
-    **필수 포함 요소 (각 섹션):**
-    - 현상 진단
-    - 핵심 가설 3개
-    - 전략 옵션 3개 (장단점)
-    - 추천 전략 + 주간 실행 계획
-    - KPI/측정법
-    - 리스크/방어
-    - 근거 RuleCard ID 목록
+    - 7개 섹션 순차 생성 (안정성 우선)
+    - Retry + Exponential Backoff (429/5xx 대응)
+    - Sprint/Calendar 전용 validation
+    - 상세 에러 정보 포함
     """
-    # Legacy 모드면 기존 로직
     if mode == "legacy":
         return await interpret_saju(payload, raw, "auto")
+    
+    saju_data = {}
+    if payload.saju_result:
+        saju_data = payload.saju_result.model_dump()
+    else:
+        if not all([payload.year_pillar, payload.month_pillar, payload.day_pillar]):
+            raise HTTPException(
+                status_code=400,
+                detail={"error_code": "MISSING_SAJU_DATA", "message": "Saju data required"}
+            )
+        saju_data = {
+            "year_pillar": payload.year_pillar,
+            "month_pillar": payload.month_pillar,
+            "day_pillar": payload.day_pillar,
+            "hour_pillar": payload.hour_pillar,
+            "day_master": payload.day_pillar[0] if payload.day_pillar else "",
+            "day_master_element": ""
+        }
+    
+    final_year = payload.target_year if payload.target_year else 2026
+    
+    store = getattr(raw.app.state, "rulestore", None)
+    rulecards = []
+    
+    if store:
+        try:
+            rulecards = _get_all_rulecards(saju_data, store, final_year)
+        except Exception as e:
+            logger.warning(f"[PremiumReport] RuleCards 로드 실패: {e}")
+    else:
+        logger.warning("[PremiumReport] ⚠️ RuleStore 미로드")
+    
+    logger.info(f"[PREMIUM-REPORT] Year={final_year} | RuleCards={len(rulecards)} | Mode={mode}")
+    
+    try:
+        report = await premium_report_builder.build_premium_report(
+            saju_data=saju_data,
+            rulecards=rulecards,
+            target_year=final_year,
+            user_question=payload.question,
+            name=payload.name,
+            mode="premium_business_30p"
+        )
+        
+        return JSONResponse(content=report)
+        
+    except Exception as e:
+        logger.error(f"[PREMIUM-REPORT] Error: {type(e).__name__}: {str(e)[:200]}")
+        
+        return JSONResponse(
+            status_code=500,
+            content={
+                "error": True,
+                "error_code": "REPORT_GENERATION_ERROR",
+                "message": str(e)[:200],
+                "target_year": final_year,
+                "sections": [],
+                "meta": {"mode": "premium_business_30p", "error": True}
+            }
+        )
+
+
+@router.post(
+    "/regenerate-section",
+    responses={400: {"model": ErrorResponse}, 500: {"model": ErrorResponse}},
+    summary="단일 섹션 재생성 (Sprint 복구용)"
+)
+async def regenerate_single_section(
+    payload: InterpretRequest,
+    raw: Request,
+    section_id: str = Query(..., description="재생성할 섹션 ID (exec, money, business, team, health, calendar, sprint)")
+):
+    """
+    🔄 단일 섹션 재생성 엔드포인트
+    
+    전체 리포트 재생성 없이 특정 섹션만 재생성합니다.
+    Sprint 섹션 실패 시 복구용으로 사용합니다.
+    
+    **사용 예시:**
+    ```
+    POST /api/v1/regenerate-section?section_id=sprint
+    ```
+    """
+    # section_id 검증
+    valid_sections = list(PREMIUM_SECTIONS.keys())
+    if section_id not in valid_sections:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "error_code": "INVALID_SECTION_ID",
+                "message": f"Invalid section_id: {section_id}. Valid options: {valid_sections}"
+            }
+        )
     
     # 사주 데이터 추출
     saju_data = {}
@@ -273,7 +339,6 @@ async def generate_premium_report(
             "day_master_element": ""
         }
     
-    # target_year 기본값 2026 강제
     final_year = payload.target_year if payload.target_year else 2026
     
     # RuleCards 로드
@@ -284,38 +349,31 @@ async def generate_premium_report(
         try:
             rulecards = _get_all_rulecards(saju_data, store, final_year)
         except Exception as e:
-            logger.warning(f"[PremiumReport] RuleCards 로드 실패: {e}")
-    else:
-        logger.warning("[PremiumReport] ⚠️ RuleStore 미로드")
+            logger.warning(f"[RegenerateSection] RuleCards 로드 실패: {e}")
     
-    logger.info(f"[PREMIUM-REPORT] Year={final_year} | RuleCards={len(rulecards)} | Mode={mode}")
+    logger.info(f"[REGENERATE-SECTION] Section={section_id} | Year={final_year} | RuleCards={len(rulecards)}")
     
     try:
-        # 프리미엄 7섹션 병렬 생성
-        report = await premium_report_builder.build_premium_report(
+        result = await premium_report_builder.regenerate_single_section(
+            section_id=section_id,
             saju_data=saju_data,
             rulecards=rulecards,
             target_year=final_year,
-            user_question=payload.question,
-            name=payload.name,
-            mode="premium_business_30p"
+            user_question=payload.question
         )
         
-        return JSONResponse(content=report)
+        return JSONResponse(content=result)
         
     except Exception as e:
-        logger.error(f"[PREMIUM-REPORT] Error: {type(e).__name__}: {str(e)[:200]}")
+        logger.error(f"[REGENERATE-SECTION] Error: {type(e).__name__}: {str(e)[:200]}")
         
-        # 부분 실패 시에도 응답 반환
         return JSONResponse(
             status_code=500,
             content={
-                "error": True,
-                "error_code": "REPORT_GENERATION_ERROR",
-                "message": str(e)[:200],
-                "target_year": final_year,
-                "sections": [],
-                "meta": {"mode": "premium_business_30p", "error": True}
+                "success": False,
+                "section_id": section_id,
+                "error": str(e)[:500],
+                "error_type": type(e).__name__
             }
         )
 
@@ -380,6 +438,7 @@ async def get_premium_sections():
                 "pages": spec.pages,
                 "min_chars": spec.min_chars,
                 "rulecard_quota": spec.rulecard_quota,
+                "validation_type": spec.validation_type,
                 "required_elements": spec.required_elements
             }
             for spec in PREMIUM_SECTIONS.values()
@@ -399,7 +458,6 @@ async def test_gpt_connection():
     
     try:
         api_key = get_openai_api_key()
-        key_set = True
         key_preview = f"fp={key_fingerprint(api_key)} tail={key_tail(api_key)}"
     except RuntimeError as e:
         return {"success": False, "error": str(e)}
@@ -416,6 +474,7 @@ async def test_gpt_connection():
             "api_key_preview": key_preview,
             "model": settings.openai_model,
             "response": resp.choices[0].message.content,
+            "concurrency": settings.report_max_concurrency,
             "status": "READY_FOR_PRODUCTION"
         }
     except Exception as e:
