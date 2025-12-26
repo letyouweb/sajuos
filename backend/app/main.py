@@ -9,9 +9,10 @@ import logging
 import re
 
 from app.config import get_settings
-from app.routers import calculate, interpret
+from app.routers import calculate, interpret, reports
 from app.services.openai_key import get_openai_api_key, key_fingerprint, key_tail
 from app.services.rulecards_store import RuleCardStore
+from app.services.supabase_client import is_supabase_available
 
 logging.basicConfig(
     level=logging.INFO,
@@ -102,6 +103,7 @@ app.add_middleware(
 
 app.include_router(calculate.router, prefix="/api/v1", tags=["Calculate"])
 app.include_router(interpret.router, prefix="/api/v1", tags=["Interpret"])
+app.include_router(reports.router, prefix="/api", tags=["Premium Reports"])
 
 
 @app.get("/", tags=["System"])
@@ -109,8 +111,9 @@ async def root():
     return {
         "service": "Saju AI Service",
         "status": "running",
-        "version": "1.0.1",
-        "model": settings.openai_model
+        "version": "2.0.0",
+        "model": settings.openai_model,
+        "supabase": "connected" if is_supabase_available() else "not_configured"
     }
 
 

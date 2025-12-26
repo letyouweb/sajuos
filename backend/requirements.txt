@@ -30,4 +30,16 @@ korean-lunar-calendar>=0.3.1
 # ⭐ 천문학 계산 (Source of Truth)
 ephem>=4.1.5
 
-# CORS (FastAPI/Starlette 내장)
+# ⭐ Supabase (DB 영구 저장)
+supabase>=2.0.0
+
+# ⭐ 이메일 발송 (Resend)
+resend>=0.8.0
+
+# ⭐ PDF 생성
+weasyprint>=60.0
+markdown>=3.5.0
+
+# ⭐ 백그라운드 작업
+celery>=5.3.0
+redis>=5.0.0

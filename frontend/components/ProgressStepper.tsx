@@ -7,154 +7,155 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 export interface SectionProgress {
   id: string;
   title: string;
-  status: 'pending' | 'running' | 'retry' | 'done' | 'error';
-  attempt: number;
-  max_attempts: number;
-  elapsed_ms: number;
+  status: 'pending' | 'generating' | 'completed' | 'failed' | 'skipped';
+  order: number;
   char_count: number;
-  error_message: string | null;
-  stage: string;
+  elapsed_ms: number;
+  error: string | null;
 }
 
-export interface JobProgress {
-  job_id: string;
-  status: 'queued' | 'processing' | 'completed' | 'failed';
-  overall: {
-    total: number;
-    done: number;
-    percent: number;
-  };
-  current: {
-    section_id: string | null;
-    stage: string;
-    attempt: number;
-    max_attempts: number;
-  } | null;
+export interface ReportStatus {
+  report_id: string;
+  status: 'pending' | 'generating' | 'completed' | 'failed';
+  progress: number;  // 0-100
+  current_step: string;
   sections: SectionProgress[];
-  eta_sec: number;
-  error_message: string | null;
+  error: string | null;
+  created_at: string;
+  updated_at: string;
 }
 
 // ===== 유틸 함수 =====
 
-const formatEta = (sec: number): string => {
-  if (sec < 60) return `약 ${sec}초`;
-  const min = Math.floor(sec / 60);
-  const remainSec = sec % 60;
-  if (remainSec === 0) return `약 ${min}분`;
-  return `약 ${min}분 ${remainSec}초`;
+const formatEta = (progress: number): string => {
+  // 진행률 기반 남은 시간 추정 (평균 섹션당 60초)
+  const remainingPercent = 100 - progress;
+  const estimatedSec = Math.ceil(remainingPercent * 0.6 * 7); // 7섹션 기준
+  
+  if (estimatedSec < 60) return `약 ${estimatedSec}초`;
+  const min = Math.floor(estimatedSec / 60);
+  const sec = estimatedSec % 60;
+  if (sec === 0) return `약 ${min}분`;
+  return `약 ${min}분 ${sec}초`;
 };
 
-const getStageText = (stage: string): string => {
-  const stageMap: Record<string, string> = {
-    initializing: '초기화 중...',
-    openai_request: 'AI 요청 전송 중...',
-    openai_wait: 'AI 응답 대기 중...',
-    validating: '응답 검증 중...',
-    guardrail_check: '품질 검사 중...',
-    completing: '완료 처리 중...',
+const getStatusText = (status: string): string => {
+  const statusMap: Record<string, string> = {
+    pending: '대기 중',
+    generating: '생성 중',
     completed: '완료',
-    error: '오류 발생',
-    retry_rate_limit_429: '⏳ 요청 제한 - 재시도 대기',
-    retry_api_error: '⏳ API 오류 - 재시도 대기',
-    retry_json_parse_error: '⏳ 응답 파싱 오류 - 재시도',
+    failed: '실패',
+    skipped: '스킵됨',
   };
-  return stageMap[stage] || stage;
+  return statusMap[status] || status;
 };
 
-// ===== Hook: SSE 연결 =====
+const getStatusColor = (status: string): string => {
+  const colorMap: Record<string, string> = {
+    pending: 'bg-slate-100 text-slate-500 border-slate-200',
+    generating: 'bg-purple-50 text-purple-600 border-purple-300 animate-pulse',
+    completed: 'bg-emerald-50 text-emerald-600 border-emerald-300',
+    failed: 'bg-red-50 text-red-600 border-red-300',
+    skipped: 'bg-gray-50 text-gray-500 border-gray-200',
+  };
+  return colorMap[status] || colorMap.pending;
+};
 
-interface UseReportProgressOptions {
+// ===== Hook: 폴링 기반 진행 상태 =====
+
+interface UseReportPollingOptions {
+  pollingInterval?: number;  // ms (기본 2500ms)
   onComplete?: (result: any) => void;
   onError?: (error: string) => void;
 }
 
-export function useReportProgress(
-  jobId: string | null,
-  options: UseReportProgressOptions = {}
+export function useReportPolling(
+  reportId: string | null,
+  options: UseReportPollingOptions = {}
 ) {
-  const [progress, setProgress] = useState<JobProgress | null>(null);
-  const [isConnected, setIsConnected] = useState(false);
+  const { pollingInterval = 2500, onComplete, onError } = options;
+  
+  const [status, setStatus] = useState<ReportStatus | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const eventSourceRef = useRef<EventSource | null>(null);
-  const { onComplete, onError } = options;
+  const pollingRef = useRef<NodeJS.Timeout | null>(null);
 
-  const connect = useCallback(() => {
-    if (!jobId) return;
-
+  const fetchStatus = useCallback(async () => {
+    if (!reportId) return;
+    
     const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-    const url = `${apiUrl}/api/v1/report-progress/stream?job_id=${jobId}`;
-
-    const eventSource = new EventSource(url);
-    eventSourceRef.current = eventSource;
-
-    eventSource.onopen = () => {
-      setIsConnected(true);
+    
+    try {
+      const response = await fetch(`${apiUrl}/api/reports/${reportId}/status`);
+      
+      if (!response.ok) {
+        throw new Error(`상태 조회 실패: ${response.status}`);
+      }
+      
+      const data: ReportStatus = await response.json();
+      setStatus(data);
       setError(null);
-    };
-
-    eventSource.addEventListener('progress', (event) => {
-      try {
-        const data: JobProgress = JSON.parse(event.data);
-        setProgress(data);
-      } catch (e) {
-        console.error('Progress parse error:', e);
-      }
-    });
-
-    eventSource.addEventListener('complete', async (event) => {
-      try {
-        const data = JSON.parse(event.data);
-        // 결과 fetch
-        const resultUrl = `${apiUrl}/api/v1/report-result?job_id=${data.job_id}`;
-        const response = await fetch(resultUrl);
-        const result = await response.json();
-        
-        if (result.status === 'completed' && result.result) {
-          onComplete?.(result.result);
-        } else if (result.status === 'failed') {
-          onError?.(result.error || '리포트 생성 실패');
+      
+      // 완료 또는 실패 시 폴링 중지
+      if (data.status === 'completed') {
+        if (pollingRef.current) {
+          clearInterval(pollingRef.current);
+          pollingRef.current = null;
         }
-      } catch (e) {
-        console.error('Complete handler error:', e);
-      } finally {
-        eventSource.close();
-        setIsConnected(false);
+        
+        // 결과 조회
+        const resultResponse = await fetch(`${apiUrl}/api/reports/${reportId}/result`);
+        const resultData = await resultResponse.json();
+        
+        if (resultData.completed && resultData.result) {
+          onComplete?.(resultData.result);
+        }
+      } else if (data.status === 'failed') {
+        if (pollingRef.current) {
+          clearInterval(pollingRef.current);
+          pollingRef.current = null;
+        }
+        onError?.(data.error || '리포트 생성 실패');
       }
-    });
+      
+    } catch (err) {
+      const errorMsg = err instanceof Error ? err.message : '알 수 없는 오류';
+      setError(errorMsg);
+      console.error('Status polling error:', err);
+    }
+  }, [reportId, onComplete, onError]);
 
-    eventSource.addEventListener('error', (event) => {
-      try {
-        const data = JSON.parse((event as any).data);
-        setError(data.error);
-        onError?.(data.error);
-      } catch {
-        // SSE 연결 오류
-        console.error('SSE connection error');
-      }
-    });
-
-    eventSource.onerror = () => {
-      // 자동 재연결 시도
-      setIsConnected(false);
-    };
-
-    return () => {
-      eventSource.close();
-    };
-  }, [jobId, onComplete, onError]);
-
+  // 폴링 시작/중지
   useEffect(() => {
-    const cleanup = connect();
-    return cleanup;
-  }, [connect]);
+    if (!reportId) {
+      setStatus(null);
+      return;
+    }
+    
+    setIsLoading(true);
+    
+    // 즉시 첫 조회
+    fetchStatus().finally(() => setIsLoading(false));
+    
+    // 폴링 시작
+    pollingRef.current = setInterval(fetchStatus, pollingInterval);
+    
+    return () => {
+      if (pollingRef.current) {
+        clearInterval(pollingRef.current);
+        pollingRef.current = null;
+      }
+    };
+  }, [reportId, pollingInterval, fetchStatus]);
 
-  const disconnect = useCallback(() => {
-    eventSourceRef.current?.close();
-    setIsConnected(false);
+  const stopPolling = useCallback(() => {
+    if (pollingRef.current) {
+      clearInterval(pollingRef.current);
+      pollingRef.current = null;
+    }
   }, []);
 
-  return { progress, isConnected, error, disconnect };
+  return { status, isLoading, error, stopPolling };
 }
 
 // ===== 컴포넌트: 섹션 스테퍼 아이템 =====
@@ -162,72 +163,46 @@ export function useReportProgress(
 interface StepperItemProps {
   section: SectionProgress;
   isActive: boolean;
-  index: number;
 }
 
-function StepperItem({ section, isActive, index }: StepperItemProps) {
-  const statusColors = {
-    pending: 'bg-slate-100 text-slate-400 border-slate-200',
-    running: 'bg-purple-50 text-purple-600 border-purple-300 animate-pulse',
-    retry: 'bg-amber-50 text-amber-600 border-amber-300',
-    done: 'bg-emerald-50 text-emerald-600 border-emerald-300',
-    error: 'bg-red-50 text-red-600 border-red-300',
-  };
-
-  const statusIcons = {
-    pending: '○',
-    running: '◉',
-    retry: '↻',
-    done: '✓',
-    error: '✗',
-  };
-
+function StepperItem({ section, isActive }: StepperItemProps) {
   return (
     <div
       className={`
         flex items-center gap-3 p-3 rounded-lg border-2 transition-all duration-300
-        ${statusColors[section.status]}
+        ${getStatusColor(section.status)}
         ${isActive ? 'ring-2 ring-purple-400 ring-offset-2' : ''}
       `}
     >
-      {/* 인덱스 + 아이콘 */}
+      {/* 순서 + 상태 아이콘 */}
       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center font-bold text-sm border">
-        {section.status === 'done' ? (
+        {section.status === 'completed' ? (
           <span className="text-emerald-500">✓</span>
-        ) : section.status === 'error' ? (
+        ) : section.status === 'failed' ? (
           <span className="text-red-500">✗</span>
-        ) : section.status === 'retry' ? (
-          <span className="text-amber-500 animate-spin">↻</span>
-        ) : section.status === 'running' ? (
+        ) : section.status === 'generating' ? (
           <span className="text-purple-500 animate-pulse">●</span>
         ) : (
-          <span className="text-slate-400">{index + 1}</span>
+          <span className="text-slate-400">{section.order}</span>
         )}
       </div>
 
-      {/* 내용 */}
+      {/* 섹션 정보 */}
       <div className="flex-1 min-w-0">
         <div className="font-medium text-sm truncate">{section.title}</div>
         
-        {/* 상태 텍스트 */}
-        {section.status === 'running' && (
-          <div className="text-xs opacity-75">{getStageText(section.stage)}</div>
+        {section.status === 'generating' && (
+          <div className="text-xs opacity-75">AI 생성 중...</div>
         )}
         
-        {section.status === 'retry' && (
-          <div className="text-xs">
-            {section.error_message || `재시도 중 (${section.attempt}/${section.max_attempts})`}
-          </div>
-        )}
-        
-        {section.status === 'done' && section.elapsed_ms > 0 && (
+        {section.status === 'completed' && section.elapsed_ms > 0 && (
           <div className="text-xs opacity-75">
             {(section.elapsed_ms / 1000).toFixed(1)}초 | {section.char_count.toLocaleString()}자
           </div>
         )}
         
-        {section.status === 'error' && (
-          <div className="text-xs">{section.error_message || '오류 발생'}</div>
+        {section.status === 'failed' && section.error && (
+          <div className="text-xs">{section.error.slice(0, 50)}...</div>
         )}
       </div>
     </div>
@@ -237,15 +212,16 @@ function StepperItem({ section, isActive, index }: StepperItemProps) {
 // ===== 메인 컴포넌트: ProgressStepper =====
 
 interface ProgressStepperProps {
-  jobId: string | null;
+  reportId: string | null;
   onComplete: (result: any) => void;
   onError: (error: string) => void;
 }
 
-export default function ProgressStepper({ jobId, onComplete, onError }: ProgressStepperProps) {
-  const { progress, isConnected, error } = useReportProgress(jobId, {
+export default function ProgressStepper({ reportId, onComplete, onError }: ProgressStepperProps) {
+  const { status, isLoading, error } = useReportPolling(reportId, {
     onComplete,
     onError,
+    pollingInterval: 2500,  // 2.5초 간격
   });
 
   if (error) {
@@ -254,20 +230,29 @@ export default function ProgressStepper({ jobId, onComplete, onError }: Progress
         <div className="text-4xl mb-3">⚠️</div>
         <div className="text-red-700 font-medium">연결 오류</div>
         <div className="text-red-600 text-sm mt-1">{error}</div>
+        <button 
+          onClick={() => window.location.reload()}
+          className="mt-4 px-4 py-2 bg-red-100 hover:bg-red-200 rounded-lg text-red-700 text-sm"
+        >
+          새로고침
+        </button>
       </div>
     );
   }
 
-  if (!progress) {
+  if (isLoading || !status) {
     return (
       <div className="flex flex-col items-center justify-center py-12">
         <div className="w-12 h-12 border-4 border-purple-200 border-t-purple-600 rounded-full animate-spin mb-4" />
-        <div className="text-slate-600">연결 중...</div>
+        <div className="text-slate-600">리포트 상태 확인 중...</div>
       </div>
     );
   }
 
-  const { overall, current, sections, eta_sec, status } = progress;
+  const { progress, current_step, sections } = status;
+
+  // 현재 활성 섹션 찾기
+  const activeSection = sections.find(s => s.status === 'generating');
 
   return (
     <div className="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
@@ -276,12 +261,12 @@ export default function ProgressStepper({ jobId, onComplete, onError }: Progress
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🔮</span>
-            <span className="font-bold text-lg">사주 분석 중</span>
+            <span className="font-bold text-lg">프리미엄 보고서 생성</span>
           </div>
           <div className="text-right">
-            <div className="text-3xl font-bold">{overall.percent}%</div>
+            <div className="text-3xl font-bold">{progress}%</div>
             <div className="text-purple-200 text-sm">
-              {overall.done}/{overall.total} 섹션
+              {sections.filter(s => s.status === 'completed').length}/{sections.length} 섹션
             </div>
           </div>
         </div>
@@ -290,40 +275,32 @@ export default function ProgressStepper({ jobId, onComplete, onError }: Progress
         <div className="h-3 bg-white/20 rounded-full overflow-hidden">
           <div
             className="h-full bg-white rounded-full transition-all duration-500 ease-out"
-            style={{ width: `${overall.percent}%` }}
+            style={{ width: `${progress}%` }}
           />
         </div>
 
         {/* 현재 상태 + ETA */}
         <div className="flex items-center justify-between mt-3 text-sm">
           <div className="text-purple-100">
-            {current?.section_id ? (
-              <>
-                <span className="font-medium">
-                  {sections.find(s => s.id === current.section_id)?.title}
-                </span>
-                <span className="ml-2 opacity-75">{getStageText(current.stage)}</span>
-              </>
-            ) : (
-              '대기 중...'
-            )}
+            {current_step || '준비 중...'}
           </div>
           <div className="text-purple-200">
-            남은 시간: {formatEta(eta_sec)}
+            {progress < 100 ? `남은 시간: ${formatEta(progress)}` : '완료!'}
           </div>
         </div>
       </div>
 
       {/* 섹션 목록 */}
       <div className="p-4 space-y-2 max-h-96 overflow-y-auto">
-        {sections.map((section, index) => (
-          <StepperItem
-            key={section.id}
-            section={section}
-            isActive={current?.section_id === section.id}
-            index={index}
-          />
-        ))}
+        {sections
+          .sort((a, b) => a.order - b.order)
+          .map((section) => (
+            <StepperItem
+              key={section.id}
+              section={section}
+              isActive={activeSection?.id === section.id}
+            />
+          ))}
       </div>
 
       {/* 푸터: 안내 메시지 */}
@@ -333,17 +310,18 @@ export default function ProgressStepper({ jobId, onComplete, onError }: Progress
           <div>
             <p className="font-medium">잠깐! 창을 닫아도 괜찮아요</p>
             <p className="text-slate-500 mt-1">
-              백그라운드에서 생성 중입니다. 같은 링크로 언제든 다시 확인할 수 있어요.
+              백그라운드에서 생성 중입니다. 완료되면 이메일로 알려드려요.
+              <br />같은 링크로 언제든 다시 확인할 수 있습니다.
             </p>
           </div>
         </div>
       </div>
 
-      {/* 연결 상태 표시 */}
+      {/* 상태 표시 */}
       <div className="px-4 pb-4">
         <div className="flex items-center gap-2 text-xs text-slate-400">
-          <div className={`w-2 h-2 rounded-full ${isConnected ? 'bg-emerald-400' : 'bg-slate-300'}`} />
-          {isConnected ? '실시간 연결됨' : '재연결 중...'}
+          <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+          실시간 업데이트 중 (2.5초 간격)
         </div>
       </div>
     </div>

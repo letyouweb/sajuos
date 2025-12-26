@@ -17,13 +17,14 @@ export default function Home() {
     new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' });
 
   const [step, setStep] = useState<Step>('input');
-  const [jobId, setJobId] = useState<string | null>(null);
+  const [reportId, setReportId] = useState<string | null>(null);
   const [calculateResult, setCalculateResult] = useState<CalculateResponse | null>(null);
   const [interpretResult, setInterpretResult] = useState<InterpretResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const handleSubmit = async (formData: {
     name: string;
+    email: string;  // 🔥 이메일 필드 추가
     birthYear: number;
     birthMonth: number;
     birthDay: number;
@@ -35,7 +36,7 @@ export default function Home() {
   }) => {
     setStep('calculating');
     setError(null);
-    setJobId(null);
+    setReportId(null);
 
     try {
       // 1. 사주 계산 (절기 기반)
@@ -49,20 +50,25 @@ export default function Home() {
       });
       setCalculateResult(calcResult);
 
-      // 2. 비동기 프리미엄 리포트 생성 시작 (SSE)
+      // 2. 🔥 Supabase 기반 비동기 리포트 생성 시작
       const todayKst = getTodayKst();
       const questionWithDate = `${formData.question}\n\n(기준일: ${todayKst} KST)`;
       
-      const asyncResponse = await startReportGeneration({
-        saju_result: calcResult,
+      const response = await startReportGeneration({
+        email: formData.email,
         name: formData.name,
-        gender: formData.gender,
-        concern_type: formData.concernType,
+        saju_result: calcResult,
         question: questionWithDate,
+        concern_type: formData.concernType,
+        target_year: 2025,
       });
 
-      // Job ID 저장 → ProgressStepper에 전달
-      setJobId(asyncResponse.job_id);
+      if (!response.success) {
+        throw new Error(response.message || '리포트 생성 시작 실패');
+      }
+
+      // Report ID 저장 → ProgressStepper에 전달
+      setReportId(response.report_id);
       setStep('generating');
 
     } catch (err) {
@@ -73,20 +79,20 @@ export default function Home() {
   };
 
   const handleReportComplete = (result: any) => {
-    // SSE 완료 시 결과 설정
+    // 폴링 완료 시 결과 설정
     setInterpretResult(result);
     setStep('result');
   };
 
   const handleReportError = (errorMsg: string) => {
     setError(errorMsg);
-    setStep('input');
-    setJobId(null);
+    // 에러 시에도 재시도 가능하도록 step은 유지
+    // setStep('input');
   };
 
   const handleReset = () => {
     setStep('input');
-    setJobId(null);
+    setReportId(null);
     setCalculateResult(null);
     setInterpretResult(null);
     setError(null);
@@ -130,14 +136,26 @@ export default function Home() {
         </div>
       )}
 
-      {/* Step: Generating (SSE 실시간 진행) */}
+      {/* Step: Generating (폴링 기반 실시간 진행) */}
       {step === 'generating' && (
         <div className="animate-fade-in-up">
           <ProgressStepper
-            jobId={jobId}
+            reportId={reportId}
             onComplete={handleReportComplete}
             onError={handleReportError}
           />
+          
+          {/* 재시도 버튼 (에러 발생 시) */}
+          {error && (
+            <div className="mt-4 text-center">
+              <button
+                onClick={handleReset}
+                className="px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium transition"
+              >
+                처음부터 다시하기
+              </button>
+            </div>
+          )}
         </div>
       )}
 

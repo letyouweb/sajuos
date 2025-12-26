@@ -1,14 +1,14 @@
 """
-Saju AI Service Settings v4
+Saju AI Service Settings v5
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 99,000원 프리미엄 리포트 설정:
-- RuleCard Top-100 제한
-- JSON Schema 강제
-- Semaphore(2), Retry 3회
+- Supabase 영구 저장
+- 이메일 알림 (Resend)
+- 백그라운드 Job 처리
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
 from pydantic_settings import BaseSettings
-from typing import List
+from typing import List, Optional
 import os
 
 
@@ -30,25 +30,49 @@ class Settings(BaseSettings):
     debug: bool = False
     
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # Supabase (DB 영구 저장)
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    supabase_url: str = ""
+    supabase_service_role_key: str = ""  # Service Role (백엔드용)
+    supabase_anon_key: str = ""  # Anon Key (프론트용, 선택)
+    
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # Email (Resend)
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    resend_api_key: str = ""
+    email_from: str = "SajuOS <noreply@sajuos.com>"
+    email_reply_to: str = "support@sajuos.com"
+    
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # Frontend URL (이메일 링크용)
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    frontend_url: str = "https://sajuos.com"
+    
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # Redis (백그라운드 Job 큐) - 선택적
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    redis_url: str = "redis://localhost:6379/0"
+    
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # 99,000원 프리미엄 리포트 설정
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     
     # 섹션별 설정
-    report_section_max_output_tokens: int = 4000  # 섹션당 최대 출력 토큰
-    report_section_timeout: int = 90  # 섹션당 타임아웃 (초)
+    report_section_max_output_tokens: int = 4000
+    report_section_timeout: int = 90
     
-    # 동시성 (안정성 우선)
-    report_max_concurrency: int = 2  # Semaphore 제한 (1~2)
+    # 동시성
+    report_max_concurrency: int = 2
     
     # Retry 설정
-    report_max_retries: int = 3  # 최대 재시도 횟수
-    report_retry_base_delay: float = 2.0  # 기본 대기 시간 (초)
+    report_max_retries: int = 3
+    report_retry_base_delay: float = 2.0
     
     # RuleCard 설정
-    report_rulecard_top_limit: int = 100  # Top-100 RuleCards만 사용
+    report_rulecard_top_limit: int = 100
     
     # 전체 타임아웃
-    report_total_timeout: int = 600  # 10분
+    report_total_timeout: int = 600
     
     # 레거시 호환
     max_output_tokens: int = 12000
@@ -80,5 +104,10 @@ class Settings(BaseSettings):
         extra = "ignore"
 
 
+_settings: Optional[Settings] = None
+
 def get_settings() -> Settings:
-    return Settings()
+    global _settings
+    if _settings is None:
+        _settings = Settings()
+    return _settings

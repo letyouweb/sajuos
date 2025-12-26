@@ -1,7 +1,10 @@
 /**
- * Railway 백엔드 API 통신 모듈
- * - 99,000원 프리미엄 리포트: SSE 스트리밍 지원
- * - 실시간 진행 상태 + 재시도 표시
+ * Railway 백엔드 API 통신 모듈 v2
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ * - Supabase 영구 저장 기반
+ * - 탭 닫아도 백그라운드 진행
+ * - 폴링 방식 진행 상태 조회
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  */
 
 import type {
@@ -73,7 +76,7 @@ async function fetchApi<T>(
     
     if (error instanceof Error) {
       if (error.name === 'AbortError') {
-        throw new Error('프리미엄 보고서 생성 중입니다. 최대 10분까지 소요될 수 있습니다. 잠시만 기다려주세요.');
+        throw new Error('요청 시간이 초과되었습니다. 다시 시도해주세요.');
       }
       if (error.message.includes('fetch') || error.message.includes('Failed')) {
         throw new Error('서버에 연결할 수 없습니다. 네트워크 연결을 확인해주세요.');
@@ -85,7 +88,7 @@ async function fetchApi<T>(
   }
 }
 
-// ============ API 함수들 ============
+// ============ 기본 API 함수들 ============
 
 /**
  * 사주 계산 API
@@ -96,48 +99,6 @@ export async function calculateSaju(
   return fetchApi<CalculateResponse>(
     '/api/v1/calculate',
     { method: 'POST', body: data, timeout: 15000 }
-  );
-}
-
-/**
- * 99,000원 프리미엄 비즈니스 컨설팅 보고서 API
- * - 7개 섹션 순차 생성 (안정성 우선)
- * - 최대 10분 소요 (600초)
- */
-export async function interpretSaju(
-  data: InterpretRequest
-): Promise<InterpretResponse> {
-  const result = await fetchApi<InterpretResponse>(
-    '/api/v1/generate-report?mode=premium',
-    { 
-      method: 'POST', 
-      body: data, 
-      timeout: 600000 // 10분 (순차 처리 대응)
-    }
-  );
-  
-  // 레거시 폴백 체크
-  if ((result as any).model_used === 'fallback') {
-    throw new Error('AI 해석 서비스에 일시적인 문제가 발생했습니다.');
-  }
-  
-  return result;
-}
-
-/**
- * 단일 섹션 재생성 API (Sprint 복구용)
- */
-export async function regenerateSection(
-  data: InterpretRequest,
-  sectionId: string
-): Promise<any> {
-  return fetchApi<any>(
-    `/api/v1/regenerate-section?section_id=${sectionId}`,
-    { 
-      method: 'POST', 
-      body: data, 
-      timeout: 120000 // 2분
-    }
   );
 }
 
@@ -195,52 +156,168 @@ export async function testConnection(): Promise<{
 }
 
 
-// ============ 🔥 비동기 프리미엄 리포트 (SSE 지원) ============
+// ============ 🔥 프리미엄 리포트 API (Supabase 기반) ============
 
-export interface AsyncReportResponse {
-  job_id: string;
-  status: 'queued';
-  stream_url: string;
+export interface ReportStartRequest {
+  email: string;
+  name?: string;
+  saju_result?: CalculateResponse;
+  year_pillar?: string;
+  month_pillar?: string;
+  day_pillar?: string;
+  hour_pillar?: string;
+  target_year?: number;
+  question?: string;
+  concern_type?: string;
+}
+
+export interface ReportStartResponse {
+  success: boolean;
+  report_id: string;
+  status: string;
+  message: string;
+  status_url: string;
   result_url: string;
-  sections: { id: string; title: string }[];
+}
+
+export interface ReportStatusResponse {
+  report_id: string;
+  status: 'pending' | 'generating' | 'completed' | 'failed';
+  progress: number;
+  current_step: string;
+  sections: Array<{
+    id: string;
+    title: string;
+    status: string;
+    order: number;
+    char_count: number;
+    elapsed_ms: number;
+    error: string | null;
+  }>;
+  error: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ReportResultResponse {
+  completed: boolean;
+  report_id?: string;
+  result?: any;
+  pdf_url?: string;
+  generated_at?: string;
+  generation_time_ms?: number;
+  status?: string;
+  progress?: number;
+  message?: string;
+  error?: string;  // 에러 메시지
+  name?: string;
+  target_year?: number;
 }
 
 /**
- * 🔥 비동기 프리미엄 리포트 생성 시작
- * - 즉시 job_id 반환 → SSE로 진행 상태 추적
+ * 🔥 프리미엄 리포트 생성 시작 (Supabase 저장)
+ * - 즉시 report_id 반환
+ * - 백그라운드에서 생성 (탭 닫아도 계속)
+ * - 완료 시 이메일 발송
  */
 export async function startReportGeneration(
-  data: InterpretRequest
-): Promise<AsyncReportResponse> {
-  return fetchApi<AsyncReportResponse>(
-    '/api/v1/generate-report-async',
+  data: ReportStartRequest
+): Promise<ReportStartResponse> {
+  return fetchApi<ReportStartResponse>(
+    '/api/reports/start',
     { method: 'POST', body: data, timeout: 30000 }
+  );
+}
+
+/**
+ * 리포트 진행 상태 조회 (폴링용)
+ */
+export async function getReportStatus(
+  reportId: string
+): Promise<ReportStatusResponse> {
+  return fetchApi<ReportStatusResponse>(
+    `/api/reports/${reportId}/status`,
+    { timeout: 10000 }
   );
 }
 
 /**
  * 리포트 결과 조회
  */
-export async function getReportResult(jobId: string): Promise<any> {
-  return fetchApi<any>(
-    `/api/v1/report-result?job_id=${jobId}`,
+export async function getReportResult(
+  reportId: string,
+  token?: string
+): Promise<ReportResultResponse> {
+  const tokenParam = token ? `?token=${token}` : '';
+  return fetchApi<ReportResultResponse>(
+    `/api/reports/${reportId}/result${tokenParam}`,
     { timeout: 10000 }
   );
 }
 
 /**
- * 진행 상태 폴링 (SSE 대안)
+ * 토큰으로 리포트 조회 (이메일 링크용)
  */
-export async function getReportProgress(jobId: string): Promise<any> {
-  return fetchApi<any>(
-    `/api/v1/report-progress?job_id=${jobId}`,
+export async function getReportByToken(
+  accessToken: string
+): Promise<ReportResultResponse> {
+  return fetchApi<ReportResultResponse>(
+    `/api/reports/view/${accessToken}`,
     { timeout: 10000 }
   );
 }
 
 /**
- * SSE 스트리밍 URL 생성
+ * 실패한 리포트 재시도
  */
-export function getStreamUrl(jobId: string): string {
-  return `${API_BASE_URL}/api/v1/report-progress/stream?job_id=${jobId}`;
+export async function retryReport(
+  reportId: string
+): Promise<{ success: boolean; message: string }> {
+  return fetchApi<{ success: boolean; message: string }>(
+    `/api/reports/${reportId}/retry`,
+    { method: 'POST', timeout: 10000 }
+  );
+}
+
+
+// ============ 레거시 API (호환성 유지) ============
+
+/**
+ * 레거시 동기 리포트 생성 (구버전 호환)
+ * @deprecated startReportGeneration 사용 권장
+ */
+export async function interpretSaju(
+  data: InterpretRequest
+): Promise<InterpretResponse> {
+  const result = await fetchApi<InterpretResponse>(
+    '/api/v1/generate-report?mode=premium',
+    { 
+      method: 'POST', 
+      body: data, 
+      timeout: 600000 // 10분
+    }
+  );
+  
+  if ((result as any).model_used === 'fallback') {
+    throw new Error('AI 해석 서비스에 일시적인 문제가 발생했습니다.');
+  }
+  
+  return result;
+}
+
+/**
+ * 단일 섹션 재생성 API
+ */
+export async function regenerateSection(
+  data: InterpretRequest,
+  sectionId: string
+): Promise<any> {
+  return fetchApi<any>(
+    `/api/v1/regenerate-section?section_id=${sectionId}`,
+    { 
+      method: 'POST', 
+      body: data, 
+      timeout: 120000
+    }
+  );
 }
