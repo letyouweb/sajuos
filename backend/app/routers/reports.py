@@ -142,24 +142,36 @@ async def get_sections_info():
     return {"sections": SECTION_SPECS}
 
 
-@router.get("/view/{token}")
-async def view_by_token(token: str):
-    """토큰으로 결과 조회 (토큰만으로 접근)"""
+@router.get("/view/{job_id}")
+async def view_by_job_id(job_id: str, token: str = Query(..., description="Access token")):
+    """
+    🔥 P0 수정: job_id + token으로 결과 조회
+    프론트엔드: /report/{job_id}?token=xxx → 백엔드: /view/{job_id}?token=xxx
+    """
+    # UUID 형식 체크
+    try:
+        uuid.UUID(job_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid job_id format: {job_id}")
+    
     supabase = get_supabase()
     
     if not supabase or not supabase.is_available():
         raise HTTPException(status_code=503, detail="Supabase 미연결")
     
-    job = await supabase.get_job_by_token(token)
+    # 🔥 핵심: id = job_id AND public_token = token
+    is_valid, job = await supabase.verify_job_token(job_id, token)
     
-    if not job:
+    if not is_valid or not job:
         raise HTTPException(status_code=404, detail="Invalid token")
     
     return {
         "job_id": job["id"],
         "status": job.get("status"),
+        "progress": job.get("progress", 0),
         "result": job.get("result_json") if job.get("status") == "completed" else None,
-        "markdown": job.get("markdown") if job.get("status") == "completed" else None
+        "markdown": job.get("markdown") if job.get("status") == "completed" else None,
+        "error": job.get("error") if job.get("status") == "failed" else None
     }
 
 
