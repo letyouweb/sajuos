@@ -1,10 +1,11 @@
 """
-Report Worker v9 - 가드레일 실패 시 Job failed 처리
+Report Worker v10 - RuleCards 진단 + public_token 확실 사용
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-P0 요구사항:
-1) 가드레일 실패 → Job failed (completed 아님!)
-2) 자동 리라이트 1회 후 재검사
-3) 재검사도 실패 → Job failed로 종료
+P0 수정:
+1) 가드레일 실패 → Job failed
+2) RuleCards 진단 로그 추가
+3) rulestore.cards 직접 사용 (selector 의존 제거)
+4) public_token 확실히 사용
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
 import asyncio
@@ -30,6 +31,13 @@ class ReportWorker:
         
         self._running_jobs.add(job_id)
         start_time = time.time()
+        
+        # 🔥 RuleCards 진단 로그
+        if rulestore:
+            card_count = len(getattr(rulestore, 'cards', [])) if hasattr(rulestore, 'cards') else 0
+            logger.info(f"[Worker] RuleStore 수신: total={card_count}장, id={id(rulestore)}")
+        else:
+            logger.warning(f"[Worker] ⚠️ RuleStore가 None!")
         
         try:
             success, error_msg = await self._execute_job(job_id, rulestore)
@@ -81,11 +89,16 @@ class ReportWorker:
         # 3. 데이터 준비
         saju_data = self._prepare_saju_data(input_json)
         feature_tags = self._build_feature_tags(saju_data)
+        
+        # 🔥 RuleCards 선택 (진단 로그 포함)
         rulecards = self._select_rulecards(rulestore, feature_tags)
+        
+        logger.info(f"[Worker] RuleCards 선택: total={len(getattr(rulestore, 'cards', []))}장, "
+                   f"feature_tags={feature_tags[:5]}..., selected={len(rulecards)}장")
         
         # 4. 섹션별 생성 + 가드레일 검사
         sections_result = {}
-        failed_sections = []  # 가드레일 실패한 섹션들
+        failed_sections = []
         total_sections = len(SECTION_SPECS)
         
         for idx, spec in enumerate(SECTION_SPECS):
@@ -95,7 +108,6 @@ class ReportWorker:
             await supabase_service.update_progress(job_id, progress, "running")
             
             try:
-                # 🔥 P0-1: 가드레일 결과 포함하여 섹션 생성
                 section_result = await self._generate_section_with_guardrail(
                     section_id=section_id,
                     saju_data=saju_data,
@@ -106,10 +118,9 @@ class ReportWorker:
                 )
                 
                 content = section_result.get("content", {})
-                guardrail_ok = section_result.get("ok", True)  # 🔥 ok 필드 체크
+                guardrail_ok = section_result.get("ok", True)
                 guardrail_errors = section_result.get("guardrail_errors", [])
                 
-                # 🔥 P0-2: ok=False면 실패 (guardrail_errors 체크 대신 ok 사용)
                 if not guardrail_ok:
                     failed_sections.append({
                         "section_id": section_id,
@@ -117,19 +128,17 @@ class ReportWorker:
                     })
                     logger.warning(f"[Worker] 섹션 가드레일 실패: {section_id} | {guardrail_errors}")
                 
-                # 섹션 저장 (실패해도 일단 저장)
                 await supabase_service.save_section(
                     job_id=job_id,
                     section_id=section_id,
                     content_json={
                         **content,
-                        "guardrail_passed": guardrail_ok,  # 🔥 ok 필드 사용
+                        "guardrail_passed": guardrail_ok,
                         "guardrail_errors": guardrail_errors
                     }
                 )
                 
                 sections_result[section_id] = content
-                # 🔥 로그도 ok 기반으로 출력
                 logger.info(f"[Worker] 섹션 완료: {section_id} (가드레일: {'✅' if guardrail_ok else '❌'})")
                 
             except Exception as e:
@@ -139,7 +148,7 @@ class ReportWorker:
                     "errors": [f"Exception: {str(e)[:100]}"]
                 })
         
-        # 🔥 P0-1: 가드레일 실패한 섹션이 있으면 Job failed
+        # 가드레일 실패 처리
         if failed_sections:
             error_summary = "; ".join([
                 f"{fs['section_id']}: {', '.join(fs['errors'][:2])}"
@@ -148,7 +157,6 @@ class ReportWorker:
             
             await supabase_service.fail_job(job_id, f"가드레일 실패: {error_summary[:400]}")
             
-            # 실패 이메일
             try:
                 await self._send_failure_email(job, error_summary[:200])
             except:
@@ -156,7 +164,7 @@ class ReportWorker:
             
             return False, error_summary
         
-        # 5. 모든 섹션 성공 → 결과 조합
+        # 5. 결과 조합
         result_json = {
             "name": name,
             "target_year": target_year,
@@ -185,16 +193,15 @@ class ReportWorker:
         feature_tags: List,
         target_year: int,
         question: str,
-        max_retries: int = 2  # 🔥 P0-5: 자동 리라이트 1회 포함
+        max_retries: int = 2
     ) -> Dict[str, Any]:
-        """
-        섹션 생성 + 가드레일 검사 + 자동 리라이트
-        Returns: {"ok": bool, "content": {...}, "guardrail_errors": [...]}
-        """
+        """섹션 생성 + 가드레일 검사 + 자동 리라이트"""
         try:
             from app.services.report_builder import premium_report_builder
             
-            # 첫 번째 생성
+            # 🔥 RuleCards 진단 로그
+            logger.info(f"[Worker:Section:{section_id}] RuleCards 전달: {len(rulecards)}장")
+            
             result = await premium_report_builder.regenerate_single_section(
                 section_id=section_id,
                 saju_data=saju_data,
@@ -205,14 +212,13 @@ class ReportWorker:
             )
             
             content = result.get("content", {})
-            ok = result.get("ok", True)  # 🔥 ok 필드 가져오기
+            ok = result.get("ok", True)
             guardrail_errors = result.get("guardrail_errors", [])
             
-            # 🔥 P0-5: 가드레일 실패 시 자동 리라이트 1회
+            # 가드레일 실패 시 자동 리라이트 1회
             if not ok and max_retries > 0:
                 logger.info(f"[Worker] 자동 리라이트 시도: {section_id}")
                 
-                # 리라이트 프롬프트 추가
                 rewrite_instruction = self._build_rewrite_prompt(guardrail_errors)
                 
                 result = await premium_report_builder.regenerate_single_section(
@@ -225,7 +231,7 @@ class ReportWorker:
                 )
                 
                 content = result.get("content", {})
-                ok = result.get("ok", True)  # 🔥 리라이트 후 ok 체크
+                ok = result.get("ok", True)
                 guardrail_errors = result.get("guardrail_errors", [])
                 
                 if not ok:
@@ -234,7 +240,7 @@ class ReportWorker:
                     logger.info(f"[Worker] 리라이트 성공: {section_id}")
             
             return {
-                "ok": ok,  # 🔥 ok 필드 반환
+                "ok": ok,
                 "content": content,
                 "guardrail_errors": guardrail_errors
             }
@@ -242,13 +248,13 @@ class ReportWorker:
         except Exception as e:
             logger.error(f"섹션 생성 오류: {section_id} | {e}")
             return {
-                "ok": False,  # 🔥 예외 시 ok=False
+                "ok": False,
                 "content": {"summary": f"{section_id} 생성 실패", "error": str(e)[:200]},
                 "guardrail_errors": [f"Exception: {str(e)[:100]}"]
             }
     
     def _build_rewrite_prompt(self, errors: List[str]) -> str:
-        """🔥 P0-5: 리라이트 프롬프트 생성"""
+        """리라이트 프롬프트 생성"""
         prompt_parts = [
             "⚠️ 이전 응답이 품질 검사에 실패했습니다. 다음 규칙을 반드시 지켜주세요:",
             ""
@@ -257,7 +263,7 @@ class ReportWorker:
         for error in errors[:5]:
             if "LANGUAGE_NOT_KOREAN" in error:
                 prompt_parts.append("- 영어 사용 금지! AI, KPI, ROI, OKR 같은 비즈니스 약어만 허용. 나머지는 모두 한국어로.")
-            elif "banned_phrase" in error:
+            elif "banned_phrase" in error or "hard_banned" in error:
                 prompt_parts.append("- 자기계발서 문구 금지! '노력하면', '성장의 기회', '긍정적인' 같은 공허한 표현 대신 구체적 수치와 액션을 사용.")
             elif "low_specificity" in error:
                 prompt_parts.append("- 구체성 강화! 모든 문장에 날짜(3월 2주차), 수치(30% 증가), 액션(계약서 발송), 검증방법(주간 리뷰)을 포함.")
@@ -304,15 +310,68 @@ class ReportWorker:
         return tags
     
     def _select_rulecards(self, rulestore: Any, feature_tags: List[str]) -> List:
-        """RuleCards 선택"""
+        """
+        🔥 RuleCards 선택 (진단 로그 포함, fallback 포함)
+        """
         if not rulestore:
+            logger.warning(f"[Worker] RuleStore가 None - 빈 RuleCards 반환")
             return []
         
-        try:
-            from app.services.rulecard_selector import select_rulecards
-            return select_rulecards(rulestore, feature_tags, max_cards=50)
-        except:
+        # 🔥 직접 cards 접근 (selector 모듈 의존 제거)
+        all_cards = getattr(rulestore, 'cards', [])
+        
+        if not all_cards:
+            logger.warning(f"[Worker] RuleStore.cards가 비어있음")
             return []
+        
+        logger.info(f"[Worker] RuleStore.cards: {len(all_cards)}장")
+        
+        # 🔥 feature_tags 기반 필터링 (간단 버전)
+        if not feature_tags:
+            # feature_tags 없으면 전체 중 priority 상위 100개
+            sorted_cards = sorted(all_cards, key=lambda c: getattr(c, 'priority', 0), reverse=True)
+            selected = sorted_cards[:100]
+            logger.info(f"[Worker] feature_tags 없음 → priority 상위 {len(selected)}개 선택")
+            return [self._card_to_dict(c) for c in selected]
+        
+        # feature_tags로 필터링
+        matched = []
+        feature_set = set(t.lower() for t in feature_tags)
+        
+        for card in all_cards:
+            card_tags = getattr(card, 'tags', [])
+            card_tags_lower = set(t.lower() for t in card_tags)
+            
+            # 하나라도 매칭되면 포함
+            if feature_set & card_tags_lower:
+                matched.append(card)
+        
+        if matched:
+            # 매칭된 것 중 priority 상위 50개
+            sorted_matched = sorted(matched, key=lambda c: getattr(c, 'priority', 0), reverse=True)
+            selected = sorted_matched[:50]
+            logger.info(f"[Worker] feature_tags 매칭: {len(matched)}개 중 {len(selected)}개 선택")
+            return [self._card_to_dict(c) for c in selected]
+        
+        # 🔥 매칭 없으면 fallback: priority 상위 50개
+        sorted_cards = sorted(all_cards, key=lambda c: getattr(c, 'priority', 0), reverse=True)
+        selected = sorted_cards[:50]
+        logger.info(f"[Worker] feature_tags 매칭 없음 → fallback priority 상위 {len(selected)}개")
+        return [self._card_to_dict(c) for c in selected]
+    
+    def _card_to_dict(self, card) -> Dict:
+        """RuleCard를 dict로 변환"""
+        return {
+            "id": getattr(card, 'id', ''),
+            "topic": getattr(card, 'topic', ''),
+            "tags": getattr(card, 'tags', []),
+            "priority": getattr(card, 'priority', 0),
+            "trigger": getattr(card, 'trigger', ''),
+            "mechanism": getattr(card, 'mechanism', ''),
+            "interpretation": getattr(card, 'interpretation', ''),
+            "action": getattr(card, 'action', ''),
+            "cautions": getattr(card, 'cautions', []),
+        }
     
     def _build_markdown(self, result_json: Dict) -> str:
         """마크다운 생성"""
@@ -329,7 +388,7 @@ class ReportWorker:
         return "\n".join(lines)
     
     async def _send_completion_email(self, email: str, name: str, job_id: str):
-        """완료 이메일"""
+        """완료 이메일 (🔥 public_token 확실히 사용)"""
         if not email:
             return
         
@@ -337,13 +396,23 @@ class ReportWorker:
             from app.services.email_sender import email_sender
             
             job = await supabase_service.get_job(job_id)
-            access_token = job.get("public_token", "") if job else ""
+            if not job:
+                logger.warning(f"[Worker] 이메일 발송 실패: Job 없음 {job_id}")
+                return
+            
+            # 🔥 public_token 확인
+            access_token = job.get("public_token", "")
+            if not access_token:
+                logger.error(f"[Worker] ⚠️ public_token이 NULL! job_id={job_id}")
+                return
+            
+            logger.info(f"[Worker] 이메일 발송 준비: {email}, token={access_token[:8]}...")
             
             await email_sender.send_report_complete(
                 to_email=email,
                 name=name,
                 report_id=job_id,
-                access_token=access_token,
+                access_token=access_token,  # 🔥 DB에 저장된 토큰 사용
                 target_year=2026
             )
             logger.info(f"[Worker] ✅ 완료 이메일 발송: {email}")

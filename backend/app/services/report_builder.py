@@ -1101,6 +1101,10 @@ class PremiumReportBuilder:
         survey_data: Optional[Dict[str, Any]] = None  # 🔥 v7: 설문 데이터
     ) -> Dict[str, Any]:
         """단일 섹션 재생성"""
+        
+        # 🔥 P0-2: RuleCards 진단 로그
+        logger.info(f"[Section:{section_id}] 시작 | RuleCards={len(rulecards)}장, feature_tags={len(feature_tags or [])}개")
+        
         if section_id not in PREMIUM_SECTIONS:
             raise ValueError(f"Invalid section_id: {section_id}")
         

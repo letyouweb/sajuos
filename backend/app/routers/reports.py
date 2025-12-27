@@ -1,7 +1,12 @@
 """
-Reports API Router v7 - 라우트 순서 수정
+Reports API Router v8 - 토큰 검증 API 추가
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+P0 수정:
+1) /verify/{job_id}?token=xxx 엔드포인트 추가
+2) /{job_id}/access?token=xxx 토큰 검증 포함 조회
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
-from fastapi import APIRouter, HTTPException, Request, BackgroundTasks
+from fastapi import APIRouter, HTTPException, Request, BackgroundTasks, Query
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, EmailStr
 from typing import Optional, Dict, Any, List
@@ -81,6 +86,9 @@ async def start_report(
                 target_year=payload.target_year
             )
             job_id = job["id"]
+            public_token = job.get("public_token")  # 🔥 토큰 확인
+            
+            logger.info(f"[Reports] Job 생성 완료: {job_id}, token={public_token[:8] if public_token else 'NULL'}...")
             
             # 섹션 초기화 (실패해도 계속)
             try:
@@ -90,6 +98,14 @@ async def start_report(
             
             # 백그라운드 작업
             rulestore = getattr(request.app.state, "rulestore", None)
+            
+            # 🔥 RuleCards 진단 로그
+            if rulestore:
+                card_count = len(getattr(rulestore, 'cards', [])) if hasattr(rulestore, 'cards') else 0
+                logger.info(f"[Reports] RuleStore 전달: {card_count}장, id={id(rulestore)}")
+            else:
+                logger.warning(f"[Reports] ⚠️ RuleStore가 None! app.state.rulestore 확인 필요")
+            
             background_tasks.add_task(run_report_job, job_id, rulestore)
             
             return {
@@ -128,7 +144,7 @@ async def get_sections_info():
 
 @router.get("/view/{token}")
 async def view_by_token(token: str):
-    """토큰으로 결과 조회"""
+    """토큰으로 결과 조회 (토큰만으로 접근)"""
     supabase = get_supabase()
     
     if not supabase or not supabase.is_available():
@@ -142,7 +158,43 @@ async def view_by_token(token: str):
     return {
         "job_id": job["id"],
         "status": job.get("status"),
-        "result": job.get("result_json") if job.get("status") == "completed" else None
+        "result": job.get("result_json") if job.get("status") == "completed" else None,
+        "markdown": job.get("markdown") if job.get("status") == "completed" else None
+    }
+
+
+@router.get("/verify/{job_id}")
+async def verify_token(job_id: str, token: str = Query(..., description="Access token")):
+    """
+    🔥 P0-1: job_id + token 검증 API
+    프론트엔드에서 /report/{job_id}?token=xxx 로 호출
+    """
+    try:
+        uuid.UUID(job_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid job_id format: {job_id}")
+    
+    if not token:
+        raise HTTPException(status_code=400, detail="Token required")
+    
+    supabase = get_supabase()
+    
+    if not supabase or not supabase.is_available():
+        raise HTTPException(status_code=503, detail="Supabase 미연결")
+    
+    is_valid, job = await supabase.verify_job_token(job_id, token)
+    
+    if not is_valid:
+        raise HTTPException(status_code=403, detail="Invalid token")
+    
+    return {
+        "valid": True,
+        "job_id": job["id"],
+        "status": job.get("status"),
+        "progress": job.get("progress", 0),
+        "result": job.get("result_json") if job.get("status") == "completed" else None,
+        "markdown": job.get("markdown") if job.get("status") == "completed" else None,
+        "error": job.get("error") if job.get("status") == "failed" else None
     }
 
 
@@ -151,9 +203,11 @@ async def view_by_token(token: str):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @router.get("/{job_id}")
-async def get_report_status(job_id: str):
-    """폴링용 상태 조회"""
-    # UUID 형식 체크
+async def get_report_status(job_id: str, token: Optional[str] = Query(None)):
+    """
+    폴링용 상태 조회
+    🔥 token 파라미터가 있으면 검증 후 결과 반환
+    """
     try:
         uuid.UUID(job_id)
     except ValueError:
@@ -165,10 +219,21 @@ async def get_report_status(job_id: str):
         return {"job_id": job_id, "status": "unknown", "progress": 0, "message": "Supabase 미연결"}
     
     try:
-        job = await supabase.get_job_with_sections(job_id)
+        # 🔥 토큰이 있으면 검증
+        if token:
+            is_valid, job = await supabase.verify_job_token(job_id, token)
+            if not is_valid:
+                raise HTTPException(status_code=403, detail="Invalid token")
+        else:
+            job = await supabase.get_job_with_sections(job_id)
         
         if not job:
             raise HTTPException(status_code=404, detail="Job not found")
+        
+        # 섹션 정보 (토큰 없는 경우에만 조회 - 이미 job에 없으면)
+        if "sections" not in job:
+            sections_data = await supabase.get_sections(job_id)
+            job["sections"] = sections_data
         
         return {
             "job_id": job_id,
@@ -179,7 +244,8 @@ async def get_report_status(job_id: str):
                 for s in job.get("sections", [])
             ],
             "error": job.get("error"),
-            "result": job.get("result_json") if job.get("status") == "completed" else None
+            "result": job.get("result_json") if job.get("status") == "completed" else None,
+            "markdown": job.get("markdown") if job.get("status") == "completed" else None
         }
     except HTTPException:
         raise
@@ -189,7 +255,7 @@ async def get_report_status(job_id: str):
 
 
 @router.get("/{job_id}/result")
-async def get_report_result(job_id: str):
+async def get_report_result(job_id: str, token: Optional[str] = Query(None)):
     """완료된 리포트 결과"""
     try:
         uuid.UUID(job_id)
@@ -201,7 +267,13 @@ async def get_report_result(job_id: str):
     if not supabase or not supabase.is_available():
         raise HTTPException(status_code=503, detail="Supabase 미연결")
     
-    job = await supabase.get_job(job_id)
+    # 🔥 토큰 검증
+    if token:
+        is_valid, job = await supabase.verify_job_token(job_id, token)
+        if not is_valid:
+            raise HTTPException(status_code=403, detail="Invalid token")
+    else:
+        job = await supabase.get_job(job_id)
     
     if not job:
         raise HTTPException(status_code=404, detail="Job not found")
@@ -209,7 +281,11 @@ async def get_report_result(job_id: str):
     if job.get("status") != "completed":
         return {"completed": False, "status": job.get("status"), "progress": job.get("progress", 0)}
     
-    return {"completed": True, "result": job.get("result_json")}
+    return {
+        "completed": True, 
+        "result": job.get("result_json"),
+        "markdown": job.get("markdown")
+    }
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -220,6 +296,14 @@ async def run_report_job(job_id: str, rulestore):
     """백그라운드 리포트 생성"""
     try:
         from app.services.report_worker import report_worker
+        
+        # 🔥 RuleCards 진단 로그
+        if rulestore:
+            card_count = len(getattr(rulestore, 'cards', [])) if hasattr(rulestore, 'cards') else 0
+            logger.info(f"[RunJob] RuleStore 수신: {card_count}장, id={id(rulestore)}")
+        else:
+            logger.warning(f"[RunJob] ⚠️ RuleStore가 None!")
+        
         await report_worker.run_job(job_id, rulestore)
     except Exception as e:
         logger.error(f"Report job 실패: {job_id} | {e}")

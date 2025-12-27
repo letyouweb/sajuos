@@ -1,11 +1,13 @@
 """
-Supabase Service v9 - DB 스키마 완전 일치
+Supabase Service v10 - public_token 확실 생성 + 검증
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-report_jobs: id, user_email, input_json, status, progress, current_step, result_json, markdown, error, public_token
-report_sections: id, job_id, section_id, status, progress, raw_json
+P0 수정:
+1) create_job 시 public_token 명시적 생성
+2) get_job_with_token 검증 로직 추가
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
 import os
+import secrets
 import logging
 from typing import Dict, Any, Optional, List
 
@@ -41,16 +43,19 @@ class SupabaseService:
         return bool(os.getenv("SUPABASE_URL") and os.getenv("SUPABASE_SERVICE_ROLE_KEY"))
     
     async def create_job(self, email: str, name: str = "", input_data: Dict = None, target_year: int = 2026) -> Dict:
-        """Job 생성"""
+        """Job 생성 (🔥 public_token 명시적 생성)"""
         client = self._get_client()
         
-        # 🔥 input_data를 input_json 컬럼에 저장
+        # 🔥 P0-1: public_token을 코드에서 명시적으로 생성
+        public_token = secrets.token_hex(16)  # 32자 hex
+        
         data = {
             "user_email": email,
-            "input_json": input_data or {},  # 여기에 name, target_year 등 포함
+            "input_json": input_data or {},
             "status": "queued",
             "progress": 0,
-            "current_step": "queued"
+            "current_step": "queued",
+            "public_token": public_token  # 🔥 반드시 포함
         }
         
         result = client.table("report_jobs").insert(data).execute()
@@ -59,7 +64,14 @@ class SupabaseService:
             raise RuntimeError("Job 생성 실패")
         
         job = result.data[0]
-        logger.info(f"[Supabase] Job 생성: {job['id']}")
+        
+        # 🔥 public_token 확인 로그
+        saved_token = job.get("public_token")
+        logger.info(f"[Supabase] Job 생성: {job['id']} | token={saved_token[:8]}...")
+        
+        if not saved_token:
+            logger.error(f"[Supabase] ⚠️ public_token이 NULL! job_id={job['id']}")
+        
         return job
     
     async def get_job(self, job_id: str) -> Optional[Dict]:
@@ -73,6 +85,31 @@ class SupabaseService:
         client = self._get_client()
         result = client.table("report_jobs").select("*").eq("public_token", token).execute()
         return result.data[0] if result.data else None
+    
+    async def verify_job_token(self, job_id: str, token: str) -> tuple[bool, Optional[Dict]]:
+        """
+        🔥 Job ID + Token 검증
+        Returns: (is_valid, job_data)
+        """
+        client = self._get_client()
+        result = client.table("report_jobs").select("*").eq("id", job_id).execute()
+        
+        if not result.data:
+            logger.warning(f"[Supabase] Job 없음: {job_id}")
+            return False, None
+        
+        job = result.data[0]
+        stored_token = job.get("public_token")
+        
+        if not stored_token:
+            logger.error(f"[Supabase] Job에 public_token 없음: {job_id}")
+            return False, None
+        
+        if stored_token != token:
+            logger.warning(f"[Supabase] 토큰 불일치: job={job_id}, expected={stored_token[:8]}..., got={token[:8] if token else 'None'}...")
+            return False, None
+        
+        return True, job
     
     async def update_progress(self, job_id: str, progress: int, status: str = "running"):
         """진행률 업데이트"""
@@ -179,6 +216,24 @@ class SupabaseService:
             return result.data or []
         except:
             return []
+    
+    async def fix_null_tokens(self) -> int:
+        """🔥 기존 NULL 토큰 수정 (마이그레이션용)"""
+        client = self._get_client()
+        
+        # NULL 토큰 조회
+        result = client.table("report_jobs").select("id").is_("public_token", "null").execute()
+        
+        fixed = 0
+        for job in (result.data or []):
+            new_token = secrets.token_hex(16)
+            client.table("report_jobs").update({
+                "public_token": new_token
+            }).eq("id", job["id"]).execute()
+            fixed += 1
+            logger.info(f"[Supabase] 토큰 수정: {job['id']} → {new_token[:8]}...")
+        
+        return fixed
 
 
 supabase_service = SupabaseService()
