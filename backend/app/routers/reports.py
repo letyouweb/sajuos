@@ -147,6 +147,7 @@ async def view_by_job_id(job_id: str, token: str = Query(..., description="Acces
     """
     🔥 P0 수정: job_id + token으로 결과 조회
     프론트엔드: /report/{job_id}?token=xxx → 백엔드: /view/{job_id}?token=xxx
+    반환: { job: {...}, sections: [...] }
     """
     # UUID 형식 체크
     try:
@@ -159,19 +160,38 @@ async def view_by_job_id(job_id: str, token: str = Query(..., description="Acces
     if not supabase or not supabase.is_available():
         raise HTTPException(status_code=503, detail="Supabase 미연결")
     
-    # 🔥 핵심: id = job_id AND public_token = token
+    # 🔥 핵심: id = job_id AND public_token = token (단일 쿼리)
     is_valid, job = await supabase.verify_job_token(job_id, token)
     
     if not is_valid or not job:
         raise HTTPException(status_code=404, detail="Invalid token")
     
+    # 🔥 sections도 함께 조회
+    sections = await supabase.get_sections(job_id)
+    
+    # 🔥 항상 동일한 스키마로 반환
     return {
-        "job_id": job["id"],
-        "status": job.get("status"),
-        "progress": job.get("progress", 0),
-        "result": job.get("result_json") if job.get("status") == "completed" else None,
-        "markdown": job.get("markdown") if job.get("status") == "completed" else None,
-        "error": job.get("error") if job.get("status") == "failed" else None
+        "job": {
+            "id": job["id"],
+            "status": job.get("status"),
+            "progress": job.get("progress", 0),
+            "result_json": job.get("result_json"),
+            "markdown": job.get("markdown"),
+            "error": job.get("error"),
+            "created_at": job.get("created_at"),
+            "updated_at": job.get("updated_at"),
+        },
+        "sections": [
+            {
+                "id": s.get("section_id"),
+                "title": s.get("title"),
+                "status": s.get("status"),
+                "order": s.get("order_num"),
+                "content": s.get("content"),
+                "error": s.get("error"),
+            }
+            for s in (sections or [])
+        ]
     }
 
 
