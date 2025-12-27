@@ -86,7 +86,8 @@ export default function ResultCard({ calculateResult, interpretResult }: ResultC
   const meta = report.meta;
   const sections = report.sections || [];
 
-  const accuracyBadge = getAccuracyBadge(calculateResult.quality);
+  // 🔥 P0: null-safe 처리
+  const accuracyBadge = getAccuracyBadge(calculateResult?.quality);
   const badgeInfo = getAccuracyBadgeInfo(accuracyBadge);
 
   // 🔥 RuleCard 유니크 합산
@@ -108,7 +109,8 @@ export default function ResultCard({ calculateResult, interpretResult }: ResultC
   };
 
   const handleShare = async () => {
-    if (calculateResult.quality.solar_term_boundary) {
+    // 🔥 P0: null-safe 처리
+    if (calculateResult?.quality?.solar_term_boundary) {
       setShowBoundaryModal(true);
       return;
     }
@@ -517,16 +519,16 @@ export default function ResultCard({ calculateResult, interpretResult }: ResultC
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
         <div className="gradient-bg text-white p-6">
           <h2 className="text-2xl font-bold mb-2">📜 사주 원국</h2>
-          <p className="opacity-90">{calculateResult.birth_info}</p>
+          <p className="opacity-90">{calculateResult?.birth_info || '생년월일 정보'}</p>
         </div>
         
         <div className="p-6">
           <div className="grid grid-cols-4 gap-2 mb-6">
             {[
-              { label: '시주', pillar: calculateResult.saju.hour_pillar, hanja: '時' },
-              { label: '일주', pillar: calculateResult.saju.day_pillar, hanja: '日' },
-              { label: '월주', pillar: calculateResult.saju.month_pillar, hanja: '月' },
-              { label: '년주', pillar: calculateResult.saju.year_pillar, hanja: '年' },
+              { label: '시주', pillar: calculateResult?.saju?.hour_pillar, hanja: '時' },
+              { label: '일주', pillar: calculateResult?.saju?.day_pillar, hanja: '日' },
+              { label: '월주', pillar: calculateResult?.saju?.month_pillar, hanja: '月' },
+              { label: '년주', pillar: calculateResult?.saju?.year_pillar, hanja: '年' },
             ].map((item, idx) => (
               <div key={item.label} className="text-center">
                 <p className="text-xs text-gray-500 mb-1">{item.label}({item.hanja})</p>
@@ -556,9 +558,9 @@ export default function ResultCard({ calculateResult, interpretResult }: ResultC
           <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
             <p className="text-sm text-purple-600 font-medium mb-1">당신의 일간 (핵심 의사결정자 특성)</p>
             <p className="text-lg font-bold text-purple-800">
-              {calculateResult.day_master} ({calculateResult.day_master_element})
+              {calculateResult?.day_master || '무'} ({calculateResult?.day_master_element || '토'})
             </p>
-            <p className="text-sm text-gray-600 mt-2">{calculateResult.day_master_description}</p>
+            <p className="text-sm text-gray-600 mt-2">{calculateResult?.day_master_description || ''}</p>
           </div>
         </div>
       </div>
@@ -712,7 +714,7 @@ export default function ResultCard({ calculateResult, interpretResult }: ResultC
             <p>RuleCard: {totalUniqueRuleCards}/{meta.rulecards_pool_total || 0}장 (Top-100 선별)</p>
           </>
         ) : (
-          <p>Method: {calculateResult.calculation_method}</p>
+          <p>Method: {calculateResult?.calculation_method || 'kasi_api'}</p>
         )}
       </div>
 

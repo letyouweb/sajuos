@@ -282,6 +282,30 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
   if (status === "completed" && job) {
     const result = job.result_json || job.result;
     
+    // 🔥 P0: calculateResult 정규화 (null-safe)
+    const rawSajuData = result?.legacy?.saju_data || result?.saju_data || {};
+    const normalizedCalculateResult = {
+      birth_info: rawSajuData.birth_info || '',
+      saju: rawSajuData.saju || {
+        hour_pillar: null,
+        day_pillar: null,
+        month_pillar: null,
+        year_pillar: null,
+      },
+      day_master: rawSajuData.day_master || '',
+      day_master_element: rawSajuData.day_master_element || '',
+      day_master_description: rawSajuData.day_master_description || '',
+      calculation_method: rawSajuData.calculation_method || 'kasi_api',
+      quality: rawSajuData.quality || {
+        has_birth_time: false,
+        solar_term_boundary: false,
+        boundary_reason: null,
+        timezone: 'Asia/Seoul',
+        calculation_method: 'kasi_api',
+      },
+      ...rawSajuData,
+    };
+    
     // ResultCard에 전달할 데이터가 있으면 ResultCard 사용
     if (result) {
       return (
@@ -295,7 +319,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
             </header>
 
             <ResultCard
-              calculateResult={result.legacy?.saju_data || result.saju_data || {}}
+              calculateResult={normalizedCalculateResult}
               interpretResult={result}
               onReset={() => window.location.href = "/"}
             />

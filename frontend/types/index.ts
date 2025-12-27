@@ -153,7 +153,10 @@ export function getHourFromJiIndex(jiIndex: number): number {
 // 정확도 배지 타입
 export type AccuracyBadge = 'high' | 'boundary' | 'no_time';
 
-export function getAccuracyBadge(quality: QualityInfo): AccuracyBadge {
+export function getAccuracyBadge(quality?: QualityInfo | null): AccuracyBadge {
+  // 🔥 P0: null-safe 처리
+  if (!quality) return 'no_time';
+  
   if (quality.solar_term_boundary) {
     return 'boundary';
   }
