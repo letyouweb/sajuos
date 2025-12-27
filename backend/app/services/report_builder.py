@@ -66,15 +66,34 @@ REQUIRED_BUSINESS_TERMS = [
     "고객", "시장", "전략", "실행", "목표", "성과", "분기", "월별"
 ]
 
+# 🔥 P0-3: 영어 Allowlist (비즈니스 약어 - en_ratio 계산에서 제외)
+ENGLISH_ALLOWLIST = {
+    "ai", "okr", "kpi", "pdf", "sns", "url", "api", "db", "sql",
+    "roi", "b2b", "b2c", "saas", "crm", "erp", "hr", "ceo", "cto", "cfo",
+    "mvp", "poc", "qa", "ui", "ux", "seo", "sem", "ppc", "cpa", "cpc",
+    "ltv", "cac", "mrr", "arr", "gmv", "aov", "dau", "mau", "wau",
+    "pm", "pd", "pr", "ir", "ipo", "m&a", "nda", "mou", "rnd",
+    "it", "iot", "ml", "gpt", "llm", "devops", "ci", "cd",
+}
+
 
 def english_ratio(text: str) -> float:
-    """영문자 비율 계산"""
+    """영문자 비율 계산 (Allowlist 제외)"""
     if not text:
         return 0.0
-    # 영문자만 카운트 (숫자, 특수문자 제외)
-    en_chars = len(re.findall(r"[A-Za-z]", text))
-    # 공백 제외한 전체 길이
+    
+    # 1) 영어 단어 추출
+    en_words = re.findall(r"[A-Za-z]+", text)
+    
+    # 2) Allowlist 제외한 영어 글자 수 계산
+    en_chars = 0
+    for word in en_words:
+        if word.lower() not in ENGLISH_ALLOWLIST:
+            en_chars += len(word)
+    
+    # 3) 공백 제외한 전체 길이
     total_chars = len(re.sub(r"\s", "", text))
+    
     return en_chars / max(total_chars, 1)
 
 
@@ -831,7 +850,12 @@ class PremiumReportBuilder:
                 
                 if not quality_report.passed:
                     is_valid = False
-                    errors.extend([f"QUALITY_GATE:{issue.type}" for issue in quality_report.issues[:3]])
+                    # 🔥 P0-4: banned_phrase에 상세 정보 추가
+                    for issue in quality_report.issues[:3]:
+                        if issue.type == "banned_phrase":
+                            errors.append(f"QUALITY_GATE:banned_phrase({issue.content})")
+                        else:
+                            errors.append(f"QUALITY_GATE:{issue.type}")
                     logger.warning(f"[Section:{section_id}] 품질 게이트 점수: {quality_report.score}/100")
                 
                 if is_valid:
