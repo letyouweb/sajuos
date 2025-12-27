@@ -18,8 +18,8 @@ import type {
 
 // ============ 🔥 환경변수 - 절대주소 강제 ============
 
-// 프로덕션: 항상 https://api.sajuos.com 사용
-const PROD_API_URL = 'https://api.sajuos.com';
+// 프로덕션: Railway URL 직접 사용 (api.sajuos.com 설정 전까지)
+const PROD_API_URL = 'https://saju-production-6438.up.railway.app';
 const DEV_API_URL = 'http://localhost:8000';
 
 function getApiBaseUrl(): string {
