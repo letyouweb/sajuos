@@ -16,23 +16,34 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.config import get_settings
-from app.routers import calculate, interpret, reports
-
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 로깅 설정
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 포트 동적 설정 (Railway/Docker 호환)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PORT = int(os.environ.get("PORT", 8080))
 
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Lifespan (서버 시작/종료)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """서버 시작/종료 시 실행"""
-    logger.info("🚀 Saju AI Service starting...")
+    logger.info(f"🚀 Saju AI Service starting on port {PORT}...")
+    
+    # Lazy import (시작 시점에만)
+    from app.config import get_settings
     settings = get_settings()
     
-    # 1. OpenAI API Key 확인 (lazy하지 않음 - 필수)
+    # 1. OpenAI API Key 확인
     app.state.openai_ready = False
     try:
         from app.services.openai_key import get_openai_api_key, key_fingerprint, key_tail
@@ -43,7 +54,7 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.error(f"❌ OPENAI_API_KEY error: {e}")
     
-    # 2. RuleCards 로드 (시작 시 필수)
+    # 2. RuleCards 로드
     app.state.rulestore = None
     try:
         from app.services.rulecards_store import RuleCardStore
@@ -69,7 +80,7 @@ async def lifespan(app: FastAPI):
     except Exception as e:
         logger.error(f"❌ RuleCards 로드 실패: {e}")
     
-    # 3. Supabase 상태 체크 (Lazy-init - 실제 호출 시에만 연결)
+    # 3. Supabase 상태 체크 (Lazy-init)
     app.state.supabase_configured = bool(
         settings.supabase_url and settings.supabase_service_role_key
     )
@@ -78,7 +89,7 @@ async def lifespan(app: FastAPI):
     else:
         logger.warning("⚠️ Supabase 환경변수 없음")
     
-    # 4. 서버 시작 시 미완료 Job 복구
+    # 4. 미완료 Job 복구
     if app.state.supabase_configured:
         try:
             from app.services.job_recovery import recover_interrupted_jobs
@@ -96,9 +107,8 @@ async def lifespan(app: FastAPI):
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# FastAPI App 생성
+# 🔥 FastAPI App 선언 (최상단)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 app = FastAPI(
     title="Saju AI Service",
     description="99,000원 프리미엄 비즈니스 사주 컨설팅",
@@ -108,9 +118,10 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-settings = get_settings()
 
-# CORS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CORS 미들웨어
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -121,18 +132,13 @@ app.add_middleware(
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 라우터 등록 (P0: 라우트 통일 + alias)
+# 라우터 등록 (Lazy import)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+from app.routers import calculate, interpret, reports
 
-# 기본 라우터
 app.include_router(calculate.router, prefix="/api/v1", tags=["Calculate"])
 app.include_router(interpret.router, prefix="/api/v1", tags=["Interpret"])
-
-# 🔥 프리미엄 리포트 라우터 (Primary + Aliases)
-# Primary: /api/v1/reports/*
 app.include_router(reports.router, prefix="/api/v1", tags=["Premium Reports"])
-
-# Alias 1: /api/reports/* (프론트 호환)
 app.include_router(reports.router, prefix="/api", tags=["Reports Alias"], include_in_schema=False)
 
 
@@ -146,7 +152,8 @@ async def root():
     return {
         "service": "Saju AI Service",
         "version": "3.0.0",
-        "status": "running"
+        "status": "running",
+        "port": PORT
     }
 
 
@@ -154,7 +161,6 @@ async def root():
 async def health_check():
     """
     🏥 헬스체크 - 외부 의존성 0, 즉시 OK
-    Railway/K8s 컨테이너 상태 확인용
     """
     return {"status": "ok"}
 
@@ -162,7 +168,7 @@ async def health_check():
 @app.get("/ready", tags=["System"])
 async def readiness_check(request: Request):
     """
-    🚀 준비상태 체크 - 실제 서비스 가능 여부
+    🚀 준비상태 체크
     """
     checks = {
         "openai": getattr(request.app.state, "openai_ready", False),
@@ -174,44 +180,35 @@ async def readiness_check(request: Request):
     rulecard_count = len(request.app.state.rulestore.cards) if request.app.state.rulestore else 0
     
     if all_ready:
-        return {
-            "status": "ready",
-            "checks": checks,
-            "rulecards_loaded": rulecard_count
-        }
+        return {"status": "ready", "checks": checks, "rulecards_loaded": rulecard_count}
     else:
-        return JSONResponse(
-            status_code=503,
-            content={"status": "not_ready", "checks": checks}
-        )
+        return JSONResponse(status_code=503, content={"status": "not_ready", "checks": checks})
 
 
 @app.get("/env-check", tags=["System"])
 async def env_check():
     """환경변수 설정 상태"""
+    from app.config import get_settings
+    settings = get_settings()
     return {
         "openai_api_key": "SET" if settings.openai_api_key else "NOT_SET",
         "supabase_url": "SET" if settings.supabase_url else "NOT_SET",
         "supabase_key": "SET" if settings.supabase_service_role_key else "NOT_SET",
         "resend_key": "SET" if settings.resend_api_key else "NOT_SET",
         "model": settings.openai_model,
+        "port": PORT
     }
 
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
     logger.error(f"Exception: {type(exc).__name__}: {str(exc)[:200]}")
-    return JSONResponse(
-        status_code=500,
-        content={"success": False, "error": "Internal server error"}
-    )
+    return JSONResponse(status_code=500, content={"success": False, "error": "Internal server error"})
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 직접 실행 (Railway/Docker)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8080))
-    uvicorn.run("app.main:app", host="0.0.0.0", port=port, reload=False)
+    uvicorn.run("app.main:app", host="0.0.0.0", port=PORT, reload=False)
