@@ -226,11 +226,19 @@ class ReportWorker:
         
         try:
             from app.services.email_sender import email_sender
-            await email_sender.send_completion(
+            
+            # Job에서 access_token 가져오기
+            job = await supabase_service.get_job(job_id)
+            access_token = job.get("public_token", "") if job else ""
+            
+            await email_sender.send_report_complete(
                 to_email=email,
                 name=name,
-                job_id=job_id
+                report_id=job_id,
+                access_token=access_token,
+                target_year=2026
             )
+            logger.info(f"[Worker] ✅ 완료 이메일 발송: {email}")
         except Exception as e:
             logger.warning(f"이메일 발송 실패: {e}")
     
@@ -244,11 +252,15 @@ class ReportWorker:
             from app.services.email_sender import email_sender
             input_json = job.get("input_json") or {}
             name = input_json.get("name", "고객")
-            await email_sender.send_failure(
+            job_id = job.get("id", "")
+            
+            await email_sender.send_report_failed(
                 to_email=email,
                 name=name,
-                error=error[:200]
+                report_id=job_id,
+                error_message=error[:200]
             )
+            logger.info(f"[Worker] 실패 이메일 발송: {email}")
         except Exception as e:
             logger.warning(f"실패 이메일 발송 실패: {e}")
 
