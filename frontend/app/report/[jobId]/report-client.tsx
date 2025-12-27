@@ -12,7 +12,9 @@ const API_BASE = (process.env.NEXT_PUBLIC_API_BASE || "https://api.sajuos.com").
 function normalizeViewResponse(raw: any) {
   const job = raw?.job ?? raw?.data?.job ?? raw?.[0]?.job ?? raw?.job_data ?? raw?.jobData ?? raw;
   const sections = raw?.sections ?? raw?.data?.sections ?? raw?.report_sections ?? raw?.section_list ?? [];
-  return { job, sections: Array.isArray(sections) ? sections : [] };
+  // 🔥 P0 수정: input_json (사주 데이터 포함)
+  const input = raw?.input ?? raw?.input_json ?? raw?.data?.input ?? {};
+  return { job, sections: Array.isArray(sections) ? sections : [], input };
 }
 
 interface ReportClientProps {
@@ -24,6 +26,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
   const [raw, setRaw] = useState<any>(null);
   const [job, setJob] = useState<any>(null);
   const [sections, setSections] = useState<any[]>([]);
+  const [input, setInput] = useState<any>({});  // 🔥 P0: input_json (사주 데이터)
   const [error, setError] = useState<string>("");
   const [status, setStatus] = useState<"loading" | "generating" | "completed" | "error">("loading");
   const [progress, setProgress] = useState(0);
@@ -67,6 +70,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
         const n = normalizeViewResponse(json);
         setJob(n.job);
         setSections(n.sections);
+        setInput(n.input);  // 🔥 P0: input_json (사주 데이터) 저장
 
         // 상태 판단
         const jobStatus = n.job?.status || "unknown";
@@ -115,6 +119,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
           const n = normalizeViewResponse(json);
           setJob(n.job);
           setSections(n.sections);
+          setInput(n.input);  // 🔥 P0: input_json 갱신
           
           const jobStatus = n.job?.status;
           const jobProgress = n.job?.progress || 0;
@@ -282,9 +287,21 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
   if (status === "completed" && job) {
     const result = job.result_json || job.result;
     
-    // 🔥 P0: calculateResult 정규화 (null-safe)
-    const rawSajuData = result?.legacy?.saju_data || result?.saju_data || {};
+    // 🔥 P0 수정: saju_result를 input_json에서 우선 조회 (result에서 fallback)
+    const rawSajuData = 
+      input?.saju_result ||  // 🔥 핵심: input_json.saju_result
+      result?.legacy?.saju_data || 
+      result?.saju_data || 
+      {};
+    
+    console.log('[ReportView] rawSajuData source:', {
+      fromInput: !!input?.saju_result,
+      fromResult: !!(result?.legacy?.saju_data || result?.saju_data),
+      rawSajuData
+    });
+    
     const normalizedCalculateResult = {
+      success: true,
       birth_info: rawSajuData.birth_info || '',
       saju: rawSajuData.saju || {
         hour_pillar: null,
@@ -296,8 +313,11 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
       day_master_element: rawSajuData.day_master_element || '',
       day_master_description: rawSajuData.day_master_description || '',
       calculation_method: rawSajuData.calculation_method || 'kasi_api',
+      daeun: rawSajuData.daeun || null,
+      is_boundary_date: rawSajuData.is_boundary_date || false,
+      boundary_warning: rawSajuData.boundary_warning || null,
       quality: rawSajuData.quality || {
-        has_birth_time: false,
+        has_birth_time: rawSajuData.saju?.hour_pillar ? true : false,
         solar_term_boundary: false,
         boundary_reason: null,
         timezone: 'Asia/Seoul',

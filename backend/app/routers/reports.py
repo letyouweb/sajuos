@@ -170,6 +170,9 @@ async def view_by_job_id(job_id: str, token: str = Query(..., description="Acces
     sections = await supabase.get_sections(job_id)
     
     # 🔥 항상 동일한 스키마로 반환
+    # 🔥 P0 수정: input_json 포함 (사주 데이터 포함)
+    input_json = job.get("input_json") or {}
+    
     return {
         "job": {
             "id": job["id"],
@@ -181,6 +184,8 @@ async def view_by_job_id(job_id: str, token: str = Query(..., description="Acces
             "created_at": job.get("created_at"),
             "updated_at": job.get("updated_at"),
         },
+        # 🔥 P0: input_json 포함 (사주 원국 데이터 복원용)
+        "input": input_json,
         "sections": [
             {
                 "id": s.get("section_id"),
