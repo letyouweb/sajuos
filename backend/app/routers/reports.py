@@ -214,6 +214,62 @@ async def verify_token(job_id: str, token: str = Query(..., description="Access 
 # 🔥 동적 경로는 마지막에!
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+@router.get("/{job_id}/status")
+async def get_job_status(job_id: str):
+    """
+    🔥 P0 추가: 폴링용 상태 조회 /{job_id}/status
+    프론트엔드에서 호출: GET /api/v1/reports/{job_id}/status
+    """
+    try:
+        uuid.UUID(job_id)
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Invalid job_id format: {job_id}")
+    
+    supabase = get_supabase()
+    
+    if not supabase or not supabase.is_available():
+        return {"job_id": job_id, "status": "unknown", "progress": 0, "message": "Supabase 미연결"}
+    
+    try:
+        job = await supabase.get_job(job_id)
+        
+        if not job:
+            raise HTTPException(status_code=404, detail="Job not found")
+        
+        # 섹션 정보 조회
+        sections_data = await supabase.get_sections(job_id)
+        
+        # 진행률 계산 (섹션 기반)
+        total_sections = len(SECTION_SPECS)
+        completed_sections = len([s for s in sections_data if s.get("status") in ("completed", "done", "success")])
+        calculated_progress = int((completed_sections / total_sections) * 100) if total_sections > 0 else 0
+        
+        # DB progress와 계산된 progress 중 큰 값 사용
+        progress = max(job.get("progress", 0), calculated_progress)
+        
+        return {
+            "job_id": job_id,
+            "status": job.get("status", "unknown"),
+            "progress": progress,
+            "current_step": job.get("current_step", ""),
+            "sections": [
+                {
+                    "id": s.get("section_id"),
+                    "status": s.get("status"),
+                    "error": s.get("error")
+                }
+                for s in sections_data
+            ],
+            "error": job.get("error"),
+            "updated_at": job.get("updated_at")
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"상태 조회 실패: {e}")
+        raise HTTPException(status_code=500, detail=str(e)[:200])
+
+
 @router.get("/{job_id}")
 async def get_report_status(job_id: str, token: Optional[str] = Query(None)):
     """
