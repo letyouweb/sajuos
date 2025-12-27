@@ -51,6 +51,15 @@ SECTION_SPECS = [
 ]
 
 
+# 🔥 P0 수정: 섹션 타이틀 조회 헬퍼
+def get_section_title(section_id: str) -> str:
+    """section_id로 title 조회"""
+    for spec in SECTION_SPECS:
+        if spec["id"] == section_id:
+            return spec["title"]
+    return section_id or "Unknown"
+
+
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔥 고정 경로 먼저 (/{job_id} 보다 위에!)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -191,13 +200,16 @@ async def view_by_job_id(job_id: str, token: str = Query(..., description="Acces
         },
         # 🔥 P0: input_json 포함 (사주 원국 데이터 복원용)
         "input": input_json,
+        # 🔥🔥🔥 P0 핵심 수정: raw_json 포함!
         "sections": [
             {
                 "id": s.get("section_id"),
-                "title": s.get("title"),
+                "section_id": s.get("section_id"),
+                "title": s.get("title") or get_section_title(s.get("section_id")),
                 "status": s.get("status"),
                 "order": s.get("order_num"),
                 "content": s.get("content"),
+                "raw_json": s.get("raw_json"),  # 🔥 핵심: 섹션 본문 데이터!
                 "error": s.get("error"),
             }
             for s in (sections or [])
