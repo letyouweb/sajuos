@@ -73,11 +73,22 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
         }
 
         const json = await res.json();
-        console.log("[ReportView] Response:", {
+        
+        // 🔥 디버그: API 응답 전체 확인
+        console.log("[ReportView] Full API Response:", JSON.stringify({
           jobStatus: json?.job?.status,
           sectionCount: json?.sections?.length,
+          sectionIds: json?.sections?.map((s: any) => s.section_id || s.id),
           hasFullMarkdown: !!json?.full_markdown,
-        });
+          fullMarkdownLength: json?.full_markdown?.length,
+          sectionsPreview: json?.sections?.map((s: any) => ({
+            id: s.section_id || s.id,
+            hasMarkdown: !!s.markdown,
+            markdownLength: s.markdown?.length || 0,
+            hasRawJson: !!s.raw_json,
+            rawJsonKeys: s.raw_json ? Object.keys(s.raw_json) : [],
+          })),
+        }, null, 2));
         
         if (!isMounted) return;
         

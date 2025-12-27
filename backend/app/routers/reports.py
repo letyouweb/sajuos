@@ -211,6 +211,54 @@ def build_markdown_from_raw_json(section_id: str, raw_json: Dict) -> str:
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 🔥 디버그 엔드포인트 (DB 직접 확인용)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+@router.get("/debug/{job_id}")
+async def debug_job(job_id: str):
+    """
+    🔥 디버그용: DB에서 직접 job + sections 조회
+    브라우저에서 확인: https://api.sajuos.com/api/v1/reports/debug/{job_id}
+    """
+    supabase = get_supabase()
+    
+    if not supabase or not supabase.is_available():
+        return {"error": "Supabase 미연결"}
+    
+    # 1) Job 조회
+    job = await supabase.get_job(job_id)
+    if not job:
+        return {"error": f"Job not found: {job_id}"}
+    
+    # 2) Sections 조회 (raw)
+    sections_raw = await supabase.get_sections(job_id)
+    
+    # 3) 각 섹션의 raw_json 구조 확인
+    sections_debug = []
+    for s in sections_raw:
+        raw_json = s.get("raw_json") or {}
+        sections_debug.append({
+            "section_id": s.get("section_id"),
+            "status": s.get("status"),
+            "has_raw_json": bool(raw_json),
+            "raw_json_keys": list(raw_json.keys()) if raw_json else [],
+            "has_body_markdown": bool(raw_json.get("body_markdown")),
+            "body_markdown_length": len(raw_json.get("body_markdown", "")),
+            "body_markdown_preview": (raw_json.get("body_markdown", ""))[:200] + "..." if raw_json.get("body_markdown") else None,
+        })
+    
+    return {
+        "job_id": job_id,
+        "job_status": job.get("status"),
+        "job_progress": job.get("progress"),
+        "sections_count": len(sections_raw),
+        "sections_debug": sections_debug,
+        "has_result_json": bool(job.get("result_json")),
+        "has_markdown": bool(job.get("markdown")),
+    }
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔥 고정 경로 먼저 (/{job_id} 보다 위에!)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
