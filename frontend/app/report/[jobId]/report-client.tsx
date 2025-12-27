@@ -17,6 +17,63 @@ function normalizeViewResponse(raw: any) {
   return { job, sections: Array.isArray(sections) ? sections : [], input };
 }
 
+/**
+ * 🔥🔥🔥 핵심: API 응답의 sections를 ResultCard가 기대하는 형식으로 변환
+ */
+function transformSectionsForResultCard(apiSections: any[]) {
+  if (!apiSections || apiSections.length === 0) return [];
+  
+  return apiSections.map((s: any) => ({
+    id: s?.id || s?.section_id,
+    section_id: s?.section_id || s?.id,
+    title: s?.title || getTitleForSection(s?.id || s?.section_id),
+    status: s?.status,
+    content: s?.content || s?.raw_json?.body_markdown || s?.body_markdown,
+    body_markdown: s?.body_markdown || s?.raw_json?.body_markdown || s?.content,
+    confidence: s?.confidence || s?.raw_json?.confidence || 'MEDIUM',
+    rulecard_ids: s?.rulecard_ids || s?.raw_json?.rulecard_ids || [],
+    rulecard_selected: s?.rulecard_selected || s?.raw_json?.rulecard_selected,
+    char_count: s?.char_count || s?.raw_json?.char_count,
+    // 섹션별 데이터 (프리미엄 보고서용)
+    diagnosis: s?.diagnosis || s?.raw_json?.diagnosis,
+    hypotheses: s?.hypotheses || s?.raw_json?.hypotheses,
+    strategy_options: s?.strategy_options || s?.raw_json?.strategy_options,
+    recommended_strategy: s?.recommended_strategy || s?.raw_json?.recommended_strategy,
+    kpis: s?.kpis || s?.raw_json?.kpis,
+    risks: s?.risks || s?.raw_json?.risks,
+    // Calendar 전용
+    annual_theme: s?.annual_theme || s?.raw_json?.annual_theme,
+    annual_revenue_projection: s?.annual_revenue_projection || s?.raw_json?.annual_revenue_projection,
+    monthly_plans: s?.monthly_plans || s?.raw_json?.monthly_plans,
+    quarterly_milestones: s?.quarterly_milestones || s?.raw_json?.quarterly_milestones,
+    peak_months: s?.peak_months || s?.raw_json?.peak_months,
+    risk_months: s?.risk_months || s?.raw_json?.risk_months,
+    // Sprint 전용
+    mission_statement: s?.mission_statement || s?.raw_json?.mission_statement,
+    phase_1_offer: s?.phase_1_offer || s?.raw_json?.phase_1_offer,
+    phase_2_funnel: s?.phase_2_funnel || s?.raw_json?.phase_2_funnel,
+    phase_3_content: s?.phase_3_content || s?.raw_json?.phase_3_content,
+    phase_4_automation: s?.phase_4_automation || s?.raw_json?.phase_4_automation,
+    milestones: s?.milestones || s?.raw_json?.milestones,
+    risk_scenarios: s?.risk_scenarios || s?.raw_json?.risk_scenarios,
+    // raw_json 전체 spread
+    ...s?.raw_json,
+  }));
+}
+
+function getTitleForSection(sectionId: string): string {
+  const titles: Record<string, string> = {
+    exec: 'Executive Summary',
+    money: 'Money & Cashflow',
+    business: 'Business Strategy',
+    team: 'Team & Partner',
+    health: 'Health & Performance',
+    calendar: '12-Month Calendar',
+    sprint: '90-Day Sprint',
+  };
+  return titles[sectionId] || sectionId;
+}
+
 interface ReportClientProps {
   jobId: string;
   token: string;
@@ -26,7 +83,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
   const [raw, setRaw] = useState<any>(null);
   const [job, setJob] = useState<any>(null);
   const [sections, setSections] = useState<any[]>([]);
-  const [input, setInput] = useState<any>({});  // 🔥 P0: input_json (사주 데이터)
+  const [input, setInput] = useState<any>({});
   const [error, setError] = useState<string>("");
   const [status, setStatus] = useState<"loading" | "generating" | "completed" | "error">("loading");
   const [progress, setProgress] = useState(0);
@@ -70,9 +127,11 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
         const n = normalizeViewResponse(json);
         setJob(n.job);
         setSections(n.sections);
-        setInput(n.input);  // 🔥 P0: input_json (사주 데이터) 저장
+        setInput(n.input);
 
-        // 상태 판단
+        // 🔥 디버그: sections 확인
+        console.log("[ReportView] sections:", n.sections.length, n.sections.map((s: any) => s?.id || s?.section_id));
+
         const jobStatus = n.job?.status || "unknown";
         const jobProgress = n.job?.progress || 0;
         
@@ -89,7 +148,6 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
           setStatus("generating");
           startPolling();
         } else {
-          // 알 수 없는 상태 → 일단 폴링
           setProgress(jobProgress);
           setStatus("generating");
           startPolling();
@@ -119,7 +177,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
           const n = normalizeViewResponse(json);
           setJob(n.job);
           setSections(n.sections);
-          setInput(n.input);  // 🔥 P0: input_json 갱신
+          setInput(n.input);
           
           const jobStatus = n.job?.status;
           const jobProgress = n.job?.progress || 0;
@@ -169,7 +227,6 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
               {error}
             </pre>
             
-            {/* 🔥 디버그: 원본 데이터 */}
             {raw && (
               <details className="text-left mb-6">
                 <summary className="text-sm text-gray-500 cursor-pointer">디버그 정보 (개발자용)</summary>
@@ -247,7 +304,6 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
               </div>
             </div>
 
-            {/* 섹션 진행 상태 */}
             {sections.length > 0 && (
               <div className="mt-8">
                 <h3 className="text-sm font-medium text-gray-700 mb-3">섹션 진행 상태</h3>
@@ -285,19 +341,18 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
   // 🔥 완료 화면
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   if (status === "completed" && job) {
-    const result = job.result_json || job.result;
+    const result = job.result_json || job.result || {};
     
-    // 🔥 P0 수정: saju_result를 input_json에서 우선 조회 (result에서 fallback)
+    // 🔥 사주 데이터 추출 (input_json 우선)
     const rawSajuData = 
-      input?.saju_result ||  // 🔥 핵심: input_json.saju_result
+      input?.saju_result ||
       result?.legacy?.saju_data || 
       result?.saju_data || 
       {};
     
-    console.log('[ReportView] rawSajuData source:', {
+    console.log('[ReportView] rawSajuData:', {
       fromInput: !!input?.saju_result,
       fromResult: !!(result?.legacy?.saju_data || result?.saju_data),
-      rawSajuData
     });
     
     const normalizedCalculateResult = {
@@ -326,8 +381,45 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
       ...rawSajuData,
     };
     
-    // ResultCard에 전달할 데이터가 있으면 ResultCard 사용
-    if (result) {
+    // 🔥🔥🔥 핵심 수정: API 응답의 sections를 result와 합쳐서 ResultCard에 전달
+    // API 응답: { job: {..., result_json}, sections: [...] }
+    // ResultCard가 기대하는 형태: { sections: [...], meta: {...} }
+    
+    // sections 가져오기 (API 응답 > result_json.sections > 빈 배열)
+    const apiSections = sections || [];  // state에서 가져온 sections
+    const resultSections = result?.sections || [];
+    const finalSections = apiSections.length > 0 ? apiSections : resultSections;
+    
+    console.log('[ReportView] sections merge:', {
+      apiSectionsCount: apiSections.length,
+      resultSectionsCount: resultSections.length,
+      finalSectionsCount: finalSections.length,
+      sectionIds: finalSections.map((s: any) => s?.id || s?.section_id)
+    });
+    
+    // 🔥 핵심: sections를 포함한 interpretResult 조합
+    const interpretResultWithSections = {
+      ...result,
+      // 🔥 API 응답의 sections를 변환하여 우선 사용
+      sections: transformSectionsForResultCard(finalSections),
+      // 🔥 meta 정보 (프리미엄 보고서 판단용)
+      meta: result?.meta || {
+        mode: finalSections.length > 0 ? 'premium_business_30p' : 'basic',
+        section_count: finalSections.length,
+        total_chars: finalSections.reduce((sum: number, s: any) => sum + (s?.char_count || s?.raw_json?.char_count || 0), 0),
+        success_count: finalSections.filter((s: any) => s?.status === 'completed').length,
+        latency_ms: 0,
+      },
+    };
+    
+    console.log('[ReportView] final interpretResult:', {
+      sectionsCount: interpretResultWithSections.sections?.length,
+      metaMode: interpretResultWithSections.meta?.mode,
+      sectionIds: interpretResultWithSections.sections?.map((s: any) => s.id)
+    });
+
+    // sections가 있으면 ResultCard 사용
+    if (interpretResultWithSections.sections && interpretResultWithSections.sections.length > 0) {
       return (
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-purple-50 py-8">
           <div className="container mx-auto px-4 max-w-4xl">
@@ -340,7 +432,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
 
             <ResultCard
               calculateResult={normalizedCalculateResult}
-              interpretResult={result}
+              interpretResult={interpretResultWithSections}
               onReset={() => window.location.href = "/"}
             />
 
@@ -352,7 +444,7 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
       );
     }
     
-    // result가 없으면 JSON dump 표시 (디버그)
+    // sections가 없으면 디버그 모드로 JSON 표시
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-purple-50 py-8">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -363,29 +455,53 @@ export default function ReportClient({ jobId, token }: ReportClientProps) {
           </header>
 
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">리포트 완료 (디버그 모드)</h2>
+            <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4 mb-6">
+              <h2 className="text-lg font-bold text-yellow-800 mb-2">⚠️ 섹션 데이터 없음</h2>
+              <p className="text-yellow-700 text-sm">
+                리포트 생성은 완료되었으나 섹션 데이터가 없습니다.
+                <br />아래 디버그 정보를 확인해주세요.
+              </p>
+            </div>
             
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-gray-700 mb-2">Job</h3>
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">📋 Job 정보</h3>
               <pre className="bg-gray-50 p-4 rounded-lg text-sm overflow-auto max-h-60 whitespace-pre-wrap">
                 {JSON.stringify(job, null, 2)}
               </pre>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-700 mb-2">Sections ({sections.length})</h3>
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">📊 Sections ({sections.length}개)</h3>
               {sections.length === 0 ? (
-                <p className="text-gray-500">섹션 없음</p>
+                <p className="text-red-500 bg-red-50 p-4 rounded-lg">❌ API 응답에 sections가 비어있습니다.</p>
               ) : (
                 sections.map((s, i) => (
                   <div key={s?.id || s?.section_id || i} className="mb-4 p-4 bg-gray-50 rounded-lg">
                     <b className="text-purple-600">{s?.id || s?.section_id || `Section ${i + 1}`}</b>
+                    <span className={`ml-2 px-2 py-0.5 rounded text-xs ${
+                      s?.status === 'completed' ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'
+                    }`}>{s?.status}</span>
                     <pre className="mt-2 text-xs overflow-auto max-h-40 whitespace-pre-wrap">
                       {JSON.stringify(s, null, 2)}
                     </pre>
                   </div>
                 ))
               )}
+            </div>
+
+            <div className="flex gap-4">
+              <button
+                onClick={() => window.location.reload()}
+                className="flex-1 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+              >
+                🔄 새로고침
+              </button>
+              <button
+                onClick={() => window.location.href = "/"}
+                className="flex-1 py-3 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition"
+              >
+                🏠 홈으로
+              </button>
             </div>
           </div>
         </div>
