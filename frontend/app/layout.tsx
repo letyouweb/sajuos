@@ -3,7 +3,7 @@ import './globals.css';
 
 // 환경변수에서 브랜딩 정보 로드 (Vercel 설정값 우선)
 const BRAND_NAME = process.env.NEXT_PUBLIC_BRAND_NAME ?? '사주OS';
-const BRAND_TAGLINE = process.env.NEXT_PUBLIC_BRAND_TAGLINE ?? '인생매뉴얼';
+const BRAND_TAGLINE = process.env.NEXT_PUBLIC_BRAND_TAGLINE ?? '당신의 인생 메뉴얼';
 const BRAND_DESC = process.env.NEXT_PUBLIC_BRAND_DESC ?? '데이터로 읽는 당신의 운명 분석 서비스, 사주OS입니다.';
 
 // 실제 배포 주소 (Vercel Metadata 경고 해결용)
